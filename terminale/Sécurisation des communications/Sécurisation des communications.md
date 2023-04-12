@@ -84,7 +84,7 @@ Décrypter les messages suivants :
 
 - ꓭOꓭ ꓤՈOᒋNOꓭ
 
-- QUO MENT TUT VAX ?
+- KO MAN TU VA ?
 
 - Π0I <Λ VΛ
 
@@ -240,19 +240,13 @@ Le chiffrement asymétrique étant coûteux, on l'utilisera généralement pour 
 
 #### Application 4
 
-- Bob confie à Alice un cadenas ouvert.
-
-- Alice met son message dans une boîte et ferme avec le cadenas.
-
-- Bob receptionne la boîte et ouvre avec sa clé.
-
-Ecrire en une phrase pourquoi cette activité débranchée pourrait être assimiliée à un exemple d'application d'un système de chiffrement asymétrique.
+Démonstration.
 
 -------
 
 ### c) Problème : attaque de l'Homme du milieu
 
-L'**attaque de l'Homme du milieu** est une méthode permettant à Carole de déchiffrer tous les messages qu'Alice envoie à Bob.
+L'**attaque de l'Homme du milieu** est une stratégie d'attaque permettant à Carole de déchiffrer tous les messages qu'Alice envoie à Bob.
 
 - Avant le début de la communication, Bob envoie sa clé publique à Alice.
 
@@ -437,7 +431,53 @@ Le chiffrement XOR étant un système de chiffrement symétrique, on devrait pou
 b'ATTAQUEZLECHATEAU'
 ```
 
-### Exercice 6 Puzzle de Merkle
+### Exercice 6 Cryptanalyse
+
+L'objectif de cet exercice est de découvrir deux méthodes permettant de décrypter le Chiffre de César.
+
+##### Méthode 1 : Par force brute
+
+Cette méthode consiste à tester toutes les clés possibles et de trouver le message qui paraît compréhensible.
+
+a) Combien existe-t-il de clé ?
+
+b) On considère que pour déchiffrer un message, l'humain prend 1 minute. Combien faut-il de minutes pour déchiffrer tous les messages ?
+
+##### Méthode 2 : Analyse de fréquence
+
+Supposons que le message chiffré envoyé est écrit en langue française et que la lettre qui apparaît le plus souvent dans ce message est `E`.
+
+L'idée est de calculer les occurences de chaques lettres chiffrées et de repérer celle qui en a le plus. Puis, de trouver le nombre n de décalages nécessaire pour chiffrer `E` en cette lettre. n est la clé.
+
+a) Ecrire une fonction `occ(message_chiffre : str)->dict` qui prend en paramètre le message chiffré et renvoie un dictionnaire dans lequel la clé est la lettre et la valeur, son nombre d'occurences :
+
+```python
+>>> occ('EQODQF')
+{'E' : 1, 'Q' : 2, 'O' : 1, 'D' : 1, 'F' :1}
+```
+
+b) Ecrire une fonction `max_occ(occ : dict)->str` qui prend en paramètres le dictionnaire des occurences et renvoie la lettre la plus fréquente :
+
+```python
+>>> max_occ(occ('EQODQF'))
+'Q'
+```
+
+c) Ecrire une fonction `trouve_cle(lettre : str)->int` qui prend en paramètre une lettre et renvoie le nombre de décalages jusqu'à `E` :
+
+```python
+>>> trouve_cle('Q')
+12
+```
+
+d) Ecrire une fonction `decrypter_cesar_analyse_freq(message_chiffre : str)->str` qui prend en paramètre le message chiffré et renvoie le message clair en utilisant la méthode d'analyse de fréquences :
+
+```python
+>>> decrypter_cesar_analyse_freq('EQODQF')
+'SECRET' 
+```
+
+### Exercice 7 Puzzle de Merkle
 
 Pour cet exercice, télécharger et ouvrir le fichier [merkle.py](./src/merkle.py).
 
@@ -496,7 +536,7 @@ d) Ecrire une fonction ``decrypter(message_choisis : str)->str`` qui prend en pa
 
 e) Compléter la fonction ``simulation`` afin de correspondre au principe du puzzle de Merkle.
 
-### Exercice 7
+### Exercice 8 TLS
 
 A partir du principe de TLS, expliquer pour chacune des situations suivantes, quelle étape du protocole TLS échoue :
 
@@ -510,53 +550,7 @@ A partir du principe de TLS, expliquer pour chacune des situations suivantes, qu
 
 - Le navigateur commence à afficher la page de garde du site mais le câble reliant le serveur au réseau vient d'être coupé.
 
-### Exercice 8 Cryptanalyse
-
-L'objectif de cet exercice est de découvrir deux méthodes permettant de décrypter le Chiffre de César.
-
-##### Méthode 1 : Par force brute
-
-Cette méthode consiste à tester toutes les clés possibles et de trouver le message qui paraît compréhensible.
-
-a) Combien existe-t-il de clé ?
-
-b) On considère que pour déchiffrer un message, l'humain prend 1 minute. Combien faut-il de minutes pour déchiffrer tous les messages ?
-
-##### Méthode 2 : Analyse de fréquence
-
-Supposons que le message chiffré envoyé est écrit en langue française et que la lettre  qui apparaît le plus souvent dans ce message est ``E``.
-
-L'idée est de calculer les occurences de chaques lettres chiffrées et de repérer celle qui en a le plus. Puis, de trouver le nombre $n$ de décalages nécessaire pour chiffrer ``E`` en cette lettre. $n$ est la clé.
-
-a) Ecrire une fonction ``occ(message_chiffre : str)->dict`` qui prend en paramètre le message chiffré et renvoie un dictionnaire dans lequel la clé est la lettre et la valeur, son nombre d'occurences :
-
-```python
->>> occ('EQODQF')
-{'E' : 1, 'Q' : 2, 'O' : 1, 'D' : 1, 'F' :1}
-```
-
-b) Ecrire une fonction ``max_occ(occ : dict)->str`` qui prend en paramètres le dictionnaire des occurences et renvoie la lettre la plus fréquente :
-
-```python
->>> max_occ(occ('EQODQF'))
-'Q'
-```
-
-c) Ecrire une fonction ``trouve_cle(lettre : str)->int`` qui prend en paramètre une lettre et renvoie le nombre de décalages jusqu'à ``E`` :
-
-```python
->>> trouve_cle('Q')
-12
-```
-
-d) Ecrire une fonction ``decrypter_cesar_analyse_freq(message_chiffre : str)->str`` qui prend en paramètre le message chiffré et renvoie le message clair en utilisant la méthode d'analyse de fréquences :
-
-```python
->>> decrypter_cesar_analyse_freq('EQODQF')
-'SECRET'
-```
-
-### Exercice 9 Cryptanalyse ++
+### Exercice 9 Cryptanalyse (Difficile)
 
 Nous savons de source sûre que la clé est constituée de 3 entiers et que la méthode de chiffrement est celui du carré de Vigenère.
 
