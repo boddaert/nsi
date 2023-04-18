@@ -4,7 +4,7 @@
 
 Considérons une action banale : la navigation sur un site Web. Par exemple, on souhaite accéder au site : [https://fr.wikipedia.org/wiki/Informatique](https://fr.wikipedia.org/wiki/Informatique)
 
-Lorsque nous cliquons sur le lien, la page wikipédia sur l'informatique s'affiche à l'écran.
+Lorsque nous cliquons sur le lien, la page wikipédia s'affiche à l'écran.
 
 A partir de cette simple manipulation, nous pouvons déjà faire quelques observations :
 
@@ -16,7 +16,7 @@ A partir de cette simple manipulation, nous pouvons déjà faire quelques observ
 
 **Comment notre machine communique t-elle sur le réseau informatique ?**
 
-**Comment fonctionne un réseau informatique ?**
+**Comment les données sont-elles transmises depuis une machine source vers une machine de destination ?**
 
 ## I. Généralités
 
@@ -98,124 +98,254 @@ Maison                 -                            
 
 ## III. Couche 2 : Internet
 
-Imaginons désormais que l'on possède plusieurs réseaux locaux et qu'une machine du réseau A souhaite communiquer avec une machine du réseau B.
+Pour la suite de ce chapitre, nous utiliserons le chéma suivant représentant un réseau constitué de trois sous-réseaux locaux interconnectés :
 
-Le protocole **IP** (*Internet Protocol*) de la couche Internet permet de faire communiquer deux machines appartenant à des réseaux locaux différents.
+![](./img/internet.PNG)
 
-Pour cela, il va, en premier lieu, associer une adresse IP à chaques machines.
+Imaginons désormais qu'une machine du sous-réseau local n°0 souhaite communiquer avec une machine du sous-réseau local n°1.
 
-### a) Adresses IP
+### a) Protocole IP
 
-Une *adresse IP* est un identifiant unique de réseau associée à une machine.
+Le protocole **IP** (*Internet Protocol*) de la couche Internet permet de faire communiquer efficacement deux machines appartenant à des réseaux locaux différents.
 
-Nous utiliserons pour la suite de la leçon la version 4 du protocole IP (IPv4).
+Pour cela, le protocole IP remplit trois missions :
 
-Elle est représentée sur 32 bits soit 4 octets et généralement notée en décimale.
+- Sa première mission consiste à associer une adresse IP pour chaque machine.
 
-Les octets étant séparés par des points : `172.16.254.1`
+- La seconde consiste à découper les données en paquets IP.
 
-| Représentation décimale | 172      | 16       | 254      | 1        |
-| ----------------------- | -------- | -------- | -------- | -------- |
-| Représentation binaire  | 10101100 | 00010000 | 11111110 | 00000001 |
+- Enfin, la dernière mission est de router ces paquets.
+
+### b) Adresses IP
+
+Une *adresse IP* est un identifiant associée à une machine.
+
+Une *adresse IP* est constituée d'un *identifiant réseau* et d'un *identifiant machine* précisant respectivement l'identité du réseau et l'identité de la machine.
+
+Elle est représentée sur 32 bits (IPv4) soit 4 octets et est usuellement notée en décimale.
+
+Les octets étant séparés par des points : `192.168.2.1`.
+
+En représentation binaire : ``11000000.10101000.00000010.00000001``
 
 > Les adresses IP de version 6 (IPv6) sont représentées sur 128 bits.
 
----------
+### c) Masque de sous-réseau
+
+Le *masque de sous-réseau*, représenté sur 4 octets, permet de <u>retrouver</u> l'*identifiant réseau* et l'*identifiant machine* d'une adresse IP.
+
+Le masque est constitué d'une suite de bits à 1 (représentant l'identifiant réseau) suivie d'une suite de bits à 0 (représentant l'identifiant machine).
+
+Par exemple, un masque de sous-réseau est `255.255.255.0`.
+
+Soit écrit en représentation binaire : `11111111.11111111.11111111.00000000`.
+
+Cela veut dire, que les 24 premiers bits sont alloués à l'*identifiant réseau* et les 8 bits restants sont alloués à l'*identifiant machine*.
+
+En reprenant l'adresse IP ``192.168.2.1`` avec un masque de sous-réseau ``255.255.255.0`` :
+
+- ``192.168.2.X`` est l'identifiant réseau.
+
+- ``X.X.X.1`` est l'identifiant machine.
+
+---
 
 #### Application 2
 
 Ouvrir l'invite de commandes sur Windows et exécuter :
 
-- La commande ``ipconfig``.
+- La commande `ipconfig`.
 
-- La commande ``ping google.com``.
+- La commande `ping google.com`.
 
 Pour chacune des commandes exécutées, dire ce qu'elle fait.
 
+#### Application 3
+
+Pour chacun des adresses IP et masques suivants, retrouver l'identifiant réseau et l'identifiant machine :
+
+- IP : ``192.166.0.254`` ; Masque : ``255.255.255.0``
+
+- IP : ``192.168.0.2`` ; Masque : ``255.255.254.0``
+
+- IP : ``192.168.1.6`` ; Masque : ``255.255.254.0``
+
 ------------
 
-### b) Représentation de trois réseaux locaux interconnectés
+### d) Adressage des machines
 
 ![](./img/representation_reseau_ip.PNG)
 
-Voici la figure représentant trois réseaux locaux interconnectés.
+### e) Adresse réseau
 
-### c) Adresse et masque de réseau
+Pour différencier les sous-réseaux entre eux, on leur attribue à eux aussi une adresse : l'*adresse réseau*.
 
-Pour différencier les réseaux, on leur attribue à eux aussi une adresse. On appelle cette adresse : l'*adresse réseau*.
+L'*adresse réseau* est la première adresse IP disponible du réseau : son identifiant machine vaut $0$.
 
-Ainsi, toutes les machines possèdant la même adresse réseau appartiennent au même réseau.
+Par exemple, l'adresse réseau du sous-réseau n°2 est ``192.168.2.0`` 
 
-Pour obtenir l'adresse d'un réseau d'une machine, il suffit de réaliser l'opération AND bit à bit entre l'adresse IP de la machine et son masque.
-
-Le *masque de réseau*, représenté sur 4 octets, est constitué d'une suite de bits à $1$ (représentant l'identifiant réseau) suivie d'une suite de bits à $0$ (représentant l'identifiant machine).
-
-Par exemple, le masque de réseau pour toutes les machines de la figure ci-dessus est ``255.255.255.0``.
-
-Ecrit en binaire : ``11111111.11111111.11111111.00000000``.
-
-Cela veut dire, que pour toutes ces machines, les 24 premiers bits de leur adresse IP sont alloués à l'identifiant réseau et les 8 bits restants sont alloués à l'identifiant machine.
-
-Calculons désormais l'adresse réseau de la machine ayant pour adresse IP ``192.168.0.1`` :
+Pour obtenir l'adresse réseau d'une machine, il suffit de réaliser l'opération AND bit à bit entre l'adresse IP de la machine et son masque :
 
 ```
-  11000000.10101000.00000000.00000001
-& 11111111.11111111.11111111.00000000
-= 11000000.10101000.00000000.00000000
+  11000000.10101000.00000010.00000001 -> 192.168.2.1
+& 11111111.11111111.11111111.00000000 -> 255.255.255.0
+= 11000000.10101000.00000010.00000000 -> 192.168.2.0
 ```
 
-L'adresse réseau de la machine d'adresse IP ``192.168.0.1`` est ``192.168.0.0``.
-
-----------
-
-#### Application 3
-
-- Donner l'adresse réseau de la machine d'adresse IP ``192.168.0.2``.
-
-- Donner l'adresse réseau de la machine d'adresse IP `192.168.2.1`.
-
-- Expliquer pourquoi ces deux machines n'appartiennent pas au même réseau.
-
-----------------
-
-### d) Adresses IP réservées
-
-- L'adresse réseau ne peut pas être donnée comme adresse IP à une machine.
-
-- L'adresse de *Broadcast*, ayant tous les bits de l'identifiant machine à $1$, ne peut également pas être donnée à une machine.
-
-### e) Nombre d'adresses disponibles
-
-Soit $n$ le nombre de bits de l'identifiant machine et $p$ le nombre d'adresses déjà utilisées il est possible de savoir le nombre d'adresses encore disponibles dans un réseau en calculant $2^{n}-p$.
+L'adresse réseau de la machine d'adresse IP ``192.168.2.1`` est ``192.168.2.0``.
 
 ----------
 
 #### Application 4
 
-Combien de machines je peux encore mettre dans mon réseau d'adresse ``192.168.0.0`` ?
+- Donner l'adresse réseau de la machine d'adresse IP ``192.168.0.2``.
+
+- Donner l'adresse réseau de la machine d'adresse IP `192.168.1.1`.
+
+- Expliquer pourquoi ces deux machines n'appartiennent pas au même réseau.
+
+----------------
+
+### f) Adresses IP réservées
+
+- L'adresse réseau ne peut pas être donnée comme adresse IP à une machine.
+
+- L'adresse de *Broadcast*, ayant tous les bits de l'identifiant machine à $1$, ne peut également pas être donnée à une machine.
+
+### g) Nombre d'adresses disponibles
+
+Soit $n$ le nombre de bits de l'identifiant machine et $p$ le nombre d'adresses déjà utilisées il est possible de savoir le nombre d'adresses encore disponibles dans un réseau en calculant $2^{n}-p$.
+
+----------
+
+#### Application 5
+
+Combien de machines je peux encore mettre dans mon réseau d'adresse réseau
+
+- ``192.168.0.0`` ?
+
+- ``192.168.1.0`` ?
 
 -----------
 
-### f) Routage
+### h) Découpage en paquets IP
 
-Ces trois réseaux locaux sont connectés par le Routeur A.
+La seconde mission du protocole IP est le découpage en paquets IP.
 
-Le travail d'un *Routeur* est d'assurer le routage (la redirection) des données vers le bon réseau.
+Internet est un endroit où chaque utilisateur peut envoyer des données. Il arrive que ces données soient lourdes et cela a pour conséquence de surcharger le réseau et d'empêcher l'acheminement des données d'autres utilisateurs :
 
-Pour cela, le routeur, lorsqu'il recevra des données sur lesquelles est inscrite l'adresse IP de destination, devra renvoyer les données vers le réseau associé à l'adresse de destination.
+![](./img/surcharge.gif)
 
-Par exemple, si j'émet un message depuis la machine d'adresse IP ``192.168.0.1`` pour la machine de destination d'adresse IP ``192.168.1.2`` :
+Pour y remédier, le protocole IP "découpe" les données en paquets IP. Chaque paquets est ensuite envoyé sur le réseau puis les données sont reconstituées sur la machine de destination :
 
-- Le message est émis depuis ``192.168.0.1``.
+![](./img/decoupage.gif)
 
-- Le commutateur, s'aperçevant que l'adresse de destination ne correspond à aucune des adresses dans le réseau local, envoie le message au routeur.
+--------
 
-- Le routeur calcule l'adresse réseau de la machine destination et trouve ``192.168.1.0``.
+#### Application 6
 
-- Grâce à sa table de routage, le routeur envoie le message sur le bon réseau.
+Par groupe de 2, simuler le découpage des données en paquets IP en découpant aux ciseaux en fines bandes une image imprimée. Puis, à la façon du protocole IP, envoyer une par une les bandes à votre partenaire qui devra reconstituer l'image.
 
-> La notion de routage étant au programme de Terminale n'est pas abordée ici en profondeur.
+----------
+
+### i) Routage
+
+La dernière mission du protocole IP est le routage des paquets.
+
+Sur le schéma, les trois sous-réseaux locaux sont connectés par le Routeur A.
+
+Le travail d'un *Routeur* est d'assurer le routage (la redirection) des paquets vers le bon réseau.
+
+Pour cela, le routeur, lorsqu'il recevra un paquet sur lequel est inscrit l'adresse IP de destination, devra redirigé ce paquet vers le réseau associé à l'adresse de destination.
+
+> La notion de routage, étant au programme de Terminale, sera enrichie ultérieurement.
 
 ## IV. Couche 3 : Transport
+
+Les protocoles **TCP** (*Transmission Control Protocol*) et **UDP** (*User Datagram Protocol*) appartiennent tous les deux à la troisième couche du modèle TCP/UDP : la couche transport.
+
+En regardant d'un peu plus près le découpage en paquets effectués par le protocole IP, on remarque quelques soucis.
+
+En effet, les paquets envoyés à priori dans l'ordre peuvent emprunter des chemins différents sur le réseau et par conséquent peuvent arriver dans le mauvais ordre à destination.
+
+De plus, un paquet peut se "perdre" sur le réseau et peut ne jamais arriver à destination.
+
+### a) Protocole TCP
+
+Le protocole TCP permet, par une mise en place d'un système d'accusés de reception, de remettre dans l'ordre les paquets reçus et la réémission des paquets perdus.
+
+Ce protocole est constitué de trois phases :
+
+- Etablissement d'*une session de connexion* afin de synchroniser l'émetteur et le recepteur pour l'échange de données qui suit.
+
+- Numérotation des paquets. Les paquets sont envoyés et un accusé de reception est attendu pour chacun d'entre eux.
+
+- Arrêt de la session.
+
+### b) Etablissement d'une session de connexion TCP
+
+L'établissement d'une session de connexion entre deux machines se réalise à l'aide de l'algorithme des trois poignées de mains (*Three-way Handshake* en anglais).
+
+![](./img/3-way_handshake.PNG)
+
+- SYN (*Synchronized* en anglais) : Synchronisation
+
+- ACK (*Acknowledgement* en anglais) : Accusé de réception
+
+### c) Transfert des paquets IP avec TCP
+
+Les données étant trop lourdes, le protocole IP a découper les données en 2 paquets IP respectivement de numéro 100 et 200.
+
+Lors d'une situation sans problème :
+
+![](./img/tcp.PNG)
+
+Lorsque les paquets ont été reçus dans le mauvais ordre :
+
+![](./img/desordre.PNG)
+
+Lorsqu'un paquet a été perdu :
+
+![](./img/paquet_perdu.PNG)
+
+---------
+
+#### Application 7
+
+En reprenant les bandes précédemment coupées aux ciseaux, simuler l'échange des bandes en utilisant le protocole TCP. Pour cela, par groupe de deux :
+
+- L'élève émetteur numérote dans l'ordre croissant les bandes en partant du haut.
+
+- L'élève recepteur envoie un accusé de réception avec le numéro incrémenté de 1.
+
+- L'élève émetteur vérifie, avec les acusés de réception, si toutes ses bandes ont été reçues par le recepteur.
+
+Afin de vérifier l'efficacité du protocole, répéter l'action une seconde fois avec les bandes reçues dans le désordre puis une troisième fois avec quelques bandes non reçues pas le recepteur.
+
+---------
+
+### d) Protocole UDP
+
+Le protocole TCP est efficace pour assurer l'arrivée des données mais son inconvénient est la surcharge toujours plus conséquente de la ligne.
+
+Le protocole TCP est utilisé généralement lorsque l'on veut absolument que les données arrivent à destination : par exemple, lors de l'envoi d'un mail.
+
+Mais, il arrive parfois que l'arrivée de toutes les données n'est pas nécessaire : par exemple, lors d'un visionnage d'une vidéo en direct (:*streaming*).
+
+Dans ce cas, si un paquet est perdu, cela n'a pas de conséquence et le visionnage peut continuer. 
+
+On utilise alors le protocole UDP qui n'utilise pas les accusés de réceptions et ne surcharge pas le réseau.
+
+## V. Encapsulation des données
+
+En descendant les couches, les données sont encapsulées. C'est à dire que chaque couche ajoute de l'information à ce qui va être envoyé :
+
+![](./img/encapsulation.PNG)
+
+- La couche Transport ajoute aux données une entête TCP. On y retrouve les ports source et de destination, ces ports indiquent quelle application utiliser avec quel protocole (TCP ou UDP). Cela forme un *Segment TCP*.
+
+- A ce segment, la couche Internet y ajoute l'entête IP. On y retrouve les adresses IP des machines source et de destination. Cela forme un *Paquet IP*.
+
+- Enfin, la couche Accès réseau ajoute au paquet IP l'entête Ethernet. On y retrouve les adresses MAC des machines source et de destination. Cela forme une *Trame Ethernet*.
 
 
