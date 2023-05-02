@@ -86,13 +86,13 @@ Pour savoir à qui est destiné le colis parmi toutes les personnes qui habitent
 
 Relier les éléments selon la correspondance de leur mission :
 
-Boîte aux lettres  -                                             -  Réseau local
+Boîte aux lettres  -                         -  Réseau local
 
-Colis                      -                                             -  Données
+Colis  -                                             -  Données
 
-Nom/prénom      -                                             -  Commutateur
+Nom/prénom  -                             -  Commutateur
 
-Maison                 -                                             -  Adresse MAC
+Maison  -                                        -  Adresse MAC
 
 ------------
 
@@ -170,17 +170,25 @@ Pour chacun des adresses IP et masques suivants, retrouver l'identifiant réseau
 
 Pour différencier les sous-réseaux entre eux, on leur attribue à eux aussi une adresse : l'*adresse réseau*.
 
-L'*adresse réseau* est la première adresse IP disponible du réseau : son identifiant machine vaut $0$.
+L'*adresse réseau* est la première adresse IP disponible du réseau : son identifiant machine vaut est à $0$.
 
-Par exemple, l'adresse réseau du sous-réseau n°2 est ``192.168.2.0`` 
+Elle sert à identifier un réseau et donc à les distinguer.
 
-Pour obtenir l'adresse réseau d'une machine, il suffit de réaliser l'opération AND bit à bit entre l'adresse IP de la machine et son masque :
+Par exemple, l'adresse réseau du sous-réseau n°1 est ``192.168.1.0`` et celui du sous-réseau n°2 est ``192.168.2.0``. Il s'agit bien de deux sous-réseaux différents.
+
+### f) Appartenance d'une machine à un réseau
+
+Il arrive souvent que nous nous demandons si telle machine appartienne à tel réseau.
+
+Pour obtenir l'adresse réseau du réseau dans lequel est présente une machine, il suffit de réaliser l'opération AND bit à bit entre l'adresse IP de la machine et son masque :
 
 ```
   11000000.10101000.00000010.00000001 -> 192.168.2.1
 & 11111111.11111111.11111111.00000000 -> 255.255.255.0
 = 11000000.10101000.00000010.00000000 -> 192.168.2.0
 ```
+
+Grâce à cette opération, je sais que la machine d'adresse IP ``192.168.2.1`` appartient au sous-réseau d'adresse réseau ``192.168.2.0`` soit le sous-réseau n°2.
 
 ----------
 
@@ -194,13 +202,13 @@ Pour obtenir l'adresse réseau d'une machine, il suffit de réaliser l'opératio
 
 ----------------
 
-### f) Adresses IP réservées
+### g) Adresses IP réservées
 
 - L'adresse réseau ne peut pas être donnée comme adresse IP à une machine.
 
 - L'adresse de *Broadcast*, ayant tous les bits de l'identifiant machine à $1$, ne peut également pas être donnée à une machine.
 
-### g) Nombre d'adresses disponibles
+### h) Nombre d'adresses disponibles
 
 Soit $n$ le nombre de bits alloués à l'identifiant machine. Soit $p$ le nombre d'adresses déjà utilisées. 
 
@@ -218,7 +226,7 @@ En reprenant le [schéma](#schema), combien de machines je peux encore mettre da
 
 -----------
 
-### h) Découpage en paquets IP
+### i) Découpage en paquets IP
 
 La seconde mission du protocole IP est le découpage en paquets IP.
 
@@ -232,15 +240,21 @@ Pour y remédier, le protocole IP "découpe" les données en paquets IP. Chaque 
 
 --------
 
-#### Application 6
+#### Activité Découpage en paquets
 
-Par groupe de 2, simuler le découpage des données en paquets IP en découpant aux ciseaux en fines bandes une image imprimée.
+Objectif : Simuler le découpage en paquets IP et leur transmission.
 
-Puis, à la façon du protocole IP, envoyer une par une les bandes à votre binôme qui devra reconstituer l'image.
+Consigne : Découper une image en 4 bandes. Puis, à la façon du protocole IP, envoyer une par une les bandes au destinataire qui devra reconstituer l'image.
+
+Questions : 
+
+- Comment reconstituer l'image s'il en manque une ?
+
+- Comment reconstituer l'image si le destinataire les reçoit dans le désordre ?
 
 ----------
 
-### i) Routage
+### j) Routage
 
 La dernière mission du protocole IP est le routage des paquets.
 
@@ -299,22 +313,6 @@ Lorsque les paquets ont été reçus dans le mauvais ordre :
 Lorsqu'un paquet a été perdu :
 
 ![](./img/paquet_perdu.PNG)
-
----------
-
-#### Application 7
-
-En reprenant les bandes précédemment coupées aux ciseaux, simuler l'échange des bandes en utilisant le protocole TCP. Pour cela, par groupe de deux :
-
-- L'élève émetteur numérote dans l'ordre croissant les bandes en partant du haut et les envoie à l'élève récepteur.
-
-- L'élève recepteur envoie un accusé de réception avec le numéro incrémenté de 1.
-
-- L'élève émetteur vérifie, avec les acusés de réception, si toutes les bandes ont été reçues par le récepteur.
-
-Afin de vérifier l'efficacité du protocole, répéter l'action une seconde fois avec les bandes reçues dans le désordre puis une troisième fois avec quelques bandes non reçues par le récepteur.
-
----------
 
 ### d) Protocole UDP
 

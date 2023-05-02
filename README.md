@@ -16,6 +16,8 @@ Chapitre _ : [Tuples](./première/Tuples/Tuples.md)
 
 Chapitre _ : [Dictionnaires](./première/Dictionnaires/Dictionnaires.md)
 
+Chapitre _ : [Principe des réseaux](./première/Principe des réseaux/Principe des réseaux.md)
+
 ## Terminale NSI
 
 Chapitre _ : [Sécurisation des communications](./terminale/Sécurisation des communications/Sécurisation des communications.md)
