@@ -216,7 +216,7 @@ Il est possible de savoir le nombre d'adresses encore disponibles dans un résea
 
 ----------
 
-#### Application 5
+#### Application 4
 
 En reprenant le [schéma](#schema), combien de machines je peux encore mettre dans :
 
@@ -365,8 +365,6 @@ f) Quelle est sa plage d'adresse possible ? (Première adresse à dernière adre
 Pour la suite des exercices, nous utiliserons le logiciel libre et gratuit : Filius.
 
 Filius permet de construire et simuler un réseau. Une fois lancé, on dispose de plusieurs modes :
-
-- *Mode simulation* : permet d'ajouter des légendes à nos réseaux.
 
 - *Mode construction* : permet d'ajouter des composants réseaux, de les modifier et de les relier entre eux.
 
