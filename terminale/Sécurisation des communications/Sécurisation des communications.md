@@ -40,11 +40,11 @@ La sécurisation d'une communication doit accomplir trois missions :
 
 ### b) Idée
 
-L'idée est, en se servant de la Cryptologie ( : Science du chiffrement), de rendre incompréhensible les données qu'Alice envoie à Bob. 
-
-Ainsi, Carole ne peut pas utiliser les données qu'elle intercepte :
+L'idée est, en se servant de la Cryptologie ( : Science du chiffrement), de rendre incompréhensible les données qu'Alice envoie à Bob : 
 
 <img src="./img/généralités/idee.PNG" title="" alt="" data-align="center">
+
+Ainsi, Carole ne peut pas utiliser les données qu'elle intercepte.
 
 ### b) Définitions
 
@@ -52,7 +52,7 @@ Ainsi, Carole ne peut pas utiliser les données qu'elle intercepte :
 
 **Message clair** : Un message dont les données sont compréhensibles.
 
-**Message chiffré** : Un message dont les données dont incompréhensibles.
+**Message chiffré** : Un message dont les données sont incompréhensibles.
 
 **Chiffrer** : Transformer un message clair en un message chiffré à l'aide d'une clé de chiffrement :
 
@@ -102,7 +102,7 @@ Sont-ils de bons systèmes de chiffrements ?
 
 - Durant la Seconde Guerre Mondiale, les allemands Nazis chiffrèrent leurs messages à l'aide de la machine de chiffrement Enigma. Un certain Alan Turing réussissa l'exploit de construire une machine permettant de décrypter automatiquement les messages. On estime à deux ans de guerre supplémentaire et 2 millions de victimes évitées par la création de cette machine.
 
-- Depuis les années 60, avec l'apparition de l'informatique, la cryptologie est devenue une science à part entière et permet de sécuriser chaques messages envoyé sur le réseau.
+- Depuis les années 60, avec l'apparition de l'informatique, la cryptologie est devenue une science à part entière et permet de sécuriser chaques messages envoyé sur le réseau informatique.
 
 **Quelques lien vidéos :**
 
@@ -114,13 +114,13 @@ Vidéo Youtube (10 min) : [Enigma Machine  - Numberphile](https://www.youtube.co
 
 Un chiffrement symétrique est un chiffrement où la clé de chiffrement et de déchiffrement est la même.
 
-Il existe deux familles de chiffrements symétriques : les chiffrements mono alphabétique et les chiffrements poly alphabétiques.
+Il existe deux familles de chiffrements symétriques : les chiffrements monoalphabétiques et les chiffrements polyalphabétiques.
 
-### a) Chiffrements mono alphabétique
+### a) Chiffrements monoalphabétiques
 
 L'idée est de substituer une lettre par une autre lettre pour chaque lettres de l'alphabet en utilisant un seul alphabet de subsitution.
 
-Un célèbre chiffrement mono alphabétique est le Chiffre de César, il substitue une lettre par une autre lettre décalée dans l'alphabet.
+Un célèbre chiffrement monoalphabétique est le Chiffre de César, il substitue une lettre par une autre lettre décalée dans l'alphabet.
 
 Par exemple, avec une clé de chiffrement de $2$, le message message clair `ATTAQUEZ LE CHATEAU` est chiffré en `CVVCSWGB NG EJCVGCW` :
 
@@ -133,31 +133,11 @@ Puisque la lettre en clair ``A``, après avoir réalisé un décalage de deux, e
 
 Pour déchiffrer, il faut réaliser le décalage dans le sens inverse.
 
--------
-
-#### Application 2
-
-##### Communiquer avec le Chiffre de César
-
-Cette activité se réalise sur feuille.
-
-- Avec votre binôme, choisir un nombre entre 1 et 25, ce nombre représentera votre clé.
-
-- Ecrire chacun de votre côté un message.
-
-- En reprenant le principe du Chiffre de César, chiffrer le message avec votre clé.
-
-- Une fois le message chiffré, donner le à votre binôme sans aucune autre forme de communication.
-
-- Déchiffrer le message reçu.
-
--------
-
-### b) Chiffrements poly alphabétique
+### b) Chiffrements polyalphabétiques
 
 L'idée est de substituer une lettre par une autre lettre pour chaque lettres de l'alphabet en utilisant plusieurs alphabets de subsitution.
 
-Un célèbre chiffrement poly alphabétique est le Carré de Vigenère, il utilise le Chiffre de César en variant les alphabets de substitution.
+Un célèbre chiffrement polyalphabétique est le Carré de Vigenère, il utilise le Chiffre de César en variant les alphabets de substitution.
 
 Par exemple, avec une clé de déchiffrement de $2,4,1$, le message clair ``ATTAQUEZ LE CHATEAU`` est chiffré en ``CXUCUVGD MG GICXFCY``:
 
@@ -182,13 +162,11 @@ Pour déchiffrer, il faut réaliser le décalage dans le sens inverse correspond
 
 Cette activité se réalise sur feuille.
 
-- Avec votre binôme, choisir plusieurs nombres entre 1 et 25, ces nombres représenteront votre clé.
+- Choisir plusieurs nombres entre 1 et 25, ces nombres représenteront votre clé.
 
-- Ecrire chacun de votre côté un message.
+- Chiffrer, avec la clé de chiffrement que vous aurez choisie et en utilisant la méthode de chiffrement de Vigenère, le message suivant : ``DETRUISEZ LE TUNNEL``.
 
-- En reprenant le principe du chiffrement de Vigenère, chiffrer le message avec votre clé.
-
-- Une fois le message chiffré, donner le à votre binôme sans aucune autre forme de communication.
+- Une fois le message chiffré, donner à votre binôme le message et la clé.
 
 - Déchiffrer le message reçu.
 
@@ -240,7 +218,7 @@ Le chiffrement asymétrique étant coûteux, on l'utilisera généralement pour 
 
 #### Application 4
 
-Démonstration.
+Simulation en classe.
 
 -------
 
@@ -266,7 +244,7 @@ L'**attaque de l'Homme du milieu** est une stratégie d'attaque permettant à Ca
 
 #### Application 5
 
-Démonstration.
+Simulation en classe.
 
 --------------------
 
@@ -424,14 +402,14 @@ Ecrire une fonction ``chiffre_xor( message_clair : bytes, cle : bytes)->bytes`` 
 b'\x17\x06\x17\x10\t\x10\x03\x11\x08\x02\x08\x10\x16\x10\x0c\x10\x13'
 ```
 
-Le chiffrement XOR étant un système de chiffrement symétrique, on devrait pouvoir vérifier le résultat de la fonction ``chiffre_xor`` en mettant en arguments le message chiffré et la clé :
+Le chiffrement XOR étant un système de chiffrement symétrique, on devrait pouvoir vérifier le résultat en réutilisant la fonction ``chiffre_xor`` avec comme arguments le message chiffré et la clé :
 
 ```python
 >>> chiffre_xor(message_chiffre, cle)
 b'ATTAQUEZLECHATEAU'
 ```
 
-### Exercice 6 Cryptanalyse
+### Exercice 6 Cryptanalyse sur le Chiffre de César
 
 L'objectif de cet exercice est de découvrir deux méthodes permettant de décrypter le Chiffre de César.
 
@@ -441,13 +419,13 @@ Cette méthode consiste à tester toutes les clés possibles et de trouver le me
 
 a) Combien existe-t-il de clé ?
 
-b) On considère que pour déchiffrer un message, l'humain prend 1 minute. Combien faut-il de minutes pour déchiffrer tous les messages ?
+b) Si l'on considère que l'être humain prend 2 minutes pour déchiffrer un message, combien faut-il de minutes pour déchiffrer tous les messages ?
 
 ##### Méthode 2 : Analyse de fréquence
 
 Supposons que le message chiffré envoyé est écrit en langue française et que la lettre qui apparaît le plus souvent dans ce message est `E`.
 
-L'idée est de calculer les occurences de chaques lettres chiffrées et de repérer celle qui en a le plus. Puis, de trouver le nombre n de décalages nécessaire pour chiffrer `E` en cette lettre. n est la clé.
+L'idée est de calculer les occurences de chaques lettres chiffrées et de repérer celle qui en a le plus. Puis, de trouver le nombre $n$ de décalages nécessaire pour chiffrer `E` en cette lettre, $n$ est la clé.
 
 a) Ecrire une fonction `occ(message_chiffre : str)->dict` qui prend en paramètre le message chiffré et renvoie un dictionnaire dans lequel la clé est la lettre et la valeur, son nombre d'occurences :
 
@@ -470,12 +448,14 @@ c) Ecrire une fonction `trouve_cle(lettre : str)->int` qui prend en paramètre u
 12
 ```
 
-d) Ecrire une fonction `decrypter_cesar_analyse_freq(message_chiffre : str)->str` qui prend en paramètre le message chiffré et renvoie le message clair en utilisant la méthode d'analyse de fréquences :
+d) Ecrire une fonction `decrypter_cesar_analyse_freq(message_chiffre : str)->str` qui prend en paramètre le message chiffré et renvoie le message clair en réutilisant les fonctions précédentes :
 
 ```python
 >>> decrypter_cesar_analyse_freq('EQODQF')
 'SECRET' 
 ```
+
+e) Dans quel cas, l'analyse de fréquence ne fonctionne pas ?
 
 ### Exercice 7 Puzzle de Merkle
 
@@ -550,7 +530,7 @@ A partir du principe de TLS, expliquer pour chacune des situations suivantes, qu
 
 - Le navigateur commence à afficher la page de garde du site mais le câble reliant le serveur au réseau vient d'être coupé.
 
-### Exercice 9 Cryptanalyse (Difficile)
+### Exercice 9 Cryptanalyse sur le Carré de Vigenère (Difficile)
 
 Nous savons de source sûre que la clé est constituée de 3 entiers et que la méthode de chiffrement est celui du carré de Vigenère.
 
