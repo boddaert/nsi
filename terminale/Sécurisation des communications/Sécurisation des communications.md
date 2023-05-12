@@ -40,11 +40,15 @@ La sécurisation d'une communication doit accomplir trois missions :
 
 ### b) Idée
 
-L'idée est, en se servant de la Cryptologie ( : Science du chiffrement), de rendre incompréhensible les données qu'Alice envoie à Bob : 
+L'idée est de rendre incompréhensible les données qu'Alice envoie à Bob : 
 
 <img src="./img/généralités/idee.PNG" title="" alt="" data-align="center">
 
 Ainsi, Carole ne peut pas utiliser les données qu'elle intercepte.
+
+Seulement, il faut que Bob puisse comprendre les données envoyées par Alice.
+
+Pour réussir un tel stratagème, nous allons nous servir de la Cryptologie.
 
 ### b) Définitions
 
@@ -84,9 +88,7 @@ Décrypter les messages suivants :
 
 - ꓭOꓭ ꓤՈOᒋNOꓭ
 
-- KO MAN TU VA ?
-
-- Π0I <Λ VΛ
+- slt alice, jv b1 et toi tfk ?
 
 Sont-ils de bons systèmes de chiffrements ?
 
@@ -156,7 +158,7 @@ Pour déchiffrer, il faut réaliser le décalage dans le sens inverse correspond
 
 --- 
 
-#### Application 3
+#### Application 2
 
 ##### Communiquer avec le carré de Vigenère
 
@@ -216,7 +218,7 @@ Le chiffrement asymétrique étant coûteux, on l'utilisera généralement pour 
 
 ------
 
-#### Application 4
+#### Application 3
 
 Simulation en classe.
 
@@ -242,7 +244,7 @@ L'**attaque de l'Homme du milieu** est une stratégie d'attaque permettant à Ca
 
 ------------
 
-#### Application 5
+#### Application 4
 
 Simulation en classe.
 
@@ -302,7 +304,7 @@ Il est utilisé lorsqu'un client souhaite se connecter sur un serveur de manièr
 
 -----------
 
-#### Application 4
+#### Application 5
 
 1. Sur Firefox, aller sur : [https://fr.wikipedia.org/wiki/Informatique](https://fr.wikipedia.org/wiki/Informatique).
 
