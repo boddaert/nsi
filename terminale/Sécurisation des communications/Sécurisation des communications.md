@@ -164,13 +164,25 @@ Pour déchiffrer, il faut réaliser le décalage dans le sens inverse correspond
 
 Cette activité se réalise sur feuille.
 
-- Choisir plusieurs nombres entre 1 et 25, ces nombres représenteront votre clé.
+- Choisir 2 ou 3 nombres entre 1 et 25, ces nombres représenteront votre clé.
 
-- Chiffrer, avec la clé de chiffrement que vous aurez choisie et en utilisant la méthode de chiffrement de Vigenère, le message suivant : ``DETRUISEZ LE TUNNEL``.
+- Choisir, parmi la liste ci-dessous, un mot :
+  
+  - ``ATTAQUEZ``
+  
+  - ``DEFENDEZ``
+  
+  - ``REPLIEZ``
+  
+  - ``ATTENDEZ``
+  
+  - ``DETRUISEZ``
+
+- Chiffrer, avec la clé de chiffrement que vous avez choisi, le mot en utilisant la méthode de chiffrement de Vigenère.
 
 - Une fois le message chiffré, donner à votre binôme le message et la clé.
 
-- Déchiffrer le message reçu.
+- Déchiffrer le message et retrouver le mot.
 
 ---
 
@@ -372,7 +384,7 @@ Ecrire une fonction ``dechiffre_vigenere(message_chiffre : str, cles : tuple)->s
 
 ### Exercice 5 Chiffrement XOR
 
-Le chiffrement XOR (ou exclusif) est un chiffrement symétrique qui repose sur l'opération logique du XOR.
+Le chiffrement XOR (Ou Exclusif) est un chiffrement symétrique qui repose sur l'opération logique du XOR.
 
 > *Rappel sur la table de vérité du Ou exclusif :*
 > 
@@ -383,47 +395,53 @@ Le chiffrement XOR (ou exclusif) est un chiffrement symétrique qui repose sur l
 
 Le principe est le suivant :
 
-- Encoder sous forme binaire le message clair.
+- Encoder sous forme binaire le message clair et la clé.
 
-- Générer une clé de la même taille que le message clair.
+- Réaliser un Ou Exclusif sur chacun des bits du message et de la clé.
 
-- Encoder sous forme binaire la clé.
+Par exemple, si la représentation binaire de mon message est ``0101`` et si la représentation binaire de ma clé est ``1001`` alors le message chiffré sera ``1100``.
 
-- Réaliser un ou exclusif sur chacun de ces bits avec les bits correspondants de la clé pour chiffrer le message.
+Par la suite, nous utiliserons les positions des lettres dans la variable ``alphabet`` pour obtenir sa représentation binaire : 
 
-Ecrire une fonction ``chiffre_xor( message_clair : bytes, cle : bytes)->bytes`` qui prend en paramètres le message clair en et une clé de chiffrement en binaire et renvoie le message chiffré en binaire :
+- la lettre ``A`` a pour représentation ``00000``
+
+- La lettre ``Z`` a pour représentation ``11001``
+
+a) Ecrire une fonction ``repr_bin(mot : str)->list`` qui prend en paramètre une chaîne de caractères et renvoie une liste dont les éléments sont les représentations binaires des lettres du mot (nous pourrons nous servir de la fonction ``bin`` mais attention à ce que les représentations binaires aient la même taille) :
 
 ```python
->>> message = bytes("ATTAQUEZLECHATEAU", "utf-8")
->>> cle = "".join([alphabet[random.randint(0,len(alphabet)-1)] for _ in range(len(m))])
->>> cle
-'VRCQXEFKDGKXWDIQF'
->>> cle = bytes(cle, "utf-8")
->>> message_chiffre = chiffre_xor(message, cle)
->>> message_chiffre
-b'\x17\x06\x17\x10\t\x10\x03\x11\x08\x02\x08\x10\x16\x10\x0c\x10\x13'
+>>> repr_bin('ATTAQUEZ')
+['00000', '10011', '10011', '00000', '10000', '10100', '00100', '11001']
+>>> repr_bin('NSI')
+['01101', '10010', '01000']
 ```
 
-Le chiffrement XOR étant un système de chiffrement symétrique, on devrait pouvoir vérifier le résultat en réutilisant la fonction ``chiffre_xor`` avec comme arguments le message chiffré et la clé :
+b) En utilisant le Ou exclusif en Python (: ``^``), écrire une fonction ``xor(x : str, y : str)->str`` qui prend en paramètres deux représentations binaires et renvoie le résultat de l'opération du Ou Exclusif :
 
 ```python
->>> chiffre_xor(message_chiffre, cle)
-b'ATTAQUEZLECHATEAU'
+>>> xor('0101', '1001')
+'1100'
+```
+
+c) Ecrire une fonction ``chiffre_xor(message_clair : list, cle : list)->list`` qui prend en paramètres la représentation binaire du message clair et la représentation binaire de la clé et renvoie une liste dont les éléments sont les représentations binaire du message chiffré selon la méthode du chiffrement XOR :
+
+```python
+>>> chiffre_xor(repr_bin("ATTAQUEZ"), repr_bin("NSI"))
+['01101', '00001', '11011', '01101', '00010', '11100', '01001', '01011']
+```
+
+d) Le chiffrement XOR étant un chiffrement symétrique, nous devrions retrouver la représentation binaire du message clair à partir de la clé et de la représentation binaire du message chiffré :
+
+```python
+>>> chiffre_xor(['01101', '00001', '11011', '01101', '00010', '11100', '01001', '01011'], repr_bin('NSI'))
+['00000', '10011', '10011', '00000', '10000', '10100', '00100', '11001']
 ```
 
 ### Exercice 6 Cryptanalyse sur le Chiffre de César
 
 L'objectif de cet exercice est de découvrir deux méthodes permettant de décrypter le Chiffre de César.
 
-##### Méthode 1 : Par force brute
-
-Cette méthode consiste à tester toutes les clés possibles et de trouver le message qui paraît compréhensible.
-
-a) Combien existe-t-il de clé ?
-
-b) Si l'on considère que l'être humain prend 2 minutes pour déchiffrer un message, combien faut-il de minutes pour déchiffrer tous les messages ?
-
-##### Méthode 2 : Analyse de fréquence
+##### Méthode : Analyse de fréquence
 
 Supposons que le message chiffré envoyé est écrit en langue française et que la lettre qui apparaît le plus souvent dans ce message est `E`.
 
@@ -457,7 +475,7 @@ d) Ecrire une fonction `decrypter_cesar_analyse_freq(message_chiffre : str)->str
 'SECRET' 
 ```
 
-e) Dans quel cas, l'analyse de fréquence ne fonctionne pas ?
+e) Dans quel cas l'analyse de fréquence ne fonctionne pas ?
 
 ### Exercice 7 Puzzle de Merkle
 
@@ -481,7 +499,7 @@ Le puzzle de Merkle est une méthode permettant de s'échanger une clé de chiff
 
 ##### Etape 1 Alice
 
-a) Ecrire une fonction ``genere_messages(n : int)->list`` qui prend en paramètre un entier $n$ et renvoie une liste de $n$ messages de la forme ``identifiant:i cle:k`` où $i$ et $k$ sont des entiers aléatoires :
+a) Ecrire une fonction ``genere_messages(n : int)->list`` qui prend en paramètre un entier $n$ et renvoie une liste de $n$ messages de la forme ``identifiant:i cle:k`` où $k$ est un entier aléatoire :
 
 ```python
 >>> messages = genere_messages(10)
@@ -489,7 +507,7 @@ a) Ecrire une fonction ``genere_messages(n : int)->list`` qui prend en paramètr
 ['identifiant:0 cle:6799100', 'identifiant:1 cle:689143', 'identifiant:2 cle:66654', 'identifiant:3 cle:633728', 'identifiant:4 cle:656285', 'identifiant:5 cle:267157', 'identifiant:6 cle:96664', 'identifiant:7 cle:319894', 'identifiant:8 cle:23433', 'identifiant:9 cle:702382']
 ```
 
-b) Ecrire une fonction ``chiffrer_messages(messages : list)->list`` qui prend en paramètres une liste de messages clairs et renvoie une liste de messages chiffrés selon le système du Chiffre de César :
+b) Ecrire une fonction ``chiffrer_messages(messages : list)->list`` qui prend en paramètres une liste de messages clairs et renvoie une liste de messages chiffrés selon le système du Chiffre de César avec pour chaque message une clé différente :
 
 ```python
 >>> messages_chiffres = chiffrer_messages(messages)
@@ -518,27 +536,13 @@ d) Ecrire une fonction ``decrypter(message_choisis : str)->str`` qui prend en pa
 
 e) Compléter la fonction ``simulation`` afin de correspondre au principe du puzzle de Merkle.
 
-### Exercice 8 TLS
-
-A partir du principe de TLS, expliquer pour chacune des situations suivantes, quelle étape du protocole TLS échoue :
-
-- Alice souhaite se connecter de manière sécurisée sur un serveur qui n'est pas configuré pour supporter le protocole HTTPS.
-
-- Bob envoie un certificat dont les dates de validités sont déjà passées.
-
-- Bob envoie un certificat valide mais a perdu sa clé privée.
-
-- L'identité contenue dans le certificat n'est pas celle de Bob.
-
-- Le navigateur commence à afficher la page de garde du site mais le câble reliant le serveur au réseau vient d'être coupé.
-
-### Exercice 9 Cryptanalyse sur le Carré de Vigenère (Difficile)
+### Exercice 8 Cryptanalyse sur le Carré de Vigenère (Difficile)
 
 Nous savons de source sûre que la clé est constituée de 3 entiers et que la méthode de chiffrement est celui du carré de Vigenère.
 
 Décrypter : ``gjwvkiafmnmfcgcedmfjwvkmyxmfkwhktruqrdarhbcgcedmfkmvyvrmzffivfaqsvfdmhjaqwurmzrklrhqrjzrfmhxxbmzywauguzwazgzgwtfvmflqawanmbewxnkcahwhjtrkmvyvrmzqwagwvrtzrkahjabfabejewbegvrviaktrhilklrewevwegcfwbrflrfbywabejewahfiafmnmxbmzywatgciwzawzggcfmvnfvrsccgcedmflzbmdrjcasvawihhwhjtrkizwvrjbbmarllnfaywagwvrtzrktrktvwznmxnqaqwubjlbjwhkmgwvqwvgdmfguojmflwhlkricvwaggzawjeatywxnkbbmapwckicvwzewvgfmfgvghifhmevcfdmiamhpyhamflnbjbawlrhmeabcgqaltrkznuqawacjwsgvqwaawabfbcsanlbravgwacszywordlrkkrflewahfnrmarnmvdtrjiqwabejewahfmymuvwzrbivdtvjiewvbmdrdmrkmestrhmricvxcgtzvkmrdmfsvfuwhjwafmfwznvmagciwihjwvdmisagwubflrnwhkmalwhjmqwbbmapgbrkdbmacgciwhigcfwvpdwewunaaigcffmcgciwhrlmefmydmzwvgdmgwvvjmavmugzfvmigapdwgmzrkcasvawihhwhjtrkobmdrjvrjbbmahfiafmnmxbmzywagjwhnmemvnfvrsccgcedmfsurfmelwhkmgviaktrkbrfmojmfdmfdqrj``
 
-### Exercice 10 Enigma
+### Exercice 9 Enigma
 
 Nous allons, dans cet exercice, nous intéresser à la machine Enigma.
 
