@@ -4,9 +4,17 @@
 
 ## Première NSI
 
-Chapitre 0 : [Introduction à la programmation](./première/Introduction à la programmation/Introduction à la programmation.md)
+Chapitre 0 : [Introduction](./première/Introduction/Introduction.md)
 
 Chapitre 1 : [Constructions élémentaires](./première/Constructions élémentaires/Constructions élémentaires.md)
+
+- Chapitre 1.1 : [Types](./première/Constructions%20élémentaires/Types.md)
+
+- Chapitre 1.2 : [Variables](./première/Constructions%20élémentaires/Variables.md)
+
+- Chapitre 1.3 : [Opérateurs](./première/Constructions%20élémentaires/Operateurs.md)
+
+- Chapitre 1.4 : [Fonctions](./première/Constructions%20élémentaires/Fonctions.md)
 
 Chapitre _ : [Représentation des textes en machine](./première/Représentation des textes en machine/Leçon_representation_des_textes.MD)
 
