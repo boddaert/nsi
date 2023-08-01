@@ -1,116 +1,138 @@
 # Types
 
-En Python, comme dans d'autres langages, les valeurs ont des types. Chaque valeur a un type qui la **caractérise**. On peut distinguer, parallèlement aux mathématiques, les nombres entiers et les réels par exemple, qui sont deux types distincts en Python : les entiers et les flottants. 
+## I. Définitions
 
-Il existe bien sûr beaucoup d'autres types.
+En Python, les valeurs ont des types. 
 
-A quoi sert un type ?
+On appelle valeur toute donnée manipulable. Par exemple, `42` et `$` sont des valeurs que l'on peut manipuler dans nos programmes.
 
-Attribuer un type à une valeur nous sert à **classer nos données** et donc à savoir si telle ou telle opération est possible sur la donnée. Par exemple, il est impossible d'additionner un nombre et une phrase.
+Chaque valeur a un type qui la **caractérise**. On peut distinguer, parallèlement aux mathématiques, les nombres entiers et les réels par exemple, qui sont deux types distincts en Python : les entiers et les flottants.
 
-## I. Les nombres
+Par exemple, `42` est un entier et `$` un caractère.
+
+Attribuer un type à une valeur nous sert à **classer nos données** et donc à savoir si telle ou telle opération est possible sur la donnée.
+
+Par exemple, nous pouvons effectuer toutes les opérations possibles aux entiers à la valeur `42` puisque `42` est un entier. Mais nous ne pouvons pas additionner `42` et `$` puisque `$` est un caractère.
+
+## II. Les nombres
 
 ### a) Les entiers naturels
 
-On peut, dans la console, utiliser la fonction `type()` pour afficher le type d'une valeur mise entre les parenthèses :
+On peut utiliser la fonction `type()` pour afficher le type d'une valeur mise entre les parenthèses :
 
-![](./img/type_1.PNG)
+```Python
+>>> type(5)
+<class 'int'>
+```
 
-Par exemple, si je demande le type de la valeur 5 en écrivant `type(5)`, l'interprète Python me donne comme réponse `<class 'int'>`.
+Par exemple, si je demande le type de la valeur 5 en écrivant `type(5)` dans la console Python, j'obtiens comme résultat : `<class 'int'>`.
 
-Pour l'instant, il est inutile de s'attarder sur le mot-clé `class`, concentrons nous sur le mot-clé `int` qui nous indique qu'il s'agit du type `int` ou `integer` soit le type **d'entier naturel**.
+Pour l'instant, il est inutile de s'attarder sur le mot-clé `class`, concentrons nous sur le mot-clé `int` qui nous indique qu'il s'agit du type `int` ou `integer` qui veut dire **entier naturel**.
+
+##### Application 1
+
+Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `42`, `3000`, `0` et `-4` sont bien des entiers.
 
 ### b) Les réels
 
 Les nombres réels sont des nombres à virgule et possèdent un type différent des entiers naturels en Python :
 
-![](./img/type_2.PNG)
+```Python
+>>> type(3.14)
+<class 'float'>
+```
 
 Le type des réels en Python est le type ``float`` pour **nombres flottants**.
 
-## II. D'autres types
+##### Application 2
 
-### a) Les chaînes de caractères
+Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `5.0`, `0.6578543`, `0.0` et `-6.4` sont bien des flottants.
 
-Une chaîne de caractère est une valeur encadrée par des **guillemets** ( ou des guillemets simples ) : ``"a"``  ou ``'a'``.  Une chaîne de caractère peut contenir plusieurs caractères : ``"ac*/"``.
+## III. Les chaînes de caractères
+
+Une chaîne de caractère est une valeur encadrée par des **guillemets** (ou des guillemets simples) : ``"a"``  ou ``'a'``.
+
+Une chaîne de caractère peut contenir plusieurs caractères : ``"acdc"``.
 
 En Python, les chaînes de caractère sont représentés par le type ``str``  :
 
-![](./img/type_3.PNG)
+```Python
+>>> type("acdc")
+<class 'str'>
+```
 
-Une chaîne de caractère contenant une valeur d'un autre type reste une chaîne de caractère et donc du type ``str`` :
+##### Application 3
 
-![](./img/type_4.PNG)
+Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `"azerty"`, `"exemple@mail.fr` et `"3.14"` sont bien des chaînes de caractères.
 
-Et une chaîne de caractère vide reste également de type ``str`` :
-
-![](./img/type_6.PNG)
-
-### b) Les booléens
+## IV. Les booléens
 
 Les booléens sont un type bien particulier de la programmation, présents dans l'algèbre de Bool inventé par un mathématicien du même nom dans les années 1860.
 
-Les booléens sont des types pouvant contenir seulement deux valeurs : **Vrai** ou **Faux**. En Python, ces valeurs sont ``True`` et ``False`` respectivement. 
+Dans le type booléen, il y a seulement deux valeurs : **Vrai**, **Faux**.
 
-![](./img/type_5.PNG)
+En Python, ces valeurs sont ``True`` et ``False`` respectivement. 
 
-Ces booléens servent notemment dans les conditions que l'on verra plus tard.
+```Python
+>>> type(True)
+<class 'bool'>
+```
 
-### c) NoneType
+Ces booléens servent notemment dans les tables de vérité et les instructions conditionnelles.
+
+##### Application 4
+
+Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `True` et `False` sont bien des booléens.
+
+## V. NoneType
 
 Voici un type encore plus particulier : ``NoneType`` 
 
 Une seule valeur possède ce type, c'est ``None`` et comme son nom l'indique, c'est une valeur qui ne représente ... rien !
 
-![](./img/type_7.PNG)
+```Python
+>>> type(None)
+<class 'NoneType'>
+```
 
-## III. Conversion de type
+## VI. Récapitulatif des types
 
-Il est possible, avec une fonction, de changer le type de nos valeurs.
+| En Français | En Python |
+|----|----|
+|Entier naturel | `int` |
+| Flottant | `float` |
+| Chaîne de caractères | `str` |
+| Booléen | `bool` |
+| NoneType | `None` |
 
-### a) En chaîne de caractère
+## Exercices
 
-Avec la fonction ``str()`` , nous pouvons convertir la valeur mise en parenthèses en une valeur dont le type devient ``str`` :
+### Exercice 1
 
-![](./img/convertir_1.PNG)
+a) Donner, pour chaque valeur suivante, son type sans utiliser la fonction `type()` :
 
-Ici, nous avons converti l'entier ``5`` en chaîne de caractère ``"5"``.
+- 8
+- 6.5
+- "6.5"
+- '6.5'
+- False
+- "True"
+- ""
+- 5 + 4
+- "5 + 4"
+- '"abcd"'
+- 5.5 + 0.3
+- 5.5 + 0.5
+- 5 + 3.14
+- 5 + 3.0
 
-### b) Entier en réel
+b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses. Puis sur chacune d'entre elles, écrire une explication du type obtenu.
 
-De la même manière que pour convertir en une chaîne de caractère, nous allons utiliser une fonction : ``float()`` pour convertir un nombre entier en nombre réel :
 
-![](./img/convertir_2.PNG)
 
-### c) Réel en entier
-
-Puis pour convertir un nombre réel en nombre entier en utilisant la fonction ``int()`` :
-
-![](./img/convertir_3.PNG)
-
-______________
-
-### A retenir
-
-*Le type `int` représente les entiers.*
-
-*Le type ``float`` représente les réels.*
-
-*Le type ``str`` représente les chaînes de caractères.*
-
-*Le type ``bool``  représente les booléens.*
-
-*Les fonctions ``str()``, ``int()`` et ``float()`` permettent de changer le type des valeurs passées en paramètres.*
-
-___________________
-
-## Applications
-
-#### Application 1
-
-Réécrire dans la console, tous les exemples vus précédemment.
 
 #### Application 2
+chaine vide
 
 A l'aide de la fonction ``type()``, vérifier dans la console le type du résultat de l'expression ``5 + 3.14`` sur une seule ligne.
 

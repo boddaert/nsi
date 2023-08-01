@@ -1,3 +1,50 @@
+## VII. Conversion de type
+
+Il est possible, avec une fonction, de changer le type de nos valeurs.
+
+
+### a) En chaîne de caractères
+
+Avec la fonction ``str()``, nous pouvons convertir la valeur mise en parenthèses en une chaîne de caractères :
+
+```Python
+>>> str(5)
+'5'
+```
+
+Ici, nous avons converti l'entier ``5`` en chaîne de caractère ``"5"``.
+
+##### Application 5
+
+Dans la console Python et à l'aide de la fonction `str()`, convertir les valeurs `42`, `3.14`, `0.0` et `True` en chaîne de caractères.
+
+### b) En nombre entier
+
+Avec la fonction `int()`, nous pouvons convertir la valeur mise en parenthèses en nombre entier :
+
+```Python
+>>> int(3.0)
+3
+```
+
+##### Application 6
+
+Dans la console Python et à l'aide de la fonction `int()`, convertir les valeurs `3.14`, `True`, `False` et `"42"`.
+
+### c) En nombre flottant
+
+Avec la fonction `float()`, nous pouvons convertir la valeur mise en parenthèses en nombre flottant :
+
+```Python
+>>> float(3)
+3.0
+```
+
+##### Application 7
+
+Dans la console Python et à l'aide de la fonction `float()`, convertir les valeurs `42`, `3.14` et `"3000`.
+
+
 # Fonctions
 
 Les fonctions sont des constructions élémentaires très importantes dans la programmation. Si on écrit un programme qui nécessite à **plusieurs reprises** d'exécuter les mêmes séquences d'instructions, on peut alors **définir une fonction** qui évitera de réecrire les mêmes instructions et de rendre le programme plus lisible.
