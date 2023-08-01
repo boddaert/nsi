@@ -20,7 +20,7 @@ Par exemple, nous pouvons effectuer toutes les opérations possibles aux entiers
 
 On peut utiliser la fonction `type()` pour afficher le type d'une valeur mise entre les parenthèses :
 
-```Python
+```python
 >>> type(5)
 <class 'int'>
 ```
@@ -37,7 +37,7 @@ Dans la console Python et à l'aide de la fonction `type()`, vérifier que les v
 
 Les nombres réels sont des nombres à virgule et possèdent un type différent des entiers naturels en Python :
 
-```Python
+```python
 >>> type(3.14)
 <class 'float'>
 ```
@@ -56,7 +56,7 @@ Une chaîne de caractère peut contenir plusieurs caractères : ``"acdc"``.
 
 En Python, les chaînes de caractère sont représentés par le type ``str``  :
 
-```Python
+```python
 >>> type("acdc")
 <class 'str'>
 ```
@@ -73,7 +73,7 @@ Dans le type booléen, il y a seulement deux valeurs : **Vrai**, **Faux**.
 
 En Python, ces valeurs sont ``True`` et ``False`` respectivement. 
 
-```Python
+```python
 >>> type(True)
 <class 'bool'>
 ```
@@ -90,7 +90,7 @@ Voici un type encore plus particulier : ``NoneType``
 
 Une seule valeur possède ce type, c'est ``None`` et comme son nom l'indique, c'est une valeur qui ne représente ... rien !
 
-```Python
+```python
 >>> type(None)
 <class 'NoneType'>
 ```
@@ -127,17 +127,6 @@ a) Donner, pour chaque valeur suivante, son type sans utiliser la fonction `type
 - 5 + 3.0
 
 b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses. Puis sur chacune d'entre elles, écrire une explication du type obtenu.
-
-
-
-
-#### Application 2
-chaine vide
-
-A l'aide de la fonction ``type()``, vérifier dans la console le type du résultat de l'expression ``5 + 3.14`` sur une seule ligne.
-
-# 
-
-__________
+_________
 
 Leçon 2 : [Variables](./Variables.md)

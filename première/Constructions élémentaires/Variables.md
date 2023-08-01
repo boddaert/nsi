@@ -1,121 +1,127 @@
 # Variables
 
-Une variable est un espace mémoire dans lequel il est possible de **stocker** une valeur.
+## I. Définitions
 
-Il faut imaginer pour chaque variable, une boîte avec une valeur à l'intérieur :
+Une variable est un **nom** qui possède une valeur.
 
-![](./img/img_variables/boite.PNG)
+On dit qu'une valeur est affectée à une variable.
 
-Par exemple ici, nous avons une variable ayant pour **étiquette** ( ou pour nom ) ``myNum`` contenant la valeur ``4``.
+## II. Affectations de variable
 
-## I. Notation
+### a) Affectation simple
 
-### a) Affectation
+On peut affecter n'importe quelle valeur à une variable en Python avec l'opérateur d'affectation ``=`` :
 
-On peut **affecter** une valeur à une variable en Python avec l'opérateur d'affectation ``=`` .
+```python
+>>> ma_variable = 42
+```
 
-Affecter une valeur à une variable revient à dire "mettre la valeur dans la boîte" :
+Pour connaître la valeur contenue dans une variable, il suffit de l'appeler :
 
-![](./img/img_variables/var_1.PNG)
-
-Ici, je viens de mettre la valeur ``4`` dans la boîte d'étiquette ``myNum``, autrement dit, j'ai affecté la valeur ``4`` à ma variable ``myNum``.
-
-*On dit également **déclarer** une variable.*
-
-Maintenant, si je veux afficher la valeur contenue dans une variable, il suffit de **l'appeler** :
-
-![](./img/img_variables/var_2.PNG)
+```python
+>>> ma_variable
+42
+```
 
 ### b) Ré-affectation
 
-Que se passe t-il si je ré-affecte une valeur à ma variable ?
+Pour modifier la valeur contenue dans une variable, j'affecte une nouvelle valeur à ma variable :
 
-![](./img/img_variables/var_3.PNG)
+```python
+>>> ma_variable = 42
+>>> ma_variable
+42
+>>> ma_variable = 67
+>>> ma_variable
+67
+```
 
-L'ancienne valeur ( ``4`` ) est **écrasée** par la nouvelle valeur ( ``2`` ). Une variable ne peut contenir qu'une seule valeur, c'est pourquoi il faut faire attention lors de la manipulation de variables.
+L'ancienne valeur est alors écrasée par la nouvelle valeur.
 
-### c) Affectation multiple
+##### Application 1
 
-Il est possible d'affecter plusieurs valeurs à plusieurs variables sur une seule ligne en les séparant d'une virgule :
+Dans la console python et en utilisant l'affectation, affecter :
 
-![](./img/img_variables/var_4.PNG)
+- la variable `ma_variable_a` avec la valeur `1`
+- la variable `ma_variable_b` avec la valeur `9.99`
+- la variable `ma_variable_c` avec la valeur `"hello world"`
+- la variable `ma_variable_d` avec la valeur `True`
 
-### d) Type d'une variable
+Puis, vérifier en appelant chacune des variables les valeurs associées.
 
-Le type d'une variable est le **type de la valeur qu'elle contient**. On peut, comme pour les valeurs, connaître le type des variables en utilisant la fonction ``type()`` :
+## III. Type d'une variable
 
-![](./img/img_variables/var_5.PNG)
+Le type d'une variable est le type de la valeur qu'elle contient.
 
-Sans surprise, on retrouve le type ``str`` pour la variable ``ma_variable2`` contenant la valeur ``"hello world"``.
+On peut, comme pour les valeurs, connaître le type des variables en utilisant la fonction ``type()`` :
 
-On peut également utiliser les fonctions de conversion sur les variables tel que ``int()`` ou ``float()``.
+```python
+>>> type(ma_variable)
+<class 'int'>
+```
 
-### e) Utilisation de variables
+##### Application 2
 
-On peut affecter à une variable une expression :
+Pour chacune des variables créées à l'application 1, vérifier leur type dans la console python en utilisant la fonction `type()`
 
-![](./img/img_variables/var_6.PNG)
+## Exercices
 
-Et à une variable une autre variable :
+### Exercice 1
 
-![](./img/img_variables/var_7.PNG)
+A l'issue de l'exécution de chacun des programmes suivants, indiquer la valeur affectée à la variable `mystere` :
 
-Ici, nous avons deux variables contenant la même valeur, mais il s'agit de **variables différentes**.
+a) Programme 1
 
-Ainsi, on peut stocker dans une variable une expression de variables et de valeurs :
+```python
+ma_variable = 56.01
+mystere = True
+```
 
-![](./img/img_variables/var_8.PNG)
+b) Programme 2
 
-Pour éviter de déclarer beaucoup de variables inutiles, on peut réutiliser nos variables en écrasant les anciennes valeurs par les nouvelles en utilisant la ré-affectation ( sauf si nous avons besoin des anciennes valeurs car elles seront perdues ) :
+```python
+ma_variable = "hello world"
+mystere = ma_variable
+```
 
-![](./img/img_variables/var_9.PNG)
+c) Programme 3
 
-## II. Etat d'une variable
+```python
+ma_variable = 3
+mystere = ma_variable * ma_variable
+```
 
-On appelle **état d'une variable**, la valeur qu'elle contient à un endroit donné dans le programme.
+d) Programme 4
 
-Considérons les instructions suivantes :
+```python
+mystere = 10
+mystere = mystere + 1
+```
 
-![](./img/img_variables/etat_1.PNG)
+e) Programme 5
 
-Nous pouvons déterminer qu'après la première instruction, l'état des variables est noté comme ``3 , 20 , 1000`` pour respectivement les variables ``a , b et c``.
+```python
+ma_variable = 20
+mystere = ma_variable + 20
+ma_variable = 30
+mystere = mystere + ma_variable
+```
 
-L'état des variables change au fur et à mesure des instructions, par exemple, l'état de la variable ``a`` change après la seconde instruction, on a maintenant comme état des variables : ``23 , 20 , 1000``.
+f) Programme 6
 
-____________
+```python
+ma_variable = 5
+mystere = mystere - mystere
+```
 
-### A retenir
+### Exercice 2
 
-*Une variable est une boîte contenant une unique valeur.*
+Pour chacun des programmes de l'exercice 1 :
 
-*L'affectation d'une valeur à une variable se fait grâce à l'opérateur ``=``.*
-
-*Le type d'une variable est le type de la valeur qu'elle contient.*
-
-____________
-
-## Applications
-
-#### Application 1
-
-Réécrire tous les exemples vus précédemment dans la console.
-
-#### Application 2
-
-Ecrire la suite des états des variables du **II. Etat d'une variable** 
-
-#### Application 3
-
-Quelle est la valeur affichée dans la console après les instructions suivantes ?
-
-![](./img/img_variables/app_1.PNG)
-
-#### Application 4
-
-Quelle est la valeur affichée dans la console après les instructions suivantes ?
-
-![](./img/img_variables/app_2.PNG)
+- écrire le programme en mode programmation de Thonny.
+- aller dans l'onglet `Affichage` et cocher `Variables`. Une nouvelle fenêtre à droite de l'écran s'ouvre.
+- exécuter ligne par ligne le programme en utilisant l'outil de `Débogueur` (le bouton à droite de celui d'exécution)
 
 __________
 
-Leçon 3 : [Ecrire un programme](./Ecrire un programme.md)
+Leçon 3 : [Fonctions](./Fonctions.md)
