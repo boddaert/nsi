@@ -2,9 +2,9 @@
 
 En Numérique et Sciences Informatiques, nous allons être amenés à écrire des programmes informatiques, et de manière générale, du code informatique.
 
-Un programme informatique est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.
+Un *programme informatique* est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.
 
-L'informatique est la science des **données**, les programmes informatiques que nous écrivons nous permettent de manipuler ces données et d'effectuer des calculs sur celles-ci.
+L'*informatique* est la science des **données**, les programmes informatiques que nous écrivons nous permettent de manipuler ces données et d'effectuer des calculs sur celles-ci.
 
 Pour nous aider à écrire des programmes informatiques, les informaticiens utilisent des algorithmes. Un algorithme est une suite d'instructions écrit en Français. Il sert à **résoudre un problème**.
 
@@ -12,7 +12,7 @@ L'objectif de construire un algorithme est qu'il soit compris par tous et qu'on 
 
 ## I. Langage de programmation
 
-Un langage de programmation est un langage dans lequel nous allons écrire notre programme.
+Un *langage de programmation* est un langage dans lequel nous allons écrire notre programme.
 
 Comme nos langues naturelles, un langage de programmation est composé d'un alphabet et de règles.
 
@@ -28,7 +28,7 @@ En NSI, nous travaillerons avec le langage Python principalement. Il a été inv
 
 ## III. Environnement de développement
 
-Un IDE (ou environnement de développement) est un logiciel permettant d'écrire et de faire exécuter des programmes. Nous utiliserons pour cela le logiciel Thonny :
+Un *IDE* (ou environnement de développement) est un logiciel permettant d'écrire et de faire exécuter des programmes. Nous utiliserons pour cela le logiciel Thonny :
 
 ![](./img/presentation_thonny.png)
 

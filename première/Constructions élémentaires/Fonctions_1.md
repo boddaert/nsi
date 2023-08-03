@@ -47,61 +47,80 @@ Dans la console Python et à l'aide de la fonction `float()`, convertir les vale
 
 # Fonctions
 
-Les fonctions sont des constructions élémentaires très importantes dans la programmation. Si on écrit un programme qui nécessite à **plusieurs reprises** d'exécuter les mêmes séquences d'instructions, on peut alors **définir une fonction** qui évitera de réecrire les mêmes instructions et de rendre le programme plus lisible.
+Voyons le programme suivant :
 
-Par exemple, imaginons que dans notre programme, on souhaite à plusieurs reprises faire une quelconque opération, on aurait alors plusieurs mêmes instructions de cette opération.
+```python
+hauteur_parallelepipede = 2
+largeur_parallelepipede = 2
+longueur_parallelepipede = 5
 
-En définissant une fonction ``opération()`` et en l'appelant à chaque fois qu'on en a besoin, on évite de répéter l'instruction.
+aire_rectangle = longueur_parallelepipede * hauteur_parallelepipede
+aire_carre = hauteur_parallelepipede * largeur_parallelepipede
+
+aire_parallelepipede = (aire_rectangle * 4) + (aire_carre * 2)
+```
+
+Ce programme permet de calculer la somme des aires d'un parallèlépipède de hauteur 2, de largeur 2 et de longueur 5.
+
+Nous constatons que nous avons calculé deux fois une aire : Une première fois pour l'aire d'un rectangle et la seconde pour un carré.
+
+L'opération effectuée est la même (une multiplication) mais les opérandes sont différents.
+
+Afin d'éviter de réécrire plusieurs fois une instruction réalisant la même action, nous utilisons les fonctions.
 
 ## I. Définition
 
-### a) Principe
+Une *fonction* est une séquence d'instruction réutilisable. Elle associe une séquence d'instruction à un nom.
 
-Une fonction **associe** une séquence d'instructions **à un nom**. 
+Nous la distinguons des variables parce que le nom est suivi de parenthèses.
 
-Une fonction réalise une **tâche donnée**.
+Elle réalise une tâche précise et peut dépendre de paramètres.
 
-Elle est **réutilisable** autant de fois que l'on veut dans le programme.
-
-Par exemple, définissons une fonction ``somme``, elle a pour **signature**  ``somme( a : int, b : int)-> int`` :
-
-- Elle a pour nom ``somme`` 
-
-- Elle permet de faire la somme de deux nombres entiers
-
-- Dès que nous avons besoin d'additionner deux nombres dans notre programme, on pourra faire appel à la fonction ``somme``
-
-### b) Paramètres
-
-Une fonction peut avoir **zéro** ou **plusieurs** paramètres.
-
-Les paramètres sont écrits entre les parenthèses et sont séparés par des virgules.
-
-Les paramètres ont des **types** désignés par la notation ``paramètre : type``
-
-Un paramètre est utilisé dans le **corps de la fonction** de la même manière qu'une variable. On appele corps d'une fonction, la séquence d'instructions qui la compose.
-
-Les paramètres désignent une **valeur qui n'est pas connue** et qui pourra être **différente** à chaque utilisations de la fonction.
-
-Par exemple :
+Par exemple, la fonction `type()` que nous avons vu au chapitre sur les types (cf : [Types](./Types.md)) permet d'obtenir le type de la valeur passée en paramètre.
 
 ```python
-nom_de_la_fonction()-> type
+>>> type(5)
+<class 'int'>
 ```
 
-ou
+### a) Signature
+
+Soit `somme()` la fonction permettant de faire la somme de deux entiers.
+
+Pour être un peu plus précis sur la définition d'une fonction, nous écrivons sa signature.
+
+La *signature d'une fonction* est composée du nom de la fonction, du nom et du type des paramètres, du type de la valeur du résultat renvoyé par la fonction.
+
+Ainsi, la signature de la fonction `somme()` s'écrirait : `somme(a : int, b : int) -> int`.
+
+- Le nom est : `somme()`.
+
+- Les paramètres sont `a` et `b` et sont tous les deux de type `int`.
+
+- La valeur renvoyée par cette fonction est de type `int`.
+
+### b) Paramètres / Arguments
+
+Paramètres et arguments ne définissent pas la même chose.
+
+Une fonction peut avoir zéro ou plusieurs paramètres.
+
+Un *paramètre* est le nom d'une variable utilisée à l'intérieur de la fonction.
+
+Un *argument* est la valeur que prend un paramètre lorsque l'on va utiliser la fonction.
+
+En reprenant l'exemple de la fonction `somme()` définie plus haut :
 
 ```python
-nom_de_la_fonction( paramètre1 : type , paramètre2 :type )-> type
+>>> somme(5,2)
+7
 ```
 
-Si l'on reprend la signature de la fonction ``somme( a : int, b :int )-> int`` :
+Les arguments sont `5` et `2` (autrement dit, le paramètre `a` a comme valeur `5` et le paramètre `b` a comme valeur `2`).
 
-- La fonction ``somme`` a deux paramètres : *a* et *b* de type entier
+Lors de l'écriture de la fonction, les paramètres désignent alors une valeur qui n'est pas connue d'avance et qui pourra être différente à chaque utilisation de la fonction.
 
-- Les paramètres *a* et *b* sont comme des variables que l'on utilisera dans le corps de la fonction
-
-- On ne connaît pas les valeurs de *a* et *b* 
+### c) Appels de fonction
 
 ### c) Syntaxe en Python
 

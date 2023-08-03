@@ -2,7 +2,7 @@
 
 ## I. Définitions
 
-Une variable est un **nom** qui possède une valeur.
+Une *variable* est un nom qui possède une valeur.
 
 On dit qu'une valeur est affectée à une variable.
 
@@ -111,17 +111,8 @@ f) Programme 6
 
 ```python
 ma_variable = 5
-mystere = mystere - mystere
+mystere = mystere + ma_variable
 ```
+________
 
-### Exercice 2
-
-Pour chacun des programmes de l'exercice 1 :
-
-- écrire le programme en mode programmation de Thonny.
-- aller dans l'onglet `Affichage` et cocher `Variables`. Une nouvelle fenêtre à droite de l'écran s'ouvre.
-- exécuter ligne par ligne le programme en utilisant l'outil de `Débogueur` (le bouton à droite de celui d'exécution)
-
-__________
-
-Leçon 3 : [Fonctions](./Fonctions.md)
+Leçon 4 : [Séquences d'instructions](./Séquences.md)

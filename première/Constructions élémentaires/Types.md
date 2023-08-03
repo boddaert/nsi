@@ -4,9 +4,9 @@
 
 En Python, les valeurs ont des types. 
 
-On appelle valeur toute donnée manipulable. Par exemple, `42` et `$` sont des valeurs que l'on peut manipuler dans nos programmes.
+On appelle *valeur* toute donnée manipulable. Par exemple, `42` et `$` sont des valeurs que l'on peut manipuler dans nos programmes.
 
-Chaque valeur a un type qui la **caractérise**. On peut distinguer, parallèlement aux mathématiques, les nombres entiers et les réels par exemple, qui sont deux types distincts en Python : les entiers et les flottants.
+Chaque valeur a un *type* qui la **caractérise**. On peut distinguer, parallèlement aux mathématiques, les nombres entiers et les réels par exemple, qui sont deux types distincts en Python : les entiers et les flottants.
 
 Par exemple, `42` est un entier et `$` un caractère.
 
@@ -27,7 +27,7 @@ On peut utiliser la fonction `type()` pour afficher le type d'une valeur mise en
 
 Par exemple, si je demande le type de la valeur 5 en écrivant `type(5)` dans la console Python, j'obtiens comme résultat : `<class 'int'>`.
 
-Pour l'instant, il est inutile de s'attarder sur le mot-clé `class`, concentrons nous sur le mot-clé `int` qui nous indique qu'il s'agit du type `int` ou `integer` qui veut dire **entier naturel**.
+Pour l'instant, il est inutile de s'attarder sur le mot-clé `class`, concentrons nous sur le mot-clé `int` qui nous indique qu'il s'agit du type `int` ou `integer` qui veut dire **entier**.
 
 ##### Application 1
 
@@ -35,7 +35,7 @@ Dans la console Python et à l'aide de la fonction `type()`, vérifier que les v
 
 ### b) Les réels
 
-Les nombres réels sont des nombres à virgule et possèdent un type différent des entiers naturels en Python :
+Les nombres réels sont des nombres décimaux et possèdent un type différent des entiers en Python :
 
 ```python
 >>> type(3.14)
@@ -67,7 +67,7 @@ Dans la console Python et à l'aide de la fonction `type()`, vérifier que les v
 
 ## IV. Les booléens
 
-Les booléens sont un type bien particulier de la programmation, présents dans l'algèbre de Bool inventé par un mathématicien du même nom dans les années 1860.
+Les *booléens* sont un type bien particulier de la programmation, présents dans l'algèbre de Bool inventé par un mathématicien du même nom dans les années 1860.
 
 Dans le type booléen, il y a seulement deux valeurs : **Vrai**, **Faux**.
 
@@ -129,4 +129,4 @@ a) Donner, pour chaque valeur suivante, son type sans utiliser la fonction `type
 b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses. Puis sur chacune d'entre elles, écrire une explication du type obtenu.
 _________
 
-Leçon 2 : [Variables](./Variables.md)
+Leçon 2 : [Opérateurs](./Operateurs.md)

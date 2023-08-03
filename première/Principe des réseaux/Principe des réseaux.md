@@ -70,7 +70,7 @@ L'adresse MAC d'une machine est découpée en 6 octets représentés traditionne
 
 Ci-dessus, une représentation d'un réseau local. Chaque machine possède son adresse MAC et sont reliés par un équipement informatique appelé *Commutateur* (*Switch*).
 
-Le commutateur, lorsqu'il reçoit des données sur lesquelles est précisé l'adresse MAC de destination, va transmettre à la machine concernée.
+Le commutateur, lorsqu'il reçoit des données sur lesquelles est précisé l'adresse MAC de destination, va les transmettre à la machine concernée.
 
 > Il existe un autre équipement, plus ancien, appelé *Concentrateur* (*Hub*) qui lui envoie les données à toutes les machines du réseau local.
 
@@ -136,9 +136,7 @@ Le *masque de sous-réseau*, représenté sur 4 octets, permet de <u>retrouver</
 
 Le masque est constitué d'une suite de bits à 1 (représentant l'identifiant réseau) suivie d'une suite de bits à 0 (représentant l'identifiant machine).
 
-Par exemple, un masque de sous-réseau valide est `255.255.255.0`.
-
-Soit écrit en représentation binaire : `11111111.11111111.11111111.00000000`.
+Par exemple, un masque de sous-réseau valide est `255.255.255.0` parce que son écriture binaire (: `11111111.11111111.11111111.00000000`) est une suite de bits à 1 suivie d'une suite de bits à 0.
 
 Cela veut dire, que les 24 premiers bits de l'adresse IP sont alloués à l'*identifiant réseau* et les 8 bits restants sont alloués à l'*identifiant machine*.
 
