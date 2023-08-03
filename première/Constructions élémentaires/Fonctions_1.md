@@ -78,7 +78,7 @@ Elle réalise une tâche précise et peut dépendre de paramètres.
 
 Par exemple, la fonction `type()` que nous avons vu au chapitre sur les types (cf : [Types](./Types.md)) permet d'obtenir le type de la valeur passée en paramètre.
 
-```python
+```{.python .numberLines caption="Exemple 1"}
 >>> type(5)
 <class 'int'>
 ```
