@@ -22,33 +22,7 @@ Objectifs :
 
 - Une procédure réalise une action, par exemple un affichage, une écriture dans un fichier, etc...
 
-### b) Expressions
 
-L'appel d'une fonction **représente** une valeur et qui constitue une expression qu'on peut réutiliser dans nos programmes. Par exemple, l'affecter à une variable :
-
-```python
-res = somme( 2, 5 )
-```
-
-ou l'afficher grâce à la fonction ``print()`` :
-
-```python
-print(somme( 2, 5 ))
-```
-
-ou encore créer une expression plus complexe en imbriquant mes appels de fonctions :
-
-```python
-res = somme(somme( 3, 7 ), somme( 2, 5 ))
-```
-
-Ici, j'additionne le résultat de la somme de 3 et 7 avec le résultat de la somme de 2 et 5, ce qui fait 17. 
-
-On peut représenter les appels de fonctions par un schéma :
-
-![](./img/img_fonc/serie_appels.PNG)
-
-Mais cela implique que la valeur renvoyée par ``somme( 2, 5 )`` soit du même type que le paramètre de ma fonction ``somme``. Ce qui est le cas, car ``somme( 2, 5 )`` renvoie un nombre entier et mes paramètres à ma fonction ``somme`` sont de type ``int``.
 
 ### c) Décomposer un problème avec des fonctions
 
@@ -115,3 +89,66 @@ Si je déclare une variable globale ``f`` avant l'appel à la fonction :
 ![](./img/img_fonc/var_locale2.PNG)
 
 Pendant l'exécution de ``creer_variable()``, il existe simultanément deux variables qui s'appellent ``f`` : la variable globale et la variable locale. Dans ce cas, seule la variable locale est utilisée, on dit qu'elle *masque* la variable globale.
+
+
+#### Exercice
+
+- Ecrire une fonction ``incremente`` prenant en paramètre un entier *n* et renvoie $`n+1`$.
+
+- Déterminer le résultat de l'appel suivant :
+
+```python
+incremente( incremente ( incremente ( -3 )))
+```
+
+- Déssiner le schéma représentant les appels succéssifs de l'instruction précédente.
+
+#### Application 10
+
+Réécrire les fonctions ``double`` et ``creer_variable`` et refaire les situations vues dans le cours.
+
+#### Application 11
+
+Voici une procédure ``suivant`` prenant en paramètre un entier *n* et ajoute 1 à n mais ne renvoie rien :
+
+```python
+def suivant(x : int)-> None:
+    x = x + 1
+```
+
+Puis une suite d'instructions dans la console :
+
+![](./img/img_fonc/app11.PNG)
+
+Expliquer pourquoi *x* vaut toujours 1 après l'appel à ``suivant``.
+
+### Exercice 1
+
+*Dans cet exercice, on utilisera la division entière notée ``//``*
+
+Dans cet exercice, on souhaite faire la somme de tous les entiers multiples de 3 et 5 inférieurs à 1000.
+
+Commençons avec la somme des entiers des multiples de 3, c'est-à-dire :
+
+$`3+6+9+12+...+999`$
+
+On peut mettre 3 en facteur :
+
+$`3 * (1+2+3+4+...+333)`$
+
+Par chance, on sait que la somme des entiers de $`1`$ à $`n`$ est égale à $`n*(n+1)/2`$.
+
+Donc $`1+2+3+4+...+333= 333 * \frac{(333+1)}{2}`$
+
+- Ecrire une fonction ``somme_entier`` prenant en paramètre un entier *n* et renvoie la somme des entiers de 1 à *n* 
+
+La somme des entiers multiples de 3 est donc ``3 * somme_entier(333)``.
+
+On peut également l'écrire comme ``3 * somme_entier(999 // 3)``, ce qui nous permet d'écrire une fonction ``multiples`` permettant  d'obtenir la somme des entiers multiples de n'importe quel entier puisqu'il suffira de remplacer 3 par l'entier que l'on veut.
+
+- Ecrire une fonction ``multiples`` prenant en paramètre un entier *i* et renvoie la somme des entiers multiples de *i*
+
+La somme de tous les entiers multiples de 3 et 5 inférieurs à 1000 sera donc 
+
+```python
+multiples(3) + multiples(5)

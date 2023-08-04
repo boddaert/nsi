@@ -2,6 +2,30 @@
 
 ## Exercice 1
 
-L'énergie cinétique d'un objet de masse *m* et de vitesse *v* est : $`Ec=\frac{1}{2}mv^2`$.
+Ecrire une fonction `double(n : int) -> int` qui prend en paramètre un entier $`n`$ et renvoie comme résultat $`n * 2`$.
 
-Ecrire une fonction ``energie_cinetique`` prenant en paramètre une masse *m* et une vitesse *v*,deux entiers et renvoie la valeur de l'énergie cinétique d'un objet en utilisant la fonction ``produit`` et la fonction ``carre`` vus précédemment.
+## Exercice 2
+
+a) Ecrire une fonction `suivant(n : int) -> int` qui prend en paramètre un entier $`n`$ et renvoie comme résultat $`n+1`$.
+
+b) Que renvoie l'instruction suivante ?
+
+```python
+>>> suivant(suivant(2))
+```
+
+## Exercice 3
+
+Ecrire une fonction `est_egal_a(a : int, b : int) -> bool` qui prend en paramètre deux entiers $`a`$ et $`b`$ et renvoie comme résultat `True` si $`a`$ et $`b`$ sont égaux.
+
+## Exercice 4
+
+Ecrire une fonction `test_pythagore(a : int, b : int, c : int) -> bool` qui prend en paramètre trois entiers $`a`$, $`b`$ et $`c`$ et renvoie comme résultat `True` si cela vérifie $`a² + b² = c²`$.
+
+## Exercice 5
+
+L'énergie cinétique d'un objet de masse $m$ et de vitesse $v$ est : $`Ec=\frac{1}{2}mv^2`$.
+
+Ecrire une fonction ``energie_cinetique(m : float, v : float) -> float`` qui prend en paramètre une masse $m$ et une vitesse $v$, deux nombres flottants et renvoie la valeur de l'énergie cinétique d'un objet.
+
+Cette fonction devra utiliser les fonction ``produit()`` et ``carre()`` vus dans le chapitre sur les fonctions (cf : [Fonctions 1](./../Fonctions_1.md)).

@@ -25,12 +25,12 @@ Par exemple dans l'exemple suivant, l'opérateur est `+` et les opérandes sont 
 |   Division euclidienne | `/` |
 |   Division entière    | `//` |
 |   Puissance   |   `**` |
-|   Modulo (reste de la divion entière) |   `%` |
+|   Modulo (reste de la division entière) |   `%` |
 |   Supérieur à |   `>` |
 |   Inférieur à |   `<` |
-|   Supérieur ou égale à |   `>=` |
-|   Inférieur ou égale à |   `<=` |
-|   Egale à |   `==` |
+|   Supérieur ou égal à |   `>=` |
+|   Inférieur ou égal à |   `<=` |
+|   Egal à |   `==` |
 |   Différent de    |   `!=` |
 
 Nous remarquons que les six derniers opérateurs du tableau renvoient comme résultat un booléen :
@@ -88,45 +88,9 @@ a) Sur chacune d'elle, proposer un résultat sans utiliser l'ordinateur.
 
 b) A l'aide de la console Python, vérifier vos résultats.
 
-## Exercices 
+__________
 
-### Exercice 1
-
-A l'aide de la console, déterminer lequel des deux opérateurs est le plus prioritaire entre :
-
-- `*` et `**`
-
-- `+` et `//`
-
-- `%` et `*`
-
-### Exercice 2
-
-Donner le résultat des expressions suivantes en précisant le type du résultat ou lorsqu'une erreur doit survenir.
-
-- 5 ** 2 - 3
-
-- 5 / 2
-
-- 4 / 2
-
-- 'quatre' / 'deux'
-
-- 4 // 2
-
-- 4 % 2
-
-- ( 3 + ) 5
-
-- 5 % 2
-
-- 7 + 7 % 2
-
-- 3 * 3 ** 2
-
-- '4' // 2
-
-
+[Feuille d'exercice](./Exercices/Exercices_opérateurs.md)
 __________
 
 Leçon 3 : [Variables](./Variables.md)

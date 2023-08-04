@@ -13,7 +13,7 @@ aire_carre = hauteur_parallelepipede * largeur_parallelepipede
 aire_parallelepipede = (aire_rectangle * 4) + (aire_carre * 2)
 ```
 
-Ce programme permet de calculer la somme des aires d'un parallèlépipède de hauteur 2, de largeur 2 et de longueur 5.
+Ce programme permet de calculer la somme des aires d'un parallèlépipède de hauteur 2, de largeur $2$ et de longueur $5$.
 
 Nous constatons que nous avons calculé deux fois une aire : Une première fois pour l'aire d'un rectangle et la seconde pour un carré.
 
@@ -54,11 +54,11 @@ Ainsi, la signature de la fonction `somme()` s'écrirait : `somme(a : int, b : i
 
 - La valeur renvoyée par cette fonction est de type `int`.
 
-La fonction `somme()` permet de faire la somme des paramètres `a` et `b`.
+La fonction `somme()` permet de faire la somme des entiers $a$ et $b$ passés en paramètres.
 
 ##### Application 1
 
-Donner, pour chaque signature, le noms de la fonction, son ou ses paramètres ainsi que leur type et le type de la valeur de résultat :
+Donner, pour chaque signature, le nom de la fonction, son ou ses paramètres ainsi que leur type et le type de la valeur de résultat :
 
 - ``produit(a : int, b : int) -> int``
 
@@ -70,11 +70,11 @@ Donner, pour chaque signature, le noms de la fonction, son ou ses paramètres ai
 
 ##### Application 2
 
-Ecrire la signature de la fonction ``maximum()``qui prend en paramètres `a` et `b`, deux entiers et renvoie comme résultat un entier.
+Ecrire la signature de la fonction ``maximum()``qui prend en paramètres deux entiers $a$ et $b$ et renvoie comme résultat un entier.
 
 ##### Application 3
 
-Ecrire la signature de la fonction ``contient()`` qui prend en paramètre une châine de caractère et un caractère et renvoie comme résultat un booléen.
+Ecrire la signature de la fonction ``contient()`` qui prend en paramètre une chaîne de caractère $mot$, un caractère $lettre$ et renvoie comme résultat un booléen.
 
 ### b) Paramètres
 
@@ -121,11 +121,11 @@ def somme(a : int, b : int) -> int :
 
 ##### Application 4
 
-Ecrire, en Python, la fonction ``produit()`` qui prend en paramètres deux entiers `a` et `b` et renvoie comme résultat $`a * b`$.
+Ecrire, en Python, la fonction ``produit(a : int, b : int) -> int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie comme résultat $`a * b`$.
 
 ##### Application 5
 
-Ecrire, en Python, la fonction `carre()` qui prend en paramètres un entier `a` et renvoie comme résultat $`a²`$.
+Ecrire, en Python, la fonction `carre(n : int) -> int` qui prend en paramètres un entier $n$ et renvoie comme résultat $`a²`$.
 
 ## III. Appels de fonction
 
@@ -146,9 +146,9 @@ Ci-dessous, un exemple d'appel à la fonction `somme()` définie plus haut :
 7
 ```
 
-Les arguments sont `5` et `2`.
+Les arguments sont $`5`$ et $`2`$.
 
-Autrement dit, le paramètre `a` a comme valeur `5` et le paramètre `b` a comme valeur `2`.
+Autrement dit, le paramètre $`a`$ a comme valeur $`5`$ et le paramètre $`b`$ a comme valeur $`2`$.
 
 Il est important que le type de l'argument doit être le même que celui du paramètre.
 
@@ -159,6 +159,56 @@ Vérifier la bonne réponse à l'application 4 en appelant la fonction dans la c
 ##### Application 7
 
 Vérifier la bonne réponse à l'application 5 en appelant la fonction dans la console Python plusieurs fois avec des arguments différents.
+
+### b) Résultat d'une fonction
+
+Le résultat obtenu suite à l'appel d'une fonction représente une valeur.
+
+Nous pouvons stocker la valeur obtenue dans une variable :
+
+```python
+>>> a = somme(5,2)
+>>> a
+7
+```
+
+Ou la réutiliser dans une opération :
+
+```python
+>>> 2 * somme(5,2)
+14
+```
+
+Ou encore l'utiliser en tant qu'argument d'une autre fonction :
+
+```python
+>>> type(somme(5,2))
+<class 'int'>
+```
+
+##### Application 8
+
+Donner le résultat des instructions suivantes :
+
+a) Instruction 1
+
+```python
+>>> type(produit(3,4))
+```
+
+b) Instruction 2
+
+```python
+>>> a = somme(5,2)
+>>> b = produit(3,4)
+>>> c = a + b
+```
+
+c) Instruction 3
+
+```python
+>>> somme(5, somme(3,2))
+```
 
 ## IV. Fonctions natives
 

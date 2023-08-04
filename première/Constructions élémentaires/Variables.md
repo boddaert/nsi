@@ -10,7 +10,7 @@ On dit qu'une valeur est affectée à une variable.
 
 ### a) Affectation simple
 
-On peut affecter n'importe quelle valeur à une variable en Python avec l'opérateur d'affectation ``=`` :
+Nous pouvons affecter n'importe quelle valeur à une variable en Python avec l'opérateur d'affectation ``=`` :
 
 ```python
 >>> ma_variable = 42
@@ -62,57 +62,11 @@ On peut, comme pour les valeurs, connaître le type des variables en utilisant l
 
 ##### Application 2
 
-Pour chacune des variables créées à l'application 1, vérifier leur type dans la console python en utilisant la fonction `type()`
+Pour chacune des variables créées à l'application 1, vérifier leur type dans la console python en utilisant la fonction `type()`.
 
-## Exercices
+________
 
-### Exercice 1
-
-A l'issue de l'exécution de chacun des programmes suivants, indiquer la valeur affectée à la variable `mystere` :
-
-a) Programme 1
-
-```python
-ma_variable = 56.01
-mystere = True
-```
-
-b) Programme 2
-
-```python
-ma_variable = "hello world"
-mystere = ma_variable
-```
-
-c) Programme 3
-
-```python
-ma_variable = 3
-mystere = ma_variable * ma_variable
-```
-
-d) Programme 4
-
-```python
-mystere = 10
-mystere = mystere + 1
-```
-
-e) Programme 5
-
-```python
-ma_variable = 20
-mystere = ma_variable + 20
-ma_variable = 30
-mystere = mystere + ma_variable
-```
-
-f) Programme 6
-
-```python
-ma_variable = 5
-mystere = mystere + ma_variable
-```
+[Feuille d'exercice](./Exercices/Exercices_variables.md)
 ________
 
 Leçon 4 : [Séquences d'instructions](./Séquences.md)

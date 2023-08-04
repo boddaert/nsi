@@ -18,14 +18,14 @@ Par exemple, nous pouvons effectuer toutes les opérations possibles aux entiers
 
 ### a) Les entiers naturels
 
-On peut utiliser la fonction `type()` pour afficher le type d'une valeur mise entre les parenthèses :
+Nous pouvons utiliser la fonction `type()` pour afficher le type d'une valeur mise entre les parenthèses :
 
 ```python
 >>> type(5)
 <class 'int'>
 ```
 
-Par exemple, si je demande le type de la valeur 5 en écrivant `type(5)` dans la console Python, j'obtiens comme résultat : `<class 'int'>`.
+Par exemple, si nous demandons le type de la valeur 5 en écrivant `type(5)` dans la console Python, nous obtenons comme résultat : `<class 'int'>`.
 
 Pour l'instant, il est inutile de s'attarder sur le mot-clé `class`, concentrons nous sur le mot-clé `int` qui nous indique qu'il s'agit du type `int` ou `integer` qui veut dire **entier**.
 
@@ -63,7 +63,7 @@ En Python, les chaînes de caractère sont représentés par le type ``str``  :
 
 ##### Application 3
 
-Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `"azerty"`, `"exemple@mail.fr` et `"3.14"` sont bien des chaînes de caractères.
+Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `"azerty"`, `"exemple@mail.fr"` et `"3.14"` sont bien des chaînes de caractères.
 
 ## IV. Les booléens
 
@@ -105,28 +105,9 @@ Une seule valeur possède ce type, c'est ``None`` et comme son nom l'indique, c'
 | Booléen | `bool` |
 | NoneType | `None` |
 
-## Exercices
-
-### Exercice 1
-
-a) Donner, pour chaque valeur suivante, son type sans utiliser la fonction `type()` :
-
-- 8
-- 6.5
-- "6.5"
-- '6.5'
-- False
-- "True"
-- ""
-- 5 + 4
-- "5 + 4"
-- '"abcd"'
-- 5.5 + 0.3
-- 5.5 + 0.5
-- 5 + 3.14
-- 5 + 3.0
-
-b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses. Puis sur chacune d'entre elles, écrire une explication du type obtenu.
 _________
 
-Leçon 2 : [Opérateurs](./Operateurs.md)
+[Feuille d'exercice](./Exercices/Exercices_types.md)
+_________
+
+Leçon 2 : [Opérateurs](./Opérateurs.md)

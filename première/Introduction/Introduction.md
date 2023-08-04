@@ -84,4 +84,6 @@ On utilise généralement le mode interactif pour tester ses programmes ou ses i
 
 Répéter les opérations des applications 1 et 2 en utilisant cette fois uniquement le mode interactif de Thonny.
 
+________
 
+[Sommaire](./../..)

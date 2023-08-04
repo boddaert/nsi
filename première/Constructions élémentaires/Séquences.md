@@ -75,65 +75,10 @@ a = a - b
 b = b + 1
 a = a - b
 ```
- 
-## Exercices
 
-### Exercice 1
+_______
 
-Pour chacun des programmes suivants, donner la trace d'exécution.:
-
-a) Programme 1
-
-```python
-a = 3
-b = 9
-c = a * a
-d = b - c
-```
-
-b) Programme 2
-
-```python
-a = 10
-b = a // 2
-d = a + b
-```
-
-c) Programme 3
-
-```python
-a = 2
-b = 5 ** a
-d = b // 2
-```
-
-d) Programme 4
-
-```python
-a = 30
-b = 50
-c = b - a
-d = c // 2 + a
-```
-
-e) Programme 5
-
-```python
-a = 10
-b = a + 1
-c = b + 1
-d = a + b + c
-```
-
-### Exercice 2
-
-Pour chacun des programmes de l'exercice 1 :
-
-- Ecrire le programme dans l'éditeur de texte en mode programmation de Thonny.
-
-- Aller dans l'onglet `Affichage` et cocher `Variables`. Une nouvelle fenêtre à droite de l'écran s'ouvre.
-
-- Exécuter ligne par ligne le programme en utilisant l'outil de `Débogueur` (le bouton à droite de celui d'exécution).
+[Feuille d'exercice](./Exercices/Exercices_sequences.md)
 
 _______
 
