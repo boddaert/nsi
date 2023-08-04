@@ -4,15 +4,17 @@
 
 En Python, les valeurs ont des types. 
 
-On appelle *valeur* toute donnée manipulable. Par exemple, `42` et `$` sont des valeurs que l'on peut manipuler dans nos programmes.
+On appelle *valeur* toute donnée manipulable. Par exemple, $`42`$ et $`$`$ sont des valeurs que l'on peut manipuler dans nos programmes.
 
 Chaque valeur a un *type* qui la **caractérise**. On peut distinguer, parallèlement aux mathématiques, les nombres entiers et les réels par exemple, qui sont deux types distincts en Python : les entiers et les flottants.
 
-Par exemple, `42` est un entier et `$` un caractère.
+Par exemple, $`42`$ est un entier et $`$`$ un caractère.
 
 Attribuer un type à une valeur nous sert à **classer nos données** et donc à savoir si telle ou telle opération est possible sur la donnée.
 
-Par exemple, nous pouvons effectuer toutes les opérations possibles aux entiers à la valeur `42` puisque `42` est un entier. Mais nous ne pouvons pas additionner `42` et `$` puisque `$` est un caractère.
+Par exemple, nous pouvons effectuer toutes les opérations possibles aux entiers à la valeur $`42`$ puisque $`42`$ est un entier.
+
+Mais nous ne pouvons pas additionner $`42`$ et $`$`$.
 
 ## II. Les nombres
 
@@ -31,7 +33,7 @@ Pour l'instant, il est inutile de s'attarder sur le mot-clé `class`, concentron
 
 ##### Application 1
 
-Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `42`, `3000`, `0` et `-4` sont bien des entiers.
+Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs $`42`$, $`3000`$, $`0`$ et $`-4`$ sont bien des entiers.
 
 ### b) Les réels
 
@@ -46,13 +48,13 @@ Le type des réels en Python est le type ``float`` pour **nombres flottants**.
 
 ##### Application 2
 
-Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `5.0`, `0.6578543`, `0.0` et `-6.4` sont bien des flottants.
+Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs $`5.0`$, $`0.6578543`$, $`0.0`$ et $`-6.4`$ sont bien des flottants.
 
 ## III. Les chaînes de caractères
 
-Une chaîne de caractère est une valeur encadrée par des **guillemets** (ou des guillemets simples) : ``"a"``  ou ``'a'``.
+Une chaîne de caractère est une valeur encadrée par des **guillemets** (ou des guillemets simples) : $`"a"`$  ou $`'a'`$.
 
-Une chaîne de caractère peut contenir plusieurs caractères : ``"acdc"``.
+Une chaîne de caractère peut contenir plusieurs caractères : $`"acdc"`$.
 
 En Python, les chaînes de caractère sont représentés par le type ``str``  :
 
@@ -63,7 +65,7 @@ En Python, les chaînes de caractère sont représentés par le type ``str``  :
 
 ##### Application 3
 
-Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `"azerty"`, `"exemple@mail.fr"` et `"3.14"` sont bien des chaînes de caractères.
+Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs $`"azerty"`$, $`"exemple@mail.fr"`$ et $`"3.14"`$ sont bien des chaînes de caractères.
 
 ## IV. Les booléens
 
@@ -71,7 +73,7 @@ Les *booléens* sont un type bien particulier de la programmation, présents dan
 
 Dans le type booléen, il y a seulement deux valeurs : **Vrai**, **Faux**.
 
-En Python, ces valeurs sont ``True`` et ``False`` respectivement. 
+En Python, ces valeurs sont $`True`$ et $`False`$ respectivement. 
 
 ```python
 >>> type(True)
@@ -82,13 +84,13 @@ Ces booléens servent notemment dans les tables de vérité et les instructions 
 
 ##### Application 4
 
-Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `True` et `False` sont bien des booléens.
+Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs $`True`$ et $`False`$ sont bien des booléens.
 
 ## V. NoneType
 
 Voici un type encore plus particulier : ``NoneType`` 
 
-Une seule valeur possède ce type, c'est ``None`` et comme son nom l'indique, c'est une valeur qui ne représente ... rien !
+Une seule valeur possède ce type, c'est $`None`$ et comme son nom l'indique, c'est une valeur qui ne représente ... rien !
 
 ```python
 >>> type(None)

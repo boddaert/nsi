@@ -13,7 +13,7 @@ aire_carre = hauteur_parallelepipede * largeur_parallelepipede
 aire_parallelepipede = (aire_rectangle * 4) + (aire_carre * 2)
 ```
 
-Ce programme permet de calculer la somme des aires d'un parallèlépipède de hauteur 2, de largeur $2$ et de longueur $5$.
+Ce programme permet de calculer la somme des aires d'un parallèlépipède de hauteur $2$, de largeur $2$ et de longueur $5$.
 
 Nous constatons que nous avons calculé deux fois une aire : Une première fois pour l'aire d'un rectangle et la seconde pour un carré.
 
