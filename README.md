@@ -16,7 +16,7 @@ Chapitre 1 : Constructions élémentaires
 
 - Chapitre 1.4 : [Séquences d'instructions](./première/Constructions%20élémentaires/Séquences.md)
 
-- Chapitre 1.5 : [Fonctions_1](./première/Constructions%20élémentaires/Fonctions_1.md)
+- Chapitre 1.5 : [Fonctions 1](./première/Constructions%20élémentaires/Fonctions_1.md)
 
 - Chapitre 1.6 : [Conditions](./première/Constructions%20élémentaires/Conditions.md)
 
@@ -24,7 +24,7 @@ Chapitre 1 : Constructions élémentaires
 
 - Chapitre 1.8 : [Boucles non bornées](./première/Constructions%20élémentaires/Boucles_non_bornées.md)
 
-- Chapitre 1.8 : [Fonctions_2](./première/Constructions%20élémentaires/Fonctions_2.md)
+- Chapitre 1.8 : [Fonctions 2](./première/Constructions%20élémentaires/Fonctions_2.md)
 
 Chapitre _ : [Représentation des textes en machine](./première/Représentation des textes en machine/Leçon_representation_des_textes.MD)
 

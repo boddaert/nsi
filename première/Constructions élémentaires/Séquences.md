@@ -137,4 +137,4 @@ Pour chacun des programmes de l'exercice 1 :
 
 _______
 
-Leçon 5 : [Fonctions_1](./Fonctions_1.md)
+Leçon 5 : [Fonctions 1](./Fonctions_1.md)
