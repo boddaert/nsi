@@ -108,11 +108,9 @@ Il est possible, après une instruction conditionnelle, d'écrire une alternativ
       A--True-->B[Exécution de certaines instructions];
       A--False-->C{Si la condition vaut};
       C--True-->D[Exécution de certaines instructions];
-      C--False-->E[Exécution de certaines instructions];
-      C--True-->D[Suite programme]; 
-      D-->F[Suite programme];
-      E-->F[suite programme];
-      B-->F[suite programme];
+      C--False-->E[Suite programme];
+      D-->E[Suite programme];
+      B-->E[suite programme];
 ```
 
 ### b) Syntaxe en Python
