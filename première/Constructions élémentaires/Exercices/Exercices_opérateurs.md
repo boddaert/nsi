@@ -6,9 +6,15 @@ Donner le résultat des expressions suivantes en précisant le type du résultat
 
 - `5 ** 2 - 3`
 
+- `10 < 9`
+
+- `10 <= 10`
+
 - `5 / 2`
 
 - `4 / 2`
+
+- `False and False`
 
 - `4 / 0`
 
@@ -18,9 +24,11 @@ Donner le résultat des expressions suivantes en précisant le type du résultat
 
 - `4 % 2`
 
-- `( 3 + ) 5`
+- `4 != 2`
 
 - `5 % 2`
+
+- `True or True`
 
 - `7 + 7 % 2`
 
@@ -30,6 +38,16 @@ Donner le résultat des expressions suivantes en précisant le type du résultat
 
 ## Exercice 2
 
+Donner le résultat des expressions suivantes en précisant le type du résultat.
+
+- `(True or False) and True`
+- `(5 + 5) == 10`
+- `(5 + 5) == 10 and False`
+- `not 5 < 2`
+- `not (5 + 5) != 10 or False`
+
+## Exercice 3
+
 A l'aide de la console, déterminer l'opérateur le plus prioritaire entre :
 
 - `*` et `**`
@@ -37,3 +55,5 @@ A l'aide de la console, déterminer l'opérateur le plus prioritaire entre :
 - `+` et `//`
 
 - `%` et `*`
+
+- `not` et `or`

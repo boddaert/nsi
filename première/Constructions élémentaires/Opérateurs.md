@@ -17,6 +17,8 @@ Par exemple dans l'exemple suivant, l'opérateur est `+` et les opérandes sont 
 
 ## II. Les différents opérateurs
 
+### a) Opérateurs mathématiques
+
 |   En Français    |   En Python   |
 | --- | --- |
 |   Addition    |`+`|
@@ -26,18 +28,12 @@ Par exemple dans l'exemple suivant, l'opérateur est `+` et les opérandes sont 
 |   Division entière    | `//` |
 |   Puissance   |   `**` |
 |   Modulo (reste de la division entière) |   `%` |
-|   Supérieur à |   `>` |
-|   Inférieur à |   `<` |
-|   Supérieur ou égal à |   `>=` |
-|   Inférieur ou égal à |   `<=` |
-|   Egal à |   `==` |
-|   Différent de    |   `!=` |
 
-Nous remarquons que les six derniers opérateurs du tableau sont des *comparateurs* et renvoient comme résultat un booléen :
+Les opérateurs mathématiques ont comme opérandes des nombres entiers ou flottants et renvoient comme résultat un nombre entier ou flottant :
 
 ```python
->>> 5 > 2
-True
+>>> 12 // 4
+3
 ```
 
 ##### Application 1
@@ -50,12 +46,96 @@ Nous considèrons les expressions suivantes :
 - `11 // 7`
 - `11 ** 7`
 - `11 % 7`
+
+a) Sur chacune d'elle, proposer un résultat sans utiliser l'ordinateur.
+
+b) A l'aide de la console Python, vérifier vos résultats.
+
+### b) Opérateurs de comparaison
+
+|   En Français    |   En Python   |
+| --- | --- |
+|   Supérieur à |   `>` |
+|   Inférieur à |   `<` |
+|   Supérieur ou égal à |   `>=` |
+|   Inférieur ou égal à |   `<=` |
+|   Egal à |   `==` |
+|   Différent de    |   `!=` |
+
+Les opérateurs de comparaison ont comme opérandes des nombres entiers ou flottants et renvoient comme résultat un booléen :
+
+```python
+>>> 5 > 2
+True
+```
+##### Application 2
+
+Nous considèrons les expressions suivantes :
+
 - `11 > 7`
 - `11 < 7`
 - `11 >= 7`
 - `11 <= 7`
 - `11 == 7`
 - `11 != 7`
+
+a) Sur chacune d'elle, proposer un résultat sans utiliser l'ordinateur.
+
+b) A l'aide de la console Python, vérifier vos résultats.
+
+### c) Opérateurs booléens
+
+|   En Français    |   En Python   |
+| --- | --- |
+|   $NON$ |   `not` |
+|   $ET$ |   `and` |
+|   $OR$ |   `or` |
+
+Les opérateurs booléens ont comme opérandes des booléens et renvoient comme résultat un booléen :
+
+```python
+>>> True or False
+True
+```
+
+Nous résumons généralement les résultats des opérateurs booléens dans des *tables de vérité* :
+
+- Table de vérité de $NON$ :
+
+| $A$ | $NON A$ | 
+|---|---|
+| $False$ | $True$ |
+| $True$ | $False$ |
+
+- Table de vérité de $ET$ :
+
+| $A$ | $B$ | $A$ $ET$ $B$ | 
+|---|---|---|
+| $False$ | $False$ | $False$ | 
+| $False$ | $True$ | $False$ | 
+| $True$ | $False$ | $False$ | 
+| $True$ | $True$ | $True$ | 
+
+- Table de vérité de $OU$ :
+
+| $A$ | $B$ | $A$ $OU$ $B$ | 
+|---|---|---|
+| $False$ | $False$ | $False$ | 
+| $False$ | $True$ | $True$ | 
+| $True$ | $False$ | $True$ | 
+| $True$ | $True$ | $True$ | 
+
+
+##### Application 3
+
+Nous considèrons les expressions suivantes :
+
+- `True or False`
+- `True or True`
+- `True and True`
+- `not False`
+- `not False and True`
+- `not False or not True`
 
 a) Sur chacune d'elle, proposer un résultat sans utiliser l'ordinateur.
 
@@ -72,7 +152,7 @@ Les parenthèses `()` permettent d'augmenter la priorité de l'expression encadr
 16
 ```
 
-##### Application 2
+##### Application 4
 
 Nous considérons les expressions suivantes :
 

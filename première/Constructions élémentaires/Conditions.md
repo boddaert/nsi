@@ -4,7 +4,7 @@
 
 Une *instruction conditionnelle* est une instruction permettant d'exécuter certaines instructions uniquement si la condition est remplie.
 
-Une *condition* est le résultat d'une comparaison ou d'une expression booléenne, elle vaut soit $True$, soit $False$.
+Une *condition* est le résultat d'une comparaison (Opérateurs de comparaison et opérateurs booléens dans le chapitre cf [Opérateurs](./Opérateurs.md)), elle vaut soit $True$, soit $False$.
 
 Une condition est remplie si elle vaut $True$.
 
@@ -22,7 +22,7 @@ Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessi
       B-->C[Suite programme];
 ```
 
-### b) En Python
+### b) Syntaxe en Python
 
 En Python, l'instruction conditionnelle s'écrit par le mot-clé ``if`` (*Si* en Français):
 
@@ -32,11 +32,7 @@ if a == 0 :
 b = a
 ```
 
-Suite à cet exemple, nous constatons plusieurs choses :
-
-- Premièrement, la condition est ici le résultat d'une comparaison (cf [Opérateurs](./Opérateurs.md)).
-
-- Deuxièmement, la séquence d'instruction, exécutée si la condition est vraie, est indentée.
+Nous constatons que la séquence d'instruction, exécutée si la condition est vraie, est indentée.
 
 En Français, cela se traduirait :
 
@@ -54,89 +50,108 @@ Son schéma de branchement donnerait :
       B-->C[b = a];
 ```
 
-### c) Expressions booléennes
+## II. Alternative
 
-Les expressions booléennes seront plus appronfondies dans un prochain chapitre dédié.
+L'instruction conditionnelle peut introduire une séquence d'instruction alternative, à n'exécuter que lorsque la condition est fausse.
 
-Ici, nous ne parlerons que des opérateurs booléens $AND$ (: $ET$) et $OR$ (: $OU$).
+### a) Schéma de branchement
 
-| $A$ | $B$ | $A AND B$ | $A OR B$ | $NOT A$ | $NOT B |
-|---|---|---|---|---|---|
-| $False$ | $False$ | $False$ | $False$ | $True$ | $True$ |
-| $False$ | $True$ | $False$ | $True$ | $True$ | $False$ |
-| $True$ | $False$ | $False$ | $True$ | $False$ | $True$ |
-| $True$ | $True$ | $True$ | $True$ | $False$ | $False$ |
-
-
-
-![](./img/img_cond/compar_expr.PNG)
-
-______________
-
-Si nous reprenons notre exemple d'introduction, une fonction ``divise( a : int, b : int )-> float`` prenant en paramètres deux entiers *a* et *b* et permettant d'effectuer l'opération de division lorsque *b* ne vaut pas 0 s'écrit : 
-
-```python
-def divise( a : int, b : int)-> float:
-    if b != 0 :
-        res = a / b
-    return res
+```mermaid
+  graph LR;
+      A{Si la condition vaut};
+      A--True-->B[Exécution de certaines instructions];
+      A--False-->C[Exécution de certaines instructions];
+      C-->D[Suite programme];    
+      B-->D[Suite programme];
 ```
-
-Cette fonction peut être représentée par le schéma de branchement suivant :
-
-![](./img/img_cond/divise.PNG)
-
-Par contre, nous n'avons pas contrôler tous les différents cas possibles, notre fonction ``divise`` ne gère pas le cas lorque *b* vaut effectivement 0.
-
-C'est pourquoi on a besoin, selon les programmes, d'une alternative.
-
-## II. Instructions *Sinon*
-
-### a) Principe
-
-L'instruction conditionnelle **Si** peut introduire une séquence d'instruction **alternative**, à **n'exécuter que dans le cas où la condition n'est pas vérifiée**.
-
-Voici le schéma de branchement représentant les cas où la condition est vérifiée et d'une alternative lorsque la condition n'est pas vérifiée :
-
-![](./img/img_cond/principe_else.PNG)
-
-On a donc une instruction constituée de deux **branches**, dont **une seule sera choisie**.
-
-Pour faire la distinction entre les deux séquences d'instructions, on utilise l'instruction **Sinon** :
-
-![](./img/img_cond/principe_syntaxe_else.PNG)
-
-L'**instruction1** est exécutée si *condition* est vérifié sinon c'est l'**instruction2** qui est exécutée.
 
 ### b) Syntaxe en Python
 
-En Python, l'instruction **Sinon** s'écrit avec le mot-clé ``else`` :
-
-![](./img/img_cond/syntaxe_else.PNG)
-
-- Si la condition est vérifiée, les instructions **1** et **3** sont exécutées
-
-- Si la condition n'est pas vérifiée, les instructions **2** et **3** sont exécutées
-
-Comme pour la séquence d'instructions du ``if``, la séquence d'instructions du ``else`` est **indentée**.
-
-____________
-
-On peut donc désormais améliorer notre fonction ``divise``. On décide, dans le cas où *b* vaut 0, d'afficher un message dans la console :
+En Python, l'instruction d'alternative s'écrit avec le mot-clé ``else`` (*Sinon* en Français) :
 
 ```python
-def divise2( a : int, b : int)-> float:
-    if b != 0 :
-        res = a / b
-    else :
-        res = "Division par 0 impossible"
-    return res
+if a == 0 :
+    a = a + 1
+else :
+    a = a + 3
+b = a
 ```
 
-Cela donne comme schéma de branchement :
+En Français, cela se traduirait :
 
-![](./img/img_cond/divise2.PNG)
+- *Si* `a` est égal à 0, alors nous ajoutons $1$ à `a`.
 
+- *Sinon*, nous ajoutons $3$ à `a`.
+
+- Nous affectons à la variable `b` la valeur de `a`.
+
+Son schéma de branchement donnerait :
+
+```mermaid
+  graph LR;
+      A{if a == 0 :};
+      A--True-->B[a = a + 1];
+      A--False-->C[a = a + 3];
+      B-->D[b = a];
+      C-->D[b = a];
+```
+
+## III. Autre alternative
+
+Il est possible, après une instruction conditionnelle, d'écrire une alternative comportant une condition.
+
+### a) Schéma de branchement
+
+```mermaid
+  graph LR;
+      A{Si la condition vaut};
+      A--True-->B[Exécution de certaines instructions];
+      A--False-->C{Si la condition vaut};
+      C--True-->D[Exécution de certaines instructions];
+      C--False-->E[Exécution de certaines instructions];
+      C--True-->D[Suite programme]; 
+      D-->F[Suite programme];
+      E-->F[suite programme];
+      B-->F[suite programme];
+```
+
+### b) Syntaxe en Python
+
+Cette alternative est la combinaison d'un *Si* et d'un *Sinon* et s'écrit en Python à l'aide du mot-clé : `elif`.
+
+```python
+if a == 0 :
+    a = a + 1
+elif a == 1 :
+    a = a + 2
+else :
+    a = a + 3
+b = a
+```
+
+En Français, cela se traduirait :
+
+- *Si* `a` est égal à 0, alors nous ajoutons $1$ à `a`.
+
+- *Sinon Si* `a` est égal à 1, alors nous ajoutons $2$ à `a`.
+
+- *Sinon*, nous ajoutons $3$ à `a`.
+
+- Nous affectons à la variable `b` la valeur de `a`.
+
+Son schéma de branchement donnerait :
+
+```mermaid
+  graph LR;
+      A{if a == 0 :};
+      A--True-->B[a = a + 1];
+      A--False-->C{elif a == 1 :};
+      C--True-->D[a = a + 2];
+      C--False-->E[a = a + 3];
+      B-->F[b = a];
+      D-->F[b = a];
+      E-->F[b = a];
+```
 ## Applications
 
 #### Application 1
@@ -194,66 +209,6 @@ Enfin, dessiner son schéma de branchement.
 
 Ecrire une fonction ``test_pythagore( a : int, b : int, c : int )-> bool`` prenant en paramètre 3 entiers *a*, *b* et *c* et renvoie ``True`` si $`a^2 + b^2 = c^2`$, et ``False`` sinon.
 
-## III. Ajouter des branches
-
-### a) Enchaîner les *Si*
-
-On peut ajouter autant de branches que l'on veut avec sa propre condition en enchaînant les instructions conditionnelles ``if`` :
-
-```python
-def sisisi( n : int )-> None :
-    if n < 2 :
-        print("Bit")
-    if n < 256 :
-        print("Octet")
-    if n < 65536 :
-        print("2 octets")
-```
-
-Voici une procédure ```sisisi( n : int )-> None``` prenant en paramètre un entier *n* et effectue 3 tests sur cet entier.
-
-Attention cependant, une suite d'instructions ``if`` **ne définit pas une alternative entre plusieurs branches**, mais simplement plusieurs conditions qui seront testées et exécutées **indépendamment l'une de l'autre**.
-
-Ainsi, la fontion ```sisisi``` va tester les 3 conditions dans tous les cas, et est susceptible d'afficher les 3 résultats si par exemple *n* vaut 1 :
-
-```python
->>> sisisi(1)
-Bit
-Octet
-2 octets
-```
-
-Pour obtenir une alternative entre ces 3 possibilités, c'est-à-dire n'avoir qu'un résultat, on devra recourir à ``else`` qu'on a déjà vu ou ``elif``.
-
-### b) Instructions *Sinon Si*
-
-Pour ajouter des branches après une première branche conditionnelle **Si**, chaque branche suivante peut être ajoutée avec sa propre condition avec l'instruction **Sinon Si** ( ``elif`` en Python, qui est la contraction de ``else`` et ``if`` ).
-
-Chaque branche ajoutée avec **Sinon Si** représente une **alternative** :
-
-```python
-def sisisi2( n : int )-> None:
-    if n < 2 :
-        print("Bit")
-    elif n < 256 :
-        print("Octet")
-    elif n < 65536 :
-        print("2 octets")
-```
-
-Par exemple en testant plusieurs valeurs :
-
-```python
->>> sisisi2(1)
-Bit
->>> sisisi2(255)
-Octet
->>> sisisi2(65535)
-2 octets
-```
-
-Attention, l'ordre dans lequel sont écrits les conditions est importante. **Seule la première branche dont la condition est vérifiée est exécutée**.
-
 ## Applications
 
 #### Application 5
@@ -267,69 +222,6 @@ Attention, l'ordre dans lequel sont écrits les conditions est importante. **Seu
 ![](./img/img_cond/app6.PNG)
 
 D'après le schéma de branchement précédent, écrire la fonction ``quoi_n( n : int )-> str`` associée.
-
-## IV. Conditions imbriquées
-
-Chaque instruction conditionnelle contient des instructions à exécuter. Et ces instructions peuvent aussi être des instructions conditionnelles.
-
-Il est ainsi possible de créer des **cascades de conditions** menant à de multiples branches.
-
-Le mot-clé `elif` a le même effet qu'une combinaison de `else` et `if`.
-
-Considérons le problème suivant : sur trois entiers *a*, *b* et *c*, on doit distinguer les cas où *b* est compris entre *a* et *c*. C'est-à-dire lorsque $`a \leq b < c`$ ou $`a > b \geq c`$.
-
-Afin de mieux comprendre comment écrire un tel programme, on peut s'aider d'un schéma représentant les différents cas:
-
- ![](./img/img_cond/imbriquer.PNG)
-
-On peut modifier un peu le schéma ci-dessus pour le faire correspondre à notre future fonction en y ajoutant les instructions conditionnelles et ainsi obtenir notre schéma de branchement :
-
-![](./img/img_cond/imbriquer2.PNG)
-
-En suivant les conditions et les branchements du schéma, on peut écrire notre fonction ``b_compris_entre_a_et_c( a : int, b : int, c : int ) -> bool``:
-
-```python
-def b_compris_entre_a_et_c( a : int, b : int, c : int)-> bool:
-    if a <= b :
-        if b < c :
-            res = True
-        else :
-            res = False
-    else :
-        if b >= c :
-            res = True
-        else :
-            res = False
-    return res
-```
-
-ou
-
-```python
-def b_compris_entre_a_et_c( a : int, b : int, c : int)-> bool:
-    if a <= b :
-        if b < c :
-            res = True
-        else :
-            res = False
-    elif b >= c :
-         res = True
-    else :
-         res = False
-    return res
-```
-
-__________________________
-
-## A retenir
-
-*L'instruction conditionnelle ``if`` permet d'exécuter certaines instructions selon une condition.*
-
-*L'instruction ``else`` est une alternative dans le cas où la condition a échoué.*
-
-*Les conditions sont vérifiées ou non, vraies ou fausses et sont le résultat d'une comparaison ou d'une expression booléenne.*
-
-*On peut ajouter autant de fois que l'on veut les instructions conditionnelles ou les imbriquer.*
 
 ______________________
 
