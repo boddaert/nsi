@@ -60,9 +60,9 @@ Nous obtiendrions la trace d'exécution suivante :
 
 | Numéro de ligne | Valeur affectée à `a` | Valeur affectée à `b` |
 | --- | --- | --- |
-| 1 | 10 | / |
-| 2 | 11 | / |
-| 3 | 11 | 10 |
+| 1 | $10$ | / |
+| 2 | $11$ | / |
+| 3 | $11$ | $10$ |
 
 ##### Application 2
 

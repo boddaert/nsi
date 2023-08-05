@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-Pour chacun des programmes suivants, indiquer la valeur de `a` et `b` à l'issue de l'exécution :
+Pour chacun des programmes suivants, indiquer la valeur de $`a`$ et $`b`$ à l'issue de l'exécution :
 
 a) Programme 1
 
@@ -101,7 +101,7 @@ a = b
 b = tmp
 ```
 
-## Exercice 
+## Exercice 3
 
 Pour chacun des programmes de l'exercice 1 et 2 :
 

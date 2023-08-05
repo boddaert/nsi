@@ -4,17 +4,17 @@
 
 En Python, les valeurs ont des types. 
 
-On appelle *valeur* toute donnée manipulable. Par exemple, $`42`$ et $`$`$ sont des valeurs que l'on peut manipuler dans nos programmes.
+On appelle *valeur* toute donnée manipulable. Par exemple, $`42`$ et $`ù`$ sont des valeurs que l'on peut manipuler dans nos programmes.
 
 Chaque valeur a un *type* qui la **caractérise**. On peut distinguer, parallèlement aux mathématiques, les nombres entiers et les réels par exemple, qui sont deux types distincts en Python : les entiers et les flottants.
 
-Par exemple, $`42`$ est un entier et $`$`$ un caractère.
+Par exemple, $`42`$ est un entier et $`ù`$ un caractère.
 
 Attribuer un type à une valeur nous sert à **classer nos données** et donc à savoir si telle ou telle opération est possible sur la donnée.
 
 Par exemple, nous pouvons effectuer toutes les opérations possibles aux entiers à la valeur $`42`$ puisque $`42`$ est un entier.
 
-Mais nous ne pouvons pas additionner $`42`$ et $`$`$.
+Mais nous ne pouvons pas additionner $`42`$ et $`ù`$.
 
 ## II. Les nombres
 

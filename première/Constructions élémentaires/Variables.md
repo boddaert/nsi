@@ -42,10 +42,10 @@ L'ancienne valeur est alors écrasée par la nouvelle valeur.
 
 Dans la console python et en utilisant l'affectation, affecter :
 
-- la variable `ma_variable_a` avec la valeur `1`
-- la variable `ma_variable_b` avec la valeur `9.99`
-- la variable `ma_variable_c` avec la valeur `"hello world"`
-- la variable `ma_variable_d` avec la valeur `True`
+- la variable `ma_variable_a` avec la valeur $`1`$
+- la variable `ma_variable_b` avec la valeur $`9.99`$
+- la variable `ma_variable_c` avec la valeur $`"hello world"`$
+- la variable `ma_variable_d` avec la valeur $`True`$
 
 Puis, vérifier en appelant chacune des variables les valeurs associées.
 

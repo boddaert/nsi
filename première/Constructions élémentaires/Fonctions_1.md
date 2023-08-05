@@ -50,7 +50,7 @@ Ainsi, la signature de la fonction `somme()` s'écrirait : `somme(a : int, b : i
 
 - Le nom est : `somme()`.
 
-- Les paramètres sont `a` et `b` et sont tous les deux de type `int`.
+- Les paramètres sont $`a`$ et $`b`$ et sont tous les deux de type `int`.
 
 - La valeur renvoyée par cette fonction est de type `int`.
 

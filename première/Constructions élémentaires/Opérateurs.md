@@ -44,18 +44,18 @@ True
 
 Nous considèrons les expressions suivantes :
 
-- $11 + 7$
-- $11 * 7$
-- $11 / 7$
-- $11 // 7$
-- $11 ** 7$
-- $11 % 7$
-- $11 > 7$
-- $11 < 7$
-- $11 >= 7$
-- $11 <= 7$
-- $11 == 7$
-- $11 != 7$
+- `11 + 7`
+- `11 * 7`
+- `11 / 7`
+- `11 // 7`
+- `11 ** 7`
+- `11 % 7`
+- `11 > 7`
+- `11 < 7`
+- `11 >= 7`
+- `11 <= 7`
+- `11 == 7`
+- `11 != 7`
 
 a) Sur chacune d'elle, proposer un résultat sans utiliser l'ordinateur.
 
@@ -76,13 +76,13 @@ Les parenthèses `()` permettent d'augmenter la priorité de l'expression encadr
 
 Nous considérons les expressions suivantes :
 
-- $(3 + 8) * 2$
+- `(3 + 8) * 2`
 
-- $3 + (8 * 2)$
+- `3 + (8 * 2`$
 
-- $3 + 8 * 2$
+- `3 + 8 * 2`
 
-- $2 * 8 + 3$
+- `2 * 8 + 3`
 
 a) Sur chacune d'elle, proposer un résultat sans utiliser l'ordinateur.
 

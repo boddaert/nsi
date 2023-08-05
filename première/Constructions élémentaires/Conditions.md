@@ -1,18 +1,20 @@
 # Conditions
 
-Une part importante de la conception d'un programme consiste à **imaginer les différents cas de figure possibles**, notamment selon les arguments données par l'utilisateur lors d'un appel à une fonction ou la valeur des différentes variables.
+## I. Définitions
 
-En effet, il se peut que l'on souhaite exécuter **seulement certaines instructions** selon une condition donnée.
+Une *condition* (ou *instruction conditionnelle*) est une instruction permettant d'exécuter certaines instructions uniquement si la condition est remplie.
 
-Par exemple, si l'on souhaite écrire une fonction ``divise( a : int, b : int)-> float`` qui effectue l'opération de la division de *a* par *b*. On doit s'assurer que *b* soit différent de 0 sinon l'erreur ``ZeroDivisionError: division by zero`` survient.
+La condition est remplie si elle vaut $True$.
 
-On doit donc écrire cette fonction de telle façon que le cas où *b* vaut 0 soit géré.
+### a) Schéma de branchement
 
-## I. Instructions *Si*
-
-### a) Principe
-
-L'instruction *conditionnelle* **Si** permet d'exécuter une instruction ou une séquence d'instructions ( ou bloc ) **selon le résultat d'une condition**.
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
 
 Voici un *schéma de branchement* représentant l'instruction conditionnelle **Si** :
 
