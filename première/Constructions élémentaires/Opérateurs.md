@@ -33,7 +33,7 @@ Par exemple dans l'exemple suivant, l'opérateur est `+` et les opérandes sont 
 |   Egal à |   `==` |
 |   Différent de    |   `!=` |
 
-Nous remarquons que les six derniers opérateurs du tableau renvoient comme résultat un booléen :
+Nous remarquons que les six derniers opérateurs du tableau sont des *comparateurs* et renvoient comme résultat un booléen :
 
 ```python
 >>> 5 > 2

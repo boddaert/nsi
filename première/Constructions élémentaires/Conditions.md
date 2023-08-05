@@ -2,89 +2,72 @@
 
 ## I. Définitions
 
-Une *condition* (ou *instruction conditionnelle*) est une instruction permettant d'exécuter certaines instructions uniquement si la condition est remplie.
+Une *instruction conditionnelle* est une instruction permettant d'exécuter certaines instructions uniquement si la condition est remplie.
 
-La condition est remplie si elle vaut $True$.
+Une *condition* est le résultat d'une comparaison ou d'une expression booléenne, elle vaut soit $True$, soit $False$.
+
+Une condition est remplie si elle vaut $True$.
+
+Si la condition n'est pas remplie, la suite du programme est exécutée normalement.
 
 ### a) Schéma de branchement
 
+Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessinant son schéma de branchement :
+
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+  graph LR;
+      A{Si la condition vaut};
+      A--True-->B[Exécution de certaines instructions];
+      A--False-->C[Suite programme];
+      B-->C[Suite programme];
 ```
 
-Voici un *schéma de branchement* représentant l'instruction conditionnelle **Si** :
+### b) En Python
 
-![](./img/img_cond/principe_schema.PNG)
+En Python, l'instruction conditionnelle s'écrit par le mot-clé ``if`` (*Si* en Français):
 
-Une condition est vérifiée si elle vaut **Vrai**.
+```python
+if a == 0 :
+    a = a + 1
+b = a
+```
 
-Si la condition n'est pas vérifiée, on exécute simplement la suite du programme.
+Suite à cet exemple, nous constatons plusieurs choses :
 
-On représente en écriture algorithmique l'instruction conditionnelle comme ceci :
+- Premièrement, la condition est ici le résultat d'une comparaison (cf [Opérateurs](./Opérateurs.md)).
 
-![](./img/img_cond/principe_syntaxe_if.PNG)
+- Deuxièmement, la séquence d'instruction, exécutée si la condition est vraie, est indentée.
 
-L'**instruction** est exécutée si *condition* est vérifié. 
+En Français, cela se traduirait :
 
-### b) Syntaxe en Python
+- *Si* `a` est égal à 0, alors nous ajoutons $1$ à `a`.
 
-En Python, l'instruction conditionnelle **Si** est définit par le mot-clé ``if`` :
+- Nous affectons à la variable `b` la valeur de `a`.
 
-![](./img/img_cond/syntaxe.PNG)
+Son schéma de branchement donnerait :
 
-- Si la condition est vérifiée, les instructions **1**, **2**, **3**, **4** et **5** sont exécutées.
+```mermaid
+  graph LR;
+      A{if a == 0 :};
+      A--True-->B[a = a + 1];
+      A--False-->C[b = a];
+      B-->C[b = a];
+```
 
-- Si la condition n'est pas vérifiée, les instructions **4** et **5** sont exécutées.
-
-On remarque, comme pour les fonctions, que la séquence d'instruction exécutée si la condition est vérifiée est **indentée** ( décalée vers la droite ).
-
-### c) Comparaisons
-
-Une condition est vérifiée si elle vaut **Vrai** ou n'est pas vérifiée si elle vaut **Faux**. Une condition est souvent le résultat d'une **comparaison** ou d'une **expression booléenne**.
-
-Les comparaisons s'expriment entre deux valeurs numériques :
-
-- ``>`` : plus grand que
-
-- ``>=`` : supérieur ou égal à
-
-- ``<`` : plus petit que
-
-- ``<=`` : inférieur ou égal à
-
-- ``==`` : égal à
-
-- ``!=`` : différent de
-
-On peut vérifier le résultat d'une comparaison dans la console :
-
-![](./img/img_cond/compar.PNG)
-
-### d) Expressions booléennes
+### c) Expressions booléennes
 
 Les expressions booléennes seront plus appronfondies dans un prochain chapitre dédié.
 
-Ce qu'on peut retenir : une expression booléenne vaut **Vrai** ou **Faux** et peut contenir des opérations sur des booléens :
+Ici, nous ne parlerons que des opérateurs booléens $AND$ (: $ET$) et $OR$ (: $OU$).
 
-- ``cond1 and cond2`` : est vrai si les conditions *cond1* **et** *cond2* valent ``True``, et faux sinon
+| $A$ | $B$ | $A AND B$ | $A OR B$ | $NOT A$ | $NOT B |
+|---|---|---|---|---|---|
+| $False$ | $False$ | $False$ | $False$ | $True$ | $True$ |
+| $False$ | $True$ | $False$ | $True$ | $True$ | $False$ |
+| $True$ | $False$ | $False$ | $True$ | $False$ | $True$ |
+| $True$ | $True$ | $True$ | $True$ | $False$ | $False$ |
 
-- ``cond1 or cond2`` : est vrai si la condition *cond1* **ou** *cond2* vaut ``True``, et faux sinon
 
-- ``not cond1`` : est vrai si *cond1* vaut ``False``, et faux sinon
-
-On peut résumer les résultats des différentes expressions booléennes par cette table de vérité suivante :
-
-![](./img/img_cond/table_de_verite.png)
-
-Vérification dans la console :
-
-![](./img/img_cond/bool.PNG)
-
-L'interêt est de pouvoir combiner les comparaisons et les opérateurs booléens dans nos conditions  :
 
 ![](./img/img_cond/compar_expr.PNG)
 
