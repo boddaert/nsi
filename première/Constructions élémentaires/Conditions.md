@@ -20,8 +20,8 @@ Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessi
   graph LR;
       A{Si la condition vaut};
       A--True-->B[Exécution de certaines instructions];
-      A--False-->C[Suite programme];
       B-->C[Suite programme];
+      A--False-->C[Suite programme];
 ```
 
 ### b) Syntaxe en Python
@@ -48,8 +48,8 @@ Son schéma de branchement donnerait :
   graph LR;
       A{if a == 0 :};
       A--True-->B[a = a + 1];
-      A--False-->C[b = a];
       B-->C[b = a];
+      A--False-->C[b = a];
 ```
 
 ##### Application 1
@@ -90,8 +90,8 @@ a) Schéma de branchement 1
   graph LR;
       A{if a != 0 :};
       A--True-->B[b = b + 1];
-      A--False-->C[a = a // 2];
       B-->C[a = a // 2];
+      A--False-->C[a = a // 2];
 ```
 
 b) Schéma de branchement 2
@@ -100,8 +100,8 @@ b) Schéma de branchement 2
   graph LR;
       A{if a >= 0 or b <= 0 :};
       A--True-->B[a = a - 1];
-      A--False-->C[b = b + 1];
       B-->C[b = b + 1];
+      A--False-->C[b = b + 1];
 ```
 
 c) Schéma de branchement 3
@@ -122,9 +122,9 @@ L'instruction conditionnelle peut introduire une séquence d'instruction alterna
   graph LR;
       A{Si la condition vaut};
       A--True-->B[Exécution de certaines instructions];
-      A--False-->C[Exécution de certaines instructions];
-      C-->D[Suite programme];    
+      A--False-->C[Exécution de certaines instructions];   
       B-->D[Suite programme];
+      C-->D[Suite programme]; 
 ```
 
 ### b) Syntaxe en Python
