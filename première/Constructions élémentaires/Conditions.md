@@ -1,4 +1,4 @@
-# Conditions
+# Instructions conditionnelles
 
 ## I. Définitions
 
