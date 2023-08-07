@@ -231,4 +231,4 @@ _________________________
 
 __________________________
 
-Leçon 6 : [Boucles bornées](./Boucles_bornées.md.md)
+Leçon 7 : [Boucles non bornées](./Boucles_non_bornées.md.md)
