@@ -1,56 +1,20 @@
-## II. Renvoyer un résultat
+# Fonctions 2
 
-### a) Fonctions et Procédures
+## I. Spécification d'une fonction
 
-Les fonctions renvoient une **valeur** en utilisant le mot-clé ``return``. Le mot-clé ``return`` est situé principalement à la fin de la fonction, lorsque son instruction est réalisée, elle **met fin à l'exécution** de la fonction. Attention à ne pas confondre la fonction ``print`` qui **affiche** un resultat et l'instruction ``return`` qui **renvoie** un resultat.
+### a) Préconditions
 
-La valeur renvoyée **possède un type** comme n'importe quelle autre valeur que l'on a pu voir.
+-> assertions
 
-Lors de l'écriture de la définition de la fonction, on précise le type de la valeur renvoyée par la notation : `-> type`.
+### b) Postconditions
 
-Par exemple, la fonction ``somme`` renvoie un entier.
-
-Une fonction peut ne pas renvoyer de résultat, on appelle cette fonction spéciale : une **procédure**. 
-
-La procédure n'a donc pas d'instruction ``return``, son exécution prend fin lorsque **toutes les instructions** du corps de la fonction ont été exécutées.
-
-Le type de la valeur renvoyée par une procédure est `-> None`.
-
-Objectifs :
-
-- Une fonction a pour objectif de faire un calcul et de renvoyer une valeur.
-
-- Une procédure réalise une action, par exemple un affichage, une écriture dans un fichier, etc...
-
-
-
-### c) Décomposer un problème avec des fonctions
-
-Considérons le problème suivant :
-
-On souhaite calculer le carré de la distance d'un point de coordonnées *( x, y )* à l'origine d'un repère orthonormal. Il se calcule $`x^2 + y^2`$.
-
-Pour ce faire, nous pouvons définir une fonction ``carre( n : int)-> int`` permettant de calculer le carré d'un entier passé en paramètre :
-
-```python
-def carre( n : int)-> int :
-    resultat = n ** 2
-    return resultat
-```
-
-Puis, une fonction ``carre_distance_origine( x : int, y : int )-> int`` en utilisant la fonction ``somme``et la fonction ``carre`` :
-
-```python
-def carre_distance_origine( x : int, y : int )-> int :
-    resultat = somme( carre(x), carre(y))
-    return resultat
-```
+-> doctests
 
 ## III. Portée des variables
 
 ### a) Définition
 
-La **portée** d'une variable désigne la zone de code dans le programme dans laquelle elle est accessible. Toutes nos variables ne sont pas nécessairement accessibles à n'importe quel endroit dans un programme et on ne va donc pas toujours pouvoir les utiliser.
+La *portée* d'une variable désigne la zone de code dans le programme dans laquelle elle est accessible. Toutes nos variables ne sont pas nécessairement accessibles à n'importe quel endroit dans un programme et on ne va donc pas toujours pouvoir les utiliser.
 
 On distingue les variables **globales** et **locales** qui possèdent une portée différente.
 

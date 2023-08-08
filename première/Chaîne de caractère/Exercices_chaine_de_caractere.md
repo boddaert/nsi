@@ -1,0 +1,139 @@
+
+# Exercices
+
+## Exercice 1
+
+Considérons la chaîne de carcatère ``prenom = 'timoleon'``.
+
+a) Ecrire l'instruction permettant d'obtenir la taille de `prenom`.
+
+b) Ecrire l'instruction permettant d'obtenir le premier et le dernier caractère de `prenom`.
+
+c) Ecrire le programme permettant d'affecter dans une variable `lettre` tous les caractères de `prenom`en réalisant un parcours par indice.
+
+d) Ecrire le programme permettant d'affecter dans une variable `lettre` tous les caractères de `prenom`en réalisant un parcours par élément.
+
+## Exercice 2
+
+Ecrire la fonction `contient(mot : str, lettre : str)-> bool` qui prend en paramètres deux chaînes de caractère et renvoie $True$ si `lettre` est présent dans `mot`.
+
+Cette fonction ne devra pas utiliser l'instruction `in`.
+
+Ecrire deux versions de cette fonction, la première en utilisant la boucle `for` et la seconde en utilisant la boucle `while`.
+
+## Exercice 3
+
+Considérons la fonction suivante :
+
+```python
+def mystere(mot : str, lettre : str)->int :
+  resultat = -1
+  for i in range(len(mot)) :
+    if mot[i] == lettre :
+      resultat = i
+  return resultat
+```
+a) Décrire en Français chaque ligne de la fonction.
+
+b) En déduire l'objectif de la fonction.
+
+c) Ecrire la trace d'exécution lorsque nous appelons la fonction avec `coucou` et `o` comme arguments.
+
+## Exercice 4
+
+Ecrire une fonction `nombre_occurences(mot : str, lettre : str)->int` qui prend en paramètres deux chaînes de caractères et renvoie comme résultat le nombre de fois qu'apparaît `lettre` dans `mot`.
+
+## Exercice 5
+
+Ecrire une fonction `etoiles(mot : str)->str` qui prend en paramètre une chaîne de caractère et renvoie comme résultat cette même chaîne avec le caractère $*$ entre chaque caractère de la chaîne.
+
+## Exercice 6
+
+Expliquer l'erreur suivante :
+
+```python
+>>> chaine = "3"
+>>> chaine + 2
+Traceback (most recent call last):
+  File "<pyshell>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+```
+
+## Exercice 7
+
+Ecrire une fonction `reduit(mot : str)-> str` qui prend en paramètre une chaîne de caractère et renvoie comme résultat cette même chaîne sans le premier ni le dernier caractère.
+
+
+## Exercice 8
+
+Il est possible de rendre majuscule une lettre minuscule et vice-versa :
+
+```python
+>>> lettre = "u"
+>>> lettre.upper()
+'U'
+>>> lettre.lower()
+'u'
+```
+
+a) Ecrire une fonction `maj(mot : str)->str` qui prend en paramètre une chaîne de caractère et renvoie cette même chaîne en majuscule.
+
+## Exercice 9
+
+Pour savoir si un caractère est en majuscule ou en minuscule :
+
+```python
+>>> lettre = "u"
+>>> lettre.isupper()
+False
+>>> lettre.islower()
+True
+```
+
+Ecrire une fonction `change_casse(mot : str)->str` qui prend en paramètre une chaîne de caractère et renvoie comme résultat cette même chaîne en changeant la casse.
+
+## Exercice 10
+
+Ecrire un  script python permettant d'afficher un sapin de Noël avec des décorations aléatoires.
+
+Les caractères utilisés pour les décorations seront stockés dans une liste créée en début de script.
+
+Par exemple, la console doit afficher :
+
+```python
+           *            
+          X**           
+         *****          
+        *******         
+       *******II        
+      I**@*******       
+     ********I****     
+    *******I*******    
+   *****************   
+  **@*****I****@**@**  
+ ***********X*I*****I* 
+**I****X***X***@******@
+          ***          
+          ***          
+          ***          
+```
+
+ou 
+
+```python
+           *            
+          ***           
+         **X*I          
+        *******         
+       *****@*@*        
+      **X****@***       
+     *************     
+    ****X*I********    
+   ***********X*****   
+  ***@***I*I*****X***  
+ ********X****@****X** 
+***@**I****I**X**I*****
+          ***          
+          ***          
+          ***          
+```

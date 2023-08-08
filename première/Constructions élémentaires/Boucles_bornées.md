@@ -26,7 +26,7 @@ La fonction `range()` renvoie un itérable. Elle prend deux paramètres représe
 
 ```python
 >>> range(2,5)
-[ 2, 3, 4]
+[2, 3, 4]
 ```
 
 La borne de fin est exclue.
@@ -127,4 +127,4 @@ ________
 
 ________
 
-Leçon 9 : [Fonctions 2](./Fonctions_2.md)
+[Sommaire](./../../première/)

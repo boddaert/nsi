@@ -65,11 +65,11 @@ Pour chacun des programmes de l'exercice 1, écrire la trace d'exécution.
 
 Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
-Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle.
+Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle `while`.
 
 ## Exercice 5
 
-Ecrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ et calcule $1+2+3+ ... +n$.
+Ecrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ et calcule $1+2+3+ ... +n$ en utilisant la boucle `while`.
 
 ## Exercice 6
 

@@ -14,18 +14,17 @@ En Python, les boucles non bornées s'écrivent en utilisant le mot-clé `while`
 
 La boucle non bornée permet de répéter l'exécution du corps de boucle si la condition est remplie.
 
-Comme nous l'avons vu dans la leçon précédente, une condition vaut soit $True$ soit $False$.
-
 La condition est remplie si elle vaut $True$.
 
 ### a) Syntaxe
 
-En Python, nous pouvons répéter un corps de boucle si une condition est remplie :
+Ci-dessous, un exemple d'utilisation de la boucle non bornée en Python :
 
 ```python
 a = 0
 while a < 3 :
     a = a + 1
+b = a
 ```
 
 A l'issue de l'exécution du programme précédent, la valeur affectée à la variable `a` est $3$.
@@ -34,6 +33,7 @@ En Français,cela se traduirait par :
 
 - La valeur affectée à la variable `a` est $0$.
 - Tant que `a` est inférieur à $3$, j'ajoute $1$ à `a`.
+- J'affecte à la variable `b` la valeur affectée à la variable `a`.
 
 Et son schéma de branchement donnerait :
 
@@ -42,7 +42,7 @@ Et son schéma de branchement donnerait :
       A{if a <= 0 :};
       A--True-->B[a = a + 1];
       B-->A;
-      A--False-->C[Suite programme];
+      A--False-->C[b = a];
 ```
 
 ##### Application 1
