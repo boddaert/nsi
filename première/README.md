@@ -26,6 +26,8 @@ Chapitre 2 : [Chaîne de caractères](./Chaîne%20de%20caractère/Chaine_de_cara
 
 Chapitre 3 : [Projets](./Projets/Projets.md)
 
+______
+
 Chapitre _ : [Représentation des textes en machine](./première/Représentation des textes en machine/Leçon_representation_des_textes.MD)
 
 
