@@ -39,11 +39,15 @@ a) Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètre
 
 b) Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en paramètres trois entiers $a$, $b$ et $c$ et renvoie l'entier le plus grand.
 
-### Exercice 5
+## Exercice 5
 
-Ecrire une fonction ``ordre_croissant( a : int, b : int, c : int )-> str`` qui prend en paramètre trois entiers $a$, $b$ et $c$ et renvoie comme résultat une chaîne de caractère contenant $a$, $b$ et $c$ dans l'ordre.
+En utilisant la fonction `randint()` du module `random`, écrire une fonction `max_alea(n : int)->bool` qui prend en paramètre un entier $n$ et renvoie $True$ si $n$ est plus grand que l'entier aléatoire créé.
 
-## Exercice 6
+### Exercice 6
+
+Ecrire une fonction ``ordre_croissant( a : int, b : int, c : int )-> str`` qui prend en paramètre trois entiers $a$, $b$ et $c$ et renvoie comme résultat une chaîne de caractère contenant $a$, $b$ et $c$ dans l'ordre croissant.
+
+## Exercice 7
 
 a) Ecrire une fonction ``test_triangle( a : int, b : int, c : int )-> str`` qui prend en paramètres trois entiers représentant les longueurs d'un triangle et renvoie comme résultat une chaîne de caractères.
 

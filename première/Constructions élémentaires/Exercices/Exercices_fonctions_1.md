@@ -20,10 +20,6 @@ Ecrire une fonction `est_egal_a(a : int, b : int) -> bool` qui prend en paramèt
 
 ## Exercice 4
 
-Ecrire une fonction `test_pythagore(a : int, b : int, c : int) -> bool` qui prend en paramètre trois entiers $`a`$, $`b`$ et $`c`$ et renvoie comme résultat `True` si cela vérifie $`a² + b² = c²`$.
-
-## Exercice 5
-
 L'énergie cinétique d'un objet de masse $m$ et de vitesse $v$ est : $`Ec=\frac{1}{2}mv^2`$.
 
 Ecrire une fonction ``energie_cinetique(m : float, v : float) -> float`` qui prend en paramètre une masse $m$ et une vitesse $v$, deux nombres flottants et renvoie la valeur de l'énergie cinétique d'un objet.
