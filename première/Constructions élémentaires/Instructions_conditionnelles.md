@@ -227,7 +227,7 @@ c) Schéma de branchement 3
 
 _________________________
 
-[Feuille d'exercices](./Exercices/Exercices_conditions.md)
+[Feuille d'exercices](./Exercices/Exercices_instructions_conditionnelles.md)
 
 __________________________
 

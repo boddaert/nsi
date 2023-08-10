@@ -18,7 +18,7 @@ Chapitre 1 : Constructions élémentaires
 
 - Leçon 6 : [Modules](./Constructions%20élémentaires/Modules.md)
 
-- Leçon 7 : [Conditions](./Constructions%20élémentaires/Conditions.md)
+- Leçon 7 : [Instructions conditionnelles](./Constructions%20élémentaires/Conditions.md)
 
 - Leçon 8 : [Boucles non bornées](./Constructions%20élémentaires/Boucles_non_bornées.md)
 
@@ -26,7 +26,7 @@ Chapitre 1 : Constructions élémentaires
 
 Chapitre 2 : [Projets](./Projets/Projets.md)
 
-Chapitre 3 : [Chaîne de caractères](./Chaîne%20de%20caractère/Chaine_de_caractere.md)
+Chapitre 3 : [Chaînes de caractères](./Chaînes%20de%20caractère/Chaines_de_caractere.md)
 
 ______
 
