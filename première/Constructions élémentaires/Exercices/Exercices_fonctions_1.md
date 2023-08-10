@@ -16,7 +16,7 @@ b) Que renvoie l'instruction suivante ?
 
 ## Exercice 3
 
-Ecrire une fonction `est_egal_a(a : int, b : int) -> bool` qui prend en paramètre deux entiers $`a`$ et $`b`$ et renvoie comme résultat `True` si $`a`$ et $`b`$ sont égaux.
+Ecrire une fonction `est_egal_a(a : int, b : int) -> bool` qui prend en paramètre deux entiers $`a`$ et $`b`$ et renvoie comme résultat `True` si $`a`$ et $`b`$ sont égaux et $False$ sinon.
 
 ## Exercice 4
 

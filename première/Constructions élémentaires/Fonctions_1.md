@@ -236,4 +236,4 @@ ___________
 [Feuille d'exercice](./Exercices/Exercices_fonctions_1.md)
 ____________
 
-Leçon 6 : [Conditions](./Conditions.md)
+Leçon 6 : [Modules](./Modules.md)

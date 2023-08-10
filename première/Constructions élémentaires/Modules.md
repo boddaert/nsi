@@ -64,3 +64,11 @@ Le module `random` met à disposition plusieurs fonctions permettant d'obtenir d
 | Nombre aléatoire compris entre $0$ et $1$ | `random` |
 
 Voir plus : [https://docs.python.org/fr/3/library/random.html](https://docs.python.org/fr/3/library/random.html)
+
+________
+
+[Feuille d'exercice](./Exercices/Exercices_modules.md)
+
+________
+
+Leçon 7 : [Instructions conditionnelles](./Conditions.md)
