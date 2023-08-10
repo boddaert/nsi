@@ -45,7 +45,7 @@ En Terminale, le volume horaire est de six heures par semaine.
 Vous serez amenés à travailler sur **papier** et sur **ordinateur** :
 
 - La majeure partie du temps en autonomie.
-- En groupe en projet.
+- En groupe en projet ou en activité.
 
 ### b) Sur ordinateur
 
@@ -98,13 +98,13 @@ Vingt points sont à répartir sur deux épreuves :
     + Le premier est un programme à écrire et le second consiste à remplir du code.
     + Chaque exercice est noté sur quatre points.
     + L'épreuve dure une heure.
-    + Après les épreuves écrites.
+    + Date : après les épreuves écrites.
 
 Sur chacune des deux épreuves, les compétences et les connaissances qui sont évaluées comprennent également celles de l'année de Première NSI.
 
 ### b) Préparer son bac
 
-Par semaine, une séance (2h) est réservée pour l'entraînement Baccalauréat.
+Par semaine en classe de Termianle, une séance (2h) est réservée pour l'entraînement Baccalauréat.
 
 [Banque d'épreuve écrite](https://pixees.fr/informatiquelycee/term/suj_bac/)
 

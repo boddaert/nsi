@@ -1,7 +1,7 @@
 
 ## Terminale NSI
 
-Chapitre 0 : [Prise de contact](.)
+Chapitre 0 : [Prise de contact](./../première/Prise%20de%20contact/Prise%20de%20contact.md)
 
 Chapitre 1 : [Modularité](./Modularité/Modularité.md)
 

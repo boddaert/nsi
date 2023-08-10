@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-Pour chacun des programmes suivants, indiquer la valeur de $`a`$ et $`b`$ à l'issue de l'exécution :
+Sans utiliser l'ordinateur et pour chacun des programmes suivants, indiquer la valeur de $`a`$ et $`b`$ à l'issue de l'exécution :
 
 a) Programme 1
 

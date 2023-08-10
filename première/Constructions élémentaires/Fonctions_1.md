@@ -125,7 +125,7 @@ Ecrire, en Python, la fonction ``produit(a : int, b : int) -> int`` qui prend en
 
 ##### Application 5
 
-Ecrire, en Python, la fonction `carre(n : int) -> int` qui prend en paramètres un entier $n$ et renvoie comme résultat $`a²`$.
+Ecrire, en Python, la fonction `carre(n : int) -> int` qui prend en paramètres un entier $n$ et renvoie comme résultat $`n²`$.
 
 ## III. Appels de fonction
 
@@ -202,6 +202,7 @@ b) Instruction 2
 >>> a = somme(5,2)
 >>> b = produit(3,4)
 >>> c = a + b
+>>> c
 ```
 
 c) Instruction 3
@@ -214,7 +215,7 @@ c) Instruction 3
 
 Les fonctions natives sont des fonctions qui existent déjà. La fonction ``type()`` par exemple est une fonction native.
 
-##### Application 8
+##### Application 9
 
 Il est possible, avec une fonction native, de changer le type de nos valeurs.
 
@@ -228,11 +229,11 @@ a) Dans la console Python et à l'aide de la fonction `str()`, convertir les val
 
 b) Dans la console Python et à l'aide de la fonction `int()`, convertir les valeurs `3.14`, `True`, `False` et `"42"`.
 
-c) Dans la console Python et à l'aide de la fonction `float()`, convertir les valeurs `42`, `3.14` et `"3000`.
+c) Dans la console Python et à l'aide de la fonction `float()`, convertir les valeurs `42`, `3.14` et `"3000"`.
 
 ___________
 
-[Feuille d'exercice](./Exercices/Exercices_fonctions.md)
+[Feuille d'exercice](./Exercices/Exercices_fonctions_1.md)
 ____________
 
 Leçon 6 : [Conditions](./Conditions.md)
