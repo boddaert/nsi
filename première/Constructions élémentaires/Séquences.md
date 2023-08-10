@@ -45,7 +45,7 @@ Une trace d'exécution, comme son nom l'indique, permet de garder une trace de l
 Une trace d'exécution est représentée par un tableau :
 
 | Numéro de ligne | Nom de variable | Valeur affectée |
-| --- | --- | --- |
+|---|---|---|
 | | | |
 
 Par exemple, pour le programme suivant :
@@ -59,7 +59,7 @@ b = a - 1
 Nous obtiendrions la trace d'exécution suivante :
 
 | Numéro de ligne | Valeur affectée à `a` | Valeur affectée à `b` |
-| --- | --- | --- |
+|---|---|---|
 | 1 | $10$ | / |
 | 2 | $11$ | / |
 | 3 | $11$ | $10$ |

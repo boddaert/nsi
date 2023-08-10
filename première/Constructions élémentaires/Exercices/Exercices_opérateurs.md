@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-Donner le résultat des expressions suivantes en précisant le type du résultat ou lorsqu'une erreur doit survenir.
+a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes en précisant le type du résultat ou lorsqu'une erreur doit survenir.
 
 - `5 ** 2 - 3`
 
@@ -36,15 +36,19 @@ Donner le résultat des expressions suivantes en précisant le type du résultat
 
 - `'4' // 2`
 
+b) Vérifier vos résultats dans la console.
+
 ## Exercice 2
 
-Donner le résultat des expressions suivantes en précisant le type du résultat.
+a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes en précisant le type du résultat.
 
 - `(True or False) and True`
 - `(5 + 5) == 10`
 - `(5 + 5) == 10 and False`
 - `not 5 < 2`
 - `not (5 + 5) != 10 or False`
+
+b) Vérifier vos résultats dans la console.
 
 ## Exercice 3
 

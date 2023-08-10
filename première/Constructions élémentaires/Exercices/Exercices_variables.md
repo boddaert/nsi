@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-A l'issue de l'exécution de chacun des programmes suivants, indiquer la valeur affectée à la variable `mystere` :
+Sans utiliser l'ordinateur, indiquer la valeur affectée à la variable `mystere` à l'issue de l'exécution de chacun des programmes suivants :
 
 a) Programme 1
 

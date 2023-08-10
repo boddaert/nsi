@@ -27,21 +27,11 @@ Tout le reste est libre et peut donc être personnalisé.
 
 Votre programme Python doit utiliser les modules `turtle` et `random`.
 
-Afin de vous aider à respecter les contraintes urbaines, vous devez écrire dans votre programme au minimum les fonction suivantes :
+Votre programme doit être modulaire, c'est-à-dire que vous devez écrire le plus possible de petites fonctions simples.
 
-- `sol()` permettant de tracer le sol de la rue.
+Pour chaque fonction que vous écrivez dans votre programme, elle doit être munie d'une documentation composée d'une DocString et d'une DocTest.
 
-- `etage()` permettant de tracer un étage.
-
-- `fenetre()` permettant de tracer une fenêtre.
-
-- `toit()` permettant de tracer un toit.
-
-- `porte()` permettant de tracer une porte.
-
-- `immeuble()` qui utilise toutes les fonctions précédentes et permettant de tracer un immeuble.
-
-- `rue()` qui utilise la fonction immeuble et permettant de tracer la rue.
+Votre programme doit avoir des noms de fonctions et de variables clairs et explicites.
 
 ### d) Module Turtle
 
@@ -76,4 +66,4 @@ Documentation de `turtle` : [https://docs.python.org/fr/3/library/turtle.html](h
 
 ________
 
-[Sommaire](./../../première/)
+[Sommaire](./../../terminale/)

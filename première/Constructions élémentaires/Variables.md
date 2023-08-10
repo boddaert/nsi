@@ -53,7 +53,7 @@ Puis, vérifier en appelant chacune des variables les valeurs associées.
 
 Le type d'une variable est le type de la valeur qu'elle contient.
 
-On peut, comme pour les valeurs, connaître le type des variables en utilisant la fonction ``type()`` :
+Nous pouvons, comme pour les valeurs, connaître le type des variables en utilisant la fonction ``type()`` :
 
 ```python
 >>> type(ma_variable)

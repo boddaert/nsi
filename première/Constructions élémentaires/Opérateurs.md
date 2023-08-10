@@ -47,9 +47,7 @@ Nous considèrons les expressions suivantes :
 - `11 ** 7`
 - `11 % 7`
 
-a) Sur chacune d'elle, proposer un résultat sans utiliser l'ordinateur.
-
-b) A l'aide de la console Python, vérifier vos résultats.
+a) Sur chacune d'elle et à l'aide de la console Python, donner la réponse aux opérations.
 
 ### b) Opérateurs de comparaison
 
@@ -158,7 +156,7 @@ Nous considérons les expressions suivantes :
 
 - `(3 + 8) * 2`
 
-- `3 + (8 * 2`$
+- `3 + (8 * 2)`
 
 - `3 + 8 * 2`
 

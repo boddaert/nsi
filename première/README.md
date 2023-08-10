@@ -1,30 +1,32 @@
 ## Première NSI
 
+Chapitre -1 [Prise de contact](./Prise%20de%20contact/Prise%20de%20contact.md)
+
 Chapitre 0 : [Introduction](./Introduction/Introduction.md)
 
 Chapitre 1 : Constructions élémentaires
 
-- Chapitre 1.1 : [Types](./Constructions%20élémentaires/Types.md)
+- Leçon 1 : [Types](./Constructions%20élémentaires/Types.md)
 
-- Chapitre 1.2 : [Opérateurs](./Constructions%20élémentaires/Opérateurs.md)
+- Leçon 2 : [Opérateurs](./Constructions%20élémentaires/Opérateurs.md)
 
-- Chapitre 1.3 : [Variables](./Constructions%20élémentaires/Variables.md)
+- Leçon 3 : [Variables](./Constructions%20élémentaires/Variables.md)
 
-- Chapitre 1.4 : [Séquences d'instructions](./Constructions%20élémentaires/Séquences.md)
+- Leçon 4 : [Séquences d'instructions](./Constructions%20élémentaires/Séquences.md)
 
-- Chapitre 1.5 : [Fonctions 1](./Constructions%20élémentaires/Fonctions_1.md)
+- Leçon 5 : [Fonctions 1](./Constructions%20élémentaires/Fonctions_1.md)
 
-- Chapitre 1.6 : [Modules](./Constructions%20élémentaires/Modules.md)
+- Leçon 6 : [Modules](./Constructions%20élémentaires/Modules.md)
 
-- Chapitre 1.7 : [Conditions](./Constructions%20élémentaires/Conditions.md)
+- Leçon 7 : [Conditions](./Constructions%20élémentaires/Conditions.md)
 
-- Chapitre 1.8 : [Boucles non bornées](./Constructions%20élémentaires/Boucles_non_bornées.md)
+- Leçon 8 : [Boucles non bornées](./Constructions%20élémentaires/Boucles_non_bornées.md)
 
-- Chapitre 1.9 : [Boucles bornées](./Constructions%20élémentaires/Boucles_bornées.md)
+- Leçon 9 : [Boucles bornées](./Constructions%20élémentaires/Boucles_bornées.md)
 
-Chapitre 2 : [Chaîne de caractères](./Chaîne%20de%20caractère/Chaine_de_caractere.md)
+Chapitre 2 : [Projets](./Projets/Projets.md)
 
-Chapitre 3 : [Projets](./Projets/Projets.md)
+Chapitre 3 : [Chaîne de caractères](./Chaîne%20de%20caractère/Chaine_de_caractere.md)
 
 ______
 
