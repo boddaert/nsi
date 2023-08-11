@@ -39,7 +39,7 @@ Et son schéma de branchement donnerait :
 
 ```mermaid
   graph LR;
-      A{if a <= 0 :};
+      A{if a < 3 :};
       A--True-->B[a = a + 1];
       B-->A;
       A--False-->C[b = a];

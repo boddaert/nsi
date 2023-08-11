@@ -34,17 +34,7 @@ while a < 10 or b > -5 :
     b = b - 1
 ```
 
-d) Programme 4
-
-```python
-a = 0
-b = 0
-while a < 10 and b > -5 :
-    a = a + 1
-    b = b - 1
-```
-
-e) Programme 5
+e) Programme 4
 
 ```python
 a = 1

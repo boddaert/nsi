@@ -1,6 +1,6 @@
 ## Première NSI
 
-Chapitre -1 [Prise de contact](./Prise%20de%20contact/Prise%20de%20contact.md)
+Chapitre -1 : [Prise de contact](./Prise%20de%20contact/Prise%20de%20contact.md)
 
 Chapitre 0 : [Introduction](./Introduction/Introduction.md)
 

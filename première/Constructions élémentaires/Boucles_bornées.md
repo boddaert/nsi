@@ -14,7 +14,9 @@ En Python, les boucles bornées s'écrivent en utilisant le mot-clé `for` (*Pou
 
 ### a) Définition
 
-Un *itérable* est une valeur sur laquelle nous pouvons parcourir un à un les éléments qui le compose.
+Un *itérable* est une valeur sur laquelle nous pouvons itérer.
+
+*Itérer* revient à parcourir un à un les éléments de l'itérable.
 
 Un itérable est un *ensemble fini*, c'est-à-dire qu'il comporte un début et une fin.
 
@@ -63,7 +65,7 @@ A l'issue de l'exécution du programme précédent, la valeur affectée à la va
 
 En Français,cela se traduirait par :
 
-- Pour `i` allant de $2$ à $5$, j'ajoute $1$ à `a`.
+- Pour `i` allant de $2$ à $5$ exclus, j'ajoute $1$ à `a`.
 
 ##### Application 2
 
@@ -96,15 +98,15 @@ Ecrire les programmes Python correspondant aux phrases suivantes :
 
 a) Phrase 1
 
-- Pour `i` allant de $0$ à $10$, je retire $5$ à `a`.
+- Pour `i` allant de $0$ à $10$ exclus, je retire $5$ à `a`.
 
 b) Phrase 2
 
-- Pour `j` allant de $-1$ à 20, j'ajoute $2$ à `a`.
+- Pour `j` allant de $-1$ à $20$ exclus, j'ajoute $2$ à `a`.
 
 c) Phrase 3
 
-- Pour `i` allant de $10$ à $20$, je retire $4$ à `a`.
+- Pour `i` allant de $10$ à $20$ exclus, je retire $4$ à `a`.
 
 ### b) Indice de boucle
 
@@ -112,7 +114,13 @@ La variable `i` est un *indice de boucle*.
 
 Il indique la valeur de l'élément sur lequel nous itérons et est accessible dans le corps de boucle.
 
-Avec l'exemple précédent, la valeur affectée à la variable `i` :
+```python
+a = 0
+for i in range(2,5) :
+    a = a + 1
+```
+
+Dans l'exemple ci-dessus, la valeur affectée à la variable `i` :
 
 - Vaut $2$ au premier tour de boucle.
 - Vaut $3$ au deuxième tour de boucle.

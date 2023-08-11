@@ -45,6 +45,7 @@ Voici quelques fonctions simples pour commencer à utiliser `turtle` :
 
 | Fonctions disponibles | Description |
 |---|---|
+| `mainloop()` | Empêche la fermeture de la fenêtre |
 | `goto(x : int, y : int)` | La tortue se déplace au point de coordonnées $(x,y)$. |
 | `forward(d : int)` | La tortue avance de $d$ points. |
 | `backward(d : int)` | La tortue recule de $d$ points. |

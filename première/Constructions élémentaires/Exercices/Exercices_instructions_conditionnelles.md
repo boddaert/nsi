@@ -33,6 +33,8 @@ b) Dessiner son schéma de branchement.
 
 Ecrire une fonction ``test_pythagore( a : int, b : int, c : int )-> bool`` qui prend en paramètre 3 entiers $a$, $b$ et $c$ et renvoie $True$ si $`a^2 + b^2 = c^2`$, et $False$ sinon.
 
+Cette fonction doit comporter une instruction conditionnelle.
+
 ## Exercice 4
 
 a) Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie l'entier le plus grand.
@@ -41,7 +43,7 @@ b) Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en 
 
 ## Exercice 5
 
-En utilisant la fonction `randint()` du module `random`, écrire une fonction `max_alea(n : int)->bool` qui prend en paramètre un entier $n$ et renvoie $True$ si $n$ est plus grand que l'entier aléatoire créé.
+En utilisant la fonction `randint()` du module `random`, écrire une fonction `max_alea(n : int)->bool` qui prend en paramètre un entier $n$ et renvoie $True$ si $n$ est plus grand que l'entier aléatoire créé compris entre $1$ et $10$.
 
 ### Exercice 6
 

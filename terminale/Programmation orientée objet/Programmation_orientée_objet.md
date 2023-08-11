@@ -1,6 +1,8 @@
 # Programmation orientée objet
 
-## I. Définition
+## I. L'objet
+
+### a) Définition
 
 La *programmation orientée objet* se distingue de la programmation impérative (celle avec laquelle nous avons l'habitude d'écrire nos programmes).
 
@@ -8,23 +10,35 @@ Elle consiste à utiliser des *objets*.
 
 Un *objet* est un concept, une idée ou toute entité du monde physique. Il possède une structure de données propre à lui-même et un comportement.
 
-Par exemple, un véhicule ou un personnage de jeu vidéo sont des objets informatiquement parlant.
+Par exemple, une voiture ou un personnage de jeu vidéo sont des objets informatiquement parlant.
 
-Nous écrivons alors la structure de données souhaitée selon l'objet en définissant ses caractéristiques appelés *attributs*.
+### b) Attributs
 
-Par exemple, le personnage de jeu possède un nombre de points de vie, d'attaque, de défense.
+Nous écrivons alors la structure de données souhaitée selon l'objet en définissant ses caractéristiques appelés attributs.
 
-Puis nous écrivons son comportement en définissant ses actions appelées *méthodes*.
+Un *attribut* est une caractéristique stockée dans une variable propre à l'objet.
 
-Par exemple, le personnage de jeu a comme action celle de se soigner.
+Par exemple, l'objet `Personnage` peut posséder un nom, un nombre de points de vie et un nombre de point d'attaque.
+
+### c) Méthodes
+
+Puis nous écrivons son comportement en définissant ses actions appelées méthodes.
+
+Une *méthode* est une fonction propre à l'objet.
+
+Par exemple, l'objet `Personnage` peut avoir comme action celle de se soigner et d'attaquer.
 
 Les attributs et les méthodes sont écrites dans les classes.
+
+##### Application 1
+
+Trouver et noter des exemples de caractéristiques et d'actions pour l'objet `Voiture`.
 
 ## II. Les classes
 
 ### a) Définition
 
-Une *classe* est un moule permettant de créer un objet.
+Une *classe* est un moule permettant de créer un objet (aussi appelé *instance de classe*).
 
 Pour une classe donnée, nous pouvons créer plusieurs objets.
 
@@ -34,59 +48,185 @@ En Python, le mot-clé `class` permet d'écrire une classe :
 class Personnage :
 ```
 
-### b) Constructeur
+### b) Instanciation de classe
 
-Pour créer un objet à partir d'une classe, nous faisons appel à une méthode : le constructeur.
+Nous appelons *instance de classe*, l'objet créé à partir de cette classe :
 
-Une *méthode* est un fonction propre à la classe, il y a les méthodes de comportement et les méthodes spéciales. Elles s'écrivent simplement en Python à l'aide du mot-clé `def`.
+```python
+>>> perso = Personnage()
+```
 
-Le *constructeur* est une méthode spéciale qui permet de créer les attributs et de mettre une valeur par défaut aux attributs.
+La variable `perso` est une instance de la classe `Personnage` :
+
+```python
+>>> perso
+<__main__.Personnage object at 0x7f1a67b168c0>
+```
+
+##### Application 2
+
+a) Ouvrir Thonny et créer la classe `Voiture`.
+
+b) Puis, à l'aide de la console, vérifier qu'il s'agit bien d'un objet.
+
+## III. Constructeur
+
+### a) Définition
+
+Pour définir la structure de donnée de l'objet, nous faisons appel à une méthode : le constructeur.
+
+Les méthodes s'écrivent simplement en Python à l'aide du mot-clé `def`.
+
+Le *constructeur* est une méthode spéciale permettant de créer les attributs et de mettre une valeur par défaut aux attributs.
 
 En Python, le constructeur s'écrit avec le mot-clé `init` :
 
 ```python
 class Personnage :
     def __init__(self):
-        self.point_de_vie = 50
-        self.point_d_attaque = 5
-        self.point_de_defense = 2
+        self.__point_de_vie = 50
+        self.__point_d_attaque = 5
 ```
 
-Suite à cet exemple, nous constatons plusieurs choses :
+Les `__` entourant le `init` nous indique qu'il s'agit d'une méthode spéciale.
 
-- Premièrement, les attributs `point_de_vie`, `point_d_attaque` et `point_de_defense` agissent comme des variables et ont comme valeurs par défaut $50$, $5$ et $2$ respectivement.
+### b) Paramètre *self*
 
-- Deuxièmement, les `__` entourant le `init` nous indique qu'il s'agit d'une méthode spéciale.
+Le paramètre `self` (*soi* en Français) désigne l'instance de classe auquel nous faisons référence.
 
-- Troisièmement, le paramètre `self` (*soi* en Français) désigne l'objet auquel nous faisons référence. Ce paramètre doit être présent dans chaque méthode créée.
+Ce paramètre doit être présent dans chaque méthode créée.
 
-### c) Méthodes de comportement
+### c) Autres paramètres
 
-Les méthodes de comportement désignent les actions que peut effectuer l'objet.
+Il est possible, d'ajouter des paramètres au constructeur pour donner une valeur à un attribut :
+
+```python
+class Personnage :
+    def __init__(self, nom):
+        self.__nom = nom
+        self.__point_de_vie = 50
+        self.__point_d_attaque = 5
+```
+
+Ainsi, lorsque nous instancions la classe, ajouter une valeur à l'attribut `nom` :
+
+```python
+>>> perso = Personnage('Link')
+```
+##### Application 3
+
+a) Ecrire le constructeur de la classe `Voiture` en reprennant les caractéristiques trouvées à l'application 1.
+
+b) Ajouter un paramètre au constructeur de `Voiture`.
+
+## IV. Accès aux attributs
+
+### a) Accessibilité des attributs
+
+Un attribut *privé* est accessible uniquement depuis l'intérieur de la classe. Un attribut privé s'écrit avec `__` devant son nom.
+
+Un attribut *pubic* est accessible depuis l'extérieur de la classe.
+
+Il est conseillé de toujours mettre ses attributs en privé.
+
+### b) Accesseurs
+
+Les *accesseurs* sont des méthodes permettant d'accéder aux valeurs des attributs :
+
+```python
+class Personnage :
+    def __init__(self, nom):
+        self.__nom = nom
+        self.__point_de_vie = 50
+        self.__point_d_attaque = 5
+
+    def get_nom(self):
+        return self.__nom
+    
+    def get_point_de_vie(self):
+        return self.__point_de_vie
+
+    def get_point_d_attaque(self):
+        return self.__point_d_attaque
+```
+
+Résultat dans la console :
+
+```python
+>>> perso = Personnage('Link')
+>>> perso.get_nom()
+'Link'
+>>> perso.get_point_de_vie()
+50
+>>> perso.get_point_d_attaque()
+5
+```
+
+##### Application 4
+
+a) Une fois après avoir mis les attributs de la classe `Voiture` en privé, écrire un accesseur pour chaque attribut de cette classe.
+
+b) Puis, dans la console, vérifier l'accès à toutes les valeurs des attributs de la classe `Voiture` en utilisant les accesseurs.
+
+##  V. Autres méthodes
 
 Ajoutons à ma classe de personnage de jeu la compétence de se soigner de dix points de vie :
 
 ```python
 class Personnage :
-    def __init__(self):
-        self.point_de_vie = 50
-        self.point_d_attaque = 5
-        self.point_de_defense = 2
+    def __init__(self, nom):
+        self.__nom = nom
+        self.__point_de_vie = 50
+        self.__point_d_attaque = 5
+
+    def get_nom(self):
+        return self.__nom
+    
+    def get_point_de_vie(self):
+        return self.__point_de_vie
+
+    def get_point_d_attaque(self):
+        return self.__point_d_attaque
 
     def se_soigner(self) :
-        self.point_de_vie = self.point_de_vie + 10
+        self.__point_de_vie = self.__point_de_vie + 10
 ```
 
-## III. Encapsulation
+##### Application 5
 
+Ajouter la méthode `accelere()` dans la classe `Voiture` permettant d'augmenter l'attribut `vitesse` de $20$.
 
+## VI. Principes de la POO
 
-## IV. Instancier une classe
+### a) Encapsulation
 
-Nous appelons *instance de classe*, l'objet créé à partir de cette classe.
+Le principe d'*encapsulation* consiste à rassembler la structure de données et les méthodes au sein de l'objet.
 
-Nous stockons l'instance de classe dans une variable :
+L'encapsulation empêche l'accès aux méthodes depuis l'extérieur de la classe.
+
+Par exemple, la méthode `se_soigner()` n'est pas accessible autrement que par une instanciation de la classe `Personnage` :
 
 ```python
->>> personnage_1 = Personnage()
+>>> se_soigner()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'se_soigner' is not defined
 ```
+
+##### Application 6
+
+Appeler la méthode `accelere()` depuis la console et vérifier que l'instruction renvoie bien une erreur.
+
+### b) Responsabilité
+
+Le principe de *responsabilité* est le suivant : une classe ne doit s'occuper que de ce pourquoi elle existe.
+
+Il n'est pas responsable, par exemple, d'implémenter une méthode permettant de trouver l'élément maximum d'une liste dans la classe `Personnage`.
+
+__________
+
+[Feuille d'exercice](./Exercices_programmation_orientee_objet.md)
+
+__________
+
+[Sommaire](./../../terminale/)
