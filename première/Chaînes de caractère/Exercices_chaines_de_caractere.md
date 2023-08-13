@@ -15,11 +15,18 @@ d) Ecrire le programme permettant d'affecter dans une variable `lettre` tous les
 
 ## Exercice 2
 
-Ecrire la fonction `contient(mot : str, lettre : str)-> bool` qui prend en paramètres deux chaînes de caractère et renvoie $True$ si `lettre` est présent dans `mot`.
+Ecrire la fonction `contient(mot : str, lettre : str)-> bool` qui prend en paramètres une chaîne de caractère et un caractère et renvoie $True$ si `lettre` est présent dans `mot`.
 
 Cette fonction ne devra pas utiliser l'instruction `in`.
 
 Ecrire deux versions de cette fonction, la première en utilisant la boucle `for` et la seconde en utilisant la boucle `while`.
+
+```python
+>>> contient('bonjour', 't')
+False
+>>> contient('bonjour', 'b')
+True
+```
 
 ## Exercice 3
 
@@ -41,11 +48,21 @@ c) Ecrire la trace d'exécution lorsque nous appelons la fonction avec `coucou` 
 
 ## Exercice 4
 
-Ecrire une fonction `nombre_occurences(mot : str, lettre : str)->int` qui prend en paramètres deux chaînes de caractères et renvoie comme résultat le nombre de fois qu'apparaît `lettre` dans `mot`.
+Ecrire une fonction `nombre_occurences(mot : str, lettre : str)->int` qui prend en paramètres une chaîne de caractère et un caractère et renvoie comme résultat le nombre de fois qu'apparaît `lettre` dans `mot`.
+
+```python
+>>> nombre_occurences('occurence', 'e')
+2
+```
 
 ## Exercice 5
 
 Ecrire une fonction `etoiles(mot : str)->str` qui prend en paramètre une chaîne de caractère et renvoie comme résultat cette même chaîne avec le caractère $*$ entre chaque caractère de la chaîne.
+
+```python
+>>> etoiles('La guerre des étoiles')
+'*L*a* *g*u*e*r*r*e* *d*e*s* *é*t*o*i*l*e*s*'
+```
 
 ## Exercice 6
 
@@ -63,6 +80,10 @@ TypeError: can only concatenate str (not "int") to str
 
 Ecrire une fonction `reduit(mot : str)-> str` qui prend en paramètre une chaîne de caractère et renvoie comme résultat cette même chaîne sans le premier ni le dernier caractère.
 
+```python
+>>> reduit('bonjour')
+'onjou'
+```
 
 ## Exercice 8
 
@@ -78,6 +99,11 @@ Il est possible de rendre majuscule une lettre minuscule et vice-versa :
 
 a) Ecrire une fonction `maj(mot : str)->str` qui prend en paramètre une chaîne de caractère et renvoie cette même chaîne en majuscule.
 
+```python
+>>> maj('nsi')
+'NSI'
+```
+
 ## Exercice 9
 
 Pour savoir si un caractère est en majuscule ou en minuscule :
@@ -91,6 +117,11 @@ True
 ```
 
 Ecrire une fonction `change_casse(mot : str)->str` qui prend en paramètre une chaîne de caractère et renvoie comme résultat cette même chaîne en changeant la casse.
+
+```python
+>>> change_casse('Bonjour A Tous')
+'bONJOUR a tOUS'
+```
 
 ## Exercice 10
 

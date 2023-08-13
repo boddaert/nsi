@@ -40,6 +40,16 @@ Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entie
 
 Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle `for`.
 
+```python
+>>> puissance_2(5)
+32
+```
+
 ## Exercice 5
 
 Ecrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ et calcule $1+2+3+ ... +n$ en utilisant la boucle `for`.
+
+```python
+>>> suite(6)
+21
+```

@@ -6,6 +6,11 @@ a) Ecrire une fonction `divise(a : int, b : int) -> float` qui prend en paramèt
 
 Cette fonction devra effectuer la division uniquement si $b$ est différent de $0$.
 
+```python
+>>> divise(6,3)
+2.0
+```
+
 b) Dessiner le schéma de branchement de la fonction `divise()`.
 
 ## Exercice 2
@@ -39,7 +44,17 @@ Cette fonction doit comporter une instruction conditionnelle.
 
 a) Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie l'entier le plus grand.
 
+```python
+>>> max2(5,13)
+13
+```
+
 b) Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en paramètres trois entiers $a$, $b$ et $c$ et renvoie l'entier le plus grand.
+
+```python
+>>> max3(5,7,15)
+15
+```
 
 ## Exercice 5
 
@@ -48,6 +63,11 @@ En utilisant la fonction `randint()` du module `random`, écrire une fonction `m
 ### Exercice 6
 
 Ecrire une fonction ``ordre_croissant( a : int, b : int, c : int )-> str`` qui prend en paramètre trois entiers $a$, $b$ et $c$ et renvoie comme résultat une chaîne de caractère contenant $a$, $b$ et $c$ dans l'ordre croissant.
+
+```python
+>>> ordre_croissant(5,13,4)
+'4,5,13'
+```
 
 ## Exercice 7
 

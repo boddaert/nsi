@@ -57,9 +57,19 @@ Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entie
 
 Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle `while`.
 
+```python
+>>> puissance_2(4)
+16
+```
+
 ## Exercice 5
 
 Ecrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ et calcule $1+2+3+ ... +n$ en utilisant la boucle `while`.
+
+```python
+>>> suite(5)
+15
+```
 
 ## Exercice 6
 
@@ -70,3 +80,8 @@ Tant que cet entier n'est pas égal à $1$, nous le divisons par $2$ s'il est pa
 La fonction renvoie comme résultat le nombre d'étapes nécessaire pour arriver à $1$.
 
 Un entier est pair si le reste de la division entière par $2$ vaut $0$.
+
+```python
+>>> nb_etape(734)
+46
+```
