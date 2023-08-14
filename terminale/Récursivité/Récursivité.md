@@ -5,7 +5,7 @@
 Considérons la fonction suivante :
 
 ```python
-def somme(n : int)->int :
+def somme_iter(n : int)->int :
     res = 0
     while n > 0 :
         res += n
@@ -40,9 +40,9 @@ Dans un principe de récurrence, nous distinguons :
 En reprenant l'exemple de la somme des $n$ premiers entiers, son principe de récurrence est :
 
 $\begin{equation}
-somme(n) = \begin{cases}
+somme_rec(n) = \begin{cases}
     0 & \text{if $n = 0$}\\
-    n + somme(n-1) & \text{if $n > 0$}\\
+    n + somme_rec(n-1) & \text{if $n > 0$}
 \end{cases}
 \end{equation}$
 
