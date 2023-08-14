@@ -12,13 +12,15 @@ a) Ecrire le constructeur de la classe `Boite` qui prend trois entiers en param�
 
 b) Ecrire tous les accesseurs liés aux attributs `longueur`, `largeur` et `hauteur`. Puis, dans la console, vérifier le fonctionnement de vos méthodes.
 
-c) Ecrire la méthode `volume()` qui prend en paramètres la `longueur`, la `largeur` et la `hauteur` de la boîte et renvoie comme résultat le volume de la boîte.
+c) Ecrire la méthode `volume()` qui ne prend pas de paramètres et renvoie comme résultat le volume de la boîte.
+
+d) Ecrire la méthode `infos()` qui ne prend pas de paramètres et renvoie une chaîne de caractère de la forme $Lxlxh$.
 
 ## Exercice 2
 
-Reprendre la classe de l'exercice 1
+Reprendre la classe de l'exercice 1.
 
-a) Ecrire une fonction `maxi(b1 : Boite, b2 : Boite)->Boite` qui prend deux boîtes en paramètres et renvoie la boite dont le volume est le plus grand.
+a) En dehors de la classe, écrire une fonction `maxi(b1 : Boite, b2 : Boite)->Boite` qui prend deux boîtes en paramètres et renvoie la boite dont le volume est le plus grand.
 
 b) Tester votre fonction dans la console.
 
@@ -26,8 +28,8 @@ b) Tester votre fonction dans la console.
 
 Reprendre la classe de l'exercice 1.
 
-a) Ecrire une fonction `creer_liste_boites(n : int)->list` qui prend un nombre entier $n$ en paramètre et renvoie une liste de $n$ boîtes dont les tailles sont aléatoires.
+a) En dehors de la classe, écrire une fonction `creer_liste_boites(n : int)->list` qui prend un nombre entier $n$ en paramètre et renvoie une liste de $n$ boîtes dont les tailles sont aléatoires.
 
-b) Ecrire une fonction `maxi_liste_boites(liste_boites : list)->Boite` qui prend une liste de boîtes en paramètre et renvoie la boite dont le volume est le plus grand.
+b) En dehors de la classe, écrire une fonction `maxi_liste_boites(liste_boites : list)->Boite` qui prend une liste de boîtes en paramètre et renvoie la boite dont le volume est le plus grand.
 
 c) Tester vos deux fonctions dans la console.

@@ -61,7 +61,7 @@ Ecrire une fonction `etoiles(mot : str)->str` qui prend en paramètre une chaîn
 
 ```python
 >>> etoiles('La guerre des étoiles')
-'*L*a* *g*u*e*r*r*e* *d*e*s* *é*t*o*i*l*e*s*'
+'L*a* *g*u*e*r*r*e* *d*e*s* *é*t*o*i*l*e*s'
 ```
 
 ## Exercice 6
@@ -97,7 +97,7 @@ Il est possible de rendre majuscule une lettre minuscule et vice-versa :
 'u'
 ```
 
-a) Ecrire une fonction `maj(mot : str)->str` qui prend en paramètre une chaîne de caractère et renvoie cette même chaîne en majuscule.
+Ecrire une fonction `maj(mot : str)->str` qui prend en paramètre une chaîne de caractère et renvoie cette même chaîne en majuscule.
 
 ```python
 >>> maj('nsi')
