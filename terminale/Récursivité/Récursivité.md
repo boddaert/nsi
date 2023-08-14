@@ -63,8 +63,8 @@ En reprenant l'exemple de la somme des $n$ premiers entiers, son principe de ré
 $$
 somme(n)=
 \begin{cases}
-0 & \quad \text{if n = 0}\\ 
-n + somme(n-1) & \quad \text{if n > 0}
+0 & \quad \text{si n = 0}\\ 
+n + somme(n-1) & \quad \text{si n > 0}
 \end{cases}
 $$
 
@@ -147,8 +147,8 @@ A l'aide des réponses précédentes, compléter le principe de récurrence suiv
 $$
 f(m)=
 \begin{cases}
-0 & \quad \text{if m = .....}\\ 
-..... & \quad \text{if m = 1}\\
+0 & \quad \text{si m = .....}\\ 
+..... & \quad \text{si m = 1}\\
 f(.....) + f(.....) & \quad \text{sinon}
 \end{cases}
 $$
