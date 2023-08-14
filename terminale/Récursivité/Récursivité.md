@@ -44,7 +44,7 @@ somme(n) = \begin{cases}
     0 & \text{if $n = 0$}\\
     n + somme(n-1) & \text{if $n > 0$}\\
 \end{cases}
-\end{equation}
+\end{equation}$
 
 ### b) Traduction en Python
 
@@ -69,6 +69,8 @@ Une *pile d'appels* est la pile représentant tous les appels succéssifs néces
 Par exemple, pour l'appel `somme(4)`, cela donne :
 
 ![Pile d'appels](./img/pile_d_appels.png)
+
+##
 
 
 
