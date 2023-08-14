@@ -39,12 +39,7 @@ Dans un principe de récurrence, nous distinguons :
 
 En reprenant l'exemple de la somme des $n$ premiers entiers, son principe de récurrence est :
 
-$\begin{equation}
-somme_rec(n) = \begin{cases}
-    0 & \text{if $n = 0$}\\
-    n + somme_rec(n-1) & \text{if $n > 0$}
-\end{cases}
-\end{equation}$
+$\begin{equation} somme_rec(n) = \begin{cases} 0 & \text{if $n = 0$}\\ n + somme_rec(n-1) & \text{if $n > 0$} \end{cases} \end{equation}$
 
 ### b) Traduction en Python
 
