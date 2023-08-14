@@ -46,6 +46,62 @@ somme(n) = \begin{cases}
 \end{cases}
 \end{equation}
 
+### b) Traduction en Python
+
+```python
+def somme(n : int)->int :
+    if n == 0 :
+        return 0
+    else :
+        return n + somme(n-1)
+```
+
+L'instruction `return 0` correspond au cas de base.
+
+L'instruction `return n + somme(n-1)` correspond au cas récursif.
+
+La condition `if n == 0 :` se nomme *condition d'arrêt*.
+
+## III. Pile d'appels
+
+Une *pile d'appels* est la pile représentant tous les appels succéssifs nécessaires à l'exécution de la fonction.
+
+Par exemple, pour l'appel `somme(4)`, cela donne :
+
+![Pile d'appels](./img/pile_d_appels.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 l'instruction à répéter pour la somme des $n$ premiers entiers est la somme de $n$ avec $n-1$.
 

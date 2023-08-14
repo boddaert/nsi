@@ -242,7 +242,7 @@ for caractere in mot :
 ```
 ___________
 
-[Feuille d'exercice](./Exercices_chaine_de_caractere.md)
+[Feuille d'exercice](./Exercices_chaines_de_caractere.md)
 
 ___________
 
