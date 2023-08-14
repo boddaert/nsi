@@ -65,6 +65,54 @@ Voici quelques fonctions simples pour commencer à utiliser `turtle` :
 
 Documentation de `turtle` : [https://docs.python.org/fr/3/library/turtle.html](https://docs.python.org/fr/3/library/turtle.html)
 
+## Projet 2 : Combat de Pokémons
+
+### a) Description
+
+Nous souhaitons écrire un programme simulant le combat entre deux Pokémons.
+
+Pour ce faire, nous utiliserons la programmation orientée objet.
+
+### b) Règles d'un combat de Pokémons
+
+Deux Pokémons se battent en duel jusqu'à ce que l'un des deux soit mis KO, c'est-à-dire, avec les points de vie inférieur ou égal à zéro.
+
+Au tour par tour, chacun des deux Pokémons vont choisir aléatoirement une action parmi trois :
+
+Les Pokémons peuvent augmenter leurs points d'attaque, augmenter leurs points de vie et attaquer le Pokémon adverse.
+
+Le Pokémon le plus rapide, celui qui a le plus de point de vitesse, joue en premier.
+
+Le nombre de dégât reçus est calculé de la manière suivante : C'est le nombre de point d'attaque du Pokémon qui attaque - le nombre de point de défense du Pokémon qui se fait attaqué.
+
+### c) Cahier des charges
+
+a) Classe Pokémon
+
+- Pokémon est une classe dont les attributs sont :
+    + Un nom donné en paramètre du constructeur.
+    + Un nombre de point de vie initialisé par défaut aléatoirement entre $800$ et $1000$.
+    + Un nombre de point d'attaque initialisé par défaut aléatoirement entre $100$ et $200$.
+    + Un nombre de point de défense initialisé par défaut aléatoirement entre $100$ et $200$.
+    + Un nombre de point de vitesse initialisé par défaut aléatoirement entre $100$ et $200$.
+    + Un booléen indiquant si le pokémon est KO ou non. Initialisé par défaut à `False`.
+- Et dont les méthodes sont :
+    + Tous les accesseurs des attributs précédents.
+    + Une méthode `set_point_de_vie()` qui prend en paramètre un entier et fixe les points de vie de l'objet à cet entier.
+    + Une méthode `set_ko()` mettant à `True` l'attribut si le pokémon possède des points de vie inférieur ou égal à zéro.
+    + Une méthode `affiche_statistiques()` qui affiche toutes les caractérisitiques du pokémon.
+- L'objet Pokémon dispose également de trois actions disponibles pendant son tour de jeu :
+    + Une méthode `augmente_attaque()` qui prend en paramètre un entier et ajoute le montant de l'argument aux points d'attaque de l'objet.
+    + Une méthode `augmente_vitesse()` qui prend en paramètre un entier et ajoute le montant de l'argument aux points de vitesse de l'objet.
+    + Une méthode `attaque()` qui prend en paramètre un second objet Pokémon et renvoie le montant des dégâts reçus.
+
+b) Programme principal
+
+Le programme principal est découpé en plusieurs fonctions :
+
+- Une fonction `joue_en_premier(pokemon_1 : Pokemon, pokemon_2 : Pokemon)->tuple` qui prend en paramètres deux objets Pokémon et renvoie un tuple de deux objets Pokémon dont le premier élément est le Pokémon le plus rapide.
+
+- Une fonction `combat(pokemon_1 : Pokemon, pokemon_2 : Pokemon)->None` qui prend en paramètres deux objets Pokémon et simule un combat entre ces deux Pokémons. La fonction doit afficher au début du combat les caractéristiques de chaque Pokémon, afficher les actions utilisées et le gagnant du combat.
 ________
 
 [Sommaire](./../../terminale/)

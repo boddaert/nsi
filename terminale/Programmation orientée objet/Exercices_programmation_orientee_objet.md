@@ -33,3 +33,7 @@ a) En dehors de la classe, écrire une fonction `creer_liste_boites(n : int)->li
 b) En dehors de la classe, écrire une fonction `maxi_liste_boites(liste_boites : list)->Boite` qui prend une liste de boîtes en paramètre et renvoie la boite dont le volume est le plus grand.
 
 c) Tester vos deux fonctions dans la console.
+
+## Projet 2
+
+[Projets](./../Projets/Projets.md)

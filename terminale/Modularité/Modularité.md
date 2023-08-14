@@ -76,4 +76,8 @@ d) Vérifier une nouvelle fois la valeur affectée aux variables `a` et `b` apr�
 
 _______
 
+[Feuile d'exercice](./Exercices_modularité.md)
+
+_______
+
 [Sommaire](./../../terminale/)
