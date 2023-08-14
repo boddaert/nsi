@@ -79,7 +79,7 @@ Deux Pokémons se battent en duel jusqu'à ce que l'un des deux soit mis KO, c'e
 
 Au tour par tour, chacun des deux Pokémons vont choisir aléatoirement une action parmi trois :
 
-Les Pokémons peuvent augmenter leurs points d'attaque, augmenter leurs points de vie et attaquer le Pokémon adverse.
+Les Pokémons peuvent augmenter leurs points d'attaque, augmenter leurs points de vie, augmenter leurs points de vitesse et attaquer le Pokémon adverse.
 
 Le Pokémon le plus rapide, celui qui a le plus de point de vitesse, joue en premier.
 
@@ -98,13 +98,14 @@ a) Classe Pokémon
     + Un booléen indiquant si le pokémon est KO ou non. Initialisé par défaut à `False`.
 - Et dont les méthodes sont :
     + Tous les accesseurs des attributs précédents.
-    + Une méthode `set_point_de_vie()` qui prend en paramètre un entier et fixe les points de vie de l'objet à cet entier.
+    + Une méthode `set_point_de_vie(new_point_de_vie : int)` qui prend en paramètre un entier et fixe les points de vie de l'objet à cet entier.
     + Une méthode `set_ko()` mettant à `True` l'attribut si le pokémon possède des points de vie inférieur ou égal à zéro.
     + Une méthode `affiche_statistiques()` qui affiche toutes les caractérisitiques du pokémon.
 - L'objet Pokémon dispose également de trois actions disponibles pendant son tour de jeu :
-    + Une méthode `augmente_attaque()` qui prend en paramètre un entier et ajoute le montant de l'argument aux points d'attaque de l'objet.
-    + Une méthode `augmente_vitesse()` qui prend en paramètre un entier et ajoute le montant de l'argument aux points de vitesse de l'objet.
-    + Une méthode `attaque()` qui prend en paramètre un second objet Pokémon et renvoie le montant des dégâts reçus.
+    + Une méthode `augmente_attaque(bonus : int)` qui prend en paramètre un entier et ajoute le montant de l'argument aux points d'attaque de l'objet.
+    + Une méthode `augmente_point_de_vie(bonus : int)` qui prend en paramètres un entier et ajoute le montant de l'argument aux point de vie de l'objet.
+    + Une méthode `augmente_vitesse(bonus : int)` qui prend en paramètre un entier et ajoute le montant de l'argument aux points de vitesse de l'objet.
+    + Une méthode `attaque(pokemon_adverse : Pokemon)->int` qui prend en paramètre un second objet Pokémon et renvoie le montant des dégâts reçus.
 
 b) Programme principal
 
@@ -112,7 +113,54 @@ Le programme principal est découpé en plusieurs fonctions :
 
 - Une fonction `joue_en_premier(pokemon_1 : Pokemon, pokemon_2 : Pokemon)->tuple` qui prend en paramètres deux objets Pokémon et renvoie un tuple de deux objets Pokémon dont le premier élément est le Pokémon le plus rapide.
 
-- Une fonction `combat(pokemon_1 : Pokemon, pokemon_2 : Pokemon)->None` qui prend en paramètres deux objets Pokémon et simule un combat entre ces deux Pokémons. La fonction doit afficher au début du combat les caractéristiques de chaque Pokémon, afficher les actions utilisées et le gagnant du combat.
+- Une fonction `choix_action(pokemon_1 : Pokemon, pokemon_2 : Pokemon)->None` qui prend en paramètres deux objets Pokemon et effectue une action aléatoire sur `pokemon_1`.
+
+- Une fonction `combat(pokemon_1 : Pokemon, pokemon_2 : Pokemon)->None` qui prend en paramètres deux objets Pokemon et simule un combat entre ces deux Pokémons.
+
+### d) Affichage
+
+Le programme doit afficher :
+
+- Au début du combat les caractéristiques de chaque Pokémon.
+- Les actions utilisées.
+- Le gagnant du combat.
+
+Par exemple :
+
+```
+Nom : Tiplouf
+Points de vie : 848
+Attaque : 130
+Défense : 143
+Vitesse : 106
+
+
+Nom : Canarticho
+Points de vie : 851
+Attaque : 151
+Défense : 108
+Vitesse : 182
+
+
+Tour numéro n°1
+Canarticho est plus rapide !
+Canarticho augmente son attaque physique à 20.
+Tiplouf attaque Canarticho en faisant 22 dégats.
+
+
+PV de Canarticho : 829
+PV de Tiplouf : 848
+
+
+Tour numéro n°2
+Canarticho est plus rapide !
+Canarticho augmente son attaque physique à 20.
+Tiplouf augmente son attaque spéciale à 20.
+
+
+PV de Canarticho : 829
+PV de Tiplouf : 868
+```
 ________
 
 [Sommaire](./../../terminale/)
