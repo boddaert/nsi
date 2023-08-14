@@ -1,5 +1,5 @@
 # Exercices
 
-## Projet 1
+## Exercice 1
 
-[Projets](./../Projets/Projets.md)
+[Projet 1](./../Projets/Projets.md)

@@ -34,6 +34,6 @@ b) En dehors de la classe, écrire une fonction `maxi_liste_boites(liste_boites 
 
 c) Tester vos deux fonctions dans la console.
 
-## Projet 2
+## Exercice 4
 
-[Projets](./../Projets/Projets.md)
+[Projet 2](./../Projets/Projets.md)

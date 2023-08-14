@@ -160,6 +160,8 @@ Tiplouf augmente son attaque spéciale à 20.
 
 PV de Canarticho : 829
 PV de Tiplouf : 868
+
+...
 ```
 ________
 
