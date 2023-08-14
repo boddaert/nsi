@@ -43,7 +43,7 @@ $$
 somme_rec(n)=
 \begin{cases}
 0 & \quad \text{if n = 0}\\ 
-n + somme_rec(n-1) & \quad \text{if n \g 0}
+n + somme_rec(n-1) & \quad \text{if n > 0}
 \end{cases}
 $$
 
