@@ -68,11 +68,27 @@ n + somme(n-1) & \quad \text{si n > 0}
 \end{cases}
 $$
 
+Ainsi, les valeurs de $somme(n)$, pour $n$ valant $0$, $1$, $2$ puis $3$ sont :
+
+$somme(0) = 0$
+
+$somme(1) = 1 + somme(0)$
+
+$somme(2) = 2 + somme(1)$
+
+$somme(3) = 3 + somme(2)$
+
+Nous constatons que pour calculer la valeur de $somme(n)$, nous avons besoin de connaître la valeur de $somme(n-1)$.
+
+Il s'agit bien d'une définition récursive du problème, nous avons bien une fonction nécessitant un appel à elle-même avec un argument différent.
+
 ##### Application 2
 
 Donner le principe de récurrence de la fonction de l'application 1.
 
 ### b) Traduction en Python
+
+Nous traduisons directement le principe de récurrence en programme Python :
 
 ```python
 def somme(n : int)->int :
@@ -119,12 +135,10 @@ Avant de se lancer dans l'écriture d'une fonction récursive, il est conseillé
 1. Repérer le problème qui se répète et les relations entre les différents résultats.
 2. Trouver la ou les conditions d'arrêt.
 3. Ecrire le principe de récurrence.
-4. Traduire le principe précédent en fonction Python.
-5. Vérifier le bon fonctionnement de la fonction récursive à l'aide de la pile d'appels.
+4. Traduire le principe précédent en fonction récursive Python.
+5. Vérifier le bon fonctionnement de la fonction récursive à l'aide du debogueur.
 
 ### b) Activité : couples de lapins
-
-Cette activité est débranchée.
 
 a) Dessiner $12$ cases sur une feuille. Chaque case représente un enclos de lapin pour un mois dans l'année.
 
@@ -140,7 +154,7 @@ Il devient fastidieux au delà de compter le nombre de couple de lapins !
 
 c) Pour un mois $m$ donné, quelle est la relation entre $m$, $m-1$ et $m-2$ ?
 
-d) Pour quels mois cette relation ne s'applique pas ?
+d) Pour quels mois cette relation ne s'applique t-elle pas ?
 
 e) Soit $f(m)$ une fonction permettant de calculer le nombre de couple de lapins pour un mois $m$ donné.
 
