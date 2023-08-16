@@ -14,9 +14,9 @@ Nous parlons de structure LIFO (*Last In First Out*) pour dernier entré, premie
 
 ### a) Définition de la pile
 
-La structure d'une pile correspond à la structure d'une liste récursive définie dans la [leçon précédente](Listes_recursives.md).
+La structure d'une pile correspond en partie à la structure d'une liste récursive définie dans la [leçon précédente](Listes_recursives.md).
 
-Par conséquent, le type abstrait d'une pile est le même que celui de la liste récursive.
+Par conséquent, le type abstrait d'une pile est le même que celui de la liste récursive avec pour seule modification les opérations d'insertion et de suppression.
 
 ### b) Opérations primitives
 
@@ -37,25 +37,60 @@ Ci-dessous une classe `Pile` contenant les opérations primitives définies plus
 
 - Le constructeur permettant de soit créer une pile vide.
 - `est_vide()` permettant de vérifier si la pile est vide.
-- `empiler()` qui prend en paramètre un élément et empile l'élément au sommet de la pile.
-- `depiler()` permettant de dépiler la pile et renvoie l'élément dépilé.
+- `empile()` qui prend en paramètre un élément et empile l'élément au sommet de la pile.
+- `depile()` permettant de dépiler le sommet de la pile et renvoie l'élément dépilé.
 
 ```python
 from liste import Liste
 
 class Pile:
     def __init__(self):
-        self.pile = Liste()
+        self.__pile = Liste()
     
     def est_vide():
         pass
 
-    def empiler(self, elt : int):
+    def empile(self, elt : int):
         pass
 
-    def depiler(self):
+    def depile(self):
         pass
 ```
 
+##### Application 1
+
+Compléter les méthodes `est_vide()`, `empiler()` et `depiler()` de la classe `Pile`.
+
 ### b) Utilisation de la classe 
 
+```python
+>>> p = Pile()
+>>> p.est_vide()
+True
+>>> p.empile(2)
+>>> p.est_vide()
+False
+>>> p.depile()
+2
+```
+
+##### Application 2
+
+Sans utiliser l'ordinateur, dessiner à quoi ressemble la pile après chaque instruction suivante :
+
+```python
+p = Pile()
+p.empile(5)
+p.empile(4)
+p.depile()
+p.empile(2)
+p.depile()
+```
+
+_________
+
+[Feuille d'exercice](./Exercices_piles.md)
+
+_________
+
+[Sommaire](./../../terminale/)

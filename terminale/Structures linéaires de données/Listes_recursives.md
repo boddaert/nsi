@@ -127,7 +127,7 @@ class Liste:
 ```
 ##### Application 5
 
-Compléter les méthodes `est_vide()`, `tete()` et `reste()`.
+Compléter les méthodes `est_vide()`, `tete()` et `reste()` de la classe `Liste`.
 
 ### b) Utilisation de la classe
 

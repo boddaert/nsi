@@ -66,7 +66,6 @@ Ecrire une fonction récursive `en_liste(li : list)->Liste` qui prend en paramè
 
 Ecrire une fonction récursive `insere(l : Liste, elt : int, i : int)->None` qui prend en paramètres un objet `Liste` et deux entiers et insère l'élément `elt` à l'indice `i` dans `l`.
 
-
 ## Exercice 8
 
 Ecrire une fonction récursive `supprime(l : Liste, i : int)->int` qui prend en paramètres un objet `Liste` et un entier et renvoie comme résultat l'élément supprimé de `l` d'indice `i`.
