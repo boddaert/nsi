@@ -86,10 +86,11 @@ Voici ci-dessous les opérations primitives de la liste récursive.
 Voici ci-dessous une liste non exhaustive d'*opérations avancées* pour la liste récursive :
 
 - Récupérer la longueur de la liste.
+- Vérifier si un élément est présent ou non dans la liste.
 - Récupérer l'élément d'indice $i$ dans la liste.
 - Ajouter un élément à l'indice $i$.
 - Supprimer un élément à l'indice $i$.
-- Vérifier si un élément est présent ou non dans la liste.
+- Concaténer deux listes.
 
 ## III. Implémentation en Python
 
