@@ -229,4 +229,4 @@ _________
 
 _________
 
-[Sommaire](./../../terminale/)
+Leçon 2 : [Piles](./Exercices_piles.md)

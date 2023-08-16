@@ -93,4 +93,4 @@ _________
 
 _________
 
-[Sommaire](./../../terminale/)
+Leçon 3 : [Files](./Exercices_files.md)
