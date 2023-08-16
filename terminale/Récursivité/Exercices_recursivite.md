@@ -100,15 +100,6 @@ d) Dessiner la pile d'appels de la fonction factorielle avec $x = 4$.
 
 ## Exercice 7
 
-Ecrire une fonction récursive `somme_chiffre(n : int)->int` qui prend en paramètre un entier et renvoie comme résultat la somme des chiffres qui compose $n$.
-
-```python
->>> somme_chiffre(45)
-9
-```
-
-## Exercice 8
-
 Ecrire une fonction récursive `nb_chiffre_rec(n : int)->int` qui prend en paramètre un entier et renvoie comme résultat le nombre de chiffre présent dans $n$.
 
 ```python
@@ -116,9 +107,18 @@ Ecrire une fonction récursive `nb_chiffre_rec(n : int)->int` qui prend en param
 5
 ```
 
+## Exercice 8
+
+Ecrire une fonction récursive `somme_chiffre(n : int)->int` qui prend en paramètre un entier et renvoie comme résultat la somme des chiffres qui compose $n$.
+
+```python
+>>> somme_chiffre(45)
+9
+```
+
 ## Exercice 9
 
-Ecrire une fonction `max_rec(l : list)->int` qui prend en paramètre une liste d'entiers et renvoie comme résultat l'entier leplus grand de $l$.
+Ecrire une fonction `max_rec(l : list)->int` qui prend en paramètre une liste d'entiers et renvoie comme résultat l'entier le plus grand de $l$.
 
 ```python
 >>> max_rec([4, 8, 9, 10])
@@ -129,7 +129,7 @@ Ecrire une fonction `max_rec(l : list)->int` qui prend en paramètre une liste d
 
 a) En utilisant le module `turtle`, écrire une fonction `carre(c : int)->None` qui prend en paramètre un entier et dessine un carré centré de côté $c$.
 
-b) Ecrire une fonction récursive `carres_rec(n : int)->None` qui prend en paramètre un entier et dessine $n$ carrés emboîtés comme le montre l'image ci-dessous :
+b) Ecrire une fonction récursive `carres_rec(n : int, c : int)->None` qui prend en paramètres deux entiers et dessine $n$ carrés emboîtés de côté $c$ comme le montre l'image ci-dessous :
 
 ![Carres_emboités](./img/carres_emboites.png)
 
