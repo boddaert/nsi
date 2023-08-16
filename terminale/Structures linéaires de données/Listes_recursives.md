@@ -186,7 +186,7 @@ Lorsque la liste est représentée contiguëllement, elle est stockée en mémoi
 
 Dans cette représentation, les cellules sont placées côte à côte les unes à la suite des autres :
 
-![]()
+![Représentation contiguë](./img/representation_contigue.drawio.png)
 
 Les éléments sont stockés dans les cellules, l'élément d'indice $i$ se trouve donc à la $i-ème$ cellule.
 
@@ -204,7 +204,9 @@ Inconvénients :
 
 Lorsque la liste est représentée sous forme chaînée, chaque élément est contenu dans une cellule indépendante des autres.
 
-Dans cette représentation, la cellule possède une information supplémentaire : la référence vers la cellule suivante.
+Dans cette représentation, la cellule possède une information supplémentaire : la référence vers la cellule suivante :
+
+![Représentation chaînée](./img/representation_chainee.drawio.png)
 
 La liste est donc définie sur la référence de la première cellule.
 
