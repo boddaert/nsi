@@ -229,4 +229,4 @@ _________
 
 _________
 
-Leçon 2 : [Piles](./Exercices_piles.md)
+Leçon 2 : [Piles](./Piles.md)
