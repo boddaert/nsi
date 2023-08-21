@@ -47,7 +47,7 @@ class Pile:
     def __init__(self):
         self.__pile = Liste()
     
-    def est_vide():
+    def est_vide(self):
         pass
 
     def empile(self, elt : int):
@@ -59,7 +59,7 @@ class Pile:
 
 ##### Application 1
 
-Compléter les méthodes `est_vide()`, `empiler()` et `depiler()` de la classe `Pile`.
+Compléter les méthodes `est_vide()`, `empile()` et `depile()` de la classe `Pile`.
 
 ### b) Utilisation de la classe 
 

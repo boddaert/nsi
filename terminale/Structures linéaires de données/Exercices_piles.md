@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-Ecrire une fonction `empiler_n(n : int)->Pile` qui prend en paramètre un entier et renvoie un objet `Pile` contenant les entiers de $1$ à $n$.
+Ecrire une fonction récursive `empiler_n(n : int)->Pile` qui prend en paramètre un entier et renvoie un objet `Pile` contenant les entiers de $1$ à $n$.
 
 ```python
 >>> empiler_n(5).depile()

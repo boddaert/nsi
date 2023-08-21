@@ -4,7 +4,7 @@ Chapitre -1 : [Prise de contact](./Prise%20de%20contact/Prise%20de%20contact.md)
 
 Chapitre 0 : [Introduction](./Introduction/Introduction.md)
 
-Chapitre 1 : Constructions élémentaires
+Chapitre 1 : [Constructions élémentaires](./Constructions%20élémentaires/)
 
 - Leçon 1 : [Types](./Constructions%20élémentaires/Types.md)
 
@@ -18,13 +18,13 @@ Chapitre 1 : Constructions élémentaires
 
 - Leçon 6 : [Modules](./Constructions%20élémentaires/Modules.md)
 
-- Leçon 7 : [Instructions conditionnelles](./Constructions%20élémentaires/Conditions.md)
+- Leçon 7 : [Instructions conditionnelles](./Constructions%20élémentaires/Instructions_conditionnelles.md)
 
 - Leçon 8 : [Boucles non bornées](./Constructions%20élémentaires/Boucles_non_bornées.md)
 
 - Leçon 9 : [Boucles bornées](./Constructions%20élémentaires/Boucles_bornées.md)
 
-Chapitre 2 : [Projets](./Projets/Projets.md)
+Chapitre 2 : [Projet 1](./Projets/Projets.md)
 
 Chapitre 3 : [Chaînes de caractères](./Chaînes%20de%20caractère/Chaines_de_caractere.md)
 
