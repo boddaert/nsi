@@ -46,7 +46,6 @@ Son schéma de branchement donnerait :
 
 ```mermaid
   graph TB;
-      [*]-->CCCC
       A{if a == 0 :};
       A--True-->B[a = a + 1];
       B-->C[b = a];
