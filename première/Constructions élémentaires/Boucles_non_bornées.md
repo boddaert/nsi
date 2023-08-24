@@ -38,7 +38,7 @@ En Français,cela se traduirait par :
 Et son schéma de branchement donnerait :
 
 ```mermaid
-  graph LR;
+  graph TB;
       A{if a < 3 :};
       A--True-->B[a = a + 1];
       B-->A;
