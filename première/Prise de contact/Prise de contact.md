@@ -11,18 +11,20 @@ Il se découpe selon le schéma suivant :
 - :file_folder: `nsi`
     - :file_folder: `premiere`
         - :file_folder: `Chapitre 1`
-            - :page_facing_up: `Leçon`
-            - :page_facing_up: `Feuille d'exercice`
+            - :page_facing_up: `Leçon.md`
+            - :page_facing_up: `Feuille d'exercice.md`
         - :file_folder: `Chapitre 2`
-            - :page_facing_up: `Leçon`
-            - :page_facing_up: `Feuille d'exercice`
+            - :page_facing_up: `Leçon.md`
+            - :page_facing_up: `Feuille d'exercice.md`
+        - :page_facing_up: `Sommaire.md`
     - :file_folder: `terminale`
         - :file_folder: `Chapitre 1`
-            - :page_facing_up: `Leçon`
-            - :page_facing_up: `Feuille d'exercice`
+            - :page_facing_up: `Leçon.md`
+            - :page_facing_up: `Feuille d'exercice.md`
         - :file_folder: `Chapitre 2`
-            - :page_facing_up: `Leçon`
-            - :page_facing_up: `Feuille d'exercice`
+            - :page_facing_up: `Leçon.md`
+            - :page_facing_up: `Feuille d'exercice.md`
+        - :page_facing_up: `Sommaire.md`
 
 En bas de page, se trouve le sommaire dans lequel s'y figure le lien des leçons dans l'ordre de progression.
 
