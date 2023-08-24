@@ -6,7 +6,7 @@ Tout le cours de Première et Terminale NSI est disponible à l'adresse : `https
 
 Il est stocké sur un serveur et est donc accessible depuis n'importe quel appareil muni d'une connexion Internet.
 
-Il se découpe selon le schéma suivant :
+Il se découpe selon l'arborescence suivante :
 
 - :file_folder: `nsi`
     - :file_folder: `premiere`

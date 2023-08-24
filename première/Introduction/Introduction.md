@@ -8,7 +8,22 @@ L'*informatique* est la science des **données**, les programmes informatiques q
 
 Pour nous aider à écrire des programmes informatiques, les informaticiens utilisent des algorithmes. Un algorithme est une suite d'instructions écrit en Français. Il sert à **résoudre un problème**.
 
+Un algorithme est comparable à une recette de cuisine.
+
+Par exemple :
+
+```
+Recette Mayonnaise
+- Mettre un jaune d'oeuf dans un bol
+- Y ajouter une cuillière de moutarde
+- Tant que la préparation est liquide :
+    - Ajouter une cuillière à soupe d'huile.
+    - Fouetter la préparation.
+```
+
 L'objectif de construire un algorithme est qu'il soit compris par tous et qu'on puisse le traduire dans n'importe quel langage de programmation.
+
+Un algorithme est comparable à une recette de cuisine.
 
 ## I. Langage de programmation
 

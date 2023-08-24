@@ -52,6 +52,16 @@ Son schéma de branchement donnerait :
       A--False-->C[b = a];
 ```
 
+
+```mermaid
+stateDiagram-v2
+    state if_state <<choice>>
+    [*] --> if_state
+    if_state --> a = a + 1 : if a == 0
+    if_state --> b = a
+    a = a + 1 --> b = a
+```
+
 ##### Application 1
 
 Donner, pour chaque programme suivant, son schéma de branchement :
