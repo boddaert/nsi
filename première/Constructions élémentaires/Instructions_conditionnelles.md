@@ -17,7 +17,7 @@ Si la condition n'est pas remplie, la suite du programme est exécutée normalem
 Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessinant son schéma de branchement :
 
 ```mermaid
-  graph LR;
+  graph TB;
       A{Si la condition vaut};
       A--True-->B[Exécution de certaines instructions];
       B-->C[Suite programme];
@@ -88,7 +88,7 @@ Retrouver, pour chaque schéma de branchement suivant, le programme correspondan
 a) Schéma de branchement 1
 
 ```mermaid
-  graph LR;
+  graph TB;
       A{if a != 0 :};
       A--True-->B[b = b + 1];
       B-->C[a = a // 2];
@@ -98,7 +98,7 @@ a) Schéma de branchement 1
 b) Schéma de branchement 2
 
 ```mermaid
-  graph LR;
+  graph TB;
       A{if a >= 0 or b <= 0 :};
       A--True-->B[a = a - 1];
       B-->C[b = b + 1];
@@ -108,7 +108,7 @@ b) Schéma de branchement 2
 c) Schéma de branchement 3
 
 ```mermaid
-  graph LR;
+  graph TB;
       A{if a or b and not c :};
       A--True-->B[c = not c];
 ```
@@ -120,7 +120,7 @@ L'instruction conditionnelle peut introduire une séquence d'instruction alterna
 ### a) Schéma de branchement
 
 ```mermaid
-  graph LR;
+  graph TB;
       A{Si la condition vaut};
       A--True-->B[Exécution de certaines instructions];
       A--False-->C[Exécution de certaines instructions];   
@@ -151,7 +151,7 @@ En Français, cela se traduirait :
 Son schéma de branchement donnerait :
 
 ```mermaid
-  graph LR;
+  graph TB;
       A{if a == 0 :};
       A--True-->B[a = a + 1];
       A--False-->C[a = a + 3];
@@ -198,7 +198,7 @@ Retrouver, pour chaque schéma de branchement suivant, le programme correspondan
 a) Schéma de branchement 1
 
 ```mermaid
-  graph LR;
+  graph TB;
       A{if a == 5 :};
       A--True-->B[a = a + 5];
       A--False-->C[a = a + 1];
@@ -209,7 +209,7 @@ a) Schéma de branchement 1
 b) Schéma de branchement 2
 
 ```mermaid
-  graph LR;
+  graph TB;
       A{if a % 2 == 0 :};
       A--True-->B[b = a];
       A--False-->C[a = a + 1];
@@ -218,7 +218,7 @@ b) Schéma de branchement 2
 c) Schéma de branchement 3
 
 ```mermaid
-  graph LR;
+  graph TB;
       A{if not a or not b :};
       A--True-->B[a = True];
       A--False-->C[a = False];
