@@ -45,21 +45,12 @@ En Français, cela se traduirait :
 Son schéma de branchement donnerait :
 
 ```mermaid
-  graph LR;
-      A{if a == 0 :};
+  graph TB;
+      [*]-->A{if a == 0 :};
       A--True-->B[a = a + 1];
       B-->C[b = a];
       A--False-->C[b = a];
-```
-
-
-```mermaid
-stateDiagram-v2
-    state if_state <<choice>>
-    [*] --> if_state
-    if_state --> a=a+1 : if a == 0
-    if_state --> b=a
-    a=a+1 --> b=a
+      C[b = a]-->[*];
 ```
 
 ##### Application 1
