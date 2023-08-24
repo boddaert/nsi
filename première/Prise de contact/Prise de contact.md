@@ -8,15 +8,23 @@ Il est stocké sur un serveur et est donc accessible depuis n'importe quel appar
 
 Il se découpe selon le schéma suivant :
 
-- `Classe`
-    |
-    - `Nom du chapitre`
-        |
-        - `Leçon`
-        - `Feuille d'exercice`
-        - Autres (`Images`, `Fichiers de travail`)
+- :file_folder: `nsi`
+    - :file_folder: `premiere`
+        - :file_folder: `Chapitre 1`
+            - :page_facing_up: `Leçon`
+            - :page_facing_up: `Feuille d'exercice`
+        - :file_folder: `Chapitre 2`
+            - :page_facing_up: `Leçon`
+            - :page_facing_up: `Feuille d'exercice`
+    - :file_folder: `terminale`
+        - :file_folder: `Chapitre 1`
+            - :page_facing_up: `Leçon`
+            - :page_facing_up: `Feuille d'exercice`
+        - :file_folder: `Chapitre 2`
+            - :page_facing_up: `Leçon`
+            - :page_facing_up: `Feuille d'exercice`
 
-En bas de page des chapitres, se trouve le sommaire dans lequel s'y figure le lien des leçons dans l'ordre de progression.
+En bas de page, se trouve le sommaire dans lequel s'y figure le lien des leçons dans l'ordre de progression.
 
 [Sommaire des Premières](./../../première/)
 
@@ -47,23 +55,27 @@ Vous serez amenés à travailler sur **papier** et sur **ordinateur** :
 - La majeure partie du temps en autonomie.
 - En groupe en projet ou en activité.
 
-### b) Sur ordinateur
+### b) Sur papier
 
-Sur une leçon, finissez les applications avant de commencer les exercices.
+Sur une leçon, pensez à prendre des notes sur papier.
 
-Les applications sont incluses dans les fichiers de leçon et ont pour objectif d'appliquer dircetement vous-même la notion.
+Quand il est indiqué en exercice, donnez les réponses sur papier et conservez-les dans un cahier ou un trieur.
 
-Les exercices ont un niveau de difficulté croissant.
+### c) Sur ordinateur
 
-Rangez vos fichiers Python ou autres fichiers de travail dans des dossiers nommés `votre-nom_nom-de-chapitre`.
+Créez un répertoire `nsi` dans votre espace comun de travail.
 
-Par exemple : `boddaert_chaine-de-caractere`.
-
-Ces dossiers doivent être accessibles depuis votre espace commun.
+Classez vos fichiers de travail par chapitre dans des répertoires nommés `votre-nom_numero-de-chapitre`.
 
 Veillez à également mettre vos noms dans les noms de vos fichiers.
 
-### c) A la maison
+- `nsi`
+    |
+    - `votre-nom_numéro_de_chapitre`
+        |
+        - Fichiers de travail
+
+### d) A la maison
 
 Le travail à la maison sera donné à chaque fin de séance.
 

@@ -1,6 +1,6 @@
 # Introduction
 
-En Numérique et Sciences Informatiques, nous allons être amenés à écrire des programmes informatiques, et de manière générale, du code informatique.
+En Numérique et Sciences Informatiques, nous allons être amenés à écrire des programmes informatiques.
 
 Un *programme informatique* est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.
 
@@ -53,7 +53,7 @@ Aucun résultat ne s'est affiché et c'est tout à fait normal, je n'ai pas écr
 ##### Application 1
 
 - Ouvrir le logiciel Thonny.
-- Sur Thonny, créer le fichier `test_mon_nom.py` dans le dossier `Chapitre 0`.
+- Sur Thonny, créer le fichier `test_mon-nom.py`.
 - Ecrire votre premier programme informatique python, qui réalise l'opération suivante : `(5+3)-(4*2)`.
 
 Le programme s'exécute t-il ?
