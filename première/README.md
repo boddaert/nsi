@@ -14,7 +14,7 @@ Chapitre 1 : [Constructions élémentaires](./Constructions%20élémentaires/)
 
 - Leçon 4 : [Séquences d'instructions](./Constructions%20élémentaires/Séquences.md)
 
-- Leçon 5 : [Fonctions 1](./Constructions%20élémentaires/Fonctions_1.md)
+- Leçon 5 : [Fonctions](./Constructions%20élémentaires/Fonctions.md)
 
 - Leçon 6 : [Modules](./Constructions%20élémentaires/Modules.md)
 
@@ -29,6 +29,14 @@ Chapitre 2 : [Projet 1](./Projets/Projets.md)
 Chapitre 3 : [Chaînes de caractères](./Chaînes%20de%20caractère/Chaines_de_caractere.md)
 
 ______
+
+Chapitre _ : [Spécifications](./Spécification/)
+
+- Leçon 1 : [Spécifications](./Spécification/Specification.md)
+
+- Leçon 2 : [Préconditions](./Spécification/Preconditions.md)
+
+- Leçon 3 : [Postconditions](./Spécification/Postconditions.md)
 
 Chapitre _ : [Représentation des textes en machine](./première/Représentation des textes en machine/Leçon_representation_des_textes.MD)
 

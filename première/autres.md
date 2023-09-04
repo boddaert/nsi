@@ -1,15 +1,4 @@
-# Fonctions 2
-
-## I. Spécification d'une fonction
-
-### a) Préconditions
-
--> assertions
-
-### b) Postconditions
-
--> doctests
-
+effets de bords, bonnes pratiques,etc
 ## III. Portée des variables
 
 ### a) Définition

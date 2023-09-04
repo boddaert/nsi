@@ -1,0 +1,3 @@
+# Préconditions
+
+## I. Définitions

@@ -61,7 +61,9 @@ Vous serez amenés à travailler sur **papier** et sur **ordinateur** :
 
 Sur une leçon, pensez à prendre des notes sur papier.
 
-Quand il est indiqué en exercice, donnez les réponses sur papier et conservez-les dans un cahier ou un trieur.
+Quand il est indiqué en exercice, donnez les réponses sur papier.
+
+Conservez-les dans un cahier ou un trieur.
 
 ### c) Sur ordinateur
 

@@ -1,6 +1,6 @@
 # Projets
 
-## Projet 1 : Architect
+## Projet 1 : Architectes
 
 ### a) Description
 
@@ -16,8 +16,7 @@ Les contraintes urbaines sont les suivantes :
 
 - La rue doit comporter quatre immeubles.
 - Un immeuble a un nombre d'étage aléatoire. Il a au minimum un rez-de-chaussée et peut avoir jusqu'à quatre étages.
-- Chaque étage a une hauteur de 60 pixels.
-- Toutes les fenêtres sont identiques et sont des carrés de 30x30 pixels.
+- Toutes les fenêtres sont identiques et sont des carrés.
 - Un immeuble est colorié d'une couleur aléatoire.
 - Les rez-de-chaussée n'ont qu'une seule porte.
 
@@ -25,13 +24,20 @@ Tout le reste est libre et peut donc être personnalisé.
 
 ### c) Cahier des charges
 
-Votre programme Python doit utiliser les modules `turtle` et `random`.
+1. Votre programme Python doit utiliser les modules `turtle` et `random`.
 
-Votre programme doit être modulaire, c'est-à-dire que vous devez écrire le plus possible de petites fonctions simples.
+2. Votre programme doit être modulaire, c'est-à-dire que vous devez écrire le plus possible dans des fichiers Python différents.
 
-Pour chaque fonction que vous écrivez dans votre programme, elle doit être munie d'une documentation composée d'une DocString et d'une DocTest.
+3. Pour chaque fonction que vous écrivez dans votre programme, elle doit être munie d'une documentation composée d'une DocString et d'une DocTest.
 
-Votre programme doit avoir des noms de fonctions et de variables clairs et explicites.
+Rappels de Première : sur les DocString et DocTest : 
+
+- [Pour la DocString](./../../première/Spécification/Specification.md)
+- [Pour la Doctest](./../../première/Spécification/Postconditions.md)
+
+4. Le code doit être lisible, les noms de variables explicites.
+
+5. Les contraintes urbaines doivent être respectées.
 
 ### d) Module Turtle
 

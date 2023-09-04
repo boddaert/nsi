@@ -1,5 +1,7 @@
 # Introduction
 
+## I. L'informatique
+
 En Numérique et Sciences Informatiques, nous allons être amenés à écrire des programmes informatiques.
 
 Un *programme informatique* est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.
@@ -14,8 +16,8 @@ Par exemple :
 
 ```
 Recette Mayonnaise
-- Mettre un jaune d'oeuf dans un bol
-- Y ajouter une cuillière de moutarde
+- Mettre un jaune d'oeuf dans un bol.
+- Y ajouter une cuillière de moutarde.
 - Tant que la préparation est liquide :
     - Ajouter une cuillière à soupe d'huile.
     - Fouetter la préparation.
@@ -25,7 +27,7 @@ L'objectif de construire un algorithme est qu'il soit compris par tous et qu'on 
 
 Un algorithme est comparable à une recette de cuisine.
 
-## I. Langage de programmation
+## II. Langage de programmation
 
 Un *langage de programmation* est un langage dans lequel nous allons écrire notre programme.
 
@@ -35,13 +37,13 @@ On distingue une multitude de langages comme le Java, le C++, le HTML, le CSS, l
 
 ![](./img/langages.png)
 
-## II. Le Python
+## III. Le Python
 
 En NSI, nous travaillerons avec le langage Python principalement. Il a été inventé en 1989 par le néerlandais Guido Van Rossum et est aujourd'hui l'un des lagages les plus utilisés au monde.
 
 ![](./img/python_logo.png)
 
-## III. Environnement de développement
+## IV. Environnement de développement
 
 Un *IDE* (ou environnement de développement) est un logiciel permettant d'écrire et de faire exécuter des programmes. Nous utiliserons pour cela le logiciel Thonny :
 
