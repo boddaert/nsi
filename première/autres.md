@@ -1,4 +1,4 @@
-effets de bords, bonnes pratiques,etc
+effets de bords, procédures, bonnes pratiques,etc
 ## III. Portée des variables
 
 ### a) Définition

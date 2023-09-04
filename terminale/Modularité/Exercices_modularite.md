@@ -2,4 +2,4 @@
 
 ## Exercice 1
 
-[Projet 1](./../Projets/Projets.md)
+[Projet n°1 : Architectes](./../Projets/Projets.md)

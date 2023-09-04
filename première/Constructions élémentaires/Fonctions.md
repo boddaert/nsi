@@ -119,6 +119,10 @@ def somme(a : int, b : int) -> int :
     return resultat
 ```
 
+### e) Procédures
+
+Une *procédure* est une fonction ne renvoyant pas de résultat et donc ne contient pas d'instruction `return`.
+
 ##### Application 4
 
 Ecrire, en Python, la fonction ``produit(a : int, b : int) -> int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie comme résultat $`a * b`$.
@@ -219,11 +223,11 @@ Les fonctions natives sont des fonctions qui existent déjà. La fonction ``type
 
 Il est possible, avec une fonction native, de changer le type de nos valeurs.
 
-- La fonction ``str()`` permet de transformer en chaîne de caractère la valeur mise en parenthèses.
+- La fonction ``str()`` renvoie la valeur mise en parenthèses sous le type de chaîne de caractère.
 
-- La fonction ``int()`` permet de transformer en nombre entier la valeur mise en parenthèses.
+- La fonction ``int()`` renvoie la valeur mise en parenthèses sous le type de nombre entier .
 
-- La fonction ``float()`` permet de transformer en nombre flottant la valeur mise en parenthèses.
+- La fonction ``float()`` renvoie la valeur mise en parenthèses sous le type de nombre flottant.
 
 a) Dans la console Python et à l'aide de la fonction `str()`, convertir les valeurs `42`, `3.14`, `0.0` et `True` en chaîne de caractères.
 

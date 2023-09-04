@@ -1,6 +1,6 @@
 # Projets
 
-## Projet 1 : Architectes
+## Projet n°1 : Architectes
 
 ### a) Description
 
@@ -71,7 +71,7 @@ Voici quelques fonctions simples pour commencer à utiliser `turtle` :
 
 Documentation de `turtle` : [https://docs.python.org/fr/3/library/turtle.html](https://docs.python.org/fr/3/library/turtle.html)
 
-## Projet 2 : Combat de Pokémons
+## Projet n°2 : Combat de Pokémons
 
 ### a) Description
 
