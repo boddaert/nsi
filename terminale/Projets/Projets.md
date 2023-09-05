@@ -10,7 +10,24 @@ Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exéc
 
 ![Exemples](./img/description.png)
 
-### b) Contraintes urbaines
+### b) Cahier des charges
+
+1. Votre programme Python doit utiliser les modules `turtle` et `random`.
+
+2. Votre programme doit être modulaire, c'est-à-dire que vous devez décomposer le plus possible votre programme en plusieurs fonctions.
+
+3. Pour chaque fonction que vous écrivez dans votre programme, elle doit être munie d'une documentation DocString et d'un jeu de test DocTest.
+
+Rappels de Première : 
+
+- [Pour la DocString](./../../première/Spécification/Specification.md)
+- [Pour la Doctest](./../../première/Spécification/Postconditions.md)
+
+4. Le code doit être lisible, les noms de variables explicites.
+
+5. Les contraintes urbaines doivent être respectées.
+
+### c) Contraintes urbaines
 
 Les contraintes urbaines sont les suivantes :
 
@@ -21,23 +38,6 @@ Les contraintes urbaines sont les suivantes :
 - Les rez-de-chaussée n'ont qu'une seule porte.
 
 Tout le reste est libre et peut donc être personnalisé.
-
-### c) Cahier des charges
-
-1. Votre programme Python doit utiliser les modules `turtle` et `random`.
-
-2. Votre programme doit être modulaire, c'est-à-dire que vous devez écrire le plus possible dans des fichiers Python différents.
-
-3. Pour chaque fonction que vous écrivez dans votre programme, elle doit être munie d'une documentation composée d'une DocString et d'une DocTest.
-
-Rappels de Première : 
-
-- [Pour la DocString](./../../première/Spécification/Specification.md)
-- [Pour la Doctest](./../../première/Spécification/Postconditions.md)
-
-4. Le code doit être lisible, les noms de variables explicites.
-
-5. Les contraintes urbaines doivent être respectées.
 
 ### d) Module Turtle
 
