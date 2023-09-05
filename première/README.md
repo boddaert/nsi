@@ -1,32 +1,32 @@
 ## Première NSI
 
-Chapitre -1 : [Prise de contact](./Prise%20de%20contact/Prise%20de%20contact.md)
+Chapitre -1 : [Prise de contact](./Prise_de_contact/Prise_de_contact.md)
 
-Chapitre 0 : [Introduction](./Introduction/Introduction.md)
+Chapitre 0 : [Prise en main](./Prise_en_main/Prise_en_main.md)
 
-Chapitre 1 : [Constructions élémentaires](./Constructions%20élémentaires/)
+Chapitre 1 : [Constructions élémentaires](./Constructions_élémentaires/)
 
-- Leçon 1 : [Types](./Constructions%20élémentaires/Types.md)
+- Leçon 1 : [Types](./Constructions_élémentaires/Types.md)
 
-- Leçon 2 : [Opérateurs](./Constructions%20élémentaires/Opérateurs.md)
+- Leçon 2 : [Opérateurs](./Constructions_élémentaires/Opérateurs.md)
 
-- Leçon 3 : [Variables](./Constructions%20élémentaires/Variables.md)
+- Leçon 3 : [Variables](./Constructions_élémentaires/Variables.md)
 
-- Leçon 4 : [Séquences d'instructions](./Constructions%20élémentaires/Séquences.md)
+- Leçon 4 : [Séquences d'instructions](./Constructions_élémentaires/Séquences.md)
 
-- Leçon 5 : [Fonctions](./Constructions%20élémentaires/Fonctions.md)
+- Leçon 5 : [Fonctions](./Constructions_élémentaires/Fonctions.md)
 
-- Leçon 6 : [Modules](./Constructions%20élémentaires/Modules.md)
+- Leçon 6 : [Modules](./Constructions_élémentaires/Modules.md)
 
-- Leçon 7 : [Instructions conditionnelles](./Constructions%20élémentaires/Instructions_conditionnelles.md)
+- Leçon 7 : [Instructions conditionnelles](./Constructions_élémentaires/Instructions_conditionnelles.md)
 
-- Leçon 8 : [Boucles non bornées](./Constructions%20élémentaires/Boucles_non_bornées.md)
+- Leçon 8 : [Boucles non bornées](./Constructions_élémentaires/Boucles_non_bornées.md)
 
-- Leçon 9 : [Boucles bornées](./Constructions%20élémentaires/Boucles_bornées.md)
+- Leçon 9 : [Boucles bornées](./Constructions_élémentaires/Boucles_bornées.md)
 
 Chapitre 2 : [Projet 1](./Projets/Projets.md)
 
-Chapitre 3 : [Chaînes de caractères](./Chaînes%20de%20caractère/Chaines_de_caractere.md)
+Chapitre 3 : [Chaînes de caractères](./Chaînes_de_caractère/Chaines_de_caractere.md)
 
 ______
 

@@ -2,7 +2,7 @@
 
 ## I. Le cours
 
-Tout le cours de Première et Terminale NSI est disponible à l'adresse : `https://gitlab.com/theoboddaert/nsi`.
+Tout le cours de Terminale NSI est disponible à l'adresse : `https://gitlab.com/theoboddaert/nsi`.
 
 Il est stocké sur un serveur et est donc accessible depuis n'importe quel appareil muni d'une connexion Internet.
 
@@ -36,52 +36,43 @@ En bas de page, se trouve le sommaire dans lequel s'y figure le lien des leçons
 
 En Numériques et Sciences Informatiques, nous verrons essentiellement les bases de la programmation, des algorithmes, des notions réseau, de web et de système.
 
-### a) En Première
+### a) En Terminale
 
-En Première, le volume horaire est de quatre heures par semaine.
-
-[Programme de Première](https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/26/8/spe633_annexe_1063268.pdf)
-
-### b) En Terminale
-
-En Terminale, le volume horaire est de six heures par semaine.
+En Terminale, le volume horaire est de sept heures par semaine.
 
 [Programme de Terminale](https://cache.media.education.gouv.fr/file/SPE8_MENJ_25_7_2019/93/3/spe247_annexe_1158933.pdf)
 
-## II. Méthode de travail
+## II. Méthodes de travail
 
 ### a) En classe
 
-Vous serez amenés à travailler sur **papier** et sur **ordinateur** :
-
-- La majeure partie du temps en autonomie.
-- En groupe en projet ou en activité.
+Vous serez amenés à travailler sur **papier**, sur **ordinateur** ou sur **téléphone**.
 
 ### b) Sur papier
 
-Sur une leçon, pensez à prendre des notes sur papier.
+Feuilles doivent êtres collées dans un cahier ou rangées dans un trieur.
 
-Quand il est indiqué en exercice, donnez les réponses sur papier.
+Prenez des notes.
 
-Conservez-les dans un cahier ou un trieur.
+En exercice, lorsque c'est indiqué, donnez les réponses sur papier.
 
 ### c) Sur ordinateur
 
-Créez un répertoire `nsi` dans votre espace comun de travail.
+Répertoires et fichiers doivent être rangés correctement dans votre espace de travail.
 
-Classez vos fichiers de travail par chapitre dans des répertoires nommés `votre-nom_numero-de-chapitre`.
+Dans un répertoire nommé `nsi_terminale` que vous aurez créé, il y aura pour chaque chapitre un répertoire.
 
-Veillez à également mettre vos noms dans les noms de vos fichiers.
+Répertoires et fichiers doivent être nommés explicitement avec votre nom et prénom.
 
-- `nsi`
-    |
-    - `votre-nom_numéro_de_chapitre`
-        |
-        - Fichiers de travail
+Par exemple : `albert_eistein_chapitre_1_modularité`.
 
-### d) A la maison
+### d) Sur téléphone
 
-Le travail à la maison sera donné à chaque fin de séance.
+Pas de téléphone en classe sauf si autorisé pour activité.
+
+### e) A la maison
+
+Le travail à la maison sera donné à chaque fin de séance et est disponible sur Pronote.
 
 Il vous sera généralement demandé de finir les exercices du jour.
 
@@ -103,24 +94,24 @@ Des malus de points peuvent être distribués si le travail est bâclé, n'est p
 
 Vingt points sont à répartir sur deux épreuves :
 
-- Douze sur l'épreuve écrite :
+- Douze points sur l'épreuve écrite :
     + Le candidat choisis trois exercices à traiter sur les cinq proposés.
     + Chaque exercice est noté sur quatre points.
     + Les exercices sont à priori de thème différent (Programmation, Web, Réseau, Système).
     + L'épreuve dure 3h30.
-    + Date : courant mars.
+    + Date : courant juin.
 - Huit points sur l'épreuve pratique :
     + Le candidat traite deux exercices sur ordinateur.
     + Le premier est un programme à écrire et le second consiste à remplir du code.
     + Chaque exercice est noté sur quatre points.
     + L'épreuve dure une heure.
-    + Date : après les épreuves écrites.
+    + Date : ?
 
 Sur chacune des deux épreuves, les compétences et les connaissances qui sont évaluées comprennent également celles de l'année de Première NSI.
 
 ### b) Préparer son bac
 
-Par semaine en classe de Termianle, une séance (2h) est réservée pour l'entraînement Baccalauréat.
+Par semaine en classe de Termianle, une séance (1h) est réservée pour l'entraînement Baccalauréat.
 
 [Banque d'épreuve écrite](https://pixees.fr/informatiquelycee/term/suj_bac/)
 
@@ -130,3 +121,7 @@ Par semaine en classe de Termianle, une séance (2h) est réservée pour l'entra
 ## V. Matériel conseillé
 
 Non obligatoire mais il est conseillé de posséder une clé USB dans laquelle vous pourrez mettre tous vos dossiers et fichiers de travail.
+
+___________
+
+[Sommaire](./../../terminale/)

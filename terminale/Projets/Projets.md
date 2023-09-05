@@ -30,7 +30,7 @@ Tout le reste est libre et peut donc être personnalisé.
 
 3. Pour chaque fonction que vous écrivez dans votre programme, elle doit être munie d'une documentation composée d'une DocString et d'une DocTest.
 
-Rappels de Première : sur les DocString et DocTest : 
+Rappels de Première : 
 
 - [Pour la DocString](./../../première/Spécification/Specification.md)
 - [Pour la Doctest](./../../première/Spécification/Postconditions.md)

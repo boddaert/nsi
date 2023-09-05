@@ -1,3 +1,3 @@
 # Spécialité Numérique et Sciences Informatiques
 
-*Me contacter : theo.boddaert.etu@univ-lille.fr*
+*Me contacter : theo.boddaert@ac-lille.fr ou sur l'application Néo*

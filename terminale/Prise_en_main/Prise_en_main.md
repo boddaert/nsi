@@ -1,4 +1,4 @@
-# Introduction
+# Prise en main
 
 ## I. L'informatique
 
@@ -65,7 +65,9 @@ Nous constatons plusieurs choses :
 - Deuxièmement, le code a bien été éxécuté puisque dans la console du mode interactif, l'instruction `run test.py` le prouve.
 - Troisièmement, aucun résultat ne s'affiche.
 
-Aucun résultat ne s'est affiché et c'est tout à fait normal, je n'ai pas écris dans mon programme la fonction permettant d'afficher mon résultat. Donc, mon programme a bien effectué la somme de 5 et 5 mais n'a rien effectué de plus.
+Aucun résultat ne s'est affiché et c'est tout à fait normal, je n'ai pas écris dans mon programme la fonction permettant d'afficher mon résultat.
+
+Donc, mon programme a bien effectué la somme de $5$ et $5$ mais n'a rien effectué de plus.
 
 ##### Application 1
 
@@ -103,4 +105,4 @@ Répéter les opérations des applications 1 et 2 en utilisant cette fois unique
 
 ________
 
-[Sommaire](./../../première/)
+[Sommaire](./../../terminale/)
