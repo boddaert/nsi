@@ -33,7 +33,7 @@ Cette fonction devra utiliser uniquement l'opérateur de multiplication et la bo
 32
 ```
 
-### Exercice 6
+### Exercice 5
 
 Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
