@@ -5,7 +5,7 @@ et
 $3$
 et renvoie l'entier le plus grand.
 
-``` python
+```python
 cc = 5
 ```
 
