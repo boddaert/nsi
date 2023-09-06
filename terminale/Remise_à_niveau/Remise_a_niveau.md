@@ -49,6 +49,13 @@ Cette fonction devra utiliser uniquement l'opérateur de multiplication et la bo
 32
 ```
 
+```python
+def function():
+    #indenting works just fine in the fenced code block
+    s = "Python syntax highlighting"
+    print s
+```
+
 ### Exercice 7
 
 Ecrire une fonction `nombre_occurences(mot : str, lettre : str)->int` qui prend en paramètres une chaîne de caractère et un caractère et renvoie comme résultat le nombre de fois qu'apparaît `lettre` dans `mot`.
