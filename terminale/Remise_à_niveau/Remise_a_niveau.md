@@ -17,24 +17,21 @@ $a$,
 $b$ et 
 $c$ et renvoie l'entier le plus grand.
 
-```python
->>> max3(5,7,15)
-15
-```
+
 
 ### Exercice 5
 
-Ecrire une fonction qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
+Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
-Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle .
+Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle `for`.
 
 
 
 ### Exercice 5
 
-Ecrire une fonction qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
+Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
-Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle .
+Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle `for`.
 
 ```python
 >>> puissance_2(5)
