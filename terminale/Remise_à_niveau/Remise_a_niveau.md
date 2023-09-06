@@ -12,112 +12,112 @@ a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
 - `8`
 
-- $3$
-
 - `6.5`
-
-- $3$
 
 - `"6.5"`
 
-- $3$
-
 - `'6.5'`
-
-- $3$
 
 - `False`
 
-- $3$
-
 - `"True"`
-
-- $3$
 
 - `""`
 
-- $3$
 - `True`
-
-- $3$
 
 - `true`
 
-- $3$
-
 - `5 + 4`
-
-- $3$
 
 - `"5 + 4"`
 
-- $3$
-
 - `'"abcd"'`
-
-- $3$
 
 - `5.5 + 0.3`
 
-- $3$
-
 - `5.5 + 0.5`
-- $3$
 
 - `5 + 3.14`
 
-- $3$
-
 - `5 + 3.0`
-
-- $3$
 
 - `5 / 2`
 
 b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses.
 
 c) Expliquer le type obtenu pour chaque réponse.
-- $3$
 
-- $3$
 
 ### b) Exercice 2
 
 a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
 
+- $3$
+
 - `5 ** 2 - 3`
 
+- $3$
 
 - `10 < 9`
 
+- $3$
+
 - `10 <= 10`
+
+- $3$
 
 - `5 / 2`
 
+- $3$
+
 - `4 / 2`
+
+- $3$
 
 - `False and False`
 
+- $3$
+
 - `4 / 0`
+
+- $3$
 
 - `4 // 2`
 
+- $3$
+
 - `4 // 0`
+
+- $3$
 
 - `4 % 2`
 
+- $3$
+
 - `4 != 2`
+
+- $3$
 
 - `5 % 2`
 
+- $3$
+
 - `True or True`
+
+- $3$
 
 - `7 + 7 % 2`
 
+- $3$
+
 - `3 * 3 ** 2`
+
+- $3$
 
 - `'4' // 2`
 
+- $3$
 - $3$
 
 b) Vérifier vos résultats dans la console.
