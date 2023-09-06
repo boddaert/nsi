@@ -23,7 +23,7 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
-Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en paramètres trois entiers
+Ecrire une fonction max3( a : int, b : int, c : int )-> int qui prend en paramètres trois entiers
 $a$,
 $b$ et 
 $c$ et renvoie l'entier le plus grand.
