@@ -44,12 +44,11 @@ a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
 - `5 / 2`
 
+b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses.
+
 c) Expliquer le type obtenu pour chaque réponse.
 
 - $3$
-
-
-### b) Exercice 2
 
 - $3$
 
