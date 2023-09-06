@@ -10,6 +10,8 @@ Lire [Prise en main - Première](./../../première/Prise_en_main/Prise_en_main.m
 
 Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
+$3$
+
 `8`
 
 `6.5`
