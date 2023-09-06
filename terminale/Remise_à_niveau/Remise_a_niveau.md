@@ -58,7 +58,11 @@ Expliquer le type obtenu pour chaque réponse.
 
 Vérifier vos résultats dans la console.
 
+- $3$
+
 ### Exercice 3
+
+- $3$
 
 ```python
 a = 5
@@ -67,6 +71,7 @@ tmp = a
 a = b
 b = tmp
 ```
+- $3$
 
 Expliquer ce que fait le programme précédent.
 
