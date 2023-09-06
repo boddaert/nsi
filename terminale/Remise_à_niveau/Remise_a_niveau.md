@@ -1,68 +1,51 @@
-cc
 $a$
-et
 
-$3$
-et renvoie l'entier le plus grand.
+$a$
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+$a$
 
-```python
-def function():
-    #indenting works just fine in the fenced code block
-    s = "Python syntax highlighting"
-    print s
-```
+$a$
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
+$a$
 
-Ecrire une fonction max3( a : int, b : int, c : int )-> int qui prend en paramètres trois entiers
-$a$,
-$b$ et 
-$c$ et renvoie l'entier le plus grand.
+$a$
 
+$a$
 
+$a$
 
-### Exercice 5
+$a$
 
+$a$
 
-```python
-def function():
-    #indenting works just fine in the fenced code block
-    s = "Python syntax highlighting"
-    print s
-```
+$a$
 
-a
+$a$
 
-b
+$a$
 
-Ecrire une fonction puissance_2(n : int)->int qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
+$a$
 
-Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle for.
+$a$
 
-```python
-def function():
-    #indenting works just fine in the fenced code block
-    s = "Python syntax highlighting"
-    print s
-```
+$a$
 
-### Exercice 7
+$a$
 
-Ecrire une fonction `nombre_occurences(mot : str, lettre : str)->int` qui prend en paramètres une chaîne de caractère et un caractère et renvoie comme résultat le nombre de fois qu'apparaît `lettre` dans `mot`.
+$a$
 
-```python
->>> nombre_occurences('occurence', 'e')
-2
-```
-______________
+$a$
 
-[Sommaire](./../../terminale/)
+$a$
+
+$a$
+
+$a$
+
+$a$
+
+$a$
+
+$a$
+
+$a$
