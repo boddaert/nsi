@@ -48,6 +48,8 @@ Vérifier, à l'aide de la fonction type() et dans la console vos précédentes 
 
 Expliquer le type obtenu pour chaque réponse.
 
+- $3$
+
 g
 
 g
