@@ -10,23 +10,23 @@ Lire [Prise en main - Première](./../../première/Prise_en_main/Prise_en_main.m
 
 a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
-- $8$
-- $6.5$
-- $"6.5"$
-- $'6.5'$
-- $False$
-- $"True"$
-- $""$
-- $True$
-- $true$
-- $5 + 4$
-- $"5 + 4"$
-- $'"abcd"'$
-- $5.5 + 0.3$
-- $5.5 + 0.5$
-- $5 + 3.14$
-- $5 + 3.0$
-- $5 / 2$
+- `8`
+- `6.5`
+- `"6.5"`
+- `'6.5'`
+- `False`
+- `"True"`
+- `""`
+- `True`
+- `true`
+- `5 + 4`
+- `"5 + 4"`
+- `'"abcd"'`
+- `5.5 + 0.3`
+- `5.5 + 0.5`
+- `5 + 3.14`
+- `5 + 3.0`
+- `5 / 2`
 
 b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses.
 
