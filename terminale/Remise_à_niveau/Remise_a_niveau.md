@@ -50,7 +50,6 @@ Expliquer le type obtenu pour chaque réponse.
 
 - $3$
 
-### Exercice 2
 
 - $3$
 
