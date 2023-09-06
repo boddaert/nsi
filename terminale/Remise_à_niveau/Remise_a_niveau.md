@@ -46,8 +46,6 @@ a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
 - $3$
 
-b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses.
-
 - $3$
 
 c) Expliquer le type obtenu pour chaque réponse.
