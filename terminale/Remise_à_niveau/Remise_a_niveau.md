@@ -5,9 +5,9 @@ et
 $3$
 et renvoie l'entier le plus grand.
 
-```python
+````python
 cc = 5
-```
+````
 
 Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en paramètres trois entiers
 $a$,
