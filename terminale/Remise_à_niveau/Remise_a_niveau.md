@@ -44,10 +44,6 @@ a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
 - `5 / 2`
 
-- $3$
-
-- $3$
-
 c) Expliquer le type obtenu pour chaque réponse.
 
 - $3$
