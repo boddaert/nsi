@@ -48,37 +48,37 @@ Vérifier, à l'aide de la fonction type() et dans la console vos précédentes 
 
 Expliquer le type obtenu pour chaque réponse.
 
-- $3$
+$3$
 
-- $3$
+$3$
 
-- $3$
+$3$
 
-- $3$
+$3$
 
-- $3$
+$3$
 
-- $3$
+$3$
 
-- $3$
+$3$
 
-- $3$
+$3$
 
-- $3$
+$3$
 
-- $3$
+$3$
 
-- $3$
-
-
-- $3$
+$3$
 
 
-- $3$
+$3$
+
+
+$3$
 
 Vérifier vos résultats dans la console.
 
-- $3$
+$3$
 
 ### Exercice 3
 
