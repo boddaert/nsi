@@ -75,7 +75,10 @@ Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres d
 13
 ```
 
-Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en paramètres trois entiers $a$, $b$ et $c$ et renvoie l'entier le plus grand.
+Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en paramètres trois entiers
+$a$,
+$b$ et 
+$c$ et renvoie l'entier le plus grand.
 
 ```python
 >>> max3(5,7,15)
