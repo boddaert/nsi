@@ -1,23 +1,3 @@
-# Remise à niveau
-
-## I. Définitions, Langages de programmation, Thonny
-
-Lire [Prise en main - Première](./../../première/Prise_en_main/Prise_en_main.md)
-
-## II. Exercices de remise à niveau
-
-### Exercice 1
-
-Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
-
-Vérifier, à l'aide de la fonction type() et dans la console vos précédentes réponses.
-
-Expliquer le type obtenu pour chaque réponse.
-
-### Exercice 4
-
-Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers
-
 $a$
 et
 
