@@ -32,11 +32,6 @@ $c$ et renvoie l'entier le plus grand.
 
 ### Exercice 5
 
-Ecrire une fonction puissance_2(n : int)->int qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
-
-Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle for.
-
-
 
 ```python
 def function():
