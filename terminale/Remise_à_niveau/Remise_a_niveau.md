@@ -52,6 +52,8 @@ Expliquer le type obtenu pour chaque réponse.
 
 ### Exercice 2
 
+- $3$
+
 Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
 
 - `5 ** 2 - 3`
