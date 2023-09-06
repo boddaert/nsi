@@ -34,6 +34,9 @@ c) Expliquer le type obtenu pour chaque réponse.
 
 ### b) Exercice 2
 
+
+- $3$
+
 a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
 
 - `5 ** 2 - 3`
@@ -56,8 +59,6 @@ a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
 b) Vérifier vos résultats dans la console.
 
 ### c) Exercice 3
-
-- $3$
 
 ```python
 a = 5
