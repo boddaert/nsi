@@ -46,7 +46,9 @@ Dans ce cas ci, plus besoin de devoir réécrire le nom du module :
 
 ## III. Bonnes pratiques
 
-1. Il est très conseillé de moduler son programme, c'est-à-dire de découper son programme en plusieurs fonctions dans plusieurs fichiers Python et de les utiliser comme modules.
+1. Il est très conseillé de moduler son programme, c'est-à-dire de découper son programme le plus possible en plusieurs fonctions.
+
+L'idéal est : Une tâche -> Une fonction.
 
 2. En partant du fait que les modules peuvent être utilisés par d'autres utilisateurs, il est important de donner des noms de fonctions explicites et des noms de variables explicites.
 
@@ -56,9 +58,9 @@ Dans ce cas ci, plus besoin de devoir réécrire le nom du module :
 
 a) Créer un fichier `module.py` dans lequel vous écrirez une fonction `max(l : list)->int` permettant de récupérer l'entier maximum d'une liste.
 
-b) Puis, dans un second fichier Python situé dans le même répertoire, importer la fonction `max()` de manière globale et tester la fonction.
+b) Puis, dans un second fichier Python `test_global.py` situé dans le même répertoire, importer la fonction `max()` de manière globale et tester la fonction.
 
-c) Enfin, dans un troisième fichier Python situé lui aussi dans le même répertoire, importer la fonction `max()` de manière précise et tester la fonction.
+c) Enfin, dans un troisième fichier Python `test_precis.py` situé lui aussi dans le même répertoire, importer la fonction `max()` de manière précise et tester la fonction.
 
 _______
 

@@ -14,7 +14,7 @@ Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exéc
 
 1. Votre programme Python doit utiliser les modules `turtle` et `random`.
 
-2. Votre programme doit être modulaire, c'est-à-dire que vous devez décomposer le plus possible votre programme en plusieurs fonctions.
+2. Votre programme doit être modulaire, c'est-à-dire que vous devez décomposer le plus possible votre programme en plusieurs fonctions voire dans plusieurs fichiers.
 
 3. Pour chaque fonction que vous écrivez dans votre programme, elle doit être munie d'une documentation DocString et d'un jeu de test DocTest.
 
@@ -23,7 +23,7 @@ Rappels de Première :
 - [Pour la DocString](./../../première/Spécification/Specification.md)
 - [Pour la Doctest](./../../première/Spécification/Postconditions.md)
 
-4. Le code doit être lisible, les noms de variables explicites.
+4. Le code doit être lisible, les noms de variable et noms de fonction explicites.
 
 5. Les contraintes urbaines doivent être respectées.
 
@@ -70,6 +70,16 @@ Voici quelques fonctions simples pour commencer à utiliser `turtle` :
 | `ht()` | La tortue est invisible. |
 
 Documentation de `turtle` : [https://docs.python.org/fr/3/library/turtle.html](https://docs.python.org/fr/3/library/turtle.html)
+
+### e) Evaluation
+
+Vous serez évalués sur :
+
+- La qualité du code fourni (modularité, explicité des noms).
+
+- Le respect des contraintes urbaines.
+
+- La DocString et la Doctest.
 
 ## Projet n°2 : Combat de Pokémons
 
