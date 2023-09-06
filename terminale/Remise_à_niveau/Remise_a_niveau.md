@@ -47,28 +47,29 @@ Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 Vérifier, à l'aide de la fonction type() et dans la console vos précédentes réponses.
 
 Expliquer le type obtenu pour chaque réponse.
-g
-g
-g
-g
 
 g
-g
-g
-g
 
-g
-g
-g
-g
-g
-g
-g
-g
 g
 
 g
 
+g
+
+
+
+g
+
+g
+
+g
+
+g
+
+
+g
+
+g
 
 - $3$
 
