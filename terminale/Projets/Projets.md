@@ -4,7 +4,7 @@
 
 ### a) Description
 
-Nous souhaitons écrire un programme permettant de générer **aléatoirement** le dessin d'une rue.
+Vous avez été appelés pour écrire seul un programme permettant de générer **aléatoirement** le dessin d'une rue.
 
 Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exécutant votre programme :
 
