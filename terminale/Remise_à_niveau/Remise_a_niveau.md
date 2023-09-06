@@ -36,7 +36,12 @@ Ecrire une fonction puissance_2(n : int)->int qui prend en paramètre un entier 
 
 Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle for.
 
-
+```python
+def function():
+    #indenting works just fine in the fenced code block
+    s = "Python syntax highlighting"
+    print s
+```
 
 ### Exercice 5
 
@@ -44,12 +49,7 @@ Ecrire une fonction puissance_2(n : int)->int qui prend en paramètre un entier 
 
 Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle for.
 
-```python
-def function():
-    #indenting works just fine in the fenced code block
-    s = "Python syntax highlighting"
-    print s
-```
+
 
 ### Exercice 7
 
