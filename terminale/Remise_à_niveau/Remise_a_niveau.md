@@ -6,7 +6,7 @@ Lire [Prise en main - Première](./../../première/Prise_en_main/Prise_en_main.m
 
 ## II. Exercices de remise à niveau
 
-### a) Exercice 1
+### Exercice 1
 
 a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
@@ -44,18 +44,15 @@ a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
 - `5 / 2`
 
-b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses.
+b) Vérifier, à l'aide de la fonction type() et dans la console vos précédentes réponses.
 
 c) Expliquer le type obtenu pour chaque réponse.
 
 - $3$
 
-- $3$
-- $3$
+### Exercice 2
+
 a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
-- $3$
-- $3$
-- $3$
 
 - `5 ** 2 - 3`
 
@@ -93,7 +90,7 @@ a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
 
 b) Vérifier vos résultats dans la console.
 
-### c) Exercice 3
+### Exercice 3
 
 ```python
 a = 5
@@ -105,7 +102,7 @@ b = tmp
 
 Expliquer ce que fait le programme précédent.
 
-### d) Exercice 4
+### Exercice 4
 
 a) Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers $a$ et $3$ et renvoie l'entier le plus grand.
 
@@ -123,7 +120,7 @@ b) Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en 
 15
 ```
 
-### e) Exercice 5
+### Exercice 5
 
 Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
@@ -134,7 +131,7 @@ Cette fonction devra utiliser uniquement l'opérateur de multiplication et la bo
 32
 ```
 
-### f) Exercice 6
+### Exercice 6
 
 Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
@@ -145,7 +142,7 @@ Cette fonction devra utiliser uniquement l'opérateur de multiplication et la bo
 16
 ```
 
-### g) Exercice 7
+### Exercice 7
 
 Ecrire une fonction `nombre_occurences(mot : str, lettre : str)->int` qui prend en paramètres une chaîne de caractère et un caractère et renvoie comme résultat le nombre de fois qu'apparaît `lettre` dans `mot`.
 
