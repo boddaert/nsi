@@ -10,6 +10,9 @@ Lire [Prise en main - Première](./../../première/Prise_en_main/Prise_en_main.m
 
 a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
+
+- $3$
+
 - `8`
 - `6.5`
 - `"6.5"`
@@ -33,9 +36,6 @@ b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précéde
 c) Expliquer le type obtenu pour chaque réponse.
 
 ### b) Exercice 2
-
-
-- $3$
 
 a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
 
