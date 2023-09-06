@@ -86,6 +86,8 @@ Expliquer ce que fait le programme précédent.
 
 a) Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers $a$ et $3$ et renvoie l'entier le plus grand.
 
+$3$
+
 ```python
 >>> max2(5,13)
 13
