@@ -19,8 +19,8 @@ Expliquer le type obtenu pour chaque réponse.
 Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers
 
 $a$
-
 et
+
 $3$
 et renvoie l'entier le plus grand.
 
