@@ -1,62 +1,134 @@
-a
+# Remise à niveau
 
-a
+## I. Définitions, Python, Thonny
 
-a
+Lire : [Première - Prise en main](./../../première/Prise_en_main/Prise_en_main.md)
 
-a
+## II. Entraînement
 
-a
+### Exercice 1
 
-a
+a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
-a
+- `8`
+- `6.5`
+- `"6.5"`
+- `'6.5'`
+- `False`
+- `"True"`
+- `""`
+- `True`
+- `true`
+- `5 + 4`
+- `"5 + 4"`
+- `'"abcd"'`
+- `5.5 + 0.3`
+- `5.5 + 0.5`
+- `5 + 3.14`
+- `5 + 3.0`
+- `5 / 2`
 
-a
+b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses.
 
-a
+c) Expliquer le type obtenu pour chaque réponse.
 
-a
+### Exercice 2
 
-a
+a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes en précisant le type du résultat ou lorsqu'une erreur doit survenir.
 
-a
+- `5 ** 2 - 3`
 
-a
-$a$
+- `10 < 9`
 
-$a$
+- `10 <= 10`
 
-$a$
+- `5 / 2`
 
-$a$
+- `4 / 2`
 
-$a$
+- `False and False`
 
-$a$
+- `4 / 0`
 
-$a$
-$a$
+- `4 // 2`
 
-$a$
+- `4 // 0`
 
-$a$
+- `4 % 2`
 
-$a$
+- `4 != 2`
 
-$a$
+- `5 % 2`
 
-$a$
+- `True or True`
 
-$a$
+- `7 + 7 % 2`
 
-$a$
-$a$
-$a$
-$a$
-$a$
-$a$
-$a$
-$a$
-$a$
-$a$
+- `3 * 3 ** 2`
+
+- `'4' // 2`
+
+b) Vérifier vos résultats dans la console.
+
+### Exercice 3
+
+```python
+a = 5
+b = 3
+tmp = a
+a = b
+b = tmp
+```
+
+Expliquer ce que fait le programme précédent.
+
+### Exercice 4
+
+a) Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie l'entier le plus grand.
+
+```python
+>>> max2(5,13)
+13
+```
+
+b) Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en paramètres trois entiers $a$, $b$ et $c$ et renvoie l'entier le plus grand.
+
+```python
+>>> max3(5,7,15)
+15
+```
+
+### Exercice 5
+
+Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
+
+Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle `for`.
+
+```python
+>>> puissance_2(5)
+32
+```
+
+### Exercice 6
+
+Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
+
+Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle `while`.
+
+```python
+>>> puissance_2(5)
+32
+```
+
+### Exercice 7
+
+Ecrire une fonction `nombre_occurences(mot : str, lettre : str)->int` qui prend en paramètres une chaîne de caractère et un caractère et renvoie comme résultat le nombre de fois qu'apparaît `lettre` dans `mot`.
+
+```python
+>>> nombre_occurences('occurence', 'e')
+2
+```
+
+_______________
+
+[Sommaire](./../../terminale/)
