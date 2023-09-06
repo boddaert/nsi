@@ -10,64 +10,16 @@ Lire [Prise en main - Première](./../../première/Prise_en_main/Prise_en_main.m
 
 Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
-$3$
-
-
 Vérifier, à l'aide de la fonction type() et dans la console vos précédentes réponses.
 
 Expliquer le type obtenu pour chaque réponse.
-$3$
-
-a
-$3$
-b
-a
-$3$
-
-$3$
-
-$3$
-
-$3$
-
-$3$
-
-$3$
-
-$3$
-
-$3$
-
-
-$3$
-
-
-$3$
-
-Vérifier vos résultats dans la console.
-
-$3$
-
-### Exercice 3
-
-- $3$
-
-```python
-a = 5
-b = 3
-tmp = a
-a = b
-b = tmp
-```
-- $3$
-
-Expliquer ce que fait le programme précédent.
 
 ### Exercice 4
 
-
 Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers
+
 $a$
+
 et
 $3$
 et renvoie l'entier le plus grand.
