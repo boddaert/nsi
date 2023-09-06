@@ -53,8 +53,6 @@ Expliquer le type obtenu pour chaque réponse.
 
 - $3$
 
-Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
-
 
 - $3$
 
