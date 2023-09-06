@@ -6,12 +6,6 @@ $3$
 et renvoie l'entier le plus grand.
 
 
-
-```python
->>> max2(5,13)
-13
-```
-
 Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en paramètres trois entiers
 $a$,
 $b$ et 
