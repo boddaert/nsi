@@ -50,28 +50,23 @@ Expliquer le type obtenu pour chaque réponse.
 
 - $3$
 
-g
+- $3$
 
-g
+- $3$
 
-g
+- $3$
 
-g
+- $3$
 
+- $3$
 
+- $3$
 
-g
+- $3$
 
-g
+- $3$
 
-g
-
-g
-
-
-g
-
-g
+- $3$
 
 - $3$
 
