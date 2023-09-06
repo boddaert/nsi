@@ -37,35 +37,20 @@ c) Expliquer le type obtenu pour chaque réponse.
 a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
 
 - `5 ** 2 - 3`
-
 - `10 < 9`
-
 - `10 <= 10`
-
 - `5 / 2`
-
 - `4 / 2`
-
 - `False and False`
-
 - `4 / 0`
-
 - `4 // 2`
-
 - `4 // 0`
-
 - `4 % 2`
-
 - `4 != 2`
-
 - `5 % 2`
-
 - `True or True`
-
 - `7 + 7 % 2`
-
 - `3 * 3 ** 2`
-
 - `'4' // 2`
 
 b) Vérifier vos résultats dans la console.
