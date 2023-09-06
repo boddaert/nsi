@@ -8,7 +8,7 @@ Lire [Prise en main - Première](./../../première/Prise_en_main/Prise_en_main.m
 
 ### Exercice 1
 
-a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
+Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
 - `8`
 
@@ -44,15 +44,15 @@ a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
 - `5 / 2`
 
-b) Vérifier, à l'aide de la fonction type() et dans la console vos précédentes réponses.
+Vérifier, à l'aide de la fonction type() et dans la console vos précédentes réponses.
 
-c) Expliquer le type obtenu pour chaque réponse.
+Expliquer le type obtenu pour chaque réponse.
 
 - $3$
 
 ### Exercice 2
 
-a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
+Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
 
 - `5 ** 2 - 3`
 
@@ -88,7 +88,7 @@ a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
 
 - $3$
 
-b) Vérifier vos résultats dans la console.
+Vérifier vos résultats dans la console.
 
 ### Exercice 3
 
@@ -104,7 +104,7 @@ Expliquer ce que fait le programme précédent.
 
 ### Exercice 4
 
-a) Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers $a$ et $3$ et renvoie l'entier le plus grand.
+Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers $a$ et $3$ et renvoie l'entier le plus grand.
 
 
 
@@ -113,7 +113,7 @@ a) Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètre
 13
 ```
 
-b) Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en paramètres trois entiers $a$, $b$ et $c$ et renvoie l'entier le plus grand.
+Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en paramètres trois entiers $a$, $b$ et $c$ et renvoie l'entier le plus grand.
 
 ```python
 >>> max3(5,7,15)
