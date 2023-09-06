@@ -44,12 +44,20 @@ a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
 
 - `5 / 2`
 
+- $3$
+
 b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses.
+
+- $3$
 
 c) Expliquer le type obtenu pour chaque réponse.
 
+- $3$
+
 
 ### b) Exercice 2
+
+- $3$
 
 a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
 
@@ -57,67 +65,36 @@ a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
 
 - `5 ** 2 - 3`
 
-- $3$
-
 - `10 < 9`
-
-- $3$
 
 - `10 <= 10`
 
-- $3$
-
 - `5 / 2`
-
-- $3$
 
 - `4 / 2`
 
-- $3$
-
 - `False and False`
-
-- $3$
 
 - `4 / 0`
 
-- $3$
-
 - `4 // 2`
-
-- $3$
 
 - `4 // 0`
 
-- $3$
-
 - `4 % 2`
-
-- $3$
 
 - `4 != 2`
 
-- $3$
-
 - `5 % 2`
-
-- $3$
 
 - `True or True`
 
-- $3$
-
 - `7 + 7 % 2`
-
-- $3$
 
 - `3 * 3 ** 2`
 
-- $3$
-
 - `'4' // 2`
 
-- $3$
 - $3$
 
 b) Vérifier vos résultats dans la console.
