@@ -36,7 +36,7 @@ b) Dessiner son schéma de branchement.
 
 ## Exercice 3
 
-Ecrire une fonction ``test_pythagore( a : int, b : int, c : int )-> bool`` qui prend en paramètre 3 entiers $a$, $b$ et $c$ et renvoie $True$ si $`a^2 + b^2 = c^2`$, et $False$ sinon.
+Ecrire une fonction ``test_pythagore( a : int, b : int, c : int )-> bool`` qui prend en paramètre 3 entiers $a$, $b$ et $c$ et renvoie $True$ si $a^2 + b^2 = c^2$, et $False$ sinon.
 
 Cette fonction doit comporter une instruction conditionnelle.
 

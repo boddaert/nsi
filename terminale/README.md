@@ -3,7 +3,7 @@
 
 Chapitre -1 : [Prise de contact](./Prise_de_contact/Prise_de_contact.md)
 
-Chapitre 0 : [Prise en main](./Prise_en_main/Prise_en_main.md)
+Chapitre 0 : [Remise à niveau](./Remise_à_niveau/Remise_a_niveau.md)
 
 Chapitre 1 : [Modularité](./Modularité/Modularite.md)
 
