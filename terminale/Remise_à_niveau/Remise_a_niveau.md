@@ -51,9 +51,10 @@ c) Expliquer le type obtenu pour chaque réponse.
 - $3$
 
 - $3$
-
+- $3$
 a) Sans utiliser l'ordinateur, donner le résultat des expressions suivantes :
-
+- $3$
+- $3$
 - $3$
 
 - `5 ** 2 - 3`
