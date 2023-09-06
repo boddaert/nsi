@@ -37,11 +37,11 @@ Cette fonction devra utiliser uniquement l'opérateur de multiplication et la bo
 
 Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
-Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle `while`.
+Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle `for`.
 
 ```python
->>> puissance_2(4)
-16
+>>> puissance_2(5)
+32
 ```
 
 ### Exercice 7
