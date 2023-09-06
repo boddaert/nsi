@@ -5,9 +5,23 @@ et
 $3$
 et renvoie l'entier le plus grand.
 
-````python
-cc = 5
-````
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```python
+def function():
+    #indenting works just fine in the fenced code block
+    s = "Python syntax highlighting"
+    print s
+```
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
 Ecrire une fonction ``max3( a : int, b : int, c : int )-> int`` qui prend en paramètres trois entiers
 $a$,
