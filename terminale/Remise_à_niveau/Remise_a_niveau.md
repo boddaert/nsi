@@ -41,6 +41,7 @@ def function():
 ```
 
 a
+b
 
 Ecrire une fonction puissance_2(n : int)->int qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
