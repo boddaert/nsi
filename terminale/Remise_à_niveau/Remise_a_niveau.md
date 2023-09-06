@@ -38,8 +38,6 @@ Cette fonction devra utiliser uniquement l'opérateur de multiplication et la bo
 
 
 
-### Exercice 5
-
 ```python
 def function():
     #indenting works just fine in the fenced code block
