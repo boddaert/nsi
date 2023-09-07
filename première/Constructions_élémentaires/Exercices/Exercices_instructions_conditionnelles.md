@@ -80,3 +80,8 @@ La fonction doit renvoyer `isocele` s'il s'agit d'un triangle iscoèle, `equilat
 *Rappel : Un triangle équilatéral possède trois longueurs longueurs égales et un triangle isocèle en possède deux.*
 
 b) Modifier la fonction ``test_triangle()`` en ajoutant le fait qu'il peut s'agir d'un triangle rectangle, on pourra utiliser la fonction ``test_pythagore()`` pour cela.
+
+
+_______________
+
+[Sommaire](./../../../première/)

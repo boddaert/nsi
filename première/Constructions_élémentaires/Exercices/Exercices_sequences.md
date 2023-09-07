@@ -110,3 +110,7 @@ Pour chacun des programmes de l'exercice 1 et 2 :
 - Aller dans l'onglet `Affichage` et cocher `Variables`. Une nouvelle fenêtre à droite de l'écran s'ouvre.
 
 - Exécuter ligne par ligne le programme en utilisant l'outil de `Débogueur` (le bouton à droite de celui d'exécution).
+
+_______________
+
+[Sommaire](./../../../première/)

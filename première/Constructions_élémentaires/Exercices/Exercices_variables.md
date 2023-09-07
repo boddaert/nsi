@@ -61,3 +61,7 @@ b = tmp
 ```
 
 Expliquer ce que fait le programme précédent.
+
+_______________
+
+[Sommaire](./../../../première/)

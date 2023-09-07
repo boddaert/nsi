@@ -61,3 +61,7 @@ A l'aide de la console, déterminer l'opérateur le plus prioritaire entre :
 - `%` et `*`
 
 - `not` et `or`
+
+_______________
+
+[Sommaire](./../../../première/)

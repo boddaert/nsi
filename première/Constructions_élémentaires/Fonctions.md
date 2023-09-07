@@ -237,7 +237,7 @@ c) Dans la console Python et à l'aide de la fonction `float()`, convertir les v
 
 ___________
 
-[Feuille d'exercice](./Exercices/Exercices_fonctions_1.md)
+[Feuille d'exercice](./Exercices/Exercices_fonctions.md)
 ____________
 
 Leçon 6 : [Modules](./Modules.md)

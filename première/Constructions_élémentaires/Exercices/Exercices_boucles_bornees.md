@@ -53,3 +53,7 @@ Ecrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ 
 >>> suite(6)
 21
 ```
+
+_____________
+
+[Sommaire](./../../../première/)
