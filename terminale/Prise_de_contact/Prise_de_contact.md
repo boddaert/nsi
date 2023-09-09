@@ -2,7 +2,7 @@
 
 ## I. Le cours
 
-Tout le cours de Terminale NSI est disponible à l'adresse : `https://gitlab.com/theoboddaert/nsi`.
+Tout le cours de Terminale NSI est disponible à l'adresse : `https://github.com/boddaert/nsi`.
 
 Il est stocké sur un serveur et est donc accessible depuis n'importe quel appareil muni d'une connexion Internet.
 
@@ -28,9 +28,9 @@ Il se découpe selon l'arborescence suivante :
 
 En bas de page, se trouve le sommaire dans lequel s'y figure le lien des leçons dans l'ordre de progression.
 
-[Sommaire des Premières](./../../première/)
+[Sommaire des Premières](./../../première/README.md)
 
-[Sommaire des Terminales](./../../terminale/)
+[Sommaire des Terminales](./../../terminale/README.md)
 
 ## II. Les programmes
 
