@@ -114,6 +114,14 @@ Ecrire une fonction `nombre_occurences(mot : str, lettre : str)->int` qui prend 
 2
 ```
 
+### Exercice 8
+
+Ecrire une fonction `maximum_liste(l : list)->int` qui prend en paramètre une liste `l` et renvoie comme résultat l'entier maximum de `l` :
+
+```python
+>>> maximum_liste([4,7,3,9,2])
+9
+```
 _______________
 
 [Sommaire](./../../terminale/)
