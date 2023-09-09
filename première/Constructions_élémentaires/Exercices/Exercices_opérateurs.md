@@ -64,4 +64,4 @@ A l'aide de la console, déterminer l'opérateur le plus prioritaire entre :
 
 _______________
 
-[Sommaire](./../../../première/)
+[Sommaire](./../../README.md)

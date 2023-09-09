@@ -31,4 +31,4 @@ Ecrire une fonction `des()->int` qui ne prend aucun paramètre et renvoie comme 
 
 _______________
 
-[Sommaire](./../../../première/)
+[Sommaire](./../../README.md)

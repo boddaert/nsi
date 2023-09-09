@@ -171,4 +171,4 @@ __________
 [Feuille d'exercice](./Exercices/Exercices_opérateurs.md)
 __________
 
-Leçon 3 : [Variables](./Variables.md)
+[Sommaire](./../README.md)

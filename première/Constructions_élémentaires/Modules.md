@@ -71,4 +71,4 @@ ________
 
 ________
 
-Leçon 7 : [Instructions conditionnelles](./Conditions.md)
+[Sommaire](./../README.md)

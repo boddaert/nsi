@@ -4,7 +4,7 @@ Chapitre -1 : [Prise de contact](./Prise_de_contact/Prise_de_contact.md)
 
 Chapitre 0 : [Prise en main](./Prise_en_main/Prise_en_main.md)
 
-Chapitre 1 : [Constructions élémentaires](./Constructions_élémentaires/)
+Chapitre 1 : [Constructions élémentaires](./Constructions_élémentaires/Types.md)
 
 - Leçon 1 : [Types](./Constructions_élémentaires/Types.md)
 

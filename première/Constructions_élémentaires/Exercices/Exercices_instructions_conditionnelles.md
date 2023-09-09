@@ -84,4 +84,4 @@ b) Modifier la fonction ``test_triangle()`` en ajoutant le fait qu'il peut s'agi
 
 _______________
 
-[Sommaire](./../../../première/)
+[Sommaire](./../../README.md)

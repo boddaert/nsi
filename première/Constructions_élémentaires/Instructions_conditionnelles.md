@@ -232,4 +232,4 @@ _________________________
 
 __________________________
 
-Leçon 7 : [Boucles non bornées](./Boucles_non_bornées.md.md)
+[Sommaire](./../README.md)

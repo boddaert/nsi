@@ -56,4 +56,4 @@ Ecrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ 
 
 _____________
 
-[Sommaire](./../../../première/)
+[Sommaire](./../../README.md)

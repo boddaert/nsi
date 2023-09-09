@@ -240,4 +240,4 @@ ___________
 [Feuille d'exercice](./Exercices/Exercices_fonctions.md)
 ____________
 
-Leçon 6 : [Modules](./Modules.md)
+[Sommaire](./../README.md)

@@ -79,7 +79,6 @@ a = a - b
 _______
 
 [Feuille d'exercice](./Exercices/Exercices_sequences.md)
-
 _______
 
-Leçon 5 : [Fonctions 1](./Fonctions_1.md)
+[Sommaire](./../README.md)

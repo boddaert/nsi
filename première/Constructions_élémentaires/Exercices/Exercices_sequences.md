@@ -113,4 +113,4 @@ Pour chacun des programmes de l'exercice 1 et 2 :
 
 _______________
 
-[Sommaire](./../../../première/)
+[Sommaire](./../../README.md)

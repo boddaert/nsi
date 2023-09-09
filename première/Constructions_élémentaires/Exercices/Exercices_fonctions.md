@@ -43,4 +43,4 @@ Cette fonction devra utiliser les fonction ``produit()`` et ``carre()`` vus dans
 
 _______________
 
-[Sommaire](./../../../première/)
+[Sommaire](./../../README.md)

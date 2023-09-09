@@ -69,4 +69,4 @@ ________
 [Feuille d'exercice](./Exercices/Exercices_variables.md)
 ________
 
-Leçon 4 : [Séquences d'instructions](./Séquences.md)
+[Sommaire](./../README.md)

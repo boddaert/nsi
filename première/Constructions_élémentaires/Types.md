@@ -112,4 +112,4 @@ _________
 [Feuille d'exercice](./Exercices/Exercices_types.md)
 _________
 
-Leçon 2 : [Opérateurs](./Opérateurs.md)
+[Sommaire](./../README.md)

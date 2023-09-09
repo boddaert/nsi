@@ -64,4 +64,4 @@ Expliquer ce que fait le programme précédent.
 
 _______________
 
-[Sommaire](./../../../première/)
+[Sommaire](./../../README.md)

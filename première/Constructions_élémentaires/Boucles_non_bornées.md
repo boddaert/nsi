@@ -97,4 +97,4 @@ _______
 
 _______
 
-Leçon 8 : [Boucles bornées](./Boucles_bornées.md)
+[Sommaire](./../README.md)
