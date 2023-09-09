@@ -227,6 +227,6 @@ _________
 
 [Feuille d'exercice](./Exercices_listes_recursives.md)
 
-_________
+_______________
 
-Leçon 2 : [Piles](./Piles.md)
+[Sommaire](./../README.md)

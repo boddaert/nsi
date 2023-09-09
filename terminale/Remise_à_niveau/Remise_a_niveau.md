@@ -124,4 +124,4 @@ Ecrire une fonction `maximum_liste(l : list)->int` qui prend en paramètre une l
 ```
 _______________
 
-[Sommaire](./../../terminale/)
+[Sommaire](./../README.md)

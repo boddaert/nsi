@@ -181,4 +181,4 @@ _________
 
 _________
 
-[Sommaire](./../../terminale/)
+[Sommaire](./../README.md)

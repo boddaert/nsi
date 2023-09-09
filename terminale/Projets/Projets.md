@@ -178,4 +178,4 @@ PV de Tiplouf : 868
 ```
 ________
 
-[Sommaire](./../../terminale/)
+[Sommaire](./../README.md)

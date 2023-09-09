@@ -91,6 +91,6 @@ _________
 
 [Feuille d'exercice](./Exercices_piles.md)
 
-_________
+_______________
 
-Leçon 3 : [Files](./Files.md)
+[Sommaire](./../README.md)

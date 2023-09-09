@@ -158,3 +158,7 @@ Et enfin une courbe de Koch de profondeur $n = 3$ :
 a) Ecrire le principe de récurrence en vous aidant des informations ci-dessus.
 
 b) Ecrire une fonction `koch_rec(n : int, l : int)->None` qui prend en paramètres deux entiers et dessine à l'aide du module `Turtle` une courbe de Koch de profondeur $n$ et de longueur $l$.
+
+________________
+
+[Sommaire](./../README.md)

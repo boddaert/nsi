@@ -1,6 +1,6 @@
 # Projets
 
-## Projet 1 : Architect
+## Projet 1 : Architectes
 
 ### a) Description
 
@@ -77,4 +77,4 @@ Documentation de `turtle` : [https://docs.python.org/fr/3/library/turtle.html](h
 
 ________
 
-[Sommaire](./../../première/)
+[Sommaire](./../README.md)

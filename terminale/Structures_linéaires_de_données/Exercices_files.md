@@ -31,3 +31,7 @@ Ecrire une fonction `sont_egales(f1 : File, f2 : File)->bool` qui prend en param
 Ecrire une fonction `max(f : File)->int` qui prend en paramètre un objet `File` et renvoie comme résultat l'élément le plus grand de `f`.
 
 Cette fonction ne doit pas modifier la file passée en argument.
+
+_________________
+
+[Sommaire](./../README.md)

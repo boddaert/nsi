@@ -110,6 +110,6 @@ _________
 
 [Feuille d'exercice](./Exercices_files.md)
 
-_________
+_______________
 
-[Sommaire](./../../terminale/)
+[Sommaire](./../README.md)

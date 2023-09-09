@@ -68,4 +68,4 @@ _______
 
 _______
 
-[Sommaire](./../../terminale/)
+[Sommaire](./../README.md)

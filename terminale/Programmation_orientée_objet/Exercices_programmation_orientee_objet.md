@@ -37,3 +37,7 @@ c) Tester vos deux fonctions dans la console.
 ## Exercice 4
 
 [Projet 2](./../Projets/Projets.md)
+
+_______________
+
+[Sommaire](./../README.md)
