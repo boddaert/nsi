@@ -6,19 +6,19 @@ Ce mode est très utile pour tester nos instructions mais celui-ci n'est pas des
 
 ## I. Définitions
 
-Un *programme informatique* est un texte composé d'intructions et d'opérations.
+Un *programme informatique* est un texte composé d'intructions.
 
-Une *instruction* désigne une étape dans un programme. Elle correspond à une action que l'ordinateur réalise lorsqu'il l'exécute.
+Une *instruction* désigne une étape dans un programme. Elle correspond à une action que l'ordinateur réalise lorsqu'il exécute le programme.
 
 Les programmes sont très souvent constitués de plusieurs instructions, cela constitue une *séquence d'instruction*.
 
-On associe généralement une ligne de code à une instruction du programme.
+Nous associons une ligne de code à une instruction du programme.
 
 ## II. Ordre d'exécution
 
-Lors de l'exécution d'une séquence d'instruction, l'ordinateur effectue les actions les unes après les autres dans l'ordre de lecture du programme. 
+L'ordre d'exécution d'une séquence d'instruction est le même que l'ordre de lecture. 
 
-C'est à dire que l'instruction situé à la ligne 1 sera exécutée en premier, puis celle située à la ligne 2 en deuxième, et ainsi de suite ...
+C'est à dire que l'instruction situé à la ligne $1$ sera exécutée en premier, puis celle située à la ligne $2$ en deuxième, et ainsi de suite ...
 
 Nous pouvons le vérifier très facilement en écrivant un programme comportant une séquence d'instruction dans l'éditeur de texte de Thonny :
 
@@ -42,10 +42,10 @@ Recopier le programme de l'exemple précédent et vérifier à votre tour la val
 
 Une trace d'exécution, comme son nom l'indique, permet de garder une trace de l'état du programme à chaque étape de celui-ci.
 
-Une trace d'exécution est représentée par un tableau :
+Nous représentons la trace d'exécution d'un programme dans un tableau :
 
-| Numéro de ligne | Nom de variable | Valeur affectée |
-|---|---|---|
+| Numéro de ligne | Valeur affectée à la variable ...|  Valeur affectée à la variable ... |
+| --- | --- | --- |
 | | | |
 
 Par exemple, pour le programme suivant :
@@ -56,10 +56,10 @@ a = a + 1
 b = a - 1
 ```
 
-Nous obtiendrions la trace d'exécution suivante :
+Nous obtenons la trace d'exécution suivante :
 
-| Numéro de ligne | Valeur affectée à `a` | Valeur affectée à `b` |
-|---|---|---|
+| Numéro de ligne | Valeur affectée à la variable `a` | Valeur affectée à la variable `b` |
+| --- | --- | --- |
 | 1 | $10$ | / |
 | 2 | $11$ | / |
 | 3 | $11$ | $10$ |

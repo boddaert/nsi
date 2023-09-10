@@ -4,9 +4,9 @@
 
 La *modularité* est le fait d'utiliser des modules existants ou de créer des modules.
 
-L'objectif étant de décomposer son code en plusieurs fichiers Python.
+L'objectif étant de décomposer son code en plusieurs fonctions/fichiers Python afin d'y voir plus clairement.
 
-Un *module* (ou *bibliothèque*) est un fichier Python que nous pouvons utiliser en l'important dans notre propre fichier.
+Un *module* (ou *bibliothèque*) est un fichier Python que nous pouvons importer dans notre propre fichier pour pouvoir utiliser son code.
 
 Le module `math` par exemple est un fichier Python mettant à disposition toutes les fonctions mathématiques.
 
@@ -20,7 +20,7 @@ Importer de manière globale revient à importer tout le code contenu dans le mo
 import math
 ```
 
-Dans ce cas, pour pouvoir utiliser les fonctionnalités du module, nous devons écrire le nom du module suivi d'un point puis du nom de la fonction que l'on souhaite utiliser :
+Dans ce cas, pour pouvoir utiliser les fonctions du module, nous devons écrire le nom du module suivi d'un point puis du nom de la fonction que l'on souhaite utiliser :
 
 ```python
 >>> import math
@@ -30,7 +30,7 @@ Dans ce cas, pour pouvoir utiliser les fonctionnalités du module, nous devons �
 
 ### b) Importer précisément
 
-Nous pouvons importer seulement les fonctions qui nous interesse :
+Importer de manière précise revient à importer seulement les fonctions qui nous interesse :
 
 ```python
 from math import sqrt
@@ -56,11 +56,11 @@ L'idéal est : Une tâche -> Une fonction.
 
 ##### Application 1
 
-a) Créer un fichier `module.py` dans lequel vous écrirez une fonction `max(l : list)->int` permettant de récupérer l'entier maximum d'une liste.
+a) Créer un fichier `module.py` dans lequel vous écrirez une fonction `maxi(l : list)->int` permettant de récupérer l'entier maximum d'une liste.
 
-b) Puis, dans un second fichier Python `test_global.py` situé dans le même répertoire, importer la fonction `max()` de manière globale et tester la fonction.
+b) Puis, dans un second fichier Python `test_global.py` situé dans le même répertoire, importer la fonction `maxi()` de manière globale et tester la fonction.
 
-c) Enfin, dans un troisième fichier Python `test_precis.py` situé lui aussi dans le même répertoire, importer la fonction `max()` de manière précise et tester la fonction.
+c) Enfin, dans un troisième fichier Python `test_precis.py` situé lui aussi dans le même répertoire, importer la fonction `maxi()` de manière précise et tester la fonction.
 
 _______
 

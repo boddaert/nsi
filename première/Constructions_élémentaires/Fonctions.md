@@ -56,6 +56,12 @@ Ainsi, la signature de la fonction `somme()` s'écrirait : `somme(a : int, b : i
 
 La fonction `somme()` permet de faire la somme des entiers $a$ et $b$ passés en paramètres.
 
+### b) Paramètres
+
+Une fonction peut avoir zéro ou plusieurs paramètres.
+
+Un *paramètre* est une variable qui pourra être utilisée à l'intérieur de la fonction.
+
 ##### Application 1
 
 Donner, pour chaque signature, le nom de la fonction, son ou ses paramètres ainsi que leur type et le type de la valeur de résultat :
@@ -70,23 +76,15 @@ Donner, pour chaque signature, le nom de la fonction, son ou ses paramètres ain
 
 ##### Application 2
 
-Ecrire la signature de la fonction ``maximum()``qui prend en paramètres deux entiers $a$ et $b$ et renvoie comme résultat un entier.
+Ecrire la signature de la fonction ``maximum()``qui prend en paramètres deux entiers $a$ et $b$ et renvoie comme résultat l'entier maximum parmi les deux.
 
 ##### Application 3
 
-Ecrire la signature de la fonction ``contient()`` qui prend en paramètre une chaîne de caractère $mot$, un caractère $lettre$ et renvoie comme résultat un booléen.
-
-### b) Paramètres
-
-Une fonction peut avoir zéro ou plusieurs paramètres.
-
-Un *paramètre* est le nom d'une variable utilisée à l'intérieur de la fonction.
-
-Lors de l'écriture d'une fonction, ses paramètres désignent alors une valeur qui n'est pas connue et qui pourra être différente à chaque utilisation.
+Ecrire la signature de la fonction ``contient()`` qui prend en paramètre une chaîne de caractère $mot$, un caractère $lettre$ et renvoie comme résultat $True$ si $lettre$ est présent dans $mot$, $False$ sinon.
 
 ## II. Ecriture de fonction
 
-Une fonction en Python est composé de sa définition, d'un corps et d'un résultat.
+Une fonction en Python est composé de sa signature et d'un corps.
 
 ### a) Définition d'une fonction en Python
 
@@ -135,7 +133,7 @@ Ecrire, en Python, la fonction `carre(n : int) -> int` qui prend en paramètres 
 
 Lorsque nous utilisons une fonction pour obtenir un résultat, nous réalisons un *appel* à cette fonction.
 
-Pour appeler une fonction, il suffit d'écrire le nom de la fonction avec, entre parenthèses, des arguments.
+Pour appeler une fonction, il suffit d'écrire le nom de la fonction avec les arguments souhaités entre parenthèses.
 
 ### a) Arguments
 
@@ -164,7 +162,7 @@ Vérifier la bonne réponse à l'application 4 en appelant la fonction dans la c
 
 Vérifier la bonne réponse à l'application 5 en appelant la fonction dans la console Python plusieurs fois avec des arguments différents.
 
-### b) Résultat d'une fonction
+### b) Réutilisation d'un résultat d'une fonction
 
 Le résultat obtenu suite à l'appel d'une fonction représente une valeur.
 
@@ -215,7 +213,7 @@ c) Instruction 3
 >>> somme(5, somme(3,2))
 ```
 
-## IV. Fonctions natives
+## IV. Fonctions natives de Python
 
 Les fonctions natives sont des fonctions qui existent déjà. La fonction ``type()`` par exemple est une fonction native.
 

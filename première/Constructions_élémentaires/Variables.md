@@ -16,7 +16,7 @@ Nous pouvons affecter n'importe quelle valeur à une variable en Python avec l'o
 >>> ma_variable = 42
 ```
 
-Pour connaître la valeur contenue dans une variable, il suffit de l'appeler :
+Pour connaître la valeur contenue dans une variable, il suffit de l'*appeler* :
 
 ```python
 >>> ma_variable
