@@ -56,7 +56,7 @@ L'idéal est : Une tâche -> Une fonction.
 
 ##### Application 1
 
-a) Créer un fichier `module.py` dans lequel vous écrirez une fonction `maxi(l : list)->int` permettant de récupérer l'entier maximum d'une liste.
+a) Créer un fichier `module.py` dans lequel vous écrirez une fonction `maxi(liste : list)->int` permettant de récupérer l'entier maximum d'une liste.
 
 b) Puis, dans un second fichier Python `test_global.py` situé dans le même répertoire, importer la fonction `maxi()` de manière globale et tester la fonction.
 
