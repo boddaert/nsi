@@ -24,7 +24,7 @@ b) Que renvoie l'instruction suivante ?
 Ecrire une fonction `est_egal_a(a : int, b : int) -> bool` qui prend en paramètre deux entiers $`a`$ et $`b`$ et renvoie comme résultat `True` si $`a`$ et $`b`$ sont égaux et $False$ sinon.
 
 ```python
->>> est_egal(5,7)
+>>> est_egal_a(5,7)
 False
 ```
 
