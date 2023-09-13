@@ -48,7 +48,7 @@ Le module `math` possède toutes les fonctions mathématiques.
 
 | Nom  du module : | `math` |
 |---|---|
-| Racine carrée | `sqrt` |
+| Racine carrée de $n$ | `sqrt(n)` |
 | Trigonométrie | `sin()`, `cos()` |
 | Pi | `pi` |
 
@@ -60,10 +60,16 @@ Le module `random` met à disposition plusieurs fonctions permettant d'obtenir d
 
 | Nom du module : | `random` |
 |---|---|
-| Entier aléatoire | `randint` |
-| Nombre aléatoire compris entre $0$ et $1$ | `random` |
+| Entier aléatoire compris entre $x$ et $y$ | `randint(x : int, y : int)` |
+| Nombre aléatoire compris entre $0$ et $1$ | `random()` |
 
 Voir plus : [https://docs.python.org/fr/3/library/random.html](https://docs.python.org/fr/3/library/random.html)
+
+##### Application 1
+
+a) Dans un fichier `nom_prenom_importation_globale.py`, importer de manière globale le module `math` puis, dans la console, afficher la valeur de Pi.
+
+b) Dans un second fichier `nom_prenom_importation_precise.py`, importer de manière précise le module `math` puis, dans la console, afficher la valeur de Pi.
 
 ________
 

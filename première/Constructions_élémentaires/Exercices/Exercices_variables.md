@@ -60,7 +60,13 @@ a = b
 b = tmp
 ```
 
-Expliquer ce que fait le programme précédent.
+a) Que vaut les variables $a$ et $b$ à l'issue de l'exécution du programme précédent ?
+
+b) Vérifier votre résultat en utilisant l'outil de déboguage de Thonny et en affichant l'état des variables.
+
+*Rappel : Pour afficher l'état des variables, cliquer sur l'onglet `Affichage` puis cocher `Variables`.*
+
+c) Finalement, expliquer ce que fait ce programme.
 
 _______________
 

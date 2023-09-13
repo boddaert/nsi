@@ -230,14 +230,23 @@ Ecrire une fonction `affiche_labyrinthe(labyrinthe : list)->None` qui prend en p
 
 ### g) Dictionnaires
 
+##### Exercice 1
+
 Ecrire une fonction `occurences_par_lettre(mot : str)->dict` qui prend en paramètre une chaîne de caractère et renvoie un dictionnaire dont les clés sont des caractères de la chaîne et les valeurs le nombre de fois qu'apparaissent ces caractères :
 
 ```python
->>> mot = 'bienvenue'
->>> occurences_par_lettre(mot)
+>>> occurences_par_lettre('bienvenue')
 {'b' : 1, 'i' : 1, 'e' : 3, 'n' : 2, 'v' : 1, 'u' : 1}
 ```
 
+##### Exercice 2
+
+Ecrire une fonction ``inversion(dico : dict)->dict`` qui prend en paramètre un dictionnaire et renvoie un dictionnaire dont les clés sont devenus les valeurs et les valeurs, les clés.
+
+```python
+>>> inversion({'a' : 1, 'b' : 2, 'c' : 3})
+{1 : 'a', 2 : 'b', 3 : 'c'}
+```
 _______________
 
 [Sommaire](./../README.md)

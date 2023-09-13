@@ -10,7 +10,7 @@ Une condition vaut donc soit $True$, soit $False$.
 
 Une condition est remplie si elle vaut $True$.
 
-Si la condition n'est pas remplie, la suite du programme est exécutée normalement.
+Si la condition n'est pas remplie, le code inclus dans l'instruction conditionnelle n'est pas exécuté.
 
 ### a) Schéma de branchement
 
@@ -40,7 +40,7 @@ En Français, cela se traduirait :
 
 - *Si* `a` est égal à 0, alors nous ajoutons $1$ à `a`.
 
-- Nous affectons à la variable `b` la valeur de `a`.
+- Puis, nous affectons à la variable `b` la valeur de `a`.
 
 Son schéma de branchement donnerait :
 
@@ -146,7 +146,7 @@ En Français, cela se traduirait :
 
 - *Sinon*, nous ajoutons $3$ à `a`.
 
-- Nous affectons à la variable `b` la valeur de `a`.
+- Puis, nous affectons à la variable `b` la valeur de `a`.
 
 Son schéma de branchement donnerait :
 

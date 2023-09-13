@@ -34,7 +34,7 @@ L'énergie cinétique d'un objet de masse $m$ et de vitesse $v$ est : $`Ec=\frac
 
 Ecrire une fonction ``energie_cinetique(m : float, v : float) -> float`` qui prend en paramètre une masse $m$ et une vitesse $v$, deux nombres flottants et renvoie la valeur de l'énergie cinétique d'un objet.
 
-Cette fonction devra utiliser les fonction ``produit()`` et ``carre()`` vus dans le chapitre sur les fonctions (cf : [Fonctions 1](./../Fonctions_1.md)).
+Cette fonction devra utiliser les fonctions ``produit()`` et ``carre()`` vus dans le chapitre (cf : [Fonctions](./../Fonctions.md)).
 
 ```python
 >>> energie_cinetique(6.2, 9.7)

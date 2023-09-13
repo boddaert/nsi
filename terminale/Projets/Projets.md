@@ -78,6 +78,8 @@ Vous serez évalués sur :
 
 - La qualité de la DocString.
 
+____________
+
 ## Projet n°2 : Combat de Pokémons
 
 ### a) Description

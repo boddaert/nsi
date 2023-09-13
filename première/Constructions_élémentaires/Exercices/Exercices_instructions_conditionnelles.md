@@ -17,7 +17,7 @@ b) Dessiner le schéma de branchement de la fonction `divise()`.
 
 Considérons le programme suivant :
 
-```python
+```python .numberLine
 if n > 2 :
     n = n + 10
     res = (n // 2) + n

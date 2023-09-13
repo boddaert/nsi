@@ -56,11 +56,11 @@ L'idéal est : Une tâche -> Une fonction.
 
 ##### Application 1
 
-a) Créer un fichier `module.py` dans lequel vous écrirez une fonction `maxi(liste : list)->int` permettant de récupérer l'entier maximum d'une liste.
+a) Créer un fichier `maximum_liste.py` dans lequel vous écrirez une fonction `maxi(liste : list)->int` permettant de récupérer l'entier maximum d'une liste.
 
-b) Puis, dans un second fichier Python `test_global.py` situé dans le même répertoire, importer la fonction `maxi()` de manière globale et tester la fonction.
+b) Puis, dans un second fichier Python `importation_globale.py` situé dans le même répertoire, importer la fonction `maxi()` de manière globale et tester la fonction dans `importation_globale.py`.
 
-c) Enfin, dans un troisième fichier Python `test_precis.py` situé lui aussi dans le même répertoire, importer la fonction `maxi()` de manière précise et tester la fonction.
+c) Enfin, dans un troisième fichier Python `importation_precise.py` situé lui aussi dans le même répertoire, importer la fonction `maxi()` de manière précise et tester la fonction dans `importation_precise.py`.
 
 _______
 

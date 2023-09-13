@@ -62,9 +62,7 @@ Répertoires et fichiers doivent être rangés correctement dans votre espace de
 
 Dans un répertoire nommé `nsi_terminale` que vous aurez créé, il y aura pour chaque chapitre un répertoire.
 
-Répertoires et fichiers doivent être nommés explicitement avec votre nom et prénom.
-
-Par exemple : `albert_eistein_chapitre_1_modularité`.
+Répertoires et fichiers doivent être nommés explicitement avec votre nom et prénom sous le format suivant : `nom_prenom_chapitre_1_modularité`.
 
 ### d) Sur téléphone
 
@@ -116,7 +114,6 @@ Par semaine en classe de Termianle, une séance (1h) est réservée pour l'entra
 [Banque d'épreuve écrite](https://pixees.fr/informatiquelycee/term/suj_bac/)
 
 [Banque d'épreuve pratique](https://pixees.fr/informatiquelycee/term/ep/index.html)
-
 
 ## V. Matériel conseillé
 

@@ -28,8 +28,6 @@ Une *méthode* est une fonction propre à l'objet.
 
 Par exemple, l'objet `Personnage` peut avoir comme action celle de se soigner et d'attaquer.
 
-Les attributs et les méthodes sont écrites dans les classes.
-
 ##### Application 1
 
 Trouver et noter des exemples de caractéristiques et d'actions pour l'objet `Voiture`.
@@ -108,7 +106,7 @@ class Personnage :
         self.__point_d_attaque = 5
 ```
 
-Ainsi, lorsque nous instancions la classe, ajouter une valeur à l'attribut `nom` :
+Ainsi, lorsque nous instancions la classe, nous donnons une valeur à l'attribut `nom` :
 
 ```python
 >>> perso = Personnage('Link')

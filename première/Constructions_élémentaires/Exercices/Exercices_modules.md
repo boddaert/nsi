@@ -4,6 +4,8 @@
 
 Ecrire une fonction `racine(n : int)->float` qui prend en paramètre un entier $n$ et renvoie comme résultat la racine carrée de $n$.
 
+Cette fonction devra utiliser le module `maths`.
+
 ```python
 >>> racine(3)
 1.732050808
@@ -27,8 +29,6 @@ Ecrire une fonction `des()->int` qui ne prend aucun paramètre et renvoie comme 
 >>> des()
 5
 ```
-
-
 _______________
 
 [Sommaire](./../../README.md)
