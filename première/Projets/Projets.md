@@ -8,7 +8,9 @@ Vous avez été appelés pour écrire seul un programme permettant de générer 
 
 Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exécutant votre programme :
 
-![Exemples](./img/description.png)
+![Exemple1](./img/exemple1_architectes.png)
+![Exemple2](./img/exemple2_architectes.png)
+![Exemple3](./img/exemple3_architectes.png)
 
 ### b) Cahier des charges
 
