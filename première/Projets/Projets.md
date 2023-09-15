@@ -10,27 +10,11 @@ Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exéc
 
 ![Exemples](./img/description.png)
 
-### b) Contraintes urbaines
+### b) Cahier des charges
 
-Les contraintes urbaines sont les suivantes :
+1. Votre programme Python doit utiliser les modules `turtle` et `random`.
 
-1. La rue doit comporter quatre immeubles.
-
-2. Un immeuble a un nombre d'étage aléatoire. Il a au minimum un rez-de-chaussée et peut avoir jusqu'à quatre étages.
-
-3. Toutes les fenêtres sont identiques et sont des carrés.
-
-4. Un immeuble est colorié d'une couleur aléatoire.
-
-5. Les rez-de-chaussée n'ont qu'une seule porte.
-
-Tout le reste est libre et peut donc être personnalisé.
-
-### c) Cahier des charges
-
-Votre programme Python doit utiliser les modules `turtle` et `random`.
-
-Afin de vous aider à respecter les contraintes urbaines, vous devez écrire dans votre programme au minimum les fonction suivantes :
+2. Afin de vous aider à respecter les contraintes urbaines, vous devez écrire dans votre programme au minimum les fonctions suivantes :
 
 - `sol(x : int)` prenant en paramètre une coordonnée $x$ et trace le sol de la rue d'abcisse $x$.
 
@@ -43,6 +27,26 @@ Afin de vous aider à respecter les contraintes urbaines, vous devez écrire dan
 - `porte(x : int, y : int)` prenant en paramètres des coordonnées $x$ et $y$ et trace une porte d'abcisse et d'ordonnée $x$ et $y$.
 
 - `immeuble(x : int, y : int)` qui utilise toutes les fonctions précédentes et permettant de tracer un immeuble d'abcisse et d'ordonnée $x$ et $y$..
+
+3. Le code doit être lisible, les noms de variable et noms de fonction doivent être explicites.
+
+4. Les contraintes urbaines doivent être respectées.
+
+### c) Contraintes urbaines
+
+Les contraintes urbaines sont les suivantes :
+
+- La rue doit comporter quatre immeubles.
+
+- Un immeuble a un nombre d'étage aléatoire. Il a au minimum un rez-de-chaussée et peut avoir jusqu'à quatre étages.
+
+- Toutes les fenêtres sont identiques et sont des carrés.
+
+- Un immeuble est colorié d'une couleur aléatoire.
+
+- Les rez-de-chaussée n'ont qu'une seule porte.
+
+Tout le reste est libre et peut donc être personnalisé.
 
 ### d) Module Turtle
 
@@ -82,11 +86,7 @@ Vous serez évalués sur :
 
 - Le respect du cahier des charges.
 
-- Le respect des contraintes urbaines.
-
 - La syntaxe Python des constructions élémentaires.
-
-- L'explicité des noms des variables et des fonctions.
 
 ________
 
