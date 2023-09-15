@@ -4,7 +4,7 @@
 
 ### a) Description
 
-Nous souhaitons écrire un programme permettant de générer **aléatoirement** le dessin d'une rue.
+Vous avez été appelés pour écrire seul un programme permettant de générer **aléatoirement** le dessin d'une rue.
 
 Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exécutant votre programme :
 
@@ -14,12 +14,15 @@ Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exéc
 
 Les contraintes urbaines sont les suivantes :
 
-- La rue doit comporter quatre immeubles.
-- Un immeuble a un nombre d'étage aléatoire. Il a au minimum un rez-de-chaussée et peut avoir jusqu'à quatre étages.
-- Chaque étage a une hauteur de 60 pixels.
-- Toutes les fenêtres sont identiques et sont des carrés de 30x30 pixels.
-- Un immeuble est colorié d'une couleur aléatoire.
-- Les rez-de-chaussée n'ont qu'une seule porte.
+1. La rue doit comporter quatre immeubles.
+
+2. Un immeuble a un nombre d'étage aléatoire. Il a au minimum un rez-de-chaussée et peut avoir jusqu'à quatre étages.
+
+3. Toutes les fenêtres sont identiques et sont des carrés.
+
+4. Un immeuble est colorié d'une couleur aléatoire.
+
+5. Les rez-de-chaussée n'ont qu'une seule porte.
 
 Tout le reste est libre et peut donc être personnalisé.
 
@@ -29,19 +32,17 @@ Votre programme Python doit utiliser les modules `turtle` et `random`.
 
 Afin de vous aider à respecter les contraintes urbaines, vous devez écrire dans votre programme au minimum les fonction suivantes :
 
-- `sol()` permettant de tracer le sol de la rue.
+- `sol(x : int)` prenant en paramètre une coordonnée $x$ et trace le sol de la rue d'abcisse $x$.
 
-- `etage()` permettant de tracer un étage.
+- `etage(x : int, y : int)` prenant en paramètres des coordonnées $x$ et $y$ et trace un étage d'abcisse et d'ordonnée $x$ et $y$.
 
-- `fenetre()` permettant de tracer une fenêtre.
+- `fenetre(x : int, y : int)` prenant en paramètres des coordonnées $x$ et $y$ et trace une fenêtre d'abcisse et d'ordonnée $x$ et $y$.
 
-- `toit()` permettant de tracer un toit.
+- `toit(x : int, y : int)` prenant en paramètres des coordonnées $x$ et $y$ et trace un toit d'abcisse et d'ordonnée $x$ et $y$.
 
-- `porte()` permettant de tracer une porte.
+- `porte(x : int, y : int)` prenant en paramètres des coordonnées $x$ et $y$ et trace une porte d'abcisse et d'ordonnée $x$ et $y$.
 
-- `immeuble()` qui utilise toutes les fonctions précédentes et permettant de tracer un immeuble.
-
-- `rue()` qui utilise la fonction immeuble et permettant de tracer la rue.
+- `immeuble(x : int, y : int)` qui utilise toutes les fonctions précédentes et permettant de tracer un immeuble d'abcisse et d'ordonnée $x$ et $y$..
 
 ### d) Module Turtle
 
@@ -74,6 +75,18 @@ Voici quelques fonctions simples pour commencer à utiliser `turtle` :
 | `ht()` | La tortue est invisible. |
 
 Documentation de `turtle` : [https://docs.python.org/fr/3/library/turtle.html](https://docs.python.org/fr/3/library/turtle.html)
+
+### e) Evaluation
+
+Vous serez évalués sur :
+
+- Le respect du cahier des charges.
+
+- Le respect des contraintes urbaines.
+
+- La syntaxe Python des constructions élémentaires.
+
+- L'explicité des noms des variables et des fonctions.
 
 ________
 

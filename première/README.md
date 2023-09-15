@@ -24,9 +24,9 @@ Chapitre 1 : [Constructions élémentaires](./Constructions_élémentaires/Types
 
 - Leçon 9 : [Boucles bornées](./Constructions_élémentaires/Boucles_bornées.md)
 
-Chapitre 2 : [Projet 1](./Projets/Projets.md)
+- Projet n°1 : [Projets](./Projets/Projets.md)
 
-Chapitre 3 : [Chaînes de caractères](./Chaînes_de_caractère/Chaines_de_caractere.md)
+Chapitre 2 : [Chaînes de caractères](./Chaînes_de_caractère/Chaines_de_caractere.md)
 
 ______
 
