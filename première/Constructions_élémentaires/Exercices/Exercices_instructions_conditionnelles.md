@@ -66,7 +66,7 @@ Ecrire une fonction ``ordre_croissant( a : int, b : int, c : int )-> str`` qui p
 
 ```python
 >>> ordre_croissant(5,13,4)
-'4,5,13'
+'b > a > c'
 ```
 
 ## Exercice 7

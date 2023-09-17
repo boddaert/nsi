@@ -1,6 +1,6 @@
 # Projets
 
-## Projet 1 : Architectes
+## Projet n°1 : Architectes
 
 ### a) Description
 
