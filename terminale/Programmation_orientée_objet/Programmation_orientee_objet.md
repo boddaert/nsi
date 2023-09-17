@@ -4,25 +4,25 @@
 
 ### a) Définition
 
-La *programmation orientée objet* se distingue de la programmation impérative (celle avec laquelle nous avons l'habitude d'écrire nos programmes).
+La *programmation orientée objet* est une manière différente de coder.
 
 Elle consiste à utiliser des *objets*.
 
-Un *objet* est un concept, une idée ou toute entité du monde physique. Il possède une structure de données propre à lui-même et un comportement.
+Un *objet* est une chose du monde réel.
 
-Par exemple, une voiture ou un personnage de jeu vidéo sont des objets informatiquement parlant.
+Il possède ses propres données et son propre comportement.
 
 ### b) Attributs
 
-Nous écrivons alors la structure de données souhaitée selon l'objet en définissant ses caractéristiques appelés attributs.
+Les données sont stockées dans des variables que nous appelons attributs.
 
-Un *attribut* est une caractéristique stockée dans une variable propre à l'objet.
+Un *attribut* est une variable propre à l'objet.
 
-Par exemple, l'objet `Personnage` peut posséder un nom, un nombre de points de vie et un nombre de point d'attaque.
+Par exemple, l'objet `Personnage` peut posséder un nombre de points de vie et un nombre de point d'attaque.
 
 ### c) Méthodes
 
-Puis nous écrivons son comportement en définissant ses actions appelées méthodes.
+Le comportement des objets est défini dans des méthodes.
 
 Une *méthode* est une fonction propre à l'objet.
 
@@ -30,15 +30,17 @@ Par exemple, l'objet `Personnage` peut avoir comme action celle de se soigner et
 
 ##### Application 1
 
-Trouver et noter des exemples de caractéristiques et d'actions pour l'objet `Voiture`.
+Trouver et noter des exemples d'attributs et de méthodes pour l'objet `Voiture`.
 
 ## II. Les classes
 
 ### a) Définition
 
-Une *classe* est un moule permettant de créer un objet (aussi appelé *instance de classe*).
+Une *classe* est un moule permettant de créer un objet.
 
-Pour une classe donnée, nous pouvons créer plusieurs objets.
+L'objet ainsi créé est appelé *instance de classe*.
+
+Pour une classe donnée, nous pouvons créer plusieurs objets différents.
 
 En Python, le mot-clé `class` permet d'écrire une classe :
 
@@ -48,7 +50,7 @@ class Personnage :
 
 ### b) Instanciation de classe
 
-Nous appelons *instance de classe*, l'objet créé à partir de cette classe :
+Instancier une classe se fait en appelant la classe :
 
 ```python
 >>> perso = Personnage()
@@ -71,11 +73,7 @@ b) Puis, à l'aide de la console, vérifier qu'il s'agit bien d'un objet.
 
 ### a) Définition
 
-Pour définir la structure de donnée de l'objet, nous faisons appel à une méthode : le constructeur.
-
-Les méthodes s'écrivent simplement en Python à l'aide du mot-clé `def`.
-
-Le *constructeur* est une méthode spéciale permettant de créer les attributs et de mettre une valeur par défaut aux attributs.
+Pour donner une valeur aux attributs de l'objet, nous faisons appel à une méthode : le constructeur.
 
 En Python, le constructeur s'écrit avec le mot-clé `init` :
 
@@ -198,7 +196,7 @@ Ajouter la méthode `accelere()` dans la classe `Voiture` permettant d'augmenter
 
 ### a) Encapsulation
 
-Le principe d'*encapsulation* consiste à rassembler la structure de données et les méthodes au sein de l'objet.
+Le principe d'*encapsulation* consiste à rassembler les données et le comportement au sein de l'objet.
 
 L'encapsulation empêche l'accès aux méthodes depuis l'extérieur de la classe.
 
