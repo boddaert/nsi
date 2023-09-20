@@ -91,6 +91,10 @@ c) Phrase 3
 
 - La valeur affectée à la variable `a` est $-2$.
 - Tant que `a` est supérieur à $-7$, je retire $1$ à `a`.
+
+##### Application 3
+
+Dessiner le schéma de branchement pour chacun des programmes de l'application 1.
 _______
 
 [Feuille d'exercice](./Exercices/Exercices_boucles_non_bornees.md)

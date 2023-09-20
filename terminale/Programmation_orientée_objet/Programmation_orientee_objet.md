@@ -4,7 +4,7 @@
 
 ### a) Définition
 
-La *programmation orientée objet* est une manière différente de coder.
+La *programmation orientée objet* est une manière différente d'approcher la programmation.
 
 Elle consiste à utiliser des *objets*.
 
