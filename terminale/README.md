@@ -24,3 +24,17 @@ Chapitre _ : [Sécurisation des communications](./Sécurisation des communicatio
 Chapitre _ : [Diviser pour régner](./Diviser pour régner/Diviser pour regner.md)
 
 Chapitre _ : [Rappels sur les Tris de Première](./Rappels Tris/Rappels des Tris de Première.md)
+
+______________________
+
+## Soutien
+
+[Liste d'exercices](./Soutien/soutien.md)
+
+______________________
+
+## Entraînement au Baccalauréat
+
+[Banque d'épreuve écrite](https://pixees.fr/informatiquelycee/term/suj_bac/)
+
+[Banque d'épreuve pratique](https://pixees.fr/informatiquelycee/term/ep/index.html)
