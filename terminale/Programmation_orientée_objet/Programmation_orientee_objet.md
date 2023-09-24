@@ -113,7 +113,7 @@ Ainsi, lorsque nous instancions la classe, nous donnons une valeur à l'attribut
 
 a) Ecrire le constructeur de la classe `Voiture` en reprennant les caractéristiques trouvées à l'application 1.
 
-b) Ajouter un paramètre au constructeur de `Voiture`.
+b) Ajouter le paramètre `nom` et son attribut au constructeur de la classe `Voiture`.
 
 ## IV. Accès aux attributs
 

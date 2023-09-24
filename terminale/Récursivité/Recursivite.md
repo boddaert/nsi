@@ -2,29 +2,59 @@
 
 ## I. Introduction
 
-Considérons la fonction suivante :
+**Question :** Est-il possible d'écrire une répétition d'instruction sans utiliser de boucle ?
+
+*Rappel : Une boucle est une construction élémentaire permettant de répéter un bloc d'instruction.*
+
+*Deuxième rappel : Une fonction est un nom auquel nous associons un bloc d'instruction.*
+
+- La première idée serait d'appeler plusieurs fois la fonction :
 
 ```python
-def somme(n : int)->int :
-    res = 0
-    while n > 0 :
-        res += n
-        n -= 1
-    return res
+fonc()
+fonc()
+fonc()
 ```
 
-Elle calcule la somme des $n$ premiers entiers ($n + (n-1) + (n-2) + ... + 0$):
+Dans ce cas, le nombre de répétition est fixe.
+
+- La seconde idée serait d'appeler la fonction dans son propre bloc d'instruction :
 
 ```python
->>> somme(4)
-10
+def fonc():
+    fonc()
 ```
 
-**Question :** Est-il possible d'écrire cet algorithme sans utiliser de boucle ?
+Dans ce cas, le nombre de répétition est infini.
 
-Afin répéter des instructions sans utiliser de boucle, la première idée serait d'écrire dans une fonction les instructions et d'appeler autant de fois cette fonction que nécessaire en modifiant les arguments.
+- La troisième idée serait d'utiliser la fonction de la deuxième idée mais en y ajoutant une condition qui arrêterait les appels à elle-même.
 
-Il est possible, en programmation, d'écrire une instruction réalisant un appel de fonction à l'intérieur de cette fonction.
+```python
+def fonc():
+    if arrêt :
+        return resultat
+    else :
+        fonc()
+```
+
+La variable `arrêt` est une valeur booléenne : elle vaut donc $True$ ou $False$.
+
+Cependant, la variable `arrêt` n'est pas définie, nous décidons de la passer en paramètre :
+
+```python
+def fonc(arrêt) :
+    if arrêt :
+        return resultat
+    else :
+        fonc(arrêt)
+```
+
+Récapitulons : 
+
+- Si j'appelle `>>> fonc(False)`, la répétition est infinie.
+- Si j'appelle `>>> fonc(True)`, il n'y a aucune répétition.
+
+Il faut alors que la valeur de la variable `arrêt` passe à un moment donné de $False$ à $True$.
 
 ##### Application 1
 
@@ -51,12 +81,33 @@ La récursivité permet de ne pas modifier l'état des variables en mémoire.
 
 L'implémentation en Python est souvent très proche du principe de récurrence du problème.
 
-### a) Principe de récurrence
+### a) Mise en situation
+
+Considérons la fonction suivante :
+
+```python
+def somme(n : int)->int :
+    res = 0
+    while n > 0 :
+        res += n
+        n -= 1
+    return res
+```
+
+Elle calcule la somme des $n$ premiers entiers ($n + (n-1) + (n-2) + ... + 0$):
+
+```python
+>>> somme(4)
+10
+```
+
+### b) Principe de récurrence
 
 Dans un principe de récurrence, nous distinguons :
 
 - Les *cas de base* pour lesquels les calculs sont triviaux.
 - Les *cas récursifs* pour lesquels un appel à la définition est réalisé.
+
 
 En reprenant l'exemple de la somme des $n$ premiers entiers, son principe de récurrence est :
 
@@ -86,7 +137,7 @@ Il s'agit bien d'une définition récursive du problème, nous avons bien une fo
 
 Donner le principe de récurrence de la fonction de l'application 1.
 
-### b) Traduction en Python
+### c) Traduction en Python
 
 Nous traduisons directement le principe de récurrence en programme Python :
 
@@ -106,7 +157,7 @@ La condition `if n == 0 :` se nomme *condition d'arrêt*.
 
 ##### Application 3
 
-Noter sur la fonction `fonction_recursive()` de l'application 1 une où se situe le cas de base, le cas récursif et la condition d'arrêt.
+Indiquer sur la fonction `fonction_recursive()` de l'application 1 où se situe le cas de base, le cas récursif et la condition d'arrêt.
 
 ## III. Pile d'appels
 
