@@ -2,7 +2,9 @@
 
 ## Exercice 1
 
-Traduire en Français les programmes suivants :
+1) Pour chacun des programmes suivants, dessiner le schéma de branchement.
+
+2) Pour chacun des programmes suivants, écrire la trace d'exécution.
 
 a) Programme 1
 
@@ -43,13 +45,6 @@ while a < 10 or b < 10 :
     a = a * 2
     b = b + 1
 ```
-## Exercice 2
-
-Pour chacun des programmes de l'exercice 1, dessiner le schéma de branchement.
-
-## Exercice 3
-
-Pour chacun des programmes de l'exercice 1, écrire la trace d'exécution.
 
 ## Exercice 4
 

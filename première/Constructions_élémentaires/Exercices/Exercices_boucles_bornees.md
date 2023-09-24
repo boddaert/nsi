@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-Traduire en Français les programmes suivants :
+Pour chacun des programmes suivants, écrire la trace d'exécution.
 
 a) Programme 1
 
@@ -30,10 +30,6 @@ for i in range(-5,5):
     b = b - a
 ```
 
-## Exercice 2
-
-Pour chacun des programmes de l'exercice 1, écrire la trace d'exécution.
-
 ## Exercice 4
 
 Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
@@ -53,7 +49,6 @@ Ecrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ 
 >>> suite(6)
 21
 ```
-
 _____________
 
 [Sommaire](./../../README.md)

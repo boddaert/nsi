@@ -18,15 +18,17 @@ Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exéc
 
 2. Afin de vous aider à respecter les contraintes urbaines, vous devez écrire dans votre programme au minimum les fonctions suivantes :
 
-- `sol(x : int)` prenant en paramètre une coordonnée $x$ et trace le sol de la rue d'abcisse $x$.
+- `couleur()` qui ne prend pas de paramètre et renvoie une couleur aléatoire.
 
-- `etage(x : int, y : int)` prenant en paramètres des coordonnées $x$ et $y$ et trace un étage d'abcisse et d'ordonnée $x$ et $y$.
+- `sol(x : int)` qui prend en paramètre une coordonnée $x$ et trace le sol de la rue d'abcisse $x$.
 
-- `fenetre(x : int, y : int)` prenant en paramètres des coordonnées $x$ et $y$ et trace une fenêtre d'abcisse et d'ordonnée $x$ et $y$.
+- `etage(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace un étage d'abcisse et d'ordonnée $x$ et $y$.
 
-- `toit(x : int, y : int)` prenant en paramètres des coordonnées $x$ et $y$ et trace un toit d'abcisse et d'ordonnée $x$ et $y$.
+- `fenetre(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace une fenêtre d'abcisse et d'ordonnée $x$ et $y$.
 
-- `porte(x : int, y : int)` prenant en paramètres des coordonnées $x$ et $y$ et trace une porte d'abcisse et d'ordonnée $x$ et $y$.
+- `toit(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace un toit d'abcisse et d'ordonnée $x$ et $y$.
+
+- `porte(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace une porte d'abcisse et d'ordonnée $x$ et $y$.
 
 - `immeuble(x : int, y : int)` qui utilise toutes les fonctions précédentes et permettant de tracer un immeuble d'abcisse et d'ordonnée $x$ et $y$..
 
@@ -85,6 +87,8 @@ Documentation de `turtle` : [https://docs.python.org/fr/3/library/turtle.html](h
 ### e) Evaluation
 
 Vous serez évalués sur :
+
+- La qualité du code fourni (lisibilité du code, explicité des noms)
 
 - Le respect du cahier des charges.
 
