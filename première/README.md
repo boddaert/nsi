@@ -26,7 +26,15 @@ Chapitre 1 : [Constructions élémentaires](./Constructions_élémentaires/Types
 
 - Projet n°1 : [Projets](./Projets/Projets.md)
 
-Chapitre 2 : [Chaînes de caractères](./Chaînes_de_caractère/Chaines_de_caractere.md)
+Chapitre 2 : [Représentation des nombres en machine](./Représentation_des_nombres_en_machine/)
+
+- Leçon 1 : [Représentation des entiers naturels](./Représentation_des_nombres_en_machine/Représentation_des_entiers_positifs.md)
+
+- Leçon 2 : [Représentation des entiers relatifs](./Représentation_des_nombres_en_machine/Représentation_des_entiers_relatifs.md)
+
+- Leçon 3 : [Représentation des réels](./Représentation_des_nombres_en_machine/Représentation_des_réels.md)
+
+Chapitre 3 : [Chaînes de caractères](./Chaînes_de_caractère/Chaines_de_caractere.md)
 
 ______
 

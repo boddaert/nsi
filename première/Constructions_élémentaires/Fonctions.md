@@ -23,7 +23,7 @@ Afin d'éviter de réécrire plusieurs fois une instruction réalisant la même 
 
 Ainsi, ici nous aurions pu utiliser une fonction `aire()` qui s'occupe de calculer une aire.
 
-## I. Définition
+## I. Définitions
 
 Une *fonction* est une séquence d'instruction réutilisable. Elle associe une séquence d'instruction à un nom.
 

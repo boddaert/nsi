@@ -1,6 +1,6 @@
 # Boucle non bornées
 
-## I. Définition
+## I. Définitions
 
 Une *boucle* est une construction élémentaire qui permet de répéter une séquence d'instruction.
 

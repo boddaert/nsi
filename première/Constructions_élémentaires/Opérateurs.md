@@ -1,6 +1,6 @@
 # Opérateurs
 
-## I. Définition
+## I. Définitions
 
 Un *opérateur* est un symbole permettant de réaliser une opération.
 
