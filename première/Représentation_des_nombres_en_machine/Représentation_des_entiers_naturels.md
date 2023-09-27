@@ -27,9 +27,10 @@ flowchart LR
             H[-2,12]
             subgraph Nombres Rationnels
                 I[1/3]
-
+                J[3/5]
                 subgraph Nombres Réels
-
+                    K[Pi]
+                    L[Racine carré de 2]
                 end
             end
         end
