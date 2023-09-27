@@ -19,6 +19,10 @@ C4Container
     Container_Boundary(c1, "Entiers naturels") {
         System(entiers_naturels, "1")
 
+        Container_Boundary(c2, "Entiers relatifs"){
+            System(entier_relatifs, "-1")
+        }
+
     }
 
 ```
