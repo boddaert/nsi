@@ -10,22 +10,19 @@ Il existe plusieurs représentations pour un même nombre.
 
 Par exemple le chiffre cinq peut s'écrire : $5$, $cinq$, $V$, ⚄, ...
 
-## II. Les ensembles de nombre
+## II. Les ensembles de nombres
 
 ```mermaid
 flowchart LR
   subgraph Entiers Naturels
-    direction LR
     A[1]
     B[4]
     C[9]
     subgraph Entiers Relatifs
-        direction LR
         D[-3]
         E[-7]
         F[-6]
         subgraph Réels
-            direction LR
             G[2.2]
             H[7.34]
             I[3.14]
