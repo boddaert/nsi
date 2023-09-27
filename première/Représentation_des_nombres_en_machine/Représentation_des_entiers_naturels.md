@@ -15,17 +15,17 @@ Par exemple le chiffre cinq peut s'écrire : $5$, $cinq$, $V$, ⚄, ...
 ```mermaid
 flowchart LR
   subgraph Entiers Naturels
-    direction RL
+    direction LR
     A[1]
     B[4]
     C[9]
     subgraph Entiers Relatifs
-        direction RL
+        direction LR
         D[-3]
         E[-7]
         F[-6]
         subgraph Réels
-            direction RL
+            direction LR
             G[2.2]
             H[7.34]
             I[3.14]
