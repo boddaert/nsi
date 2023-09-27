@@ -26,7 +26,7 @@ flowchart LR
             G[0,5]
             H[-2,12]
             subgraph Nombres Rationnels
-                I[$\dfrac{1}{3}$]
+                I[1/3]
 
                 subgraph Nombres Réels
 
