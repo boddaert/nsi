@@ -65,8 +65,7 @@ def fonction_recursive(n : int)->str :
     if n == 3 :
         return 'fini'
     else :
-        n += 1
-        return fonction_recursive(n)
+        return fonction_recursive(n + 1)
 ```
 
 Dérouler à la main l'exécution de la fonction précédente avec $n = 0$.
