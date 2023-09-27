@@ -6,15 +6,15 @@ Une *boucle* est une construction élémentaire qui permet de répéter une séq
 
 Nous appelons le *corps de boucle* la séquence d'instruction qui sera répétée.
 
-Il s'agit d'une *boucle non bornée* lorsque nous ne connaissons pas à l'avance combien de fois le corps de boucle sera exécuté.
+La *boucle non bornée* permet de répéter l'exécution du corps de boucle tant que la condition est remplie.
+
+La condition est remplie si elle vaut $True$.
 
 En Python, les boucles non bornées s'écrivent en utilisant le mot-clé `while` (*Tant que* en Français) suivi d'une condition.
 
+Nous utilisons les boucles non bornées lorsque nous ne connaissons pas à l'avance combien de fois le corps de boucle sera exécuté.
+
 ## II. Répéter à l'aide d'une condition
-
-La boucle non bornée permet de répéter l'exécution du corps de boucle si la condition est remplie.
-
-La condition est remplie si elle vaut $True$.
 
 ### a) Syntaxe
 

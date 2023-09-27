@@ -6,9 +6,11 @@ Une *boucle* est une construction élémentaire qui permet de répéter une séq
 
 Nous appelons le *corps de boucle* la séquence d'instruction qui sera répétée.
 
-Il s'agit d'une *boucle bornée* lorsque nous connaissons à l'avance combien de fois le corps de boucle sera exécuté.
+Une *boucle bornée* permet de répéter l'exécution du corps de boucle un nombre fixe de fois.
 
 En Python, les boucles bornées s'écrivent en utilisant le mot-clé `for` (*Pour* en Français) suivi d'un itérable.
+
+Nous utilisons les boucles bornées lorsque nous connaissons à l'avance combien de fois le corps de boucle sera exécuté.
 
 ## II. Les itérables
 
