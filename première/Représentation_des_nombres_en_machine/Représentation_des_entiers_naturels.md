@@ -22,10 +22,16 @@ flowchart LR
         D[-3]
         E[-7]
         F[-6]
-        subgraph Réels
-            G[2.2]
-            H[7.34]
-            I[3.14]
+        subgraph Nombres Décimaux
+            G[0,5]
+            H[-2,12]
+            subgraph Nombres Rationnels
+                I[$\dfrac{1}{3}$]
+
+                subgraph Nombres Réels
+
+                end
+            end
         end
     end
   end
