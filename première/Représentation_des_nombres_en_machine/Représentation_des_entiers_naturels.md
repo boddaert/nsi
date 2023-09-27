@@ -17,10 +17,14 @@ C4Container
     title Les ensembles de nombres
 
     Container_Boundary(c1, "Entiers naturels") {
-        System(entiers_naturels, "1")
+        Exemple(entiers_naturels_1, "1")
+
+        Exemple(entiers_naturels_4, "4")
+
+        Exemple(entiers_naturels_9, "9")
 
         Container_Boundary(c2, "Entiers relatifs"){
-            System(entier_relatifs, "-1")
+            Exemple(entier_relatifs, "-1")
         }
 
     }
