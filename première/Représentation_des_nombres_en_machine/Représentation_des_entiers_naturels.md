@@ -151,6 +151,8 @@ Exemple :
 
 ![](./img/base10_to_base2.png)
 
+Ainsi $456_{10} = 111001000_2$
+
 ### b) De la base deux vers la base dix
 
 La méthode consiste à multiplier chaque chiffre du nombre par deux puissance le poids.
