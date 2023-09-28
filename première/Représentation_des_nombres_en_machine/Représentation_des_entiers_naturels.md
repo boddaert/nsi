@@ -38,23 +38,37 @@ Il existe plusieurs représentations pour un même nombre.
 
 Par exemple le chiffre cinq peut s'écrire : $5$, $cinq$, $V$, ⚄, ...
 
-## III. Représentations
+## III. Représentation décimale
 
-### a) Représentation décimale
+### a) Dix symboles
 
-Nous, humains, utilisons la *représentation décimale* des nombres (Parce que nous avons dix doigts).
+Nous, humains, utilisons usuellement la *représentation décimale* des nombres (Parce que nous avons dix doigts).
 
-C'est-à-dire que, pour représenter un nombre, nous avons dix symboles dans cet ordre : $0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$ et $9$.
+C'est-à-dire que, pour écrire un nombre dans cette représentation, nous avons à disposition dix symboles dans cet ordre : $0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$ et $9$.
 
-Nous utilisons alors la *base dix*.
+Ce qui correspond à la *base dix*.
 
-Dans cette représentation, les symboles sont organisés selon leur place : le chiffre de poids zéro appelé le chiffre des unités, le chiffre de poids un appelé le chiffre des dizaines, le chiffre de poids deux appelé le chiffre des centaines ...
+### b) Séquence
 
-| Nombre $456$ | $4$ | $5$ | $6$ |
+Un nombre en base dix est une *séquence* de symboles compris entre $0$ et $9.
+
+Dans cette représentation, les symboles sont organisés selon leur poids : le chiffre de poids zéro appelé le chiffre des unités, le chiffre de poids un appelé le chiffre des dizaines, le chiffre de poids deux appelé le chiffre des centaines ...
+
+| Séquence $456$ | $4$ | $5$ | $6$ |
 | --- | --- | --- | --- |
 | Poids des chiffres | Poids deux | Poids un | Poids zéro |
 
-### b) Représentation binaire
+### c) Calcul d'une séquence
+
+La valeur d'une séquence en base dix est la somme des multiplications des chiffres avec dix puissance leur poids.
+
+Par exemple, pour la séquence $456$, sa valeur est $4 * 10^2 + 5 * 10^1 + 6 * 10^0$
+
+### d) Notation
+
+Une séquence en base dix se note $456_{10}$
+
+## IV. Représentation binaire
 
 Un ordinateur ne comprend que les $0$ (tension basse) et les $1$ (tension haute).
 
