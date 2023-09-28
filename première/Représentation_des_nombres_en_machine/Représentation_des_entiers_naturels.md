@@ -99,6 +99,10 @@ Nous parlons alors de *base seize* et ses symboles sont : $0$, $1$, $2$, $3$, $4
 | $1110$ | $14$ | $E$ |
 | $1111$ | $15$ | $F$ |
 
+### e) Notation
+
+Les nombres $N$ appartenant à une représentation $b$ se notent : $N_b$.
+
 ## VI. Changements de base
 
 Lorsque nous programmons, nous écrivons les nombres dans notre représentation (décimale) or l'ordinateur ne comprend que la représentation binaire des nombres.

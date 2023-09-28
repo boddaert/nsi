@@ -28,7 +28,7 @@ Chapitre 1 : [Constructions élémentaires](./Constructions_élémentaires/Types
 
 Chapitre 2 : [Représentation des nombres en machine](./Représentation_des_nombres_en_machine/)
 
-- Leçon 1 : [Représentation des entiers naturels](./Représentation_des_nombres_en_machine/Représentation_des_entiers_positifs.md)
+- Leçon 1 : [Représentation des entiers naturels](./Représentation_des_nombres_en_machine/Représentation_des_entiers_naturels.md)
 
 - Leçon 2 : [Représentation des entiers relatifs](./Représentation_des_nombres_en_machine/Représentation_des_entiers_relatifs.md)
 
