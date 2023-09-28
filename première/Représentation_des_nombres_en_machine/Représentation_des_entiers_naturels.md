@@ -50,7 +50,7 @@ Ce qui correspond à la *base dix*.
 
 ### b) Séquence
 
-Un nombre en base dix est une *séquence* de symboles compris entre $0$ et $9.
+Un nombre en base dix est une *séquence* de symboles compris entre $0$ et $9$.
 
 Dans cette représentation, les symboles sont organisés selon leur poids : le chiffre de poids zéro appelé le chiffre des unités, le chiffre de poids un appelé le chiffre des dizaines, le chiffre de poids deux appelé le chiffre des centaines ...
 
@@ -58,17 +58,13 @@ Dans cette représentation, les symboles sont organisés selon leur poids : le c
 | --- | --- | --- | --- |
 | Poids des chiffres | Poids deux | Poids un | Poids zéro |
 
-### c) Calcul d'une séquence
+### c) Notation
 
-La valeur d'une séquence en base dix est la somme des multiplications des chiffres avec dix puissance leur poids.
-
-Par exemple, pour la séquence $456$, sa valeur est $4 * 10^2 + 5 * 10^1 + 6 * 10^0$
-
-### d) Notation
-
-Une séquence en base dix se note $456_{10}$
+Une nombre en base dix se note $456_{10}$
 
 ## IV. Représentation binaire
+
+### a) Deux symboles
 
 Un ordinateur ne comprend que les $0$ (tension basse) et les $1$ (tension haute).
 
@@ -76,23 +72,47 @@ Un ordinateur utilise alors la *base deux* qui ne contient que deux symboles : $
 
 Nous parlons alors de *représentation binaire*.
 
+### b) Séquence
+
+Un nombre en base deux est une *séquence* de symboles de $0$ et de $1$.
+
 Dans cette représentation, les symboles sont appelés *bits* et sont également organisés selon leur place : le bit de poids zéro, le bit de poids un, le bit de poids deux ...
 
 Comme pour la représentation décimale, le bit de poids le plus faible est situé à droite de la représentation.
 
-| Nombre $101$ | $1$ | $0$ | $1$ |
+| Séquence $101$ | $1$ | $0$ | $1$ |
 | --- | --- | --- | --- |
 | Poids des chiffres | Poids deux | Poids un | Poids zéro |
 
 Nous appelons *octet* un regroupement de huit bits.
 
-### c) Représentation hexadécimale
+### c) Notation
+
+Un nombre en base deux se note $101_2$
+
+## V. Représentation hexadécimale
+
+### a) Seize symboles
 
 Parfois, nous utilisons la représentation hexadécimale car elle correspond à la représentation binaire sur quatre bits et nous fais gagner ainsi de la place et du temps.
 
 Nous parlons alors de *base seize* et ses symboles sont : $0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, $A$, $B$, $C$, $D$, $E$ et $F$.
 
-### d) Récapitulatif des représentations
+### b) Séquence
+
+Un nombre en base seize est une *séquence* de symboles compris entre $0$ et $F$.
+
+Comme pour les représentation précédentes :
+
+| Séquence $A09$ | $A$ | $0$ | $9$ |
+| --- | --- | --- | --- |
+| Poids des chiffres | Poids deux | Poids un | Poids zéro |
+
+### c) Notation
+
+Un nombre en base seize se note $A09_{16}$
+
+## VI. Récapitulatif des représentations
 
 | Base deux | Base dix | Base seize |
 | --- | --- | --- |
@@ -113,11 +133,7 @@ Nous parlons alors de *base seize* et ses symboles sont : $0$, $1$, $2$, $3$, $4
 | $1110$ | $14$ | $E$ |
 | $1111$ | $15$ | $F$ |
 
-### e) Notation
-
-Les nombres $N$ appartenant à une représentation $b$ se notent : $N_b$.
-
-## VI. Changements de base
+## VII. Changements de base
 
 Lorsque nous programmons, nous écrivons les nombres dans notre représentation (décimale) or l'ordinateur ne comprend que la représentation binaire des nombres.
 
@@ -131,8 +147,22 @@ Nous pouvons bien sûr nous référer au tableau ci-dessus, mais il existe une m
 
 Cette méthode consiste à diviser euclidiennement et succéssivement le nombre par deux jusqu'à atteindre $0$ et de récupérer les restes.
 
+Exemple :
+
+![](./img/base10_to_base2.png)
+
 ### b) De la base deux vers la base dix
 
 La méthode consiste à multiplier chaque chiffre du nombre par deux puissance le poids.
 
 Ainsi : $101_2 = 1 * 2^2 + 0 * 2^1 + 1 * 2^0 = 456_{10}$
+
+
+------------------
+
+
+### d) Calcul d'une séquence
+
+La valeur d'une séquence en base dix est la somme des multiplications des chiffres avec dix puissance leur poids.
+
+Par exemple, pour la séquence $456$, sa valeur est $4 * 10^2 + 5 * 10^1 + 6 * 10^0 = 456_{10}$
