@@ -48,7 +48,11 @@ C'est-à-dire que, pour représenter un nombre, nous avons dix symboles dans cet
 
 Nous utilisons alors la *base dix*.
 
-Dans cette représentation, les symboles sont organisés selon leur place : le chiffre des unités, le chiffre des dizaines, le chiffre des centaines ...
+Dans cette représentation, les symboles sont organisés selon leur place : le chiffre de poids zéro appelé le chiffre des unités, le chiffre de poids un appelé le chiffre des dizaines, le chiffre de poids deux appelé le chiffre des centaines ...
+
+| Nombre $456$ | $4$ | $5$ | $6$ |
+| --- | --- | --- | --- |
+| Poids des chiffres | Poids deux | Poids un | Poids zéro |
 
 ### b) Représentation binaire
 
@@ -61,6 +65,10 @@ Nous parlons alors de *représentation binaire*.
 Dans cette représentation, les symboles sont appelés *bits* et sont également organisés selon leur place : le bit de poids zéro, le bit de poids un, le bit de poids deux ...
 
 Comme pour la représentation décimale, le bit de poids le plus faible est situé à droite de la représentation.
+
+| Nombre $101$ | $1$ | $0$ | $1$ |
+| --- | --- | --- | --- |
+| Poids des chiffres | Poids deux | Poids un | Poids zéro |
 
 Nous appelons *octet* un regroupement de huit bits.
 
@@ -107,5 +115,6 @@ Cette méthode consiste à diviser euclidiennement et succéssivement le nombre 
 
 ### b) De la base deux vers la base dix
 
-La méthode consiste à multiplier 
+La méthode consiste à multiplier chaque chiffre du nombre par deux puissance le poids.
 
+Ainsi : $101_2 = 1 * 2^2 + 0 * 2^1 + 1 * 2^0 = 456_{10}$
