@@ -62,6 +62,10 @@ Dans cette représentation, les symboles sont organisés selon leur poids : le c
 
 Une nombre en base dix se note $456_{10}$
 
+##### Application 1
+
+Indiquer les poids de chacun des chiffres de la séquence $13098_{10}$.
+
 ## IV. Représentation binaire
 
 ### a) Deux symboles
@@ -90,6 +94,10 @@ Nous appelons *octet* un regroupement de huit bits.
 
 Un nombre en base deux se note $101_2$
 
+##### Application 2
+
+Indiquer les poids de chacun des chiffres de la séquence $10101110_2$.
+
 ## V. Représentation hexadécimale
 
 ### a) Seize symboles
@@ -111,6 +119,10 @@ Comme pour les représentation précédentes :
 ### c) Notation
 
 Un nombre en base seize se note $A09_{16}$
+
+##### Application 3
+
+Indiquer les poids de chacun des chiffres de la séquence $1AA910F_{16}$.
 
 ## VI. Récapitulatif des représentations
 
@@ -147,24 +159,41 @@ Nous pouvons bien sûr nous référer au tableau ci-dessus, mais il existe une m
 
 Cette méthode consiste à diviser euclidiennement et succéssivement le nombre par deux jusqu'à atteindre $0$ et de récupérer les restes.
 
-Exemple :
+Ainsi $456_{10} = 111001000_2$ :
 
 ![](./img/base10_to_base2.png)
 
-Ainsi $456_{10} = 111001000_2$
+##### Application 4
+
+Trouver la représentation binaire de $891_{10}$.
 
 ### b) De la base deux vers la base dix
 
-La méthode consiste à multiplier chaque chiffre du nombre par deux puissance le poids.
+La méthode consiste à multiplier chaque bit à un de la séquence par deux puissance son poids.
 
-Ainsi : $101_2 = 1 * 2^2 + 0 * 2^1 + 1 * 2^0 = 456_{10}$
+Ainsi : $111001000_2 = (1*2^8) + (1*2^7) + (1*2^6) + (1*2^3) = 456_{10}$
 
+##### Application 5
 
-------------------
+Trouver la représentation décimale de $1011011_2$.
 
+### c) De la base deux vers la base seize
 
-### d) Calcul d'une séquence
+La méthode consiste à regrouper les bits par bloc de quatre et de convertir chaque groupe en hexadécimal.
 
-La valeur d'une séquence en base dix est la somme des multiplications des chiffres avec dix puissance leur poids.
+Ainsi : $111001000_2 = 1C8_{16}$
 
-Par exemple, pour la séquence $456$, sa valeur est $4 * 10^2 + 5 * 10^1 + 6 * 10^0 = 456_{10}$
+| $1$ | $1100$ | $1000$ |
+| --- | --- | --- |
+| $1$ | $C$ | $8$ |
+
+##### Application 6
+
+Trouver la représentation hexadécimale de $1011011_2$.
+_____________________
+
+[Feuille d'exercices](./Exercices/Exercices_representation_des_entiers_naturels.md)
+
+_____________________
+
+[Sommaire](./../README.md)
