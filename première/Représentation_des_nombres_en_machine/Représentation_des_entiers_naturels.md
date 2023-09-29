@@ -171,7 +171,7 @@ Trouver la représentation binaire de $891_{10}$.
 
 La méthode consiste à multiplier chaque bit à un de la séquence par deux puissance son poids.
 
-Ainsi : $111001000_2 = (1*2^8) + (1*2^7) + (1*2^6) + (1*2^3) = 456_{10}$
+Ainsi : $111001000_2 = (1 * 2^8) + (1 * 2^7) + (1 * 2^6) + (1 * 2^3) = 456_{10}$
 
 ##### Application 5
 
