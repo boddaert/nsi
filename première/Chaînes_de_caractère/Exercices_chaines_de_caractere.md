@@ -57,7 +57,7 @@ Ecrire une fonction `nombre_occurences(mot : str, lettre : str)->int` qui prend 
 
 ## Exercice 5
 
-Ecrire une fonction `etoiles(mot : str)->str` qui prend en paramètre une chaîne de caractère et renvoie comme résultat cette même chaîne avec le caractère $*$ entre chaque caractère de la chaîne.
+Ecrire une fonction `etoiles(mot : str)->str` qui prend en paramètre une chaîne de caractère et renvoie comme résultat une nouvelle chaîne équivalente à celle passée en paramètre mais avec en plus le caractère `*` entre chaque caractère de la chaîne.
 
 ```python
 >>> etoiles('La guerre des étoiles')
@@ -78,7 +78,7 @@ TypeError: can only concatenate str (not "int") to str
 
 ## Exercice 7
 
-Ecrire une fonction `reduit(mot : str)-> str` qui prend en paramètre une chaîne de caractère et renvoie comme résultat cette même chaîne sans le premier ni le dernier caractère.
+Ecrire une fonction `reduit(mot : str)-> str` qui prend en paramètre une chaîne de caractère et renvoie comme résultat une nouvelle chaîne équivalente à celle passée en paramètre mais sans le premier ni le dernier caractère.
 
 ```python
 >>> reduit('bonjour')
