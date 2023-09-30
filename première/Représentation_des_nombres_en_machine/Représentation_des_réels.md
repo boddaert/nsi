@@ -42,6 +42,14 @@ Ainsi, la partie décimale de $5,195_{10}$ est représentée par $0011_2$ (de pr
 
 Donc, $5,195_{10} = 101,0011_2$.
 
+##### Application 2
+
+a) Trouver la représentation binaire à virgule fixe et en précision de quatre de $9,99_{10}$.
+
+b) Trouver la représentation binaire à virgule fixe et en précision de quatre de $34,25_{10}$.
+
+c) Trouver la représentation binaire à virgule fixe et en précision de quatre de $21,76_{10}$.
+
 ## III. Représentation à virgule flottante
 
 Les nombres réels sont concrètement représentés en machine grâce à la norme IEEE 754.
