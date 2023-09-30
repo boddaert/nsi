@@ -85,19 +85,21 @@ Le dix-septième entier est donc représenté avec huit bits :
 
 L'intervalle de représentation donne l'entier minimum et maximum pouvant être représentés pour une taille donnée.
 
+Pour une séquence de $n$ bits, l'intervalle de représentation des entiers naturels est compris entre $0$ et $2^{n}-1$.
+
 Ainsi, l'intervalle de représentation sur quatre bits est compris entre $0_{10}$ et $15_{10}$.
 
 ##### Application 4
 
-a) Donner l'intervalle de représentation sur huit bits.
+a) Donner l'intervalle de représentation des entiers naturels sur huit bits.
 
-b) Donner l'intervalle de représentation sur seize bits.
+b) Donner l'intervalle de représentation des entiers naturels sur seize bits.
 
 ### c) Intervalle de représentation des entiers relatifs
 
 Comme le premier bit est le bit de signe, l'intervalle de représentation pour les entiers relatifs est modifié.
 
-Pour une séquence de $n$ bits, l'intervalle est compris entre $-2^{n-1}$ et $2^{n-1}-1$.
+Pour une séquence de $n$ bits, l'intervalle de représentation des entiers relatifs est compris entre $-2^{n-1}$ et $2^{n-1}-1$.
 
 Ainsi, l'intervalle de représentation sur quatre bits est compris entre $-8_{10}$ et $7_{10}$.
 
@@ -121,6 +123,13 @@ Tableau du complément à deux sur quatre bits :
 | $1101$ | $-3$ |
 | $1110$ | $-2$ |
 | $1111$ | $-1$ |
+
+##### Application 5
+
+a) Donner l'intervalle de représentation des entiers relatifs sur huit bits.
+
+b) Donner l'intervalle de représentation des entiers relatifs sur seize bits.
+
 _______________
 
 [Feuille d'exercices](./Exercices/Exercices_representation_des_entiers_relatifs.md)
