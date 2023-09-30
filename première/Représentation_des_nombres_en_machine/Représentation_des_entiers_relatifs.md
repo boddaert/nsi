@@ -71,7 +71,7 @@ Nous savons que les seize premiers entiers peuvent être représentés sous quat
 Le dix-septième entier est donc représenté avec huit bits :
 
 | Entier en base deux | Entier en base dix | Taille en représentation binaire |
-| --- | --- | --- |
+| ---: | --- | --- |
 | $0000$ | $0$ | $4$ |
 | ... | ... | ... |
 | $1111$ | $15$ | $4$ |
