@@ -127,7 +127,7 @@ Indiquer les poids de chacun des chiffres de la séquence $1AA910F_{16}$.
 ## VI. Récapitulatif des représentations
 
 | Représentation binaire | Représentation décimale | Représentation hexadécimale |
-| :---: | :--:- | :---: |
+| :---: | :---: | :---: |
 | $0$ | $0$ | $0$ |
 | $1$ | $1$ | $1$ |
 | $10$ | $2$ | $2$ |
