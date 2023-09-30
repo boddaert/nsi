@@ -70,7 +70,7 @@ Nous savons que les seize premiers entiers peuvent être représentés sous quat
 
 Le dix-septième entier est donc représenté avec huit bits :
 
-| Entier en base deux | Entier en base dix | Taille en représentation binaire |
+| Représentation binaire | Représentation décimale | Taille de la représentation binaire |
 | ---: | :---: | :---: |
 | $0000$ | $0$ | $4$ |
 | ... | ... | ... |
@@ -102,7 +102,7 @@ Ainsi, l'intervalle de représentation sur quatre bits est compris entre $-8_{10
 Tableau du complément à deux sur quatre bits :
 
 | Représentation binaire en complément à deux | Représentation décimale |
-| --- | --- |
+| :---: | :---: |
 | $0000$ | $0$ |
 | $0001$ | $1$ |
 | $0010$ | $2$ |
