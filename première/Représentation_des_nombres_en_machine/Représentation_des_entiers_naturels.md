@@ -183,7 +183,7 @@ La méthode consiste à regrouper les bits par bloc de quatre et de convertir ch
 
 Ainsi : $111001000_2 = 1C8_{16}$
 
-| $1$ | $1100$ | $1000$ |
+| $1$ | 1100 | $1000$ |
 | --- | --- | --- |
 | $1$ | $C$ | $8$ |
 
