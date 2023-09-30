@@ -125,7 +125,7 @@ Ecrire une fonction `change_casse(mot : str)->str` qui prend en paramètre une c
 
 ## Exercice 10
 
-Ecrire un  script python permettant d'afficher un sapin de Noël avec des décorations aléatoires.
+Ecrire un programme python permettant d'afficher un sapin de Noël avec des décorations aléatoires.
 
 Les caractères utilisés pour les décorations seront stockés dans une liste créée en début de script.
 

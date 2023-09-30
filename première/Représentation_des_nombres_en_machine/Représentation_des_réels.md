@@ -22,7 +22,7 @@ a) Tester dans la console l'égalité suivante : `0.1 + 0.2 == 0.3`.
 
 b) Expliquer pourquoi l'égalité est fausse.
 
-c) En déduire pourquoi il est préférable de ne pas utiliser les flottants dans les programmes.
+c) En déduire pourquoi il est préférable d'être prudent lorsque nous utilisons les flottants dans nos programmes.
 
 ## II. Représentation à virgule fixe
 
@@ -75,11 +75,6 @@ b) En demi-précision (seize bits), trouver la représentation décimale de $110
 c) En demi-précision (seize bits), trouver la représentation décimale de $0001110111111111_2$ et noter le calcul effectué de la norme IEEE 754.
 
 d) En demi-précision (seize bits), trouver la représentation décimale de $1100110000100011_2$ et noter le calcul effectué de la norme IEEE 754.
-
-
-__________________
-
-[Feuille d'exercice](./Exercices/Exercices_representation_des_reels.md)
 
 __________________
 
