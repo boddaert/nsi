@@ -97,7 +97,7 @@ b) Donner l'intervalle de représentation sur seize bits.
 
 Comme le premier bit est le bit de signe, l'intervalle de représentation pour les entiers relatifs est modifié.
 
-Pour une séquence de $n$ bits, l'intervalle est compris entre $-2^{n-1}$ et $2^n-1$.
+Pour une séquence de $n$ bits, l'intervalle est compris entre $-2^{n-1}$ et $2^{n-1}-1$.
 
 Ainsi, l'intervalle de représentation sur quatre bits est compris entre $-8_{10}$ et $7_{10}$.
 
