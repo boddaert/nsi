@@ -30,13 +30,11 @@ Alors qu'en représentation binaire : $1101_2 + 0101_2 = 0010_2$.
 
 ## II. Complément à deux
 
-### a) Principe
+La méthode du complément à deux conserve le bit de signe mais la représentation binaire des entiers négatifs s'obtient en inversant la valeur des bits ($0 \to 1$ et $1 \to 0$) de la séquence et en ajoutant $1$.
 
-La méthode du complément à deux conserve le bit de signe mais la représentation binaire des entiers négatifs s'obtient en inversant la valeur des bits ($0 \to 1$, $1 \to 0$) de la séquence et en ajoutant $1$.
+Ainsi, $-5_{10}$ donne en représentation binaire $1011_2$ en utilisant le complément à deux parce que :
 
-Ainsi, $-5_{10}$ donne $1011_2$ en utilisant le complément à deux parce que :
-
-1) $5_{10}$ donne $0101_2$.
+1) $5_{10}$ donne en représentation binaire $0101_2$.
 
 2) $Inverse(0101_2) = 1010_2$.
 
@@ -44,9 +42,44 @@ Ainsi, $-5_{10}$ donne $1011_2$ en utilisant le complément à deux parce que :
 
 ##### Application 2
 
-En suivant la méthode du complément à deux, trouver la représentation binaire de $-9$.
+a) En suivant la méthode du complément à deux, trouver la représentation binaire de $-9$.
 
-En suivant la méthode du complément à deux, trouver la représentation binaire de $-2$.
+b) En suivant la méthode du complément à deux, trouver la représentation binaire de $-2$.
+
+## III. Taille d'un entier
+
+La *taille* d'un nombre est le nombre de chiffre composant sa séquence.
+
+Ainsi, la taille de $5_{10}$ vaut $1$ et la taille de $101_2$ vaut $3$.
+
+##### Application 3
+
+a) Donner la taille de $A45_{16}$.
+
+b) Donner la taille de $11110_2$.
+
+## IV. Intervalle de représentation
+
+### a) Taille fixe des entiers
+
+Lorsque nous représentons les entiers en base deux, nous utilisons une taille fixe des séquences.
+
+Ces tailles sont par défaut une puissance de deux, c'est-à-dire que nous représentons les entiers soit dans une représentation binaire de quatre bits, de huit bits, de seize bits, de trente-deux bits ou encore de soixante-quatre bits.
+
+Nous savons que les seize premiers entiers peuvent être représentés sous quatre bits.
+
+Le dix-septième entier est donc représenté avec huit bits :
+
+| Entier en base deux | Entier en base dix | Taille en représentation binaire |
+| --- | --- | --- |
+| $0000$ | $0$ | $4$ |
+| ... | ... | ... |
+| $1111$ | $15$ | $4$ |
+| $0001 0000$ | $16$ | $8$ |
+| ... | ... | ... |
+| $1111 1111$ | $255$ | $8$ |
+| $0000 0001 0000 0000$ | $256$ | $16$ |
+| ... | ... | ... |
 _______________
 
 [Feuille d'exercices](./Exercices/Exercices_representation_des_entiers_relatifs.md)
