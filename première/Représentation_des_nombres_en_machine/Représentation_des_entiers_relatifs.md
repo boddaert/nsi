@@ -20,7 +20,7 @@ Trouver la représentation binaire de $-13_{10}$.
 
 ### b) Problèmes
 
-Premier problème : En utilisant cette méthode, le chiffre $O$ possède deux représentations : $1000_2$ et $0000_2$.
+Premier problème : En utilisant cette méthode, le chiffre $0$ possède deux représentations : $1000_2$ et $0000_2$.
 
 Second problème : Cela complique les opérations arithmétiques tel que l'addition par exemple.
 
@@ -75,10 +75,10 @@ Le dix-septième entier est donc représenté avec huit bits :
 | $0000$ | $0$ | $4$ |
 | ... | ... | ... |
 | $1111$ | $15$ | $4$ |
-| $0001 0000$ | $16$ | $8$ |
+| $0001$ $0000$ | $16$ | $8$ |
 | ... | ... | ... |
-| $1111 1111$ | $255$ | $8$ |
-| $0000 0001 0000 0000$ | $256$ | $16$ |
+| $1111$ $1111$ | $255$ | $8$ |
+| $0000$ $0001$ $0000$ $0000$ | $256$ | $16$ |
 | ... | ... | ... |
 _______________
 
