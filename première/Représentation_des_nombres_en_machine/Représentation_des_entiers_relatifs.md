@@ -34,7 +34,7 @@ La méthode du complément à deux conserve le bit de signe mais la représentat
 
 Ainsi, $-5_{10}$ donne en représentation binaire $1011_2$ en utilisant le complément à deux parce que :
 
-1) $5_{10}$ donne en représentation binaire $0101_2$.
+1) $5_{10}$ donne en représentation binaire : $0101_2$.
 
 2) $Inverse(0101_2) = 1010_2$.
 
@@ -71,7 +71,7 @@ Nous savons que les seize premiers entiers peuvent être représentés sous quat
 Le dix-septième entier est donc représenté avec huit bits :
 
 | Entier en base deux | Entier en base dix | Taille en représentation binaire |
-| ---: | --- | --- |
+| ---: | :---: | :---: |
 | $0000$ | $0$ | $4$ |
 | ... | ... | ... |
 | $1111$ | $15$ | $4$ |
@@ -80,6 +80,45 @@ Le dix-septième entier est donc représenté avec huit bits :
 | $1111$ $1111$ | $255$ | $8$ |
 | $0000$ $0001$ $0000$ $0000$ | $256$ | $16$ |
 | ... | ... | ... |
+
+### b) Intervalle de représentation des entiers naturels
+
+L'intervalle de représentation donne l'entier minimum et maximum pouvant être représentés pour une taille donnée.
+
+Ainsi, l'intervalle de représentation sur quatre bits est compris entre $0_{10}$ et $15_{10}$.
+
+##### Application 4
+
+a) Donner l'intervalle de représentation sur huit bits.
+
+b) Donner l'intervalle de représentation sur seize bits.
+
+### c) Intervalle de représentation des entiers relatifs
+
+Comme le premier bit est le bit de signe, l'intervalle de représentation pour les entiers relatifs est modifié.
+
+Ainsi, l'intervalle de représentation sur quatre bits est compris entre $-8_{10}$ et $7_{10}$.
+
+Tableau du complément à deux sur quatre bits :
+
+| Représentation binaire en complément à deux | Représentation décimale |
+| --- | --- |
+| $0000$ | $0$ |
+| $0001$ | $1$ |
+| $0010$ | $2$ |
+| $0011$ | $3$ |
+| $0100$ | $4$ |
+| $0101$ | $5$ |
+| $0110$ | $6$ |
+| $0111$ | $7$ |
+| $1000$ | $-8$ |
+| $1001$ | $-7$ |
+| $1010$ | $-6$ |
+| $1011$ | $-5$ |
+| $1100$ | $-4$ |
+| $1101$ | $-3$ |
+| $1110$ | $-2$ |
+| $1111$ | $-1$ |
 _______________
 
 [Feuille d'exercices](./Exercices/Exercices_representation_des_entiers_relatifs.md)
