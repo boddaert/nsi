@@ -19,6 +19,8 @@ Chapitre 4 : [Structures linéaires de données](./Structures_linéaires_de_donn
 
 - Leçon 3 : [Files](./Structures_linéaires_de_données/Files.md)
 
+Chapitre 5 : [Protocoles de routage](./Protocoles_de_routage/Protocoles_de_routage.md)
+
 Chapitre _ : [Sécurisation des communications](./Sécurisation des communications/Sécurisation des communications.md)
 
 Chapitre _ : [Diviser pour régner](./Diviser pour régner/Diviser pour regner.md)

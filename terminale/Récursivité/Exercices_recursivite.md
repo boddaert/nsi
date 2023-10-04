@@ -17,7 +17,7 @@ a) Qu'affiche dans la console l'instruction `affiche_n_rec(5)` ?
 
 b) Dérouler pas à pas en utilisant l'outil débogueur l'instruction précédente.
 
-c) Repérer le case de base et le cas récursif afin d'écrire le principe de récurrence.
+c) Repérer le cas de base et le cas récursif afin d'écrire le principe de récurrence.
 
 d) Transformer la fonction `affiche_n_rec()` en fonction itérative.
 
@@ -32,7 +32,7 @@ def affiche_bonjour(n : int)->None :
         n -= 1
 ```
 
-a) Repérer le case de base et le cas récursif afin d'écrire le principe de récurrence.
+a) Repérer le cas de base et le cas récursif afin d'écrire le principe de récurrence.
 
 b) Transformer la fonction `affiche_bonjour()` en fonction récursive en vous appuyant sur le principe de récurrence.
 
@@ -52,7 +52,7 @@ a) Qu'affiche dans la console l'instruction `taille_rec('bonjour')` ?
 
 b) Dérouler pas à pas en utilisant l'outil débogueur l'instruction précédente.
 
-c) Repérer le case de base et le cas récursif afin d'écrire le principe de récurrence.
+c) Repérer le cas de base et le cas récursif afin d'écrire le principe de récurrence.
 
 d) Transformer la fonction `taille_rec()` en fonction itérative sans utiliser la fonction `len()`.
 
@@ -70,7 +70,7 @@ def nb_occurence(mot : str, lettre :str)->int :
     return res
 ```
 
-a) Repérer le case de base et le cas récursif afin d'écrire le principe de récurrence.
+a) Repérer le cas de base et le cas récursif afin d'écrire le principe de récurrence.
 
 b) Transformer la fonction `nb_occurence()` en fonction récursive en vous appuyant sur le principe de récurrence.
 
