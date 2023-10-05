@@ -29,16 +29,6 @@ while not a == True :
 c) Programme 3
 
 ```python
-a = 0
-b = 0
-while a < 10 or b > -5 :
-    a = a + 1
-    b = b - 1
-```
-
-e) Programme 4
-
-```python
 a = 1
 b = 5
 while a < 10 or b < 10 :
@@ -46,7 +36,7 @@ while a < 10 or b < 10 :
     b = b + 1
 ```
 
-## Exercice 4
+## Exercice 2
 
 Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
@@ -57,7 +47,7 @@ Cette fonction devra utiliser uniquement l'opérateur de multiplication et la bo
 16
 ```
 
-## Exercice 5
+## Exercice 3
 
 Ecrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ et calcule $1+2+3+ ... +n$ en utilisant la boucle `while`.
 
@@ -66,7 +56,7 @@ Ecrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ 
 15
 ```
 
-## Exercice 6
+## Exercice 4
 
 Ecrire une fonction `nb_etape(n : int)->int` qui prend en paramètre un entier $n$.
 

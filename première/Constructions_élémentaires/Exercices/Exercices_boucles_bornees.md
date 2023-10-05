@@ -30,7 +30,7 @@ for i in range(-5,5):
     b = b - a
 ```
 
-## Exercice 4
+## Exercice 2
 
 Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
@@ -41,7 +41,7 @@ Cette fonction devra utiliser uniquement l'opérateur de multiplication et la bo
 32
 ```
 
-## Exercice 5
+## Exercice 3
 
 Ecrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ et calcule $1+2+3+ ... +n$ en utilisant la boucle `for`.
 
