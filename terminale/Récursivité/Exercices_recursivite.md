@@ -84,7 +84,7 @@ b) Repérer le cas de base et le cas récursif afin d'écrire le principe de ré
 
 c) Ecrire une fonction récursive `puissance_rec(x : int, n : int)->int` qui prend en paramètres deux entiers et renvoie comme résultat $x^n$.
 
-d) Dessiner la pile d'appels de la fonction puissance avec $x = 3$ et $n = 5$.
+d) Dessiner la pile d'appels de `>>> puissance_rec(3, 5)`.
 
 ## Exercice 6
 
@@ -118,7 +118,7 @@ Ecrire une fonction récursive `somme_chiffre(n : int)->int` qui prend en param�
 
 ## Exercice 9
 
-Ecrire une fonction `max_rec(l : list)->int` qui prend en paramètre une liste d'entiers et renvoie comme résultat l'entier le plus grand de $l$.
+Ecrire une fonction récursive `max_rec(l : list)->int` qui prend en paramètre une liste d'entiers et renvoie comme résultat l'entier le plus grand de $l$.
 
 ```python
 >>> max_rec([4, 8, 9, 10])
@@ -127,13 +127,41 @@ Ecrire une fonction `max_rec(l : list)->int` qui prend en paramètre une liste d
 
 ## Exercice 10
 
+Soit la fonction récursive suivante :
+
+```python
+def appartient(l : list, n : int)->bool:
+    if l == []:
+        return False
+    else :
+        if l[0] == n :
+            return True and appartient(l[1:], n)
+        else :
+            return False and appartient(l[1:], n)
+```
+
+a) Repérer le cas de base et le cas récursif afin d'écrire le principe de récurrence de la fonction `appartient()`.
+
+b) Dessiner la pile d'appels de `>>> appartient([5, 6, 4, 9, 0], 9)`.
+
+## Exercice 11
+
+Ecrire une fonction `pairs_rec(n : int)->list` qui prend en paramètre un entier $n$ et renvoie une liste dont les éléments sont les nombres pairs de $0$ à $n$.
+
+```python
+>>> pairs_rec(9)
+[0, 2, 4, 6, 8]
+```
+
+## Exercice 12
+
 a) En utilisant le module `turtle`, écrire une fonction `carre(c : int)->None` qui prend en paramètre un entier et dessine un carré centré de côté $c$.
 
 b) Ecrire une fonction récursive `carres_rec(n : int, c : int)->None` qui prend en paramètres deux entiers et dessine $n$ carrés emboîtés de côté $c$ comme le montre l'image ci-dessous :
 
 ![Carres_emboités](./img/carres_emboites.png)
 
-## Exercice 11
+## Exercice 13
 
 La courbe de Koch est une figure qui s'obtient de manière récursive.
 
