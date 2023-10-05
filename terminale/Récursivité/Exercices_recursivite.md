@@ -90,7 +90,7 @@ d) Dessiner la pile d'appels de la fonction puissance avec $x = 3$ et $n = 5$.
 
 a) Ecrire une fonction non récursive `factorielle(x : int)->int` qui prend en paramètre un entier et renvoie comme résultat $x!$.
 
-*Rappel* : $5!=5*4*3*2*1$. et $0!=1$.
+*Rappel* : `$5!=5*4*3*2*1$`. et $0!=1$.
 
 b) Repérer le cas de base et le cas récursif afin d'écrire le principe de récurrence de la factorielle.
 
