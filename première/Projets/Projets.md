@@ -20,17 +20,17 @@ Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exéc
 
 - `couleur()` qui ne prend pas de paramètre et renvoie une couleur aléatoire.
 
-- `sol(x : int)` qui prend en paramètre une coordonnée $x$ et trace le sol de la rue d'abcisse $x$.
+- `sol(x : int)` qui prend en paramètre une coordonnée $x$ et trace le sol de la rue au point de coordonnées d'abcisse $(x,0)$.
 
-- `etage(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace un étage d'abcisse et d'ordonnée $x$ et $y$.
+- `etage(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace un étage au point de coordonnées $(x,y)$.
 
-- `fenetre(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace une fenêtre d'abcisse et d'ordonnée $x$ et $y$.
+- `fenetre(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace une fenêtre au point de coordonnées $(x,y)$.
 
-- `toit(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace un toit d'abcisse et d'ordonnée $x$ et $y$.
+- `toit(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace un toit au point de coordonnées $(x,y)$.
 
-- `porte(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace une porte d'abcisse et d'ordonnée $x$ et $y$.
+- `porte(x : int, y : int)` qui prend en paramètres des coordonnées $x$ et $y$ et trace une porte au point de coordonnées $(x,y)$.
 
-- `immeuble(x : int, y : int)` qui utilise toutes les fonctions précédentes et permettant de tracer un immeuble d'abcisse et d'ordonnée $x$ et $y$..
+- `immeuble(x : int, y : int)` qui utilise toutes les fonctions précédentes et permettant de tracer un immeuble au point de coordonnées $(x,y)$.
 
 3. Le code doit être lisible, les noms de variable et noms de fonction doivent être explicites.
 
