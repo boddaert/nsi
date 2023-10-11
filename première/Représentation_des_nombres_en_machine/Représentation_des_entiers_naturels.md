@@ -82,7 +82,7 @@ Un nombre en base deux est une *séquence* de symboles de $0$ et de $1$.
 
 Dans cette représentation, les symboles sont appelés *bits* et sont également organisés selon leur place : le bit de poids zéro, le bit de poids un, le bit de poids deux ...
 
-Comme pour la représentation décimale, le bit de poids le plus faible est situé à droite de la représentation.
+Comme pour la représentation décimale, le bit de poids le plus faible est situé à droite de la séquence.
 
 | Séquence $101$ | $1$ | $0$ | $1$ |
 | --- | --- | --- | --- |
