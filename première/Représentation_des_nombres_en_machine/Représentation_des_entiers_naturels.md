@@ -165,7 +165,7 @@ Ainsi $456_{10} = 111001000_2$ :
 
 ##### Application 4
 
-Trouver la représentation binaire de $891_{10}$.
+Trouver la représentation binaire de $291_{10}$.
 
 ### b) De la base deux vers la base dix
 
