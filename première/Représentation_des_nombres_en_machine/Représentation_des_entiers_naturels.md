@@ -4,23 +4,23 @@
 
 ```mermaid
 flowchart LR
-  subgraph Entiers Naturels
-    A[1]
-    B[4]
-    C[9]
-    subgraph Entiers Relatifs
-        D[-3]
-        E[-7]
-        F[-6]
+  subgraph Nombres Réels
+    K[Pi]
+    L[Racine carré de 2]
+    subgraph Nombres Rationnels
+        I[1/3]
+        J[3/5]
         subgraph Nombres Décimaux
             G[0,5]
             H[-2,12]
-            subgraph Nombres Rationnels
-                I[1/3]
-                J[3/5]
-                subgraph Nombres Réels
-                    K[Pi]
-                    L[Racine carré de 2]
+            subgraph Entiers Relatifs
+                D[-3]
+                E[-7]
+                F[-6]
+                subgraph Entiers Naturels
+                    A[1]
+                    B[4]
+                    C[9]
                 end
             end
         end
