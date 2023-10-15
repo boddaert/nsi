@@ -80,9 +80,9 @@ Ecrire une fonction récursive `en_liste(li : list)->Liste` qui prend en paramè
 <__main__.Liste object at 0x7f53bffa0400>
 ```
 
-## Exercice 8
+## Exercice 8 (Difficile)
 
-Ecrire une fonction récursive `ajoute_en_fin(l : Liste, elt : int)->Liste` qui prend en paramètres un objet `Liste`, un entier et renvoie comme résultat cette même ce même objet `Liste` contenant en plus l'élément `elt` à la fin.
+Ecrire une fonction récursive `ajoute_en_fin(l : Liste, elt : int)->Liste` qui prend en paramètre un objet `Liste`, un entier et renvoie comme résultat ce même objet `Liste` contenant en plus l'élément `elt` à la fin.
 
 ```python
 >>> l = Liste(4,Liste(5,Liste(6,Liste())))
@@ -90,10 +90,17 @@ Ecrire une fonction récursive `ajoute_en_fin(l : Liste, elt : int)->Liste` qui 
 '4567'
 ```
 
-## Exercice 9
+## Exercice 9 (Difficile)
 
-Ecrire une fonction récursive `concat(l1 : Liste, l2 : Liste)->Liste` qui prend en paramètres deux objets `Liste` et renvoie comme résultat un objet `Liste` dans lequel se trouve tous les éléments de `l1` et de `l2`.
+Ecrire une fonction récursive `concat(l1 : Liste, l2 : Liste)->Liste` qui prend en paramètre deux objets `Liste` et renvoie comme résultat un objet `Liste` dans lequel se trouve tous les éléments de `l1` et de `l2`.
 
+## Exercice 10 (Difficile)
+
+Ecrire une fonction récursive `ajoute(l : Liste, elt : int, i : int)->Liste` qui prend en paramètre un objet `Liste`, deux entiers et renvoie comme résultat `l` dont l'élément `el` a été ajouté à l'indice `i`.
+
+## Exercice 11 (Difficile)
+
+Ecrire une fonction récursive `supprime(l : Liste, i : int)->Liste` qui prend en paramètre un objet `Liste` et un entier et renvoie `l` dont l'élément d'indice `i` a été supprimé.
 _______________
 
 [Sommaire](./../README.md)

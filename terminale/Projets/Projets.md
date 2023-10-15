@@ -2,11 +2,7 @@
 
 ## Projet n°1 : Architectes
 
-### a) Contexte
-
-Vous êtes Numérobis, un architecte reconnu en Egypte. La reine Cléopâtre vous a appeler afin d'offrir au très renommé consul Jules César une rue d'immeubles. 
-
-### b) Description
+### a) Description
 
 Vous avez été appelés pour écrire seul un programme permettant de générer **aléatoirement** le dessin d'une rue.
 
@@ -18,7 +14,7 @@ Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exéc
 
 ![Exemple3](./img/exemple3_architectes.png)
 
-### c) Cahier des charges
+### b) Cahier des charges
 
 1. Votre programme Python doit utiliser les modules `turtle` et `random`.
 
@@ -32,7 +28,7 @@ Rappels de Première :  [Sur la DocString](./../../première/Spécification/Spec
 
 5. Les contraintes urbaines doivent être respectées.
 
-### d) Contraintes urbaines
+### c) Contraintes urbaines
 
 Les contraintes urbaines sont les suivantes :
 
@@ -44,7 +40,7 @@ Les contraintes urbaines sont les suivantes :
 
 Tout le reste est libre et peut donc être personnalisé.
 
-### e) Module Turtle
+### d) Module Turtle
 
 Le module `turtle` permet de dessiner dans un repère orthonormé.
 
@@ -76,7 +72,7 @@ Voici quelques fonctions simples pour commencer à utiliser `turtle` :
 
 Documentation de `turtle` : [https://docs.python.org/fr/3/library/turtle.html](https://docs.python.org/fr/3/library/turtle.html)
 
-### f) Evaluation
+### e) Evaluation
 
 Vous serez évalués sur :
 
@@ -90,17 +86,13 @@ ____________
 
 ## Projet n°2 : Combat de Pokémons
 
-### a) Contexte
-
-A onze ans, vous décidez de partir seul à la conquête de la ligne Pokémon. Cependant, un premier obstacle survient sur la route vingt-neuf : Scout Jean-Raoul veut se battre !
-
-### b) Description
+### a) Description
 
 Nous souhaitons écrire un programme simulant le combat entre deux Pokémons.
 
 Pour ce faire, nous utiliserons la programmation orientée objet.
 
-### c) Règles d'un combat de Pokémons
+### b) Règles d'un combat de Pokémons
 
 Deux Pokémons se battent en duel jusqu'à ce que l'un des deux soit mis KO, c'est-à-dire, avec les points de vie inférieur ou égal à zéro.
 
@@ -120,7 +112,7 @@ Le nombre de dégât reçus est calculé de la manière suivante :
 
 Nombre de point d'attaque (Pokémon attaquant) - Nombre de point de défense (Pokémon attaqué)
 
-### d) Cahier des charges
+### c) Cahier des charges
 
 a) Classe Pokémon
 
@@ -168,7 +160,7 @@ Le programme principal est découpé en plusieurs fonctions :
 
 - Une fonction `combat(pokemon_1 : Pokemon, pokemon_2 : Pokemon)->None` qui prend en paramètres deux objets Pokemon et simule un combat entre ces deux Pokémons.
 
-### e) Affichage
+### d) Affichage
 
 Le programme doit afficher :
 
@@ -228,7 +220,7 @@ Canarticho est KO !
 Tiplouf remporte le combat !
 ```
 
-### f) Evaluation
+### e) Evaluation
 
 Vous serez évalués sur :
 
