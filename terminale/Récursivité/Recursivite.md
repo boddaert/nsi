@@ -227,7 +227,7 @@ h) Donner maintenant le nombre de couple de lapins obtenus au bout d'une année.
 
 _________
 
-[Feuille d'exercice](./Exercices_recursivite.md)
+[Feuille d'exercice](./Exercices/Exercices_recursivite.md)
 
 _________
 

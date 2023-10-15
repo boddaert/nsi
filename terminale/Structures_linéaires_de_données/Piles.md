@@ -89,7 +89,7 @@ p.depile()
 
 _________
 
-[Feuille d'exercice](./Exercices_piles.md)
+[Feuille d'exercice](./Exercices/Exercices_piles.md)
 
 _______________
 

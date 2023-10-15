@@ -225,7 +225,7 @@ Inconvévients :
 
 _________
 
-[Feuille d'exercice](./Exercices_listes_recursives.md)
+[Feuille d'exercice](./Exercices/Exercices_listes_recursives.md)
 
 _______________
 

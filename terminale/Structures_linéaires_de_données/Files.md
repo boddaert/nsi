@@ -108,7 +108,7 @@ e) Vérifier le bon fonctionnement de l'algorithme sur Thonny.
 
 _________
 
-[Feuille d'exercice](./Exercices_files.md)
+[Feuille d'exercice](./Exercices/Exercices_files.md)
 
 _______________
 
