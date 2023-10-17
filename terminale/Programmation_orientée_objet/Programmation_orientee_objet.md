@@ -221,7 +221,7 @@ Il n'est pas responsable, par exemple, d'implémenter une méthode permettant de
 
 __________
 
-[Feuille d'exercice](./Exercices_programmation_orientee_objet.md)
+[Feuille d'exercice](./Exercices/Exercices_programmation_orientee_objet.md)
 
 __________
 
