@@ -22,7 +22,9 @@ Les planches de bois représentent les crêpes du crêpier.
 
 Placez les crêpes les unes au dessus des autres dans l'ordre que vous voulez.
 
-Il s'agit du tas de crêpes.
+Il s'agit du tas de crêpes :
+
+[Tas de crêpes](./img/tas_de_crepes.png)
 
 ## IV. Règles du jeu
 
