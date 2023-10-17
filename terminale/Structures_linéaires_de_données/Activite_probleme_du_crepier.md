@@ -24,7 +24,7 @@ Placez les crêpes les unes au dessus des autres dans l'ordre que vous voulez.
 
 Il s'agit du tas de crêpes :
 
-[Tas de crêpes](./img/tas_de_crepes.png)
+![Tas de crêpes](./img/tas_de_crepes.png)
 
 ## IV. Règles du jeu
 
