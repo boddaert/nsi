@@ -24,7 +24,7 @@ Chapitre 1 : [Constructions élémentaires](./Constructions_élémentaires/Types
 
 - Leçon 9 : [Boucles bornées](./Constructions_élémentaires/Boucles_bornées.md)
 
-- Projet n°1 : [Projets](./Projets/Projets.md)
+- Projet n°1 : [Architectes](./Projets/Projets.md)
 
 Chapitre 2 : [Représentation des nombres en machine](./Représentation_des_nombres_en_machine/)
 

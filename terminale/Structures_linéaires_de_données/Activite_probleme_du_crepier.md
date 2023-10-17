@@ -30,7 +30,9 @@ Il s'agit du tas de crêpes :
 
 En tant que meilleur crêpier de France, vous vous devez de bien présenter votre tas de crêpes.
 
-Vous décidez de présenter votre tas de manière pyramidale. C'est-à-dire d'ordre de taille de crêpe croissant.
+Vous décidez de présenter votre tas de manière pyramidale. C'est-à-dire d'ordre de taille de crêpe croissant :
+
+![Tas de crêpes ordonné](./img/tas_de_crepes_ordonne.png)
 
 Pour cela, vous n'avez qu'une seule opération possible : Placer la spatule entre deux crêpes dans le tas et retourner toutes celles situées sur la spatule.
 
