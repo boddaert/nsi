@@ -1,10 +1,10 @@
 ## Première NSI
 
-Chapitre -1 : [Prise de contact](./Prise_de_contact/Prise_de_contact.md)
+##### Chapitre -1 : [Prise de contact](./Prise_de_contact/Prise_de_contact.md)
 
-Chapitre 0 : [Prise en main](./Prise_en_main/Prise_en_main.md)
+##### Chapitre 0 : [Prise en main](./Prise_en_main/Prise_en_main.md)
 
-Chapitre 1 : [Constructions élémentaires](./Constructions_élémentaires/Types.md)
+##### Chapitre 1 : [Constructions élémentaires](./Constructions_élémentaires/Types.md)
 
 - Leçon 1 : [Types](./Constructions_élémentaires/Types.md)
 
@@ -26,7 +26,7 @@ Chapitre 1 : [Constructions élémentaires](./Constructions_élémentaires/Types
 
 - Projet n°1 : [Architectes](./Projets/Projets.md)
 
-Chapitre 2 : [Représentation des nombres en machine](./Représentation_des_nombres_en_machine/)
+##### Chapitre 2 : [Représentation des nombres en machine](./Représentation_des_nombres_en_machine/)
 
 - Activité : [Découverte du binaire](./Représentation_des_nombres_en_machine/Activité_découverte_du_binaire.md)
 
@@ -36,7 +36,7 @@ Chapitre 2 : [Représentation des nombres en machine](./Représentation_des_nomb
 
 - Leçon 3 : [Représentation des réels](./Représentation_des_nombres_en_machine/Représentation_des_réels.md)
 
-Chapitre 3 : [Chaînes de caractères](./Chaînes_de_caractère/)
+##### Chapitre 3 : [Chaînes de caractères](./Chaînes_de_caractère/)
 
 - Leçon 1 : [Chaînes de caractères](./Chaînes_de_caractère/Chaines_de_caractere.md)
 
@@ -44,11 +44,11 @@ Chapitre 3 : [Chaînes de caractères](./Chaînes_de_caractère/)
 
 - Leçon 3 : [Représentation des textes en machine](./Chaînes_de_caractère/Représentation_des_textes_en_machine.md)
 
-Chapitre 4 : [Architecture des machines]()
+##### Chapitre 4 : [Architecture des machines]()
 
 - Leçon 1 : [Booléens]()
 
-Chapitre 5 : [Structure de données 1](./Structures_de_données/)
+##### Chapitre 5 : [Structure de données 1](./Structures_de_données/)
 
 - Leçon 1 : [Listes](./Structures_de_données/Listes.md)
 
@@ -56,11 +56,11 @@ Chapitre 5 : [Structure de données 1](./Structures_de_données/)
 
 - Projet n°2 :
 
-Chapitre 6 : [Principe des réseaux](./Principe_des_réseaux/)
+##### Chapitre 6 : [Principe des réseaux](./Principe_des_réseaux/)
 
 - 
 
-Chapitre 7 : [Spécifications de fonction](./Spécification/)
+##### Chapitre 7 : [Spécifications de fonction](./Spécification/)
 
 - Leçon 1 : [Prototypage](./Spécification/Specification.md)
 
@@ -68,11 +68,11 @@ Chapitre 7 : [Spécifications de fonction](./Spécification/)
 
 - Leçon 3 : [Postconditions](./Spécification/Postconditions.md)
 
-Chapitre 8 : [Système d'exploitation](./Système_d_exploitation/)
+##### Chapitre 8 : [Système d'exploitation](./Système_d_exploitation/)
 
 - Leçon 1 :
 
-Chapitre 9 : [Structures de données 2](./Structures_de_données/)
+##### Chapitre 9 : [Structures de données 2](./Structures_de_données/)
 
 - Leçon 3 : [Dictionnaires](./Structures_de_données/Dictionnaires.md)
 
