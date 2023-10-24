@@ -1,4 +1,4 @@
-# Modèle Von Neumann
+# Architecture Von Neumann
 
 ## I. Histoire
 
@@ -16,17 +16,17 @@ Il pouvait réaliser automatiquement en binaire les additions, les soustractions
 
 Malgré une avancée fulgurante de la puissance et de la mémoire jusqu'à aujourd'hui, l'architecture, elle est restée inchangée tant elle est efficace.
 
-## II. Modèle
+## II. Modèle Von Neumann
 
 ### a) Schéma
 
 ```mermaid
 flowchart TB
-    subgraph a("Unité centrale de traitement")
+    subgraph Unité centrale de traitement
         b("Unité de contrôle")<-->c("Unité arithmétique et logique")
     end
     b<-->d("Mémoire centrale")
     c<-->d
-    a<-->e("Entrées-sorties")
+    Unité centrale de traitement<-->e("Entrées-sorties")
     d<-->e
 ```
