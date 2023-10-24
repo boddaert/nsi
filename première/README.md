@@ -1,8 +1,8 @@
 ## Première NSI
 
-##### Chapitre -1 : Prise de contact
+##### Chapitre -1 : [Prise de contact](./Prise_de_contact/Prise_de_contact.md)
 
-##### Chapitre 0 : Prise en main
+##### Chapitre 0 : [Prise en main](./Prise_en_main/Prise_en_main.md)
 
 ##### Chapitre 1 : Constructions élémentaires
 
