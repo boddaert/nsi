@@ -38,5 +38,6 @@ flowchart TB
 
     a -- bus --> d
     d -- bus --> a
-
+    e -- bus --> a
+    a -- bus --> e
 ```
