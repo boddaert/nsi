@@ -22,11 +22,11 @@ Malgré une avancée fulgurante de la puissance et de la mémoire jusqu'à aujou
 
 ```mermaid
 flowchart TB
-    subgraph Unité centrale de traitement
-    Unité de contrôle<-->Unité arithmétique et logique
+    subgraph a("Unité centrale de traitement")
+    b("Unité de contrôle")<-->c("Unité arithmétique et logique")
     end
-    Unité de contrôle<-->Mémoire centrale
-    Unité arithmétique et logique<-->Mémoire centrale
-    Unité centrale de traitement<-->Entrées-sorties
-    Mémoire centrale<-->Entrées-sorties
+    b<-->d("Mémoire centrale")
+    c<-->d
+    a<-->e("Entrées-sorties")
+    d<-->e
 ```
