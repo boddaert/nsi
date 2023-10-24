@@ -89,7 +89,7 @@ Et les périphériques de sorties : écrans, hauts-parleurs, vidéo-projecteurs,
 
 Les périphériques d'entrées-sorties communiquent avec le processeur ou la mémoire pour entrer des données ou faire sortir des données.
 
-##### 6. Bus de communication
+#### 6. Bus de communication
 
 Les bus de communication sont des circuits électroniques permettant simplement l'échange de données entre les composants de l'ordinateur.
 
@@ -103,9 +103,9 @@ Nous distinguons plusieurs types de mémoire :
 
 - La mémoire *non volatile* est celle qui ne disparaît pas lors de la mise hors-tension de l'ordinateur. L'accès à ses données est beaucoup plus lente. Il y a plusieurs mémoires dites non volatiles :
 
-+ La mémoire morte (*ROM* en anglais pour *Read-Only Memory*) est une mémoire non volatile et non modifiable. Elle contient toutes les données nécessaires au démarrage de l'ordinateur.
+    + La mémoire morte (*ROM* en anglais pour *Read-Only Memory*) est une mémoire non volatile et non modifiable. Elle contient toutes les données nécessaires au démarrage de l'ordinateur.
 
-+ La mémoire *flash* est une mémoire non volatile mais contrairement à la mémoire morte, elle est modifiable. Nous parlons de mémoire flash pour les disques durs, les clés USB ou encore les cartes mémoires.
+    + La mémoire *flash* est une mémoire non volatile mais contrairement à la mémoire morte, elle est modifiable. Nous parlons de mémoire flash pour les disques durs, les clés USB ou encore les cartes mémoires.
 
 - La mémoire cache enregistre temporairement des données et dispaît au bout d'un certain temps. Située dans le processeur, cette mémoire est la plus rapide mais également la plus limitée. Elle permet d'éviter un deuxième aller-retour à la mémoire lorsque des données doivent être réutilisées.
 
