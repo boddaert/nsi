@@ -31,7 +31,8 @@ flowchart TB
         subgraph d["Mémoire centrale"]
             f["Mots mémoire"]
         end
-
+    end
+    
     subgraph e["Entrées-sorties"]
     end
 
