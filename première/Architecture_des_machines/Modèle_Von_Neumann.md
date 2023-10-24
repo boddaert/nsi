@@ -25,8 +25,17 @@ flowchart TB
     subgraph a["Unité centrale de traitement"]
         b("Unité de contrôle") <-- bus --> c("Unité arithmétique et logique")
     end
-    b <-- bus --> d("Mémoire centrale")
-    c <-- bus --> d
-    a <-- bus --> e("Entrées-sorties")
-    d <-- bus --> e
+
+    subgraph d["Mémoire centrale"]
+    end
+
+    subgraph e["Entrées-sorties"]
+    end
+
+    a -- bus --> d
+    d -- bus --> a
+    a -- bus --> e
+    e -- bus --> a
+    e -- bus --> d
+    d -- bus --> e
 ```
