@@ -2,22 +2,26 @@
 
 ## I. Définition
 
-Une chaîne de caractère est une valeur encadrée par des *guillemets doubles* (ou des guillemets simples) : $`"a"`$  ou $`'a'`$.
+Un *caractère* est un symbole écrit lié à un système d'écriture.
 
-Une chaîne de caractère peut contenir plusieurs caractères : $`"acdc"`$.
+En Python, le caractère est encadré par des guillements simples ou doubles et possède le type `str`.
 
-En Python, les chaînes de caractère sont représentés par le type ``str``  :
+Une *chaîne de caractère* est un ensemble de caractères.
+
+Python ne fait pas la différence entre les caractères "imprimables" et les caractères "non imprimables" :
 
 ```python
->>> type("acdc")
-<class 'str'>
+>>> type(" ")
+<class = 'str'>
 ```
+
+Une *chaîne de caractère vide* est une chaîne de caractère ne contenant aucun caractère.
 
 ## II. Opérations sur les chaînes de caractère
 
 ### a) Taille
 
-La *taille* d'une chaîne de caractère est son nombre de caractère.
+La *taille* d'une chaîne de caractère est le nombre de caractère contenu dans la chaîne.
 
 Elle peut être connue avec la fonction `len()` :
 
@@ -30,17 +34,17 @@ Elle peut être connue avec la fonction `len()` :
 
 En utilisant la console Python, trouver la taille des chaînes de caractères suivantes :
 
-- `'Bonjour a tous'`
+a) `'Bonjour a tous'`
 
-- `'Numérique et Sciences Informatique'`
+b) `'Numérique et Sciences Informatique'`
 
-- `'-\_("_")_/-'`
+c) `'-\_("_")_/-'`
 
 ### b) Accès au *ième* caractère
 
-Nous pouvons *accèder* à un caractère de la chaîne d'après sa position.
+Nous accédons à un caractère de la chaîne selon son indice (ou sa position) dans la chaîne.
 
-La position d'un caractère dans la chaîne est équivalent à son *indice*.
+L'*indice d'un caractère* dans la chaîne est le numéro de place du caractère.
 
 Nous mettons l'indice du caractère que nous souhaitons obtenir entre crochets :
 
@@ -83,15 +87,13 @@ c)
 
 Donner l'instruction permettant d'obtenir :
 
-a) La lettre `o`.
+a) La lettre d'indice $7$.
 
-b) La lettre d'indice $7$.
-
-c) La dernière lettre en utilisant la taille de la chaîne.
+b) La dernière lettre en utilisant la taille de la chaîne.
 
 ### c) Test d'appartenance
 
-Nous pouvons vérifier si une chaîne de caractère est présent dans une chaîne à l'aide du mot-clé `in`.
+Nous pouvons vérifier si une chaîne de caractère est contenu dans une chaîne à l'aide du mot-clé `in`.
 
 ```python
 >>> 'lo' in mot
@@ -102,17 +104,17 @@ Le test d'appartenance renvoie comme résultat un booléen.
 
 ##### Application 4
 
-Vérifier à l'aide du mot-clé `in`, dans la console Python, si :
+Vérifier, dans la console Python et à l'aide du mot-clé `in`, si :
 
 a) La chaîne `rld` est contenue dans `mot`.
 
-b) La chaîne ` rld` est contenue dans `mot`.
+b) La chaîne `p` est contenue dans `mot`.
 
 c) La chaîne `hello` est contenue dans `mot`.
 
 ### d) Concaténation
 
-La *concaténation* de deux chaînes revient à les coller l'une après l'autre pour n'en former qu'une.
+La *concaténation* de deux chaînes de caractère consiste à créer une chaîne de caractère contenant les caractères des deux chaînes.
 
 Nous pouvons concaténer deux chaînes de caractères en utilisant l'opérateur `+` :
 
@@ -134,7 +136,7 @@ b) La chaîne `Numérique` avec la chaîne `Sciences` puis avec la chaîne `Info
 
 ### e) Découpage ou *slicing* (hors programme)
 
-Le *slicing* permet d'obtenir une sous-chaîne.
+Le *slicing* permet d'obtenir une sous-chaîne à partir d'une chaîne de caractère.
 
 Le slicing en Python s'écrit  : ``chaine[debut:fin]``  avec ``debut`` l'indice de la première coupe et ``fin`` l'indice de la seconde coupe (exclue) :
 
@@ -148,11 +150,13 @@ Le slicing en Python s'écrit  : ``chaine[debut:fin]``  avec ``debut`` l'indice 
 
 Donner sans utiliser l'ordinateur, le résultat des instructions suivantes :
 
+a)
 ```python
 >>> mot[0:2]
 ...
 ```
 
+b)
 ```python
 >>> mot[0:11]
 ...
@@ -180,13 +184,11 @@ Essayer à votre tour de modifier la valeur affectée à la variable `mot` en ch
 
 ## IV. Parcours de chaîne
 
-Un *parcours de chaîne* revient à visiter un à un tous les caractères de la chaîne.
+Un *parcours de chaîne* consiste à visiter un à un tous les caractères de la chaîne.
 
 Nous parcourons les chaînes de caractères en utilisant les boucles.
 
-Comme nous connaissons à l'avance la taille d'une chaîne, nous connaissons à l'avance le nombre de tour de boucle nécessaire au parcours.
-
-Nous utilisons donc la boucle `for`.
+Comme nous connaissons à l'avance la taille d'une chaîne, nous connaissons à l'avance le nombre de tour de boucle nécessaire au parcours : Nous utilisons donc la boucle `for`.
 
 Il existe deux façons d'utiliser la boucle `for` pour parcourir les chaînes de caractères :
 
@@ -196,64 +198,52 @@ Il existe deux façons d'utiliser la boucle `for` pour parcourir les chaînes de
 
 ### a) Parcours par indice
 
-Dans le parcours par indice, nous allons parcourir les caractères selon leur indice :
+Dans le parcours par indice, nous parcourons les caractères indice par indice :
 
 ```python
-mot = "hello world"
-for i in range(len(mot)) :
-  lettre = mot[i]
+1. mot = "hello"
+2. for i in range(len(mot)) :
+3.   lettre = mot[i]
 ```
 
-L'indice de boucle `i` aura comme valeur :
+Trace d'exécution du programme donné ci-dessus:
 
-- $0$ au premier tour de boucle.
-- $1$ au deuxième tour de boucle.
-- ...
-- $10$ au dernier tour de boucle.
-
-Donc la valeur de `mot[i]` sera respectivement :
-
-- `h` au premier tour de boucle.
-- `e` au deuxième tour de boucle.
-- ...
-- `d` au dernier tour de boucle.
+| Numéro de ligne | Valeur affectée à $i$ | Valeur affectée à $lettre$ |
+| :---: | :---: | :---: |
+| $1$ | / | / |
+| $2$ | $0$ | / |
+| $3$ | $0$ | $h$ |
+| $2$ | $1$ | $h$ |
+| $3$ | $1$ | $e$ |
+| ... | ... | ... |
 
 ##### Application 8
 
-Donner la trace d'exécution du programme suivant :
-
-```python
-mot = "hello world"
-for i in range(len(mot)) :
-  lettre = mot[i]
-```
+Compléter la trace d'exécution précédente.
 
 ### b) Parcours par élément
 
-Dans le parcours par élément, nous parcourons simplement tous les caractères de la chaîne :
+Dans le parcours par élément, nous parcourons caractère par caractère :
 
 ```python
-mot = "hello world"
+mot = "world"
 for caractere in mot :
   lettre = caractere
 ```
 
-Il n'y a pas d'indice de boucle dans ce parcours mais la valeur affectée à la variable `caractere` sera :
+| Numéro de ligne | Valeur affectée à $caractere$ | Valeur affectée à $lettre$ |
+| :---: | :---: | :---: |
+| $1$ | / | / |
+| $2$ | $w$ | / |
+| $3$ | $w$ | $w$ |
+| $2$ | $o$ | $w$ |
+| $3$ | $o$ | $o$ |
+| ... | ... | ... |
 
-- `h` au premier tour de boucle.
-- `e` au deuxième tour de boucle.
-- ...
-- `d` au dernier tour de boucle.
 
 ##### Application 9
 
-Donner la trace d'exécution du programme suivant :
-
-```python
-mot = "hello world"
-for caractere in mot :
-  lettre = caractere
-```
+Compléter la trace d'exécution précédente.
 ___________
 
 [Feuille d'exercice](./Exercices/Exercices_chaines_de_caractere.md)

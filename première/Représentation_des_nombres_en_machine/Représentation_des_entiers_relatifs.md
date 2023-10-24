@@ -14,7 +14,7 @@ Ainsi : $1101_2 = -5_{10}$.
 
 ##### Application 1
 
-Trouver la représentation décimale de $11101_2$.
+Trouver la représentation décimale de $10101_2$.
 
 Trouver la représentation binaire de $-13_{10}$.
 
@@ -26,7 +26,7 @@ Second problème : Cela complique les opérations arithmétiques tel que l'addit
 
 Ainsi $-5_{10} + 5_{10}$ en représentation décimale donne comme résultat $0_{10}$.
 
-Alors qu'en représentation binaire : $1101_2 + 0101_2 = 0010_2$.
+Alors qu'en représentation binaire avec le bit de signe : $1101_2 + 0101_2 = 0010_2$.
 
 ## II. Complément à deux
 
@@ -42,15 +42,15 @@ Ainsi, $-5_{10}$ donne en représentation binaire $1011_2$ en utilisant le compl
 
 ##### Application 2
 
-a) En suivant la méthode du complément à deux, trouver la représentation binaire de $-9$.
+a) En suivant la méthode du complément à deux, trouver la représentation binaire de $-7$.
 
 b) En suivant la méthode du complément à deux, trouver la représentation binaire de $-2$.
 
 ## III. Taille d'un entier
 
-La *taille* d'un nombre est le nombre de chiffre composant sa séquence.
+La *taille* d'un nombre est le nombre de symbole composant sa séquence.
 
-Ainsi, la taille de $5_{10}$ vaut $1$ et la taille de $101_2$ vaut $3$.
+Ainsi, la taille de $5_{10}$ vaut $1$ et la taille de $101_2$ ($= 5$ an base deux) vaut $3$.
 
 ##### Application 3
 

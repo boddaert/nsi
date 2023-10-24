@@ -36,24 +36,45 @@ Chapitre 2 : [Représentation des nombres en machine](./Représentation_des_nomb
 
 - Leçon 3 : [Représentation des réels](./Représentation_des_nombres_en_machine/Représentation_des_réels.md)
 
-Chapitre 3 : [Chaînes de caractères](./Chaînes_de_caractère/Chaines_de_caractere.md)
+Chapitre 3 : [Chaînes de caractères](./Chaînes_de_caractère/)
 
-______
+- Leçon 1 : [Chaînes de caractères](./Chaînes_de_caractère/Chaines_de_caractere.md)
 
-Chapitre _ : [Spécifications](./Spécification/)
+- Leçon 2 : [Interraction avec l'utilisateur](./Chaînes_de_caractère/Interraction_avec_l_utilisateur.md)
 
-- Leçon 1 : [Spécifications](./Spécification/Specification.md)
+- Leçon 3 : [Représentation des textes en machine](./Chaînes_de_caractère/Représentation_des_textes_en_machine.md)
+
+Chapitre 4 : [Architecture des machines]()
+
+- Leçon 1 : [Booléens]()
+
+Chapitre 5 : [Structure de données 1](./Structures_de_données/)
+
+- Leçon 1 : [Listes](./Structures_de_données/Listes.md)
+
+- Leçon 2 : [Tuples](./Structures_de_données/Tuples.md)
+
+- Projet n°2 :
+
+Chapitre 6 : [Principe des réseaux](./Principe_des_réseaux/)
+
+- 
+
+Chapitre 7 : [Spécifications de fonction](./Spécification/)
+
+- Leçon 1 : [Prototypage](./Spécification/Specification.md)
 
 - Leçon 2 : [Préconditions](./Spécification/Preconditions.md)
 
 - Leçon 3 : [Postconditions](./Spécification/Postconditions.md)
 
-Chapitre _ : [Représentation des textes en machine](./première/Représentation des textes en machine/Leçon_representation_des_textes.MD)
+Chapitre 8 : [Système d'exploitation](./Système_d_exploitation/)
 
+- Leçon 1 :
 
+Chapitre 9 : [Structures de données 2](./Structures_de_données/)
 
-Chapitre _ : [Tuples](./première/Tuples/Tuples.md)
+- Leçon 3 : [Dictionnaires](./Structures_de_données/Dictionnaires.md)
 
-Chapitre _ : [Dictionnaires](./première/Dictionnaires/Dictionnaires.md)
+- Leçon 4 : [Listes de listes](./Structures_de_données/Listes_de_listes.md)
 
-Chapitre _ : [Principe des réseaux](./première/Principe des réseaux/Principe des réseaux.md)
