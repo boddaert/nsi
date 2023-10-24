@@ -1,12 +1,10 @@
 ## Première NSI
 
-### CC
+##### Chapitre -1 : Prise de contact
 
-##### Chapitre -1 : Prise de contact
+##### Chapitre 0 : Prise en main
 
-##### Chapitre 0 : Prise en main
-
-##### Chapitre 1 : Constructions élémentaires
+##### Chapitre 1 : Constructions élémentaires
 
 - Leçon 1 : [Types](./Constructions_élémentaires/Types.md)
 
