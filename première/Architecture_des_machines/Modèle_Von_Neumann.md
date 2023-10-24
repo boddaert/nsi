@@ -23,8 +23,8 @@ Malgré une avancée fulgurante de la puissance et de la mémoire jusqu'à aujou
 ```mermaid
 flowchart TB
     
-    subgraph a["Unité centrale de traitement"]
-        b("Unité de contrôle") -- bus --> c("Unité arithmétique et logique")
+    subgraph a["Unité centrale de traitement (ou Processeur central)"]
+        b["Unité de contrôle"] -- bus --> c["Unité arithmétique et logique"]
         c -- bus --> b
     end
 
