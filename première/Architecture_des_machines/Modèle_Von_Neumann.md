@@ -29,7 +29,7 @@ flowchart TB
     end
 
     subgraph d["Mémoire centrale"]
-        f["Mots mémoire"]
+        f("Mots mémoire")
     end
     
 
