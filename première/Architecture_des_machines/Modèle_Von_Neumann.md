@@ -23,10 +23,17 @@ Malgré une avancée fulgurante de la puissance et de la mémoire jusqu'à aujou
 ```mermaid
 flowchart TB
     subgraph a["Unité centrale de traitement"]
-        b("Unité de contrôle") <----> c("Unité arithmétique et logique")
+        b("Unité de contrôle") <--bus-> c("Unité arithmétique et logique")
     end
-    b <----> d("Mémoire centrale")
-    c <----> d
-    a <----> e("Entrées-sorties")
-    d <----> e
+    b <--bus-> d("Mémoire centrale")
+    c <--bus-> d
+    a <--bus-> e("Entrées-sorties")
+    d <--bus-> e
+```
+
+```mermaid
+flowchart LR
+    A o--o B
+    B <--> C
+    C x--x D
 ```
