@@ -26,7 +26,7 @@
 
 - Projet n°1 : [Architectes](./Projets/Projets.md)
 
-##### Chapitre 2 : Représentation des nombres en machine
+##### Chapitre 2 : Représentation des nombres en machine
 
 - Activité : [Découverte du binaire](./Représentation_des_nombres_en_machine/Activité_découverte_du_binaire.md)
 
@@ -36,7 +36,7 @@
 
 - Leçon 3 : [Représentation des réels](./Représentation_des_nombres_en_machine/Représentation_des_réels.md)
 
-##### Chapitre 3 : Chaînes de caractères
+##### Chapitre 3 : Chaînes de caractères
 
 - Leçon 1 : [Chaînes de caractères](./Chaînes_de_caractère/Chaines_de_caractere.md)
 
@@ -44,11 +44,11 @@
 
 - Leçon 3 : [Représentation des textes en machine](./Chaînes_de_caractère/Représentation_des_textes_en_machine.md)
 
-##### Chapitre 4 : Architecture des machines
+##### Chapitre 4 : Architecture des machines
 
 - Leçon 1 : [Booléens]()
 
-##### Chapitre 5 : Structure de données 1
+##### Chapitre 5 : Structure de données 1
 
 - Leçon 1 : [Listes](./Structures_de_données/Listes.md)
 
@@ -56,11 +56,11 @@
 
 - Projet n°2 :
 
-##### Chapitre 6 : Principe des réseaux
+##### Chapitre 6 : Principe des réseaux
 
 - 
 
-##### Chapitre 7 : Spécifications de fonction
+##### Chapitre 7 : Spécifications de fonction
 
 - Leçon 1 : [Prototypage](./Spécification/Specification.md)
 
@@ -68,11 +68,11 @@
 
 - Leçon 3 : [Postconditions](./Spécification/Postconditions.md)
 
-##### Chapitre 8 : Système d'exploitation
+##### Chapitre 8 : Système d'exploitation
 
 - Leçon 1 :
 
-##### Chapitre 9 : Structures de données 2
+##### Chapitre 9 : Structures de données 2
 
 - Leçon 3 : [Dictionnaires](./Structures_de_données/Dictionnaires.md)
 
