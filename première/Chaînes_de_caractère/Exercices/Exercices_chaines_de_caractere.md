@@ -40,6 +40,7 @@ def mystere(mot : str, lettre : str)->int :
       resultat = i
   return resultat
 ```
+
 a) Décrire en Français chaque ligne de la fonction.
 
 b) En déduire l'objectif de la fonction.
@@ -122,53 +123,6 @@ Ecrire une fonction `change_casse(mot : str)->str` qui prend en paramètre une c
 >>> change_casse('Bonjour A Tous')
 'bONJOUR a tOUS'
 ```
-
-## Exercice 10
-
-Ecrire un programme python permettant d'afficher un sapin de Noël avec des décorations aléatoires.
-
-Les caractères utilisés pour les décorations seront stockés dans une liste créée en début de script.
-
-Par exemple, la console doit afficher :
-
-```python
-           *            
-          X**           
-         *****          
-        *******         
-       *******II        
-      I**@*******       
-     ********I****     
-    *******I*******    
-   *****************   
-  **@*****I****@**@**  
- ***********X*I*****I* 
-**I****X***X***@******@
-          ***          
-          ***          
-          ***          
-```
-
-ou 
-
-```python
-           *            
-          ***           
-         **X*I          
-        *******         
-       *****@*@*        
-      **X****@***       
-     *************     
-    ****X*I********    
-   ***********X*****   
-  ***@***I*I*****X***  
- ********X****@****X** 
-***@**I****I**X**I*****
-          ***          
-          ***          
-          ***          
-```
-
 ______________
 
-[Sommaire](./../README.md)
+[Sommaire](./../../README.md)

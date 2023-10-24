@@ -4,7 +4,7 @@
 
 Sur feuille, donner le texte à partir de la séquence hexadécimale ci-dessous à l'aide de la table ASCII :
 
-$43 65 63 69 20 65 73 74 20 75 6E 20 74 65 78 74 65 21_{16}$ 
+$43$ $65$ $63$ $69$ $20$ $65$ $73$ $74$ $20$ $75$ $6E$ $20$ $74$ $65$ $78$ $74$ $65$ $21_{16}$ 
 
 ## Exercice 2
 
@@ -48,7 +48,7 @@ Ecrire une fonction ``rot13(mot : str)->str`` qui prend en paramètre une chaîn
 
 ## Exercice 6
 
-Ecrire une fonction ``change_casse(caractere : str)->str`` qui prend en paramètre un caractère et renvoie ce même caractère dans l'autre casse.
+Sans utiliser les méthodes `upper()` et `lower()`, écrire une fonction ``change_casse(caractere : str)->str`` qui prend en paramètre un caractère et renvoie ce même caractère dans l'autre casse.
 
 ```python
 >>> change_casse('A')

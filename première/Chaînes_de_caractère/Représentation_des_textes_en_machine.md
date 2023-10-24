@@ -102,7 +102,7 @@ Au total, nous pouvons désormais représenter deux-cent cinquante-six caractèr
 
 ### b) Norme ISO 8859
 
-L'ISO propose alors une norme qui définit plusieurs pages de correspondances notées ISO 8859-$n$ où $n$ est le numéro de la page :
+L'ISO propose alors une norme qui définit plusieurs pages de correspondances notées ISO 8859- $n$ où $n$ est le numéro de la page :
 
 | Code ISO           | Zone                          |
 | ------------------ | ----------------------------- |
@@ -129,7 +129,7 @@ Plus d'informations sur la norme ISO 8859 : [Wikipedia 8859](https://fr.wikipedi
 
 ## IV. Norme ISO 10646
 
-Bien que les pages ISO 8859-$n$ permettent l'encodage d'un grand nombre de caractères, elles ne conviennent pas par exemple quand nous souhaitons écrire un texte avec un mélange de caractères depuis différents alphabets.
+Bien que les pages ISO 8859- $n$ permettent l'encodage d'un grand nombre de caractères, elles ne conviennent pas par exemple quand nous souhaitons écrire un texte avec un mélange de caractères depuis différents alphabets.
 
 Pour remplacer l'utilisation de ces pages, l'ISO a définit une nouvelle norme donnant dans une seule page un unique jeu universel de caractères (*Universal Character Set*).
 
@@ -160,7 +160,7 @@ Unicode développe plusieurs formats de transformation universelle (*Universal T
 UTF-8 est le format le plus utilisé sous Linux et utilise un à quatre octets.
 
 | Plage | Séquence en binaire | Nombre de bits codants |
-| :---: | :---: | :---: |
+| :---: | :--- | :---: |
 | $U+0000$ à $U+007F$ | $0xxxxxxx$ | $7$ |
 | $U+0080$ à $U+07FF$ | $110xxxxx 10xxxxxx$ | $11$ |
 | $U+0800$ à $U+FFFF$ | $1110xxxx 10xxxxxx 10xxxxxx$ | $16$ |
