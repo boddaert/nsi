@@ -46,15 +46,19 @@
 
 ##### Chapitre 4 : Architecture des machines
 
-- Leçon 1 : [Booléens]()
+- Leçon 1 : [Modèle Von Neumann](./Architecture_des_machines/Modèle_Von_Neumann.md)
+
+- Leçon 2 : [Langage machine](./Architecture_des_machines/Langage_machine.md)
+
+- Leçon 3 : [Circuits combinatoires](./Architecture_des_machines/Circuits_combinatoires.md)
+
+- Activité : [Afficheur Sept Segments](./Architecture_des_machines/Activité_afficheur_sept_segments.md)
 
 ##### Chapitre 5 : Structure de données 1
 
 - Leçon 1 : [Listes](./Structures_de_données/Listes.md)
 
 - Leçon 2 : [Tuples](./Structures_de_données/Tuples.md)
-
-- Projet n°2 :
 
 ##### Chapitre 6 : Principe des réseaux
 
