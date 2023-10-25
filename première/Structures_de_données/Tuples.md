@@ -2,7 +2,7 @@
 
 ## I. Définition
 
-Un tuple (ou *p-uplet*) est une structure de données linéaire non mutable. (Voir [listes](./Listes.md) pour les définitions)
+Un *tuple* (ou *p-uplet*) est une structure de données linéaire non mutable. (Voir [listes](./Listes.md) pour les définitions)
 
 En Python, le type `tuple` est encadré de parenthèses :
 
@@ -79,19 +79,22 @@ b = "coucou"
 ...
 ```
 
-## V. Renvoyer plusieurs valeurs
+## V. Renvoyer plusieurs résultats
 
-Parfois, nous voulons renvoyer plusieurs résultats dans une seule fonction.
+Parfois, il est utile de renvoyer plusieurs résultats pour une fonction. Nous pouvons le faire facilement en utilisant les tuples.
 
-Nous pouvons utiliser les tuples pour cela :
+Le type de la valeur renvoyée est un tuple :
 
 ```python
-def moitie_et_double(nb : int)->tuple:
-    return (nb//2 , nb*2)
+def fonc()->tuple:
+    return (a, b)
 ```
 
+Puis, en utilisant l'affectation parallèle :
 
-
+```python
+>>> x, y = fonc()
+```
 _____________
 
 [Feuille d'exercices](./Exercices/Exercices_tuples.md)
