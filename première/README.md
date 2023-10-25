@@ -44,15 +44,13 @@
 
 - Leçon 3 : [Représentation des textes en machine](./Chaînes_de_caractère/Représentation_des_textes_en_machine.md)
 
-##### Chapitre 4 : Architecture des machines
+##### Chapitre 4 : Architecture des machines 1
 
 - Leçon 1 : [Modèle Von Neumann](./Architecture_des_machines/Modèle_Von_Neumann.md)
 
 - Leçon 2 : [Langage machine](./Architecture_des_machines/Langage_machine.md)
 
-- Leçon 3 : [Circuits combinatoires](./Architecture_des_machines/Circuits_combinatoires.md)
-
-- Activité : [Afficheur Sept Segments](./Architecture_des_machines/Activité_afficheur_sept_segments.md)
+- Activité : [Langage d'assemblage sur M10](./Architecture_des_machines/Activité_langage_d_assemblage_sur_M10.md)
 
 ##### Chapitre 5 : Structure de données 1
 
@@ -60,9 +58,11 @@
 
 - Leçon 2 : [Tuples](./Structures_de_données/Tuples.md)
 
-##### Chapitre 6 : Principe des réseaux
+##### Chapitre 6 : Architecture des machines 2
 
-- 
+- Leçon 3 : [Circuits combinatoires](./Architecture_des_machines/Circuits_combinatoires.md)
+
+- Activité : [Afficheur Sept Segments](./Architecture_des_machines/Activité_afficheur_sept_segments.md)
 
 ##### Chapitre 7 : Spécifications de fonction
 
@@ -72,7 +72,7 @@
 
 - Leçon 3 : [Postconditions](./Spécification/Postconditions.md)
 
-##### Chapitre 8 : Système d'exploitation
+##### Chapitre 8 : Principe des réseaux
 
 - Leçon 1 :
 
