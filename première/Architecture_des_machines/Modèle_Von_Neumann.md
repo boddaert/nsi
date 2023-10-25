@@ -77,7 +77,15 @@ C'est ce composant qui se chargera d'aller récupérer en mémoire la prochaine 
 
 #### 4. Mémoire centrale
 
-La mémoire centrale est l'endroit où est stocké à la fois les programmes et les données.
+La mémoire centrale est l'endroit où est stocké les données de l'ordinateur.
+
+Les programmes, étant également des données, sont stockés au même endroit.
+
+Les données et les instructions des programmes constituent des *mots mémoires*.
+
+Les mots mémoires sont écrits en binaire et possèdent une adresse appelée *adresse mémoire*.
+
+Lorsque l'unité de contrôle a besoin d'une donnée particulière, il l'a retrouve à l'aide de son adresse.
 
 #### 5. Entrées-sorties
 
@@ -93,7 +101,25 @@ Les périphériques d'entrées-sorties communiquent avec le processeur ou la mé
 
 Les bus de communication sont des circuits électroniques permettant simplement l'échange de données entre les composants de l'ordinateur.
 
-## IV. Mémoires
+## IV. Cycle d'exécution d'une instruction
+
+Pour que l'unité arithmétique et logique puisse exécuter une instruction se trouvant dans la mémoire, l'unité de contrôle effectue trois tâches qu'il répète à chaque nouvelle exécution d'instruction.
+
+Nous l'appelons le *cycle d'exécution d'instruction* et consiste à :
+
+1. Chargement
+
+Grâce à l'adresse mémoire stockée dans l'un de ses registres, l'unité de contrôle va récupérer le mot mémoire associée à cette adresse et la charger dans le processeur.
+
+2. Décodage
+
+Le mot mémoire est décodé afin de savoir de quel type d'instruction il s'agit et de quelles données (opérandes) l'instruction a besoin pour s'exécuter.
+
+3. Exécution
+
+Le mot mémoire est confié à l'unité arithmétique et logique pour être exécutée.
+
+## V. Mémoires
 
 ### a) Types de mémoire
 
@@ -103,11 +129,11 @@ Nous distinguons plusieurs types de mémoire :
 
 - La mémoire *non volatile* est celle qui ne disparaît pas lors de la mise hors-tension de l'ordinateur. L'accès à ses données est beaucoup plus lente. Il y a plusieurs mémoires dites non volatiles :
 
-    + La mémoire morte (*ROM* en anglais pour *Read-Only Memory*) est une mémoire non volatile et non modifiable. Elle contient toutes les données nécessaires au démarrage de l'ordinateur.
+    + La mémoire *morte* (*ROM* en anglais pour *Read-Only Memory*) est une mémoire non volatile et non modifiable. Elle contient toutes les données nécessaires au démarrage de l'ordinateur.
 
     + La mémoire *flash* est une mémoire non volatile mais contrairement à la mémoire morte, elle est modifiable. Nous parlons de mémoire flash pour les disques durs, les clés USB ou encore les cartes mémoires.
 
-- La mémoire cache enregistre temporairement des données et dispaît au bout d'un certain temps. Située dans le processeur, cette mémoire est la plus rapide mais également la plus limitée. Elle permet d'éviter un deuxième aller-retour à la mémoire lorsque des données doivent être réutilisées.
+- La mémoire *cache* enregistre temporairement des données et dispaît au bout d'un certain temps. Située dans le processeur, cette mémoire est la plus rapide mais également la plus limitée. Elle permet d'éviter un deuxième aller-retour à la mémoire lorsque des données doivent être réutilisées.
 
 ### b) Hierarchie
 
