@@ -1,4 +1,4 @@
-# Les Dictionnaires
+# Dictionnaires
 
 ## I. Définition
 

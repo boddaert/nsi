@@ -12,7 +12,7 @@ Une *structure de données linéaire* est une structure de données dans laquell
 
 Une *structure de données linéaire mutable* est une structure de données linéaire dans laquelle les éléments peuvent être ajoutés, retirés ou modifiés.
 
-En Python, le type `list` est encadré par des crochets.
+En Python, le type `list` est encadré par des crochets :
 
 ```python
 >>> type([1, 2, 3, 4])
@@ -120,9 +120,9 @@ Le test d'appartenance renvoie comme résultat un booléen.
 
 Vérifier, dans la console Python et à l'aide du mot-clé `in`, si :
 
-a) L'élément $2$ est contenue dans `liste_entiers`.
+a) L'élément $2$ est contenu dans `liste_entiers`.
 
-b) L'élément $0$ est contenue dans `liste_entiers`.
+b) L'élément $0$ est contenu dans `liste_entiers`.
 
 ### d) Concaténation
 
