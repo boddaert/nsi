@@ -51,7 +51,7 @@ Pour le faire automatiquement, nous allons nous servir d'un programme utilisant 
 
 a) Télécharger l'image [logo_python.png](./../img/logo_python.png).
 
-b) Télécharger et ouvrir le programme [negatif_img.py](./../src/negatif_img.py) dans votre répertoire de travail.
+b) Télécharger et ouvrir le programme [negatif_img.py](./../src/negatif_img_tuples.py) dans votre répertoire de travail.
 
 b) Remplacer les 'A COMPLETER' dans le programme donné par votre code pour obtenir le négatif de l'image.
 
