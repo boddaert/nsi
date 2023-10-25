@@ -226,9 +226,9 @@ Compléter la trace d'exécution précédente.
 Dans le parcours par élément, nous parcourons caractère par caractère :
 
 ```python
-mot = "world"
-for caractere in mot :
-  lettre = caractere
+1. mot = "world"
+2. for caractere in mot :
+3.   lettre = caractere
 ```
 
 | Numéro de ligne | Valeur affectée à $caractere$ | Valeur affectée à $lettre$ |

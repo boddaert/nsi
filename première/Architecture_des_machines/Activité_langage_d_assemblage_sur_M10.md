@@ -70,7 +70,7 @@ d) Dérouler pas à pas le programme suivant et indiquer la valeur située dans 
 sub 0 1
 store 0
 mul 0 2
-sto 0 
+store 0 
 ```
 
 e) Effacer, refaire la question b) et c).
