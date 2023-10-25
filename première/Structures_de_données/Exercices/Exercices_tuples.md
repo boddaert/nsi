@@ -33,7 +33,7 @@ Dans un plan orthonormé, un point est défini par ses coordonnées $x$ et $y$.
 
 La distance entre deux points $A(x_1, y_1)$ et $B(x_2, y_2)$ se calcule : $\sqrt[]{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
 
-<img title="" src="./img/plan.PNG" alt="" width="556">
+<img title="" src="./../img/plan.PNG" alt="" width="556">
 
 Par exemple, la distance entre le point $A$ et $B$ dans le plan ci-dessus est $5,4$.
 
@@ -45,13 +45,13 @@ Ecrire une fonction `distance(point_a : tuple, point_b : tuple)->float` qui pren
 
 Le négatif d'une image est une image dont les couleurs RGB des pixels sont les couleurs complémentaires des pixels originaux :
 
-![](./img/negatif.PNG)
+![](./../img/negatif.PNG)
 
 Pour le faire automatiquement, nous allons nous servir d'un programme utilisant le module PIL.
 
-a) Télécharger l'image [logo_python.png](./img/logo_python.png).
+a) Télécharger l'image [logo_python.png](./../img/logo_python.png).
 
-b) Télécharger et ouvrir le programme [negatif_img.py](./src/negatif_img.py) dans votre répertoire de travail.
+b) Télécharger et ouvrir le programme [negatif_img.py](./../src/negatif_img.py) dans votre répertoire de travail.
 
 b) Remplacer les 'A COMPLETER' dans le programme donné par votre code pour obtenir le négatif de l'image.
 
