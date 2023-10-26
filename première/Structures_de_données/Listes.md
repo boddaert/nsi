@@ -218,7 +218,7 @@ La suppression d'élément via l'indice s'effectue avec la méthode `pop()` :
 
 Supprimer dans la liste `liste_entier` l'élément d'indice cinq.
 
-### d) Suppression d'élément via la valeur
+### d) Suppression d'élément via sa valeur
 
 La suppression d'élément via la valeur s'effectue à l'aide de la méthode `remove()` :
 

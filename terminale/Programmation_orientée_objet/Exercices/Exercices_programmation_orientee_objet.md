@@ -36,7 +36,7 @@ c) Tester vos deux fonctions dans la console.
 
 ## Exercice 4
 
-[Projet n°2 : Combat de Pokémons](./../Projets/Projets.md)
+[Projet n°2 : Combat de Pokémons](./../../Projets/Projets.md)
 
 _______________
 
