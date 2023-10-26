@@ -48,7 +48,7 @@ Elle peut être connue avec la fonction `len()` :
 
 ##### Application 1
 
-En utilisant la console Python, trouver la taille des listes suivantes :
+En utilisant la console Python, indiquer la taille des listes suivantes :
 
 a) `[5, 8, 9]`
 
@@ -88,12 +88,6 @@ a)
 b)
 ```python
 >>> liste_entiers[1]
-...
-```
-
-c)
-```python
->>> liste_entiers[9]
 ...
 ```
 
@@ -193,9 +187,9 @@ Nous pouvons modifier les éléments d'une liste :
 
 ##### Application 7
 
-Essayer à votre tour de modifier la valeur d'indice $5$ de la liste `liste_entiers` en $-999$.
+Modifier dans la liste `liste_entiers `la valeur d'indice $5$ en $-999$.
 
-### b) Ajouter un élément
+### b) Ajout d'élément
 
 L'ajout d'élément s'effectue en fin de liste avec la méthode `append()` :
 
@@ -209,6 +203,35 @@ L'ajout d'élément s'effectue en fin de liste avec la méthode `append()` :
 ##### Application 8
 
 Ajouter à la liste `liste_entiers` les valeurs $11$ et $12$.
+
+### c) Suppression d'élément via son indice
+
+La suppression d'élément via l'indice s'effectue avec la méthode `pop()` :
+
+```python
+>>> liste_entiers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> liste_entiers.pop(2)
+>>> liste_entiers
+[1, 2, 4, 5, 6, 7, 8, 9]
+```
+##### Application 9
+
+Supprimer dans la liste `liste_entier` l'élément d'indice cinq.
+
+### d) Suppression d'élément via la valeur
+
+La suppression d'élément via la valeur s'effectue à l'aide de la méthode `remove()` :
+
+```python
+>>> liste_entiers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> liste_entiers.remove(2)
+>>> liste_entiers
+[1, 3, 4, 5, 6, 7, 8, 9]
+```
+
+##### Application 10
+
+Supprimer dans la liste `liste_entier` la valeur $5$.
 
 ## IV. Parcours de liste
 
@@ -245,7 +268,7 @@ Trace d'exécution du programme donné ci-dessus:
 | $3$ | $1$ | $2$ |
 | ... | ... | ... |
 
-##### Application 8
+##### Application 11
 
 Compléter la trace d'exécution précédente.
 
@@ -269,9 +292,70 @@ Dans le parcours par élément, nous parcourons élément par élément :
 | ... | ... | ... |
 
 
-##### Application 9
+##### Application 12
 
 Compléter la trace d'exécution précédente.
+
+
+## V. Construction de liste en compréhension
+
+### a) Principe
+
+Imaginons que nous voulons créer une liste de taille dix dont les éléments sont tous des zéros.
+
+Il est facile d'écrire un programme le permettant :
+
+```python
+liste_entiers = []
+for i in range(10) :
+    liste_entiers.append(0)
+```
+
+Or, il est possible en Python d'économiser des lignes de code en utilisant la construction de liste en compréhension :
+
+```python
+liste_entiers = [0 for i in range(10)]
+```
+
+Il s'agit d'utiliser la boucle `for` sur une unique ligne.
+
+### b) Syntaxe
+
+Syntaxe de construction de liste classique :
+
+```python
+liste = []
+for <indice> in <itérable> :
+    liste.append(<élément>)
+```
+
+Syntaxe de construction de liste en compréhension :
+
+```python
+liste = [<élément> for <indice> in <itérable>]
+```
+
+##### Application 13
+
+Ecrire, en compréhension, la construction d'une liste de taille cinq dont tous les éléments sont $2$.
+
+### c) Condition
+
+Syntaxe de construction de liste classique avec condition :
+
+```python
+liste = []
+for <indice> in <itérable> :
+    if <condition> :
+        liste.append(<élément>)
+```
+
+Syntaxe de construction de liste en compréhension avec condition :
+
+```python
+liste = [<élément> for <indice> in <itérable> if <condition>]
+```
+
 ___________
 
 [Feuille d'exercice](./Exercices/Exercices_listes.md)
