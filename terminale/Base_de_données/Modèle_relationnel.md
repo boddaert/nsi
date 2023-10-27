@@ -114,7 +114,7 @@ Nous notons usuellement la clé primaire en souligné dans le schéma relationne
 
 Ici, l'attribut $\underline{code}$ est un entier qui sera unique pour chaque entité.
 
-Ainsi, même s'il s'agit de la même oeuvre, le livre est unique dans la bibliothèque.
+Ainsi, même s'il s'agit de la même oeuvre, le livre est unique dans la bibliothèque parce que leur code est différent.
 
 ### c) Contrainte de référence
 
@@ -130,7 +130,9 @@ Pour s'assurer qu'il s'agit d'une référence vers une entité unique, la clé �
 
 Ansi, le schéma relationnel de la relation $Emprunt$ est :
 
-$Emprunt(#isbn : String, #id : Integer, date_emprunt : Date)$
+$Emprunt(\#isbn : String, \#id : Integer, date_emprunt : Date)$
+
+Nous notons usuellement les clé étrangères suivis d'un dièse.
 
 ### d) Contrainte utilisateur
 
