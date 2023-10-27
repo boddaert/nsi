@@ -35,7 +35,7 @@ Une *entité* représente un objet ou une action du monde réel. Il est défini 
 Par exemple, le livre Dune est représenté par l'entité suivante : 
 
 ```
-('Dune', 'Frank Herbert', 1965, 'Robert Laffont', '2-221-02602-0')$.
+('Dune', 'Frank Herbert', 1965, 'Robert Laffont', '2-221-02602-0').
 ```
 
 Toutes les entités d'un même type sont regroupés dans une relation.
@@ -74,13 +74,30 @@ Par exemple, les attributs de la relation $Livre$ sont :
 | editeur | `str` | La maison d'édition |
 | isbn | `str` | Le numéro d'ISBN du livre |
 
-La notation usuelle d'un schéma relationnel est plutôt : $Livre(titre : str, auteur : str, année : int, editeur : str, isbn : str)$.
+La notation usuelle d'un schéma relationnel est plutôt :
+
+$Livre(titre : str, auteur : str, année : int, editeur : str, isbn : str)$.
 
 ## III. Contraintes d'intégrité
 
+Une *contrainte d'intégrité* est une propriété du modèle de données vérifiée à tout instant et qui permet d'assurer la cohérence des données.
 
+Nous distinguons quatre contraintes d'intégrité dans le modèle relationnel.
 
+### a) Contrainte de domaine
 
+La contrainte de domaine concerne le type de l'attribut.
 
+En effet, tous les types des valeurs d'une entité doivent correspondre au domaine donné par le schéma de la relation.
+
+### b) Contrainte d'entité
+
+La contrainte d'entité permet de s'assurer que chaque entité d'une relation est unique.
+
+Il n'est pas impossible qu'il y ait deux fois le même livre dans une bibliothèque, pourtant il s'agit bien de deux entités distinctes.
+
+Pour les différencier, nous ajoutons au schéma relationnel un nouvel attribut appelé *clé primaire* :
+
+$Livre(\underline{code} : int, titre : str, auteur : str, année : int, editeur : str, isbn : str)$.
 
 
