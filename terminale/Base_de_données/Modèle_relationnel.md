@@ -32,7 +32,11 @@ Le *modèle relationnel* est un modèle de données dans lequel les données son
 
 Une *entité* représente un objet ou une action du monde réel. Il est défini par un tuple de valeurs.
 
-Par exemple, le livre Dune est représenté par l'entité suivante : $('Dune', 'Frank Herbert', '1965', 'Robert Laffont', '2-221-02602-0')$.
+Par exemple, le livre Dune est représenté par l'entité suivante : 
+
+```
+('Dune', 'Frank Herbert', 1965, 'Robert Laffont', '2-221-02602-0')$.
+```
 
 Toutes les entités d'un même type sont regroupés dans une relation.
 
@@ -42,11 +46,13 @@ Une *relation* est un ensemble d'entités.
 
 Par exemple, une relation $Livre$ est :
 
-$$
-\begin
-Livre = \{ \\('Dune', 'Frank Herbert', 1965, 'Robert Laffont', '2-221-02602-0'),\\('1984', 'George Orwell', 1949, 'Gallimard', '2-07-036822-X'),\\('Fondation', 'Isaac Asimov', 1957, 'Hachette', '2-6765-5668543-0') \\\}
-\end
-$$
+```
+Livre = { 
+    ('Dune', 'Frank Herbert', 1965, 'Robert Laffont', '2-221-02602-0'),
+    ('1984', 'George Orwell', 1949, 'Gallimard', '2-07-036822-X'),
+    ('Fondation', 'Isaac Asimov', 1957, 'Hachette', '2-6765-5668543-0')
+}
+```
 
 Toutes les entités d'une relation obéissent au schéma relationnel de la relation.
 
