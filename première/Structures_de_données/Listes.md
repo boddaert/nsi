@@ -2,15 +2,15 @@
 
 ## I. Définition
 
-Une *liste* est une structure de données linéaire mutable.
+Une *liste* est une structure linéaire mutable de données.
 
 Elle contient des données appelées *éléments*.
 
 Une *structure de données* est une structure permettant d'organiser ses données dans l'objectif que le traitement de celles-ci soit efficace.
 
-Une *structure de données linéaire* est une structure de données dans laquelle chaque élément possède une place et dont tous les éléments (sauf le dernier) a un successeur.
+Une *structure linéaire de données* est une structure de données dans laquelle chaque élément possède une place et dont tous les éléments (sauf le dernier) a un successeur.
 
-Une *structure de données linéaire mutable* est une structure de données linéaire dans laquelle les éléments peuvent être ajoutés, retirés ou modifiés.
+Une *structure linéaire mutable de données* est une structure de données linéaire dans laquelle les éléments peuvent être ajoutés, retirés ou modifiés.
 
 En Python, le type `list` est encadré par des crochets :
 

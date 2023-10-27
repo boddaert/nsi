@@ -1,17 +1,25 @@
 
 ## Terminale NSI
 
-Chapitre -1 : [Prise de contact](./Prise_de_contact/Prise_de_contact.md)
+##### Chapitre -1 : [Prise de contact](./Prise_de_contact/Prise_de_contact.md)
 
-Chapitre 0 : [Remise à niveau](./Remise_à_niveau/Remise_a_niveau.md)
+##### Chapitre 0 : [Remise à niveau](./Remise_à_niveau/Remise_a_niveau.md)
 
-Chapitre 1 : [Modularité](./Modularité/Modularite.md)
+##### Chapitre 1 : Modularité
 
-Chapitre 2 : [Programmation Orientée Objet](./Programmation_orientée_objet/Programmation_orientee_objet.md)
+- Leçon 1 : [Modularité](./Modularité/Modularite.md)
 
-Chapitre 3 : [Récursivité](./Récursivité/Recursivite.md)
+- Projet n°1 [Architectes](./Projets/Projets.md)
 
-Chapitre 4 : [Structures linéaires de données](./Structures_linéaires_de_données/)
+##### Chapitre 2 : Programmation oreintée objet
+
+-Leçon 1 : [Programmation Orientée Objet](./Programmation_orientée_objet/Programmation_orientee_objet.md)
+
+- Projet n°2 : [Combat de Pokémons](./Projets/Projets.md)
+
+##### Chapitre 3 : [Récursivité](./Récursivité/Recursivite.md)
+
+##### Chapitre 4 : Structures linéaires de données
 
 - Leçon 1 : [Listes récursives](./Structures_linéaires_de_données/Listes_recursives.md)
 
@@ -21,7 +29,25 @@ Chapitre 4 : [Structures linéaires de données](./Structures_linéaires_de_donn
 
 - Activité : [Le problème du crêpier](./Structures_linéaires_de_données/Activite_probleme_du_crepier.md)
 
-Chapitre 5 : [Protocoles de routage](./Protocoles_de_routage/Protocoles_de_routage.md)
+##### Chapitre 5 : [Protocoles de routage](./Protocoles_de_routage/Protocoles_de_routage.md)
+
+##### Chapitre 6 : Base de données
+
+- Leçon 1 : [Modèle relationnel](./Base_de_données/Modèle_relationnel.md)
+
+- Leçon 2 : [Base de données relationnelle](./Base_de_données/Base_de_données_relationnelles.md)
+
+- Leçon 3 : [Système de gestion de base de données](./Base_de_données/Système_de_gestion_de_base_de_données_relationnelles.md)
+
+- Leçon 4 : [Langage SQL](./Base_de_données/Langage_SQL.md)
+
+- Activité : [Crime à SQL City](./Base_de_données/Crime_à_SQL_City.md)
+
+##### Chapitre 7 : Structures hirerachiques de données
+
+- Leçon 1 : [Arbres binaires](./Structures_hierarchiques_de_données/Arbres_binaires.md)
+
+- Leçon 2 : [Arbres binaires de recherche](./Structures_hierarchiques_de_données/Arbres_binaires_de_recherche.md)
 
 Chapitre _ : [Sécurisation des communications](./Sécurisation des communications/Sécurisation des communications.md)
 

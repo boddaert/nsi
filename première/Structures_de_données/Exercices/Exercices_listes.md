@@ -21,7 +21,7 @@ Soit le programme suivant :
 a) Compléter la trace d'exécution suivante du programme précédent :
 
 | Numéro de ligne | Valeur affectée à $i$ | Valeur affectée à $res$ |
-| :---: | :---: | :---: |
+|---|---|---|
 | 1 | / | / |
 | 2 | ... | ... |
 

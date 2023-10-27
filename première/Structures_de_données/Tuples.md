@@ -2,7 +2,7 @@
 
 ## I. Définition
 
-Un *tuple* (ou *p-uplet*) est une structure de données linéaire non mutable. (Voir [listes](./Listes.md) pour les définitions)
+Un *tuple* (ou *p-uplet*) est une structure linéaire non mutable de données. (Voir [listes](./Listes.md) pour les définitions)
 
 En Python, le type `tuple` est encadré de parenthèses :
 
