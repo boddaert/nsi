@@ -68,15 +68,15 @@ Par exemple, les attributs de la relation $Livre$ sont :
 
 | Nom | Domaine | Description |
 | :---: | :---: | :---: |
-| titre | `str` | Le titre du livre |
-| auteur | `str` | L'auteur du livre |
-| année | `int` | L'année de publication |
-| editeur | `str` | La maison d'édition |
-| isbn | `str` | Le numéro d'ISBN du livre |
+| titre | `String` | Le titre du livre |
+| auteur | `String` | L'auteur du livre |
+| année | `Integer` | L'année de publication |
+| editeur | `String` | La maison d'édition |
+| isbn | `String` | Le numéro d'ISBN du livre |
 
 La notation usuelle d'un schéma relationnel est plutôt :
 
-$Livre(titre : str, auteur : str, année : int, editeur : str, isbn : str)$.
+$Livre(titre : String, auteur : String, année : Integer, editeur : String, isbn : String)$.
 
 ## III. Contraintes d'intégrité
 
@@ -86,18 +86,62 @@ Nous distinguons quatre contraintes d'intégrité dans le modèle relationnel.
 
 ### a) Contrainte de domaine
 
-La contrainte de domaine concerne le type de l'attribut.
+La *contrainte de domaine* concerne le type de l'attribut.
 
 En effet, tous les types des valeurs d'une entité doivent correspondre au domaine donné par le schéma de la relation.
 
+Voici ci-dessous un tableau qui récapitule quelque domaine :
+
+| Domaine | Représentation |
+| :---: | :---: |
+| `String` | Chaînes de caractère |
+| `Integer` | Nombres entiers |
+| `Boolean` | Booléens |
+| `Float` | Nombres flottants |
+| `Date` | Date au format jour/mois/année |
+
 ### b) Contrainte d'entité
 
-La contrainte d'entité permet de s'assurer que chaque entité d'une relation est unique.
+La *contrainte d'entité* permet de s'assurer que chaque entité d'une relation est unique.
 
-Il n'est pas impossible qu'il y ait deux fois le même livre dans une bibliothèque, pourtant il s'agit bien de deux entités distinctes.
+Il n'est pas impossible qu'il y ait deux fois le même ouvrage dans une bibliothèque, pourtant il s'agit bien de deux entités distinctes.
 
 Pour les différencier, nous ajoutons au schéma relationnel un nouvel attribut appelé *clé primaire* :
 
-$Livre(\underline{code} : int, titre : str, auteur : str, année : int, editeur : str, isbn : str)$.
+$Livre(\underline{code} : Integer, titre : String, auteur : String, année : Integer, editeur : String, isbn : String)$.
 
+Nous notons usuellement la clé primaire en souligné dans le schéma relationnel.
 
+Ici, l'attribut $\underline{code}$ est un entier qui sera unique pour chaque entité.
+
+Ainsi, même s'il s'agit de la même oeuvre, le livre est unique dans la bibliothèque.
+
+### c) Contrainte de référence
+
+La *contrainte de référence* permet de s'assurer qu'une relation mentionne des entités existantes d'autres relations.
+
+Par exemple, la relation $Emprunt$ mentionne une entité de la relation $Livre$ et une entité de la relation $Usager$. 
+
+Or, pour éviter que la relation $Emprunt$ mentionne des livres ou des usagers non connus, nous ajoutons à la relation $Emprunt$ les clés étrangères adéquates.
+
+Une *clé étrangère* est une référence vers une entité unique d'une autre relation.
+
+Pour s'assurer qu'il s'agit d'une référence vers une entité unique, la clé étrangère correspond alors à la clé primaire de l'entité auquel elle fait référence.
+
+Ansi, le schéma relationnel de la relation $Emprunt$ est :
+
+$Emprunt(#isbn : String, #id : Integer, date_emprunt : Date)$
+
+### d) Contrainte utilisateur
+
+Les *contraintes utilisateur* sont toutes les contraintes qui ne concernent pas les trois précédentes contraintes d'intégrité.
+
+Un exemple de contrainte utilisateur est que l'âge d'un usager ne peut pas être $200$ ou que l'adresse mail d'un usager doit comporter un arobase dans sa chaîne de caractère.
+
+______________
+
+[Feuille d'exercice](./Exercices/Exercices_modèle_relationnel.md)
+
+______________
+
+[Sommaire](./../README.md)
