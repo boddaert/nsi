@@ -29,17 +29,13 @@
 
 - Activité : [Le problème du crêpier](./Structures_linéaires_de_données/Activite_probleme_du_crepier.md)
 
-##### Chapitre 5 : [Protocoles de routage](./Protocoles_de_routage/Protocoles_de_routage.md)
+##### Chapitre 5 : [Protocoles de routage](./Pincipe_des_réseaux/Protocoles_de_routage.md)
 
 ##### Chapitre 6 : Base de données
 
 - Leçon 1 : [Modèle relationnel](./Base_de_données/Modèle_relationnel.md)
 
-- Leçon 2 : [Base de données relationnelle](./Base_de_données/Base_de_données_relationnelles.md)
-
-- Leçon 3 : [Système de gestion de base de données](./Base_de_données/Système_de_gestion_de_base_de_données_relationnelles.md)
-
-- Leçon 4 : [Langage SQL](./Base_de_données/Langage_SQL.md)
+- Leçon 2 : [Système de gestion de base de données](./Base_de_données/Systèmes_de_gestion_de_base_de_données_relationnelles.md)
 
 - Activité : [Crime à SQL City](./Base_de_données/Crime_à_SQL_City.md)
 

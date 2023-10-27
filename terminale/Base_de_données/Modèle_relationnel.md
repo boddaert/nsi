@@ -68,15 +68,27 @@ Par exemple, les attributs de la relation $Livre$ sont :
 
 | Nom | Domaine | Description |
 | :---: | :---: | :---: |
-| titre | `String` | Le titre du livre |
-| auteur | `String` | L'auteur du livre |
-| année | `Integer` | L'année de publication |
-| editeur | `String` | La maison d'édition |
-| isbn | `String` | Le numéro d'ISBN du livre |
+| titre | `Text` | Le titre du livre |
+| auteur | `Text` | L'auteur du livre |
+| annee | `Integer` | L'année de publication |
+| editeur | `Text` | La maison d'édition |
+| isbn | `Text` | Le numéro d'ISBN du livre |
 
 La notation usuelle d'un schéma relationnel est plutôt :
 
-$Livre(titre : String, auteur : String, année : Integer, editeur : String, isbn : String)$.
+$Livre(titre : Text, auteur : Text, annee : Integer, editeur : Text, isbn : Text)$.
+
+##### Application 1
+
+Donner les attributs que l'on pourrait avoir dans la relation $Usager$.
+
+##### Application 2
+
+Donner le schéma relationnel de la relation $Usager$.
+
+##### Application 3
+
+En respectant le schéma relationnel donné à la question précédente, compléter la relation $Usager$ en donnant au moins deux entités.
 
 ## III. Contraintes d'intégrité
 
@@ -94,11 +106,14 @@ Voici ci-dessous un tableau qui récapitule quelque domaine :
 
 | Domaine | Représentation |
 | :---: | :---: |
-| `String` | Chaînes de caractère |
+| `Text` | Chaînes de caractère |
 | `Integer` | Nombres entiers |
-| `Boolean` | Booléens |
-| `Float` | Nombres flottants |
+| `Real` | Nombres flottants |
 | `Date` | Date au format jour/mois/année |
+
+##### Application 4
+
+Vérifier puis expliquer pourquoi la contrainte de domaine est respectée (ou pas) dans la relation $Usager$ donnée à l'application précédente.
 
 ### b) Contrainte d'entité
 
@@ -108,7 +123,7 @@ Il n'est pas impossible qu'il y ait deux fois le même ouvrage dans une biblioth
 
 Pour les différencier, nous ajoutons au schéma relationnel un nouvel attribut appelé *clé primaire* :
 
-$Livre(\underline{code} : Integer, titre : String, auteur : String, année : Integer, editeur : String, isbn : String)$.
+$Livre(\underline{code} : Integer, titre : Text, auteur : Text, annee : Integer, editeur : Text, isbn : Text)$.
 
 Nous notons usuellement la clé primaire en souligné dans le schéma relationnel.
 
@@ -116,9 +131,21 @@ Ici, l'attribut $\underline{code}$ est un entier qui sera unique pour chaque ent
 
 Ainsi, même s'il s'agit de la même oeuvre, le livre est unique dans la bibliothèque parce que leur code est différent.
 
+##### Application 5
+
+a) Modifier en conséquence le contenu de la relation $Livre$.
+
+b) Ajouter dans la relation $Livre$ un second ouvrage de `Dune`.
+
+##### Application 6
+
+a) Ajouter une clé primaire au schéma relationnel de la relation $Usager$ pour que chaque usager soit unique.
+
+b) Modifier en conséquence les entités de la relation $Usager$.
+
 ### c) Contrainte de référence
 
-La *contrainte de référence* permet de s'assurer qu'une relation mentionne des entités existantes d'autres relations.
+La *contrainte de référence* permet de s'assurer qu'une relation mentionne des entités existantes dans d'autres relations.
 
 Par exemple, la relation $Emprunt$ mentionne une entité de la relation $Livre$ et une entité de la relation $Usager$. 
 
@@ -130,9 +157,19 @@ Pour s'assurer qu'il s'agit d'une référence vers une entité unique, la clé �
 
 Ansi, le schéma relationnel de la relation $Emprunt$ est :
 
-$Emprunt(\\#isbn : String, \\#id : Integer, date_emprunt : Date)$
+$Emprunt(\\#isbn : Text, \\#id : Integer, date_emprunt : Date)$
 
-Nous notons usuellement les clé étrangères suivis d'un dièse.
+Nous notons usuellement les clé étrangères précédées d'un dièse.
+
+##### Application 7
+
+A quelle clé primaire la clé étrangère $\\#id$ de la relation $Emprunt$ fait-elle référence ?
+
+##### Application 8
+
+Imaginons qu'une entité de la relation $Usager$ ait emprunté le livre de code = $1$ à la date d'aujourd'hui.
+
+Ajouter en conséquence l'entité dans la relation $Emprunt$.
 
 ### d) Contrainte utilisateur
 
