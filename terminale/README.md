@@ -13,7 +13,7 @@
 
 ##### Chapitre 2 : Programmation oreintée objet
 
--Leçon 1 : [Programmation Orientée Objet](./Programmation_orientée_objet/Programmation_orientee_objet.md)
+- Leçon 1 : [Programmation Orientée Objet](./Programmation_orientée_objet/Programmation_orientee_objet.md)
 
 - Projet n°2 : [Combat de Pokémons](./Projets/Projets.md)
 
