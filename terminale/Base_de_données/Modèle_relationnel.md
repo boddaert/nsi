@@ -130,9 +130,9 @@ Pour s'assurer qu'il s'agit d'une référence vers une entité unique, la clé �
 
 Ansi, le schéma relationnel de la relation $Emprunt$ est :
 
-$Emprunt( \# isbn : String, \#id : Integer, date_emprunt : Date)$
+$Emprunt( \\# isbn : String, \#id : Integer, date_emprunt : Date)$
 
-$\#$
+$\\#$
 
 Nous notons usuellement les clé étrangères suivis d'un dièse.
 
