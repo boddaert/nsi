@@ -158,7 +158,7 @@ Pour s'assurer qu'il s'agit d'une référence vers une entité unique, la clé �
 
 Ansi, le schéma relationnel de la relation $Emprunt$ est :
 
-$Emprunt(\\#id\_livre : VARCHAR, \\#id\_usager : INT, date : DATE)$
+$Emprunt(\\#id\textunderscore livre : VARCHAR, \\#id\_ usager : INT, date : DATE)$
 
 Nous notons usuellement les clé étrangères précédées d'un dièse.
 
