@@ -35,7 +35,7 @@
 
 - Leçon 1 : [Modèle relationnel](./Base_de_données/Modèle_relationnel.md)
 
-- Leçon 2 : [Système de gestion de base de données](./Base_de_données/Systèmes_de_gestion_de_base_de_données_relationnelles.md)
+- Leçon 2 : [Système de gestion de base de données](./Base_de_données/Systèmes_de_gestion_de_bases_de_données_relationnelles.md)
 
 - Activité : [Crime à SQL City](./Base_de_données/Crime_à_SQL_City.md)
 
