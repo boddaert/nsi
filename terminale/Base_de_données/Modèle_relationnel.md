@@ -124,11 +124,11 @@ Il n'est pas impossible qu'il y ait deux fois le même ouvrage dans une biblioth
 
 Pour les différencier, nous ajoutons au schéma relationnel un nouvel attribut appelé *clé primaire* :
 
-$Livre(\underline{id_livre} : INT, titre : VARCHAR, auteur : VARCHAR, annee : INT, editeur : VARCHAR)$.
+$Livre(\underline{id\_livre} : INT, titre : VARCHAR, auteur : VARCHAR, annee : INT, editeur : VARCHAR)$.
 
 Nous notons usuellement la clé primaire en souligné dans le schéma relationnel.
 
-Ici, l'attribut $\underline{id_livre}$ est un entier qui sera unique pour chaque entité.
+Ici, l'attribut $\underline{id\_livre}$ est un entier qui sera unique pour chaque entité.
 
 Ainsi, même s'il s'agit de la même oeuvre, le livre est unique dans la bibliothèque parce que leur identifiant est différent.
 
@@ -158,7 +158,7 @@ Pour s'assurer qu'il s'agit d'une référence vers une entité unique, la clé �
 
 Ansi, le schéma relationnel de la relation $Emprunt$ est :
 
-$Emprunt(\\#isbn : VARCHAR, \\#id : INT, date : DATE)$
+$Emprunt(\\#id\_livre : VARCHAR, \\#id\_usager : INT, date : DATE)$
 
 Nous notons usuellement les clé étrangères précédées d'un dièse.
 
