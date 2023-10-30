@@ -24,7 +24,7 @@ Une *base de données relationnelles* est une base de données qui s'appuie sur 
 
 Un *système de gestion de base de données relationnelles* (ou *SGBDR*) est un logiciel mettant en oeuvre le modèle relationnel.
 
-Le langage *SQL* (pour *Select Query Language*) est un langage de requête sur les données.
+Le langage *SQL* (pour *Structured Query Language*) est un langage de requête sur les données.
 
 ## III. Bases de données relationnelles
 
@@ -129,9 +129,9 @@ CREATE TABLE Livre (id_livre INT PRIMARY KEY,
 
 ##### Application 3 
 
-a) Recopier la requête SQL ci-dessus dans `DB Browser` dans l'onglet `Exécuter le SQL` puis sur `Exécuter la requête`.
+a) Recopier la requête SQL ci-dessus dans `DB Browser` dans l'onglet `Exécuter le SQL` puis exécuter la requête.
 
-b) Remarquer dans l'onglet `Structure de la base de données`, une nouvelle table est apparue puis vérifier dans les détails de la table si elle est correcte.
+b) Vérifier dans l'onglet `Structure de la base de données` l'apparition d'une nouvelle table et ses informations.
 
 ##### Application 4
 
@@ -152,14 +152,14 @@ Par exemple, la requête SQL suivante permet d'ajouter à la table correspondant
 INSERT INTO Livre VALUES (1, 'Dune', 'Frank Herbert', 1965, 'Robert Laffont'),
     (2, '1984', 'George Orwell', 1949, 'Gallimard'),
     (3, 'Fondation', 'Isaac Asimov', 1957, 'Hachette'),
-    (4, 'Dune', 'Frank Herbert', 1965, 'Robert Laffont')
+    (4, 'Dune', 'Frank Herbert', 1965, 'Robert Laffont');
 ```
 
 ##### Application 5
 
-a) Recopier la requête SQL ci-dessus dans `DB Browser` dans l'onglet `Exécuter le SQL` puis sur `Exécuter la requête`.
+a) Recopier la requête SQL ci-dessus dans `DB Browser` dans l'onglet `Exécuter le SQL` puis exécuter la requête.
 
-b) Remarquer dans l'onglet `Parcourir les données`, les nouvelles données ajoutées suite à la requête.
+b) Vérifier dans l'onglet `Parcourir les données` les nouvelles données ajoutées suite à la requête.
 
 ##### Application 6
 
@@ -198,7 +198,7 @@ La projection de données consiste à n'obtenir que les données d'une ou plusie
 Elle s'effectue avec la syntaxe suivante :
 
 ```sql
-SELECT * FROM nom_table WHERE attribut = valeur;
+SELECT * FROM nom_table WHERE condition;
 ```
 
 `*` signifie toutes les colonnes.
@@ -252,8 +252,10 @@ SELECT fonction_agrégation(attribut) FROM nom_table;
 Par exemple, la requête SQL permettant d'obtenir l'année du livre publié en premier depuis la table correspondant à la relation $Livre$ est :
 
 ```sql
-SELECT MIN(annee) FROM Livre;
+SELECT MIN(annee) AS premiere_annee FROM Livre;
 ```
+
+`AS` permet de renommer un attribut dans le résultat à la requête.
 
 ##### Application 10
 
@@ -261,7 +263,39 @@ Ecrire la requête SQL permettant d'obtenir le nombre de livres contenus dans la
 
 #### 5. Tris
 
+Ajouter `ORDER BY attribut` suivi de `ASC` (par ordre croissant) ou de `DESC` (par ordre décroissant) permet d'afficher les résultats triés selon une relation d'ordre donnée.
+
+Par exemple, la requête ci-dessous affiche tous les titres de livre par ordre croissant de titre :
+
+```sql
+SELECT titre FROM Livre ORDER BY titre ASC;
+```
+
+##### Application 11
+
+Ecrire la requête SQL permettant d'obtenir tous les usagers par ordre décroissant de prénom.
+
 #### 6. Jointures
+
+Dans la table correspondant à la relation $Emprunt$ y figure uniquement les identifiants des livres et des usagers, mais comment obtenir par exemple le titre d'un livre emprunté ?
+
+La jointure entre deux tables dans une requête SQL permet de fusionner les données pour les interroger efficacement. Sa syntaxe est la suivante :
+
+```sql
+SELECT attribut FROM nom_table_1 JOIN nom_table_2 ON clé_table_1 = clé_table_2;
+```
+
+Par exemple, il nous faut joindre les tables $Livre$ et $Emprunt$ si nous voulons obtenir les titres des livres qui sont empruntés :
+
+```sql
+SELECT L.titre FROM Emprunt AS E JOIN Livre AS L ON E.id_livre = L.id_livre;
+```
+
+##### Application 12
+
+a) Ecrire la requête SQL permettant d'obtenir tous les auteurs dont les livres sont empruntés.
+
+b) Ecrire la requête SQL permettant d'obtenir les prénoms et les noms des usagers qui ont empruntés un livre.
 
 ### g) Mission n°5 : Mettre à jour ou supprimer des données
 
@@ -270,8 +304,58 @@ Ecrire la requête SQL permettant d'obtenir le nombre de livres contenus dans la
 La mise à jour de données s'effectue selon la syntaxe suivante :
 
 ```sql
-UPDATE nom_table SET attribut_à_modifier = nouvelle_valeur WHERE condition
+UPDATE nom_table SET attribut = nouvelle_valeur WHERE condition;
 ```
+
+Par exemple, la requête permettant de mettre à jour la date de publication en 1970 des livres dont l'auteur est Isaac Asimov est :
+
+```sql
+UPDATE Livre SET annee = 1970 WHERE auteur = 'Isaac Asimov';
+```
+
+##### Application 13
+
+a) Recopier la requête SQL ci-dessus dans `DB Browser` dans l'onglet `Exécuter le SQL` puis exécuter la requête.
+
+b) Vérifier dans l'onglet `Parcourir les données` que la mise à jour a bien été effectuée.
+
+#### 2. Supprimer des données
+
+La suppression de données s'effectue selon la syntaxe suivante :
+
+```sql
+DELETE FROM nom_table WHERE condition;
+```
+
+Par exemple, la requête SQL permettant de supprimer les livres dont l'auteur est Isaac Asimov est :
+
+```sql
+DELETE FROM Livre WHERE auteur = 'Isaac Asimov';
+```
+
+Avant de supprimer une ligne, il est nécessaire de vérifier au préalable si la clé primaire de ce livre n'existe pas dans une autre table. Si c'est le cas, il faut également supprimer cette ligne.
+
+##### Application 14
+
+a) Recopier la requête SQL ci-dessus dans `DB Browser` dans l'onglet `Exécuter le SQL` puis exécuter la requête. Si une erreur survient, vérifier si le livre n'existe pas dans une autre table.
+
+b) Vérifier le résultat dans l'onglet `Parcourir les données`.
+
+### h) Mission n°6 : Assurer la sécurité et la perennité des données
+
+En cas de problème matériel, c'est-à-dire lors d'une coupure courant ou la présence d'un défaut sur un disque dur, le SGBDR doit permettre de mettre en sécurité les données pour que celles-ci soient récupérables.
+
+Le SGBDR gère également les accès sécurisés aux données, un utilisateur qui ne possède pas les droits de mise à jour ou de suppression ne doit pas pouvoir effectuer des requêtes de ce type sur les données.
+
+### i) Mission n°7 : Assurer l'accès concurent aux données
+
+Lee SGBDR doit permettre l'accès aux données de plusieurs utilisateurs en même temps. Par conséquent, il doit vérifier que deux requêtes, par exemple de mise à jour ou de suppression, n'interfèrent pas.
+
 ______________
 
 [Feuille d'exercice](./Exercices/Exercices_systèmes_de_gestion_de_bases_de_données_relationnelles.md)
+
+
+________________
+
+[Sommaire](./../README.md)

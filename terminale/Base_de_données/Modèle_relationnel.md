@@ -164,7 +164,7 @@ Nous notons usuellement les clé étrangères précédées d'un dièse.
 
 ##### Application 7
 
-A quelle clé primaire la clé étrangère $\\#isbn$ de la relation $Emprunt$ fait-elle référence ?
+A quelle clé primaire la clé étrangère $\\#id\textunderscore livre$ de la relation $Emprunt$ fait-elle référence ?
 
 ##### Application 8
 
