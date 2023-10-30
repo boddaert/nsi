@@ -4,21 +4,31 @@
 
 Dans une bibliothèque, les usagers peuvent venir emprunter le livre qu'ils souhaitent lire ou venir rendre le livre qu'ils ont emprunté.
 
-Lorsqu'un usager emprunte un livre, il faut que celui-ci soit retiré de la liste des livres empruntables. Et lorsqu'un usager rend un livre, il faut qu'il devienne à nouveau disponible.
+Un livre emprunté par un usager n'est plus disponible.
 
-Il faut donc au bibliothèquaire une solution lui permettant de conserver les informations d'emprunt et de rendu de livre de chacun des utilisateurs en temps réel.
+Les livres vont et viennent et le bibliothèquaire souhaite savoir quels sont les livres disponibles et quel usager emprunte quel livre.
 
-Le bibliothèquaire a besoin d'un *système d'information*, c'est-à-dire d'un système informatique permettant de gérer de l'information.
+Le bibliothèquaire souhaite enregistrer toutes ces informations informatiquement.
 
-Les informations à gérer sont les livres, les usagers et les processus d'emprunt et de rendu de livre.
+Il va utiliser pour cela : un *système d'information*.
 
-Nous distinguons les livres de par leur ISBN, leur titre, leur auteur, leur année de publication, etc...
+Pour l'exploiter, le bibliothèquaire doit nécessairement modéliser ses données.
 
-Nous distingons les usagers de par leur prénom, leur nom.
+Les informations à gérer sont :
 
-Puis nous distingons les processus d'emprunt de part un livre et l'usager qui l'a emprunté.
+- Les livres.
 
-Cette démarche que nous venons de réaliser s'appelle une *modélisation*.
+- Les usagers.
+
+- Les processus d'emprunt de livre.
+
+Un livre possède comme caractéristique un ISBN, un titre, un auteur, une année de publication, etc...
+
+Un usager possède comme caractéristique un prénom, un nom.
+
+Un processus d'emprunt se définit par le livre emprunté, l'usager qui l'a emprunté et la date de l'emprunt.
+
+La démarche que nous venons de réaliser s'appelle une *modélisation*.
 
 ## II. Définitions
 
@@ -66,17 +76,17 @@ Un *attribut* est un couple $(nom, domaine)$ où le domaine correspond au type d
 
 Par exemple, les attributs de la relation $Livre$ sont :
 
-| Nom | Domaine | Description |
-| :---: | :---: | :---: |
-| titre | `Text` | Le titre du livre |
-| auteur | `Text` | L'auteur du livre |
-| annee | `Integer` | L'année de publication |
-| editeur | `Text` | La maison d'édition |
-| isbn | `Text` | Le numéro d'ISBN du livre |
+- (titre, `VARCHAR`)
 
-La notation usuelle d'un schéma relationnel est plutôt :
+- (auteur, `VARCHAR`)
 
-$Livre(titre : Text, auteur : Text, annee : Integer, editeur : Text, isbn : Text)$.
+- (annee, `INT`)
+
+- (editeur, `VARCHAR`)
+
+Le schéma relationnel de la relation $Livre$ est :
+
+$Livre(titre : VARCHAR, auteur : VARCHAR, annee : INT, editeur : VARCHAR, isbn : VARCHAR)$.
 
 ##### Application 1
 
@@ -84,11 +94,11 @@ Donner les attributs que l'on pourrait avoir dans la relation $Usager$.
 
 ##### Application 2
 
-Donner le schéma relationnel de la relation $Usager$.
+Donner le schéma relationnel de la relation $Usager$ en supposant qu'un usager possède uniquement un prénom et un nom.
 
 ##### Application 3
 
-En respectant le schéma relationnel donné à la question précédente, compléter la relation $Usager$ en donnant au moins deux entités.
+En respectant le schéma relationnel donné à la question précédente, donner au moins trois entités à la relation $Usager$.
 
 ## III. Contraintes d'intégrité
 
@@ -102,18 +112,9 @@ La *contrainte de domaine* concerne le type de l'attribut.
 
 En effet, tous les types des valeurs d'une entité doivent correspondre au domaine donné par le schéma de la relation.
 
-Voici ci-dessous un tableau qui récapitule quelque domaine :
-
-| Domaine | Représentation |
-| :---: | :---: |
-| `Text` | Chaînes de caractère |
-| `Integer` | Nombres entiers |
-| `Real` | Nombres flottants |
-| `Date` | Date au format jour/mois/année |
-
 ##### Application 4
 
-Vérifier puis expliquer pourquoi la contrainte de domaine est respectée (ou pas) dans la relation $Usager$ donnée à l'application précédente.
+Vérifier puis expliquer pourquoi la contrainte de domaine est respectée (ou pas) pour chaque entité dans la relation $Livre$.
 
 ### b) Contrainte d'entité
 
@@ -123,19 +124,19 @@ Il n'est pas impossible qu'il y ait deux fois le même ouvrage dans une biblioth
 
 Pour les différencier, nous ajoutons au schéma relationnel un nouvel attribut appelé *clé primaire* :
 
-$Livre(\underline{code} : Integer, titre : Text, auteur : Text, annee : Integer, editeur : Text, isbn : Text)$.
+$Livre(\underline{id_livre} : INT, titre : VARCHAR, auteur : VARCHAR, annee : INT, editeur : VARCHAR)$.
 
 Nous notons usuellement la clé primaire en souligné dans le schéma relationnel.
 
-Ici, l'attribut $\underline{code}$ est un entier qui sera unique pour chaque entité.
+Ici, l'attribut $\underline{id_livre}$ est un entier qui sera unique pour chaque entité.
 
-Ainsi, même s'il s'agit de la même oeuvre, le livre est unique dans la bibliothèque parce que leur code est différent.
+Ainsi, même s'il s'agit de la même oeuvre, le livre est unique dans la bibliothèque parce que leur identifiant est différent.
 
 ##### Application 5
 
 a) Modifier en conséquence le contenu de la relation $Livre$.
 
-b) Ajouter dans la relation $Livre$ un second ouvrage de `Dune`.
+b) Ajouter dans la relation $Livre$ un second ouvrage de `Dune` mais par conséquent, avec un identifiant différent.
 
 ##### Application 6
 
@@ -149,7 +150,7 @@ La *contrainte de référence* permet de s'assurer qu'une relation mentionne des
 
 Par exemple, la relation $Emprunt$ mentionne une entité de la relation $Livre$ et une entité de la relation $Usager$. 
 
-Or, pour éviter que la relation $Emprunt$ mentionne des livres ou des usagers non connus, nous ajoutons à la relation $Emprunt$ les clés étrangères adéquates.
+Or, pour éviter que la relation $Emprunt$ mentionne des livres ou des usagers inexistants, nous ajoutons à la relation $Emprunt$ les clés étrangères adéquates.
 
 Une *clé étrangère* est une référence vers une entité unique d'une autre relation.
 
@@ -157,17 +158,17 @@ Pour s'assurer qu'il s'agit d'une référence vers une entité unique, la clé �
 
 Ansi, le schéma relationnel de la relation $Emprunt$ est :
 
-$Emprunt(\\#isbn : Text, \\#id : Integer, date_emprunt : Date)$
+$Emprunt(\\#isbn : VARCHAR, \\#id : INT, date : DATE)$
 
 Nous notons usuellement les clé étrangères précédées d'un dièse.
 
 ##### Application 7
 
-A quelle clé primaire la clé étrangère $\\#id$ de la relation $Emprunt$ fait-elle référence ?
+A quelle clé primaire la clé étrangère $\\#isbn$ de la relation $Emprunt$ fait-elle référence ?
 
 ##### Application 8
 
-Imaginons qu'une entité de la relation $Usager$ ait emprunté le livre de code = $1$ à la date d'aujourd'hui.
+Imaginons qu'une entité de la relation $Usager$ ait emprunté le livre d'identifiant $1$ à la date d'aujourd'hui.
 
 Ajouter en conséquence l'entité dans la relation $Emprunt$.
 
@@ -177,6 +178,9 @@ Les *contraintes utilisateur* sont toutes les contraintes qui ne concernent pas 
 
 Un exemple de contrainte utilisateur est que l'âge d'un usager ne peut pas être $200$ ou que l'adresse mail d'un usager doit comporter un arobase dans sa chaîne de caractère.
 
+##### Application 9
+
+Trouver une contrainte utilisateur que nous pourrions ajouter à la relation $Emprunt$.
 ______________
 
 [Feuille d'exercice](./Exercices/Exercices_modèle_relationnel.md)
