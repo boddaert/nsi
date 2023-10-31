@@ -87,15 +87,15 @@ Les fichiers de base de données se terminent par l'extension `.db` pour *Data B
 
 ##### Application 2
 
-Créer, dans votre répertoire de travail, le fichier de base de données `bibliotheque.db`.
+Créer, dans votre répertoire de travail, le fichier de base de données `test_bibliotheque.db`.
 
 ### d) Mission n°2 : Créer les tables en spécifiant leurs schémas et leurs contraintes d'intégrité.
 
 En SQL, créer une table se fait selon la syntaxe suivante :
 
 ```sql
-CREATE TABLE nom_table ( nom_attribut_1 DOMAINE CONTRAINTE,
-                        nom_attribut_2 DOMAINE CONTRAINTE
+CREATE TABLE nom_table ( attribut_1 DOMAINE CONTRAINTE,
+                        attribut_2 DOMAINE CONTRAINTE
 );
 ```
 
@@ -108,11 +108,9 @@ Les domaines ou types de données en langage SQL sont :
 | `VARCHAR(n)` | Chaînes de caractère d'au plus $n$ caractères |
 | `DATE` | Date au format `AAAA-MM-JJ` |
 
-Si l'attribut ne possède pas de contrainte, il n'y a alors de spécification de contrainte.
-
 La contrainte d'entité (clé primaire) se spécifie avec le mot-clé : `PRIMARY KEY`.
 
-La contrainte de référence (clé étrangère) se spécifie avec la syntaxe `nom_attribut DOMAINE REFERENCES nom_table(clé_primaire)`.
+La contrainte de référence (clé étrangère faisant référence à une clé primaire d'une autre table) se spécifie avec la syntaxe `attribut_clé_étrangère DOMAINE REFERENCES nom_table(attribut_clé_primaire)`.
 
 Les contraintes utilisateur ne sont pas au programme de Terminale.
 
@@ -146,7 +144,7 @@ INSERT INTO nom_table VALUES (entité_1_valeur_1, entité_1_valeur_2),
     (entité_2_valeur_1, entité_2_valeur_2);
 ```
 
-Par exemple, la requête SQL suivante permet d'ajouter à la table correspondant à la relation $Livre$ ses entités :
+Par exemple, la requête SQL suivante permet d'ajouter à la table `Livre` ses entités :
 
 ```sql
 INSERT INTO Livre VALUES (1, 'Dune', 'Frank Herbert', 1965, 'Robert Laffont'),
@@ -179,7 +177,7 @@ Elle s'effectue avec la syntaxe suivante :
 SELECT attribut_1, attribut_2 FROM nom_table;
 ```
 
-Par exemple, la requête SQL permettant d'obtenir tous les titres de livre contenus dans la table correspondant à la relation $Livre$ est :
+Par exemple, la requête SQL permettant d'obtenir tous les titres de livre contenus dans la table `Livre` est :
 
 ```sql
 SELECT titre from Livre;
@@ -203,7 +201,7 @@ SELECT * FROM nom_table WHERE condition;
 
 `*` signifie toutes les colonnes.
 
-Par exemple, la requête SQL permettant d' obtenir toutes les lignes dont l'auteur est `Frank Herbert` depuis la table correspondant à la relation $Livre$ est :
+Par exemple, la requête SQL permettant d' obtenir toutes les lignes dont l'auteur est `Frank Herbert` depuis la table `Livre` est :
 
 ```sql
 SELECT * FROM Livre WHERE auteur = 'Frank Herbert';
@@ -249,7 +247,7 @@ Les appels aux fonctions d'agrégation obéissent à la syntaxe suivante :
 SELECT fonction_agrégation(attribut) FROM nom_table;
 ```
 
-Par exemple, la requête SQL permettant d'obtenir l'année du livre publié en premier depuis la table correspondant à la relation $Livre$ est :
+Par exemple, la requête SQL permettant d'obtenir l'année du livre publié en premier depuis la table `Livre` est :
 
 ```sql
 SELECT MIN(annee) AS premiere_annee FROM Livre;
@@ -279,13 +277,17 @@ Ecrire la requête SQL permettant d'obtenir tous les usagers par ordre décroiss
 
 Dans la table correspondant à la relation $Emprunt$ y figure uniquement les identifiants des livres et des usagers, mais comment obtenir par exemple le titre d'un livre emprunté ?
 
-La jointure entre deux tables dans une requête SQL permet de fusionner les données pour les interroger efficacement. Sa syntaxe est la suivante :
+La jointure entre deux tables dans une requête SQL permet de fusionner les données pour les interroger efficacement.
+
+Nous allons nous servir des clés primaires et des clés étrangères pour joindre deux tables.
+
+Sa syntaxe est la suivante :
 
 ```sql
 SELECT attribut FROM nom_table_1 JOIN nom_table_2 ON clé_table_1 = clé_table_2;
 ```
 
-Par exemple, il nous faut joindre les tables $Livre$ et $Emprunt$ si nous voulons obtenir les titres des livres qui sont empruntés :
+Par exemple, il nous faut joindre les tables `Livre` et `Emprunt` si nous voulons obtenir les titres des livres qui sont empruntés :
 
 ```sql
 SELECT L.titre FROM Emprunt AS E JOIN Livre AS L ON E.id_livre = L.id_livre;
@@ -349,7 +351,7 @@ Le SGBDR gère également les accès sécurisés aux données, un utilisateur qu
 
 ### i) Mission n°7 : Assurer l'accès concurent aux données
 
-Lee SGBDR doit permettre l'accès aux données de plusieurs utilisateurs en même temps. Par conséquent, il doit vérifier que deux requêtes, par exemple de mise à jour ou de suppression, n'interfèrent pas.
+Lee SGBDR doit permettre l'accès aux données de plusieurs utilisateurs en même temps. Par conséquent, il doit vérifier que deux requêtes, par exemple de mise à jour ou de suppression, n'interfèrent pas entre elles.
 
 ______________
 
