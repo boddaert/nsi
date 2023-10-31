@@ -24,4 +24,5 @@ flowchart TB
     A --> C
     A --> B
     B --> D
+    B --> E
 ```
