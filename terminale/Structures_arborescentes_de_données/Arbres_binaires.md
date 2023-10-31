@@ -57,7 +57,22 @@ flowchart TB
     C --> G
 ```
 
-$A$, $B$ et $C$ sont les noeuds de l'arbre.
+$3$, $5$ et $8$ sont les noeuds de l'arbre.
 
-$A$ est la racine de l'arbre.
+$3$ est la racine de l'arbre.
+
+$5$ est la racine du sous-arbre gauche.
+
+$8$ est la racine du sous-arbre droit.
+
+Par habitude, nous ne schématisons pas les arbres vides :
+
+```mermaid
+flowchart TB
+    A((3))
+    B((5))
+    C((8))
+    A --> B
+    A --> C
+```
 
