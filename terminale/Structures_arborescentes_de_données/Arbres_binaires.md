@@ -101,4 +101,4 @@ Si l'arbre est complet, sa taille sera égale à deux puissance sa hauteur.
 
 Encadrement de la taille en fonction de la hauteur de l'arbre : $h \leq n \leq 2^{h}-1$ avec $n$ la taille de l'arbre et $h$ sa hauteur.
 
-Encadrement de la hauteur en fonction de la taille de l'arbre : $\int_2^n \leq h \leq n-1$.
+Encadrement de la hauteur en fonction de la taille de l'arbre : $\log_2 n \leq h \leq n-1$.
