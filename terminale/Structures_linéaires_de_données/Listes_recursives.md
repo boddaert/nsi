@@ -135,9 +135,6 @@ Compléter les méthodes `est_vide()`, `tete()` et `reste()` de la classe `Liste
 >>> l = Liste()
 >>> l.est_vide()
 True
-```
-
-```python
 >>> l = Liste(5,Liste())
 >>> l.est_vide()
 False

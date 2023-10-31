@@ -102,3 +102,63 @@ Si l'arbre est complet, sa taille sera égale à deux puissance sa hauteur.
 Encadrement de la taille en fonction de la hauteur de l'arbre : $h \leq n \leq 2^{h}-1$ avec $n$ la taille de l'arbre et $h$ sa hauteur.
 
 Encadrement de la hauteur en fonction de la taille de l'arbre : $\log_2 n \leq h \leq n-1$.
+
+## III. Implémentation en Python
+
+### a) Classe Arbre Binaire
+
+Nous implémentons les arbres binaires en Python à l'aide de la programmation orientée objet.
+
+Ci-dessous une classe `AB` contenant les opérations primitives `est_vide()`, `racine()`, `sag()` et `sad()` permettant respectivement de savoir si un arbre binaire est vide, de renvoyer sa racine, de renvoyer son sous-arbre gauche, de renvoyer son sous-arbre droit :
+
+
+```python
+class AB:
+    def __init__(self, *args):
+        if len(args) == 0 :
+            self.__content = ()
+        elif len(args) == 3 :
+            if isinstance(args[1], AB) and isinstance(args[2], AB):
+                self.__racine = args[0]
+                self.__sag = args[1]
+                self.__sad = args[2]
+
+    def est_vide(self):
+        pass
+
+    def racine(self):
+        pass
+
+    def sag(self):
+        pass
+
+    def sad(self):
+        pass
+```
+
+### b) Utilisation de la classe
+
+```python
+>>> ab = AB()
+>>> ab.est_vide()
+True
+>>> ab = AB(3, AB(5, AB(), AB()), AB(8, AB(), AB()))
+>>> ab.est_vide()
+False
+>>> ab.racine()
+3
+>>> ab.sag()
+<__main__.AB object at 0x7fc93c18a470>
+>>> ab.sag().racine()
+5
+>>> ab.sad()
+<__main__.AB object at 0x7fc93c18abf0>
+>>> ab.sad().racine()
+8
+```
+
+## IV. Parcours de l'arbre
+
+Un *parcours d'arbre* consiste à visiter tous les noeuds de l'arbre une et une seule fois dans le but de leur appliquer un traitement.
+
+Il existe trois 
