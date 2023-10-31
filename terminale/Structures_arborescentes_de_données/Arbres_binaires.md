@@ -26,4 +26,5 @@ flowchart TB
     B --> D
     B --> E
     C --> F
+    C --> G
 ```
