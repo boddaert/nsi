@@ -66,7 +66,7 @@ $5$ est la racine du sous-arbre gauche.
 
 $8$ est la racine du sous-arbre droit.
 
-$3$ et $8$ sont également les feuilles de l'arbre.
+$5$ et $8$ sont également les feuilles de l'arbre.
 
 Par habitude, nous ne dessinons pas les arbres vides :
 
