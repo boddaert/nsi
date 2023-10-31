@@ -28,7 +28,7 @@ Nous remarquons qu'il s'agit d'une définition récursive : les ous-arbres gauch
 
 ### b) Notation
 
-Nous notons les arbres entre parenthèses sous la forme : $(Noeud, SAG, SAD)$.
+Nous notons les arbres entre parenthèses sous la forme : $(Noeud, SAG, SAD)$ avec $SAG$ le sous-arbre gauche et $SAD$ le sous-arbre droit.
 
 L'arbre vide se note $\emptyset$.
 
@@ -45,10 +45,10 @@ flowchart TB
     A((3))
     B((5))
     C((8))
-    D(("$\emptyset$"))
-    E(("$\emptyset$"))
-    F(("$\emptyset$"))
-    G(("$\emptyset$"))
+    D((" "))
+    E((" "))
+    F((" "))
+    G((" "))
     A --> B
     B --> D
     B --> E
