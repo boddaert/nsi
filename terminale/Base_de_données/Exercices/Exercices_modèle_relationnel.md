@@ -4,32 +4,37 @@
 
 Nous souhaitons réaliser le modèle relationnel d'une base de données sur les films.
 
+La base de données comporte une relation $Film$ et une relation $Realisateur$ correspondants respectivement à un film et un réalisateur.
+
 Voici ci-dessous les attributs de la relation $Film$ :
 
-| Nom | Domaine | Description |
-| :---: | :---: | :---: |
-| id_film | `Integer` | Identifiant unique du film |
-| titre | ... | ... |
-| annee | ... | ... |
-| ... | ... | Le nombre d'entrée en salle de cinéma. |
-| ... | ... | Le genre du film |
-| id_realisateur | ... | ... |
+- (id_film, `Integer`)
 
-a) Compléter les informations manquantes du tableau des attributs.
+- (titre, ...)
 
-b) Indiquer, en soulignant, quel attribut est le plus adéquat pour être la clé primaire.
+- (annee, ...)
 
-c) Indiquer, en ajoutant un dièse devant le nom, quels attributs peuvent être des clés étrangères.
+- (box_office, ...)
+
+- (genre, ...)
+
+- (id_realisateur, ...)
+
+a) Compléter les domaines sur les attributs ci-dessus.
+
+b) Indiquer, en soulignant, quel attribut unique est le plus susceptible d'être la clé primaire.
+
+c) Indiquer, en ajoutant un dièse devant le nom, quel attribut est le plus susceptible d'être la clé étrangère faisant référence à un réalisateur.
 
 d) Donner le schéma relationnel de la relation $Film$.
 
-e) Ecrire la relation $Film$ en donnant au moins cinq entités.
+e) Donner au moins trois entités de la relation $Film$.
 
 ## Exercice 2
 
 a) Ecrire le schéma relationnel de la relation $Realisateur$ comprenant un identifiant unique de réalisateur correspondant à la clé primaire, un prénom et un nom.
 
-Voici ci-dessous la relation $Realisateur$ :
+Voici ci-dessous des entités de la relation $Realisateur$ :
 
 ```
 Realisateur = {
@@ -46,13 +51,15 @@ a) Indiquer quelles contraintes d'intégrité n'ont pas été respectées par le
 
 b) Corriger les erreurs afin que les contraintes d'intégrité soient respectées.
 
-c) Expliquer pourquoi le fait d'ajouter l'entité `(36, 'Star Wars V : L'empire contre-attaque', 1979, 140000000, 'Science-fiction', 12)` viole la contrainte de référence.
+c) Expliquer pourquoi le fait d'ajouter l'entité `(36, 'Star Wars V : L'empire contre-attaque', 1979, 140000000, 'Science-fiction', 12)` dans la relation $Film$ viole la contrainte de référence.
 
 ## Exercice 3
 
 Donner la modélisation relationnelle d'un bulletin scolaire.
 
-Cette modélisation devra comporter au moins quatre relations représentant les élèves, les professeurs, les spécialités et les notes ainsi que les liens entre elles.
+Cette modélisation devra comporter au moins trois relations représentant les élèves, les disciplines et les notes ainsi que les liens entre elles.
+
+Donner pour chaque relation leur schéma en spécifiant les contraintes de domaine, d'entité et de référence.
 
 _________________
 
