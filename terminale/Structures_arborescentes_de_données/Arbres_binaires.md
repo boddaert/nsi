@@ -13,7 +13,7 @@ Sont appelés *feuilles*, les noeuds qui n'ont pas d'enfants.
 Un *arbre binaire* est un arbre dont tous les noeuds possèdent au plus deux enfants.
 
 ```mermaid
-flowchart TP
+flowchart TB
     A
     B
     C
