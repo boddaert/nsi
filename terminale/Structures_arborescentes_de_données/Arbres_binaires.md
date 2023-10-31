@@ -45,10 +45,10 @@ flowchart TB
     A((3))
     B((5))
     C((8))
-    D(())
-    E(())
-    F(())
-    G(())
+    D(("$\emptyset$"))
+    E(("$\emptyset$"))
+    F(("$\emptyset$"))
+    G(("$\emptyset$"))
     A --> B
     B --> D
     B --> E
