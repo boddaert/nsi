@@ -36,7 +36,7 @@ Une *donnée* est une information.
 
 Un *modèle de données* est une représentation mathématique des données et des propriétés sur ces données.
 
-Le *modèle relationnel* est un modèle de données dans lequel les données sont représentées par des entités.
+Le *modèle relationnel* est un modèle de données dans lequel les données sont représentées par des relations.
 
 ### a) Entités
 
