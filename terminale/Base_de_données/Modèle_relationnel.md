@@ -76,17 +76,17 @@ Un *attribut* est un couple $(nom, domaine)$ où le domaine correspond au type d
 
 Par exemple, les attributs de la relation $Livre$ sont :
 
-- (titre, `VARCHAR`)
+- ($titre$, `VARCHAR`)
 
-- (auteur, `VARCHAR`)
+- ($auteur$, `VARCHAR`)
 
-- (annee, `INT`)
+- ($annee$, `INT`)
 
-- (editeur, `VARCHAR`)
+- ($editeur$, `VARCHAR`)
 
 Le schéma relationnel de la relation $Livre$ est :
 
-$Livre(titre : VARCHAR, auteur : VARCHAR, annee : INT, editeur : VARCHAR, isbn : VARCHAR)$.
+$Livre(titre : VARCHAR, auteur : VARCHAR, annee : INT, editeur : VARCHAR)$.
 
 ##### Application 1
 
