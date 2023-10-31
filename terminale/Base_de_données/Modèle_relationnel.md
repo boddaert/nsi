@@ -22,7 +22,7 @@ Les informations à gérer sont :
 
 - Les processus d'emprunt de livre.
 
-Un livre possède comme caractéristique un ISBN, un titre, un auteur, une année de publication, etc...
+Un livre possède comme caractéristique un titre, un auteur, une année de publication, etc...
 
 Un usager possède comme caractéristique un prénom, un nom.
 
@@ -134,7 +134,7 @@ Ainsi, même s'il s'agit de la même oeuvre, le livre est unique dans la bibliot
 
 ##### Application 5
 
-a) Modifier en conséquence le contenu de la relation $Livre$.
+a) Modifier en conséquence les entités de la relation $Livre$.
 
 b) Ajouter dans la relation $Livre$ un second ouvrage de `Dune` mais par conséquent, avec un identifiant différent.
 
