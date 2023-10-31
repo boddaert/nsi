@@ -45,7 +45,7 @@ Une *entité* représente un objet ou une action du monde réel. Il est défini 
 Par exemple, le livre Dune est représenté par l'entité suivante : 
 
 ```
-('Dune', 'Frank Herbert', 1965, 'Robert Laffont', '2-221-02602-0').
+('Dune', 'Frank Herbert', 1965, 'Robert Laffont').
 ```
 
 Toutes les entités d'un même type sont regroupés dans une relation.
@@ -58,9 +58,9 @@ Par exemple, une relation $Livre$ est :
 
 ```
 Livre = { 
-    ('Dune', 'Frank Herbert', 1965, 'Robert Laffont', '2-221-02602-0'),
-    ('1984', 'George Orwell', 1949, 'Gallimard', '2-07-036822-X'),
-    ('Fondation', 'Isaac Asimov', 1957, 'Hachette', '2-6765-5668543-0')
+    ('Dune', 'Frank Herbert', 1965, 'Robert Laffont'),
+    ('1984', 'George Orwell', 1949, 'Gallimard'),
+    ('Fondation', 'Isaac Asimov', 1957, 'Hachette')
 }
 ```
 
