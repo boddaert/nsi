@@ -41,7 +41,7 @@
 
 ##### Chapitre 7 : Structures hirerachiques de données
 
-- Leçon 1 : [Arbres binaires](./Structures_hierarchiques_de_données/Arbres_binaires.md)
+- Leçon 1 : [Arbres binaires](./Structures_arborescentes_de_données/Arbres_binaires.md)
 
 - Leçon 2 : [Arbres binaires de recherche](./Structures_hierarchiques_de_données/Arbres_binaires_de_recherche.md)
 
