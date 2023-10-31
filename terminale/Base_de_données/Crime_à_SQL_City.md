@@ -4,7 +4,9 @@ Nature : Branchée
 
 Matériel : Logiciel `DB Browser SQLite`
 
-Pré requis : Langage SQL
+Prérequis : Langage SQL
+
+Sources : [https://mystery.knightlab.com/](https://mystery.knightlab.com/)
 
 ## I. Objectif
 
@@ -12,7 +14,7 @@ L'objectif du jeu est de retrouver le criminel en interrogeant la base de donné
 
 Vous savez que :
 
-- Le crime a été commis le quinze janvier 2018 à SQL City.
+- Le meurtre a été commis le quinze janvier 2018 à SQL City.
 
 - Le club de sport `Get Fit Now!` a un lien avec cette affaire.
 
