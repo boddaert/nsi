@@ -15,7 +15,5 @@ Un *arbre binaire* est un arbre dont tous les noeuds possèdent au plus deux enf
 ```mermaid
 flowchart TB
     A --> C
-    A --> D
-    B --> C
-    B --> D
+    A --> B
 ```
