@@ -12,9 +12,9 @@ Nous parlons dans ce chapitre d'un autre type de liste.
 
 Une *liste récursive* est une structure de données linéaire utilisant la récursivité.
 
-## II. Type abstrait
+## II. Définition de la liste récursive et ses opérations
 
-### a) Définition de la liste récursive
+### a) Type abstrait
 
 Une liste récursive est soit :
 
