@@ -22,7 +22,7 @@ Petit rappel sur les encodages de textes [Représentation des textes en machine]
 
 Plus d'informations : [Wikipédia](https://fr.wikipedia.org/wiki/Codage_de_Huffman)
 
-## II. Algorithme
+## II. Exemple du codage de Huffman
 
 L'idée est de construire un arbre binaire et de s'en servir pour donner une table de codage des caractères.
 
@@ -58,3 +58,6 @@ Puis à partir de cet arbre, voici ci-dessous son codage de Huffman :
 | `d` | `011` |
 
 Ainsi, le texte `aabacbada` est encodé : `110010100010111`.
+
+## III. Questions
+
