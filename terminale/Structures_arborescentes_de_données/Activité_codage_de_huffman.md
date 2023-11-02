@@ -30,13 +30,13 @@ A partir de ce texte, voici son arbre de Huffman :
 
 ```mermaid
 flowchart TB
-    A((("a",5)))
-    B((("b", 2)))
-    C(("c", 1))
-    D((("d", 1)))
-    E((("", 2)))
-    F((("", 4)))
-    G((("", 9)))
+    A(("(a,5)"))
+    B(("(b, 2)"))
+    C(("(c, 1))")
+    D(("("d", 1)"))
+    E(("( , 2)"))
+    F(("( , 4)"))
+    G(("( , 9)"))
     G --0--> F
     G --1--> A
     E --0--> C
