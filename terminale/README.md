@@ -43,7 +43,11 @@
 
 - Leçon 1 : [Arbres binaires](./Structures_arborescentes_de_données/Arbres_binaires.md)
 
+- Projet n°3 : [Codage de Huffman](./Projets/Projets.md)
+
 - Leçon 2 : [Arbres binaires de recherche](./Structures_hierarchiques_de_données/Arbres_binaires_de_recherche.md)
+
+___________________
 
 Chapitre _ : [Sécurisation des communications](./Sécurisation des communications/Sécurisation des communications.md)
 
