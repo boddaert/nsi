@@ -230,10 +230,6 @@ Vous serez évalués sur :
 
 - La propreté de l'affichage.
 
-
-## Projet n°3 : Codage de Huffman
-
-
 ________
 
 [Sommaire](./../README.md)

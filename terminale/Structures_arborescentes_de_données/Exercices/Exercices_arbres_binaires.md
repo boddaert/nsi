@@ -28,7 +28,7 @@ Ecrire une fonction récursive `taille(ab : AB)->int` qui prend en paramètre un
 
 ## Exercice 6
 
-Ecrire une fonction `hauteur(ab : AB)->int` qui prend en paramètre un arbre binaire et renvoie la hauteur de l'arbre.
+Ecrire une fonction récursive `hauteur(ab : AB)->int` qui prend en paramètre un arbre binaire et renvoie la hauteur de l'arbre.
 
 ## Exercice 7
 
@@ -36,7 +36,17 @@ Ecrire une fonction récursive `est_present(ab : AB, elt : int)->bool` qui prend
 
 ## Exercice 8
 
-Ecrire une fonction itérative `max_ab(ab : AB)->int` qui prend en paramètre un arbre binaire et renvoie l'élément le plus grand.
+```python
+def mystere(ab : AB)->int:
+    if ab.est_vide() :
+        return 0
+    else :
+        return ab.racine() + max(mystere(ab.sag()), mystere(ab.sad()))
+```
+
+a) Exécuter à la main l'appel à la fonction `mystere()` avec comme paramètre le second arbre de l'application trois.
+
+b) En déduire sur ce que réalise la fonction `mystere()`.
 
 ## Exercice 9
 
@@ -53,7 +63,6 @@ Ecrire une fonction récursive `ab_complet(h : int)->AB` qui prend en paramètre
 ## Exercice 12 (Difficile)
 
 Ecrire une fonction récursive `est_complet(ab : AB)->bool` qui prend en paramètre un arbre binaire et renvoie $True$ si l'arbre est complet, $False$ sinon.
-
 
 ________________
 

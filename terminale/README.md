@@ -11,7 +11,7 @@
 
 - Projet n°1 [Architectes](./Projets/Projets.md)
 
-##### Chapitre 2 : Programmation oreintée objet
+##### Chapitre 2 : Programmation orientée objet
 
 - Leçon 1 : [Programmation Orientée Objet](./Programmation_orientée_objet/Programmation_orientee_objet.md)
 
@@ -31,19 +31,19 @@
 
 ##### Chapitre 5 : [Protocoles de routage](./Pincipe_des_réseaux/Protocoles_de_routage.md)
 
-##### Chapitre 6 : Base de données
+##### Chapitre 6 : Bases de données
 
 - Leçon 1 : [Modèle relationnel](./Base_de_données/Modèle_relationnel.md)
 
-- Leçon 2 : [Système de gestion de base de données](./Base_de_données/Systèmes_de_gestion_de_bases_de_données_relationnelles.md)
+- Leçon 2 : [Systèmes de gestion de bases de données](./Base_de_données/Systèmes_de_gestion_de_bases_de_données_relationnelles.md)
 
 - Activité : [Crime à SQL City](./Base_de_données/Crime_à_SQL_City.md)
 
-##### Chapitre 7 : Structures hirerachiques de données
+##### Chapitre 7 : Structures arborescentes de données
 
 - Leçon 1 : [Arbres binaires](./Structures_arborescentes_de_données/Arbres_binaires.md)
 
-- Projet n°3 : [Codage de Huffman](./Projets/Projets.md)
+- Activité : [Codage de Huffman](./Structures_arborescentes_de_données/Activité_codage_de_huffman.md)
 
 - Leçon 2 : [Arbres binaires de recherche](./Structures_hierarchiques_de_données/Arbres_binaires_de_recherche.md)
 
