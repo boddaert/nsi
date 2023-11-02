@@ -161,4 +161,42 @@ False
 
 Un *parcours d'arbre* consiste à visiter tous les noeuds de l'arbre une et une seule fois dans le but de leur appliquer un traitement.
 
-Il existe trois 
+Il existe deux types de parcours d'arbres : le parcours en largeur d'abord et le parcours en profondeur d'abord.
+
+### a) Parcours en largeur d'abord
+
+Le *parcours en largeur d'abord* est un parcours d'arbre par niveau. Il consiste à visiter tous les noeuds de la même génération avant de passer à la génération suivante.
+
+Par exemple sur l'arbre suivant :
+
+```mermaid
+flowchart TB
+    A((3))
+    B((5))
+    C((8))
+    D((6))
+    E((10))
+    F((" "))
+    G((2))
+    H((" "))
+    I((" "))
+    J((" "))
+    K((" "))
+    L((" "))
+    M((" "))
+    A --> B
+    B --> D
+    B --> E
+    A --> C
+    C --> F
+    C --> G
+    D --> I
+    D --> H
+    E --> K
+    E --> J
+    G --> L
+    G --> M
+```
+
+### b) Parcours en profondeur d'abord
+

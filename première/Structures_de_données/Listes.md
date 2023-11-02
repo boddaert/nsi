@@ -235,7 +235,7 @@ Supprimer dans la liste `liste_entier` la valeur $5$.
 
 ## IV. Parcours de liste
 
-Un *parcours de liste* consiste à visiter un à un tous les éléments de la liste.
+Un *parcours de liste* consiste à visiter tous les éléments de la liste une et une seule fois dans le but de leur appliquer un traitement.
 
 Nous parcourons les listes en utilisant les boucles.
 
