@@ -9,13 +9,13 @@
 
 - Leçon 1 : [Modularité](./Modularité/Modularite.md)
 
-- Projet n°1 [Architectes](./Projets/Projets.md)
+- Projet n°1 [Architectes](./Projets/Projet_architectes.md)
 
 ##### Chapitre 2 : Programmation orientée objet
 
 - Leçon 1 : [Programmation Orientée Objet](./Programmation_orientée_objet/Programmation_orientee_objet.md)
 
-- Projet n°2 : [Combat de Pokémons](./Projets/Projets.md)
+- Projet n°2 : [Combat de Pokémons](./Projets/Projet_combat_de_pokémons.md)
 
 ##### Chapitre 3 : [Récursivité](./Récursivité/Recursivite.md)
 
@@ -27,7 +27,7 @@
 
 - Leçon 3 : [Files](./Structures_linéaires_de_données/Files.md)
 
-- Activité : [Le problème du crêpier psychorigide](./Structures_linéaires_de_données/Activite_probleme_du_crepier_psychorigide.md)
+- Activité : [Le problème du crêpier psychorigide](./Structures_linéaires_de_données/Activité_probleme_du_crepier_psychorigide.md)
 
 ##### Chapitre 5 : [Protocoles de routage](./Pincipe_des_réseaux/Protocoles_de_routage.md)
 
@@ -37,7 +37,7 @@
 
 - Leçon 2 : [Systèmes de gestion de bases de données](./Base_de_données/Systèmes_de_gestion_de_bases_de_données_relationnelles.md)
 
-- Activité : [Crime à SQL City](./Base_de_données/Crime_à_SQL_City.md)
+- Activité : [Crime à SQL City](./Base_de_données/Activité_crime_à_SQL_City.md)
 
 ##### Chapitre 7 : Structures arborescentes de données
 
