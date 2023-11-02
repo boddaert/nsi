@@ -27,7 +27,7 @@
 
 - Leçon 3 : [Files](./Structures_linéaires_de_données/Files.md)
 
-- Activité : [Le problème du crêpier](./Structures_linéaires_de_données/Activite_probleme_du_crepier.md)
+- Activité : [Le problème du crêpier psychorigide](./Structures_linéaires_de_données/Activite_probleme_du_crepier_psychorigide.md)
 
 ##### Chapitre 5 : [Protocoles de routage](./Pincipe_des_réseaux/Protocoles_de_routage.md)
 
