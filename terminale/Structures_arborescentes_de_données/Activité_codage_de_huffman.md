@@ -61,7 +61,7 @@ Ainsi, le texte `aabacbada` est encodé : `110010100010111`.
 
 ## III. Algorithme de construction de l'arbre de Huffman
 
-En supposant possèder les occurences des lettres d'un texte. L'algorithme de construction de l'arbre de Huffman est le suivant :
+L'algorithme de construction de l'arbre de Huffman est le suivant :
 
 - Calculer les occurences de chaque lettre du texte.
 
