@@ -47,20 +47,23 @@ Un arbre binaire est souvent représenté sous la forme d'un schéma :
 ```mermaid
 flowchart TB
     subgraph arbre binaire
-        A((3))
-        subgraph sous-arbre gauche
-        B((5))
-        D((" "))
-        E((" "))
-        B --> D
-        B --> E
+            direction TB
+            A((3))
+            subgraph sous-arbre gauche
+            direction TB
+            B((5))
+            D((" "))
+            E((" "))
+            B --> D
+            B --> E
         end
         subgraph sous-arbre droit
-        C((8))
-        F((" "))
-        G((" "))
-        C --> F
-        C --> G
+            direction TB
+            C((8))
+            F((" "))
+            G((" "))
+            C --> F
+            C --> G
         end
         A --> B
         A --> C
