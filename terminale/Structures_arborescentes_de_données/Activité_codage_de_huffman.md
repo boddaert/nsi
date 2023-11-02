@@ -1,10 +1,12 @@
 # Activité : Codage de Huffman
 
-Nature : branchée
+Nature : Branchée
 
 Matériel : Aucun
 
 Prérequis : Arbres binaires, encodages de textes en machine
+
+Groupe : Par deux
 
 ## I. Objectif
 
@@ -26,17 +28,18 @@ L'idée est de construire un arbre binaire et de s'en servir pour donner une tab
 
 Prenons un exemple, le texte : `"aabacbada"` possède cinq lettres `a`, deux lettres `b`, une lettre `c` et une lettre `d`.
 
-A partir de ce texte, voici son arbre de Huffman :
+A partir des fréquences des lettres de ce texte, voici ci-dessous son arbre de Huffman :
 
 ```mermaid
 flowchart TB
-    A(("(a,5)"))
+    
     B(("(b, 2)"))
     C(("(c, 1)"))
     D(("(d, 1)"))
     E(("( , 2)"))
     F(("( , 4)"))
     G(("( , 9)"))
+    A(("(a,5)"))
     G --0--> F
     G --1--> A
     E --0--> C
@@ -45,3 +48,13 @@ flowchart TB
     F --1--> E
 ```
 
+Puis à partir de cet arbre, voici ci-dessous son codage de Huffman :
+
+| Lettre | Encodage |
+| :---: | :---: |
+| `a` | `1` |
+| `b` | `00` |
+| `c` | `010` |
+| `d` | `011` |
+
+Ainsi, le texte `aabacbada` est encodé : `110010100010111`.
