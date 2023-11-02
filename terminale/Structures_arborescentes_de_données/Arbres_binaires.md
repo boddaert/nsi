@@ -134,9 +134,10 @@ flowchart TB
     M((" "))
     N((" "))
     A --> B
-    A --> C
+    
     B --> K
     B --> L
+    A --> C
     C --> F
     C --> G
     F --> D
