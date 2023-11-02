@@ -48,20 +48,22 @@ Un arbre binaire est souvent représenté sous la forme d'un schéma :
 flowchart TB
     subgraph arbre binaire
         A((3))
-        subgraph sous-arbregauche
+        subgraph sous-arbre gauche
         B((5))
-        C((8))
         D((" "))
         E((" "))
-        F((" "))
-        G((" "))
-        A --> B
         B --> D
         B --> E
-        A --> C
+        end
+        subgraph sous-arbre droit
+        C((8))
+        F((" "))
+        G((" "))
         C --> F
         C --> G
         end
+        A --> B
+        A --> C
     end
 ```
 En informatique, les arbres poussent vers le bas.
