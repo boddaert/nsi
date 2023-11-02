@@ -88,24 +88,6 @@ f.enfile(2)
 f.defile()
 ```
 
-## IV. Activité : Tri crêpe
-
-Matériel : Tas de crêpe schématisé par un tas de planche de bois.
-
-Objectif : Ranger par ordre de taille de la plus petite à la plus grande le tas de crêpe. Avec la plus petite au sommet du tas et la plus grande tout en dessous du tas.
-
-Pour cela, vous ne disposez que d'une seule action : placer la spatule entre deux crêpes dans le tas et retourner la partie supérieure.
-
-a) Mettre au point et écrire un algorithme en Français permettant de trier le tas de crêpe.
-
-b) Quelle est la structure de données la plus adaptée pour représenter le tas de crêpe ?
-
-c) Quelle est la structure de données la plus adaptée pour effectuer le retournement du tas supérieur ?
-
-d) Modifier et réécrire l'algorithme en Python et en utilisant les structures de données adaptées.
-
-e) Vérifier le bon fonctionnement de l'algorithme sur Thonny.
-
 _________
 
 [Feuille d'exercice](./Exercices/Exercices_files.md)

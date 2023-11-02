@@ -1,4 +1,4 @@
-# Activité : Le problème du crêpier
+# Activité : Le problème du crêpier psychorigide
 
 Nature : Débranchée
 
