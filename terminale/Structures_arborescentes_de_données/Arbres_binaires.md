@@ -91,7 +91,7 @@ a) $(7, (2, \emptyset, \emptyset), \emptyset)$.
 
 b) $(9, (0, \emptyset, (12, \emptyset, \emptyset)), (23, (90,\emptyset, \emptyset), (55, \emptyset, \emptyset)))$.
 
-c) $(1, (2, (3, \emptyset, \emptyset),\emptyset, \emptyset), \emptyset)$
+c) $(1, \emptyset, (2, \emptyset, (3, \emptyset, \emptyset)))$
 
 ##### Application 3
 
@@ -121,20 +121,27 @@ b)
 ```mermaid
 flowchart TB
     A((3))
-    B((" "))
+    B((4))
     C((55))
-    D((" "))
-    E((" "))
+    D((45))
     F((8))
     G((" "))
     H((89))
     I((" "))
     J((" "))
+    K((" "))
+    L((" "))
+    M((" "))
+    N((" "))
     A --> B
     A --> C
+    B --> K
+    B --> L
     C --> F
     C --> G
     F --> D
+    D --> M
+    D --> N
     F --> H
     H --> I
     H --> J
