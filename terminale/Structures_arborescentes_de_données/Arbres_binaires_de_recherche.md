@@ -108,13 +108,13 @@ En NSI, nous calculons principalement le coût algorithmique du temps.
 
 Les instructions les plus coûteuses sont les comparaisons. Et nous décidons donc de comparer le nombre de comparaisons pour un certain nombre de données en entrée.
 
-Par exemple, la recherche séquentielle d'un élément dans une liste (avec une boucle `for`) effectue $n$ comparaisons pour une liste de taille $n$. Son coût algorithmique est *linéaire* ($O(n)$).
+Par exemple, la recherche séquentielle d'un élément dans une liste (avec une boucle `for`) effectue $n$ comparaisons pour une liste de taille $n$. Son coût algorithmique est *linéaire* $O(n)$.
 
-### b) Coût algorithmique de la recherche dans un arbre binaire de recherche équilibré
+#### Coût algorithmique de la recherche dans un arbre binaire de recherche équilibré
 
 Un arbre *équilibré* est un arbre qui maintient une profondeur de noeud minimum. Un arbre complet est équilibré, un peigne ou un arbre filiforme ne l'est pas. 
 
-Dans un arbre binaire de recherche équilibré, le coût algorithmique de recherche d'un élément est *logarithmique* ($O(log(n))$) ce qui est bien moins grand que la recherche séquentielle.
+Dans un arbre binaire de recherche équilibré, le coût algorithmique de recherche d'un élément est *logarithmique* $O(\log_2 n)$ ce qui est bien moins grand que la recherche séquentielle.
 
 ##### Application 3
 
