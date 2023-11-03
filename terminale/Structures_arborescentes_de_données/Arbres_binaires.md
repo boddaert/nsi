@@ -22,10 +22,14 @@ Donner des exemples informatiques ou de la vie quotidienne de structures pouvant
 
 Un arbre binaire est soit :
 
-- Un arbre vide.
+- Un arbre binaire vide.
+
 - Un triplé constitué :
+
     + D'une racine.
+
     + D'un sous-arbre gauche.
+    
     + D'un sous-arbre droit.
 
 Nous remarquons qu'il s'agit d'une définition récursive : les sous-arbres gauches et droits étant eux aussi des arbres.
