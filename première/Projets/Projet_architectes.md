@@ -1,8 +1,6 @@
-# Projets
+# Projet : Architectes
 
-## Projet n°1 : Architectes
-
-### a) Description
+## I. Description
 
 Vous avez été appelés pour écrire seul un programme permettant de générer **aléatoirement** le dessin d'une rue.
 
@@ -12,7 +10,7 @@ Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exéc
 ![Exemple2](./img/exemple2_architectes.png)
 ![Exemple3](./img/exemple3_architectes.png)
 
-### b) Cahier des charges
+## II. Cahier des charges
 
 1. Votre programme Python doit utiliser les modules `turtle` et `random`.
 
@@ -36,7 +34,7 @@ Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exéc
 
 4. Les contraintes urbaines doivent être respectées.
 
-### c) Contraintes urbaines
+## III. Contraintes urbaines
 
 Les contraintes urbaines sont les suivantes :
 
@@ -52,7 +50,7 @@ Les contraintes urbaines sont les suivantes :
 
 Tout le reste est libre et peut donc être personnalisé.
 
-### d) Module Turtle
+## IV. Module Turtle
 
 Le module `turtle` permet de dessiner dans un repère orthonormé.
 
@@ -84,7 +82,7 @@ Voici quelques fonctions simples pour commencer à utiliser `turtle` :
 
 Documentation de `turtle` : [https://docs.python.org/fr/3/library/turtle.html](https://docs.python.org/fr/3/library/turtle.html)
 
-### e) Evaluation
+## V. Evaluation
 
 Vous serez évalués sur :
 
