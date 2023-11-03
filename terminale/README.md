@@ -45,7 +45,7 @@
 
 - Activité : [Codage de Huffman](./Structures_arborescentes_de_données/Activité_codage_de_huffman.md)
 
-- Leçon 2 : [Arbres binaires de recherche](./Structures_hierarchiques_de_données/Arbres_binaires_de_recherche.md)
+- Leçon 2 : [Arbres binaires de recherche](./Structures_arborescentes_de_données/Arbres_binaires_de_recherche.md)
 
 ___________________
 
