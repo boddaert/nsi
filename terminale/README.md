@@ -28,15 +28,15 @@
 
 - Activité : [Le problème du crêpier psychorigide](./Structures_linéaires_de_données/Activité_probleme_du_crepier_psychorigide.md)
 
-##### Chapitre 5 : [Protocoles de routage](./Pincipe_des_réseaux/Protocoles_de_routage.md)
-
-##### Chapitre 6 : Bases de données
+##### Chapitre 5 : Bases de données
 
 - Leçon 1 : [Modèle relationnel](./Base_de_données/Modèle_relationnel.md)
 
 - Leçon 2 : [Systèmes de gestion de bases de données](./Base_de_données/Systèmes_de_gestion_de_bases_de_données_relationnelles.md)
 
 - Activité : [Crime à SQL City](./Base_de_données/Activité_crime_à_SQL_City.md)
+
+##### Chapitre 6 : [Protocoles de routage](./Pincipe_des_réseaux/Protocoles_de_routage.md)
 
 ##### Chapitre 7 : Structures arborescentes de données
 
