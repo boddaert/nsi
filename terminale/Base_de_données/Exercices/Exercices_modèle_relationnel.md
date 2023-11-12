@@ -8,17 +8,17 @@ La base de données comporte une relation $Film$ et une relation $Realisateur$ c
 
 Voici ci-dessous les attributs de la relation $Film$ :
 
-- (id_film, `Integer`)
+- ($id_film$, `INT`)
 
-- (titre, ...)
+- ($titre$, ...)
 
-- (annee, ...)
+- ($annee$, ...)
 
-- (box_office, ...)
+- ($box_office$, ...)
 
-- (genre, ...)
+- ($genre$, ...)
 
-- (id_realisateur, ...)
+- ($id_realisateur$, ...)
 
 a) Compléter les domaines sur les attributs ci-dessus.
 
@@ -47,17 +47,25 @@ Realisateur = {
 }
 ```
 
-a) Indiquer quelles contraintes d'intégrité n'ont pas été respectées par les entités de la relation ci-dessus.
+b) Indiquer quelles contraintes d'intégrité n'ont pas été respectées par les entités de la relation ci-dessus.
 
-b) Corriger les erreurs afin que les contraintes d'intégrité soient respectées.
+c) Corriger les erreurs afin que les contraintes d'intégrité soient respectées.
 
-c) Expliquer pourquoi le fait d'ajouter l'entité `(36, 'Star Wars V : L'empire contre-attaque', 1979, 140000000, 'Science-fiction', 12)` dans la relation $Film$ viole la contrainte de référence.
+d) Expliquer pourquoi le fait d'ajouter l'entité `(36, 'Star Wars V : L'empire contre-attaque', 1979, 140000000, 'Science-fiction', 12)` dans la relation $Film$ viole la contrainte de référence.
 
 ## Exercice 3
 
 Donner la modélisation relationnelle d'un bulletin scolaire.
 
-Cette modélisation devra comporter au moins trois relations représentant les élèves, les disciplines et les notes ainsi que les liens entre elles.
+Cette modélisation devra inclure au moins quatre relations représentant les élèves, les disciplines, les professeurs et les notes ainsi que les liens entre elles.
+
+Donner pour chaque relation leur schéma en spécifiant les contraintes de domaine, d'entité et de référence.
+
+## Exercice 4
+
+Donner la modélisation relationnelle d'une équipe e-sport de League Of Legends.
+
+Cette modélisation devra inclure au moins quatre relations représentant les équipes, les joueurs, les ligues et les champions/personnages.
 
 Donner pour chaque relation leur schéma en spécifiant les contraintes de domaine, d'entité et de référence.
 

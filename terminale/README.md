@@ -46,13 +46,23 @@
 
 - Leçon 2 : [Arbres binaires de recherche](./Structures_arborescentes_de_données/Arbres_binaires_de_recherche.md)
 
-___________________
+##### Chapitre 8 : Mise au point des programmes
 
-Chapitre _ : [Sécurisation des communications](./Sécurisation des communications/Sécurisation des communications.md)
+- Activité : [Recherche dichotomique]
 
-Chapitre _ : [Diviser pour régner](./Diviser pour régner/Diviser pour regner.md)
+- Projet
 
-Chapitre _ : [Rappels sur les Tris de Première](./Rappels Tris/Rappels des Tris de Première.md)
+##### Chapitre 9 : Diviser pour régner
+
+##### Chapitre 10 : Architecture des machines 1
+
+- Leçon 1 : Gestion des processus et des ressources
+
+##### Chapitre 11 : [Sécurisation des communications](./Sécurisation_des_communications/Securisation_des_communications.md)
+
+##### Chapitre 12 : Graphes
+
+- Projet
 
 ______________________
 

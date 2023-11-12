@@ -68,8 +68,6 @@ Toutes les entités d'une relation obéissent au schéma relationnel de la relat
 
 ### c) Schéma relationnel
 
-Un *schéma relationnel* est un format dans lequel la relation doit se conformer pour entrer ses entités.
-
 Un schéma relationnel est composé d'attributs.
 
 Un *attribut* est un couple $(nom, domaine)$ où le domaine correspond au type de l'attribut.
@@ -83,6 +81,8 @@ Par exemple, les attributs de la relation $Livre$ sont :
 - ($annee$, `INT`)
 
 - ($editeur$, `VARCHAR`)
+
+Un *schéma relationnel* est une description donnant tous les attributs de la relation.
 
 Le schéma relationnel de la relation $Livre$ est :
 
@@ -98,7 +98,7 @@ Donner le schéma relationnel de la relation $Usager$ en supposant qu'un usager 
 
 ##### Application 3
 
-En respectant le schéma relationnel donné à la question précédente, donner au moins trois entités à la relation $Usager$.
+En respectant le schéma relationnel donné à la question précédente, donner au moins trois exemples d'entités pour la relation $Usager$.
 
 ## III. Contraintes d'intégrité
 
@@ -120,7 +120,7 @@ Vérifier puis expliquer pourquoi la contrainte de domaine est respectée (ou pa
 
 La *contrainte d'entité* permet de s'assurer que chaque entité d'une relation est unique.
 
-Il n'est pas impossible qu'il y ait deux fois le même ouvrage dans une bibliothèque, pourtant il s'agit bien de deux entités distinctes.
+Il n'est pas impossible qu'il y ait deux fois le même ouvrage dans une bibliothèque ou bien que deux usagers aient les mêmes nom/prénom , pourtant il s'agit bien de deux entités distinctes.
 
 Pour les différencier, nous ajoutons au schéma relationnel un nouvel attribut appelé *clé primaire* :
 
@@ -146,19 +146,19 @@ b) Modifier en conséquence les entités de la relation $Usager$.
 
 ### c) Contrainte de référence
 
-La *contrainte de référence* permet de s'assurer qu'une relation mentionne des entités existantes dans d'autres relations.
+La *contrainte de référence* permet de s'assurer qu'une relation mentionne des entités bien existantes dans d'autres relations.
 
 Par exemple, la relation $Emprunt$ mentionne une entité de la relation $Livre$ et une entité de la relation $Usager$. 
 
-Or, pour éviter que la relation $Emprunt$ mentionne des livres ou des usagers inexistants, nous ajoutons à la relation $Emprunt$ les clés étrangères adéquates.
+Or, pour éviter que la relation $Emprunt$ mentionne des livres ou des usagers inexistants, nous ajoutons à la relation $Emprunt$ des clés étrangères.
 
 Une *clé étrangère* est une référence vers une entité unique d'une autre relation.
 
 Pour s'assurer qu'il s'agit d'une référence vers une entité unique, la clé étrangère correspond alors à la clé primaire de l'entité auquel elle fait référence.
 
-Ansi, le schéma relationnel de la relation $Emprunt$ est :
+Ainsi, le schéma relationnel de la relation $Emprunt$ est :
 
-$Emprunt(\\#id\textunderscore livre : VARCHAR, \\#id\textunderscore usager : INT, date : DATE)$
+$Emprunt(\\#id\textunderscore livre : INT, \\#id\textunderscore usager : INT, date : DATE)$
 
 Nous notons usuellement les clé étrangères précédées d'un dièse.
 
@@ -174,9 +174,13 @@ Ajouter en conséquence l'entité dans la relation $Emprunt$.
 
 ### d) Contrainte utilisateur
 
-Les *contraintes utilisateur* sont toutes les contraintes qui ne concernent pas les trois précédentes contraintes d'intégrité.
+Les *contraintes utilisateur* sont des contraintes logiques.
 
-Un exemple de contrainte utilisateur est que l'âge d'un usager ne peut pas être $200$ ou que l'adresse mail d'un usager doit comporter un arobase dans sa chaîne de caractère.
+Un exemple de contrainte utilisateur est par exemple :
+
+- L'âge d'un usager ne peut pas être égal à $200$.
+
+- L'adresse mail d'un usager doit comporter un arobase dans sa chaîne de caractère.
 
 ##### Application 9
 

@@ -65,7 +65,7 @@ Le SGBDR permet de :
 
 - Assurer la sûreté et la perennité des données.
 
-- Aassurer l'accès concurent aux données.
+- Assurer l'accès concurent aux données.
 
 ### b) Présentation du logiciel
 
@@ -108,9 +108,15 @@ Les domaines ou types de données en langage SQL sont :
 | `VARCHAR(n)` | Chaînes de caractère d'au plus $n$ caractères |
 | `DATE` | Date au format `AAAA-MM-JJ` |
 
-La contrainte d'entité (clé primaire) se spécifie avec le mot-clé : `PRIMARY KEY`.
+La contrainte d'entité (clé primaire) se spécifie avec le mot-clé : 
+```sql
+PRIMARY KEY
+```
 
-La contrainte de référence (clé étrangère faisant référence à une clé primaire d'une autre table) se spécifie avec la syntaxe `attribut_clé_étrangère DOMAINE REFERENCES nom_table(attribut_clé_primaire)`.
+La contrainte de référence (clé étrangère faisant référence à une clé primaire d'une autre table) se spécifie avec la syntaxe :
+```sql
+attribut_clé_étrangère DOMAINE REFERENCES nom_table(attribut_clé_primaire)
+```
 
 Les contraintes utilisateur ne sont pas au programme de Terminale.
 
@@ -290,7 +296,7 @@ SELECT attribut FROM nom_table_1 JOIN nom_table_2 ON clé_table_1 = clé_table_2
 Par exemple, il nous faut joindre les tables `Livre` et `Emprunt` si nous voulons obtenir les titres des livres qui sont empruntés :
 
 ```sql
-SELECT L.titre FROM Emprunt AS E JOIN Livre AS L ON E.id_livre = L.id_livre;
+SELECT Livre.titre FROM Livre JOIN Emprunt ON Livre.id_livre = Emprunt.id_livre;
 ```
 
 ##### Application 12
