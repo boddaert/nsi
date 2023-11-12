@@ -76,7 +76,7 @@ Celui qui prend le dernier a perdu.
 
 ### c) Règles du Plus ou moins
 
-Le premier joueur choisis un nombre entre zéro et cent que le deuxième joueur tentera de retrouver en sept essais minimum.
+Le premier joueur choisis un nombre entre zéro et cent que le deuxième joueur tentera de retrouver en sept essais maximum.
 
 Pour cela, le second joueur propose un nombre et le premier lui indique si son nombre est supérieur ou inférieur au nombre proposé.
 
