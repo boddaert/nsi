@@ -42,6 +42,11 @@ Puis pour vérifier le résultat :
 SELECT value FROM solution;
 ```
 
+## IV. Travail à faire
+
+Vous devez rédiger un rapport d'enquête afin de prouver l'identité du coupable.
+
+Pour cela, vous écrirez toutes les requêtes (ainsi que la ou les réponses permettant de faire les liens entre vos hypothèses) permettant de remonter jusqu'à votre conclusion.
 ________________
 
 [Sommaire](./../README.md)
