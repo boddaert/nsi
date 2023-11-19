@@ -31,14 +31,8 @@ Une ressource est soit libre soit occupée par un processus, elle possède un ce
 ### b) Etats d'un processus
 
 ```mermaid
-flowchart LR
-    A(("Prêt"))
-    B(("Elu"))
-    C(("Bloqué"))
-    A--Election-->B
-    B--Préemption-->A
-    B--Blocage-->C
-    C--Déblocage-->A
+stateDiagram-v2
+    s1 --> s2: A transition
 ```
 
 ### c) Visualisation des processus
