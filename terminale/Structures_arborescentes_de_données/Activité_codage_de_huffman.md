@@ -65,13 +65,13 @@ L'algorithme de construction de l'arbre de Huffman est le suivant :
 
 - Calculer les occurences de chaque lettre du texte.
 
-- Pour chaque occurence de lettre, créer un arbre dans lequel se trouve un couple $(lettre, occurence)$.
+- Pour chaque occurence de lettre, créer un arbre d'un seul noeud dans lequel se trouve dans la racine un couple $(lettre, occurence)$.
 
 - Placer tous les arbres dans une liste appelée forêt.
 
 - Tant qu'il n'y a pas qu'un seul arbre dans la forêt faire :
 
-    + Trouver les deux arbres $a$ et $b$ ayant les poids les plus faibles.
+    + Trouver les deux arbres $a$ et $b$ ayant les poids (occurences) les plus faibles.
 
     + Fusionner les deux arbres en un où le sous-arbre gauche est $a$, le sous-arbre droit est $b$ et où le poids de la racine de cet arbre est égal à la somme des poids des racines des deux sous-arbres.
 
@@ -79,12 +79,15 @@ L'algorithme de construction de l'arbre de Huffman est le suivant :
 
 Par groupe de deux, répondre aux questions suivantes :
 
+### Partie A : Sur papier
+
 a) En suivant l'algorithme de construction de l'arbre de Huffman, construire l'arbre de Huffman à partir du texte suivant : `la cigale ayant chanté tout l'été`.
 
 b) Construire le codage de Huffman de ce texte à partir de l'arbre construit à la question précédente.
 
-c) Enfin, encoder le texte en binaire selon le codage de Huffman.
+c) Enfin, à partir du codage de Huffman, encoder le texte en binaire.
 
+### Partie B : Sur l'ordinateur 
 
 ```python
 texte = """la cigale et la fourmi,

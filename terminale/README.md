@@ -46,17 +46,19 @@
 
 - Leçon 2 : [Arbres binaires de recherche](./Structures_arborescentes_de_données/Arbres_binaires_de_recherche.md)
 
-##### Chapitre 8 : Mise au point des programmes
+##### Chapitre 8 : Architecture des machines 1
+
+- Leçon 1 : [Gestion des processus et des ressources](./Architecture%20des%20machines/Gestion_des_processus_et_des_ressources.md)
+
+- Activité : [Panique à la boulangerie](./Architecture%20des%20machines/Activité_panique_à_la_boulangerie.md)
+
+##### Chapitre 9 : Mise au point des programmes
 
 - Activité : [Recherche dichotomique]
 
 - Projet
 
-##### Chapitre 9 : Diviser pour régner
-
-##### Chapitre 10 : Architecture des machines 1
-
-- Leçon 1 : Gestion des processus et des ressources
+##### Chapitre 10 : Diviser pour régner
 
 ##### Chapitre 11 : [Sécurisation des communications](./Sécurisation_des_communications/Securisation_des_communications.md)
 

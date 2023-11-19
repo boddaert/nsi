@@ -93,9 +93,9 @@ Créer, dans votre répertoire de travail, le fichier de base de données `test_
 
 En SQL, créer une table se fait selon la syntaxe suivante :
 
-```sql
-CREATE TABLE nom_table ( attribut_1 DOMAINE CONTRAINTE,
-                        attribut_2 DOMAINE CONTRAINTE
+```
+CREATE TABLE <nom_table> ( <nom_attribut_1> DOMAINE,
+                        <nom_attribut_2> DOMAINE
 );
 ```
 
@@ -108,14 +108,14 @@ Les domaines ou types de données en langage SQL sont :
 | `VARCHAR(n)` | Chaînes de caractère d'au plus $n$ caractères |
 | `DATE` | Date au format `AAAA-MM-JJ` |
 
-La contrainte d'entité (clé primaire) se spécifie avec le mot-clé : 
-```sql
-PRIMARY KEY
+La contrainte d'entité (clé primaire) se spécifie avec le mot-clé `PRIMARY KEY` : 
+```
+<nom_attribut_clé_primaire> DOMAINE PRIMARY KEY
 ```
 
 La contrainte de référence (clé étrangère faisant référence à une clé primaire d'une autre table) se spécifie avec la syntaxe :
-```sql
-attribut_clé_étrangère DOMAINE REFERENCES nom_table(attribut_clé_primaire)
+```
+<nom_attribut_clé_étrangère> DOMAINE REFERENCES <nom_table>(<nom_attribut_clé_primaire>)
 ```
 
 Les contraintes utilisateur ne sont pas au programme de Terminale.
@@ -145,9 +145,9 @@ Ecrire les requêtes SQL permettant de créer les tables correspondantes aux rel
 
 Nous ajoutons des données dans la table selon la syntaxe suivante :
 
-```sql
-INSERT INTO nom_table VALUES (entité_1_valeur_1, entité_1_valeur_2),
-    (entité_2_valeur_1, entité_2_valeur_2);
+```
+INSERT INTO <nom_table> VALUES (<entité_1_valeur_1>, <entité_1_valeur_2>),
+    (<entité_2_valeur_1>, <entité_2_valeur_2>);
 ```
 
 Par exemple, la requête SQL suivante permet d'ajouter à la table `Livre` ses entités :
@@ -179,14 +179,14 @@ La sélection de données consiste à n'obtenir que les données d'une ou plusie
 
 Elle s'effectue avec la syntaxe suivante :
 
-```sql
-SELECT attribut_1, attribut_2 FROM nom_table;
+```
+SELECT <nom_attribut_1>, <nom_attribut_2> FROM <nom_table>;
 ```
 
-Par exemple, la requête SQL permettant d'obtenir tous les titres de livre contenus dans la table `Livre` est :
+Par exemple, la requête SQL permettant d'obtenir tous les titres et auteurs de livre contenus dans la table `Livre` est :
 
 ```sql
-SELECT titre from Livre;
+SELECT titre, auteur from Livre;
 ```
 
 ##### Application 7
@@ -201,8 +201,8 @@ La projection de données consiste à n'obtenir que les données d'une ou plusie
 
 Elle s'effectue avec la syntaxe suivante :
 
-```sql
-SELECT * FROM nom_table WHERE condition;
+```
+SELECT * FROM <nom_table> WHERE <condition>;
 ```
 
 `*` signifie toutes les colonnes.
@@ -249,8 +249,8 @@ Les *fonctions d'agrégation* sont des fonctions appliquées à l'ensemble des v
 
 Les appels aux fonctions d'agrégation obéissent à la syntaxe suivante :
 
-```sql
-SELECT fonction_agrégation(attribut) FROM nom_table;
+```
+SELECT <fonction_agrégation>(<nom_attribut>) FROM <nom_table>;
 ```
 
 Par exemple, la requête SQL permettant d'obtenir l'année du livre publié en premier depuis la table `Livre` est :
@@ -289,8 +289,8 @@ Nous allons nous servir des clés primaires et des clés étrangères pour joind
 
 Sa syntaxe est la suivante :
 
-```sql
-SELECT attribut FROM nom_table_1 JOIN nom_table_2 ON clé_table_1 = clé_table_2;
+```
+SELECT <nom_attribut> FROM <nom_table_1> JOIN <nom_table_2> ON <clé_table_1> = <clé_table_2>;
 ```
 
 Par exemple, il nous faut joindre les tables `Livre` et `Emprunt` si nous voulons obtenir les titres des livres qui sont empruntés :
@@ -311,8 +311,8 @@ b) Ecrire la requête SQL permettant d'obtenir les prénoms et les noms des usag
 
 La mise à jour de données s'effectue selon la syntaxe suivante :
 
-```sql
-UPDATE nom_table SET attribut = nouvelle_valeur WHERE condition;
+```
+UPDATE <nom_table> SET <nom_attribut> = <nouvelle_valeur> WHERE <condition>;
 ```
 
 Par exemple, la requête permettant de mettre à jour la date de publication en 1970 des livres dont l'auteur est Isaac Asimov est :
@@ -331,8 +331,8 @@ b) Vérifier dans l'onglet `Parcourir les données` que la mise à jour a bien �
 
 La suppression de données s'effectue selon la syntaxe suivante :
 
-```sql
-DELETE FROM nom_table WHERE condition;
+```
+DELETE FROM <nom_table> WHERE <condition>;
 ```
 
 Par exemple, la requête SQL permettant de supprimer les livres dont l'auteur est Isaac Asimov est :
