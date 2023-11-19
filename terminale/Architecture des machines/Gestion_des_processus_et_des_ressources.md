@@ -32,7 +32,7 @@ Une ressource est soit libre soit occupée par un processus, elle possède un ce
 
 ```mermaid
 stateDiagram-v2
-    direction LR
+    direction TB
     A : PRET
     note right of A
         Un processus dans l'état PRET attend que le processeur
