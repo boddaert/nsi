@@ -92,11 +92,13 @@ Nous pouvons afficher plus d'informations des processus et en temps réel avec l
 
 - `%CPU` : L’utilisation en pourcentage du processeur du processus.
 
-- `%MEM` : Le pourcentage de la taille utilisée par le processus.
+- `%MEM` : Le pourcentage de la taille en mémoire utilisée par le processus.
 
 - `STAT` : Le code d’état du processus (`Z` pour Zombie, `S` pour Dormant et `R` pour en cours d’exécution).
 
 Un processus peut créer un autre processus, le *PPID* décrit alors l'identifiant du processus père.
+
+La commande `pstree` permet de visualiser sous forme d'arbre tous les processus engendrés par leur prédécésseur.
 
 Le processus `init` est le premier programme lancé par la machine et a comme PID : $1$.
 
