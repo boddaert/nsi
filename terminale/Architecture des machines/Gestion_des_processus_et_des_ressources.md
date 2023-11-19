@@ -35,16 +35,20 @@ stateDiagram-v2
     direction TB
     A : PRET
     note right of A
-        Un processus dans l'état PRET attend que le processeur
-        le choissise lors de l'élection pour qu'il s'exécute.
+        Un processus dans l'état PRET
+        attend que le processeur
+        le choissise lors de l'élection
+        pour qu'il s'exécute.
     end note
     B : ELU
     note right of B
-        Un processus dans l'état ELU a été choisis et s'exécute.
+        Un processus dans l'état ELU a
+        été choisis et s'exécute.
     end note
     C : BLOQUE
     note right of C
-        Un processus dans l'état BLOQUE attend que la ressource dont
+        Un processus dans l'état BLOQUE
+        attend que la ressource dont
         il a besoin soit disponible.
     end note
     [*] --> A : Création
