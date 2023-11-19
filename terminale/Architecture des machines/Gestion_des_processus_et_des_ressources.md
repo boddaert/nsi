@@ -33,13 +33,35 @@ Une ressource est soit libre soit occupée par un processus, elle possède un ce
 ```mermaid
 stateDiagram-v2
     direction LR
-    [*] --> Prêt : Création
-    Prêt --> Elu : Election
-    Elu --> Prêt : Préemption
-    Elu --> Bloqué : Blocage
-    Elu --> [*] : Terminaison
-    Bloqué --> Prêt : Déblocage
+    A : PRET
+    note right of A
+        Un processus dans l'état PRET attend que le processeur
+        le choissise lors de l'élection pour qu'il s'exécute.
+    end note
+    B : ELU
+    note right of B
+        Un processus dans l'état ELU a été choisis et s'exécute.
+    end note
+    C : BLOQUE
+    note right of C
+        Un processus dans l'état BLOQUE attend que la ressource dont
+        il a besoin soit disponible.
+    end note
+    [*] --> A : Création
+    A --> B : Election
+    B --> A : Préemption
+    B --> C : Blocage
+    B --> [*] : Terminaison
+    C --> A : Déblocage
 ```
+
+Lorsqu'un programme commence son exécution, un processus est alors créé : c'est la `création` d'un processus.
+
+Lorsqu'un processus est créé, il passe dans l'état `PRET` : il attend que le processeur le choisisse.
+
+S'il est choisis lors de l'`élection`, il passe dans l'état `ELU`.
+
+Lorsqu'un processus est dans l'état `ELU`, il s'exécute. S'il a toute les ressources dont il a besoin il peut terminer son exécution.
 
 ### c) Visualisation des processus
 
