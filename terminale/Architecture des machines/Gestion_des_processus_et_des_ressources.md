@@ -47,7 +47,7 @@ stateDiagram-v2
         été choisis et s'exécute.
 
         Si le processeur décide d'exécuter
-        un processus plus important, le 
+        un processus prioritaire, le 
         processus dont il avait la charge
         passe dans l'état PRET.
 
@@ -74,25 +74,39 @@ stateDiagram-v2
     C --> A : Déblocage
 ```
 
-Lorsqu'un programme commence son exécution, un processus est alors créé : c'est la `création` d'un processus.
-
-Lorsqu'un processus est créé, il passe dans l'état `PRET` : il attend que le processeur le choisisse.
-
-S'il est choisis lors de l'`élection`, il passe dans l'état `ELU`.
-
-Lorsqu'un processus est dans l'état `ELU`, il s'exécute. S'il a toute les ressources dont il a besoin il peut terminer son exécution.
-
 ### c) Visualisation des processus
 
+Nous visualisons facilement les processus actuels en exécutant la commande `ps` dans le terminal :
+
+```bash
+    PID TTY          TIME CMD
+  11737 pts/1    00:00:00 bash
+  13000 pts/1    00:00:00 ps
+```
+
+Nous remarquons que la commande `ps` est elle-même un programme en cours d'exécution. (Ainsi que `bash` pour le terminal)
+
+Nous pouvons afficher plus d'informations des processus et en temps réel avec la commande `top` comme :
+
+- `USER` : L’utilisateur qui exécute le processus.
+
+- `%CPU` : L’utilisation en pourcentage du processeur du processus.
+
+- `%MEM` : Le pourcentage de la taille utilisée par le processus.
+
+- `STAT` : Le code d’état du processus (`Z` pour Zombie, `S` pour Dormant et `R` pour en cours d’exécution).
+
+Un processus peut créer un autre processus, le *PPID* décrit alors l'identifiant du processus père.
+
+Le processus `init` est le premier programme lancé par la machine et a comme PID : $1$.
+
+## II. Politiques d'ordonnancement
 
 
-## Politiques d'ordonnancement
 
 
 
-
-
-## Problèmes
+## III. Problèmes
 
 ### Exclusion mutuelle
 ### Interblocage
