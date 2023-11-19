@@ -32,7 +32,11 @@ Une ressource est soit libre soit occupée par un processus, elle possède un ce
 
 ```mermaid
 stateDiagram-v2
-    s1 --> s2: A transition
+    [*] --> Prêt : Création
+    Prêt --> Elu : Election
+    Elu --> Bloqué : Blocage
+    Elu --> [*] : Terminaison
+    Bloqué --> Prêt : Déblocage
 ```
 
 ### c) Visualisation des processus
