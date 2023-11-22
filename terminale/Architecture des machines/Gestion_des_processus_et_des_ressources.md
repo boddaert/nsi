@@ -111,14 +111,12 @@ Voici, pour illustrer les différentes politiques, un exemple d'ensemble de troi
 | PID | Durée d'exécution | Temps d'arrivée | Priorité |
 | :---: | :---: | :---: |:---: |
 | $1$ | $4$ | $t0$ | $0$ |
-| $2$ | $2$ | $t3$ | $1$ |
+| $2$ | $2$ | $t2$ | $1$ |
 | $3$ | $3$ | $t4$ | $2$ |
 
 ### a) Premier arrivé, premier servi
 
-La politique du premier arrivé, premier servi est comme son nom l'indique un ordre d'exécution des processus selon leur ordre d'arrivée.
-
-
+La politique du premier arrivé, premier servi est comme son nom l'indique un ordre d'exécution des processus selon leur ordre d'arrivée dans la file d'attente :
 
 | PID du processus aloué au processeur | Temps |
 | :---: | :---: |
@@ -132,10 +130,56 @@ La politique du premier arrivé, premier servi est comme son nom l'indique un or
 | $3$ | $t7$ |
 | $3$ | $t8$ |
 
+### b) Par tourniquet
 
-## III. Problèmes
+La politique par tourniquet (*Round-Robin* en anglais) est un ordre d'exécution qui utilise une seconde unité de temps appelée *quantum de temps*.
 
-### Exclusion mutuelle
-### Interblocage
+Cette politique consiste à exécuter les processus dans leur ordre d'arrivée uniquement le temps du quantum. Si le processus ne s'est pas terminé, il rejoint la file d'attente.
 
-#### Coffman
+Avec quantum $= 3$ :
+
+| PID du processus aloué au processeur | Temps |
+| :---: | :---: |
+| $1$ | $t0$ |
+| $1$ | $t1$ |
+| $1$ | $t2$ |
+| $2$ | $t3$ |
+| $2$ | $t4$ |
+| $1$ | $t5$ |
+| $3$ | $t6$ |
+| $3$ | $t7$ |
+| $3$ | $t8$ |
+
+### c) Par priorité préemptive
+
+La politique d'ordonnancement par priorité préemptive est un ordre d'exécution des processus en fonction de leur ordre d'arrivé et de leur priorité :
+
+| PID du processus aloué au processeur | Temps |
+| :---: | :---: |
+| $1$ | $t0$ |
+| $1$ | $t1$ |
+| $2$ | $t2$ |
+| $2$ | $t3$ |
+| $3$ | $t4$ |
+| $3$ | $t5$ |
+| $3$ | $t6$ |
+| $1$ | $t7$ |
+| $1$ | $t8$ |
+
+## III. Interblocage
+
+L'une des missions du système d'exploitation est le partage des ressources par les processus. Une telle gestion peut engendrer quelques problèmes comme l'exclusion mutuelle ou l'interblocage (*Deadlock* en anglais).
+
+L'*interblocage*  est un phénomène qui survient lorsque deux processus possèdent une ressource chacun et attendent mutuellement la disponibilité de l'autre pour se terminer.
+
+```mermaid
+flowchart LR
+    A((P1))
+    B((P2))
+    C[/R1\]
+    D[/R2\]
+    A --possède-->C
+    A-. souhaite .-> D
+    B --possède-->D
+    B-. souhaite .->C
+```
