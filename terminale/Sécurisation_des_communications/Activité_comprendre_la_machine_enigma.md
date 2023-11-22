@@ -1,26 +1,42 @@
 # Activité : Comprendre la machine Enigma
 
-### Exercice 9 Enigma
+Nature : Branchée
 
-Nous allons, dans cet exercice, nous intéresser à la machine Enigma.
+Matériel : Module `py-enigma`
 
-Inventée par l'Allemand Athur Scherbius, cette machine électromecanique portable a servi au chiffrement et déchiffrement de l'intégralité des messages échangés par les Allemands nazis pendant la Seconde Guerre mondiale.
+Prérequis : Sécurisation des communications
 
-a) Pour plus de détails, regarder la vidéo [Enigma Machine - Numberphile](https://www.youtube.com/watch?v=G2_Q9FoD-oQ)
+## I. Objectif
 
-Une clé est constituée :
+L'objectif de cette activité est de comprendre comment la machine Enigma chiffrer les messages.
 
-- des 10 câblages possibles de lettres dans le tableau de connexions.
+## II. Contexte
 
-- de 3 rotors (parmi 5) et de leur position de départ.
+Nous sommes en 1938 et sous la montée du nazisme en Allemagne, Alan Turing, jeune mathématicien britannique est convoqué à la *Government Code and Sypher School* de Betchley Park afin de travailler sur une curieuse machine.
 
-- des câblages du réflecteur.
+Inventée par l'Allemand Athur Scherbius, la machine Enigma électromecanique portable a servi au chiffrement et déchiffrement de l'intégralité des messages échangés par les Allemands nazis pendant la Seconde Guerre mondiale.
 
-Il y a 158 962 555 217 826 360 000 clés possibles. Et les Allemands avaient une clé différente pour chaque jour. Autrement dit, les Alliés avaient 24h pour espérer trouver la clé permettant de déchiffrer les messages du jour.
+Cette machine pouvait concevoir une clé de chiffrement aléatoire à l'aide :
 
-Jusqu'à ce qu'Alan Turing créa sa machine.
+- De dix câblages possibles de lettres dans le tableau de connexions.
 
-b) La bibliothèque ``py-enigma`` permet de simuler le fonctionnement d'une machine Enigma en Python.
+- De trois rotors (parmi cinq) et d'une position de départ.
+
+- De câblages du réflecteur.
+
+Le nombre de clés possibles s'élevant à $158 962 555 217 826 360 000$.
+
+Et les Allemands concevaient une clé différente pour tous les jours.
+
+Autrement dit, les Alliés avaient 24h pour espérer trouver la clé permettant de déchiffrer les messages envoyés le jour même.
+
+Jusqu'à ce qu'Alan Turing créa une machine permettant de décrypter n'importe quel message en quelques minutes.
+
+Vidéo Youtube (10 min) : [Enigma Machine  - Numberphile](https://www.youtube.com/watch?v=G2_Q9FoD-oQ)
+
+## III. Installation
+
+a) Installer la bibliothèque ``py-enigma`` permettant de simuler le fonctionnement d'une machine Enigma en Python.
 
 Pour l'installer :
 
@@ -28,7 +44,9 @@ Pour l'installer :
 
 - Ecrire dans la console qui vient de s'afficher la commande ``pip install py-enigma``
 
-c) Télécharger dans votre répertoire commun le fichier [enigma_machine.py](./src/enigma_machine.py)
+b) Télécharger dans votre répertoire commun le fichier [enigma_machine.py](./src/enigma_machine.py)
+
+## IV. Travail à faire
 
 Pour configurer la position des rotors :
 
@@ -50,9 +68,9 @@ Pour chiffrer une lettre :
 'I'
 ```
 
-d) Quelle est maintenant la position des rotors ?
+a) Quelle est maintenant la position des rotors ?
 
-e) Quelle est maintenant la lettre chiffrée lorsque j'appuie sur ``'A'`` ?
+b) Quelle est maintenant la lettre chiffrée lorsque j'appuie sur ``'A'`` ?
 
 Le déchiffrement se fait de la manière inverse (il faut que la position des rotors soit la même) :
 
@@ -62,6 +80,10 @@ Le déchiffrement se fait de la manière inverse (il faut que la position des ro
 'A'
 ```
 
-f) Ecrire une fonction ``chiffre_enigma(message_clair : str, machine : EnigmaMachine, pos_rotors : str)->str`` qui prend en paramètres un message clair, une machine Enigma configurée et la position des rotors. Cette fonction renvoie le message chiffré.
+c) Ecrire une fonction ``chiffre_enigma(message_clair : str, machine : EnigmaMachine, pos_rotors : str)->str`` qui prend en paramètres un message clair, une machine Enigma configurée et la position des rotors. Cette fonction renvoie le message chiffré.
 
-g) Ecrire une fonction ``dechiffre_enigma(message_chiffre : str, machine : EnigmaMachine, pos_rotors : str)->str`` qui prend en paramètres un message chiffré, une machine Enigma configurée et la position des rotors. Cette fonction renvoie le message clair.
+d) Ecrire une fonction ``dechiffre_enigma(message_chiffre : str, machine : EnigmaMachine, pos_rotors : str)->str`` qui prend en paramètres un message chiffré, une machine Enigma configurée et la position des rotors. Cette fonction renvoie le message clair.
+
+_______________
+
+[Sommaire](./../README.md)

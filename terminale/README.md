@@ -75,7 +75,7 @@
 
 - Projet shoot em up pygame
 
-##### Chapitre 12 : Graphes
+##### Chapitre 12 : Structures relationnelles de données
 
 - Projet
 

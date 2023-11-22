@@ -1,6 +1,6 @@
 # Sécurisation des communications
 
-## Introduction
+## I. Introduction
 
 ***-> Qu'est-ce qu'une communication ?***
 
@@ -26,7 +26,7 @@ Deux idées ont été proposées :
 
 - La seconde, celle qui a été retenue, est de rendre incompréhensibles (ou inintelligibles) les données échangées.
 
-## I. Généralités
+## II. Généralités
 
 ### a) Missions
 
@@ -36,7 +36,7 @@ La sécurisation d'une communication doit accomplir trois missions :
 
 - **L'intégrité** : S'assurer que les données n'ont pas été modifiées entre l'émission et la réception de celles-ci.
 
-- **L'authenticité** : S'assurer que les données proviennent bien de l'entité *A*.
+- **L'authenticité** : S'assurer que les données proviennent bien de l'entité émettrice.
 
 ### b) Idée
 
@@ -52,25 +52,25 @@ Pour réussir un tel stratagème, nous allons nous servir de la Cryptologie.
 
 ### b) Définitions
 
-**Cryptologie** : Science du chiffrement.
+La *cryptologie* est la science du chiffrement.
 
-**Message clair** : Un message dont les données sont compréhensibles.
+Un *message clair* est un message dont les données sont compréhensibles.
 
-**Message chiffré** : Un message dont les données sont incompréhensibles.
+Un *message chiffré* est un message dont les données sont incompréhensibles.
 
-**Chiffrer** : Transformer un message clair en un message chiffré à l'aide d'une clé de chiffrement :
+*Chiffrer* un message revient à transformer un message clair en un message chiffré à l'aide d'une clé de chiffrement :
 
 ![](img/généralités/chiffrement.PNG)
 
-**Déchiffrer** : Transformer un message chiffré en un message clair à l'aide d'une clé de déchiffrement :
+*Déchiffrer* un message revient à transformer un message chiffré en un message clair à l'aide d'une clé de déchiffrement :
 
 ![](img/généralités/dechiffrement.PNG)
 
-**Décrypter** : Transformer un message chiffré en un message clair à l'aide de la cryptanalyse :
+*Décrypter* un message revient à transformer un message chiffré en un message clair à l'aide de la cryptanalyse :
 
 ![](img/généralités/decryptage.PNG)
 
-**Cryptanalyse** : Ensemble de méthodes permettant de retrouver le message clair sans posséder la clé de déchiffrement.
+La *cryptanalyse* est l'ensemble de méthodes permettant de retrouver le message clair sans posséder la clé de déchiffrement.
 
 ### c) Principe de Kerkoffs
 
@@ -80,9 +80,7 @@ Un bon système de chiffrement doit être :
 
 - Difficilement décryptable.
 
------
-
-#### Application 1
+##### Application 1
 
 Décrypter les messages suivants :
 
@@ -92,9 +90,7 @@ Décrypter les messages suivants :
 
 Sont-ils de bons systèmes de chiffrements ?
 
------------
-
-## II. Un peu d'histoire
+## III. Un peu d'histoire
 
 - Les premières méthodes de chiffrement remontent à l'Antiquité. Utilisées à des fins militaires, les Perses, les Carthaginois ou encore les Chinois chiffrèrent leurs ordres. Leurs ennemis ne purent pas connaître les stratégies même s'ils réussissaient à intercepter le message.
 
@@ -102,7 +98,7 @@ Sont-ils de bons systèmes de chiffrements ?
 
 - Au Moyen-Age, en 1404, Leon Battista Alberti inventa le chiffrement poly alphabétique. Il est aujourd'hui considéré comme le père occidental de la cryptologie.
 
-- Durant la Seconde Guerre Mondiale, les allemands Nazis chiffrèrent leurs messages à l'aide de la machine de chiffrement Enigma. Un certain Alan Turing réussissa l'exploit de construire une machine permettant de décrypter automatiquement les messages. On estime à deux ans de guerre supplémentaire et 2 millions de victimes évitées par la création de cette machine.
+- Durant la Seconde Guerre Mondiale, les allemands Nazis chiffrèrent leurs messages à l'aide de la machine de chiffrement Enigma. Un certain Alan Turing réussissa l'exploit de construire une machine permettant de décrypter automatiquement les messages. On estime à deux ans de guerre et deux millions de victimes évitées par la création de cette machine.
 
 - Depuis les années 60, avec l'apparition de l'informatique, la cryptologie est devenue une science à part entière et permet de sécuriser chaques messages envoyé sur le réseau informatique.
 
@@ -110,17 +106,15 @@ Sont-ils de bons systèmes de chiffrements ?
 
 Documentaire Arte (1h) : [Alan Turing | Comment les maths ont vaincu Hitler](https://www.youtube.com/watch?v=WdxHjoCQpJU)
 
-Vidéo Youtube (10 min) : [Enigma Machine  - Numberphile](https://www.youtube.com/watch?v=G2_Q9FoD-oQ)
+## IV. Chiffrements Symétriques
 
-## III. Chiffrements Symétriques
-
-Un chiffrement symétrique est un chiffrement où la clé de chiffrement et de déchiffrement est la même.
+Un *chiffrement symétrique* est un chiffrement où la clé de chiffrement et de déchiffrement est la même.
 
 Il existe deux familles de chiffrements symétriques : les chiffrements monoalphabétiques et les chiffrements polyalphabétiques.
 
 ### a) Chiffrements monoalphabétiques
 
-L'idée est de substituer une lettre par une autre lettre pour chaque lettres de l'alphabet en utilisant un seul alphabet de subsitution.
+L'idée est de substituer une lettre par une autre lettre pour chaque lettre du message en utilisant un seul alphabet de subsitution.
 
 Un célèbre chiffrement monoalphabétique est le Chiffre de César, il substitue une lettre par une autre lettre décalée dans l'alphabet.
 
@@ -137,7 +131,7 @@ Pour déchiffrer, il faut réaliser le décalage dans le sens inverse.
 
 ### b) Chiffrements polyalphabétiques
 
-L'idée est de substituer une lettre par une autre lettre pour chaque lettres de l'alphabet en utilisant plusieurs alphabets de subsitution.
+L'idée est de substituer une lettre par une autre lettre pour chaque lettre du message en utilisant plusieurs alphabets de subsitution.
 
 Un célèbre chiffrement polyalphabétique est le Carré de Vigenère, il utilise le Chiffre de César en variant les alphabets de substitution.
 
@@ -156,53 +150,37 @@ On remarque que le carré de Vigenère permet une plus grande incompréhensibili
 
 Pour déchiffrer, il faut réaliser le décalage dans le sens inverse correspondant à la clé utilisée.
 
---- 
-
-#### Application 2
-
-##### Communiquer avec le carré de Vigenère
+##### Application 2
 
 Cette activité se réalise sur feuille.
 
-- Choisir 2 ou 3 nombres entre 1 et 25, ces nombres représenteront votre clé.
+a) Choisir trois nombres entre $1$ et $25$ qui constitueront votre clé.
 
-- Choisir, parmi la liste ci-dessous, un mot :
-  
-  - ``ATTAQUEZ``
-  
-  - ``DEFENDEZ``
-  
-  - ``REPLIEZ``
-  
-  - ``ATTENDEZ``
-  
-  - ``DETRUISEZ``
+b) Choisir un mot à communiquer avec votre voisin.
 
-- Chiffrer, avec la clé de chiffrement que vous avez choisi, le mot en utilisant la méthode de chiffrement de Vigenère.
+b) Chiffrer, avec la clé de chiffrement que vous avez choisi, le mot en utilisant la méthode de chiffrement de Vigenère.
 
-- Une fois le message chiffré, donner à votre binôme le message et la clé.
+c) Une fois le message chiffré, donner à votre binôme le message et la clé.
 
-- Déchiffrer le message et retrouver le mot.
-
----
+d) Déchiffrer le message que vous avez reçu et retrouver le mot.
 
 ### c) Problème : échange de clé
 
-L'énorme inconvénient du chiffrement symétrique est l'**échange de clé**.
+L'énorme inconvénient du chiffrement symétrique est l'échange de clé.
 
 Si Alice souhaite communiquer de manière sécurisée en utilisant un chiffrement symétrique avec Bob, Alice va devoir lui transmettre la clé elle aussi de manière sécurisée.
 
 Alice va devoir utiliser un chiffrement asymétrique pour résoudre ce problème.
 
-## IV. Chiffrements asymétriques
+## V. Chiffrements asymétriques
 
 L'idée est de ne pas devoir s'échanger une clé pour commencer la communication.
 
 Pour celà, on va utiliser deux clés :
 
-- La clé privée : l'accès à cette clé est limitée à l'entité la possèdant.
+- La *clé privée* : l'accès à cette clé est limitée à l'entité la possèdant.
 
-- La clé publique : l'accès à cette clé n'est pas limitée (toutes les entités peuvent y accéder).
+- La *clé publique* : l'accès à cette clé n'est pas limitée (toutes les entités peuvent y accéder).
 
 ### a) Principe
 
@@ -216,7 +194,7 @@ Alice et Bob possèdent ainsi chacun deux clés, et vont pouvoir s'échanger des
 
 - Bob déchiffre le message avec sa clé privée.
 
-La clé privée est donc utilisée en tant que clé de chiffrement et la clé publique, en tant que clé de déchiffrement.
+La clé publique est donc utilisée en tant que clé de chiffrement et la clé privée, en tant que clé de déchiffrement.
 
 Ci-dessous, un schéma représentant le principe du chiffrement asymétrique :
 
@@ -224,21 +202,17 @@ Ci-dessous, un schéma représentant le principe du chiffrement asymétrique :
 
 ### b) Protocole d'échange de clé symétrique
 
-Le chiffrement asymétrique étant coûteux, on l'utilisera généralement pour se transmettre une clé de chiffrement symétrique de manière sécurisée.
+Le chiffrement asymétrique étant coûteux, nous l'utilisons généralement pour se transmettre une clé de chiffrement symétrique de manière sécurisée.
 
 > *Actuellement, on utilise le chiffrement asymétrique RSA pour échanger une clé de chiffrement symétrique AES.*
 
-------
-
-#### Application 3
+##### Application 3
 
 Simulation en classe.
 
--------
-
 ### c) Problème : attaque de l'Homme du milieu
 
-L'**attaque de l'Homme du milieu** est une stratégie d'attaque permettant à Carole de déchiffrer tous les messages qu'Alice envoie à Bob.
+L'*attaque de l'Homme du milieu* est une stratégie d'attaque permettant à Carole de déchiffrer tous les messages qu'Alice envoie à Bob.
 
 - Avant le début de la communication, Bob envoie sa clé publique à Alice.
 
@@ -254,23 +228,19 @@ L'**attaque de l'Homme du milieu** est une stratégie d'attaque permettant à Ca
 
 ![](img/chiffrements%20asymétriques/attaque%20de%20l'homme%20du%20milieu.PNG)
 
-------------
-
-#### Application 4
+##### Application 4
 
 Simulation en classe.
 
---------------------
-
-## V. Certificats
+## VI. Certificats
 
 ### a) Principe
 
 Afin de sécuriser complètement les communications, les entités doivent prouver leur identité et leur bienveillance.
 
-Pour celà, ils devront possèder un **certificat**.
+Pour celà, ils devront possèder un certificat.
 
-Les certificats sont des cartes d'identité numériques dans lequel plusieurs informations y figurent comme :
+Les *certificats* sont des cartes d'identité numériques dans lequel plusieurs informations y figurent comme :
 
 - Des informations personnelles.
 
@@ -280,9 +250,9 @@ Les certificats sont des cartes d'identité numériques dans lequel plusieurs in
 
 ### b) Autorités de certification
 
-Pour obtenir un certificat, les entités n'ont pas d'autre choix que de demander à une **autorité de certification**.
+Pour obtenir un certificat, les entités n'ont pas d'autre choix que de demander à une autorité de certification.
 
-Les autorités de certification jouent le rôle de tiers de confiance, il peut s'agir d'un gouvernement, d'une grande société. En tout cas, quelqu'un dont, à priori, tout le monde peut avoir confiance.
+Les *autorités de certification* jouent le rôle de tiers de confiance, il peut s'agir d'un gouvernement, d'une grande société. En tout cas, quelqu'un dont, à priori, tout le monde peut avoir confiance.
 
 Ces autorités délivrent les certificats uniquement si les informations transmises sont exactes :
 
@@ -290,9 +260,9 @@ Ces autorités délivrent les certificats uniquement si les informations transmi
 
 Une fois le certificat obtenu, Bob pourra le transmettre à Alice pour prouver son identité. 
 
-## VI. Protocole HTTPS
+## VII. Protocole HTTPS
 
-Le protocole HTTPS (Hyper Text Transfer Protocol Secure) est la version HTTP sécurisée. Il utilise pour celà le protocole TLS (Transport Layer Security).
+Le protocole HTTPS (pour *Hyper Text Transfer Protocol Secure*) est la version HTTP sécurisée. Il utilise pour celà le protocole TLS (pour *Transport Layer Security*).
 
 ### a) Principe de TLS
 
@@ -304,7 +274,7 @@ Il est utilisé lorsqu'un client souhaite se connecter sur un serveur de manièr
 
 - Alice vérifie l'identité de Bob.
 
-- Si Bob est en effet ce qu'il prétend être, Alice génère une clé de chiffrement symétrique qu'on appelle : clé de session.
+- Si Bob est en effet ce qu'il prétend être, Alice génère une clé de chiffrement symétrique que nous appelons : *clé de session*.
 
 - Alice chiffre la clé de session avec la clé publique contenue dans le certificat de Bob et l'envoie à Bob.
 
@@ -314,17 +284,17 @@ Il est utilisé lorsqu'un client souhaite se connecter sur un serveur de manièr
 
 ![](img/https/principe%20https.PNG)
 
-#### Application 5
+##### Application 5
 
-1. Sur Firefox, aller sur : [https://fr.wikipedia.org/wiki/Informatique](https://fr.wikipedia.org/wiki/Informatique).
+a) Sur Firefox, aller sur : [https://fr.wikipedia.org/wiki/Informatique](https://fr.wikipedia.org/wiki/Informatique).
 
-2. A gauche de la barre d'adresse, cliquer sur le cadenas.
+b) A gauche de la barre d'adresse, cliquer sur le cadenas.
 
-3. Puis sur ``connexion sécurisée`` et sur ``Plus d'informations``.
+c) Puis sur ``connexion sécurisée`` et sur ``Plus d'informations``.
 
-4. Sur la fenêtre qui vient de s'ouvrir, cliquer sur le bouton ``Afficher le certificat``.
+d) Sur la fenêtre qui vient de s'ouvrir, cliquer sur le bouton ``Afficher le certificat``.
 
-5. Retrouver et noter les informations suivantes :
+e) Retrouver et noter les informations suivantes :
    
    - Le nom de l'organisation qui a demandé le certificat.
    
@@ -333,7 +303,6 @@ Il est utilisé lorsqu'un client souhaite se connecter sur un serveur de manièr
    - La période de validité du certificat.
    
    - Quelques informations concernant la clé publique.
-
 
 __________
 

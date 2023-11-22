@@ -44,12 +44,12 @@ Ecrire une fonction ``dechiffre_vigenere(message_chiffre : str, cles : tuple)->s
 
 ## Exercice 5
 
-Le chiffrement XOR (Ou Exclusif) est un chiffrement symétrique qui repose sur l'opération logique du XOR.
+Le chiffrement XOR (ou *Ou Exclusif*) est un chiffrement symétrique qui repose sur l'opération logique du XOR.
 
 > *Rappel sur la table de vérité du Ou exclusif :*
 > 
 > | a XOR b | 0   | 1   |
-> | ------- | --- | --- |
+> | :-------: | :---: | :---: |
 > | 0       | 0   | 1   |
 > | 1       | 1   | 0   |
 > 
@@ -62,9 +62,9 @@ Le chiffrement XOR (Ou Exclusif) est un chiffrement symétrique qui repose sur l
 
 Le principe de ce chiffrement est le suivant :
 
-- Encoder sous forme binaire le message clair et la clé.
+1. Encoder sous forme binaire le message clair et la clé.
 
-- Réaliser un Ou Exclusif bit à bit sur chacun des bits du message et de la clé.
+2. Réaliser un Ou Exclusif bit à bit sur chacun des bits du message avec la clé.
 
 Par exemple, si mon message est `0101` et si ma clé est `1001` alors le message chiffré sera `1100` :
 
@@ -77,11 +77,11 @@ De plus, comme il s'agit d'un système de chiffrement symétrique, en réeffectu
 
 Par la suite, nous utiliserons les positions des lettres dans la variable ``alphabet`` pour obtenir la représentation binaire d'une lettre : 
 
-- La lettre ``A`` a pour représentation binaire ``00000``
+- La lettre ``A`` d'indice $0$ a pour représentation binaire ``00000``
 
-- La lettre ``B`` a pour représentation binaire ``00001``
+- La lettre ``B`` d'indice $1$ a pour représentation binaire ``00001``
 
-a) En se servant de la fonction ``bin``, écrire une fonction ``repr_bin(mot : str)->list`` qui prend en paramètre une chaîne de caractères et renvoie une liste dont les éléments sont les représentations binaires des lettres du mot (attention à ce que les représentations binaires aient la même taille) :
+a) En se servant de la fonction ``bin()``, écrire une fonction ``repr_bin(mot : str)->list`` qui prend en paramètre une chaîne de caractères et renvoie une liste dont les éléments sont les représentations binaires des lettres du mot (attention à ce que les représentations binaires aient la même taille) :
 
 ```python
 >>> bin(3)
@@ -123,7 +123,9 @@ L'objectif de cet exercice est de découvrir une méthode permettant de décrypt
 
 Supposons que le message chiffré envoyé est écrit en langue française et que la lettre qui apparaît le plus souvent dans ce message est `E`.
 
-L'idée est de calculer les occurences de chaques lettres chiffrées et de repérer celle qui en a le plus. Puis, de retrouver le nombre $n$ de décalages nécessaire pour chiffrer cette lettre en `E`, $n$ est alors la clé.
+L'idée est de calculer les occurences de chaques lettres chiffrées et de repérer celle qui en a le plus.
+
+Puis, de retrouver le nombre $n$ de décalages nécessaire pour chiffrer cette lettre en `E`, $n$ est alors la clé.
 
 a) Ecrire une fonction `occ(message_chiffre : str)->dict` qui prend en paramètre le message chiffré et renvoie un dictionnaire dans lequel la clé est la lettre et la valeur, son nombre d'occurences :
 
@@ -163,19 +165,19 @@ Pour cet exercice, ajouter dans la variable ``alphabet`` les entiers de zéro à
 
 Le puzzle de Merkle est une méthode permettant de s'échanger une clé de chiffrement de manière (un peu) sécurisée. Voici son principe :
 
-- Alice génère une grande quantité de messages de la forme ``identifiant:i cle:k`` avec $i$ un entier unique et $k$ un entier aléatoire.
+1. Alice génère une grande quantité de messages de la forme ``identifiant:i cle:k`` avec $i$ un entier unique et $k$ un entier aléatoire.
 
-- Alice chiffre chacun de ces messages (Chiffre de César) en utilisant une clé de chiffrement différente.
+2. Alice chiffre chacun de ces messages (Chiffre de César) en utilisant une clé de chiffrement différente.
 
-- Alice envoie l'intégralité de ces messages à Bob.
+3. Alice envoie l'intégralité de ces messages à Bob.
 
-- Bob choisis aléatoirement un message parmi tous et le décrypte.
+4. Bob choisis aléatoirement un message parmi tous et le décrypte.
 
-- Bob trouve alors un identifiant et une clé et envoie à Alice l'identifiant qu'il a trouvé.
+5. Bob trouve alors un identifiant et une clé et envoie à Alice l'identifiant qu'il a trouvé.
 
-- Alice repère la clé associée à cet identifiant.
+6. Alice repère la clé associée à cet identifiant.
 
-- Alice et Bob possèdent tous les deux une clé de chiffrement.
+7. Alice et Bob possèdent tous les deux une clé de chiffrement.
 
 ##### Etape 1 Alice
 
@@ -218,7 +220,7 @@ e) Compléter la fonction ``simulation`` afin de correspondre au principe du puz
 
 ### Exercice 8 (Difficile)
 
-Nous savons de source sûre que la clé est constituée de $3$ entiers et que la méthode de chiffrement est celui du carré de Vigenère.
+Nous savons de source sûre que la clé est constituée de trois entiers et que la méthode de chiffrement est celui du carré de Vigenère.
 
 Décrypter : ``gjwvkiafmnmfcgcedmfjwvkmyxmfkwhktruqrdarhbcgcedmfkmvyvrmzffivfaqsvfdmhjaqwurmzrklrhqrjzrfmhxxbmzywauguzwazgzgwtfvmflqawanmbewxnkcahwhjtrkmvyvrmzqwagwvrtzrkahjabfabejewbegvrviaktrhilklrewevwegcfwbrflrfbywabejewahfiafmnmxbmzywatgciwzawzggcfmvnfvrsccgcedmflzbmdrjcasvawihhwhjtrkizwvrjbbmarllnfaywagwvrtzrktrktvwznmxnqaqwubjlbjwhkmgwvqwvgdmfguojmflwhlkricvwaggzawjeatywxnkbbmapwckicvwzewvgfmfgvghifhmevcfdmiamhpyhamflnbjbawlrhmeabcgqaltrkznuqawacjwsgvqwaawabfbcsanlbravgwacszywordlrkkrflewahfnrmarnmvdtrjiqwabejewahfmymuvwzrbivdtvjiewvbmdrdmrkmestrhmricvxcgtzvkmrdmfsvfuwhjwafmfwznvmagciwihjwvdmisagwubflrnwhkmalwhjmqwbbmapgbrkdbmacgciwhigcfwvpdwewunaaigcffmcgciwhrlmefmydmzwvgdmgwvvjmavmugzfvmigapdwgmzrkcasvawihhwhjtrkobmdrjvrjbbmahfiafmnmxbmzywagjwhnmemvnfvrsccgcedmfsurfmelwhkmgviaktrkbrfmojmfdmfdqrj``
 
