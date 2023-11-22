@@ -1,3 +1,8 @@
+# Exercices
+
+## Exercice 1
+
+
 L'algorithme de la politique du premier arrivé, premier servi est le suivant :
 
 ```

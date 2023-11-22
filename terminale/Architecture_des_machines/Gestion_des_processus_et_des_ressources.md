@@ -102,6 +102,14 @@ La commande `pstree` permet de visualiser sous forme d'arbre tous les processus 
 
 Le processus `init` est le premier programme lancé par la machine et a comme PID : $1$.
 
+##### Application 1
+
+a) Sur le terminal de votre ordinateur, lancer la commande `ps`.
+
+b) Sur le terminal de votre ordinateur, lancer la commande `top`.
+
+c) Sur le terminal de votre ordinateur, lancer la commande `pstree`.
+
 ## II. Politiques d'ordonnancement
 
 Une *politique d'ordonnancement* est l'ordre, décidé par le processeur, par lequel les processus seront exécutés.
@@ -166,6 +174,16 @@ La politique d'ordonnancement par priorité préemptive est un ordre d'exécutio
 | $1$ | $t7$ |
 | $1$ | $t8$ |
 
+##### Application 2
+
+| PID | Durée d'exécution | Temps d'arrivée | Priorité |
+| :---: | :---: | :---: |:---: |
+| $1$ | $2$ | $t0$ | $1$ |
+| $2$ | $5$ | $t1$ | $3$ |
+| $3$ | $3$ | $t2$ | $2$ |
+
+D'après le tableau ci-dessus, donner pour chacune des trois politiques l'ordonnancement des processus.
+
 ## III. Interblocage
 
 L'une des missions du système d'exploitation est le partage des ressources par les processus. Une telle gestion peut engendrer quelques problèmes comme l'exclusion mutuelle ou l'interblocage (*Deadlock* en anglais).
@@ -184,7 +202,7 @@ flowchart TB
     B-. souhaite .->C
 ```
 
-##### Application
+##### Application 3
 
 [Activité : Panique à la boulangerie](./Activité_panique_à_la_boulangerie.md)
 ____________

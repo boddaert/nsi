@@ -52,7 +52,7 @@
 
 ##### Chapitre 8 : Architecture des machines 1
 
-- Leçon 1 : [Gestion des processus et des ressources](./Architecture%20des%20machines/Gestion_des_processus_et_des_ressources.md)
+- Leçon 1 : [Gestion des processus et des ressources](./Architecture_des_machines/Gestion_des_processus_et_des_ressources.md)
 
 - Activité : [Panique à la boulangerie](./Architecture%20des%20machines/Activité_panique_à_la_boulangerie.md)
 
