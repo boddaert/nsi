@@ -104,8 +104,23 @@ Le processus `init` est le premier programme lancé par la machine et a comme PI
 
 ## II. Politiques d'ordonnancement
 
+Une *politique d'ordonnancement* est l'ordre, décidé par le processeur, par lequel les processus seront exécutés.
 
+Voici, pour illustrer les différentes politiques, un exemple d'ensemble de trois processus :
 
+| PID | Durée d'exécution | Temps d'arrivée | Priorité |
+| :---: | :---: | :---: |:---: |
+| $1$ | $4$ | $t0$ | $0$ |
+| $2$ | $2$ | $t3$ | $1$ |
+| $3$ | $3$ | $t4$ | $2$ |
+
+### a) Premier arrivé, premier servi
+
+La politique du premier arrivé, premier servi est comme son nom l'indique un ordre d'exécution des processus selon leur ordre d'arrivée.
+
+| | $t0$ | $t1$ | $t2$ | $t3$ | $t4$ | $t5$ | $t6$ | $t7$ | $t8$ | $t9$ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| PID du processus aloué au processeur : | $1$ | $1$ | $1$ | $1$ | $2$ | $2$ | $3$ | $3$ | $3$ |
 
 
 ## III. Problèmes
