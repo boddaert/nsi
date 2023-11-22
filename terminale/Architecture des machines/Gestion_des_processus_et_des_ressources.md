@@ -173,7 +173,7 @@ L'une des missions du système d'exploitation est le partage des ressources par 
 L'*interblocage*  est un phénomène qui survient lorsque deux processus possèdent une ressource chacun et attendent mutuellement la disponibilité de l'autre pour se terminer.
 
 ```mermaid
-flowchart LR
+flowchart TB
     A((P1))
     B((P2))
     C[/R1\]
