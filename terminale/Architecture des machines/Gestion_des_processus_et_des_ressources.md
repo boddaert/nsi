@@ -183,3 +183,11 @@ flowchart TB
     B --possède-->D
     B-. souhaite .->C
 ```
+
+____________
+
+[Feuille d'exercice](./Exercices/Exercices_gestion_des_processus_et_des_ressources.md)
+
+____________
+
+[Sommaire](./../README.md)
