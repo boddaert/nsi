@@ -118,7 +118,7 @@ Voici, pour illustrer les différentes politiques, un exemple d'ensemble de troi
 
 La politique du premier arrivé, premier servi est comme son nom l'indique un ordre d'exécution des processus selon leur ordre d'arrivée.
 
-| | $t0$ | $t1$ | $t2$ | $t3$ | $t4$ | $t5$ | $t6$ | $t7$ | $t8$ | $t9$ |
+| | $t0$ | $t1$ | $t2$ | $t3$ | $t4$ | $t5$ | $t6$ | $t7$ | $t8$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | PID du processus aloué au processeur : | $1$ | $1$ | $1$ | $1$ | $2$ | $2$ | $3$ | $3$ | $3$ |
 
