@@ -60,7 +60,7 @@
 
 - Leçon 1 : [Sécurisation des communications](./Sécurisation_des_communications/Sécurisation_des_communications.md)
 
-- Activité : [Comprendre la machine Enigma]
+- Activité : [Comprendre la machine Enigma](./Sécurisation_des_communications/Activité_comprendre_la_machine_enigma.md)
 
 
 
