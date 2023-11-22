@@ -184,6 +184,9 @@ flowchart TB
     B-. souhaite .->C
 ```
 
+##### Application
+
+[Activité : Panique à la boulangerie](./Activité_panique_à_la_boulangerie.md)
 ____________
 
 [Feuille d'exercice](./Exercices/Exercices_gestion_des_processus_et_des_ressources.md)
