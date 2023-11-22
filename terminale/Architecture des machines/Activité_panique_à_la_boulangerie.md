@@ -40,6 +40,9 @@ flowchart LR
     J((Ressource))
     K((Processeur central))
     L((Recette))
+    A ~~~ B ~~~ C ~~~ D
+    E ~~~ F ~~~ G ~~~ H
+    I ~~~ J ~~~ K ~~~ L
 ```
 
 b) Dans chacune des situations suivantes, expliquer pourquoi il y a ou pas interblocage :
