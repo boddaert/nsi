@@ -331,7 +331,7 @@ Procédure parcours_largeur_d_abord(ab : ArbreBinaire):
 
 ##### Application 8
 
-Exécuter l'algorithme du parcours en profondeur d'abord sur les arbres de l'application trois afin de vérifier vos réponses à l'application sept.
+Exécuter à la main l'algorithme du parcours en profondeur d'abord sur les arbres de l'application trois afin de vérifier vos réponses à l'application sept.
 
 ### c) Parcours en profondeur d'abord
 
@@ -403,9 +403,9 @@ Procédure parcours_profondeur_d_abord_recursif(ab : ArbreBinaire):
 ```
 ##### Application 10
 
-a) Exécuter l'algorithme itératif du parcours en profondeur d'abord sur le premier arbre de l'application trois afin de vérifier votre réponse à l'application neuf.
+a) Exécuter à la main l'algorithme itératif du parcours en profondeur d'abord sur le premier arbre de l'application trois afin de vérifier votre réponse à l'application neuf.
 
-b) Exécuter l'algorithme récursif du parcours en profondeur d'abord sur le second arbre de l'application trois afin de vérifier votre réponse à l'application neuf.
+b) Exécuter à la main l'algorithme récursif du parcours en profondeur d'abord sur le second arbre de l'application trois afin de vérifier votre réponse à l'application neuf.
 
 ### e) Types parcours en profondeur d'abord
 

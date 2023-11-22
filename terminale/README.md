@@ -16,7 +16,11 @@
 
 - Projet n°2 : [Combat de Pokémons](./Projets/Projet_combat_de_pokémons.md)
 
-##### Chapitre 3 : [Récursivité](./Récursivité/Recursivite.md)
+##### Chapitre 3 : Récursivité
+
+- Leçon 1 : [Récursivité](./Récursivité/Recursivite.md)
+
+- Activité : [Couples de lapins](./Récursivité/Activité_couples_de_lapins.md)
 
 ##### Chapitre 4 : Structures linéaires de données
 
@@ -52,15 +56,24 @@
 
 - Activité : [Panique à la boulangerie](./Architecture%20des%20machines/Activité_panique_à_la_boulangerie.md)
 
-##### Chapitre 9 : Mise au point des programmes
+##### Chapitre 9 : Sécurisation des communications
 
-- Activité : [Recherche dichotomique]
+- Leçon 1 : [Sécurisation des communications](./Sécurisation_des_communications/Sécurisation_des_communications.md)
 
-- Projet
+- Activité : [Comprendre la machine Enigma]
+
+
+
 
 ##### Chapitre 10 : Diviser pour régner
 
-##### Chapitre 11 : [Sécurisation des communications](./Sécurisation_des_communications/Securisation_des_communications.md)
+- Activité : [Recherche dichotomique]
+
+##### Chapitre 11 : Mise au point des programmes
+
+
+
+- Projet shoot em up pygame
 
 ##### Chapitre 12 : Graphes
 
