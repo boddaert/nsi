@@ -18,9 +18,9 @@ Nous caractérisons un processus par :
 
 - Un état : l'état dans lequel se trouve le processus.
 
-- Un espace mémoire : l'espace mémoire alloué necéssaire à l'exécution du programme.
+- Un espace mémoire : l'espace mémoire alloué necéssaire à l'exécution du processus.
 
-- Une durée d'exécution : le temps necéssaire à l'exécution du programme.
+- Une durée d'exécution : le temps necéssaire à l'exécution du processus.
 
 - Un ensemble de ressources : les ressources dont a besoin le processus.
 
@@ -104,11 +104,11 @@ Le processus `init` est le premier programme lancé par la machine et a comme PI
 
 ##### Application 1
 
-a) Sur le terminal de votre ordinateur, lancer la commande `ps`.
+a) Sur le terminal de votre ordinateur, lancer la commande `ps` et décrire la réponse.
 
-b) Sur le terminal de votre ordinateur, lancer la commande `top`.
+b) Sur le terminal de votre ordinateur, lancer la commande `top` et décrire la réponse.
 
-c) Sur le terminal de votre ordinateur, lancer la commande `pstree`.
+c) Sur le terminal de votre ordinateur, lancer la commande `pstree` et décrire la réponse.
 
 ## II. Politiques d'ordonnancement
 
@@ -116,7 +116,7 @@ Une *politique d'ordonnancement* est l'ordre, décidé par le processeur, par le
 
 Voici, pour illustrer les différentes politiques, un exemple d'ensemble de trois processus :
 
-| PID | Durée d'exécution | Temps d'arrivée | Priorité |
+| PID | Durée d'exécution | Instant d'arrivée | Priorité |
 | :---: | :---: | :---: |:---: |
 | $1$ | $4$ | $t0$ | $0$ |
 | $2$ | $2$ | $t2$ | $1$ |
@@ -126,7 +126,7 @@ Voici, pour illustrer les différentes politiques, un exemple d'ensemble de troi
 
 La politique du premier arrivé, premier servi est comme son nom l'indique un ordre d'exécution des processus selon leur ordre d'arrivée dans la file d'attente :
 
-| PID du processus aloué au processeur | Temps |
+| PID du processus aloué au processeur | Instant |
 | :---: | :---: |
 | $1$ | $t0$ |
 | $1$ | $t1$ |
@@ -146,7 +146,7 @@ Cette politique consiste à exécuter les processus dans leur ordre d'arrivée u
 
 Avec quantum $= 3$ :
 
-| PID du processus aloué au processeur | Temps |
+| PID du processus aloué au processeur | Instant |
 | :---: | :---: |
 | $1$ | $t0$ |
 | $1$ | $t1$ |
@@ -160,9 +160,9 @@ Avec quantum $= 3$ :
 
 ### c) Par priorité préemptive
 
-La politique d'ordonnancement par priorité préemptive est un ordre d'exécution des processus en fonction de leur ordre d'arrivé et de leur priorité :
+La politique d'ordonnancement par priorité préemptive est un ordre d'exécution des processus en fonction de leur ordre d'arrivé et de leur priorité (plus la priorité d'un processus est grande, plus il est prioritaire) :
 
-| PID du processus aloué au processeur | Temps |
+| PID du processus aloué au processeur | Instant |
 | :---: | :---: |
 | $1$ | $t0$ |
 | $1$ | $t1$ |
@@ -176,7 +176,7 @@ La politique d'ordonnancement par priorité préemptive est un ordre d'exécutio
 
 ##### Application 2
 
-| PID | Durée d'exécution | Temps d'arrivée | Priorité |
+| PID | Durée d'exécution | Instant d'arrivée | Priorité |
 | :---: | :---: | :---: |:---: |
 | $1$ | $2$ | $t0$ | $1$ |
 | $2$ | $5$ | $t1$ | $3$ |
