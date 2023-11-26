@@ -64,7 +64,7 @@
 
 ##### Chapitre 10 : Mise au point des programmes
 
-- [Projet n°3](./Projets/Projet_puissance_4.md)
+- [Projet n°3 : Puissance 4](./Projets/Projet_puissance_4.md)
 
 ##### Chapitre 11 : Diviser pour régner
 

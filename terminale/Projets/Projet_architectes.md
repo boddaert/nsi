@@ -20,7 +20,7 @@ Voici ci-dessous quelques exemples de dessins que vous pourriez obtenir en exéc
 
 3. Pour chaque fonction que vous écrivez dans votre programme, elle doit être munie d'une documentation DocString.
 
-Rappels de Première :  [Sur la DocString](./../../première/Spécification/Specification.md)
+Rappels de Première :  [Sur la DocString](./../../première/Spécification/Prototypage.md)
 
 4. Le code doit être lisible, les noms de variable et noms de fonction explicites.
 

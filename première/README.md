@@ -70,7 +70,7 @@
 
 - Leçon 1 : [Prototypage](./Spécifications_de_fonction/Prototypage.md)
 
-- Leçon 2 : [Préconditions](./Spécification/Preconditions.md)
+- Leçon 2 : [Préconditions](./Spécification/Préconditions.md)
 
 - Leçon 3 : [Postconditions](./Spécification/Postconditions.md)
 
