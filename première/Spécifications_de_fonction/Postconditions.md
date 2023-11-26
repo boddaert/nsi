@@ -6,14 +6,17 @@ La spécification d'une fonction est complétée par les préconditions et les p
 
 Les *postconditions* sont les conditions sur le résultat de la fonction à l'issue de son exécution.
 
-Les postconditions doivent être vérifiées pour que la spécification d'une fonction soit vérifiée.
+Les postconditions doivent être vérifiées pour que la spécification d'une fonction soit vraie.
 
 Par exemple, pour la fonction `max(l : list)->int` définie dans [Spécifications](./Specification.md) dont la spécification est `Renvoie l'entier le plus grand parmi tous les entiers de la liste l`, les postconditions sont :
 
 - Le résultat renvoyé par la fonction est bien de type `int`.
-- Le résultat renvoyé par la fonction est bien supérieur à tous les autres entiers de la liste.
 
-Nous pouvons vérifier les postconditions en utilisant les assertions vues dans [Préconditions](./Preconditions.md) mais nous allons plutôt utiliser des jeux de test dans ce chapitre.
+- Le résultat correspond bien à un élément présent dans `l`.
+
+- Le résultat renvoyé par la fonction est bien un élément supérieur à tous les autres de la liste.
+
+Nous pouvons vérifier les postconditions d'une fonction en utilisant des jeux de test.
 
 ## II. Jeu de test
 
@@ -58,7 +61,7 @@ def max(l : list)->int:
     return elt_max
 ```
 
-### c) Visualiser les tests
+### c) Visualisation des tests
 
 Depuis la console, l'instruction suivante permet de savoir si les tests ont réussis ou échoués :
 
@@ -83,3 +86,7 @@ ok
 Test passed.
 TestResults(failed=0, attempted=2)
 ```
+
+______________
+
+[Sommaire](./../README.md)

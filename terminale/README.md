@@ -62,18 +62,14 @@
 
 - Activité : [Comprendre la machine Enigma](./Sécurisation_des_communications/Activité_comprendre_la_machine_enigma.md)
 
+##### Chapitre 10 : Mise au point des programmes
 
+- [Projet n°3](./Projets/Projet_puissance_4.md)
 
-
-##### Chapitre 10 : Diviser pour régner
+##### Chapitre 11 : Diviser pour régner
 
 - Activité : [Recherche dichotomique]
 
-##### Chapitre 11 : Mise au point des programmes
-
-
-
-- projet puissance 4 
 
 ##### Chapitre 12 : Structures relationnelles de données
 

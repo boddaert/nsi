@@ -62,7 +62,7 @@ Ecrire une fonction récursive `ab_complet(h : int)->AB` qui prend en paramètre
 
 ## Exercice 12 (Difficile)
 
-Ecrire une fonction récursive `est_complet(ab : AB)->bool` qui prend en paramètre un arbre binaire et renvoie $True$ si l'arbre est complet, $False$ sinon.
+Ecrire une fonction **itérative** `est_complet(ab : AB)->bool` qui prend en paramètre un arbre binaire et renvoie $True$ si l'arbre est complet, $False$ sinon.
 
 ________________
 

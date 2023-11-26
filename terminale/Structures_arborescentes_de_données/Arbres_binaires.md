@@ -175,7 +175,7 @@ Un *arbre filiforme* est un arbre dans lequel au moins l'un de ses sous-arbres e
 
 Un *peigne* (droit ou gauche) est un arbre filiforme toujours que d'un côté.
 
-Un *arbre binaire complet* est un arbre binaire dans lequel ses sous-arbres sont soit vides soit non-vides.
+Un *arbre binaire complet* est un arbre binaire dans lequel toutes les feuilles de l'arbre sont à la même hauteur.
 
 ##### Application 4
 
@@ -193,7 +193,7 @@ e) Dessiner la représentation schématisée d'un arbre binaire complet de haute
 
 Si l'arbre est un arbre filiforme, sa taille sera égale à sa hauteur.
 
-Si l'arbre est complet, sa taille sera égale à deux puissance sa hauteur.
+Si l'arbre est complet, sa taille sera égale à deux puissance sa hauteur moins un.
 
 Encadrement de la taille en fonction de la hauteur de l'arbre : $h \leq n \leq 2^{h}-1$ avec $n$ la taille de l'arbre et $h$ sa hauteur.
 

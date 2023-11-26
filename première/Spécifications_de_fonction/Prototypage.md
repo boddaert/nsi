@@ -5,13 +5,14 @@
 La *spécification* d'une fonction est la raison pour laquelle elle existe. En d'autres termes, la spécification d'une fonction répond aux questions suivantes :
 
 - Que fait cette fonction ?
+
 - Qu'à besoin cette fonction ?
 
 En Python, spécifier une fonction se fait à l'aide d'une documentation spéciale : la *DocString*.
 
 Une *documentation* permet de donner des informations à celui qui lit le code.
 
-## II. Documentations
+## II. Types de documentation
 
 ### a) Commentaires
 
@@ -25,15 +26,18 @@ from math import *
 from random import *
 ```
 
-### b) DocString
+### b) *DocString*
 
 Lors de l'écriture d'une fonction, il est plus approprié de donner sa spécification à l'aide d'une DocString.
 
 Elle s'écrit toujours juste après la signature d'une fonction et donne les informations suivantes :
 
 - Les paramètres avec leur type.
-- Le type de la valeur de renvoie.
+
+- Le type de la valeur de renvoi.
+
 - Une phrase en Français expliquant ce que fait la fonction.
+
 - Eventuellement les contraintes d'utilisation.
 
 Par exemple :
@@ -52,3 +56,7 @@ def max(l : list)->int:
             elt_max = l[i]
     return elt_max
 ```
+
+______________
+
+[Sommaire](./../README.md)
