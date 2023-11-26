@@ -24,7 +24,7 @@ Pour vous aider à commencer, voici plusieurs idées de fonctions à réaliser :
 
 - Une fonction `test_victoire(grille : list, num_joueur : int)->bool` qui prend en paramètre une liste de listes et un entier et renvoie $True$ si le joueur numéro `num_joueur` a gagné la partie.
 
-4. Chaque fonction écrite doit être munie d'une documentation complète et d'un jeu de test complet. Toute les préconditions et postconditions de chaque spécification devant être vérfiées.
+4. Chaque fonction écrite doit être munie d'une spécification complète. Toutes les préconditions et postconditions de chaque spécification devant être vérfiées.
 
 Rappel de Première NSI :
 

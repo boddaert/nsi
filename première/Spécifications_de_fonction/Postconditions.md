@@ -49,11 +49,18 @@ def max(l : list)->int:
     :CU: La liste l doit contenir au moins un élément
 
     Exemples :
-    >>> max([1, 2, 3])
-    3
-    >>> max([3, 2, 1])
+    >>> l = [1, 2, 3]
+    >>> type(max(l))
+    <class 'int'>
+    >>> max(l) in l
+    True
+    >>> max(l)
     3
     """
+    assert type(l) == list, "Le paramètre entré n'est pas de type list"
+    assert all([type(l[i]) == int for i in range(len(l))]), "Les éléments ne sont pas tous de type int"
+    assert len(l) > 0, "La liste entrée en paramètre ne contient aucun élément"
+
     elt_max = l[0]
     for i in range(1, len(l)):
         if l[i] > elt_max :
@@ -68,23 +75,28 @@ Depuis la console, l'instruction suivante permet de savoir si les tests ont réu
 ```python
 >>> doctest.testmod(verbose=True)
 Trying:
-    max([1, 2, 3])
-Expecting:
-    3
+    l = [1, 2, 3]
+Expecting nothing
 ok
 Trying:
-    max([3, 2, 1])
+    type(max(l))
+Expecting:
+    <class 'int'>
+ok
+Trying:
+    max(l) in l
+Expecting:
+    True
+ok
+Trying:
+    max(l)
 Expecting:
     3
 ok
-1 items had no tests:
-    __main__
-1 items passed all tests:
-   2 tests in __main__.max
-2 tests in 2 items.
-2 passed and 0 failed.
+
+4 passed and 0 failed.
 Test passed.
-TestResults(failed=0, attempted=2)
+TestResults(failed=0, attempted=4)
 ```
 
 ______________
