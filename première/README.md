@@ -68,7 +68,7 @@
 
 ##### Chapitre 7 : Spécifications de fonction
 
-- Leçon 1 : [Prototypage](./Spécification/Specification.md)
+- Leçon 1 : [Prototypage](./Spécifications_de_fonction/Prototypage.md)
 
 - Leçon 2 : [Préconditions](./Spécification/Preconditions.md)
 

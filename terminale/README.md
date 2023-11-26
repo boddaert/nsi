@@ -73,11 +73,11 @@
 
 
 
-- Projet shoot em up pygame
+- projet puissance 4 
 
 ##### Chapitre 12 : Structures relationnelles de données
 
-- Projet
+- activité colonies de fourmis
 
 ______________________
 
