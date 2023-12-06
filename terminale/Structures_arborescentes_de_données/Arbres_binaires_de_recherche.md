@@ -114,17 +114,15 @@ Par exemple, la recherche séquentielle d'un élément dans une liste (avec une 
 
 Un arbre *équilibré* est un arbre qui maintient une profondeur de noeud minimum. Un arbre complet est équilibré, un peigne ou un arbre filiforme ne l'est pas. 
 
-Dans un arbre binaire de recherche équilibré, le coût algorithmique de recherche d'un élément est *logarithmique* $O(\log_2 n)$ ce qui est bien moins grand que la recherche séquentielle.
+Dans un arbre binaire de recherche équilibré, le coût algorithmique de recherche d'un élément est *logarithmique* $O(\log_2 n)$ avec $n$ le nombre de noeuds, ce qui est bien moins coûteux que la recherche séquentielle.
 
 ##### Application 3
 
-a) Dessiner la représentation d'un arbre binaire quelconque (qui ne soit pas un ABR) de taille $7$ contenant les mêmes éléments que l'ABR donné en exemple ci-dessus.
+a) Exécuter à la main l'algorithme de recherche classique sur l'arbre donné en début de leçon pour l'élément $12$ en comptant le nombre de comparaisons effectué.
 
-b) Exécuter à la main l'algorithme de recherche classique sur cet arbre pour l'élément $12$ en comptant le nombre de comparaisons effectué.
+b) Exécuter à la main l'algorithme de recherche dans un ABR dans le même arbre pour l'élément $12$ en comptant le nombre de comparaisons effectué.
 
-c) Exécuter à la main l'algorithme de recherche dans l'ABR donné en exemple pour l'élément $12$ en comptant le nombre de comparaisons effectué.
-
-d) Comparer les résultats trouvés aux questions c) et d).
+c) Comparer les résultats trouvés aux questions a) et b).
 
 _________________
 
