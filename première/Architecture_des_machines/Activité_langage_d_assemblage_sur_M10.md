@@ -4,7 +4,7 @@ Il s'agit dans cette activité de travailler sur un langage simplifié d'assembl
 
 Nature : Débranchée
 
-Matériel : Jeu de quatre cartes
+Matériel : Représentation schématisée d'un ordinateur sur papier
 
 Prérequis : Aucun
 
