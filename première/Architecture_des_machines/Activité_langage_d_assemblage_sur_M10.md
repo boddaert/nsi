@@ -79,7 +79,7 @@ f) Ecrire un programme permettant de soustraire $2$ au nombre choisi, de le mult
 
 g) Effacer, écrire dans la case de mot mémoire d'adresse $1$ la valeur $1$.
 
-h) Ecrire un programme permettant d'obtenir 1x2x3.
+h) Ecrire un programme permettant d'obtenir $1\mul 2\mul 3$.
 
 ## V. Extension
 

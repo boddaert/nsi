@@ -148,7 +148,7 @@ Le slicing en Python s'écrit  : ``liste[debut:fin]``  avec ``debut`` l'indice d
 
 ```python
 >>> liste_entiers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
->>> mot[2:6]
+>>> liste_entiers[2:6]
 [3, 4, 5, 6]
 ```
 
