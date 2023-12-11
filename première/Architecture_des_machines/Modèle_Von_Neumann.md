@@ -10,7 +10,7 @@ Le monde découvre en 1945 le nouvel ordinateur basé sur cette architecture : l
 
 ![Edvac](./img/edvac.png)
 
-Le monstre occupe une surface de quante-cinq mètres carré et pèse sept mille huit-cent kilos. Il dispose d'une mémoire de mille mots de quarante-quatre bits soit cinq kilo-octet.
+Le monstre occupe une surface de quarante-cinq mètres carré et pèse sept mille huit-cent kilos. Il dispose d'une mémoire de mille mots de quarante-quatre bits soit cinq kilo-octet.
 
 Il pouvait réaliser automatiquement en binaire les additions, les soustractions, les multiplications et les divisions.
 
