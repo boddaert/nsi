@@ -1,4 +1,4 @@
-# Rappels des Algorithmes de Tri vus en  Première
+# Rappels des Algorithmes de Tri
 
 ## I. Généralités
 
