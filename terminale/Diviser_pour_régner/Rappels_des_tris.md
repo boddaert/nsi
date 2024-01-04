@@ -28,15 +28,15 @@ Connaite le coût d'un algorithme est particulièrement important lorsque les al
 
 Les principales évolutions que l'on rencontre sont, en notant $n$ la taille des données :
 
-- coût constant $1$.
+- coût constant : $O(1)$.
 
-- coût logarithmique : le coût est proportionnel à $n\log_2 n$.
+- coût logarithmique : le coût est proportionnel à $O(\log_2 n)$.
 
-- coût linéaire : le coût est proportionnel à $n$.
+- coût linéaire : le coût est proportionnel à $O(n)$.
 
-- coût quadratique : le coût est proportionnel à $n^2$.
+- coût quadratique : le coût est proportionnel à $O(n^2)$.
 
-- coût exponentiel : le coût est proportionnel à $2^n$.
+- coût exponentiel : le coût est proportionnel à $O(2^n)$.
 
 ![image](./img/complexites.png)
 
