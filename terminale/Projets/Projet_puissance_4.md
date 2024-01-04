@@ -24,7 +24,15 @@ Pour vous aider à commencer, voici plusieurs idées de fonctions à réaliser :
 
 - Une fonction `test_victoire(grille : list, num_joueur : int)->bool` qui prend en paramètre une liste de listes et un entier et renvoie $True$ si le joueur numéro `num_joueur` a gagné la partie.
 
-4. Chaque fonction écrite doit être munie d'une spécification complète. Toutes les préconditions et postconditions de chaque spécification devant être vérfiées.
+4. Chaque fonction écrite doit être munie d'une spécification complète.
+
+C'est-à-dire que chaque fonction doit :
+
+- être correctement prototypée à l'aide de *DocString*.
+
+- vérifier les préconditions à l'aide d'assertions.
+
+- vérifier les postconditions à l'aide de *DocTest*.
 
 Rappel de Première NSI :
 
@@ -130,10 +138,6 @@ Vous serez évalués sur :
 - La qualité du code fourni (lisibilité du code, modularité, explicité des noms).
 
 - Le respect du cahier des charges.
-
-- La qualité de la *DocString*.
-
-- La qualité de la *DocTest*.
 
 ____________
 
