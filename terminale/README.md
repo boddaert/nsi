@@ -68,8 +68,9 @@
 
 ##### Chapitre 11 : Diviser pour régner
 
-- Activité : [Recherche dichotomique]
+- Activité : [Tri Fusion](./Diviser_pour_régner/Activité_tri_fusion.pdf)
 
+- Leçon 1 : [Diviser pour régner](./Diviser_pour_régner/Diviser_pour_régner.md)
 
 ##### Chapitre 12 : Structures relationnelles de données
 
