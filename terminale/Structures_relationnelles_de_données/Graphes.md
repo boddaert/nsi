@@ -121,25 +121,24 @@ Un graphe pondéré $G$ est un couple $(V,E)$ où $V$ est un ensemble finis de s
 
 ### c) Représentation sagitalle
 
-Par exemple, le graphe orienté $G$ avec 
+Par exemple, le graphe pondéré $G$ avec 
 
 - $V=(0, 1, 2, 3, 4, 5)$ 
 
-- et $E=((0,1), (3,1), (2,3), (3,4), (1,4), (0,5), (4,6), (5,6), (2,5))$ 
+- et $E=((0,1,3), (0,2,6), (0,3,9), (0,4,1), (3,4,5), (2,3,7), (2,5,4), (4,1,2))$ 
 
 peut être représenté sagitallement :
 
 ```mermaid
     flowchart LR
-        0-- 3 ---1
-        3-- 8 ---1
-        3-- 2 ---4
-        1-- 7 ---4
-        0-- 6 ---5
-        5-- 3 ---6
-        2-- 9 ---5
-        2-- 5 ---3
-        5-- 4 ---6
+        0 --3--- 1
+        0 --6--- 2
+        0 --9--- 3
+        0 --1--- 4
+        3 --5--- 4
+        2 --7--- 3
+        2 --4--- 5
+        4 --2--- 1
 ```
 
 
