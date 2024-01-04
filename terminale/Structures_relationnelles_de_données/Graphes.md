@@ -138,6 +138,7 @@ peut être représenté sagitallement :
         F["5"]
         G["6"]
         C["2"]
+        A--3--B
 ```
 
 
