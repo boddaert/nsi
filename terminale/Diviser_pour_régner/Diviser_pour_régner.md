@@ -26,21 +26,7 @@ Le principe "diviser pour régner" consiste à :
 
 ## III. Tri Fusion
 
-### a) Trier une liste 
-
-Le tri fusion, comme le tri par sélection ou insertion est un algorithme de tri. Il permet de trier les éléments d'une liste.
-
-C'est-à-dire, d'obtenir une permutation de la liste vérifiant :
-
-- La taille de la liste d'origine est égale à la taille de la liste obtenue.
-
-- Tous les éléments contenus dans la liste d'origine sont présents dans la liste obtenue.
-
-- Pour chaque élément de la liste d'origine et de la liste obtenue, le nombre d'occurence est le même.
-
-- La liste obtenue respecte la relation d'ordre (croissant/décroissant).
-
-### b) Principe
+### a) Principe
 
 Le tri fusion est un tri utilisant le principe "Diviser pour régner".
 
@@ -56,7 +42,7 @@ Une liste à $1$ élément étant implicitement triée.
 
 Puis, nous fusionnons les listes triées en liste triée, ce qui est facile car il suffit d'examiner le premier élément de chaque liste.
 
-### c) Algorithme
+### b) Algorithme
 
 ```
 Algorithme de Tri fusion :
@@ -76,13 +62,13 @@ Algorithme de Tri fusion :
     + Renvoyer cette liste (car elle est implicitement triée).
 ```
 
-### d) Complexité temporelle
+### c) Complexité temporelle
 
 La complexité temporelle de l'algorithme du tri fusion est $O(n\log_2 n)$.
 
 Ce qui est bien plus performant que les algorithmes de tri vus en Première qui ont une complexité temporelle de $O(n^2)$.
 
-### e) Programme
+### d) Programme
 
 La fonction ``decoupe()`` représente l'étape "Diviser".
 
