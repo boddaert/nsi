@@ -16,15 +16,15 @@ Donner des exemples informatiques ou de la vie quotidienne de structures pouvant
 
 ### a) Définition
 
-Dans un graphe dit *non-orienté*, les liens fonctionnent dans les deux sens et sont appelés *arêtes*.
+Dans un graphe dit *non orienté*, les liens fonctionnent dans les deux sens et sont appelés *arêtes*.
 
 ### b) Type abstrait
 
-Un graphe non-orienté $G$ est un couple $(V,E)$ où $V$ est un ensemble finis de sommets et $E$ est un ensemble finis de $V\times V$ symétrique d'arêtes.
+Un graphe non orienté $G$ est un couple $(V,E)$ où $V$ est un ensemble finis de sommets et $E$ est un ensemble finis de $V\times V$ symétrique d'arêtes.
 
 ### c) Représentation sagitalle
 
-Par exemple, le graphe $G$ avec 
+Par exemple, le graphe non orienté $G$ avec 
 
 - $V=(0, 1, 2, 3, 4, 5)$ 
 
@@ -46,7 +46,38 @@ peut être représenté sagitallement :
 
 ## III. Graphes orientés
 
+### a) Définition
+
 Dans un graphe dit *orienté*, les liens fonctionnent dans un unique sens (et sont alors représentés d'une flèche) et sont appelés *arcs*.
+
+### b) Type abstrait
+
+Un graphe orienté $G$ est un couple $(V,E)$ où $V$ est un ensemble finis de sommets et $E$ est un ensemble finis de $V\times V$ avec le premier $V$ représentant l'extrimité initiale de l'arc et le second représentant l'extrimité finale de l'arc.
+
+### c) Représentation sagitalle
+
+Par exemple, le graphe orienté $G$ avec 
+
+- $V=(0, 1, 2, 3, 4, 5, 6)$ 
+
+- et $E=((0,1), (1,0), (0,2), (2,0), (3,1), (3,4), (4,3), (1,4), (0,5), (5,6), (6,5))$ 
+
+peut être représenté sagitallement :
+
+```mermaid
+    flowchart LR
+        0 --> 1
+        1 --> 0
+        0 --> 2
+        2 --> 0
+        3 --> 1
+        3 --> 4
+        4 --> 3
+        1 --> 4
+        0 --> 5
+        5 --> 6
+        6 --> 5
+```
 
 ## IV. Graphes pondérés
 
