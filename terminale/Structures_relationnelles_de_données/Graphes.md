@@ -141,9 +141,18 @@ peut être représenté sagitallement :
         4 --2--- 1
 ```
 
-
-
 ## VI. Représentations en machine
+
+Les graphes peuvent être représentés par matrice d'adjacence ou par liste d'adjacence en machine.
+
+### a) Matrice d'adjacence
+
+Une *matrice d'adjacence* est un tableau à deux dimensions $n \times n$ et permet de représenter mathématiquement un graphe de $n$ sommets.
+
+Avec $i$ le numéro de ligne et $j$ le numéro de colone, nous indiquons d'un $1$ si le sommet $j$ est adjacent du sommet $i$ :
+
+$G = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$
+
 
 ## Connexité
 ## VII. Algorithmes
