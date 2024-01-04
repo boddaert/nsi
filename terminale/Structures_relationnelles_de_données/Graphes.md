@@ -141,7 +141,7 @@ peut être représenté sagitallement :
         4 --2--- 1
 ```
 
-## VI. Représentations en machine
+## V. Représentations en machine
 
 Les graphes peuvent être représentés par matrice d'adjacence ou par liste d'adjacence en machine.
 
@@ -149,19 +149,36 @@ Les graphes peuvent être représentés par matrice d'adjacence ou par liste d'a
 
 Une *matrice d'adjacence* est un tableau à deux dimensions $n \times n$ et permet de représenter mathématiquement un graphe de $n$ sommets.
 
-Avec $i$ le numéro de ligne et $j$ le numéro de colone, nous indiquons d'un $1$ si le sommet $j$ est adjacent du sommet $i$ :
+Avec $i$ le numéro de ligne et $j$ le numéro de colone, nous indiquons d'un $1$ si le sommet $j$ est adjacent du sommet $i$ et d'un $0$ sinon.
+
+Par exemple le graphe $G$ suivant :
+
+```mermaid
+    flowchart LR
+        0 --> 1
+        1 --> 0
+        0 --> 2
+        2 --> 0
+        3 --> 1
+        3 --> 4
+        4 --> 3
+        1 --> 4
+```
+
+Est représenté en machine par matrice d'adjacence par la matrice suivante :
 
 $$ 
-M =
-\begin{bmatrix}
-1 & 0 \\
-0 & 1
-\end{bmatrix}
-\begin{bmatrix}
-1 & 0 \\
-0 & 1
-\end{bmatrix}
+G =
+\begin{pmatrix}
+0 & 1 & 1 & 0 & 0 \\
+1 & 0 & 0 & 1 & 1 \\
+1 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 1 \\
+0 & 0 & 0 & 1 & 0 
+\end{pmatrix}
 $$
+
+### b) Liste d'adjacence
 
 ## Connexité
 ## VII. Algorithmes
