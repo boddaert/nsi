@@ -34,7 +34,7 @@ Le tri en informatique permet de réduire les coûts algorithmiques de beaucoup 
 
 Nous parcourons la liste de la gauche vers la droite, en maintenant sur la gauche une partie triée :
 
-![image](schema_tri.png)
+![](./img/schema_tri.png)
 
 A chaque étape, le plus petit élément dans la partie droite non triée est échangé avec le premier élément de la partie droite.
 
@@ -70,7 +70,7 @@ d) A partir de l'affichage, comment retrouver le nombre total de comparaisons ef
 
 Nous parcourons la liste de la gauche vers la droite, en maintenant sur la gauche une partie triée :
 
-![image](schema_tri.png)
+![image](./img/schema_tri.png)
 
 Plutôt que de chercher la plus petite valeur, à chaque étapes, le tri par insertion va insérer le premier élément de la partie non triée dans la partie triée à sa bonne place.
 
