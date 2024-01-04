@@ -22,7 +22,23 @@ Prenons `l`, une liste Python d'entiers naturels non triée et `l_triee` la perm
 
 - Un tri est dit *en place* s'il modifie directement en mémoire la structure de données sur laquelle s'applique le tri.
 
-- Il existe énormément d'algorithmes de tri, les informaticiens compare leur complexité temporelle pour repérer les plus efficaces.
+- Il existe énormément d'algorithmes de tri, les informaticiens compare leur coût algorithmique pour repérer les plus efficaces.
+
+Connaite le coût d'un algorithme est particulièrement important lorsque les algorithmes traitent des données de taille variable. Dans ce cas, il est important de savoir comment le coût varie en fonction la taille des données.
+
+Les principales évolutions que l'on rencontre sont, en notant $n$ la taille des données :
+
+- coût constant $1$.
+
+- coût logarithmique : le coût est proportionnel à $n\log_2 n$.
+
+- coût linéaire : le coût est proportionnel à $n$.
+
+- coût quadratique : le coût est proportionnel à $n^2$.
+
+- coût exponentiel : le coût est proportionnel à $2^n$.
+
+![image](./img/complexites.png)
 
 ### c) Applications
 
@@ -50,7 +66,7 @@ Ecrire en python une fonction ``tri_selection(l : list)->None`` prenant en param
 
 Le tri par sélection est un tri en place donc la fonction ``tri_selection()`` ne renvoie rien.
 
-#### Application 3
+##### Application 3
 
 Dans cette question, nous souhaitons déterminer la complexité temporelle de cet algorithme en comptant le nombre de comparaisons.
 
@@ -78,7 +94,7 @@ Pour insérer l'élément à sa bonne place, tous les éléments déjà triés q
 
 ![animation](./img/animation_tri_insertion.gif)
 
-#### Application 4
+##### Application 4
 
 Voici ci-dessous l'algorithme de la fonction ``inserer(l : list, i : int)->None`` permettant d'insérer l'élément d'indice ``i`` dans la partie gauche triée :
 
@@ -95,13 +111,13 @@ Algorithme Insérer
 
 Réécrire, en python, la fonction ``inserer( l : list , i : int)->None`` 
 
-#### Application 5
+##### Application 5
 
 Ecrire en python une fonction ``tri_insertion(l : list)->None`` prenant en paramètre une liste ``l`` et trie dans l'ordre croissant les éléments de ``l``.
 
 Le tri par insertion est un tri en place donc la fonction ``tri_insertion()``ne renvoie rien.
 
-#### Application 6
+##### Application 6
 
 Dans cette question, nous souhaitons déterminer la complexité de cet algortihme.
 
