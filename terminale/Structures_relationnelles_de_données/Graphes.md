@@ -151,8 +151,17 @@ Une *matrice d'adjacence* est un tableau à deux dimensions $n \times n$ et perm
 
 Avec $i$ le numéro de ligne et $j$ le numéro de colone, nous indiquons d'un $1$ si le sommet $j$ est adjacent du sommet $i$ :
 
-$G = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$
-
+$$ 
+M =
+\begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+$$
 
 ## Connexité
 ## VII. Algorithmes
