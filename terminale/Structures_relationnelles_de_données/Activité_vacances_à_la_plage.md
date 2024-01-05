@@ -44,7 +44,7 @@ Soit $G$ le graphe pondéré suivant :
         F --2--> E
 ```
 
-Appliquer l'algorithme de Dijkstra à partir du sommet $1$ donne le tableau suivant :
+Appliquer l'algorithme de Dijkstra à partir du sommet $A$ donne le tableau suivant :
 
 | / | $dA$ | $dB$ | $dC$ | $dD$ | $dE$ | $dF$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -53,4 +53,25 @@ Appliquer l'algorithme de Dijkstra à partir du sommet $1$ donne le tableau suiv
 | $D$ | / | $20$ | $5^*$ | / | $6$ | $+\infty$ |
 | $C$ | / | $10$ | / | / | $6^*$ | $7$ |
 | $E$ | / | $8$ | / | / | / | $7^*$ |
+| $F$ | / | $8^*$ | / | / | / | / |
 
+
+## VI. Travail à faire
+
+a) A quoi correspond la première colonne du tableau d'exemple ?
+
+b) A quoi correspondent toutes les autres colonnes du tableau ?
+
+c) Pourquoi sur la première ligne, la distance vers $A$ est de $0$ et la distance vers les autres sommets est de $+\infty$ ?
+
+d) A l'aide du tableau, donner le chemin de poids minimal du sommet $A$ au sommet $B$ et sa valeur.
+
+e) Reprendre la carte donnée dans l'énoncé et dessiner le graphe correspondant.
+
+f) Appliquer l'algorithme de Dijkstra sur ce graphe à partir du sommet représentant la ville de Valenciennes et faire le tableau.
+
+g) En déduire, le chemin de poids minimal du sommet de Valenciennes au sommet de Boulogne-sur-mer.
+
+___________________
+
+[Sommaire](./../README.md)
