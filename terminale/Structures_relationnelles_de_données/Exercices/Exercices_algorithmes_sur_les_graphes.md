@@ -7,20 +7,19 @@ $G =$
         0 --> 2
         0 --> 9
         0 --> 4
-        0 --> 6
-        0 --> 8
         1 --> 3
         1 --> 5
-        1 --> 7
-        1 --> 9
-        4 --> 0
+        2 --> 0
+        2 --> 1
+        3 --> 4
         4 --> 2
         4 --> 8
-        5 --> 1
         5 --> 7
         5 --> 9
         6 --> 8
         6 --> 2
+        7 --> 9
+        8 --> 0
         9 --> 3
         9 --> 8
 ```
@@ -55,24 +54,17 @@ a) Trouver le nombre chromatique du graphe $G$.
 
 b) Trouver le nombre chromatique du graphe de Peterson :
 
-```mermaid
-    flowchart LR
-        0 --- 1
-        0 --- 5
-        0 --- 4
-        1 --- 8
-        1 --- 2
-        2 --- 6
-        2 --- 3
-        3 --- 9
-        3 --- 4
-        4 --- 7
-        5 --- 6
-        5 --- 9
-        6 --- 7
-        7 --- 8
-        8 --- 9
-```
+![image](./../img/graphe_peterson.jpg)
+
+c) Ecrire en Français, un algorithme glouton permettant de colorier (avec le moins de couleur possible) un graphe.
+
+## Exercice 5
+
+Cet exercice répond au problème de plus court chemin dans un graphe non pondéré.
+
+La stratégie est de parcourir en largeur d'abord le graphe et d'ajouter $1$ à la distance à chaque fois que nous passons à un niveau suivant.
+
+a) 
 
 ## Exercice 5
 
@@ -86,5 +78,14 @@ Lorsque nous visitons un sommet, nous le colorons en gris. Si, lors du parcours,
 
 Appliquer l'algorithme de présence d'un cycle sur le graphe $G$.
 
+## Exercice 6 (Difficile)
 
+Ecrire une fonction `colorie(g : dict)->dict` qui prend en paramètre un graphe `g` représenté par liste d'adjacence et renvoie un dictionnaire associant chaque sommet à une couleur.
 
+## Exercice 7 (Difficile)
+
+Ecrire une fonction `cycle_present(g : dict)->bool` qui prend en paramètre un graphe `g` représenté par liste d'adjacence et renvoie $True$ s'il admet un cycle, $False$ sinon.
+
+____________
+
+[Sommaire](./../../README.md)
