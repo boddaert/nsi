@@ -52,7 +52,7 @@ a) Trouver le nombre chromatique du graphe $G$.
 
 b) Trouver le nombre chromatique du graphe de Peterson :
 
-![image](./../img/graphe_peterson.jpg)
+![image](./../img/graphe_peterson.svg)
 
 c) Ecrire en Français, un algorithme glouton permettant de colorier (avec le moins de couleur possible) un graphe.
 
@@ -60,11 +60,13 @@ c) Ecrire en Français, un algorithme glouton permettant de colorier (avec le mo
 
 Cet exercice répond au problème de plus court chemin dans un graphe non pondéré.
 
-La stratégie est de parcourir en largeur d'abord le graphe et d'ajouter $1$ à la distance à chaque fois que nous passons à un niveau suivant.
+La *distance* entre deux sommets est le minimum des longueurs des chemins reliant ces deux sommets.
 
-a) 
+La stratégie est de parcourir en largeur d'abord le graphe et d'ajouter $1$ à la distance à chaque fois que nous passons à un niveau suivant de voisinage.
 
-## Exercice 5
+Appliquer à la main et sur papier l'algorithme du plus court chemin sur le graphe $G$ et donner la distance du sommet $0$ au sommet $4$.
+
+## Exercice 6
 
 Cet exercice répond au problème de présence d'un cycle dans un graphe et permet de répondre si un cycle est présent dans un graphe ou non.
 
@@ -74,15 +76,19 @@ Tous les sommets non visités sont blancs.
 
 Lorsque nous visitons un sommet, nous le colorons en gris. Si, lors du parcours, nous rencontrons un sommet colorié en gris, nous avons un cycle. S'il n'y a plus de voisins, nous colorons le sommet en noir.
 
-Appliquer l'algorithme de présence d'un cycle sur le graphe $G$.
-
-## Exercice 6 (Difficile)
-
-Ecrire une fonction `colorie(g : dict)->dict` qui prend en paramètre un graphe `g` représenté par liste d'adjacence et renvoie un dictionnaire associant chaque sommet à une couleur.
+Appliquer à la main sur papier l'algorithme de présence d'un cycle sur le graphe $G$.
 
 ## Exercice 7 (Difficile)
 
-Ecrire une fonction `cycle_present(g : dict)->bool` qui prend en paramètre un graphe `g` représenté par liste d'adjacence et renvoie $True$ s'il admet un cycle, $False$ sinon.
+Ecrire une fonction `colorie(g : dict)->dict` qui prend en paramètre un graphe `g` représenté par une liste d'adjacence et renvoie un dictionnaire associant chaque sommet à une couleur.
+
+## Exercice 8 (Difficile)
+
+Ecrire une fonction `distance(g : dict, v : int, w : int)->int` qui prend en paramètre un graphe `g`(non pondéré) représenté par une liste d'adjacence, deux sommets et renvoie la distance entre `v` et `w`.
+
+## Exercice 9 (Difficile)
+
+Ecrire une fonction `cycle_present(g : dict)->bool` qui prend en paramètre un graphe `g` représenté par une liste d'adjacence et renvoie $True$ s'il admet un cycle, $False$ sinon.
 
 ____________
 
