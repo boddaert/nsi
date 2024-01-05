@@ -82,7 +82,7 @@
 
 - Leçon 2 : [Algorithmes sur les graphes](./Structures_relationnelles_de_données/Algorithmes_sur_les_graphes.md)
 
-- Activité : []
+- Activité : [Vacances à la plage](./Structures_relationnelles_de_données/Activité_vacances_à_la_plage.md)
 
 ______________________
 
