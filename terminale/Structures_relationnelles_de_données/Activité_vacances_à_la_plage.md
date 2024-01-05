@@ -41,7 +41,6 @@ Soit $G$ le graphe pondéré suivant :
         D --2--> C
         D --10--> E
         E --5--> B
-        E --3--> F
         F --2--> E
 ```
 
@@ -51,4 +50,5 @@ Appliquer l'algorithme de Dijkstra à partir du sommet $1$ donne le tableau suiv
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | / | $0^*$ | $+\infty$ | $+\infty$ | $+\infty$ | $+\infty$ | $+\infty$ |
 | $A$ | / | $20$ | $+\infty$ | $3^*$ | $+\infty$ |$+\infty$ |$+\infty$ |
-| $D$ | / | $20$ | $5$ | 
+| $D$ | / | $20$ | $5^*$ | $+\infty$ | $13$ | $+\infty$ |
+| $C$ | / | $10$ | / | $+\infty$ |$13$ | $7$ |
