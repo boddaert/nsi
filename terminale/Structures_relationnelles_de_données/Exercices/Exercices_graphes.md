@@ -1,7 +1,5 @@
 # Exercices 
 
-## Exercice 1
-
 $G =$
 
 ```mermaid
@@ -26,6 +24,8 @@ $G =$
         9 --> 3
         9 --> 8
 ```
+
+## Exercice 1
 
 a) En considérant la représentation sagitalle du graphe $G$ ci-dessus, répondre aux questions suivantes :
 
@@ -87,7 +87,11 @@ Un graphe est dit *complet* si chaque sommet du graphe est adjacent de tous les 
 
 a) Dessiner un graphe complet d'ordre 5.
 
-b) Ecrire une fonction `est_complet(g : dict)->bool` qui prend en paramètre un graphe `g` et renvoie $True$ s'il est complet, $False$ sinon.
+b) Donner le nombre d'arêtes de ce graphe.
+
+c) Donner le nombre d'arêtes d'un graphe d'ordre $n$.
+
+d) Ecrire une fonction `est_complet(g : dict)->bool` qui prend en paramètre un graphe `g` et renvoie $True$ s'il est complet, $False$ sinon.
 
 __________________
 

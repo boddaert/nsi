@@ -2,11 +2,11 @@
 
 Nature : Débranchée
 
-Matériel : aucun
+Matériel : Aucun
 
 Prérequis : Graphes
 
-Groupe : seul
+Groupe : Seul
 
 ## I. Objectif
 
@@ -37,6 +37,8 @@ f) Expliquer le théorème d'Euler : "Un graphe admet un chemin eulérien si et 
 g) Donner sur papier au moins deux autres exemples de graphes admettant un chemin eulérien.
 
 h) Donner sur papier au moins deux autres exemples de graphes n'admettant pas de chemin eulérien.
+
+i) Ecrire une fonction `admet_chemin_eulerien(g : dict)->bool` qui prend en paramètre un graphe représenté par une liste d'adjacence et renvoie $True$ si `g` admet un chemin eulérien, $False$ sinon.
 
 ____________________
 
