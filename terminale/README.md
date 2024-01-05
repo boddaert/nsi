@@ -76,9 +76,13 @@
 
 ##### Chapitre 12 : Structures relationnelles de données
 
+- Leçon 1 : [Graphes](./Structures_relationnelles_de_données/Graphes.md)
+
 - Activité : [Le problème des septs ponts de Königsberg](./Structures_relationnelles_de_données/Activité_problème_des_sept_ponts_de_Königsberg.md)
 
-- Leçon 1 : [Graphes](./Structures_relationnelles_de_données/Graphes.md)
+- Leçon 2 : [Algorithmes sur les graphes](./Structures_relationnelles_de_données/Algorithmes_sur_les_graphes.md)
+
+- Activité : []
 
 ______________________
 

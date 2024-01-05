@@ -28,9 +28,9 @@ Un graphe non orienté $G$ est un couple $(V,E)$ où $V$ est un ensemble finis d
 
 Par exemple, le graphe non orienté $G$ avec 
 
-- $V=(0, 1, 2, 3, 4, 5)$ 
+- $V = (0, 1, 2, 3, 4, 5)$ 
 
-- et $E=((0,1), (0,2), (0,3), (0,4), (3,4), (2,3), (2,5), (4,1))$ 
+- $E = ((0,1), (0,2), (0,3), (0,4), (3,4), (2,3), (2,5), (4,1))$ 
 
 peut être représenté sagitallement :
 
@@ -46,6 +46,29 @@ peut être représenté sagitallement :
         4 --- 1
 ```
 
+##### Application 2
+
+Donner la représentation sagitalle du graphe non orienté $G1$ suivant :
+
+- $V = (A, B, C, D, E, F, G)$
+
+- $E = ((A,D), (A,F), (B,F), (B,G), (C,D), (D,E), (E,F), (E,G), (F,G))$
+
+##### Application 3
+
+Donner le type abstrait du graphe $G2$ d'après sa représentation sagitalle suivante :
+
+```mermaid
+    flowchart LR
+        0 --- 4
+        1 --- 2
+        1 --- 5
+        2 --- 4
+        2 --- 3
+        3 --- 5
+        4 --- 5
+```
+
 ### d) Propriétés
 
 Deux sommets sont *adjacents* (ou *voisins*) s'il existe une arête entre eux.
@@ -57,6 +80,16 @@ Une *chaîne* est une suite de sommets voisins consécutifs.
 La *longueur d'une chaîne* est le nombre de sommets composant la chaîne.
 
 Un *cycle* est une chaîne dont le premier et dernier sommet sont identiques.
+
+##### Application 4
+
+a) Sur le graphe $G1$, donner les sommets adjacents du sommet $F$.
+
+b) En déduire le degré du sommet $F$.
+
+c) Donner une chaîne du graphe $G2$ de longueur $4$.
+
+d) Donner un cycle du graphe $G2$ de longueur $4$.
 
 ## III. Graphes orientés
 
@@ -74,7 +107,7 @@ Par exemple, le graphe orienté $G$ avec
 
 - $V=(0, 1, 2, 3, 4, 5, 6)$ 
 
-- et $E=((0,1), (1,0), (0,2), (2,0), (3,1), (3,4), (4,3), (1,4), (0,5), (5,6), (6,5))$ 
+- $E=((0,1), (1,0), (0,2), (2,0), (3,1), (3,4), (4,3), (1,4), (0,5), (5,6), (6,5))$ 
 
 peut être représenté sagitallement :
 
@@ -93,11 +126,37 @@ peut être représenté sagitallement :
         6 --> 5
 ```
 
+##### Application 5
+
+Donner la représentation sagitalle du graphe orienté $G3$ suivant :
+
+- $V = (A, B, C, D, E, F, G)$
+
+- $E = ((A,F), (A,G), (B,C), (C,D), (C,E), (C,F), (D,G), (D,F), (E,G))$
+
+##### Application 6
+
+Donner le type abstrait du graphe $G4$ d'après sa représentation sagitalle suivante :
+
+```mermaid
+    flowchart LR
+        0 --> 0
+        1 --> 0
+        1 --> 3
+        2 --> 1
+        2 --> 5
+        3 --> 2
+        3 --> 4
+        4 --> 0
+        4 --> 5
+        5 --> 4
+```
+
 ### d) Propriétés
 
-Le sommet $v$ est *adjacent* (ou *voisin*) du sommet $u$ s'il existe un arc dont l'extrémité initiale est $u$ et l'extrémité finale est $v$.
+Le sommet $j$ est *adjacent* (ou *voisin*) du sommet $i$ s'il existe un arc dont l'extrémité initiale est $i$ et l'extrémité finale est $j$.
 
-$v$ est alors *successeur* de $u$, et $u$ prédécesseur de $v$.
+$j$ est alors *successeur* de $i$, et $i$ prédécesseur de $j$.
 
 Le *degré entrant d'un sommet* est le nombre de prédécesseurs de ce sommet.
 
@@ -108,6 +167,16 @@ Un *chemin* est une suite de sommets voisins consécutifs.
 La *longueur d'un chemin* est le nombre de sommets composant le chemin.
 
 Un *cycle* est une chaîne dont le premier et dernier sommet sont identiques.
+
+##### Application 7
+
+a) Sur le graphe $G3$, donner les sommets adjacents du sommet $C$.
+
+b) En déduire le degré entrant et sortant du sommet $C$.
+
+c) Donner un chemin du graphe $G4$ de longueur $4$.
+
+d) Donner un cycle du graphe $G4$ de longueur $4$.
 
 ## IV. Graphes pondérés
 
@@ -147,11 +216,11 @@ Les graphes peuvent être représentés par matrice d'adjacence ou par liste d'a
 
 ### a) Matrice d'adjacence
 
-Une *matrice d'adjacence* est un tableau à deux dimensions $n \times n$ et permet de représenter mathématiquement un graphe de $n$ sommets.
+Une *matrice d'adjacence* est un tableau à deux dimensions $n \times n$ pour un graphe d'ordre $n$.
 
 Avec $i$ le numéro de ligne et $j$ le numéro de colone, nous indiquons d'un $1$ si le sommet $j$ est adjacent du sommet $i$ et d'un $0$ sinon.
 
-Par exemple le graphe $G$ suivant :
+Par exemple le graphe orienté $G$ suivant :
 
 ```mermaid
     flowchart LR
@@ -165,7 +234,7 @@ Par exemple le graphe $G$ suivant :
         1 --> 4
 ```
 
-Est représenté en machine par matrice d'adjacence par la matrice suivante :
+Est représenté en machine par la matrice d'adjacence suivante :
 
 $$ 
 G =
@@ -178,7 +247,87 @@ G =
 \end{pmatrix}
 $$
 
-### b) Liste d'adjacence
+### b) Implémentation des matrices d'adjacence
 
-## Connexité
-## VII. Algorithmes
+L'implémentation en Python se fait simplement par une liste de listes :
+
+```python
+G = [[0, 1, 1, 0, 0],
+    [1, 0, 0, 1, 1],
+    [1, 0, 0, 0, 0],
+    [0, 0, 0, 0, 1],
+    [0, 0, 0, 1, 0]]
+```
+
+Le résultat de `G[i][j]` indique alors si le sommet $j$ est adjacent du sommet $i$ :
+
+```python
+>>> G[0][1]
+1
+>>> G[2][3]
+0
+```
+
+##### Application 8
+
+a) Donner sur papier la matrice d'adjacence du graphe $G2$.
+
+b) Implémenter en Python le graphe $G2$.
+
+### c) Liste d'adjacence
+
+Une *liste d'adjacence* est une liste de $n$ listes dans lesquelles il y a les voisins de $i$.
+
+Par exemple le graphe non orienté $G$ suivant :
+
+```mermaid
+    flowchart LR
+        0 --- 1
+        2 --- 0
+        3 --- 1
+        4 --- 3
+        1 --- 4
+```
+
+Est représenté en machine par la liste d'adjacence suivante :
+
+- $0 : 1, 2$
+- $1 : 0, 3, 4$
+- $2 : 0$
+- $3 : 1, 4$
+- $4 : 1, 3$
+
+### d) Implémentation des listes d'adjacence
+
+L'implémentation en Python se fait simplement par un dictionnaire de listes :
+
+```python
+G = {0 : [1, 2],
+    1 : [0, 3, 4],
+    2 : [0],
+    3 : [1, 4],
+    4 : [1, 3]}
+```
+
+Le résultat de `G[i]` indique alors les sommets adjacents du sommet $i$ :
+
+```python
+>>> G[1]
+[0, 3, 4]
+>>> G[2]
+[0]
+```
+
+##### Application 9
+
+a) Donner sur papier la liste d'adjacence du graphe $G4$.
+
+b) Implémenter en Python le graphe $G4$.
+
+______________
+
+[Feuille d'exercices](./Exercices/Exercices_graphes.md)
+
+______________
+
+[Sommaire](./../README.md)
