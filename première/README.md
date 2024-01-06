@@ -86,3 +86,5 @@
 
 - Leçon 4 : [Listes de listes](./Structures_de_données/Listes_de_listes.md)
 
+- Projet n°3 : [Ice Walker](./Projets/Projet_ice_walker.md)
+
