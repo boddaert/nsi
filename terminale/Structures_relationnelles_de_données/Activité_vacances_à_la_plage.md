@@ -18,7 +18,7 @@ Depuis Valenciennes, vous décidez de passer vos vacances à la plage à Boulogn
 
 ![image](./img/npdc_peages.png)
 
-Vous remarquez que cela ressemble fortement à un graphe pondéré et décidez d'utiliser un algorithme permettant de trouver le chemin de poids minimal.
+Vous remarquez que cela ressemble fortement à un graphe orienté pondéré et décidez d'utiliser un algorithme permettant de trouver le chemin de poids minimal afin de dépenser le moins d'argent possible dans les péages.
 
 ## III. Algorithme de Dijkstra
 

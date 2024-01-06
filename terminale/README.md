@@ -70,7 +70,7 @@
 
 - Leçon 1 : [Rappels des tris](./Diviser_pour_régner/Rappels_des_tris.md)
 
-- Activité : [Tri Fusion](./Diviser_pour_régner/Activité_tri_fusion.pdf)
+- Activité : [Tri Fusion](./Diviser_pour_régner/Activité_tri_fusion.md)
 
 - Leçon 2 : [Diviser pour régner](./Diviser_pour_régner/Diviser_pour_régner.md)
 

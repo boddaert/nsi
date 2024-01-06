@@ -68,7 +68,7 @@ b) Ecrire une fonction `voisins_liste(g : dict, i : int)->list` qui prend en par
 
 ## Exercice 5
 
-En fonction des programmes donnés en réponse aux exercices trois et cinq, donner les avantages et les inconvénients de représenter son graphe par matrice d'adacence ou par liste d'adjacence.
+En fonction des programmes donnés en réponse aux exercices trois et quatre, donner les avantages et les inconvénients de représenter son graphe par matrice d'adacence ou par liste d'adjacence.
 
 ## Exercice 6
 
@@ -82,11 +82,11 @@ Ecrire une fonction `degre_sortant(g : dict, i : int)->int` qui prend en paramè
 
 Un graphe est dit *complet* si chaque sommet du graphe est adjacent de tous les autres sommets.
 
-a) Dessiner un graphe complet d'ordre 5.
+a) Dessiner un graphe non orienté complet d'ordre 5.
 
 b) Donner le nombre d'arêtes de ce graphe.
 
-c) Donner le nombre d'arêtes d'un graphe d'ordre $n$.
+c) Donner le nombre d'arêtes d'un graphe non orienté d'ordre $n$.
 
 d) Ecrire une fonction `est_complet(g : dict)->bool` qui prend en paramètre un graphe `g` et renvoie $True$ s'il est complet, $False$ sinon.
 

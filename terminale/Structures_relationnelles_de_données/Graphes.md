@@ -182,7 +182,7 @@ d) Donner un cycle du graphe $G4$ de longueur $4$.
 
 ### a) Définition
 
-Dans un graphe est dit *pondéré* (ou *valué*) si une valeur appelée *poids* est attribuée aux liens.
+Un graphe est dit *pondéré* (ou *valué*) si une valeur appelée *poids* est attribuée aux liens.
 
 ### b) Type abstrait
 
@@ -272,7 +272,7 @@ Le résultat de `G[i][j]` indique alors si le sommet $j$ est adjacent du sommet 
 
 a) Donner sur papier la matrice d'adjacence du graphe $G2$.
 
-b) Implémenter en Python le graphe $G2$.
+b) Implémenter en Python la matrice d'adjacence du graphe $G2$.
 
 ### c) Liste d'adjacence
 
@@ -322,7 +322,7 @@ Le résultat de `G[i]` indique alors les sommets adjacents du sommet $i$ :
 
 a) Donner sur papier la liste d'adjacence du graphe $G4$.
 
-b) Implémenter en Python le graphe $G4$.
+b) Implémenter en Python la liste d'adjacence du graphe $G4$.
 
 ______________
 
