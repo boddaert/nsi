@@ -76,7 +76,7 @@ Par exemple, la table de vérité de la fonction $(\lnot e_0 \lor e_1)\land e_2$
 | $1$ | $1$ | $1$ | $0$ | $1$ | $1$ |
 
 
-| $e_0$ | $e_1$ | $e_2$ | lnot e_0 | \lnot e_0 \lor e_1 | (\lnot e_0 \lor e_1)\land e_2 |
+| e_0 | e_1 | e_2 | lnot e_0 | \lnot e_0 \lor e_1 | (\lnot e_0 \lor e_1)\land e_2 |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | $0$ | $0$ | $0$ | $1$ | $1$ | $0$ |
 | $0$ | $0$ | $1$ | $1$ | $1$ | $1$ |
