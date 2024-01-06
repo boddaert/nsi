@@ -31,7 +31,7 @@ Un *protocole* est un ensemble de règles permettant de standartiser la communic
 Dans l'objectif de décrire le fonctionnement d'un réseau informatique, les informaticiens ont proposé dans les années 1980 deux modèles :
 
 $$
-\begin{tabular}{|l|c|r|} 
+\begin{table}{|l|c|r|} 
    \hline
     colonne 1 & \multicolumn{2}{c|}{colonnes 2 et 3} \\
     \hline
@@ -39,7 +39,7 @@ $$
     \cline{2-3} 
         & 2.2 & 2.3 \\
     \hline
-\end{tabular}
+\end{table}
 $$
 
 ![](./img/modeles_en_couche.png)
