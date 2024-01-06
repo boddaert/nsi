@@ -30,7 +30,7 @@ Ensemble, elles représentent les sorties que l'on doit pouvoir obtenir selon un
 
 Par exemple, si l'afficheur souhaite afficher le chiffre $0$, les segments $A$, $B$, $C$, $D$, $E$ et $F$ sont allumés et le segment $G$ est éteint.
 
-Donc si la fonction logique de l'afficheur passe $8$ en entrée, les variables logique de sortie $a$, $b$, $c$, $d, $e$ et $f$ valent $1$ et $g$ vaut $0$.
+Donc si la fonction logique de l'afficheur passe $0$ en entrée, les variables logique de sortie $a$, $b$, $c$, $d$, $e$ et $f$ valent $1$ et $g$ vaut $0$.
 
 ## III. Travail à faire
 
