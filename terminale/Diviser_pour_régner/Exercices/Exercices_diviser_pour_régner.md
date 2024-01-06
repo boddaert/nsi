@@ -31,7 +31,7 @@ largeur, hauteur = image.size
 px = image.load()
 ```
 
-Sa documentation est disponible [ici](https://pillow.readthedocs.io/en/stable/reference/Image.html)
+Sa documentation est disponible [ici](https://pillow.readthedocs.io/en/stable/reference/Image.html).
 
 
 La couleur du pixel situé aux coordonnées $x$ et $y$ est donnée par ``px[x, y]``. Une couleur est un triplet donnant les composantes rouge, vert et bleu sous la forme d'entiers entre 0 et 255.
@@ -47,7 +47,7 @@ Nous supposons que notre image est carrée (téléchargeable [ici]()). L'idée e
 
 ![](./img/rotation_carre.PNG)
 
-1. Exprimer, pour l'algorithme de rotation d'images, la méthode "Diviser pour régner" en décrivant les étapes :
+a) Exprimer, pour l'algorithme de rotation d'images, la méthode "Diviser pour régner" en décrivant les étapes :
    
    - Diviser :
    
@@ -55,9 +55,9 @@ Nous supposons que notre image est carrée (téléchargeable [ici]()). L'idée e
    
    - Combiner :
 
-2. Afin de pouvoir procéder récursivement, on va définir une fonction ``rotation_aux( px : list, x : int, y :int, t :int)`` qui effectue la rotation de la portion carrée de l'image située aux coordonnées ``x``et ``y`` ( coin supérieur gauche du carré  ) jusqu'aux coordonnées ``x+t`` et ``y+t`` ( coin inférieur droit ). Cette fonction modifie le tableau ``px`` et ne renvoie rien. Ecrire la fonction ``rotation_aux``.
+b) Afin de pouvoir procéder récursivement, on va définir une fonction ``rotation_aux( px : list, x : int, y :int, t :int)`` qui effectue la rotation de la portion carrée de l'image située aux coordonnées ``x``et ``y`` ( coin supérieur gauche du carré  ) jusqu'aux coordonnées ``x+t`` et ``y+t`` ( coin inférieur droit ). Cette fonction modifie le tableau ``px`` et ne renvoie rien. Ecrire la fonction ``rotation_aux``.
 
-3. Ecrire une fonction ``rotation( px : list, taille : int )`` qui effectue une rotation de l'image toute entière, elle prend en paramètre le tableau des pixels et la dimension de celle-ci.
+c) Ecrire une fonction ``rotation( px : list, taille : int )`` qui effectue une rotation de l'image toute entière, elle prend en paramètre le tableau des pixels et la dimension de celle-ci.
    
 Une fois la rotation effectuée, on pourra sauvegarder le résultat dans un autre fichier avec l'instruction :
    

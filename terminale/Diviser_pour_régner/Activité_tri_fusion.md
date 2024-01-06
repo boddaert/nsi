@@ -32,17 +32,15 @@ L'algorithme du tri fusion est le suivant :
 
 ## III. Travail à faire
 
-Répondre aux questions suivantes :
-
-a) Définir "trier une liste".
-
-b) Rappeler la méthode des algorithmes des tris par insertion et par sélection vus en Première.
-
-c) Rappeler la complexité algorithmique en temps des algorithmes du tri par insertion et par sélection.
-
-d) Dérouler à la main l'algorithme du tri fusion sur la liste ci-dessous et dessiner l'état des listes et des sous-listes obtenues à chaque étape :
+a) En vous munissant d'un ciseau et d'un crayon, dérouler à la main l'algorithme du tri fusion sur la liste ci-dessous et dessiner sur papier l'état des listes et des sous-listes obtenues à chaque étape de l'algoriithme :
 
 ![Image](./img/liste_activite_tri_fusion.png)
+
+b) A l'aide de votre dessin, compter le nombre de comparaisons effectuées.
+
+c) Comparer ce nombre avec le nombre de comparaisons qu'effectuerait le tri par sélection/insertion sur cette même liste.
+
+d) Le coût algorithmique du tri fusion (en complexité temporelle) est-il meilleur que celui du tri par sélection/insertion ?
 
 ____________
 
