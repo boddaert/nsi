@@ -63,10 +63,9 @@ Les premières colonnes représentent les valeurs possibles des entrées et la d
 Nous décomposons généralement la fonction logique en plusieurs sous-calculs afin de simplifier.
 
 
-| e_0 | e_1 | e_2 | 0 | _1 | _2 |
-| :---: | :---: | :---: | :---: | :---: | :---: |
+| $e_0$ | $e_1$ | $e_2$ | $\lnot e_0$ | $\lnot e_0 \lor e_1$ | $(\lnot e_0 \lor e_1) \land e_2$ |
+| :---: | :---:| :--- | :---: | :---: | :---: |
 | $0$ | $0$ | $0$ | $1$ | $1$ | $0$ |
-
 
 Par exemple, la table de vérité de la fonction $(\lnot e_0 \lor e_1)\land e_2$ vue plus haut dans ce chapitre est :
 
