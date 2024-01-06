@@ -1,7 +1,5 @@
 # Activité : Langage d'assemblage sur la machine débranchée M10
 
-Il s'agit dans cette activité de travailler sur un langage simplifié d'assemblage.
-
 Nature : Débranchée
 
 Matériel : Représentation schématisée d'un ordinateur sur papier
