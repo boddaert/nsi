@@ -16,7 +16,7 @@ Un *transistor* est un composant électronique permettant de contrôler ou d'amp
 
 Il existe trois types de transistors agissant différemment sur le courant électrique et représentent les trois *portes logiques* de base que nous connaisons déjà : la porte $NON$, la porte $OU$ et la porte $ET$.
 
-Nous représentons en algèbre de Bool :
+Nous représentons en algèbre de Boole :
 
 - La porte $ET$ par le symbole $\land$.
 
@@ -42,7 +42,7 @@ Le résultat de cette fonction dépend évidemment des valeurs des variables d'e
 
 Nous connaissons déjà d'autres fonctions logiques : celles permettant de réaliser l'addition entre deux nombres binaires ou encore la multiplication par deux en binaire (cf [Activité sur la découverte du binaire](./../Représentation_des_nombres_en_machine/Activité_découverte_du_binaire.md)).
 
-L'algèbre de Boole est un algèbre, inventé par le mathématicien Georges Boole en 1854, constitué de portes logiques, de variables logiques et de fonctions logiques et est à l'origine de l'électronique ou de l'informatique.
+L'algèbre de Boole est un algèbre, inventé par le mathématicien Georges Boole en 1854, constitué de portes logiques, de variables logiques et de fonctions logiques et est à l'origine de tout l'électronique.
 
 Cet algèbre obéit aux lois de distributivité, d'associativité, de commutativité et de neutralité :
 
@@ -76,6 +76,16 @@ Par exemple, la table de vérité de la fonction $(\lnot e_0 \lor e_1)\land e_2$
 | $1$ | $1$ | $1$ | $0$ | $1$ | $1$ |
 
 
+| $e_0$ | $e_1$ | $e_2$ | lnot e_0 | \lnot e_0 \lor e_1 | (\lnot e_0 \lor e_1)\land e_2 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| $0$ | $0$ | $0$ | $1$ | $1$ | $0$ |
+| $0$ | $0$ | $1$ | $1$ | $1$ | $1$ |
+| $0$ | $1$ | $0$ | $1$ | $1$ | $0$ |
+| $0$ | $1$ | $1$ | $1$ | $1$ | $1$ |
+| $1$ | $0$ | $0$ | $0$ | $0$ | $0$ |
+| $1$ | $0$ | $1$ | $0$ | $0$ | $0$ |
+| $1$ | $1$ | $0$ | $0$ | $1$ | $0$ |
+| $1$ | $1$ | $1$ | $0$ | $1$ | $1$ |
 _________________
 
 [Sommaire](./../README.md)
