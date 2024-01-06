@@ -76,7 +76,7 @@ AssertionError: La liste entrée en paramètre ne contient aucun élément
 
 ##### Application 1
 
-Ecrire, à l'aide d'assertions, et visualiser les préconditions de toute les fonctions données en réponses aux questions de la feuille d'exercice sur les listes (cf [Feuille d'exercices sur les listes](./../Structures_de_données/Exercices/Exercices_listes.md))
+Ecrire, à l'aide d'assertions, et visualiser les préconditions des fonctions données en réponses aux cinq dernières questions de la feuille d'exercice sur les listes (cf [Feuille d'exercices sur les listes](./../Structures_de_données/Exercices/Exercices_listes.md))
 
 ___________________
 

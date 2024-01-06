@@ -59,7 +59,7 @@ def max(l : list)->int:
 
 ##### Application 1
 
-Ecrire la DocString de toute les fonctions données en réponses aux questions de la feuille d'exercice sur les listes (cf [Feuille d'exercices sur les listes](./../Structures_de_données/Exercices/Exercices_listes.md))
+Ecrire la DocString des fonctions données en réponses aux cinq dernières questions de la feuille d'exercice sur les listes (cf [Feuille d'exercices sur les listes](./../Structures_de_données/Exercices/Exercices_listes.md))
 
 ______________
 

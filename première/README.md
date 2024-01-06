@@ -78,7 +78,7 @@
 
 ##### Chapitre 8 : Principe des réseaux
 
-- Leçon 1 :
+- Leçon 1 : [Principe des réseaux](./Principe_des_réseaux/Principe_des_réseaux.md)
 
 ##### Chapitre 9 : Structures de données 2
 
