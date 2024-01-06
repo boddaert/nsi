@@ -66,6 +66,9 @@ Nous décomposons généralement la fonction logique en plusieurs sous-calculs a
 | $e_0$ | $e_1$ | $e_2$ | $\lnot e_0$ | $\lnot e_0 \lor e_1$ | $(\lnot e_0 \lor e_1) \land e_2$ |
 | :---: | :---:| :--- | :---: | :---: | :---: |
 | $0$ | $0$ | $0$ | $1$ | $1$ | $0$ |
+| $0$ | $0$ | $1$ | $1$ | $1$ | $1$ |
+| $0$ | $1$ | $0$ | $1$ | $1$ | $0$ |
+| $0$ | $1$ | $1$ | $1$ | $1$ | $1$ |
 
 Par exemple, la table de vérité de la fonction $(\lnot e_0 \lor e_1)\land e_2$ vue plus haut dans ce chapitre est :
 
