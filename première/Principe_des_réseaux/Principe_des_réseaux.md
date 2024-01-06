@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Considérons une action banale : la navigation sur un site Web. Par exemple, on souhaite accéder au site : [https://fr.wikipedia.org/wiki/Informatique](https://fr.wikipedia.org/wiki/Informatique)
+Considérons une action banale : la navigation sur un site Web. Par exemple, nous souhaitons accéder au site : [https://fr.wikipedia.org/wiki/Informatique](https://fr.wikipedia.org/wiki/Informatique)
 
 Lorsque nous cliquons sur le lien, la page wikipédia s'affiche à l'écran.
 
@@ -30,21 +30,37 @@ Un *protocole* est un ensemble de règles permettant de standartiser la communic
 
 Dans l'objectif de décrire le fonctionnement d'un réseau informatique, les informaticiens ont proposé dans les années 1980 deux modèles :
 
+$$
+\begin{tabular}{|l|c|r|} 
+   \hline
+    colonne 1 & \multicolumn{2}{c|}{colonnes 2 et 3} \\
+    \hline
+    1.1 & 1.2 & 1.3 \\
+    \cline{2-3} 
+        & 2.2 & 2.3 \\
+    \hline
+\end{tabular}
+$$
+
 ![](./img/modeles_en_couche.png)
 
 Ces modèles présentent les réseaux sous la forme d'un ensemble de couches superposées.
 
-Chaque couche est définie par plusieurs protocoles permettant la transmission des données d'un certain niveau. Par exemple, la couche *Accès réseau* du modèle TCP/IP définit les protocoles s'occupant de transmettre les données au niveau d'un réseau local.
+Chaque couche est définie par plusieurs protocoles permettant la transmission des données d'un certain niveau.
+
+Par exemple, la couche *Accès réseau* du modèle TCP/IP définit les protocoles s'occupant de transmettre les données au niveau d'un réseau local.
 
 Chaque couche est indépendante des autres et communique uniquement avec une couche adjacente.
 
 Les couches "hautes" gèrent plutôt la partie logicielle de la transmission de données tandis que les couches "basses" gèrent la partie physique.
 
-> Le modèle TCP/IP étant plus proche de la réalité, c'est ce modèle qu'on utilisera pour la suite de la leçon.
+Le modèle TCP/IP étant plus proche de la réalité, c'est ce modèle que nous utiliserons pour la suite de la leçon.
 
 ### c) Types de réseaux
 
-- Les *réseaux locaux* sont les réseaux de plus petite taille, ils contiennent au maximum une centaine d'ordinateurs. Les réseaux personnels, internes aux entreprises ou aux écoles sont des réseaux locaux. On parle alors de LAN (*Local Area Network*).
+- Les *réseaux locaux* sont les réseaux de plus petite taille, ils contiennent au maximum une centaine d'ordinateurs.
+
+Les réseaux personnels, internes aux entreprises ou aux écoles sont des réseaux locaux. Ce sont des LAN (*Local Area Network*).
 
 - Les MAN (*Metropolitan Area Network*) sont des réseaux locaux interconnectés et ont généralement la taille d'une ville.
 
@@ -52,7 +68,9 @@ Les couches "hautes" gèrent plutôt la partie logicielle de la transmission de 
 
 ## II. Couche 1 : Accès réseau
 
-Ici, dans la couche 1 du modèle TCP/IP, on se place dans un réseau local où toutes les machines sont reliées directement entre elles par la même technologie. Il peut s'agir d'un réseau Wi-Fi ou d'un réseau câblé utilisant le protocole **Ethernet**.
+Ici, dans la couche $1$ du modèle TCP/IP, toutes les machines sont reliées directement en réseau local.
+
+Il peut s'agir d'un réseau Wi-Fi ou d'un réseau câblé utilisant le protocole **Ethernet**.
 
 ### a) Adresses MAC
 
@@ -60,23 +78,21 @@ Dans un réseau local, les machines sont distinguées par leur adresse MAC.
 
 Une *adresse MAC* est l'adresse physique unique de la machine.
 
-L'adresse MAC d'une machine est découpée en 6 octets représentés traditionnellement en hexadécimal : ``98:f3:96:d1:26:a8``.
+L'adresse MAC d'une machine est découpée en $6$ octets représentés traditionnellement en hexadécimal : ``98:f3:96:d1:26:a8``.
 
-> Dans la représentation d'une adresse MAC, les octets sont séparés par des ':'
+Dans la représentation d'une adresse MAC, les octets sont séparés par des ':'
 
 ### b) Représentation d'un réseau local
 
 ![](./img/representation_reseau_local.PNG)
 
-Ci-dessus, une représentation d'un réseau local. Chaque machine possède son adresse MAC et sont reliés par un équipement informatique appelé *Commutateur* (*Switch*).
+Ci-dessus, une représentation d'un réseau local. Chaque machine possède son adresse MAC et sont reliés par un équipement informatique appelé commutateur (*Switch* en anglais).
 
-Le commutateur, lorsqu'il reçoit des données sur lesquelles est précisé l'adresse MAC de destination, va les transmettre à la machine concernée.
+Le *commutateur*, lorsqu'il reçoit des données sur lesquelles est précisé l'adresse MAC de destination, va les transmettre à la machine concernée.
 
-> Il existe un autre équipement, plus ancien, appelé *Concentrateur* (*Hub*) qui lui envoie les données à toutes les machines du réseau local.
+Il existe un autre équipement, plus ancien, appelé *Concentrateur* (*Hub* en anglais) qui lui envoie les données à toutes les machines du réseau local.
 
-----------
-
-#### Application 1
+##### Application 1
 
 La transmission de données à l'intérieur d'un réseau local peut être assimilée à la situation suivante :
 
@@ -94,8 +110,6 @@ Nom/prénom  -                             -  Commut
 
 Maison  -                                        -  Adresse MAC
 
-------------
-
 ## III. Couche 2 : Internet
 
 Imaginons désormais qu'une machine d'un premier sous-réseau local souhaite communiquer avec une machine d'un autre sous-réseau local.
@@ -106,7 +120,7 @@ Pour la suite de ce chapitre, nous utiliserons le schéma suivant représentant 
 
 ### a) Protocole IP
 
-Le protocole **IP** (*Internet Protocol*) de la couche Internet permet de faire communiquer efficacement deux machines appartenant à des réseaux différents.
+Le protocole IP pour *Internet Protocol* de la couche Internet permet de faire communiquer efficacement deux machines appartenant à des réseaux différents.
 
 Pour cela, le protocole IP remplit trois missions :
 
@@ -122,33 +136,31 @@ Une *adresse IP* est un identifiant de réseau associée à une machine.
 
 Une *adresse IP* est constituée d'un *identifiant réseau* et d'un *identifiant machine* précisant respectivement l'identité du réseau et l'identité de la machine.
 
-Elle est représentée sur 32 bits (IPv4) soit 4 octets et est usuellement notée en décimale.
+Elle est représentée sur trente-deux bits (IPv4) soit quatre octets et est usuellement notée en décimale.
 
 Les octets étant séparés par des points : `192.168.2.1`.
 
 En représentation binaire : ``11000000.10101000.00000010.00000001``
 
-> Les adresses IP de version 6 (IPv6) sont représentées sur 128 bits.
+Les adresses IP de version six (IPv6) sont représentées sur cent vingt-huit bits.
 
 ### c) Masque de sous-réseau
 
-Le *masque de sous-réseau*, représenté sur 4 octets, permet de <u>retrouver</u> l'*identifiant réseau* et l'*identifiant machine* d'une adresse IP.
+Le *masque de sous-réseau*, représenté sur quatre octets, permet de retrouver l'*identifiant réseau* et l'*identifiant machine* d'une adresse IP.
 
-Le masque est constitué d'une suite de bits à 1 (représentant l'identifiant réseau) suivie d'une suite de bits à 0 (représentant l'identifiant machine).
+Le masque est constitué d'une suite de bits à `1` (représentant l'identifiant réseau) suivie d'une suite de bits à `0` (représentant l'identifiant machine).
 
-Par exemple, un masque de sous-réseau valide est `255.255.255.0` parce que son écriture binaire (: `11111111.11111111.11111111.00000000`) est une suite de bits à 1 suivie d'une suite de bits à 0.
+Par exemple, un masque de sous-réseau valide est `255.255.255.0` parce que son écriture binaire (: `11111111.11111111.11111111.00000000`) est une suite de bits à `1` suivie d'une suite de bits à `0`.
 
-Cela veut dire, que les 24 premiers bits de l'adresse IP sont alloués à l'*identifiant réseau* et les 8 bits restants sont alloués à l'*identifiant machine*.
+Cela veut dire, que les vingt-quatre premiers bits de l'adresse IP sont alloués à l'*identifiant réseau* et les huit bits restants sont alloués à l'*identifiant machine*.
 
 En reprenant l'adresse IP ``192.168.2.1`` avec un masque de sous-réseau ``255.255.255.0`` :
 
-- Les 24 premiers bits de l'adresse IP sont alloués à l'identifiant réseau : ``11000000.10101000.00000010.xxxxxxxx``
+- L'identifiant réseau est : ``11000000.10101000.00000010.xxxxxxxx``
 
-- Les 8 bits restants de l'adresse IP sont alloués à l'identifiant machine : ``xxxxxxxx.xxxxxxxx.xxxxxxxx.00000001``
+- L'identifiant machine est : ``xxxxxxxx.xxxxxxxx.xxxxxxxx.00000001``
 
----
-
-#### Application 2
+##### Application 2
 
 Pour chacun des adresses IP et masques suivants, retrouver l'identifiant réseau et l'identifiant machine :
 
@@ -158,8 +170,6 @@ Pour chacun des adresses IP et masques suivants, retrouver l'identifiant réseau
 
 - IP : ``192.168.1.6`` ; Masque : ``255.255.254.0``
 
-------------
-
 ### d) <a name="schema"></a>Adressage des machines
 
 ![](./img/representation_reseau_ip.PNG)
@@ -168,11 +178,15 @@ Pour chacun des adresses IP et masques suivants, retrouver l'identifiant réseau
 
 Pour différencier les sous-réseaux entre eux, on leur attribue à eux aussi une adresse : l'*adresse réseau*.
 
-L'*adresse réseau* est la première adresse IP disponible du réseau : son identifiant machine vaut est à $0$.
+L'*adresse réseau* est la première adresse IP disponible du réseau : son identifiant machine vaut $0$.
 
 Elle sert à identifier un réseau et donc à les distinguer.
 
-Par exemple, l'adresse réseau du sous-réseau n°1 est ``192.168.1.0`` et celui du sous-réseau n°2 est ``192.168.2.0``. Il s'agit bien de deux sous-réseaux différents.
+Par exemple, l'adresse réseau du sous-réseau n°1 est ``192.168.1.0``.
+
+##### Application 3
+
+Donner l'adresse réseau du sous-réseau n°0 et vérifier qu'il ne s'agit pas en effet du sous-réseau n°1.
 
 ### f) Appartenance d'une machine à un réseau
 
@@ -188,17 +202,13 @@ Pour obtenir l'adresse réseau du réseau dans lequel est présente une machine,
 
 Grâce à cette opération, je sais que la machine d'adresse IP ``192.168.2.1`` appartient au sous-réseau d'adresse réseau ``192.168.2.0`` soit le sous-réseau n°2.
 
-----------
+##### Application 4
 
-#### Application 3
+a) Donner l'adresse réseau de la machine d'adresse IP ``192.168.0.2``.
 
-- Donner l'adresse réseau de la machine d'adresse IP ``192.168.0.2``.
+b) Donner l'adresse réseau de la machine d'adresse IP `192.168.1.1`.
 
-- Donner l'adresse réseau de la machine d'adresse IP `192.168.1.1`.
-
-- Expliquer pourquoi ces deux machines n'appartiennent pas au même réseau.
-
-----------------
+c) Expliquer pourquoi ces deux machines n'appartiennent pas au même réseau.
 
 ### g) Adresses IP réservées
 
@@ -210,25 +220,23 @@ Grâce à cette opération, je sais que la machine d'adresse IP ``192.168.2.1`` 
 
 Soit $n$ le nombre de bits alloués à l'identifiant machine. Soit $p$ le nombre d'adresses déjà utilisées. 
 
-Il est possible de savoir le nombre d'adresses encore disponibles dans un réseau en calculant $2^{n}-p$.
+Il est possible de connaître le nombre d'adresses encore disponibles dans un réseau en calculant $2^{n}-p$.
 
-----------
-
-#### Application 4
+#### Application 5
 
 En reprenant le [schéma](#schema), combien de machines je peux encore mettre dans :
 
-- Mon sous-réseau n°0 d'adresse réseau``192.168.0.0`` ?
+a) Mon sous-réseau n°0 d'adresse réseau``192.168.0.0`` ?
 
-- Mon sous-réseau n°1 d'adresse réseau ``192.168.1.0`` ?
-
------------
+b) Mon sous-réseau n°1 d'adresse réseau ``192.168.1.0`` ?
 
 ### i) Découpage en paquets IP
 
 La seconde mission du protocole IP est le découpage en paquets IP.
 
-Internet est un endroit où chaque utilisateur peut envoyer des données. Il arrive que ces données soient trop lourdes et cela a pour conséquence de surcharger le réseau et d'empêcher l'acheminement des données d'autres utilisateurs :
+Internet est un endroit où chaque utilisateur peut envoyer des données.
+
+Il arrive que ces données soient trop lourdes et cela a pour conséquence de surcharger le réseau et d'empêcher l'acheminement des données d'autres utilisateurs :
 
 ![](./img/surcharge.gif)
 
@@ -236,21 +244,13 @@ Pour y remédier, le protocole IP "découpe" les données en paquets IP. Chaque 
 
 ![](./img/decoupage.gif)
 
---------
+##### Application 6
 
-#### Activité Découpage en paquets
+Par deux, découper une image en quatre bandes. Puis, à la façon du protocole IP, envoyer une par une les bandes à votre voisin qui devra reconstituer l'image.
 
-Objectif : Simuler le découpage en paquets IP et leur transmission.
+a) Comment reconstituer l'image s'il en manque une ?
 
-Consigne : Découper une image en 4 bandes. Puis, à la façon du protocole IP, envoyer une par une les bandes au destinataire qui devra reconstituer l'image.
-
-Questions : 
-
-- Comment reconstituer l'image s'il en manque une ?
-
-- Comment reconstituer l'image si le destinataire les reçoit dans le désordre ?
-
-----------
+b) Comment reconstituer l'image si le destinataire les reçoit dans le désordre ?
 
 ### j) Routage
 
@@ -262,11 +262,11 @@ Le travail d'un *Routeur* est d'assurer le routage (la redirection) des paquets 
 
 Pour cela, le routeur, lorsqu'il recevra un paquet sur lequel est inscrit l'adresse IP de destination, devra rediriger ce paquet vers le réseau associé à cette adresse.
 
-> La notion de routage, étant au programme de Terminale, sera enrichie ultérieurement.
+La notion de routage, étant au programme de Terminale, sera enrichie ultérieurement.
 
 ## IV. Couche 3 : Transport
 
-Les protocoles **TCP** (*Transmission Control Protocol*) et **UDP** (*User Datagram Protocol*) appartiennent tous les deux à la troisième couche du modèle TCP/UDP : la couche Transport.
+Les protocoles TCP pour *Transmission Control Protocol* et UDP pour *User Datagram Protocol* appartiennent tous les deux à la troisième couche du modèle TCP/UDP : la couche Transport.
 
 En regardant d'un peu plus près le découpage en paquets effectués par le protocole IP, on remarque quelques soucis.
 
@@ -280,15 +280,15 @@ Le protocole TCP permet, par une mise en place d'un système d'accusés de réce
 
 Ce protocole est constitué de trois phases :
 
-- Etablissement d'*une session de connexion* afin de synchroniser l'émetteur et le récepteur pour l'échange de données qui suit.
+1. Etablissement d'*une session de connexion* afin de synchroniser l'émetteur et le récepteur pour l'échange de données qui suit.
 
-- Les paquets sont numérotés puis envoyés et un accusé de réception est attendu pour chacun d'entre eux.
+2. Les paquets sont numérotés puis envoyés et un accusé de réception est attendu pour chacun d'entre eux.
 
-- Arrêt de la session.
+3. Arrêt de la session.
 
 ### b) Etablissement d'une session de connexion TCP
 
-L'établissement d'une session de connexion entre deux machines se réalise à l'aide de l'algorithme des trois poignées de mains (*Three-way Handshake*).
+L'établissement d'une session de connexion entre deux machines se réalise à l'aide de l'algorithme des trois poignées de mains (*Three-way Handshake* en anglais).
 
 ![](./img/3-way_handshake.PNG)
 
@@ -298,7 +298,7 @@ L'établissement d'une session de connexion entre deux machines se réalise à l
 
 ### c) Transfert des paquets IP avec TCP
 
-Les données étant trop lourdes, le protocole IP a découpé les données en 2 paquets IP respectivement de numéro 100 et 200.
+Les données étant trop lourdes, le protocole IP a découpé les données en deux paquets IP respectivement de numéro $100$ et $200$.
 
 Lors d'une situation sans problème :
 
@@ -336,111 +336,10 @@ En descendant les couches, les données sont encapsulées. C'est à dire que cha
 
 - Enfin, la couche Accès réseau ajoute au paquet IP l'en-tête Ethernet. On y retrouve les adresses MAC des machines source et de destination. Cela forme une *Trame Ethernet*.
 
-------
+_______________
 
-## Exercices
+[Feuille d'exercices](./Exercices/Exercices_principe_des_réseaux.md)
 
-### Exercice 1 Commandes réseau
+_______________
 
-Dans cet exercice, nous allons manipuler l'interface en ligne de commande. Pour cela, il faut ouvrir l'application Windows **Invite de commandes**.
-
-Exécuter la commande ``ipconfig`` et répondre aux questions suivantes :
-
-a) Donner l'adresse MAC de votre machine.
-
-b) Donner l'adresse IP (IPv4) de votre machine.
-
-c) Donner le masque de sous-réseau et vérifier qu'il s'agit d'un masque valide.
-
-d) Donner l'adresse réseau du lycée.
-
-e) Combien de machines ce réseau peut-il contenir ?
-
-f) Quelle est sa plage d'adresse possible ? (Première adresse à dernière adresse IP)
-
----------
-
-Pour la suite des exercices, nous utiliserons le logiciel libre et gratuit : Filius.
-
-Filius permet de construire et simuler un réseau. Une fois lancé, on dispose de plusieurs modes :
-
-- *Mode construction* : permet d'ajouter des composants réseaux, de les modifier et de les relier entre eux.
-
-- *Mode simulation* : permet de lancer une simulation et de voir les paquets circuler dans le réseau.
-
-En mode construction, on peut sélectionner un composant réseau et le faire glisser dans la zone de dessin. Pour relier deux éléments , on clique sur l'icône du câble, puis sur chacun des deux éléments à relier.
-
-### Exercice 2 Réseau local
-
-![](./img/exo2.PNG)
-
-a) En mode construction, reproduire le réseau de la figure ci-dessus dans un fichier nommé ``reseau_ex2.fls``.
-
-b) Avec un masque de sous-réseau de ``255.255.0.0`` et en supposant l'adresse réseau ``192.168.0.0``. Ecrire deux adresses IP valides appartenenant à ce réseau.
-
-c) En cliquant sur ``configurer``, attribuer les adresses IP données à la question précédente aux deux ordinateurs du réseau. (Attention à modifier également le masque de sous-réseau.)
-
-La commande ``ping`` permet d’envoyer un paquet IP "vide" vers une adresse IP. Si la
-machine de destinatation reçoit ce paquet, elle répond avec un autre paquet IP comme accusé de réception. Cette commande permet de vérifier si deux machines peuvent communiquer entre-elles.
-
-e) Passer en mode simulation. Cliquer sur l'un des deux ordinateurs, puis sur **Installation de logiciels** et installer le logiciel **Ligne de commande**.
-
-Sur ce logiciel, exécuter la commande ``ping`` suivie de l'adresse IP du second ordinateur. Les deux machines sont-elles connectées ?
-
-f) A quoi correspond le temps affiché à côté de chaque accusé de réception ?
-
-### Exercice 3 Réseau de réseaux
-
-![](./img/exo3.PNG)
-
-a) En mode construction, reproduire le réseau de la figure ci-dessus dans un fichier nommé `reseau_ex3.fls`.
-
-Les machines M1 et M2 ont respectivement les adresses IP ``192.168.10.1`` et ``192.168.30.5``.
-
-Le serveur possède l'adresse IP ``8.8.8.1``.
-
-b) Donner l'adresse réseau du réseau A et B.
-
-c) Il faut désormais relier ces deux réseaux, pour cela configurer le routeur :
-
-- L'adresse IP du routeur du port relié au réseau A est ``192.168.0.1``.
-
-- L'adresse IP du routeur du port relié au réseau B est ``8.8.8.254``.
-
-Attention à également modifier le masque de sous-réseau si cela est nécessaire.
-
-d) Depuis M1, lancer un ``ping`` vers le serveur. Que se passe t-il ? Les machines sont-elles connectées ?
-
-L'erreur survient du fait qu'il manque une information à M1, il ne sait pas où envoyer le paquet. La passerelle est l'interface qui permet aux paquets de sortir du réseau.
-
-e) Dans la configuration de M1, ajouter dans Passerelle l'adresse IP du routeur relié au réseau A.
-
-f) Dans la configuration du serveur, ajouter dans Passerelle l'adresse IP du routeur relié au réseau B.
-
-g) Refaire la commande ``ping`` vers le serveur depuis M1. Les machines sont-elles connectées ?
-
-La commande `traceroute`permet de visualiser quels équipements le paquet traverse.
-
-h) Depuis M1, effectuer la commande ``traceroute`` suivie de l'adresse IP du serveur. A quoi correspondent les adresses affichées ?
-
-On décide de faire héberger sur le serveur une page Web.
-
-i) Pour cela, installer sur le serveur le logiciel **Serveur web** et sur M1 le logiciel **Navigateur web**.
-
-S'assurer que le serveur web est bien démarré, puis faire clic droit sur M1 et choisir **Afficher les échanges de données**.
-
-Enfin, sur M1, ouvrir le navigateur et à la suite de ``https://`` : écrire l'adresse IP du serveur.
-
-j) En visualisant les échanges effectués entre le navigateur et le serveur web, donner en précisant les couches, les protocoles utilisés.
-
-### Exercice 4 Mini Internet
-
-a) Télécharger le fichier ``reseau_ex4.fls`` et ouvrir le fichier. Il contient un exemple de réseau plus complexe, contenant plusieurs routeurs, que l'on peut voir comme un *mini internet*.
-
-b) Récupérer les adresses IP de M9 et M14, puis faire la commande ``ping`` afin de vérifier qu'elles sont bien connectées.
-
-c) Exécuter la commande ``traceroute`` de M9 vers M14. Quels sont les routeurs traversés ?
-
-d) Supprimer le câble reliant les routeurs E et F afin de simuler une panne. Puis réexécuter la commande ``traceroute`` de M9 vers M14. Que peut -on remarquer ?
-
-e) Existe t-il encore un autre chemin ?
+[Sommaire](./../README.md)
