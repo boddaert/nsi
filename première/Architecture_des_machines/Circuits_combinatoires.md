@@ -30,6 +30,18 @@ Par exemple, la porte $NON$ renvoie $1$ lorsqu'elle prend en entrée $0$ et renv
 
 - $\lnot 0=1$
 
+##### Application 1
+
+Donner le résultat des opérations logiques suivantes :
+
+a) $0 \land 1$
+
+b) $0 \lor 1$
+
+c) $1 \land 1$
+
+d) $1  \lor 1$
+
 ### b) Algèbre de Boole
 
 Les portes logiques ou la combinaison de plusieurs portes logiques constituent des *fonctions logiques*, elles prennent en entrée des données et donnent en sortie un résultat.
@@ -54,6 +66,18 @@ Cet algèbre obéit aux lois de distributivité, d'associativité, de commutativ
 
 - *Neutralité* : $1 \land e_0 = e_0$ ou $0 \lor e_0 = e_0$
 
+##### Application 2
+
+Trouver le résultat, à l'aide de l'algèbre de Boole, des fonctions logiques suivantes :
+
+a) $1 \lor (0 \land 1)$
+
+b) $1 \land (1 \land 0)$
+
+c) $1 \land ( e_1 \land 0)$
+
+d) $0 \land (e_1 \lor e_2)$
+
 ### c) Tables de vérité
 
 Afin de représenter efficacement les résultats possibles d'une fonction logique, nous fabriquons la table de vérité de cette fonction.
@@ -75,6 +99,13 @@ Par exemple, la table de vérité de la fonction $(\lnot e_0 \lor e_1)\land e_2$
 | $1$ | $1$ | $0$ | $0$ | $1$ | $0$ |
 | $1$ | $1$ | $1$ | $0$ | $1$ | $1$ |
 
+##### Application 3
+
+Construire, pour chacune des fonctions logiques de l'application 2, leur table de vérité.
+
+##### Application 4
+
+Construire la table de vérité de la fonction logique suivante : $(e_0 \lor \lnot e_1) \land ((\lnot e_2 \lor e_3) \land \lnot (e_4 \land e_5))$
 
 _________________
 
