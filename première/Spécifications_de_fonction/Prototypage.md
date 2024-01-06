@@ -57,6 +57,10 @@ def max(l : list)->int:
     return elt_max
 ```
 
+##### Application 1
+
+Ecrire la DocString de toute les fonctions données en réponses aux questions de la feuille d'exercice sur les listes (cf [Feuille d'exercices sur les listes](./../Structures_de_données/Exercices/Exercices_listes.md))
+
 ______________
 
 [Sommaire](./../README.md)

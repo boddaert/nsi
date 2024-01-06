@@ -99,6 +99,10 @@ Test passed.
 TestResults(failed=0, attempted=4)
 ```
 
+##### Application 1
+
+Ecrire et visualiser la Doctest de toute les fonctions données en réponses aux questions de la feuille d'exercice sur les listes (cf [Feuille d'exercices sur les listes](./../Structures_de_données/Exercices/Exercices_listes.md))
+
 ______________
 
 [Sommaire](./../README.md)

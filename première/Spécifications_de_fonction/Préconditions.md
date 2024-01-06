@@ -8,7 +8,7 @@ Les *préconditions* sont les conditions sur les paramètres et les conditions d
 
 Les préconditions doivent être vérifiées pour que la spécification d'une fonction soit vraie.
 
-Par exemple, pour la fonction `max(l : list)->int` définie dans [Spécifications](./Specification.md) dont la spécification est `Renvoie l'entier le plus grand parmi tous les entiers de la liste l`, les préconditions sont :
+Par exemple, pour la fonction `max(l : list)->int` définie dans [Spécifications](./Specification.md) dont la spécification est **Renvoie l'entier le plus grand parmi tous les entiers de la liste l**, les préconditions sont :
 
 - Le paramètre `l` est bien de type `list`.
 
@@ -73,6 +73,10 @@ Traceback (most recent call last):
     assert len(l) > 0, "La liste entrée en paramètre ne contient aucun élément"
 AssertionError: La liste entrée en paramètre ne contient aucun élément
 ```
+
+##### Application 1
+
+Ecrire, à l'aide d'assertions, et visualiser les préconditions de toute les fonctions données en réponses aux questions de la feuille d'exercice sur les listes (cf [Feuille d'exercices sur les listes](./../Structures_de_données/Exercices/Exercices_listes.md))
 
 ___________________
 

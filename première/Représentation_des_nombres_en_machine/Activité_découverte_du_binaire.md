@@ -1,4 +1,4 @@
-# Activité : Découvrir le binaire
+# Activité : Découverte du binaire
 
 Nature : Débranchée
 
