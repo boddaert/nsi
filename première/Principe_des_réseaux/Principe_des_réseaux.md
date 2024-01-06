@@ -1,6 +1,6 @@
 # Principe des réseaux
 
-## Introduction
+## I. Introduction
 
 Considérons une action banale : la navigation sur un site Web. Par exemple, nous souhaitons accéder au site : [https://fr.wikipedia.org/wiki/Informatique](https://fr.wikipedia.org/wiki/Informatique)
 
@@ -18,7 +18,7 @@ A partir de cette simple manipulation, nous pouvons déjà faire quelques observ
 
 **Comment les données sont-elles transmises depuis une machine source vers une machine de destination ?**
 
-## I. Généralités
+## II. Généralités
 
 ### a) Définitions
 
@@ -29,18 +29,6 @@ Un *protocole* est un ensemble de règles permettant de standartiser la communic
 ### b) Modèles en couches
 
 Dans l'objectif de décrire le fonctionnement d'un réseau informatique, les informaticiens ont proposé dans les années 1980 deux modèles :
-
-$$
-\begin{table}{|l|c|r|} 
-   \hline
-    colonne 1 & \multicolumn{2}{c|}{colonnes 2 et 3} \\
-    \hline
-    1.1 & 1.2 & 1.3 \\
-    \cline{2-3} 
-        & 2.2 & 2.3 \\
-    \hline
-\end{table}
-$$
 
 ![](./img/modeles_en_couche.png)
 
@@ -66,7 +54,7 @@ Les réseaux personnels, internes aux entreprises ou aux écoles sont des résea
 
 - *Internet* est l'ensemble des réseaux mondiaux interconnectés.
 
-## II. Couche 1 : Accès réseau
+## III. Couche 1 : Accès réseau
 
 Ici, dans la couche $1$ du modèle TCP/IP, toutes les machines sont reliées directement en réseau local.
 
@@ -110,7 +98,7 @@ Nom/prénom  -                             -  Commut
 
 Maison  -                                        -  Adresse MAC
 
-## III. Couche 2 : Internet
+## IV. Couche 2 : Internet
 
 Imaginons désormais qu'une machine d'un premier sous-réseau local souhaite communiquer avec une machine d'un autre sous-réseau local.
 
@@ -264,7 +252,7 @@ Pour cela, le routeur, lorsqu'il recevra un paquet sur lequel est inscrit l'adre
 
 La notion de routage, étant au programme de Terminale, sera enrichie ultérieurement.
 
-## IV. Couche 3 : Transport
+## V. Couche 3 : Transport
 
 Les protocoles TCP pour *Transmission Control Protocol* et UDP pour *User Datagram Protocol* appartiennent tous les deux à la troisième couche du modèle TCP/UDP : la couche Transport.
 
@@ -324,7 +312,7 @@ Le protocole UDP n'utilise pas les accusés de réception et ne surcharge pas le
 
 Si un paquet est perdu, cela n'a pas de conséquence et le visionnage peut continuer avec les paquets suivants. 
 
-## V. Encapsulation des données
+## VI. Encapsulation des données
 
 En descendant les couches, les données sont encapsulées. C'est à dire que chaque couche ajoute de l'information à ce qui va être envoyé :
 
