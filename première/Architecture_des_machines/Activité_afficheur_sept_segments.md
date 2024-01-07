@@ -48,7 +48,9 @@ d) Pour quels symboles votre segment s'allume ?
 
 e) Etablir la table de vérité de votre segment.
 
-f) En déduire la fonction logique de votre segment.
+f) Repérer les lignes de votre table de vérité dont le bit de sortie vaut $1$ : il s'agit de tous les cas où le segment s'allume. Ecrire la fonction logique pour une seule ligne.
+
+g) En déduire la fonction logique de votre segment.
 
 __________________
 

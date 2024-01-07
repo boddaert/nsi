@@ -20,9 +20,9 @@ Nous représentons en algèbre de Boole :
 
 - La porte $ET$ par le symbole $\land$.
 
-- La porte $OR$ par le symbole $\lor$.
+- La porte $OU$ par le symbole $\lor$.
 
-- La porte $NOT$ par le symbole $\lnot$.
+- La porte $NON$ par le symbole $\lnot$.
 
 Par exemple, la porte $NON$ renvoie $1$ lorsqu'elle prend en entrée $0$ et renvoie $0$ lorsqu'elle prend en entrée $1$ (en sachant que la valeur booléenne $1$ représente $True$ et la valeur booléenne $0$ représente $False$) :
 
