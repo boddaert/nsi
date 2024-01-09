@@ -88,3 +88,10 @@
 
 - Projet n°3 : [Ice Walker](./Projets/Projet_ice_walker.md)
 
+______________________
+
+## Bulletins Officiels
+
+[Bulletin Officiel de Première](./../bo_premiere.pdf)
+
+[Bulletin Officiel de Terminale](./../bo_terminale.pdf)

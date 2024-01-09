@@ -97,3 +97,11 @@ ______________________
 [Banque d'épreuve écrite](https://pixees.fr/informatiquelycee/term/suj_bac/)
 
 [Banque d'épreuve pratique](https://pixees.fr/informatiquelycee/term/ep/index.html)
+
+______________________
+
+## Bulletins Officiels
+
+[Bulletin Officiel de Première](./../bo_premiere.pdf)
+
+[Bulletin Officiel de Terminale](./../bo_terminale.pdf)
