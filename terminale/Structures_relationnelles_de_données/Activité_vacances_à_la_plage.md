@@ -14,9 +14,26 @@ L'objectif de cette activité est d'appliquer l'algorithme de Dijkstra sur un gr
 
 ## II. Enoncé
 
-Depuis Valenciennes, vous décidez de passer vos vacances à la plage à Boulogne-sur-mer. Pour y aller, vous repérez le montant des péages de chaque autoroute et les notez sur la carte ci-dessous :
-
 ![image](./img/npdc_peages.png)
+
+Depuis Valenciennes, vous décidez de passer vos vacances à la plage à Boulogne-sur-mer. Pour y aller, vous repérez le montant des péages de chaque autoroute et les notez dans le tableau ci-dessous :
+
+| Ville de départ | Ville de destination | Montant du péage |
+| :---: | :---: | :---: |
+| Valenciennes | Cambrai | $0$ |
+| Valenciennes | Douai | $15$ |
+| Valenciennes | Lille | $10$ |
+| Douai | Arras | $15$ |
+| Douai | Lens | $17$ |
+| Arras | Béthune | $13$ |
+| Lens | Béthune | $22$ |
+| Lille | Lens | $10$ |
+| Lille | Dunkerque | $50$ |
+| Béthune | Saint-Omer | $31$ |
+| Dunkerque | Calais | $2$ |
+| Saint-Omer | Calais | $19$ |
+| Saint-Omer | Boulogne-sur-Mer | $14$ |
+| Calais | Boulogne-sur-Mer | $4$ |
 
 Vous remarquez que cela ressemble fortement à un graphe orienté pondéré et décidez d'utiliser un algorithme permettant de trouver le chemin de poids minimal afin de dépenser le moins d'argent possible dans les péages.
 
@@ -66,7 +83,7 @@ c) Pourquoi sur la première ligne, la distance vers $A$ est de $0$ et la distan
 
 d) A l'aide du tableau, donner le chemin de poids minimal du sommet $A$ au sommet $B$ et sa valeur.
 
-e) Reprendre la carte donnée dans l'énoncé et dessiner le graphe correspondant.
+e) Reprendre la carte et le tableau du montant des péages donnés dans l'énoncé et dessiner le graphe correspondant.
 
 f) Appliquer l'algorithme de Dijkstra sur ce graphe à partir du sommet représentant la ville de Valenciennes et faire le tableau.
 
