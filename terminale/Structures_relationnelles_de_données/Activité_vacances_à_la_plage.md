@@ -14,7 +14,7 @@ L'objectif de cette activité est d'appliquer l'algorithme de Dijkstra sur un gr
 
 ## II. Enoncé
 
-![image](./img/npdc_peages.png)
+![image](./img/npdc.png)
 
 Depuis Valenciennes, vous décidez de passer vos vacances à la plage à Boulogne-sur-mer. Pour y aller, vous repérez le montant des péages de chaque autoroute et les notez dans le tableau ci-dessous :
 
