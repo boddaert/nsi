@@ -104,6 +104,8 @@ ______________________
 
 [Oraux du jeudi](./Oraux/Oraux_du_jeudi.md)
 
+[Barême du Grand Oral](./Oraux/Barême_grand_oral.pdf)
+
 ______________________
 
 ## Bulletins Officiels

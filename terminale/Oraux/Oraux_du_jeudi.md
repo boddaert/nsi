@@ -12,3 +12,6 @@
 
 ## Barême
 
+| Elève | Note finale sur $10$ | Consigne n°1 | Consigne n°2 | Consigne n°3 | Consigne n°4 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+ 
