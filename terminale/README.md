@@ -102,7 +102,7 @@ ______________________
 
 ## Entraînement à l'oral
 
-[Oraux du jeudi](./Oraux/Oraux.md)
+[Oraux du jeudi](./Oraux/Oraux_du_jeudi.md)
 
 ______________________
 
