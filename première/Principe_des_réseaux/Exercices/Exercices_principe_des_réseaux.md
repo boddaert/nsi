@@ -32,7 +32,7 @@ En mode construction, on peut sélectionner un composant réseau et le faire gli
 
 ## Exercice 2
 
-![](./img/exo2.PNG)
+![image](./../img/exo2.PNG)
 
 a) En mode construction, reproduire le réseau de la figure ci-dessus dans un fichier nommé ``reseau_ex2.fls``.
 
@@ -51,7 +51,7 @@ f) A quoi correspond le temps affiché à côté de chaque accusé de réception
 
 ## Exercice 3
 
-![](./img/exo3.PNG)
+![](./../img/exo3.PNG)
 
 a) En mode construction, reproduire le réseau de la figure ci-dessus dans un fichier nommé `reseau_ex3.fls`.
 
