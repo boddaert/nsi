@@ -101,11 +101,7 @@ Par exemple, la table de vérité de la fonction $(\lnot e_0 \lor e_1)\land e_2$
 
 ##### Application 3
 
-Construire, pour chacune des fonctions logiques de l'application 2, leur table de vérité.
-
-##### Application 4
-
-Construire la table de vérité de la fonction logique suivante : $(e_0 \lor \lnot e_1) \land ((\lnot e_2 \lor e_3) \land \lnot (e_4 \land e_5))$
+Construire la table de vérité de la fonction logique suivante : $(e_0 \lor \lnot e_1) \land (\lnot e_2 \lor e_3)$
 
 _________________
 

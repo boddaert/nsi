@@ -8,7 +8,7 @@ Lorsque nous cliquons sur le lien, la page wikipédia s'affiche à l'écran.
 
 A partir de cette simple manipulation, nous pouvons déjà faire quelques observations :
 
-- La page qui vient de s'afficher ne se trouve pas en réalité sur notre ordinateur, mais sur une autre machine appellée *serveur* (On dit que le serveur héberge ce site web). Il y a donc eu une communication entre notre machine et le serveur pour récupérer les données du site.
+- La page qui vient de s'afficher ne se trouve pas en réalité sur notre ordinateur, mais sur une autre machine appellée *serveur* (Le serveur héberge ce site web). Il y a donc eu une communication entre notre machine et le serveur pour récupérer les données du site.
 
 - Deuxièmement, notre machine n'est pas reliée directement au serveur : il n'y a pas de câble reliant directement notre ordinateur au serveur.
 
@@ -22,7 +22,9 @@ A partir de cette simple manipulation, nous pouvons déjà faire quelques observ
 
 ### a) Définitions
 
-Un *réseau informatique* est un ensemble de noeuds (équipements informatiques) reliés entre eux par des liens. Les réseaux informatiques permettent l'échange de données entre les machines au moyen de protocoles.
+Un *réseau informatique* est un ensemble de noeuds (équipements informatiques) reliés entre eux par des liens.
+
+Les réseaux informatiques permettent l'échange de données entre les machines au moyen de protocoles.
 
 Un *protocole* est un ensemble de règles permettant de standartiser la communication.
 
@@ -56,9 +58,9 @@ Les réseaux personnels, internes aux entreprises ou aux écoles sont des résea
 
 ## III. Couche 1 : Accès réseau
 
-Ici, dans la couche $1$ du modèle TCP/IP, toutes les machines sont reliées directement en réseau local.
+Ici, dans la couche n°$1$ du modèle TCP/IP, toutes les machines sont reliées directement en réseau local.
 
-Il peut s'agir d'un réseau Wi-Fi ou d'un réseau câblé utilisant le protocole **Ethernet**.
+Il peut s'agir d'un réseau Wi-Fi ou d'un réseau câblé utilisant le protocole *Ethernet*.
 
 ### a) Adresses MAC
 
@@ -66,7 +68,7 @@ Dans un réseau local, les machines sont distinguées par leur adresse MAC.
 
 Une *adresse MAC* est l'adresse physique unique de la machine.
 
-L'adresse MAC d'une machine est découpée en $6$ octets représentés traditionnellement en hexadécimal : ``98:f3:96:d1:26:a8``.
+L'adresse MAC d'une machine est découpée en six octets représentés traditionnellement en hexadécimal : ``98:f3:96:d1:26:a8``.
 
 Dans la représentation d'une adresse MAC, les octets sont séparés par des ':'
 
@@ -174,13 +176,13 @@ Par exemple, l'adresse réseau du sous-réseau n°1 est ``192.168.1.0``.
 
 ##### Application 3
 
-Donner l'adresse réseau du sous-réseau n°0 et vérifier qu'il ne s'agit pas en effet du sous-réseau n°1.
+Donner l'adresse réseau du sous-réseau n°0 et vérifier qu'il ne s'agit pas, en effet, du sous-réseau n°1.
 
 ### f) Appartenance d'une machine à un réseau
 
 Il arrive souvent que nous nous demandons si telle machine appartienne à tel réseau.
 
-Pour obtenir l'adresse réseau du réseau dans lequel est présente une machine, il suffit de réaliser l'opération AND bit à bit entre l'adresse IP de la machine et son masque :
+Pour obtenir l'adresse réseau du réseau dans lequel est présente une machine, il suffit de réaliser l'opération $ET$ bit à bit entre l'adresse IP de la machine et son masque :
 
 ```
   11000000.10101000.00000010.00000001 -> 192.168.2.1
@@ -279,6 +281,13 @@ Ce protocole est constitué de trois phases :
 L'établissement d'une session de connexion entre deux machines se réalise à l'aide de l'algorithme des trois poignées de mains (*Three-way Handshake* en anglais).
 
 ![](./img/3-way_handshake.PNG)
+
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+```
 
 - SYN (*Synchronized*) : Synchronisation
 
