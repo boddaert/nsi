@@ -280,8 +280,6 @@ Ce protocole est constitué de trois phases :
 
 L'établissement d'une session de connexion entre deux machines se réalise à l'aide de l'algorithme des trois poignées de mains (*Three-way Handshake* en anglais).
 
-![](./img/3-way_handshake.PNG)
-
 ```mermaid
 sequenceDiagram
     autonumber
@@ -303,15 +301,18 @@ Les données étant trop lourdes, le protocole IP a découpé les données en de
 
 Lors d'une situation sans problème :
 
-![](./img/tcp.PNG)
+```mermaid
+sequenceDiagram
+    autonumber
+    192.168.0.1->>192.168.2.1: Envoi du paquet n°1
+    192.168.0.1->>192.168.2.1: Envoi du paquet n°2
+    192.168.2.1->>192.168.0.1: Envoi de l'accusé de reception n°101
+    192.168.2.1->>192.168.0.1: Envoi de l'accusé de reception n°102
+```
 
-Lorsque les paquets ont été reçus dans le mauvais ordre :
+Les accusés de reception permettent le réenvoi des paquets perdus.
 
-![](./img/desordre.PNG)
-
-Lorsqu'un paquet a été perdu :
-
-![](./img/paquet_perdu.PNG)
+Le numéro des paquets permettent de les assembler dans le bon ordre lors de leur reception.
 
 ### d) Protocole UDP
 
