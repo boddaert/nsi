@@ -286,9 +286,11 @@ L'établissement d'une session de connexion entre deux machines se réalise à l
 sequenceDiagram
     autonumber
     192.168.0.1->>192.168.2.1: SYN Je veux communiquer, êtes vous disponible ?
-    Note right of John: Text in note
+    Note right of 192.168.2.1: Accusé de reception
     192.168.2.1->>192.168.0.1: SYN-ACK Je peux communiquer, êtes vous prêts ?
+    Note left of 192.168.0.1: Accusé de reception, connexion établie
     192.168.0.1->>192.168.2.1: ACK Je suis prêt !
+    Note right of 192.168.2.1: Connexion établie
 ```
 
 - SYN (*Synchronized*) : Synchronisation
