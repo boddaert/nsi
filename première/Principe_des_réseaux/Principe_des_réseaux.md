@@ -284,7 +284,9 @@ L'établissement d'une session de connexion entre deux machines se réalise à l
 
 ```mermaid
 sequenceDiagram
+    autonumber
     192.168.0.1->>192.168.2.1: SYN Je veux communiquer, êtes vous disponible ?
+    Note right of John: Text in note
     192.168.2.1->>192.168.0.1: SYN-ACK Je peux communiquer, êtes vous prêts ?
     192.168.0.1->>192.168.2.1: ACK Je suis prêt !
 ```
