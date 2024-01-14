@@ -82,8 +82,6 @@ Le déchiffrement se fait de la manière inverse (il faut que la position des ro
 
 c) Ecrire une fonction ``chiffre_enigma(message_clair : str, machine : EnigmaMachine, pos_rotors : str)->str`` qui prend en paramètres un message clair, une machine Enigma configurée et la position des rotors. Cette fonction renvoie le message chiffré.
 
-d) Ecrire une fonction ``dechiffre_enigma(message_chiffre : str, machine : EnigmaMachine, pos_rotors : str)->str`` qui prend en paramètres un message chiffré, une machine Enigma configurée et la position des rotors. Cette fonction renvoie le message clair.
-
 _______________
 
 [Sommaire](./../README.md)
