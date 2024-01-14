@@ -54,7 +54,7 @@
 
 - Leçon 1 : [Gestion des processus et des ressources](./Architecture_des_machines/Gestion_des_processus_et_des_ressources.md)
 
-- Activité : [Panique à la boulangerie](./Architecture%20des%20machines/Activité_panique_à_la_boulangerie.md)
+- Activité : [Panique à la boulangerie](./Architecture_des_machines/Activité_panique_à_la_boulangerie.md)
 
 ##### Chapitre 9 : Sécurisation des communications
 
