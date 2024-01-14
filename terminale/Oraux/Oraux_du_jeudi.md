@@ -12,8 +12,3 @@
 
 ## Barême
 
-| Elève | Note finale sur $10$ | Consigne n°1 sur $2$ | Consigne n°2 sur $3$ | Consigne n°3 sur $3$ | Consigne n°4 sur $2$ |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| Aya | $6.5$ | $2$ | $1.5$ | $2$ | $1$ |
-| Sabri | $5$ | $1$ | $1$ | $2$ | $1$ |
-| Romain | $7$ | $2$ | $3$ | $0$ | $2$ |
