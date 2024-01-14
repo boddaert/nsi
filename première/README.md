@@ -74,7 +74,7 @@
 
 - Leçon 3 : [Postconditions](./Spécification/Postconditions.md)
 
-- Activité [Pair Programming](./Spécifications_de_fonction/Activité_pair_programming.md)
+- Activité : [Pair Programming](./Spécifications_de_fonction/Activité_pair_programming.md)
 
 ##### Chapitre 8 : Principe des réseaux
 
