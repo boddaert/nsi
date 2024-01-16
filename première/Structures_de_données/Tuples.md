@@ -18,13 +18,6 @@ Un *tuple vide* est un tuple ne contenant aucun élément :
 <class = 'tuple'>
 ```
 
-Un tuple peut contenir des éléments de différents types :
-
-```python
->>> type((True, 0, "coucou"))
-<class = 'tuple'>
-```
-
 *Attention : Il faut toujours au moins une virgule pour définir un tuple à un élément.*
 
 ```python
@@ -65,7 +58,7 @@ Nous pouvons utiliser les tuples pour affecter sur une même ligne plusieurs val
 ```python
 >>> (a, b) = ("coucou", 42)
 >>> a
-"cc"
+"coucou"
 >>> b
 42
 ```
