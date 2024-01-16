@@ -70,9 +70,9 @@
 
 - Leçon 1 : [Prototypage](./Spécifications_de_fonction/Prototypage.md)
 
-- Leçon 2 : [Préconditions](./Spécification/Préconditions.md)
+- Leçon 2 : [Préconditions](./Spécifications_de_fonction/Préconditions.md)
 
-- Leçon 3 : [Postconditions](./Spécification/Postconditions.md)
+- Leçon 3 : [Postconditions](./Spécifications_de_fonction/Postconditions.md)
 
 - Activité : [Pair Programming](./Spécifications_de_fonction/Activité_pair_programming.md)
 
