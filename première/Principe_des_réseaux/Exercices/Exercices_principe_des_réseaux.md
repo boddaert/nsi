@@ -93,7 +93,7 @@ Enfin, sur M1, ouvrir le navigateur et à la suite de ``https://`` : écrire l'a
 
 j) En visualisant les échanges effectués entre le navigateur et le serveur web, donner en précisant les couches, les protocoles utilisés.
 
-### Exercice 4
+## Exercice 4
 
 a) Télécharger le fichier [reseau_ex4.fls](./../src/reseau_ex4.fls) et ouvrir le fichier. Il contient un exemple de réseau plus complexe, contenant plusieurs routeurs, que l'on peut voir comme un mini internet.
 

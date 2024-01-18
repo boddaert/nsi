@@ -48,11 +48,9 @@ Le modèle TCP/IP étant plus proche de la réalité, c'est ce modèle que nous 
 
 ### c) Types de réseaux
 
-- Les *réseaux locaux* sont les réseaux de plus petite taille, ils contiennent au maximum une centaine d'ordinateurs.
+- Les *LAN* (pour *Local Area Network*) sont des réseaux locaux personnels, internes aux entreprises ou aux écoles.
 
-Les réseaux personnels, internes aux entreprises ou aux écoles sont des réseaux locaux. Ce sont des LAN (*Local Area Network*).
-
-- Les MAN (*Metropolitan Area Network*) sont des réseaux locaux interconnectés et ont généralement la taille d'une ville.
+- Les *MAN* (pour *Metropolitan Area Network*) sont des réseaux de réseaux locaux interconnectés et ont généralement la taille d'une ville.
 
 - *Internet* est l'ensemble des réseaux mondiaux interconnectés.
 

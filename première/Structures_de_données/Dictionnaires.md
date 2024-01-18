@@ -1,73 +1,156 @@
 # Dictionnaires
 
-## I. Définition
+## I. Définitions
 
-Les dictionnaires sont des structures de données **non ordonnées**. On n'accède donc pas aux valeurs via leurs indices (ou positions dans la structure).
+Un *dictionnaire* est une structure non linéaire mutable de données.
 
-On accède à une valeur via sa **clé**. Toutes les clés doivent donc être différentes.
+Une *structure de données* est une structure permettant d'organiser ses données dans l'objectif que le traitement de celles-ci soit efficace.
 
-Un dictionnaire est un ensemble de paires **clé / valeur**.
+Une *structure non linéaire de données* est une structure de données dans laquelle chaque élément ne possède pas de position.
 
-Les clés et les valeurs peuvent être de tout type.
+Une *structure non linéaire mutable de données* est une structure de données non linéaire dans laquelle les éléments peuvent être ajoutés, retirés ou modifiés.
 
-## II. Créer, Ajouter, Accéder et Supprimer
+| Structure de données | Linéaire | Non linéaire |
+| :---: | :---: | :---: |
+| Mutable | Listes | Dictionnaires |
+| Non mutable | Tuples | Ensembles (hors programme) |
 
-### a) Créer
+Étant donné que les éléments n'ont pas de position dans la structure, nous n'accédons donc pas aux éléments via leurs indices.
 
-Un dictionnaire s'écrit en Python avec des accolades.
+Un dictionnaire est un ensemble de paires *clé/valeur*.
 
-On peut créer un dictionnaire vide :
+Nous accédons à une valeur via sa clé. Toutes les clés sont uniques.
+
+En Python, le type `dict` est encadré par des accolades :
 
 ```python
->>> dico = {}
+>>> type({'a' : 1, 'b': 2})
+<class 'dict'>
 ```
 
-Ou le créer directement avec des clés et des valeurs :
+Nous associons les paires clé/valeur par `:`. Ici, la valeur `1` est associée à la clé `'a'`.
+
+Un *dictionnaire vide* est un dictionnaire ne contenant aucune paire clé/valeur :
 
 ```python
->>> dico = {'triangle' : 3, 'quadrilatère' : 4, 'pentagone' : 5}
->>> dico2 = {3 : 'triangle', 4 : 'quadrilatère', 8 : 'octogone'}
+>>> type({})
+<class = 'dict'>
 ```
 
-*Remarque : Les paires clé / valeur sont séparées par des virgules.*
-
-*Les valeurs sont associées aux clés avec le deux points.*
-
-*Les clés et valeurs peuvent être de n'importe quel type.*
-
-### b) Ajouter
-
-On ajoute dans un dictionnaire une paire clé / valeur avec l'affectation de la valeur à la clé  :
+Un dictionnaire peut contenir des paires clé/valeur de différents types :
 
 ```python
->>> dico['octogone'] = 8
->>> dico2[5] = 'pentagone'
+>>> type({'bonjour' : True, 42 : [1, 2, 3]})
+<class = 'dict'>
 ```
 
-### c) Accéder
+##### Application 1
 
-A partir d'une clé, on peut accéder à sa valeur correspondante :
+Sur Thonny, créer un dictionnaire appelé : `carte_id` ayant comme élément les paires clé/valeur suivantes :
+
+- Votre nom en chaîne de caractère associé à la clé `nom`.
+
+- Votre prénom en chaîne de caractère associé à la clé `prenom`.
+
+- Votre âge en nombre entier associé à la clé `age`.
+
+## II. Opérations sur les dictionnaires
+
+### a) Taille
+
+La *taille* d'un dictionnaire est le nombre de paire clé/valeur contenu dans celui-ci.
+
+Elle peut être connue en utilisant la fonction `len()` :
 
 ```python
->>> dico['pentagone']
-5
->>> dico2[8]
-'octogone' 
+>>> len({'bonjour' : True, 42 : [1, 2, 3]})
+2
 ```
 
-### d) Supprimer
+##### Application 2
 
-On supprime une paire clé / valeur d'un dictionnaire avec le mot ``del`` sur la clé :
+Écrire l'instruction permettant de vérifier que la taille de `carte_id` vaut $3$.
+
+### b) Accès à une valeur
+
+Nous accédons à une valeur du dictionnaire à l'aide de la clé associée.
+
+Nous mettons la clé de la valeur que nous souhaitons obtenir entre crochets :
 
 ```python
->>> del dico['triangle']
+>>> dico = {'bonjour' : True, 42 : [1, 2, 3]}
+>>> dico['bonjour']
+True
+```
+
+##### Application 3
+
+À partir du dictionnaire `carte_id`, écrire :
+
+- l'instruction permettant d'afficher votre nom.
+
+- l'instruction permettant d'afficher votre prénom.
+
+- l'instruction permettant d'afficher votre âge.
+
+### c) Test d'appartenance
+
+Nous pouvons vérifier si une clé est présente dans un dictionnaire à l'aide du mot-clé `in`.
+
+```python
+>>> 'bonjour' in dico
+True
+```
+
+Le test d'appartenance renvoie comme résultat un booléen.
+
+## III. Mutabilité
+
+Une valeur est dite *mutable* si elle peut être modifiée.
+
+Les dictionnaires sont mutables.
+
+### a) Modification de valeur
+
+Nous pouvons modifier les valeurs d'un dictionnaire :
+
+```python
+>>> dico['bonjour'] = False
+>>> dico
+{'bonjour': False, 42: [1, 2, 3]}
+```
+
+##### Application 4
+
+Sur le dictionnaire `carte_id`, écrire l'instruction permettant d'ajouter un an à votre âge.
+
+### b) Ajout de paire clé/valeur
+
+L'ajout de paire clé/valeur s'effectue en associant une valeur à une clé non existante :
+
+```python
+>>> dico[55] = (3, 2, 1)
+>>> dico
+{'bonjour': False, 42: [1, 2, 3], 55: (3, 2, 1)}
+```
+
+##### Application 5
+
+Écrire l'instruction permettant d'ajouter votre nationnalité au dictionnaire `carte_id`.
+
+### c) Suppression de paire clé/valeur
+
+La suppression de paire clé/valeur d'un dictionnaire s'effectue à l'aide du mot clé  `del` sur la clé :
+
+```python
+>>> del dico'55]
+>>> dico
+{'bonjour': False, 42: [1, 2, 3]}
 ```
 
 -------------
 
-### Application 1
 
-Sur Thonny, créer un dictionnaire vide `carte_id`.
 
 ### Application 2
 
@@ -85,13 +168,7 @@ A partir du dictionnaire vide ``carte_id``, écrire :
 
 ### Application 3
 
-A partir du dictionnaire `carte_id`, écrire :
 
-- l'instruction permettant d'afficher votre nom.
-
-- l'instruction permettant d'afficher votre prénom.
-
-- l'instruction permettant d'afficher votre l'âge.
 
 ### Application 4
 
