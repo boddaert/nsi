@@ -196,7 +196,7 @@ L'objectif est de déterminer s'il est possible de communiquer à une machine $B
 
 Voici ci-dessous un exemple de réseau sur lequel nous allons travailler :
 
-![](./img/reseau.PNG)
+![image](./../img/reseau.PNG)
 
 Vu comme cela, nous pouvons directement affirmer que la machine $A$ et $B$ peuvent communiquer. Mais en réalité, la machine $A$ ne le sait pas.
 
