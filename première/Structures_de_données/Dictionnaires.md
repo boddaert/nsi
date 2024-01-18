@@ -136,7 +136,7 @@ L'ajout de paire clé/valeur s'effectue en associant une valeur à une clé non 
 
 ##### Application 5
 
-Écrire l'instruction permettant d'ajouter votre nationnalité au dictionnaire `carte_id`.
+Écrire l'instruction permettant d'ajouter votre nationnalité, votre date et lieu de naissance au dictionnaire `carte_id`.
 
 ### c) Suppression de paire clé/valeur
 
@@ -148,126 +148,88 @@ La suppression de paire clé/valeur d'un dictionnaire s'effectue à l'aide du mo
 {'bonjour': False, 42: [1, 2, 3]}
 ```
 
--------------
+##### Application 6
 
+Finalement, écrire l'instruction permettant de supprimer votre lieu de naissance du dictionnaire `carte_id`.
 
+## IV. Parcours de dictionnaire
 
-### Application 2
+Un *parcours de dictionnaire* consiste à visiter tous les éléments du dictionnaire une et une seule fois dans le but de leur appliquer un traitement.
 
-A partir du dictionnaire vide ``carte_id``, écrire :
+Nous parcourons les dictionnaires en utilisant les boucles.
 
-- l'instruction permettant d'ajouter au dictionnaire votre nom associé à la clé ``"nom"``.
+Comme nous connaissons à l'avance la taille d'un dictionnaire, nous connaissons à l'avance le nombre de tour de boucle nécessaire au parcours : Nous utilisons donc la boucle `for`.
 
-- l'instruction permettant d'ajouter au dictionnaire votre prénom associé à la clé `"prenom"`.
+Il existe trois façons de parcourir les dictionnaires :
 
-- l'instruction permettant d'ajouter au dictionnaire votre âge associé à la clé `"age"`.
+- Le parcours des clés.
 
-- l'instruction permettant d'ajouter au dictionnaire votre nationnalité associé à la clé `"nationnalite"`.
+- Le parcours des valeurs.
 
-- l'instruction permettant d'ajouter au dictionnaire votre genre associé à la clé `"genre"`.
+- Le parcours des paires clé/valeur.
 
-### Application 3
+### a) Parcours des clés
 
-
-
-### Application 4
-
-Finalement, écrire :
-
-- l'instruction permettant de supprimer le genre de ``carte_id``.
-
------
-
-## III. Parcourir un dictionnaire
-
-Grâce aux méthode `keys()`, `values()` et `items()`. On peut parcourir un dictionnaire respectivement par ses clés, par ses valeurs ou par ses paires clé / valeur.
-
-### a) Par les clés
-
-Avec la méthode ``keys()``, on peut récupérer sous forme de séquence l'ensemble des clés du dictionnaire :
+Nous pouvons récupérer l'ensemble des clés d'un dictionnaire avec la méthode `keys()` :
 
 ```python
 >>> dico.keys()
-dict_keys(['triangle', 'quadrilatère', 'pentagone', 'octogone'])
+dict_keys(['bonjour', 42])
 ```
 
-On parcourt simplement les éléments de la séquence renvoyée par la méthode `keys()` :
+Il suffit alors de parcourir cet ensemble avec un simple parcours de liste par élément :
 
 ```python
 for cle in dico.keys():
     print(cle)
 ```
 
-### c) Par les valeurs
+##### Application 7
 
-Avec la méthode `values()`, on peut récupérer sous forme de séquence l'ensemble des valeurs du dictionnaire :
+Écrire le programme permettant d'afficher toute les clés du dictionnaire `carte_id`.
+
+### c) Parcours des valeurs
+
+Nous pouvons récupérer l'ensemble des valeurs d'un dictionnaire avec la méthode `values()` :
 
 ```python
 >>> dico.values()
-dict_values([3, 4, 5, 8])
+dict_values([False, [1, 2, 3]])
 ```
 
-On parcourt simplement les éléments de la séquence renvoyée par la méthode `values()` :
+Il suffit alors de parcourir cet ensemble avec un simple parcours de liste par élément :
 
 ```python
-for val in dico.values():
-    print(val)
+for valeur in dico.values():
+    print(valeur)
 ```
 
-### d) Par les paires clé / valeur
+##### Application 8
 
-Avec la méthode ``items()``, on peut récupérer sous forme de séquence l'ensemble des paires clé / valeur (mis en tuple) du dictionnaire :
+Écrire le programme permettant d'afficher toute les valeurs du dictionnaire `carte_id`.
+
+### d) Parcours des paires clé/valeur
+
+Nous pouvons récupérer l'ensemble des paires clé/valeur (sous forme de tuple) d'un dictionnaire avec la méthode `items()` :
 
 ```python
 >>> dico.items()
-dict_items([('triangle', 3), ('quadrilatère', 4), ('pentagone', 5), ('octogone', 8)])
+dict_items([('bonjour', False), (42, [1, 2, 3])])
 ```
 
-On parcourt simplement les éléments de la séquence renvoyée par la méthode `items()` :
+Il suffit alors de parcourir cet ensemble avec un simple parcours de liste par élément :
 
 ```python
-for cle, val in dico.items():
+for cle, valeur in dico.items():
     print(cle)
-    print(val)
+    print(valeur)
 ```
 
-*Remarque : Les éléments de la séquence renvoyée par la méthode `items()` étant des tuples, la variable `cle` et la variable `val` contiennent respectivement le premier élément et le second élément du tuple (le premier étant la clé et le second la valeur).*
+> *Remarque : Les éléments de la séquence renvoyée par la méthode `items()` étant des tuples, la variable `cle` et la variable `valeur` contiennent respectivement le premier élément et le second élément du tuple (le premier étant la clé et le second la valeur).*
 
------------
+##### Application 9
 
-### Application 5
-
-A l'aide d'un parcours par clés, afficher toutes les clés du dictionnaire ``carte_id``.
-
-### Application 6
-
-A l'aide d'un parcours par valeurs, afficher toutes les valeurs du dictionnaire `carte_id`.
-
-### Application 7
-
-A l'aide d'un parcours par paires clé / valeur, afficher toutes les clés et les valeurs du dictionnaire `carte_id`.
-
-------------------
-
-## IV. Longueur et appartenance
-
-### a) Longueur
-
-La longueur d'un dictionnaire est le nombre de clé présentes dans le dictionnaire et se récupère avec la fonction ``len`` :
-
-```python
->>> len(dico)
-4
-```
-
-### b) Appartenance
-
-Le test d'appartenance à un dictionnaire s'applique aux clés. Il se réalise avec le mot ``in`` et renvoie un booléen :
-
-```python
->>> 'quadrilatère' in dico
-True
-```
+Écrire le programme permettant d'afficher toute les paires clé/valeur du dictionnaire `carte_id`.
 
 ___________________
 
