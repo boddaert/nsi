@@ -11,9 +11,9 @@ Une *structure non linéaire de données* est une structure de données dans laq
 Une *structure non linéaire mutable de données* est une structure de données non linéaire dans laquelle les éléments peuvent être ajoutés, retirés ou modifiés.
 
 | Structure de données | Linéaire | Non linéaire |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: |
 | Mutable | Listes | Dictionnaires |
-| Non mutable | Tuples | Ensembles (hors programme) |
+| Non mutable | Tuples | Ensemble (hors programme) |
 
 Étant donné que les éléments n'ont pas de position dans la structure, nous n'accédons donc pas aux éléments via leurs indices.
 
