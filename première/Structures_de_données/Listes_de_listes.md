@@ -112,19 +112,19 @@ Dans le parcours par indice, nous parcourons les éléments indice par indice :
 
 Trace d'exécution du programme donné ci-dessus:
 
-| Numéro de ligne | Valeur affectée à $i$ | Valeur affectée à $j$ | Valeur affectée à $entier$ |
+| Numéro de ligne | Valeur affectée à $i$ | Valeur affectée à $j$ | Valeur affectée à $entier$ |
 | :---: | :---: | :---: | :---: |
 | $1$ | / | / | / |
 | $2$ | $0$ | / | / |
 | $3$ | $0$ | $0$ | / |
 | $4$ | $0$ | $0$ | `'00'` |
 | $3$ | $0$ | $1$ | `'00'` |
-| $4$ | $0$ | $1$ | `'01'` |
-| $3$ | $0$ | $2$ | `'01'` |
-| $4$ | $0$ | $2$ | `'02'` |
-| $2$ | $1$ | $2$ | `'02'` |
-| $3$ | $1$ | $0$ | `'02'` |
-| $4$ | $1$ | $0$ | `'10'` |
+| $4$ | $0$ | $1$ | `'01'` |
+| $3$ | $0$ | $2$ | `'01'` |
+| $4$ | $0$ | $2$ | `'02'` |
+| $2$ | $1$ | $2$ | `'02'` |
+| $3$ | $1$ | $0$ | `'02'` |
+| $4$ | $1$ | $0$ | `'10'` |
 | ... | ... | ... | ... |
 
 ##### Application 3

@@ -62,7 +62,7 @@ Un carré magique d'ordre $n$ est un tableau de taille $n \times n$ dans lequel 
 
 Par exemple :
 
-![image](./../img/carre_magique.png =50x50)
+![image](./../img/carre_magique.png)
 
 
 Écrire une fonction `est_carre_magique(carre : list)->bool` qui prend en paramètre une liste de listes et renvoie $True$ s'il s'agit d'un carré magique, $False$ sinon.
