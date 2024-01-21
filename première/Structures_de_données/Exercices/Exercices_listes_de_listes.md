@@ -1,15 +1,33 @@
 # Exercices
 
-## Exercice 6
+## Exercice 1
 
-On peut voir un clavier d'ordinateur comme un tableau à deux dimensions dans lequel chaque case contient un caractère :
+a) Écrire une fonction `affiche_liste_de_listes_parcours_indice(l : list)->None` qui prend en paramètre une liste de listes et affiche un par un tous les éléments de $l$ en effectuant le parcours par indice.
+
+b) Écrire une fonction `affiche_liste_de_listes_parcours_element(l : list)->None` qui prend en paramètre une liste de listes et affiche un par un tous les éléments de $l$ en effectuant le parcours par élément.
+
+## Exercice 2
+
+Écrire une fonction `cree_table_de_multiplication(n : int)->list` qui prend en paramètre un entier et renvoie comme résultat une liste de listes représentant une table de multiplication de taille $n \times n$.
+
+## Exercice 3
+
+Ecrire une fonction `recherche_sequentielle(l : list, x : int)->bool` qui prend en paramètre une liste de listes d'entiers et un entier et renvoie comme résultat $True$ si $x$ est présent dans $l$, $False$ sinon.
+
+## Exercice 4
+
+Ecrire une fonction `somme_liste(l : list)->int` qui prend en paramètre une liste de listes d'entiers et renvoie la somme des éléments de $l$.
+
+## Exercice 5 (Difficile)
+
+Nous pouvons observer un clavier d'ordinateur comme un tableau à deux dimensions dans lequel chaque case contient un caractère :
 
 | **a** | **z** | **e** | **r** | **t** | **y** | **u** | **i** | **o** | **p** |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | **q** | **s** | **d** | **f** | **g** | **h** | **j** | **k** | **l** | **m** |
 | **<** | **w** | **x** | **c** | **v** | **b** | **n** | **,** | **;** | **:** |
 
-En Python, on peut modéliser ce tableau sous forme de liste de listes :
+En Python, nous modélisons ce tableau sous forme de liste de listes :
 
 ```python
 >>> liste_clavier = [['a', 'z', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'],
@@ -37,3 +55,57 @@ b) Ecrire une fonction ``distance_touches(dico_clavier : dict, caractere_1 : str
 >>> distance_touches(dico_clavier, 'a', 'b')
 5.385164807134504
 ```
+
+## Exercice 6 (Difficile)
+
+Un carré magique d'ordre $n$ est un tableau de taille $n \times n$ dans lequel la somme des nombres de chaque ligne, chaque colonne et chaque diagonale est égale.
+
+Par exemple :
+
+![image](./../img/carre_magique.png)
+
+
+Écrire une fonction `est_carre_magique(carre : list)->bool` qui prend en paramètre une liste de listes et renvoie $True$ s'il s'agit d'un carré magique, $False$ sinon.
+
+```python
+>>> est_carre_magique([2, 7, 6],
+                      [9, 5, 1],
+                      [4, 3, 8])
+True
+```
+
+## Exercice 7 (Difficile)
+
+L'objectif de cet exercice est de programmer le jeu du Tic-tac-toe aussi appelé Morpion.
+
+Les règles du jeu du Tic-tac-toe sont disponibles [ici](https://fr.wikipedia.org/wiki/Tic-tac-toe).
+
+Vous choisirez de programmer la version du jeu à deux joueurs ou la version du jeu à un joueur contre l'ordinateur.
+
+Voici ci-dessous, quelques idées de fonctions à programmer pour débuter l'exercice.
+
+a) Écrire une fonction `init_grille()->list` qui ne prend pas de paramètre et renvoie une liste de listes correspondant à la grille de jeu du Tic-tac-toe vide.
+
+b) Écrire une fonction `affiche_grille(grille : list)->None` qui prend en paramètre une liste de listes et l'affiche proprement dans la console :
+
+```python
+>>> affiche_grille(init_grille())
+|     |     |     |
+|     |     |     |
+|     |     |     |
+```
+
+c) Écrire une fonction `placer_pion(grille : list, pion : str, i : int, j : int)->None` qui prend en paramètre une liste de listes, un caractère correspondant au pion choisis et deux entiers correspondant aux indices de la position choisie :
+
+```python
+>>> affiche_grille(placer_jeton(init_grille(), 'X', 1, 1))
+|     |     |     |
+|     |  X  |     |
+|     |     |     |
+```
+
+d) Écrire une fonction `test_victoire(grille : list)->bool` qui prend en paramètre une liste de listes et renvoie $True$ s'il s'agit d'un état de victoire, $False$ sinon.
+
+_______________
+
+[Sommaire](./../../README.md)
