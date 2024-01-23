@@ -66,15 +66,7 @@
 
 - Projet n°3 : [Puissance 4](./Projets/Projet_puissance_4.md)
 
-##### Chapitre 11 : Diviser pour régner
-
-- Leçon 1 : [Rappels des tris](./Diviser_pour_régner/Rappels_des_tris.md)
-
-- Activité : [Tri Fusion](./Diviser_pour_régner/Activité_tri_fusion.md)
-
-- Leçon 2 : [Diviser pour régner](./Diviser_pour_régner/Diviser_pour_régner.md)
-
-##### Chapitre 12 : Structures relationnelles de données
+##### Chapitre 11 : Structure relationnelles de données
 
 - Leçon 1 : [Graphes](./Structures_relationnelles_de_données/Graphes.md)
 
@@ -83,6 +75,14 @@
 - Leçon 2 : [Algorithmes sur les graphes](./Structures_relationnelles_de_données/Algorithmes_sur_les_graphes.md)
 
 - Activité : [Vacances à la plage](./Structures_relationnelles_de_données/Activité_vacances_à_la_plage.md)
+
+##### Chapitre 12 : Diviser pour régner
+
+- Leçon 1 : [Rappels des tris](./Diviser_pour_régner/Rappels_des_tris.md)
+
+- Activité : [Tri Fusion](./Diviser_pour_régner/Activité_tri_fusion.md)
+
+- Leçon 2 : [Diviser pour régner](./Diviser_pour_régner/Diviser_pour_régner.md)
 
 ______________________
 
