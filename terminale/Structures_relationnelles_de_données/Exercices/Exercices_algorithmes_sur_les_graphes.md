@@ -24,11 +24,11 @@ $G =$
 
 ## Exercice 1
 
-Ecrire une fonction `parcours_largeur_d_abord(g : dict, s : int)->None` qui prend en paramètre un graphe `g` représenté par liste d'adjacence et un sommet de départ et affiche les sommets du graphe dans l'ordre de traitement du parcours en largeur d'abord.
+Écrire une fonction `parcours_largeur_d_abord(g : dict, s : int)->None` qui prend en paramètre un graphe `g` représenté par liste d'adjacence et un sommet de départ et affiche les sommets du graphe dans l'ordre de traitement du parcours en largeur d'abord.
 
 ## Exercice 2
 
-Ecrire une fonction `parcours_profondeur_d_abord(g : dict, s : int)->None` qui prend en paramètre un graphe `g` représenté par liste d'adjacence et un sommet de départ et affiche les sommets du graphe dans l'ordre de traitement du parcours en profondeur d'abord.
+Écrire une fonction `parcours_profondeur_d_abord(g : dict, s : int)->None` qui prend en paramètre un graphe `g` représenté par liste d'adjacence et un sommet de départ et affiche les sommets du graphe dans l'ordre de traitement du parcours en profondeur d'abord.
 
 ## Exercice 3
 
@@ -38,9 +38,9 @@ Un graphe est dit *connexe* si, à partir de chaque sommet, il existe un chemin 
 
 a) Dessiner un graphe non connexe d'ordre $5$.
 
-b) A l'issue d'un parcours sur un graphe non connexe, qu'observe t-on dans la liste `est_visite` ?
+b) À l'issue d'un parcours sur un graphe non connexe, qu'observe t-on dans la liste `est_visite` ?
 
-c) Ecrire une fonction `est_connexe(g : dict)->bool` qui prend en paramètre un graphe `g` et renvoie $True$ s'il est connexe, $False$ sinon.
+c) Écrire une fonction `est_connexe(g : dict)->bool` qui prend en paramètre un graphe `g` et renvoie $True$ s'il est connexe, $False$ sinon.
 
 ## Exercice 4
 
@@ -48,13 +48,17 @@ Cet exercice répond au problème de coloration d'un graphe et permet de connaî
 
 Le *nombre chromatique* d'un graphe est le nombre minimal de couleurs nécessaire à colorier les sommets d'un graphe en respectant la contrainte suivante : chaque sommet ne peut être colorié de la même couleur qu'un sommet voisin.
 
-a) Trouver le nombre chromatique du graphe $G$.
+La coloration de graphe est un problème utilisé dans les télécommunications : Certains réseaux de télécommunication sont composés d'émetteurs émettant chacun sur une fréquence particulière.
 
-b) Trouver le nombre chromatique du graphe de Peterson :
+Lorsque deux émetteurs sont trop proches on ne peut leur allouer la même fréquence à cause des interférences (sauf si éventuellement une montagne les sépare).
+
+Il faut donc modéliser le réseau de télécommunication sous forme de graphe et colorier le graphe de telle façon à trouver le nombre chromatique.
+
+a) Trouver le nombre chromatique du graphe de Peterson :
 
 ![image](./../img/graphe_peterson.svg)
 
-c) Ecrire en Français, un algorithme glouton permettant de colorier (avec le moins de couleur possible) un graphe.
+b) Trouver et écrire en Français, un algorithme glouton permettant de colorier (avec un nombre de couleurs satisfaisant) un graphe.
 
 ## Exercice 5
 
@@ -64,7 +68,7 @@ La *distance* entre deux sommets est le minimum des longueurs des chemins relian
 
 La stratégie est de parcourir en largeur d'abord le graphe et d'ajouter $1$ à la distance à chaque fois que nous passons à un niveau suivant de voisinage.
 
-Appliquer à la main et sur papier l'algorithme du plus court chemin sur le graphe $G$ et donner la distance du sommet $0$ au sommet $4$.
+Appliquer à la main et sur papier l'algorithme du plus court chemin sur le graphe $G$ et donner la distance du sommet $0$ au sommet $7$.
 
 ## Exercice 6
 
@@ -80,15 +84,17 @@ Appliquer à la main sur papier l'algorithme de présence d'un cycle sur le grap
 
 ## Exercice 7 (Difficile)
 
-Ecrire une fonction `colorie(g : dict)->dict` qui prend en paramètre un graphe `g` représenté par une liste d'adjacence et renvoie un dictionnaire associant chaque sommet à une couleur.
+a) Écrire l'instruction permettant de représenter sous forme de liste d'adjacence le graphe de Peterson.
+
+b) Écrire une fonction `colorie(g : dict)->dict` qui prend en paramètre un graphe `g` représenté par une liste d'adjacence et renvoie un dictionnaire associant chaque sommet à une couleur différente de celle de ses voisins d'après l'algorithme glouton trouvé à l'exercice $4$.
 
 ## Exercice 8 (Difficile)
 
-Ecrire une fonction `distance(g : dict, v : int, w : int)->int` qui prend en paramètre un graphe `g`(non pondéré) représenté par une liste d'adjacence, deux sommets et renvoie la distance entre `v` et `w`.
+Écrire une fonction `distance(g : dict, depart : int, arrivee : int)->int` qui prend en paramètre un graphe `g`(non pondéré) représenté par une liste d'adjacence, deux sommets et renvoie la distance entre `depart` et `arrivee`.
 
 ## Exercice 9 (Difficile)
 
-Ecrire une fonction `cycle_present(g : dict)->bool` qui prend en paramètre un graphe `g` représenté par une liste d'adjacence et renvoie $True$ s'il admet un cycle, $False$ sinon.
+Écrire une fonction `cycle_present(g : dict)->bool` qui prend en paramètre un graphe `g` représenté par une liste d'adjacence et renvoie $True$ s'il admet un cycle, $False$ sinon.
 
 ____________
 

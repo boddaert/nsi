@@ -79,7 +79,7 @@ a) A quoi correspond la première colonne du tableau d'exemple ?
 
 b) A quoi correspondent toutes les autres colonnes du tableau ?
 
-c) Pourquoi sur la première ligne, la distance vers $A$ est de $0$ et la distance vers les autres sommets est de $+\infty$ ?
+c) Pourquoi sur la deuxième ligne, la distance vers $A$ est de $0$ et la distance vers les autres sommets est de $+\infty$ ?
 
 d) A l'aide du tableau, donner le chemin de poids minimal du sommet $A$ au sommet $B$ et sa valeur.
 
