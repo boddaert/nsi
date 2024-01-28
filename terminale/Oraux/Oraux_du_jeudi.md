@@ -12,3 +12,8 @@
 
 ## Barême
 
+| Consigne n°1 | Deux points |
+| :---: | :---: |
+| **Consigne n°2** | **Trois points** |
+| **Consigne n°3** | **Trois points** |
+| **Consigne n°4** | **Deux points** |

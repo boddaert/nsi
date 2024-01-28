@@ -55,7 +55,7 @@ L'ordre de traitement des sommets en partant du sommet $0$ selon le parcours en 
 
 ##### Application 1
 
-Donner l'ordre de traitement des sommets selon le parcours en largeur d'abord du graphe $G$ donné en feuille d'exercice.
+Donner l'ordre de traitement des sommets en partant de $0$ selon le parcours en largeur d'abord du graphe $G$ donné en [feuille d'exercice](./Exercices/Exercices_algorithmes_sur_les_graphes.md).
 
 ### b) Algorithme du parcours en largeur d'abord
 
@@ -63,7 +63,7 @@ L'algorithme du parcours en largeur d'abord sur un graphe s'écrit très facilem
 
 ```algo
 Procédure parcours_largeur_d_abord(g : Dictionnaire, s : Sommet):
-    est_visite = list()
+    est_visite = [s]
     f = File()
     f.enfile(s)
     Tant que f n'est pas vide :
@@ -105,7 +105,7 @@ L'ordre de traitement des sommets en partant du sommet $0$ selon le parcours en 
 
 ##### Application 3
 
-Donner l'ordre de traitement des sommets selon le parcours en profondeur d'abord du graphe $G$ donné en feuille d'exercice.
+Donner l'ordre de traitement des sommets en partant de $0$ selon le parcours en profondeur d'abord du graphe $G$ donné en [feuille d'exercice](./Exercices/Exercices_algorithmes_sur_les_graphes.md).
 
 ### d) Algorithme du parcours en profondeur d'abord
 
@@ -113,7 +113,7 @@ L'algorithme du parcours en profondeur d'abord sur un graphe s'écrit très faci
 
 ```algo
 Procédure parcours_largeur_d_abord(g : Dictionnaire, s : Sommet):
-    est_visite = list()
+    est_visite = [s]
     p = Pile()
     p.empile(s)
     Tant que p n'est pas vide :
