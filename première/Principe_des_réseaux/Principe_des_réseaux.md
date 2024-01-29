@@ -192,9 +192,11 @@ Grâce à cette opération, je sais que la machine d'adresse IP ``192.168.2.1`` 
 
 ##### Application 4
 
-a) Donner l'adresse réseau de la machine d'adresse IP ``192.168.0.2``.
+Avec le masque suivant : `255.255.255.0`, donner :
 
-b) Donner l'adresse réseau de la machine d'adresse IP `192.168.1.1`.
+a) L'adresse réseau de la machine d'adresse IP ``192.168.0.2``.
+
+b) L'adresse réseau de la machine d'adresse IP `192.168.1.1`.
 
 c) Expliquer pourquoi ces deux machines n'appartiennent pas au même réseau.
 
