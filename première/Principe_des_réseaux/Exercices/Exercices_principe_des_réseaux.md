@@ -28,7 +28,7 @@ Filius permet de construire et simuler un réseau. Une fois lancé, on dispose d
 
 - *Mode simulation* : permet de lancer une simulation et de voir les paquets circuler dans le réseau.
 
-En mode construction, on peut sélectionner un composant réseau et le faire glisser dans la zone de dessin. Pour relier deux éléments , on clique sur l'icône du câble, puis sur chacun des deux éléments à relier.
+En mode construction, nous pouvons sélectionner un composant réseau et le faire glisser dans la zone de dessin. Pour relier deux éléments , nous cliquons sur l'icône du câble, puis sur chacun des deux éléments à relier.
 
 ## Exercice 2
 
@@ -36,7 +36,7 @@ En mode construction, on peut sélectionner un composant réseau et le faire gli
 
 a) En mode construction, reproduire le réseau de la figure ci-dessus dans un fichier nommé ``reseau_ex2.fls``.
 
-b) Avec un masque de sous-réseau de ``255.255.0.0`` et en supposant l'adresse réseau ``192.168.0.0``. Ecrire deux adresses IP valides appartenenant à ce réseau.
+b) Avec un masque de sous-réseau de ``255.255.0.0`` et en supposant l'adresse réseau ``192.168.0.0``. Écrire deux adresses IP valides appartenenant à ce réseau.
 
 c) En cliquant sur ``configurer``, attribuer les adresses IP données à la question précédente aux deux ordinateurs du réseau. (Attention à modifier également le masque de sous-réseau.)
 
