@@ -185,6 +185,7 @@ Pour obtenir l'adresse réseau du réseau dans lequel est présente une machine,
 ```
   11000000.10101000.00000010.00000001 -> 192.168.2.1
 & 11111111.11111111.11111111.00000000 -> 255.255.255.0
+  ___________________________________
 = 11000000.10101000.00000010.00000000 -> 192.168.2.0
 ```
 
@@ -210,7 +211,7 @@ c) Expliquer pourquoi ces deux machines n'appartiennent pas au même réseau.
 
 Soit $n$ le nombre de bits alloués à l'identifiant machine. Soit $p$ le nombre d'adresses déjà utilisées. 
 
-Il est possible de connaître le nombre d'adresses encore disponibles dans un réseau en calculant $2^{n}-p$.
+Il est possible de connaître le nombre d'adresses encore disponibles dans un réseau en calculant $2^{n}-p-2$.
 
 #### Application 5
 
@@ -304,8 +305,8 @@ Lors d'une situation sans problème :
 ```mermaid
 sequenceDiagram
     autonumber
-    192.168.0.1->>192.168.2.1: Envoi du paquet n°1
-    192.168.0.1->>192.168.2.1: Envoi du paquet n°2
+    192.168.0.1->>192.168.2.1: Envoi du paquet n°100
+    192.168.0.1->>192.168.2.1: Envoi du paquet n°200
     192.168.2.1->>192.168.0.1: Envoi de l'accusé de reception n°101
     192.168.2.1->>192.168.0.1: Envoi de l'accusé de reception n°102
 ```
