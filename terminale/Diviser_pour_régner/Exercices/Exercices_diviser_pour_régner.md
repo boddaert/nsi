@@ -8,7 +8,7 @@ a) Rappeler les étapes de l'algorithme de recherche dichotomique (via un schém
 
 b) Décrire les étapes "Diviser", "Régner" et "Combiner" de l'algorithme de recherche dichotomique.
 
-c) Ecrire une fonction récursive ``recherche_dichotomique_recursive(l : list, el : int)->int`` prenant en paramètre une liste triée et un nombre entier et renvoit l'élément ``el`` si celui-ci est dans la liste sinon ``None``. 
+c) Écrire une fonction récursive ``recherche_dichotomique_recursive(l : list, elt : int)->int`` prenant en paramètre une liste triée d'entiers et un entier et renvoit l'élément ``elt`` si celui-ci est dans la liste sinon ``None``.
 
 ## Exercice 2 (Difficile)
 
@@ -57,7 +57,7 @@ a) Exprimer, pour l'algorithme de rotation d'images, la méthode "Diviser pour r
 
 b) Afin de pouvoir procéder récursivement, on va définir une fonction ``rotation_aux( px : list, x : int, y :int, t :int)`` qui effectue la rotation de la portion carrée de l'image située aux coordonnées ``x``et ``y`` ( coin supérieur gauche du carré  ) jusqu'aux coordonnées ``x+t`` et ``y+t`` ( coin inférieur droit ). Cette fonction modifie le tableau ``px`` et ne renvoie rien. Ecrire la fonction ``rotation_aux``.
 
-c) Ecrire une fonction ``rotation( px : list, taille : int )`` qui effectue une rotation de l'image toute entière, elle prend en paramètre le tableau des pixels et la dimension de celle-ci.
+c) Écrire une fonction ``rotation( px : list, taille : int )`` qui effectue une rotation de l'image toute entière, elle prend en paramètre le tableau des pixels et la dimension de celle-ci.
    
 Une fois la rotation effectuée, on pourra sauvegarder le résultat dans un autre fichier avec l'instruction :
    

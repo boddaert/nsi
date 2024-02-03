@@ -36,7 +36,7 @@ a) En vous munissant d'un ciseau et d'un crayon, dérouler à la main l'algorith
 
 ![Image](./img/liste_activite_tri_fusion.png)
 
-b) A l'aide de votre dessin, compter le nombre de comparaisons effectuées.
+b) À l'aide de votre dessin, compter le nombre de comparaisons effectuées.
 
 c) Comparer ce nombre avec le nombre de comparaisons qu'effectuerait le tri par sélection/insertion sur cette même liste.
 

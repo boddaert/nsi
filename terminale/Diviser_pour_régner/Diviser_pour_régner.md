@@ -10,7 +10,7 @@ Ils se partagent les bande déssinées et chacun d'eux trie sa moitié, sous la 
 
 Ensuite, Alice et Basile rangent les bandes déssinées dans la bibliothèque en fusionnant les deux piles : c'est-à-dire en prenant à chaques fois celle des deux BD au sommet des deux piles qui vient avant l'autre dans l'ordre alphabétique.
 
-A deux, ils ont été plus rapide qu'Alice toute seule. On imagine alors qu'une troisième personne les aurait aidé à encore diminuer le temps nécessaire à ranger les BD.
+À deux, ils ont été plus rapide qu'Alice toute seule. On imagine alors qu'une troisième personne les aurait aidé à encore diminuer le temps nécessaire à ranger les BD.
 
 *Question : Combien de personnes faudrait-il pour que le temps nécessaire au rangement des BD de la bibliothèque soit le plus petit possible ?*
 
@@ -82,7 +82,7 @@ La fonction `decoupe()` prend en paramètre une liste et renvoit deux listes. La
 
 a) Quelles sont les deux listes renvoyées par la fonction ``decoupe()`` lorsquenous lui donnons en paramètre la liste ``[5, 1, 3, 4, 2]`` ?
 
-b) Ecrire en Python, la fonction ``decoupe(l : list) -> (list , list)``.
+b) Écrire en Python, la fonction ``decoupe(l : list) -> (list , list)``.
 
 ##### Application 2
 
@@ -90,13 +90,13 @@ La fonction `fusion()` prend en paramètre deux listes triées et renvoit une li
 
 a) Quelle liste est renvoyée par la fonction ``fusion()`` lorsque nous lui donnons en paramètres les listes ``[3, 5, 8]`` et ``[2, 4, 9]`` ?
 
-b) Ecrire en Python, la fonction récursive ``fusion(l1 : list, l2 : list) -> list``.
+b) Écrire en Python, la fonction récursive ``fusion(l1 : list, l2 : list) -> list``.
 
 ##### Application 3
 
 a) La fonction ``tri_fusion()`` est récursive. Quelle est la condition d'arrêt à cette fonction ?
 
-b) Ecrire en Python, une fonction `tri_fusion(l : list) -> list` prenant en paramètre une liste et renvoyant la liste triée en utilisant le principe du tri fusion.
+b) Écrire en Python, une fonction `tri_fusion(l : list) -> list` prenant en paramètre une liste et renvoyant la liste triée en utilisant le principe du tri fusion.
 
 ______________
 
