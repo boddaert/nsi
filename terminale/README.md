@@ -78,11 +78,11 @@
 
 ##### Chapitre 12 : Optimisation
 
-- Leçon 1 : [Complexité d'un algorithme](./Optimisation/Complexité.md)
+- Leçon 1 : [Complexité](./Optimisation/Complexité.md)
 
-- Leçon 2 : [Terminaison d'un algorithme](./Optimisation/Terminaison.md)
+- Leçon 2 : [Preuve de terminaison](./Optimisation/Preuve_de_terminaison.md)
 
-- Leçon 3 : [Correction d'un algorithme](./Optimisation/Correction.md)
+- Leçon 3 : [Preuve de correction](./Optimisation/Preuve_de_correction.md)
 
 ##### Chapitre 13 : Diviser pour régner
 

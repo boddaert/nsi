@@ -1,10 +1,10 @@
-# Complexité d'un algorithme
+# Complexité
 
 ## I. Généralités
 
 ### a) Définitions
 
-La *complexité* d'un algorithme le coût algorithmique de celui-ci.
+La *complexité d'un algorithme* le coût algorithmique de celui-ci.
 
 La *complexité spatiale* d'un algorithme est le coût en espace mémoire nécessaire à l'exécution d'un algorithme sur machine.
 
