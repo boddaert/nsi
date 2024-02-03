@@ -2,7 +2,7 @@
 
 ## I. Généralités
 
-### a) Défintions
+### a) Définitions
 
 La *complexité* d'un algorithme le coût algorithmique de celui-ci.
 
