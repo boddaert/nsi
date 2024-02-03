@@ -1,0 +1,93 @@
+# Complexité d'algorithmes
+
+## I. Généralités
+
+### a) Défintions
+
+La *complexité* d'un algorithme le coût algorithmique de celui-ci.
+
+La *complexité spatiale* d'un algorithme est le coût en espace mémoire nécessaire à l'exécution d'un algorithme sur machine.
+
+La *complexité temporelle* d'un algorithme est le coût en temps nécessaire à l'exécution d'un algorithme sur machine.
+
+>>> En terminale, nous nous interesserons uniquement à la complexité temporelle des algorithmes.
+
+### b) Objectifs
+
+Pour un unique problème, il peut exister plusieurs algorithmes différents plus ou moins efficaces donnant la même solution.
+
+Calculer leur coût permet de les comparer et de les classer afin de choisir le meilleur.
+
+### c) Comparatif temporel
+
+Pour calculer la complexité temporelle d'un algorithme, il suffit de compter le nombre d'opérations effectuées.
+
+Plus il y a d'opérations, plus le coût en temps est important.
+
+Les opérations de comparaison (`<`, `>`, `==` ou `!=`) étant les plus coûteuses, les informaticiens comptent uniquement ces opérations-ci.
+
+### d) Évolution du coût en fonction de la taille des données
+
+Souvent, les algorithmes agissent sur des données de taille variables comme les listes.
+
+Dans ce cas, il est important de savoir comment le coût peut varier en fonction de la taille des données.
+
+Les principales évolutions que l'on rencontre sont, en notant $n$ la taille des données :
+
+- Coût constant : $O(1)$.
+
+- Coût logarithmique : le coût est proportionnel à $O(\log_2 n)$.
+
+- Coût linéaire : le coût est proportionnel à $O(n)$.
+
+- Coût quadratique : le coût est proportionnel à $O(n^2)$.
+
+- Coût exponentiel : le coût est proportionnel à $O(2^n)$.
+
+![image](./img/complexites.png)
+
+
+
+
+
+Par exemple, il existe au moins deux algorithmes pour le problème de recherche d'un élément dans une liste quelconque.
+
+La spécification de ce problème est le suivant : Renvoie l'indice de l'élément `elt` recherché dans la liste `l` s'il est présent, sinon renvoie la valeur $-1$.
+
+Voici ci-dessous un premier algorithme :
+
+```
+Algorithme : recherche_1(l, elt)
+
+i = 0
+i_elt = -1
+TantQue i < taille(l), faire :
+    Si l[i] = elt, alors :
+        i_elt = i
+    i = i + 1
+Renvoyer i_elt
+```
+
+Voici ci-dessous la fonction Python traduisant le second algorithme :
+
+```
+Action : recherche de la valeur « valeur » dans le tableau « tab »
+Début
+trouvé ⟵ Faux
+i ⟵ 0
+TantQue i < nb et (Non trouvé) Faire
+Si tab[i] = valeur Alors
+trouvé ⟵ Vrai
+Sinon
+i ⟵ i + 1
+FinSi
+FinTantQue
+Si trouvé = Vrai Alors
+Renvoyer i
+Sinon
+Renvoyer -1
+Fin
+```
+
+## III. Ordres de complexité temporelle
+

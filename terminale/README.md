@@ -76,7 +76,15 @@
 
 - Activité : [Vacances à la plage](./Structures_relationnelles_de_données/Activité_vacances_à_la_plage.md)
 
-##### Chapitre 12 : Diviser pour régner
+##### Chapitre 12 : Optimisation
+
+- Leçon 1 : [Complexité d'un algorithme](./Optimisation/Complexité.md)
+
+- Leçon 2 : [Terminaison d'un algorithme](./Optimisation/Terminaison.md)
+
+- Leçon 3 : [Correction d'un algorithme](./Optimisation/Correction.md)
+
+##### Chapitre 13 : Diviser pour régner
 
 - Leçon 1 : [Rappels des tris](./Diviser_pour_régner/Rappels_des_tris.md)
 

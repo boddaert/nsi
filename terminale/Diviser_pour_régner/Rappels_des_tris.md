@@ -24,22 +24,6 @@ Prenons `l`, une liste Python d'entiers naturels non triée et `l_triee` la perm
 
 - Il existe énormément d'algorithmes de tri, les informaticiens compare leur coût algorithmique pour repérer les plus efficaces.
 
-Connaite le coût d'un algorithme est particulièrement important lorsque les algorithmes traitent des données de taille variable. Dans ce cas, il est important de savoir comment le coût varie en fonction la taille des données.
-
-Les principales évolutions que l'on rencontre sont, en notant $n$ la taille des données :
-
-- coût constant : $O(1)$.
-
-- coût logarithmique : le coût est proportionnel à $O(\log_2 n)$.
-
-- coût linéaire : le coût est proportionnel à $O(n)$.
-
-- coût quadratique : le coût est proportionnel à $O(n^2)$.
-
-- coût exponentiel : le coût est proportionnel à $O(2^n)$.
-
-![image](./img/complexites.png)
-
 ### c) Applications
 
 Le tri en informatique permet de réduire les coûts algorithmiques de beaucoup d'algorithmes comme la recherche d'un élément dans une liste, le calcul de la médiane et bien d'autres.
