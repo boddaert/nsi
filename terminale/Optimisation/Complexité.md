@@ -1,4 +1,4 @@
-# Complexité d'algorithmes
+# Complexité d'un algorithme
 
 ## I. Généralités
 
@@ -10,7 +10,7 @@ La *complexité spatiale* d'un algorithme est le coût en espace mémoire néces
 
 La *complexité temporelle* d'un algorithme est le coût en temps nécessaire à l'exécution d'un algorithme sur machine.
 
->>> En terminale, nous nous interesserons uniquement à la complexité temporelle des algorithmes.
+> En terminale, nous nous interesserons uniquement à la complexité temporelle des algorithmes.
 
 ### b) Objectifs
 
@@ -46,11 +46,9 @@ Les principales évolutions que l'on rencontre sont, en notant $n$ la taille des
 
 ![image](./img/complexites.png)
 
+## II. Mise en situation
 
-
-
-
-Par exemple, il existe au moins deux algorithmes pour le problème de recherche d'un élément dans une liste quelconque.
+Il existe au moins deux algorithmes pour le problème de recherche d'un élément dans une liste quelconque.
 
 La spécification de ce problème est le suivant : Renvoie l'indice de l'élément `elt` recherché dans la liste `l` s'il est présent, sinon renvoie la valeur $-1$.
 
@@ -62,32 +60,102 @@ Algorithme : recherche_1(l, elt)
 i = 0
 i_elt = -1
 TantQue i < taille(l), faire :
-    Si l[i] = elt, alors :
+    Si l[i] == elt, alors :
         i_elt = i
     i = i + 1
 Renvoyer i_elt
 ```
 
-Voici ci-dessous la fonction Python traduisant le second algorithme :
+Puis un second algorithme :
 
 ```
-Action : recherche de la valeur « valeur » dans le tableau « tab »
-Début
-trouvé ⟵ Faux
-i ⟵ 0
-TantQue i < nb et (Non trouvé) Faire
-Si tab[i] = valeur Alors
-trouvé ⟵ Vrai
-Sinon
-i ⟵ i + 1
-FinSi
-FinTantQue
-Si trouvé = Vrai Alors
-Renvoyer i
-Sinon
-Renvoyer -1
-Fin
+Algorithme : recherche_2(l, elt)
+
+trouvé = False
+i = 0
+i_elt = -1
+TantQue i < taille(l) et trouvé == False, faire :
+    Si l[i] == elt, alors
+        trouvé = Vrai
+        i_elt = i
+    Sinon :
+        i = i + 1
+Renvoyer i_elt
 ```
 
-## III. Ordres de complexité temporelle
+##### Application 1
 
+a) Sur feuille, recopier les algorithmes `recherche_1` et `recherche_2` et entourer les endroits où il y a une comparaison.
+
+b) Dérouler l'algorithme `recherche_1` en comptant le nombre de comparaisons effectuées avec les paramètres suivants : 
+
+- `l = [2, 7, 0, 1, 8, 5, 3, 10, 14, 4]`
+
+- `elt = 5`
+
+c) Dérouler l'algorithme `recherche_2` en comptant le nombre de comparaisons effectuées avec les paramètres suivants : 
+
+- `l = [2, 7, 0, 1, 8, 5, 3, 10, 14, 4]`
+
+- `elt = 5`
+
+d) Comparer la complexité temporelle des deux algorithmes et en déduire le plus efficace.
+
+## III. Outils
+
+En Python, les informaticiens utilisent des modules pour les aider à comparer le coût de leur algorithme.
+
+### a) Module `matplotlib`
+
+Le module `matplotlib` en Python permet de tracer des graphiques en fonction de données.
+
+Sa documentation est disponible [ici](https://matplotlib.org/stable/tutorials/pyplot.html).
+
+##### Application 2
+
+Sur Thonny, télécharger le fichier Python suivant : [courbes_d_evolution.py](./src/courbes_d_evolution.py) et compléter les zones de code `A COMPLETER`.
+
+Ce fichier permet de tracer les courbes d'évolution vues dans le d).
+
+### b) Module `time`
+
+Le module `time` en Python permet de réaliser des calculs en fonction du temps.
+
+Sa documentation est disponible [ici](https://docs.python.org/fr/3/library/time.html#).
+
+À l'aide de la fonction `time()`, le temps d'exécution d'un code peut être connu.
+
+Par exemple, la fonction `mesure_temps()` ci-dessous permet de calculer le temps utilisé pour trier une liste de dix millions d'éléments :
+
+```python
+from time import *
+from random import *
+
+def mesure_temps():
+    # Démarrage du chrono
+    debut = time()
+    
+    # Création d'une liste de 10 000 000 éléments
+    l = [i for i in range(1000000)]
+    # Mélange de la liste
+    shuffle(l)
+    # Tri de la liste
+    l.sort()
+    
+    # Fin du chrono
+    fin = time()
+    # Calcul du temps utilisé
+    return fin - debut
+```
+
+##### Application 3
+
+Sur Thonny, recopier le code ci-dessus et exécuter la fonction pour connaître le nombre de secondes nécessaire à son exécution.
+
+___________
+
+[Feuille d'exercices](./Exercices/Exercice_complexité.md)
+
+___________
+
+[Sommaire](./../README.md)
