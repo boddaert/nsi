@@ -48,7 +48,7 @@ plt.show()
 
 a) Recopier le code ci-dessus et cliquer sur le bouton d'exécution.
 
-b) D'arpès l'évolution des courbes, en déduire lequel des deux algorithmes est le plus efficace.
+b) D'après l'évolution des courbes, en déduire lequel des deux algorithmes est le plus efficace.
 
 _____________
 
