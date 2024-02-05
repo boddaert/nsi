@@ -73,7 +73,7 @@ Donner le type abstrait du graphe $G2$ d'après sa représentation sagitalle sui
 
 Deux sommets sont *adjacents* (ou *voisins*) s'il existe une arête entre eux.
 
-Le *degré d'un sommet* est le nombre de voisins de ce sommet.
+Le *degré d'un sommet* est le nombre d'arêtes reliées à ce sommet.
 
 Une *chaîne* est une suite de sommets voisins consécutifs.
 
