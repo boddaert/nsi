@@ -8,7 +8,7 @@ b) Écrire une fonction `affiche_liste_de_listes_parcours_element(l : list)->Non
 
 ## Exercice 2
 
-Écrire une fonction `cree_table_de_multiplication(n : int)->list` qui prend en paramètre un entier et renvoie comme résultat une liste de listes représentant une table de multiplication de taille $n \times n$.
+Ecrire une fonction `somme_liste(l : list)->int` qui prend en paramètre une liste de listes d'entiers et renvoie la somme des éléments de $l$.
 
 ## Exercice 3
 
@@ -16,9 +16,9 @@ Ecrire une fonction `recherche_sequentielle(l : list, x : int)->bool` qui prend 
 
 ## Exercice 4
 
-Ecrire une fonction `somme_liste(l : list)->int` qui prend en paramètre une liste de listes d'entiers et renvoie la somme des éléments de $l$.
+Écrire une fonction `cree_table_de_multiplication(n : int)->list` qui prend en paramètre un entier et renvoie comme résultat une liste de listes représentant une table de multiplication de taille $n \times n$.
 
-## Exercice 5 (Difficile)
+## Exercice 5
 
 Nous pouvons observer un clavier d'ordinateur comme un tableau à deux dimensions dans lequel chaque case contient un caractère :
 
@@ -45,7 +45,7 @@ a) Écrire une fonction ``coord_clavier(liste_clavier : list)->dict`` qui prend 
 {'a': (0, 0), 'z': (0, 1), 'e': (0, 2), 'r': (0, 3), 't': (0, 4), 'y': (0, 5), 'u': (0, 6), 'i': (0, 7), 'o': (0, 8), 'p': (0, 9), 'q': (1, 0), 's': (1, 1), 'd': (1, 2), 'f': (1, 3), 'g': (1, 4), 'h': (1, 5), 'j': (1, 6), 'k': (1, 7), 'l': (1, 8), 'm': (1, 9), '<': (2, 0), 'w': (2, 1), 'x': (2, 2), 'c': (2, 3), 'v': (2, 4), 'b': (2, 5), 'n': (2, 6), ',': (2, 7), ';': (2, 8), ':': (2, 9)}
 ```
 
-b) Ecrire une fonction ``distance_touches(dico_clavier : dict, caractere_1 : str, caractere_2)->int`` qui prend en paramètres le dictionnaire et deux caractères et renvoie la distance qui les sépare sur le clavier.
+b) Écrire une fonction ``distance_touches(dico_clavier : dict, caractere_1 : str, caractere_2)->int`` qui prend en paramètres le dictionnaire et deux caractères et renvoie la distance qui les sépare sur le clavier.
 
 Rappel : La distance entre deux points $A(x_1, y_1)$ et $B(x_2, y_2)$ se calcule : $\sqrt[]{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
 
