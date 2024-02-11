@@ -65,12 +65,12 @@ Par exemple :
 ![image](./../img/carre_magique.png)
 
 
-Écrire une fonction `est_carre_magique(carre : list)->bool` qui prend en paramètre une liste de listes et renvoie $True$ s'il s'agit d'un carré magique, $False$ sinon.
+Écrire une fonction `est_carre_magique(carre : list, test_somme : int)->bool` qui prend en paramètre une liste de listes et un entier et renvoie $True$ s'il s'agit d'un carré magique, $False$ sinon.
 
 ```python
 >>> est_carre_magique([2, 7, 6],
                       [9, 5, 1],
-                      [4, 3, 8])
+                      [4, 3, 8], 15)
 True
 ```
 
@@ -82,9 +82,14 @@ Les règles du jeu du Tic-tac-toe sont disponibles [ici](https://fr.wikipedia.or
 
 Vous choisirez de programmer la version du jeu à deux joueurs ou la version du jeu à un joueur contre l'ordinateur.
 
-Voici ci-dessous, quelques idées de fonctions à programmer pour débuter l'exercice.
+a) Écrire une fonction `init_grille()->list` qui ne prend pas de paramètre et renvoie une liste de listes composée uniquement de zéros correspondant à la grille de jeu du Tic-tac-toe vide.
 
-a) Écrire une fonction `init_grille()->list` qui ne prend pas de paramètre et renvoie une liste de listes correspondant à la grille de jeu du Tic-tac-toe vide.
+Un $0$ indique qu'aucun joueur n'a mis de pion, un $1$ représente `X` et $2$ représente `O`.
+
+```python
+>>> init_grille()
+[[0,0,0],[0,0,0],[0,0,0]]
+```
 
 b) Écrire une fonction `affiche_grille(grille : list)->None` qui prend en paramètre une liste de listes et l'affiche proprement dans la console :
 
@@ -98,7 +103,7 @@ b) Écrire une fonction `affiche_grille(grille : list)->None` qui prend en param
 c) Écrire une fonction `placer_pion(grille : list, pion : str, i : int, j : int)->None` qui prend en paramètre une liste de listes, un caractère correspondant au pion choisis et deux entiers correspondant aux indices de la position choisie :
 
 ```python
->>> affiche_grille(placer_jeton(init_grille(), 'X', 1, 1))
+>>> affiche_grille(placer_jeton(init_grille(), 1, 1, 1))
 |     |     |     |
 |     |  X  |     |
 |     |     |     |
@@ -106,6 +111,7 @@ c) Écrire une fonction `placer_pion(grille : list, pion : str, i : int, j : int
 
 d) Écrire une fonction `test_victoire(grille : list)->bool` qui prend en paramètre une liste de listes et renvoie $True$ s'il s'agit d'un état de victoire, $False$ sinon.
 
+e) Écrire une fonction `tic_tac_toe()->None` permettant à deux joueurs de jouer au jeu du Tic-tac-toe.
 _______________
 
 [Sommaire](./../../README.md)
