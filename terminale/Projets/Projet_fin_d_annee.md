@@ -14,5 +14,4 @@ Idées projet :
 - shoot-em-up
 - wator
 - forum local avec salon de discussion, compte utilisateur, messages privés
-- présentation de relevés Météo OpenWeatherMap (flask, bdd, js,
-graphe) **
+- présentation de relevés Météo OpenWeatherMap (flask, bdd, js,graphe)

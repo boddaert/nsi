@@ -86,11 +86,11 @@ Appliquer à la main sur papier l'algorithme de présence d'un cycle sur le grap
 
 a) Écrire l'instruction permettant de représenter sous forme de liste d'adjacence le graphe de Peterson.
 
-b) Écrire une fonction `colorie(g : dict)->dict` qui prend en paramètre un graphe `g` représenté par une liste d'adjacence et renvoie un dictionnaire associant chaque sommet à une couleur différente de celle de ses voisins d'après l'algorithme glouton trouvé à l'exercice $4$.
+b) Écrire une fonction `colorie(g : dict)->dict` qui prend en paramètre un graphe `g` **non orienté** représenté par une liste d'adjacence et renvoie un dictionnaire associant chaque sommet à une couleur différente de celle de ses voisins d'après l'algorithme glouton trouvé à l'exercice $4$.
 
 ## Exercice 8 (Difficile)
 
-Écrire une fonction `distance(g : dict, depart : int, arrivee : int)->int` qui prend en paramètre un graphe `g`(non pondéré) représenté par une liste d'adjacence, deux sommets et renvoie la distance entre `depart` et `arrivee`.
+Écrire une fonction `distance(g : dict, depart : int, arrivee : int)->int` qui prend en paramètre un graphe `g` **non pondéré** représenté par une liste d'adjacence, deux sommets et renvoie la distance entre `depart` et `arrivee`.
 
 ## Exercice 9 (Difficile)
 
