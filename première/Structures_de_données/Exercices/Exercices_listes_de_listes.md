@@ -68,9 +68,9 @@ Par exemple :
 Écrire une fonction `est_carre_magique(carre : list, test_somme : int)->bool` qui prend en paramètre une liste de listes et un entier et renvoie $True$ s'il s'agit d'un carré magique, $False$ sinon.
 
 ```python
->>> est_carre_magique([2, 7, 6],
+>>> est_carre_magique([[2, 7, 6],
                       [9, 5, 1],
-                      [4, 3, 8], 15)
+                      [4, 3, 8]], 15)
 True
 ```
 

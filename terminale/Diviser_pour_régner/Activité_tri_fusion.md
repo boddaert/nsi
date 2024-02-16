@@ -16,19 +16,17 @@ L'objectif de cette activité est de trier une liste récursivement en appliquan
 
 L'algorithme du tri fusion est le suivant :
 
-- Si la longueur de la liste est supérieure à $2$ :
+```
+Algorithme de Tri Fusion :
 
-    + Découper en deux (au milieu) la liste en deux sous-listes.
-
-    + Ré-appliquer l'algorithme du tri fusion sur les deux sous-listes obtenues.
-
-    + Fusionner les deux sous-listes triées en une liste triée.
-
-    + Renvoyer la liste fusionnée.
-
-- Si la liste contient un seul élément :
-
-    + Renvoyer cette liste (car elle est implicitement triée).
+Si la longueur de la liste est supérieure à deux, alors :
+    Découper en deux (au milieu) la liste en deux sous-listes
+    Ré-applquer l'algorithme du Tri Fusion sur chacune des deux sous-listes obtenues
+    Fusionner les deux sous-listes triées en une liste triée
+    Renvoyer la liste fusionnée
+Sinon :
+    Renvoyer cette liste (puisqu'elle est implicitement triée)
+```
 
 ## III. Travail à faire
 
