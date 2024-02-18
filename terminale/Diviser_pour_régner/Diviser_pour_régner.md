@@ -45,21 +45,15 @@ Puis, nous fusionnons les listes triées en liste triée, ce qui est facile car 
 ### b) Algorithme
 
 ```
-Algorithme de Tri fusion :
+Algorithme de Tri Fusion :
 
-- Si la longueur de la liste est supérieure à 2 :
-
-    + Découper en deux (au milieu) la liste en deux sous-listes.
-
-    + Ré-appliquer l'algorithme du tri fusion sur les deux sous-listes obtenues.
-
-    + Fusionner les deux sous-listes triées en une liste triée.
-
-    + Renvoyer la liste fusionnée.
-
-- Si la liste contient un seul élément :
-
-    + Renvoyer cette liste (car elle est implicitement triée).
+Si la longueur de la liste est supérieure ou égal à deux, alors :
+    Découper en deux (au milieu) la liste en deux sous-listes
+    Ré-applquer l'algorithme du Tri Fusion sur chacune des deux sous-listes obtenues
+    Fusionner les deux sous-listes triées en une liste triée
+    Renvoyer la liste fusionnée
+Sinon :
+    Renvoyer cette liste (puisqu'elle est implicitement triée)
 ```
 
 ### c) Complexité temporelle

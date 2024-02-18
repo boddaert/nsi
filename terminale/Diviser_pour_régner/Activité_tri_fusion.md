@@ -19,7 +19,7 @@ L'algorithme du tri fusion est le suivant :
 ```
 Algorithme de Tri Fusion :
 
-Si la longueur de la liste est supérieure à deux, alors :
+Si la longueur de la liste est supérieure ou égal à deux, alors :
     Découper en deux (au milieu) la liste en deux sous-listes
     Ré-applquer l'algorithme du Tri Fusion sur chacune des deux sous-listes obtenues
     Fusionner les deux sous-listes triées en une liste triée
