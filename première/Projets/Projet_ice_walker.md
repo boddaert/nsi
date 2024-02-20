@@ -41,7 +41,7 @@ Par exemple, dans la console :
 ```
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
 ■   ■                 ■
-■                     ◯
+■                     □
 ■                     ■
 ►               ■     ■
 ■ ■      ■            ■
@@ -51,7 +51,7 @@ Dans quelle direction voulez-vous aller ? E
 
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
 ■   ■                 ■
-■                     ◯
+■                     □
 ■                     ■
               ► ■     ■
 ■ ■      ■            ■
@@ -61,7 +61,7 @@ Dans quelle direction voulez-vous aller ? N
 
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
 ■   ■         ▲       ■
-■                     ◯
+■                     □
 ■                     ■
                 ■     ■
 ■ ■      ■            ■
@@ -71,7 +71,7 @@ Dans quelle direction voulez-vous aller ? O
 
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
 ■   ■ ◄               ■
-■                     ◯
+■                     □
 ■                     ■
                 ■     ■
 ■ ■      ■            ■
@@ -81,7 +81,7 @@ Dans quelle direction voulez-vous aller ? S
 
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
 ■   ■                 ■
-■                     ◯
+■                     □
 ■                     ■
                 ■     ■
 ■ ■   ▼  ■            ■
@@ -91,7 +91,7 @@ Dans quelle direction voulez-vous aller ? O
 
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
 ■   ■                 ■
-■                     ◯
+■                     □
 ■                     ■
                 ■     ■
 ■ ■ ◄    ■            ■
@@ -101,7 +101,7 @@ Dans quelle direction voulez-vous aller ? N
 
 ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
 ■   ■                 ■
-■   ▲                 ◯
+■   ▲                 □
 ■                     ■
                 ■     ■
 ■ ■      ■            ■
