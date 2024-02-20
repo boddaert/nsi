@@ -22,7 +22,7 @@ Avec Python, vous devez programmer un niveau de jeu Ice Walker en respectant les
 
 1. La grille de jeu est modélisée par une liste de listes.
 
-2. La position actuelle du personnage, de la case finale et des murs sont modélisés par un tuple de coordonnées.
+2. La position actuelle du personnage et de la case finale sont modélisés par un tuple de coordonnées.
 
 3. Les mécaniques de jeu de sol glacé et de l'infranchissabilité des murs doivent être respectés.
 
@@ -34,6 +34,91 @@ Avec Python, vous devez programmer un niveau de jeu Ice Walker en respectant les
 
 7. Chaque fonction écrite doit être documentée par une *DocString* complète.
 
+## III. Affichage
+
+Par exemple, dans la console :
+
+```
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+■   ■                 ■
+■                     ◯
+■                     ■
+►               ■     ■
+■ ■      ■            ■
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+
+Dans quelle direction voulez-vous aller ? E
+
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+■   ■                 ■
+■                     ◯
+■                     ■
+              ► ■     ■
+■ ■      ■            ■
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+
+Dans quelle direction voulez-vous aller ? N
+
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+■   ■         ▲       ■
+■                     ◯
+■                     ■
+                ■     ■
+■ ■      ■            ■
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+
+Dans quelle direction voulez-vous aller ? O
+
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+■   ■ ◄               ■
+■                     ◯
+■                     ■
+                ■     ■
+■ ■      ■            ■
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+
+Dans quelle direction voulez-vous aller ? S
+
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+■   ■                 ■
+■                     ◯
+■                     ■
+                ■     ■
+■ ■   ▼  ■            ■
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+
+Dans quelle direction voulez-vous aller ? O
+
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+■   ■                 ■
+■                     ◯
+■                     ■
+                ■     ■
+■ ■ ◄    ■            ■
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+
+Dans quelle direction voulez-vous aller ? N
+
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+■   ■                 ■
+■   ▲                 ◯
+■                     ■
+                ■     ■
+■ ■      ■            ■
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+
+Dans quelle direction voulez-vous aller ? E
+
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+■   ■                 ■
+■                     ►
+■                     ■
+                ■     ■
+■ ■      ■            ■
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+
+Gagné !
+```
 _______________
 
 [Sommaire](./../README.md)
