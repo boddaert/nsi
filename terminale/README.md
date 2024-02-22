@@ -95,8 +95,7 @@
 
 #### Tournoi Terminale
 
-https://wikispeedruns.com/lobby/34244?passcode=490625
-
+https://wikispeedrun.org/settings?$=startingArticle$pageid=222336&title=Donald%20Trump;&endingArticle$pageid=11860173&title=Fortnite;;
 ______________________
 
 ## Soutien
