@@ -95,7 +95,7 @@
 
 #### Tournoi Terminale
 
-https://wikispeedrun.org/settings?$=startingArticle$pageid=222336&title=Donald%20Trump;&endingArticle$pageid=11860173&title=Fortnite;;
+https://wikispeedrun.org/settings
 ______________________
 
 ## Soutien
