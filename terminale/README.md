@@ -92,6 +92,11 @@
 
 - Leçon 2 : [Diviser pour régner](./Diviser_pour_régner/Diviser_pour_régner.md)
 
+
+#### Tournoi Terminale
+
+https://wikispeedruns.com/lobby/34244?passcode=490625
+
 ______________________
 
 ## Soutien

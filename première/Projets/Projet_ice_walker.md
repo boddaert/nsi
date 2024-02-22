@@ -22,7 +22,7 @@ Avec Python, vous devez programmer un niveau de jeu Ice Walker en respectant les
 
 1. La grille de jeu est modélisée par une liste de listes.
 
-2. La position actuelle du personnage et de la case finale sont modélisés par un tuple de coordonnées.
+2. La position actuelle du personnage et de la case finale sont modélisées par un tuple de coordonnées.
 
 3. Les mécaniques de jeu de sol glacé et de l'infranchissabilité des murs doivent être respectés.
 
