@@ -90,8 +90,6 @@ Chaque partie est évaluée sur dix points, ce qui constitue une note globale su
 
 ## III. Idées de projets
 
-L'objectif est de ne pas copier les idées de projet ci-dessous mais de vous en inspirer afin de délimiter l'encadrement de votre projet.
-
 #### Metroidvania
 
 Le [Metroidvania](https://fr.wikipedia.org/wiki/Jeu_de_plates-formes) est un sous-genre du jeu vidéo d'action-aventure et de plate-forme qui empruntent fortement au système de jeu des séries Metroid et Castlevania.
@@ -140,9 +138,17 @@ Un forum est un espace virtuel qui permet de discuter librement de divers sujets
 
 ![image](./img/forum_de_discussion.png)
 
-#### Exploitation d'Open Data
+#### Exploitation d'Open Data en temps réel
 
-L'[INSEE](https://www.data.gouv.fr/fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/?format=csv#/presentation) est un site web public regroupant énormément d'Open Data disponibles en format `csv`.
+L'Open Data sont des données publiques libres et gratuites disponibles au téléchargement.
+
+L'idée est de créer une application exploitant les données téléchargées en format `csv`.
+
+## IV. Outils utiles
+
+### Module `Flask`
+
+Le module `flask` est un module permettant de démarrer un serveur. Sa documentation est disponible [ici](https://flask.palletsprojects.com/en/3.0.x/).
 
 ____________
 
