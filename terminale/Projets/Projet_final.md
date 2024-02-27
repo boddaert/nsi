@@ -10,7 +10,7 @@ Il constitue l'unique note de projet du second semestre.
 
 Ce projet se présente comme l'aboutissement des deux années passées en spécialité de Numérique et Sciences Informatiques et doit, par conséquent, être complètement finalisé et utilisable.
 
-### b) Timeline
+### b) *Timeline*
 
 Deux à quatre heures de cours par semaine sont dédiées au projet final pendant une dizaine de semaines.
 
@@ -18,7 +18,7 @@ Deux à quatre heures de cours par semaine sont dédiées au projet final pendan
 
 Le projet est découpé en trois parties indépendantes les unes des autres.
 
-Chaque partie intègre plusieurs livrables qu'il faudra restituer à la fin du projet.
+Chaque partie intègre plusieurs livrables qu'il faudra restituer à la fin du temps imparti.
 
 - Partie Code :
 
@@ -52,11 +52,11 @@ Chaque partie intègre plusieurs livrables qu'il faudra restituer à la fin du p
 
 ### d) Contraintes
 
-1. Parmi les langages informatiques vus en NSI (Python, SQL, JavaScript, HTML/CSS), vous devrez en utiliser au moins deux dont l'un est obligatoirement Python.
+1. Parmi les langages informatiques vus en NSI (Python, SQL, JavaScript, HTML/CSS), vous devez en utiliser au moins deux dont l'un est obligatoirement Python.
 
-2. Vous devrez intégrer au moins une structure de données vue en Terminale (piles, files, arbres, graphes) au code informatique de votre projet.
+2. Vous devez intégrer au moins une structure de données vue en Terminale (piles, files, arbres, graphes) au code informatique de votre projet.
 
-3. Au cours des semaines, vous devrez au moins effectuer deux réunions avec le client (à votre demande) afin de rendre compte de l'avancée du projet et des difficultés.
+3. Au cours des semaines, vous devez au moins effectuer deux réunions avec le client (à votre demande) afin de rendre compte de l'avancée du projet et des difficultés.
 
 ### e) Évaluation
 
