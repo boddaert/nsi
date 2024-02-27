@@ -92,10 +92,18 @@
 
 - Leçon 2 : [Diviser pour régner](./Diviser_pour_régner/Diviser_pour_régner.md)
 
+##### Chapitre 14 : Projet Final
 
-#### Tournoi Terminale
+- Projet n°4 : [Projet Final](./Projets/Projet_final.md)
 
-https://wikispeedrun.org/settings
+##### Chapitre 15 : Décidabilité et calculabilité
+
+##### Chapitre 16 : Programmation dynamique
+
+##### Chapitre 17 : Recherche textuelle
+
+##### Chapitre 18 : Systèmes sur puce
+
 ______________________
 
 ## Soutien
