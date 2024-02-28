@@ -6,6 +6,8 @@ Matériel : Aucun
 
 Prérequis : Notion d'interblocage
 
+Groupe : Seul
+
 ## I. Objectif
 
 L'objectif est de repérer quelle situation pourrait mener à un interblocage.

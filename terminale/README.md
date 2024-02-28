@@ -96,13 +96,19 @@
 
 - Projet n°4 : [Projet Final](./Projets/Projet_final.md)
 
-##### Chapitre 15 : Décidabilité et calculabilité
+##### Chapitre 15 : Systèmes sur puce
 
-##### Chapitre 16 : Programmation dynamique
+- Leçon 1 : [Systèmes sur puce](./Architecture_des_machines/Systèmes_sur_puce.md)
 
-##### Chapitre 17 : Recherche textuelle
+- Activité : [Simulation sur carte Microbit](./Architecture_des_machines/Activité_simulation_sur_carte_microbit.md)
 
-##### Chapitre 18 : Systèmes sur puce
+##### Chapitre 16 : Décidabilité et calculabilité
+
+##### Chapitre 17 : Programmation dynamique
+
+##### Chapitre 18 : Recherche textuelle
+
+
 
 ______________________
 

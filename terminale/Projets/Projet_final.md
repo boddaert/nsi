@@ -16,7 +16,7 @@ Deux à quatre heures de cours par semaine sont dédiées au projet final pendan
 
 ### c) Livrables
 
-Le projet est découpé en trois parties indépendantes les unes des autres.
+Le projet est découpé en trois parties dépendantes les unes des autres.
 
 Chaque partie intègre plusieurs livrables qu'il faudra restituer à la fin du temps imparti.
 
@@ -40,7 +40,7 @@ Chaque partie intègre plusieurs livrables qu'il faudra restituer à la fin du t
 
     + Rapport comprenant la réflexion autour de la stratégie choisie : 
         
-        * L'encadrement du projet (voir III. Conseils).
+        * L'encadrement du projet (voir II. Conseils).
         
         * La répartition des tâches.
         
@@ -92,13 +92,13 @@ Chaque partie est évaluée sur dix points, ce qui constitue une note globale su
 
 #### Metroidvania
 
-Le [Metroidvania](https://fr.wikipedia.org/wiki/Jeu_de_plates-formes) est un sous-genre du jeu vidéo d'action-aventure et de plate-forme qui empruntent fortement au système de jeu des séries Metroid et Castlevania.
+Le [Metroidvania](https://fr.wikipedia.org/wiki/Jeu_de_plates-formes) est un sous-genre du jeu vidéo d'action-aventure et de plate-forme qui emprunte fortement au système de jeu des séries Metroid et Castlevania.
 
 ![image](./img/metroidvania.gif)
 
 #### Shoot them up
 
-Caractérisés par une vue objective du vaisseau ou du personnage contrôlé par le joueur. Le but des [Shoot them up](https://fr.wikipedia.org/wiki/Shoot_%27em_up) est de détruire les ennemis tout en esquivant leurs tirs.
+Caractérisés par une vue objective du vaisseau ou du personnage contrôlé par le joueur, le but des [Shoot them up](https://fr.wikipedia.org/wiki/Shoot_%27em_up) est de détruire les ennemis tout en esquivant leurs tirs.
 
 ![image](./img/shoot_them_up.gif)
 
