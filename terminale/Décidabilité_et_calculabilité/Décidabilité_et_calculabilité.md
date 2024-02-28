@@ -40,7 +40,7 @@ Alan Turing (1912-1954) est un mathématicien anglais. Il présente sa machine e
 
 Turing pose alors le problème suivant : « Existe-t-il un programme qui, prenant en entrée un autre programme et son entrée, determine si ce programme finit par s'arrêter avec cette entrée ou boucle indéfiniment ? »
 
-Il répond par la négative et montre que ce problème de l'arrêt répond aussi au problème de la décision. Church propose une preuve indépendante du même résultat grâce à son formalisme du $\lamda$-calcul.
+Il répond par la négative et montre que ce problème de l'arrêt répond aussi au problème de la décision. Church propose une preuve indépendante du même résultat grâce à son formalisme du $\lambda$-calcul.
 
 ## III. Définitions
 
@@ -48,11 +48,11 @@ Une fonction $f$ est *calculable* s'il existe une méthode/un algorithme qui, é
 
 La fonction `pgcd()` est une fonction calculable puisqu'elle permet de calculer le PGCD de n'importe quel argument $x$ en un nombre finis d'étape.
 
-Les *méthodes de calcul* $\lamda$-calcul et machine de Turing permettent de définir des fonctions calculables.
+Les *méthodes de calcul* $\lambda$-calcul et machine de Turing permettent de définir des fonctions calculables.
 
 Alonzo Church a démontré que ces deux méthodes de calculs sont équivalentes.
 
-La méthode de calcul $\lamda$-calcul a donné naissance à la programmation fonctionnelle, se reposant essentiellement sur la récursivité.
+La méthode de calcul $\lambda$-calcul a donné naissance à la programmation fonctionnelle, se reposant essentiellement sur la récursivité.
 
 La méthode de calcul de la machine de Turing a donné naissance à la programmation itérative.
 
