@@ -14,7 +14,7 @@ L'objectif est de comprendre comment fonctionne la machine de Turing via un supp
 
 ## III. Travail à faire
 
-La version PDF du document fourni est disponible [ici](http://www.espace-turing.fr/IMG/pdf/computerpaper.pdf).
+La version complète en PDF du document fourni est disponible [ici](./doc/machine_de_turing_en_papier.pdf).
 
 a) Lire une première fois le document afin d'en prendre connaissance.
 
