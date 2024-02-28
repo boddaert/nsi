@@ -12,7 +12,7 @@ Ces systèmes sont utilisés dans toutes les machines informatiques embarquées 
 
 ## II. Architecture
 
-L'architecture des systèmes sur puce est sensiblement la même que celle de John Von Neumann (cf [Modèle de Von Neumann](./../../première/Architecture_des_machines/Modèle_Von_Neumann.md)):
+À la différence que les programmes ne soient pas situés à l'intérieur de la mémoire, l'architecture des systèmes sur puce est sensiblement la même que celle de John Von Neumann (cf [Modèle de Von Neumann](./../../première/Architecture_des_machines/Modèle_Von_Neumann.md)):
 
 ![image](./img/architecture_soc.png)
 
