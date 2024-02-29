@@ -40,7 +40,7 @@ Cette stratégie ne traite qu'un seul sous-problème local indépendant des autr
 
 ![image](./../../première/Algorithmes_gloutons/img/strategie_gloutonne.png)
 
-> Cette stratégie ne donner pas forcément pas la meilleure solution. Nous disons de la stratégie gloutonne qu'elle donne une solution satisfaisante.
+> Cette stratégie ne donne pas forcément pas la meilleure solution. Nous disons de la stratégie gloutonne qu'elle donne une solution satisfaisante.
 
 ##### Application 2
 
