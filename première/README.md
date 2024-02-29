@@ -24,7 +24,7 @@
 
 - Leçon 9 : [Boucles bornées](./Constructions_élémentaires/Boucles_bornées.md)
 
-- Projet n°1 : [Architectes](./Projets/Projet_architectes.md)
+- Projet n°1 : [Architectes](./Constructions_élémentaires/Projet_architectes.md)
 
 ##### Chapitre 2 : Représentation des nombres en machine
 
@@ -42,7 +42,7 @@
 
 - Leçon 2 : [Interraction avec l'utilisateur](./Chaînes_de_caractère/Interraction_avec_l_utilisateur.md)
 
-- Projet n°2 : [ChiFuMi - Nim - Plus ou moins](./Projets/Projet_chifumi_nim_plusoumoins.md)
+- Projet n°2 : [ChiFuMi - Nim - Plus ou moins](./Chaînes_de_caractère/Projet_chifumi_nim_plusoumoins.md)
 
 - Leçon 3 : [Représentation des textes en machine](./Chaînes_de_caractère/Représentation_des_textes_en_machine.md)
 
@@ -86,7 +86,7 @@
 
 - Leçon 4 : [Listes de listes](./Structures_de_données/Listes_de_listes.md)
 
-- Projet n°3 : [Ice Walker](./Projets/Projet_ice_walker.md)
+- Projet n°3 : [Ice Walker](./Structures_de_données/Projet_ice_walker.md)
 
 ______________________
 

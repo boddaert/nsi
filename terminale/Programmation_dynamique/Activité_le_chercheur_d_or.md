@@ -66,7 +66,7 @@ h) Ajouter, pour chaque parcelle de la mine, des perles de façon à ce que le n
 
 i) Depuis la dernière parcelle en remontant jusqu'à la première, reconstituer le chemin offrant le plus de pépites et donner la réponse au problème.
 
-j) Soit `chercheurdor(i : int, j : int)->int` la fonction récursive qui prend en paramètre deux entiers et renvoie le nombre maximal de pépites de la parcelle $(i,j)$ pouvant être récoltées par le chercheur depuis la première parcelle.
+j) Soit `chercheur_d_or(i : int, j : int)->int` la fonction récursive qui prend en paramètre deux entiers et renvoie le nombre maximal de pépites de la parcelle $(i,j)$ pouvant être récoltées par le chercheur depuis la première parcelle.
 
 Avec :
 
@@ -88,7 +88,13 @@ mine[i][j] + max(chercheur\textunderscore d\textunderscore or(.., ..), chercheur
 \end{cases}
 $$
 
-k) Écrire la fonction récursive `chercheurdor(i : int, j : int)->int` et tester-la afin de vérifier la bonne réponse au problème de notre chercheur d'or.
+k) Écrire la fonction récursive `chercheur_d_or(i : int, j : int)->int` et tester-la afin de vérifier la bonne réponse au problème de notre chercheur d'or.
+
+l) En suivant le principe de récurrence, que va renvoyer l'appel `>>> chercheur_d_or(1, 1)` ? Dessiner sa pile d'appel.
+
+m) Même question pour `>>> chercheur_d_or(2, 4)`.
+
+n) Que remarque t-on dans la pile d'appels ?
 
 ____________________
 

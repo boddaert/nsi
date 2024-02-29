@@ -8,13 +8,13 @@
 
 - Leçon 1 : [Modularité](./Modularité/Modularite.md)
 
-- Projet n°1 [Architectes](./Projets/Projet_architectes.md)
+- Projet n°1 [Architectes](./Modularité/Projet_architectes.md)
 
 ##### Chapitre 2 : Programmation orientée objet
 
 - Leçon 1 : [Programmation Orientée Objet](./Programmation_orientée_objet/Programmation_orientee_objet.md)
 
-- Projet n°2 : [Combat de Pokémons](./Projets/Projet_combat_de_pokémons.md)
+- Projet n°2 : [Combat de Pokémons](./Programmation_orientée_objet/Projet_combat_de_pokémons.md)
 
 ##### Chapitre 3 : Récursivité
 
@@ -64,7 +64,7 @@
 
 ##### Chapitre 10 : Mise au point des programmes
 
-- Projet n°3 : [Puissance 4](./Projets/Projet_puissance_4.md)
+- Projet n°3 : [Puissance 4](./Mise_au_point_des_programmes/Projet_puissance_4.md)
 
 ##### Chapitre 11 : Structure relationnelles de données
 
@@ -94,7 +94,7 @@
 
 ##### Chapitre 14 : Projet Final
 
-- Projet n°4 : [Projet Final](./Projets/Projet_final.md)
+- Projet n°4 : [Projet Final](./Projet_final/Projet_final.md)
 
 ##### Chapitre 15 : Architecture des machines 2
 
