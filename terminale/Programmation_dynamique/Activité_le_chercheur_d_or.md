@@ -66,7 +66,7 @@ h) Ajouter, pour chaque parcelle de la mine, des perles de façon à ce que le n
 
 i) Depuis la dernière parcelle en remontant jusqu'à la première, reconstituer le chemin offrant le plus de pépites et donner la réponse au problème.
 
-j) Soit `chercheur_d_or(i : int, j : int)->int` la fonction récursive qui prend en paramètre deux entiers et renvoie le nombre maximal de pépites de la parcelle $(i,j)$ pouvant être récoltées par le chercheur depuis la première parcelle.
+j) Soit `chercheurdor(i : int, j : int)->int` la fonction récursive qui prend en paramètre deux entiers et renvoie le nombre maximal de pépites de la parcelle $(i,j)$ pouvant être récoltées par le chercheur depuis la première parcelle.
 
 Avec :
 
@@ -77,7 +77,7 @@ mine = [[1, 2, 1, 4, 5],
 ```
 
 $$
-chercheurdor(i,j)=
+chercheur\_d\_or(i,j)=
 \begin{cases}
 0 & \quad \text{si m = .....}\\ 
 ..... & \quad \text{si m = 1}\\
@@ -88,16 +88,16 @@ $$
 Compléter le principe de récurence suivant :
 
 $$
-chercheur_d_or(i, j)=
+chercheurdor(i, j)=
 \begin{cases}
 mine(0,0) & \quad \text{si i = ... et si j = ...}\\ 
-mine(0,j) + chercheur_d_or(0, j-1) & \quad \text{si i = 0 et si j != 0}\\
-mine(i,0) + chercheur_d_or(..., ...) & \quad \text{si i != 0 et si j = 0}\\
-mine(i,j) + max(chercheur_d_or(..., ...), chercheur_d_or(..., ...)) & \quad \text{sinon}
+mine(0,j) + chercheurdor(0, j-1) & \quad \text{si i = 0 et si j != 0}\\
+mine(i,0) + chercheurdor(..., ...) & \quad \text{si i != 0 et si j = 0}\\
+mine(i,j) + max(chercheurdor(..., ...), chercheurdor(..., ...)) & \quad \text{sinon}
 \end{cases}
 $$
 
-k) Écrire la fonction récursive `chercheur_d_or(i : int, j : int)->int` et tester-la afin de vérifier la bonne réponse au problème de notre chercheur d'or.
+k) Écrire la fonction récursive `chercheurdor(i : int, j : int)->int` et tester-la afin de vérifier la bonne réponse au problème de notre chercheur d'or.
 
 ____________________
 
