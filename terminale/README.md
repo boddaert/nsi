@@ -110,6 +110,14 @@
 
 ##### Chapitre 17 : Programmation dynamique
 
+- Leçon 1 : [Problèmes d'optimisation combinatoire](./../première/Algorithmes_gloutons/Problèmes_d_optimisation_combinatoire.md)
+
+- Leçon 2 : [Rappel des algorithmes gloutons](./Programmation_dynamique/Rappel_des_algorithmes_gloutons.md)
+
+- Activité : [Le chercheur d'or](./Programmation_dynamique/Activité_le_chercheur_d_or.md)
+
+- Leçon 3 : [Programmation dynamique](./Programmation_dynamique/Programmation_dynamique.md)
+
 ##### Chapitre 18 : Recherche textuelle
 
 

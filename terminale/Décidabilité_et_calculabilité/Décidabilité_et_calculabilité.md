@@ -56,7 +56,7 @@ La méthode de calcul $\lambda$-calcul a donné naissance à la programmation fo
 
 La méthode de calcul de la machine de Turing a donné naissance à la programmation itérative.
 
-Ainsi, Alonzo Church a démontré, par conséquent, que chaque fonction récursive avait un équvalent itératif et vice-versa.
+Ainsi, Alonzo Church a démontré, par conséquent, que chaque fonction récursive avait un équvalent itératif et réciproquement.
 
 Un *problème de décision* est une question mathématique dont la réponse est "oui" ou "non".
 

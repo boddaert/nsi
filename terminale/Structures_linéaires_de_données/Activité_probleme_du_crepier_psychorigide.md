@@ -34,7 +34,7 @@ Le crêpier psychorigide est, comme son nom l'indique, psychorigide. Il souhaite
 
 Pour l'aider, vous n'avez qu'une seule opération possible : Placer la spatule entre deux crêpes dans le tas et retourner toutes celles situées au-dessus de la spatule.
 
-## V. Questions
+## V. Travail à faire
 
 Par groupe de deux, répondre aux questions suivantes :
 
