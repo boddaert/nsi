@@ -82,8 +82,8 @@ $$
 chercheur_d_or(i, j)=
 \begin{cases}
 mine(0,0) & \quad \text{si i = ... et si j = ...}\\ 
-mine(0,j) + chercheur_d_or(0, j-1) & \quad \text{si i = 0 et si j \neq 0}\\
-mine(i,0) + chercheur_d_or(..., ...) & \quad \text{si i \neq 0 et si j = 0}\\
+mine(0,j) + chercheur_d_or(0, j-1) & \quad \text{si i = 0 et si j != 0}\\
+mine(i,0) + chercheur_d_or(..., ...) & \quad \text{si i != 0 et si j = 0}\\
 mine(i,j) + max(chercheur_d_or(..., ...), chercheur_d_or(..., ...)) & \quad \text{sinon}
 \end{cases}
 $$
