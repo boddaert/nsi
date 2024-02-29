@@ -76,25 +76,15 @@ mine = [[1, 2, 1, 4, 5],
         [3, 1, 2, 1, 1]]
 ```
 
-$$
-cou \textunderscore cou
-chercheurdor(i,j)=
-\begin{cases}
-0 & \quad \text{si m = .....}\\ 
-..... & \quad \text{si m = 1}\\
-f(.....) + f(.....) & \quad \text{sinon}
-\end{cases}
-$$
-
 Compléter le principe de récurence suivant :
 
 $$
-chercheurdor(i, j)=
+chercheur\textunderscore d\textunderscore or(i, j)=
 \begin{cases}
-mine(0,0) & \quad \text{si i = ... et si j = ...}\\ 
-mine(0,j) + chercheurdor(0, j-1) & \quad \text{si i = 0 et si j != 0}\\
-mine(i,0) + chercheurdor(..., ...) & \quad \text{si i != 0 et si j = 0}\\
-mine(i,j) + max(chercheurdor(..., ...), chercheurdor(..., ...)) & \quad \text{sinon}
+mine[0][0] & \quad \text{si i = ... et si j = ...}\\ 
+mine[0][j] + chercheur\textunderscore d\textunderscore or(0, j-1) & \quad \text{si i = 0 et si j \neq 0}\\
+mine[i][0] + chercheur\textunderscore d\textunderscore or(..., ...) & \quad \text{si i \neq 0 et si j = 0}\\
+mine[i][j] + max(chercheur\textunderscore d\textunderscore or(..., ...), chercheur\textunderscore d\textunderscore or(..., ...)) & \quad \text{sinon}
 \end{cases}
 $$
 
