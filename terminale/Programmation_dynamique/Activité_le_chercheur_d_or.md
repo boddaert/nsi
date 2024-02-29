@@ -77,7 +77,8 @@ mine = [[1, 2, 1, 4, 5],
 ```
 
 $$
-chercheur\_d\_or(i,j)=
+cou \_ cou
+chercheurdor(i,j)=
 \begin{cases}
 0 & \quad \text{si m = .....}\\ 
 ..... & \quad \text{si m = 1}\\
