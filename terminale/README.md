@@ -112,7 +112,7 @@
 
 - Leçon 1 : [Problèmes d'optimisation combinatoire](./../première/Algorithmes_gloutons/Problèmes_d_optimisation_combinatoire.md)
 
-- Leçon 2 : [Rappel des algorithmes gloutons](./Programmation_dynamique/Rappel_des_algorithmes_gloutons.md)
+- Leçon 2 : [Rappel des algorithmes gloutons](./Programmation_dynamique/Rappels_des_algorithmes_gloutons.md)
 
 - Activité : [Le chercheur d'or](./Programmation_dynamique/Activité_le_chercheur_d_or.md)
 
