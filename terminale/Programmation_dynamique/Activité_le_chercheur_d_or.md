@@ -76,6 +76,15 @@ mine = [[1, 2, 1, 4, 5],
         [3, 1, 2, 1, 1]]
 ```
 
+$$
+f(m)=
+\begin{cases}
+0 & \quad \text{si m = .....}\\ 
+..... & \quad \text{si m = 1}\\
+f(.....) + f(.....) & \quad \text{sinon}
+\end{cases}
+$$
+
 Compléter le principe de récurence suivant :
 
 $$
