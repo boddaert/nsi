@@ -77,7 +77,7 @@ mine = [[1, 2, 1, 4, 5],
 ```
 
 $$
-cou \_ cou
+cou \textunderscore cou
 chercheurdor(i,j)=
 \begin{cases}
 0 & \quad \text{si m = .....}\\ 
