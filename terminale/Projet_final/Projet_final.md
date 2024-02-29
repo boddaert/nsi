@@ -146,9 +146,26 @@ L'idée est de créer une application exploitant les données téléchargées en
 
 ## IV. Outils utiles
 
-### Module `Flask`
+### a) Modules
 
-Le module `flask` est un module permettant de démarrer un serveur. Sa documentation est disponible [ici](https://flask.palletsprojects.com/en/3.0.x/).
+- Le module `flask` est un module permettant de démarrer un serveur. Sa documentation est disponible [ici](https://flask.palletsprojects.com/en/3.0.x/).
+
+- Le module `sqlite3` est un module permettant d'intégrer une base de données à un fichier Python. Sa documentation est disponible [ici](https://docs.python.org/3/library/sqlite3.html).
+
+
+### b) Environnements de Développement
+
+- L'IDE Visual Studio Code est un environnement de développement se prêtant très bien aux projets car il permet de programmer dans plusieurs langages de programmation différents.
+
+### c) Partage de fichiers
+
+- Discord est un média social très pratique permettant de communiquer très facilement ses fichiers et de travailler à plusieurs à distance via appel vidéo.
+
+- GitHub est un outil en ligne permettant d'ajouter sur un Cloud des fichiers disponibles au téléchargement à toutes les personnes qui y sont auorisées.
+
+### d) Présentation de document
+
+- Canva est un outil en ligne permettant de compléter facilement un diagramme de Gantt via un template ou une présentation de soutenance. L'outil est disponible en cliquant [ici](https://www.canva.com/).
 
 ____________
 
