@@ -1,5 +1,7 @@
 # Projet : Combat de Pokémons
 
+![image](./img/combat_de_pokemon.gif)
+
 ## I. Description
 
 Nous souhaitons écrire un programme simulant le combat entre deux Pokémons.
