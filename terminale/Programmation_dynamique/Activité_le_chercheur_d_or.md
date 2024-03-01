@@ -62,7 +62,7 @@ g) Pour quelle(s) parcelle(s) de la mine, le chercheur connaît-il exactement le
 
 Pour les autres parcelles, deux choix sont possibles : soit le chercheur arrive depuis la parcelle supérieure, soit le chercheur arrive depuis la gauche.
 
-Il s'agit donc de déterminer si le chercheur arrive sur la parcelle avec plus de pépites en arrivant depuis la parcelle supérieure ou s'il arrive avec plus de pépites en arrivant depuis la parcelle à gauche.
+Il s'agit donc de déterminer si le chercheur arrive sur la parcelle avec plus de pépites en arrivant depuis le haut ou s'il arrive avec plus de pépites en arrivant depuis la gauche.
 
 h) Ajouter, pour chaque parcelle de la mine, des perles de façon à ce que le nombre de pépite corresponde au nombre maximal de pépites pouvant être récoltées de la première parcelle jusqu'à celle-ci.
 
