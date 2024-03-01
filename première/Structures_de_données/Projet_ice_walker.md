@@ -14,7 +14,7 @@ Et le personnage, une fois lancé sur la glace, ne peut s'arrêter. A moins, bie
 
 Ce type de jeu a été repris plusieurs fois par la licence Pokémon. Voici ci-dessous un exemple de jeu Ice Walker avec sa résolution :
 
-![image](./img/pokemon_ice_walker.png)
+![image](./img/pokemon_ice_walker.gif)
 
 ## II. Cahier des charges
 
