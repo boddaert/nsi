@@ -16,7 +16,7 @@ L'objectif est d'exécuter un programme sur un système sur puce : la carte Micr
 
 Le site web [microbit.org](https://python.microbit.org/v/3) met à disposition la simulation d'exécution d'un programme sur une carte Microbit.
 
-a) Choisir et réussir les défis proposés sur https://numerique.ostralo.net/microbit_defis/
+Choisir et réussir les défis proposés sur https://numerique.ostralo.net/microbit_defis/
 ________________
 
 [Sommaire](./../README.md)

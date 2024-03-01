@@ -121,13 +121,6 @@
 ##### Chapitre 18 : Recherche textuelle
 
 
-
-______________________
-
-## Soutien
-
-[Liste d'exercices](./Soutien/soutien.md)
-
 ______________________
 
 ## Entraînement au Baccalauréat
@@ -141,6 +134,8 @@ ______________________
 ## Entraînement à l'oral
 
 [Oraux du jeudi](./Oraux/Oraux_du_jeudi.md)
+
+[Guide du Grand Oral](./Oraux/guide_grand_oral.pdf)
 
 [Barême du Grand Oral](./Oraux/Barême_grand_oral.pdf)
 

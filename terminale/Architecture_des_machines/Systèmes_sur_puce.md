@@ -34,7 +34,7 @@ Lorsqu'il est présent, le contrôleur *DMA* (pour *Direct Memory Acces*) permet
 
 - Le dispositif chauffe moins, donc les techniques de refroidissement sont simplifiées.
 
-- Les différents éléments s'intègrent mieux les uns avec les autres car ils sont conçu conjointement.
+- Les différents éléments s'intègrent mieux les uns avec les autres car ils sont conçus conjointement.
 
 - La sécurité est normalement améliorée car les différents éléments sont conçus conjointement.
 
