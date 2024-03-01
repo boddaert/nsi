@@ -4,7 +4,7 @@
 
 ### a) Complexités des algorithmes répondant à un problème d'optimisation combinatoire
 
-Résoudre un problème d'optimisation combinatoire est facile : il suffit de calculer toutes les solutions possibles et de maximiser ou minimiser selon le critère de cet ensemble de solutions.
+Résoudre un problème d'optimisation combinatoire est facile : il suffit de calculer toutes les solutions possibles et de maximiser ou minimiser selon le critère sur cet ensemble de solutions.
 
 Malheureusement, en informatique, une contrainte s'impose : la puissance actuelle des ordinateurs.
 
@@ -12,13 +12,13 @@ Prenons un exemple de problème d'optimisation combinatoire : le voyageur de com
 
 Depuis une ville de départ, le voyageur cherche à visiter toutes les villes comprises dans le problème une et une seule fois et finis son tour par la ville de départ.
 
-Il existe plusieurs itinéraires et le voyageur cherche à minimiser la distance de ses solutions.
+Il existe plusieurs itinéraires et le voyageur cherche à minimiser la distance.
 
 ##### Application 1
 
 a) Démontrer que le problème du voyageur de commerce s'agit bien d'un problème d'optimisation combinatoire.
 
-b) Pour un problème du voyageur de commerce à onze ville, combien le voyageur a t-il de choix quant à la ville de départ ? 
+b) Pour un problème du voyageur de commerce à onze villes, combien le voyageur a t-il de choix quant à la ville de départ ? 
 
 c) Depuis une ville de départ, combien le voyageur a t-il de choix quant à la seconde ville à visiter ?
 
@@ -36,7 +36,7 @@ Les algorithmes gloutons utilisent la stratégie gloutonne.
 
 La *stratégie gloutonne* consiste, par une suite de choix, à sélectionner à chaque étape le choix qui est le meilleur localement.
 
-Cette stratégie ne traite qu'un seul sous-problème local indépendant des autres à la fois :
+Cette stratégie ne traite qu'un seul sous-problème local et indépendant des autres à la fois :
 
 ![image](./../../première/Algorithmes_gloutons/img/strategie_gloutonne.png)
 

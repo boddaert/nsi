@@ -10,7 +10,7 @@ Groupe : Par deux
 
 ## I. Objectif
 
-L'objectif est de repérer les inconvénients de la stratégie gloutonne et d'utiliser la programmation dynamique afin de les retirer.
+L'objectif est de repérer les inconvénients de la stratégie gloutonne et de découvrir la solution à ces inconvénients : la programmation dynamique.
 
 ## II. Matériel
 
@@ -26,41 +26,43 @@ Placez les pépites dans les cases de la boîte comme montré ci-dessous :
 
 ## IV. Règles du jeu
 
-Le chercheur d'or souhaite récupérer le plus de pépites d'or possible.
+Le chercheur d'or souhaite récolter le plus de pépites d'or possible.
 
-Il commence à creuser dans la parcelle de roche la plus en haut à gauche de la mine.
+Il commence toujours par creuser dans la parcelle du coin supérieur gauche de la mine et termine sur la parcelle dans le coin inférieur droit.
 
 Pour chaque nouvelle parcelle de roche creusée, il récupère le nombre de pépites présentes dans celle-ci et l'ajoute à son butin.
 
-Malheureusement, afin d'éviter de se faire ensevelir, le chercheur n'a d'autre choix que de creuser soit sur la parcelle de roche à droite de sa position soit celle en bas.
+Afin d'éviter de se faire ensevelir, le chercheur n'a d'autre choix que de creuser la parcelle située soit à droite soit en bas de sa position actuelle.
 
-Mais il dispose d'un outil lui permettant de connaître précisément le nombre de pépites sur chaque parcelle de la mine.
+Mais il dispose d'un outil lui permettant de connaître précisément le nombre de pépites présentes dans chaque parcelle de la mine.
 
-Il lui reste plus qu'a trouver un chemin lui permettant de récupérer le maximum de pépites.
+Il ne lui reste plus qu'à trouver un chemin optimisé lui permettant de récupérer le maximum de pépites.
 
 ## V. Travail à faire
 
 Par groupe de deux, répondre aux questions suivantes :
 
-a) Par chemin le chercheur doit passer pour récupérer le plus de pépites ?
+a) Quel est le chemin que le chercheur doit traverser pour récupérer le plus de pépites ?
 
 b) Démontrer qu'il s'agit d'un problème d'optimisation combinatoire.
 
 c) Combien y a t-il de chemins possibles pour une mine de taille $2\times2$ ? $3\times3$ ? $4\times4$ ?
 
-d) Est-ce raisonnable d'écrire un programme qui calcule le butin récolté pour tous les chemins possibles ?
+d) Est-ce raisonnable d'écrire un programme qui calcule le butin récolté de tous les chemins possibles ?
 
-e) Quel est le butin récolté en utilisant la stratégie gloutonne ?
+e) Quelle est la stratégie gloutonne pour le problème du chercheur d'or ? Quel est le butin récolté donné par cette stratégie ?
 
 f) Expliquer pourquoi, dans ce problème-ci, la stratégie gloutonne ne donne pas une solution satisfaisante.
 
-La programmation dynamique consiste à déterminer le nombre maximal de pépite que le chercheur peut avoir pour chaque parcelle de la mine et de se servir de ce résultat pour déterminer le nombre maximal de pépite des parcelles suivantes.
+La programmation dynamique cherche à obtenir une solution optimale en utilisant les solutions optimales précédentes.
 
-g) Pour quelle(s) parcelle(s), le chercheur connaît exactement le nombre maximal de pépites qu'il aura récoltées depuis le début du chemin ?
+Dans ce problème, la stratégie de la programmation dynamique consiste à calculer le nombre maximal de pépites que le chercheur peut obtenir pour chaque parcelle de la mine en utilisant les nombres maximaux de pépites des parcelles précédentes.
 
-Pour les autres parcelles, deux choix sont possibles, soit le chercheur vient de la parcelle en haut, soit il vient de la parcelle à gauche.
+g) Pour quelle(s) parcelle(s) de la mine, le chercheur connaît-il exactement le nombre maximal de pépites qu'il aura récoltées depuis le début du chemin ?
 
-Il s'agit donc de déterminer si le chercheur arrive sur la parcelle avec plus de pépites en arrivant depuis la parcelle en haut ou s'il arrive avec plus de pépites en arrivant depuis la parcelle à gauche.
+Pour les autres parcelles, deux choix sont possibles : soit le chercheur arrive depuis la parcelle supérieure, soit le chercheur arrive depuis la gauche.
+
+Il s'agit donc de déterminer si le chercheur arrive sur la parcelle avec plus de pépites en arrivant depuis la parcelle supérieure ou s'il arrive avec plus de pépites en arrivant depuis la parcelle à gauche.
 
 h) Ajouter, pour chaque parcelle de la mine, des perles de façon à ce que le nombre de pépite corresponde au nombre maximal de pépites pouvant être récoltées de la première parcelle jusqu'à celle-ci.
 
