@@ -116,13 +116,13 @@ Un problème subsiste cepandant avec cette approche naïve : en effet, nous rema
 
 ```mermaid
 flowchart TB
-    A(chercheur_d_or_naif(2, 4))
-    B(chercheur_d_or_naif(1, 4))
-    C(chercheur_d_or_naif(2, 3))
-    D(chercheur_d_or_naif(0, 4))
-    E(chercheur_d_or_naif(1, 3))
-    F(chercheur_d_or_naif(1, 3))
-    G(chercheur_d_or_naif(2, 2))
+    A["chercheur_d_or_naif(2, 4)"]
+    B["chercheur_d_or_naif(1, 4)"]
+    C["chercheur_d_or_naif(2, 3)"]
+    D["chercheur_d_or_naif(0, 4)"]
+    E["chercheur_d_or_naif(1, 3)"]
+    F["chercheur_d_or_naif(1, 3)"]
+    G["chercheur_d_or_naif(2, 2)"]
     A --> B
     A --> C
     B --> D
@@ -131,11 +131,11 @@ flowchart TB
     C --> G
 ```
 
-Dès la troisième profondeur de l'arbre, deux appels récursifs sont les mêmes.
+Dès la troisième profondeur de l'arbre, deux appels récursifs sont effectués pour le même calcul.
 
 ### g) Approche ascendante
 
-L'approche ascendante de la programmation dynamique consiste à supprimer le problème des appels redondants en dérécursivant la fonction.
+L'*approche ascendante* de la programmation dynamique consiste à supprimer le problème des appels redondants en dérécursivant la fonction.
 
 Les résultats des calculs effectués sont stockés dans un tableau `tab` :
 
@@ -154,7 +154,7 @@ def chercheur_d_or_ascendante(mine : list, i : int, j : int)->int:
 ```
 ### h) Approche descendante
 
-L'approche descendante de la programmation dynamique consiste à supprimer le problème des appels redondants en mémorisant les résultats des calculs dans un dictionnaire :
+L'*approche descendante* de la programmation dynamique consiste à supprimer le problème des appels redondants en mémorisant les résultats des calculs dans un dictionnaire :
 
 ```python
 def chercheur_d_or_descendante(mine : list, i : int, j : int, mem = None):
