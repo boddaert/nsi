@@ -18,7 +18,7 @@ Les informaticiens utilisent alors la programmation dynamique.
 
 La *programmation dynamique* est une technique de programmation répondant à un problème d'optimisation combinatoire (cf [Problèmes d'optimisation combinatoire](./../../première/Algorithmes_gloutons/Problèmes_d_optimisation_combinatoire.md)) en donnant la meilleure solution.
 
-La *stratégie de la programmation dynamique* consiste à obtenir une solution optimale en utilisant les solutions optimales précédentes des sous-problèmes où ceux-ci se chevauchent.
+La *stratégie de la programmation dynamique* consiste à obtenir une solution optimale en utilisant les solutions optimales des précédents sous-problèmes où ceux-ci se chevauchent.
 
 ![image](./img/programmation_dynamique.png)
 
@@ -66,11 +66,11 @@ Le problème du chercheur d'or $CO$ est un problème d'optimisation combinatoire
 
 Le nombre de chemins est trouvable en calculant le coefficient binomial du nombre de mouvement total parmi le nombre de mouvement à droite (ou en bas) possible.
 
-Par exemple, dans ce cas d'étude, il y a quatre mouvements possible à droite sur, en total, six mouvements et $\binom{4}{6} = 15$.
+Par exemple, dans ce cas d'étude, il y a quatre mouvements possible à droite sur, au total, six mouvements et $\binom{4}{6} = 15$.
 
 > Rappel : $\dfrac{n!}{k!(n-k)!} = \binom{n}{k}$
 
-Par conséquent, il n'est pas raisonnable de construire un algorithme calculant les solutions de tous les chemins possibles.
+Par conséquent, il n'est pas raisonnable de construire un algorithme calculant les solutions de tous les chemins possibles si la taille de la mine est considérable.
 
 ### d) Approche naïve
 
@@ -110,6 +110,10 @@ def chercheur_d_or_naif(mine : list, i : int, j : int)->int:
         return mine[i][j] + max(chercheur_d_or_naif(mine, i, j-1), chercheur_d_or_naif(mine, i-1, j))
 ```
 
+##### Application 1
+
+Recopier la fonction dans Thonny et tester la avec la variable `mine`.
+
 ### f) Pile d'appels
 
 Un problème subsiste cepandant avec cette approche naïve : en effet, nous remarquons que cette approche va réaliser plusieurs mêmes appels :
@@ -133,6 +137,10 @@ flowchart TB
 
 Dès la troisième profondeur de l'arbre, deux appels récursifs sont effectués pour le même calcul.
 
+##### Application 2
+
+Compléter la pile d'appels et donner le nombre d'appels déjà effectués.
+
 ### g) Approche ascendante
 
 L'*approche ascendante* de la programmation dynamique consiste à supprimer le problème des appels redondants en dérécursivant la fonction.
@@ -152,6 +160,13 @@ def chercheur_d_or_ascendante(mine : list, i : int, j : int)->int:
             tab[i][j] = mine[i][j] + max(tab[i-1][j], tab[i][j-1])
     return tab[i][j]
 ```
+
+##### Application 3
+
+a) Recopier la fonction dans Thonny et tester la avec la variable `mine`.
+
+b) Donner l'état de `tab` à l'issue de l'exécution de la fonction.
+
 ### h) Approche descendante
 
 L'*approche descendante* de la programmation dynamique consiste à supprimer le problème des appels redondants en mémorisant les résultats des calculs dans un dictionnaire :
@@ -172,6 +187,12 @@ def chercheur_d_or_descendante(mine : list, i : int, j : int, mem = None):
         mem[(i, j)] = mine[i][j] + max(chercheur_d_or_descendante(mine, i, j-1), chercheur_d_or_descendante(mine, i-1, j))
     return mem[(i, j)]
 ```
+
+##### Application 4
+
+a) Recopier la fonction dans Thonny et tester la avec la variable `mine`.
+
+b) Donner l'état de `mem` à l'issue de l'exécution de la fonction.
 
 _______________
 
