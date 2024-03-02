@@ -14,11 +14,11 @@ L'objectif est de comprendre comment fonctionne la machine de Turing via un supp
 
 ## III. Travail à faire
 
-La version complète en PDF est disponible [ici : COMPUTER PAPER - espace-turing.fr](./doc/machine_de_turing_en_papier.pdf).
+La version complète en PDF est disponible ici : [COMPUTER PAPER - espace-turing.fr](./doc/machine_de_turing_en_papier.pdf).
 
 a) Lire une première fois le document afin d'en prendre connaissance.
 
-b) Procéder à la partie DÉCOUPAE et MONTAGE.
+b) Procéder à la partie DÉCOUPAGE et MONTAGE.
 
 c) Tester les programmes "Calcul minimal", "Calcul sans arrêt" et "Test si un nombre est pair" sur votre machine de Turing en papier et en vous aidant de la partie DÉROULEMENT DES PROGRAMMES.
 
