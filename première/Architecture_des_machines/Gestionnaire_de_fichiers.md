@@ -1,2 +1,0 @@
-# Gestionnaire de fichiers
-

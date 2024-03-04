@@ -10,7 +10,7 @@ Groupe : Seul
 
 ## I. Objectif
 
-L'objectif de cette activité est de découvrir les commandes systèmes du système d'exploitation Linux et d'établir votre propre notice de commandes.
+L'objectif de cette activité est de découvrir les commandes systèmes du système d'exploitation Linux et d'établir votre mémo personnel de commandes.
 
 ## II. Matériel
 
@@ -18,13 +18,16 @@ L'objectif de cette activité est de découvrir les commandes systèmes du syst�
 
 ## III. Travail à faire
 
-a) Sur feuille, commencer par dessiner un tableau (pour l'instant vide) qui, pour chaque commande décrit sa fonctionnalité :
+a) Sur feuille, commencer par établir votre mémo (un tableau pour l'instant vide) :
 
 | Commande Linux | Fonctionnalité |
 | :---: | :---: |
-| | |
+| ... | ... |
+| ... | ... |
 
-b) Ouvrir le jeu et commencer l'aventure. Attention ! Accepter les cookies afin de sauvegarder votre avancée et vérifier dès le début en fermant et en rouvrant la page si les données ont été sauvegardées.
+b) Ouvrir le jeu et commencer l'aventure. Attention ! Il faut accepter les cookies afin de sauvegarder votre avancée.
+
+c) À chaque nouvelle commande trouvée sur Terminus, écrire dans le tableau la commande et ce qu'elle permet de faire.
 
 ___________________
 

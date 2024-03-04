@@ -94,7 +94,7 @@
 
 - Activité : [Terminus](./Architecture_des_machines/Activité_terminus.md)
 
-- Leçon 5 : [Gestionnaire de fichiers](./Architecture_des_machines/Gestionnaire_de_fichiers.md)
+- Leçon 5 : [système de gestion de fichiers](./Architecture_des_machines/Système_de_gestion_de_fichiers.md)
 
 ##### Chapitre 11 : Optimisation
 
