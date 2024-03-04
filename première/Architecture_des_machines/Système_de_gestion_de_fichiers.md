@@ -44,7 +44,7 @@ Les répertoires et les fichiers sont organisés en mémoire sous forme de hiera
             - :page_facing_up: `Activité_terminus.md`
             - :page_facing_up: `Système_de_gestion_de_fichiers.md`
             - :page_facing_up: `Évaluation.pdf`
-        - :page_facing_up `README.md`
+        - :page_facing_up: `README.md`
         - ...
     - :file_folder: `terminale`
         - ...
