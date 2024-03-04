@@ -1,4 +1,4 @@
-# système de gestion de fichiers
+# Système de gestion de fichiers
 
 ## I. Définitions
 
