@@ -88,6 +88,53 @@
 
 - Projet n°3 : [Ice Walker](./Structures_de_données/Projet_ice_walker.md)
 
+##### Chapitre 10 : Architecture des machines 3
+
+- Leçon 4 : [Systèmes d'exploitation](./Architecture_des_machines/Systèmes_d_exploitation.md)
+
+- Activité : [Terminus](./Architecture_des_machines/Activité_terminus.md)
+
+- Leçon 5 : [Gestionnaire de fichiers](./Architecture_des_machines/Gestionnaire_de_fichiers.md)
+
+##### Chapitre 11 : Optimisation
+
+- Leçon 1 : [Complexité](./Optimisation/Complexité.md)
+
+- Activité : [Recherche dichotomique](./Optimisation/Activité_recherche_dichotomique.md)
+
+- Leçon 2 : [Preuve de terminaison](./Optimisation/Preuve_de_terminaison.md)
+
+- Leçon 3 : [Preuve de correction](./Optimisation/Preuve_de_correction.md)
+
+##### Chapitre 12 : Traitement de données en table
+
+- Leçon 1 : [Fichiers CSV](./Traitement_de_données_en_table/Fichiers_csv.md)
+
+- Leçon 2 : [Recherche dans une table](./Traitement_de_données_en_table/Recherche_dans_une_table.md)
+
+- Leçon 3 : [Tri d'une table](./Traitement_de_données_en_table/Tri_d_une_table.md)
+
+- Leçon 4 : [Fusion de tables](./Traitement_de_données_en_table/Fusion_de_tables.md)
+
+- Projet n°4 : []
+
+##### Chapitre 13 : Algorithmes de tri
+
+- Activité : [Trier à l'aide de balances](./Algorithmes_de_tri/Activité_trier_à_l_aide_de_balances.md)
+
+- Leçon 1 : [Trier](./Algorithmes_de_tri/Trier.md)
+
+- Leçon 2 : [Algorithme du tri par sélection](./Algorithmes_de_tri/Algorithme_du_tri_par_sélection.md)
+
+- Leçon 3 : [Algorithme du tri par insertion](./Algorithmes_de_tri/Algorithme_du_tri_par_insertion.md)
+
+##### Chapitre 14 : IHM sur le web
+
+##### Chapitre 15 : Algorithmes gloutons
+
+##### Chapitre 16 : Algorithme des $k$ plus proches voisins
+
+
 ______________________
 
 ## Bulletins Officiels
