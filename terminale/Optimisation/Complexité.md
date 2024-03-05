@@ -56,13 +56,15 @@ Voici ci-dessous un premier algorithme :
 
 ```
 Algorithme : recherche_1(l, elt)
+Entrées : l une liste d'entiers et elt un entier
+Sortie : Un entier, indice de elt dans l, -1 sinon
 
-i = 0
-i_elt = -1
+i <- 0
+i_elt <- -1
 TantQue i < taille(l), faire :
-    Si l[i] == elt, alors :
-        i_elt = i
-    i = i + 1
+    Si l[i] = elt, alors :
+        i_elt <- i
+    i <- i + 1
 Renvoyer i_elt
 ```
 
@@ -70,16 +72,17 @@ Puis un second algorithme :
 
 ```
 Algorithme : recherche_2(l, elt)
+Entrées : l une liste d'entiers et elt un entier
+Sortie : Un entier, indice de elt dans l, -1 sinon
 
-trouvé = Faux
-i = 0
-i_elt = -1
-TantQue i < taille(l) et trouvé == Faux, faire :
-    Si l[i] == elt, alors
-        trouvé = Vrai
-        i_elt = i
-    Sinon :
-        i = i + 1
+trouvé <- Faux
+i <- 0
+i_elt <- -1
+TantQue i < taille(l) et trouvé = Faux, faire :
+    Si l[i] = elt, alors
+        trouvé <- Vrai
+        i_elt <- i
+    i <- i + 1
 Renvoyer i_elt
 ```
 
