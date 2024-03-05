@@ -36,6 +36,20 @@ Il s'agit bien d'une propriété vraie à l'entrée de la boucle, à chaque ité
 
 Cet algorithme admet un invariant de boucle donc est correct.
 
+##### Application 1
+
+Trouver l'invariant de boucle de l'algorithme suivant `multiplication` afin de prouver qu'il est correct :
+
+```
+Algorithme : multiplication(n, m)
+
+produit = 0
+TantQue m != 0, faire :
+    produit = produit + n
+    m = m - 1
+Renvoyer n
+```
+
 ________________
 
 [Sommaire](./../README.md)

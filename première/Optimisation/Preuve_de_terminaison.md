@@ -38,6 +38,20 @@ Il s'agit bien d'une suite d'entiers naturels positifs décroissante.
 
 Cet algorithme admet un variant de boucle donc se termine.
 
+##### Application 1
+
+Trouver le variant de boucle de l'algorithme suivant `multiplication` afin de prouver qu'il se termine :
+
+```
+Algorithme : multiplication(n, m)
+
+produit = 0
+TantQue m != 0, faire :
+    produit = produit + n
+    m = m - 1
+Renvoyer n
+```
+
 ________________
 
 [Sommaire](./../README.md)

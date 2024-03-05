@@ -4,13 +4,13 @@
 
 ### a) Définitions
 
-La *complexité d'un algorithme* le coût algorithmique de celui-ci.
+La *complexité d'un algorithme* est le coût algorithmique de celui-ci.
 
 La *complexité spatiale* d'un algorithme est le coût en espace mémoire nécessaire à l'exécution d'un algorithme sur machine.
 
 La *complexité temporelle* d'un algorithme est le coût en temps nécessaire à l'exécution d'un algorithme sur machine.
 
-> En terminale, nous nous interesserons uniquement à la complexité temporelle des algorithmes.
+> En Première, nous nous interesserons uniquement à la complexité temporelle des algorithmes.
 
 ### b) Objectifs
 
@@ -71,10 +71,10 @@ Puis un second algorithme :
 ```
 Algorithme : recherche_2(l, elt)
 
-trouvé = False
+trouvé = Faux
 i = 0
 i_elt = -1
-TantQue i < taille(l) et trouvé == False, faire :
+TantQue i < taille(l) et trouvé == Faux, faire :
     Si l[i] == elt, alors
         trouvé = Vrai
         i_elt = i
@@ -91,70 +91,19 @@ b) Dérouler l'algorithme `recherche_1` en comptant le nombre de comparaisons ef
 
 - `l = [2, 7, 0, 1, 8, 5, 3, 10, 14, 4]`
 
-- `elt = 5`
+- `elt = 1`
 
 c) Dérouler l'algorithme `recherche_2` en comptant le nombre de comparaisons effectuées avec les paramètres suivants : 
 
 - `l = [2, 7, 0, 1, 8, 5, 3, 10, 14, 4]`
 
-- `elt = 5`
+- `elt = 1`
 
-d) Comparer la complexité temporelle des deux algorithmes et en déduire le plus efficace.
+d) En fonction de $n$ la taille de la liste, donner le nombre de comparaisons effectuées dans le meilleur des cas et dans le pire des cas pour chacun des deux algorithmes.
 
-## III. Outils
+e) En déduire leur complexité temporelle en fonction de $n$ la taille de la liste. 
 
-En Python, les informaticiens utilisent des modules pour les aider à comparer le coût de leur algorithme.
-
-### a) Module `matplotlib`
-
-Le module `matplotlib` en Python permet de tracer des graphiques en fonction de données.
-
-Sa documentation est disponible [ici](https://matplotlib.org/stable/tutorials/pyplot.html).
-
-##### Application 2
-
-Sur Thonny, télécharger le fichier Python suivant : [courbes_d_evolution.py](./src/courbes_d_evolution.py) et compléter les zones de code `A COMPLETER`.
-
-Ce fichier permet de tracer les courbes d'évolution vues dans le d).
-
-### b) Module `time`
-
-Le module `time` en Python permet de réaliser des calculs en fonction du temps.
-
-Sa documentation est disponible [ici](https://docs.python.org/fr/3/library/time.html#).
-
-À l'aide de la fonction `time()`, le temps d'exécution d'un code peut être connu.
-
-Par exemple, la fonction `mesure_temps()` ci-dessous permet de calculer le temps utilisé pour trier une liste de dix millions d'éléments :
-
-```python
-from time import *
-from random import *
-
-def mesure_temps():
-    # Démarrage du chrono
-    debut = time()
-    
-    # Création d'une liste de 10 000 000 éléments
-    l = [i for i in range(1000000)]
-    # Mélange de la liste
-    shuffle(l)
-    # Tri de la liste
-    l.sort()
-    
-    # Fin du chrono
-    fin = time()
-    # Calcul du temps utilisé
-    return fin - debut
-```
-
-##### Application 3
-
-Sur Thonny, recopier le code ci-dessus et exécuter la fonction pour connaître le nombre de secondes nécessaire à son exécution.
-
-___________
-
-[Feuille d'exercices](./Exercices/Exercice_complexité.md)
+f) En déduire celui qui est le plus efficace.
 
 ___________
 

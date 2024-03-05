@@ -4,7 +4,7 @@
 
 ### a) Définitions
 
-La *complexité d'un algorithme* le coût algorithmique de celui-ci.
+La *complexité d'un algorithme* est le coût algorithmique de celui-ci.
 
 La *complexité spatiale* d'un algorithme est le coût en espace mémoire nécessaire à l'exécution d'un algorithme sur machine.
 
@@ -71,10 +71,10 @@ Puis un second algorithme :
 ```
 Algorithme : recherche_2(l, elt)
 
-trouvé = False
+trouvé = Faux
 i = 0
 i_elt = -1
-TantQue i < taille(l) et trouvé == False, faire :
+TantQue i < taille(l) et trouvé == Faux, faire :
     Si l[i] == elt, alors
         trouvé = Vrai
         i_elt = i
@@ -99,7 +99,7 @@ c) Dérouler l'algorithme `recherche_2` en comptant le nombre de comparaisons ef
 
 - `elt = 5`
 
-d) Comparer la complexité temporelle des deux algorithmes et en déduire le plus efficace.
+d) Comparer la complexité temporelle des deux algorithmes et en déduire celui qui est le plus efficace.
 
 ## III. Outils
 
