@@ -1,3 +1,4 @@
+
 ## Terminale NSI
 
 ##### Chapitre -1 : [Prise de contact](./Prise_de_contact/Prise_de_contact.md)
@@ -95,31 +96,6 @@
 ##### Chapitre 14 : Projet Final
 
 - Projet n°4 : [Projet Final](./Projet_final/Projet_final.md)
-
-##### Chapitre 15 : Architecture des machines 2
-
-- Leçon 2 : [Systèmes sur puce](./Architecture_des_machines/Systèmes_sur_puce.md)
-
-- Activité : [Simulation sur carte Microbit](./Architecture_des_machines/Activité_simulation_sur_carte_microbit.md)
-
-##### Chapitre 16 : Décidabilité et calculabilité
-
-- Leçon 1 : [Décidabilité et calculabilité](./Décidabilité_et_calculabilité/Décidabilité_et_calculabilité.md)
-
-- Activité : [La machine de Turing](./Décidabilité_et_calculabilité/Activité_la_machine_de_turing.md)
-
-##### Chapitre 17 : Programmation dynamique
-
-- Leçon 1 : [Problèmes d'optimisation combinatoire](./../première/Algorithmes_gloutons/Problèmes_d_optimisation_combinatoire.md)
-
-- Leçon 2 : [Rappel des algorithmes gloutons](./Programmation_dynamique/Rappels_des_algorithmes_gloutons.md)
-
-- Activité : [Le chercheur d'or](./Programmation_dynamique/Activité_le_chercheur_d_or.md)
-
-- Leçon 3 : [Programmation dynamique](./Programmation_dynamique/Programmation_dynamique.md)
-
-##### Chapitre 18 : Recherche textuelle
-
 
 ______________________
 
