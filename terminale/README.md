@@ -97,6 +97,12 @@
 
 - Projet n°4 : [Projet Final](./Projet_final/Projet_final.md)
 
+##### Chapitre 15 : Architecture des machines 2
+
+- Leçon 2 : [Systèmes sur puce](./Architecture_des_machines/Systèmes_sur_puce.md)
+
+- Activité : [Simulation sur carte Microbit](./Architecture_des_machines/Activité_simulation_sur_carte_microbit.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
