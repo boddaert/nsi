@@ -103,6 +103,12 @@
 
 - Activité : [Simulation sur carte Microbit](./Architecture_des_machines/Activité_simulation_sur_carte_microbit.md)
 
+##### Chapitre 16 : Décidabilité et calculabilité
+
+- Leçon 1 : [Décidabilité et calculabilité](./Décidabilité_et_calculabilité/Décidabilité_et_calculabilité.md)
+
+- Activité : [La machine de Turing](./Décidabilité_et_calculabilité/Activité_la_machine_de_turing.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat

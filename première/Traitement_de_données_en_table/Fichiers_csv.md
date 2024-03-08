@@ -27,7 +27,9 @@ Le titre de chaque colonne est un *attribut*.
 
 Chaque ligne suivante est un *enregistrement*.
 
-Chaque case contient une donnée, une *donnée* est une information.
+Chaque case contient une *valeur*, une valeur est une donnée.
+
+Une *donnée* est une information.
 
 ##### Application 1
 
@@ -39,7 +41,7 @@ b) Ouvrir le fichier de deux façons :
 
     - Une seconde avec LibreOffice Tableur.
 
-## II. Module CSV
+## II. Chargement des données
 
 Le module CSV de Python permet d'importer les données depuis un fichier CSV. Sa documentation est disponible [ici](https://docs.python.org/3/library/csv.html).
 
@@ -96,6 +98,30 @@ with open('personnes.csv', 'r', encoding='utf-8') as csvfile:
 a) Recopier le code ci-dessus dans le même répertoire que le fichier [personnes.csv](./src/personnes.csv) et exécuter le.
 
 b) Vérifier dans la console que le contenu de la variable `personnes`.
+
+## III. Validation des données
+
+Après avoir chargé les données à l'intérieur du script Python, il serait intéressant de vérifier et de valider les données.
+
+La *vérification* et la *validation* des données chargées consiste à convertir ou à refuser des données non valides.
+
+Lors du chargement de données, la fonction `DictReader()` ne se préoccupe pas de l'état des valeurs en entrée, elle importe tout ce qui s'y trouve dans le fichier et sous forme de chaîne de caractères.
+
+Or, les années de naissance sont plutôt de type `int`.
+
+Et les seules valeurs possibles de l'attribut `sexe` sont `"F"` et `"M"`.
+
+La validation de données est propre à chaque fichier CSV, c'est pourquoi il n'existe pas de fonction native permettant de le faire à notre place.
+
+##### Application 4
+
+a) Écrire une fonction `valide_personnes(personnes : list)->list` qui prend en paramètre une liste de personnes et renvoie cette même liste en convertissant les années de naissance en entier et/ou renvoie un message d'erreur si une valeur autre que `"F"` ou `"M"` est présente dans la colonne `sexe`.
+
+b) Modifier votre fichier CSV afin de vérifier le bon fonctionnement de votre fonction `valide_personnes()`.
+
+____________
+
+[Feuille d'exercices](./Exercices/Exercices_fichiers_csv.md)
 
 ____________
 

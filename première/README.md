@@ -116,7 +116,7 @@
 
 - Leçon 4 : [Fusion de tables](./Traitement_de_données_en_table/Fusion_de_tables.md)
 
-- Projet n°4 : []
+- Activité : [Mayday mayday](./Traitement_de_données_en_table/Activité_mayday_mayday.md)
 
 ##### Chapitre 13 : Algorithmes de tri
 
