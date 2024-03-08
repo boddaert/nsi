@@ -1,3 +1,4 @@
+
 ## Première NSI
 
 ##### Chapitre -1 : [Prise de contact](./Prise_de_contact/Prise_de_contact.md)
@@ -127,12 +128,6 @@
 - Leçon 2 : [Algorithme du tri par sélection](./Algorithmes_de_tri/Algorithme_du_tri_par_sélection.md)
 
 - Leçon 3 : [Algorithme du tri par insertion](./Algorithmes_de_tri/Algorithme_du_tri_par_insertion.md)
-
-##### Chapitre 14 : IHM sur le web
-
-##### Chapitre 15 : Algorithmes gloutons
-
-##### Chapitre 16 : Algorithme des $k$ plus proches voisins
 
 
 ______________________
