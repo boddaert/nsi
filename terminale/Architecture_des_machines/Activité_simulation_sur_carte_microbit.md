@@ -6,7 +6,7 @@ Matériel : Carte Microbit
 
 Prérequis : Aucun
 
-Groupe : Seul
+À faire : Seul
 
 ## I. Objectif
 

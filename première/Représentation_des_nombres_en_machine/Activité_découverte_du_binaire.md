@@ -6,7 +6,7 @@ Matériel : Jeu de quatre cartes
 
 Prérequis : Aucun
 
-Groupe : Par deux
+À faire : Par deux
 
 ## I. Objectif
 

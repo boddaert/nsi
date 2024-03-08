@@ -6,7 +6,7 @@ Matériel : Boîte rangement, perles, papier, crayon
 
 Prérequis : Problèmes d'optimisation combinatoire, algorithmes gloutons
 
-Groupe : Par deux
+À faire : Par deux
 
 ## I. Objectif
 

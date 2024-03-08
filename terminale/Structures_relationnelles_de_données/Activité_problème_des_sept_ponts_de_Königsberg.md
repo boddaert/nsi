@@ -6,7 +6,7 @@ Matériel : Aucun
 
 Prérequis : Graphes
 
-Groupe : Seul
+À faire : Seul
 
 ## I. Objectif
 

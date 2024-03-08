@@ -6,7 +6,7 @@ Matériel : Aucun
 
 Prérequis : Recherche séquentielle, recherche séquentielle améliorée
 
-Groupe : Seul
+À faire : Seul
 
 ## I. Objectif
 

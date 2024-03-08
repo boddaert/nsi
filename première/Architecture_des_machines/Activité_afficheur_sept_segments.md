@@ -6,7 +6,7 @@ Matériel : Une feuille de papier et un crayon
 
 Prérequis : circuits combinatoires
 
-Groupe : Par deux
+À faire : Par deux
 
 ## I. Objectif
 

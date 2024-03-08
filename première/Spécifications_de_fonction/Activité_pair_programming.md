@@ -6,7 +6,7 @@ Matériel : Aucun
 
 Prérequis : Spécifications de fonctions
 
-Groupe : Par deux
+À faire : Par deux
 
 ## I. Objectif
 

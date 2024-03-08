@@ -1,4 +1,4 @@
-# Activité : Vacances à la plage
+# Activité : Sur la route des vacances
 
 Nature : Débranchée
 
@@ -6,7 +6,7 @@ Matériel : Aucun
 
 Prérequis : Graphes
 
-Groupe : Par deux
+À faire : Par deux
 
 ## I. Objectif
 

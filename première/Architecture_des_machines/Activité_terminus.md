@@ -6,7 +6,7 @@ Matériel : Papier, crayon
 
 Prérequis : Aucun
 
-Groupe : Seul
+À faire : Seul
 
 ## I. Objectif
 

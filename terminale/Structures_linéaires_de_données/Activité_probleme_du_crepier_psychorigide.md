@@ -6,7 +6,7 @@ Matériel : Jeu de cinq planches de bois de taille différente
 
 Prérequis : Piles, files
 
-Groupe : Par deux
+À faire : Par deux
 
 ## I. Objectif
 

@@ -6,7 +6,7 @@ Matériel : Une feuille, un crayon et une paire de ciseaux
 
 Prérequis : Aucun
 
-Groupe : Par deux
+À faire : Par deux
 
 ## I. Objectif
 

@@ -6,7 +6,7 @@ Matériel : Aucun
 
 Prérequis : Arbres binaires, encodages de textes en machine
 
-Groupe : Par deux
+À faire : Par deux
 
 ## I. Objectif
 

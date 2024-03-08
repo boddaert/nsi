@@ -6,6 +6,8 @@ Matériel : Aucun
 
 Prérequis : Notion de récursivité
 
+À faire : Seul
+
 ## I. Objectif
 
 L'objectif de cette activité est d'appliquer la récursivité et le principe de récurrence sur un problème concret.

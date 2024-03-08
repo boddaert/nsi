@@ -6,7 +6,7 @@ Matériel : Logiciel `DB Browser SQLite`
 
 Prérequis : Langage SQL
 
-Sources : [https://mystery.knightlab.com/](https://mystery.knightlab.com/)
+À faire : Seul
 
 ## I. Objectif
 

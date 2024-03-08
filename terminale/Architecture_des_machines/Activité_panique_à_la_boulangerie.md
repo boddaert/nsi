@@ -6,7 +6,7 @@ Matériel : Aucun
 
 Prérequis : Notion d'interblocage
 
-Groupe : Seul
+À faire : Seul
 
 ## I. Objectif
 

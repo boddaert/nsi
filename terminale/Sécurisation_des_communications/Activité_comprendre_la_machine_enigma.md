@@ -6,6 +6,8 @@ Matériel : Module `py-enigma`
 
 Prérequis : Sécurisation des communications
 
+À faire : Seul
+
 ## I. Objectif
 
 L'objectif de cette activité est de comprendre comment la machine Enigma chiffrer les messages.

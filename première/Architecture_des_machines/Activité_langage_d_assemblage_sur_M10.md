@@ -6,7 +6,7 @@ Matériel : Représentation schématisée d'un ordinateur sur papier
 
 Prérequis : Aucun
 
-Groupe : Par deux
+À faire : Par deux
 
 ## I. Objectif
 
