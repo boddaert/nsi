@@ -97,38 +97,6 @@
 
 - Leçon 5 : [Système de gestion de fichiers](./Architecture_des_machines/Système_de_gestion_de_fichiers.md)
 
-##### Chapitre 11 : Optimisation
-
-- Leçon 1 : [Complexité](./Optimisation/Complexité.md)
-
-- Activité : [Recherche dichotomique](./Optimisation/Activité_recherche_dichotomique.md)
-
-- Leçon 2 : [Preuve de terminaison](./Optimisation/Preuve_de_terminaison.md)
-
-- Leçon 3 : [Preuve de correction](./Optimisation/Preuve_de_correction.md)
-
-##### Chapitre 12 : Traitement de données en table
-
-- Leçon 1 : [Fichiers CSV](./Traitement_de_données_en_table/Fichiers_csv.md)
-
-- Leçon 2 : [Recherche dans une table](./Traitement_de_données_en_table/Recherche_dans_une_table.md)
-
-- Leçon 3 : [Tri d'une table](./Traitement_de_données_en_table/Tri_d_une_table.md)
-
-- Leçon 4 : [Fusion de tables](./Traitement_de_données_en_table/Fusion_de_tables.md)
-
-- Activité : [Mayday mayday](./Traitement_de_données_en_table/Activité_mayday_mayday.md)
-
-##### Chapitre 13 : Algorithmes de tri
-
-- Activité : [Trier à l'aide de balances](./Algorithmes_de_tri/Activité_trier_à_l_aide_de_balances.md)
-
-- Leçon 1 : [Trier](./Algorithmes_de_tri/Trier.md)
-
-- Leçon 2 : [Algorithme du tri par sélection](./Algorithmes_de_tri/Algorithme_du_tri_par_sélection.md)
-
-- Leçon 3 : [Algorithme du tri par insertion](./Algorithmes_de_tri/Algorithme_du_tri_par_insertion.md)
-
 
 ______________________
 
