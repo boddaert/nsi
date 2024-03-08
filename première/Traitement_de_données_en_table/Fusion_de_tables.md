@@ -49,7 +49,7 @@ Il serait néanmoins judicieux de vérifier au préalable si les tables de donn�
 
 ```
 Algorithme : concaténation(table_1, table_2)
-Entrées : table_1 une liste de dictionnaires et tabl_2 une liste de dictionnaires.
+Entrées : table_1 une liste de dictionnaires et table_2 une liste de dictionnaires.
 Sortie : Une liste correspondant à la concaténation de table_1 et table_2
 
 table_fusionnée <- ∅

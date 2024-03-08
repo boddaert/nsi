@@ -4,7 +4,7 @@ Nature : Branchée
 
 Matériel : Module `folium`
 
-Prérequis : [Fichiers CSv](Fichiers_csv.md), [Recherche dans une table](Recherche_dans_une_table.md), [Tri d'une table](Tri_d_une_table.md) et [Fusion d'une table](Fusion_de_tables.md)
+Prérequis : [Fichiers CSV](Fichiers_csv.md), [Recherche dans une table](Recherche_dans_une_table.md), [Tri d'une table](Tri_d_une_table.md) et [Fusion d'une table](Fusion_de_tables.md)
 
 Groupe : Seul
 
@@ -44,9 +44,11 @@ c) Sur Thonny, commencer par importer sous forme de liste de dictionnaires les d
 
 d) À l'aide de la fonction de jointure écrite précédemment, écrire l'instruction permettant de créer la variable `airports_cities`, le résultat de la jointure entre `airports` et `cities` sur un attribut commun : `IATA`.
 
-e) Écrire l'instruction permettant d'obtenir tous les noms d'aéroports du monde.
+e) Écrire une fonction `valide_aiports_cities(airports_cities : list)->None` qui prend en paramètre une liste d'aéroports et modifie en place le type des attributs `Airport_ID`, `Latitude` et `Longitude` en flottant.
 
-f) Écrire l'instruction permettant d'obtenir tous les noms d'aéroports situés en France.
+f) Écrire l'instruction permettant d'obtenir tous les noms d'aéroports du monde.
+
+g) Écrire l'instruction permettant d'obtenir tous les noms d'aéroports situés en France.
 
 ```python
 import folium
@@ -106,10 +108,37 @@ ajouter_marqueur(ma_carte, 46.81, 1.69, {'Ville' : 'CHATEAUROUX','Pop.' : '43732
 ma_carte.save("airports_map.html")
 ```
 
-g) Après avoir lu le code précédent, recopier-le dans votre fichier Python et exécuter-le.
+h) Après avoir lu le code précédent, recopier-le dans votre fichier Python et exécuter-le.
 
 Un fichier `airports_map.html` a été généré dans votre répertoire de travail, l'ouvrir avec le navigateur Firefox.
 
 Expliquer ce que fait les lignes de code de l'étape $2$.
 
-h) 
+i) Écrire la fonction `popup_aeroport(airport : dict)->dict` qui prend en paramètre un dictionnaire et renvoie ce même dictionnaire mais avec uniquement les attributs `City`, `Name` et `IATA`.
+
+```python
+>>> popup_airport(airports_cities[0])
+{'Name': 'Utirik Airport', 'City': 'Utirik Island', 'IATA': 'UTK'}
+```
+
+j) Écrire une fonction `distance_euclidienne(point_a : tuple, point_b : tuple)->float` qui prend en paramètre deux points de coordonnées renvoie la distance entre ces deux points.
+
+> Rappel : La distance entre deux points $A(x_1, y_1)$ et $B(x_2, y_2)$ se calcule : $\sqrt[]{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
+
+k) Écrire l'instruction permettant d'obtenir la distance entre l'aéroport de Charles de Gaulle (`IATA:CDG`) et l'aéroport d'Orly (`IATA:ORY`).
+
+l) Écrire la fonction `ajout_distances(point_de_vol : tuple, airports_cities : list)->list` qui prend en paramètre un point et une liste d'aéroports et renvoie une liste d'aéroports sur lequels la distance entre `point_de_vol` et la position de l'aéroport a été ajouté.
+
+m) Écrire la fonction `cent_plus_proches(airports_cities : list)->list` qui prend en paramètre une liste d'aéroports et renvoie une liste des cent aéroports les plus proches.
+
+Nous pourrons, pour cela, utiliser le tri d'une table en fonction de la distance.
+
+n) En utilisant les fonctions précédentes, écrire une fonction `mayday_mayday(point_de_vol : tuple, airports_cities : list)->None` qui prend en paramètre un point et une liste d'aéroports et ajoute sur une carte interractive les cent plus proches aéroports de la position du point de vol.
+
+Voici un exemple de résultat pour l'appel `mayday_mayday((0, 0), airports_cities)` :
+
+![image](./img/exemple_activité_mayday_mayday.png)
+
+__________________
+
+[Sommaire](./../README.md)
