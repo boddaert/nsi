@@ -152,6 +152,7 @@ L'idée est de créer une application exploitant les données téléchargées en
 
 - Le module `sqlite3` est un module permettant d'intégrer une base de données à un fichier Python. Sa documentation est disponible [ici](https://docs.python.org/3/library/sqlite3.html).
 
+- Le module `pygame` est un module permettant le développement de jeux vidéo. Sa documentation est disponible [ici](https://pypi.org/project/pygame/).
 
 ### b) Environnements de Développement
 
