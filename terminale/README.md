@@ -75,7 +75,7 @@
 
 - Leçon 2 : [Algorithmes sur les graphes](./Structures_relationnelles_de_données/Algorithmes_sur_les_graphes.md)
 
-- Activité : [Vacances à la plage](./Structures_relationnelles_de_données/Activité_vacances_à_la_plage.md)
+- Activité : [Sur la route des vacances](./Structures_relationnelles_de_données/Activité_sur_la_route_des_vacances.md)
 
 ##### Chapitre 12 : Optimisation
 
