@@ -81,14 +81,16 @@ Pour insérer l'élément à sa bonne place, tous les éléments déjà triés q
 Voici ci-dessous l'algorithme de la fonction ``inserer(l : list, i : int)->None`` permettant d'insérer l'élément d'indice ``i`` dans la partie gauche triée :
 
 ```
-Algorithme : insérer(l)
+Algorithme : insérer(l,i)
+Entrées : l une liste d'entiers et i un indice
+Sorties : Rien
 
-elt = l[i]
-j = i
-TantQue j > 0 et elt <=  l[j-1], faire :
-    l[j] = l[j-1]
-    j = j - 1
-l[j] = elt
+elt <- l[i]
+j <- i
+Tant que j > 0 et elt <=  l[j-1], faire :
+    l[j] <- l[j-1]
+    j <- j - 1
+l[j] <- elt
 ```
 
 Réécrire, en python, la fonction ``inserer( l : list , i : int)->None`` 
