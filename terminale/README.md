@@ -3,7 +3,7 @@
 
 ##### Chapitre -1 : [Prise de contact](./Compléments/Prise_de_contact/Prise_de_contact.md)
 
-##### Chapitre 0 : [Remise à niveau](./Compléments/Remise_à_niveau/Remise_a_niveau.md)
+##### Chapitre 0 : [Remise à niveau](./Compléments/Remise_à_niveau/Remise_à_niveau.md)
 
 ##### Chapitre 1 : Modularité
 
@@ -11,7 +11,7 @@
 
 - Projet n°1 [Architectes](./Langages_et_programmation/Modularité/Projet_architectes.md)
 
-##### Chapitre 2 : Programmation orientée objet
+##### Chapitre 2 : Programmation Orientée Objet
 
 - Leçon 1 : [Programmation Orientée Objet](./Structures_de_données/Programmation_orientée_objet/Programmation_orientée_objet.md)
 
@@ -53,7 +53,7 @@
 
 - Leçon 2 : [Arbres binaires de recherche](./Structures_de_données/Structures_arborescentes_de_données/Arbres_binaires_de_recherche.md)
 
-##### Chapitre 8 : Architecture des machines 1
+##### Chapitre 8 : Gestion des processus et des ressources
 
 - Leçon 1 : [Gestion des processus et des ressources](./Architecture_des_machines/Gestion_des_processus_et_des_ressources/Gestion_des_processus_et_des_ressources.md)
 
@@ -99,7 +99,7 @@
 
 - Projet n°4 : [Projet Final](./Projet_final/Projet_final.md)
 
-##### Chapitre 15 : Architecture des machines 2
+##### Chapitre 15 : Systèmes sur puce
 
 - Leçon 2 : [Systèmes sur puce](./Architecture_des_machines/Systèmes_sur_puce/Systèmes_sur_puce.md)
 
