@@ -115,7 +115,7 @@ ______________________
 
 ## Entraînement au Baccalauréat
 
-[Banque d'épreuve écrite](https://pixees.fr/informatiquelycee/term/#ep_prat)
+[Banque d'épreuve écrite](https://pixees.fr/informatiquelycee/term/#suj_bac)
 
 [Banque d'épreuve pratique](https://pixees.fr/informatiquelycee/term/#ep_prat)
 
