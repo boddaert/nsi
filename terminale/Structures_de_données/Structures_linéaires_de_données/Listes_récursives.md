@@ -222,7 +222,7 @@ Inconvévients :
 
 _________
 
-[Exercices](./Exercices/Exercices_listes_recursives.md)
+[Exercices](./Exercices/Exercices_listes_récursives.md)
 
 _______________
 

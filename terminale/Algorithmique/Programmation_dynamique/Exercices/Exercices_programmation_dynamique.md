@@ -48,4 +48,4 @@ Même exercice avec le problème du rendu de monnaie.
 
 __________________
 
-[Sommaire](./../../README.md)
+[Sommaire](./../../../README.md)

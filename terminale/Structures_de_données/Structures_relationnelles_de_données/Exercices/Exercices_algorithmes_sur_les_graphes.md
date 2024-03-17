@@ -98,4 +98,4 @@ b) Écrire une fonction `colorie(g : dict)->dict` qui prend en paramètre un gra
 
 ____________
 
-[Sommaire](./../../README.md)
+[Sommaire](./../../../README.md)

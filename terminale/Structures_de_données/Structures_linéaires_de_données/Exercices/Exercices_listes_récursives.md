@@ -103,4 +103,4 @@ Ecrire une fonction récursive `ajoute(l : Liste, elt : int, i : int)->Liste` qu
 Ecrire une fonction récursive `supprime(l : Liste, i : int)->Liste` qui prend en paramètre un objet `Liste` et un entier et renvoie `l` dont l'élément d'indice `i` a été supprimé.
 _______________
 
-[Sommaire](./../../README.md)
+[Sommaire](./../../../README.md)

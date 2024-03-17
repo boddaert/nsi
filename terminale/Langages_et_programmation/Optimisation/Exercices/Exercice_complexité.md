@@ -52,4 +52,4 @@ b) D'après l'évolution des courbes, en déduire lequel des deux algorithmes es
 
 _____________
 
-[Sommaire](./../../README.md)
+[Sommaire](./../../../README.md)
