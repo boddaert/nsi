@@ -1,8 +1,8 @@
-# Rappels des algorithmes gloutons 
+# Rappels sur les algorithmes gloutons 
 
 ## I. Généralités
 
-### a) Complexités des algorithmes répondant à un problème d'optimisation combinatoire
+### a) Complexité des algorithmes répondant à un problème d'optimisation combinatoire
 
 Résoudre un problème d'optimisation combinatoire est facile : il suffit de calculer toutes les solutions possibles et de maximiser ou minimiser selon le critère sur cet ensemble de solutions.
 
@@ -10,13 +10,13 @@ Malheureusement, en informatique, une contrainte s'impose : la puissance actuell
 
 Prenons un exemple de problème d'optimisation combinatoire : le voyageur de commerce.
 
-Depuis une ville de départ, le voyageur cherche à visiter toutes les villes comprises dans le problème une et une seule fois et finis son tour par la ville de départ.
+Depuis une ville de départ, le voyageur cherche à visiter toutes les villes comprises dans le problème une et une seule fois et finit son tour en passant par la ville de départ.
 
-Il existe plusieurs itinéraires et le voyageur cherche à minimiser la distance.
+Il existe plusieurs itinéraires et le voyageur cherche à minimiser la distance parcourue.
 
 ##### Application 1
 
-a) Démontrer que le problème du voyageur de commerce s'agit bien d'un problème d'optimisation combinatoire.
+a) Démontrer que, dans le cas du problème du voyageur de commerce, il s'agit bien d'un problème d'optimisation combinatoire.
 
 b) Pour un problème du voyageur de commerce à onze villes, combien le voyageur a t-il de choix quant à la ville de départ ? 
 
@@ -40,7 +40,9 @@ Cette stratégie ne traite qu'un seul sous-problème local et indépendant des a
 
 ![image](./../../première/Algorithmes_gloutons/img/strategie_gloutonne.png)
 
-> Cette stratégie ne fournit pas forcément pas la meilleure solution. Nous disons de la stratégie gloutonne qu'elle donne une solution "satisfaisante".
+> Cette stratégie ne fournit pas forcément la meilleure solution. Nous disons de la stratégie gloutonne qu'elle donne une solution "satisfaisante".
+
+## II. Mise en application 
 
 ##### Application 2
 
@@ -59,7 +61,7 @@ b) Donner l'idée de la stratégie gloutonne utilisée pour le problème du voya
 
 ##### Application 4
 
-Écrire une fonction `voyageur_de_commerce_glouton(l_villes : list)->list` qui prend en paramètre une liste de villes, une ville étant représenté par un tuple de coordonnées et renvoie, en utilisant la stratégie gloutonne, sous forme de liste un ordre de visite satisfaisant des villes.
+Écrire une fonction `voyageur_de_commerce_glouton(l_villes : list)->list` qui prend en paramètre une liste de villes, une ville étant modélisée par un tuple de coordonnées et renvoie sous forme de liste, en utilisant la stratégie gloutonne, un ordre de visite satisfaisant des villes.
 
 ```python
 >>> voyageur_de_commerce([(2,3), (4,7), (10,1), (3,8), (1, 0), (10, 9)])

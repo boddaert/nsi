@@ -64,7 +64,7 @@ c) Enfin, dans un troisième fichier Python `importation_precise.py` situé lui 
 
 _______
 
-[Feuille d'exercices](./Exercices/Exercices_modularite.md)
+[Exercices](./Exercices/Exercices_modularite.md)
 
 _______
 

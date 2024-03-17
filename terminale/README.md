@@ -87,7 +87,7 @@
 
 ##### Chapitre 13 : Diviser pour régner
 
-- Leçon 1 : [Rappels des tris](./Diviser_pour_régner/Rappels_des_tris.md)
+- Leçon 1 : [Rappels sur les algorithmes de tri](./Diviser_pour_régner/Rappels_sur_les_algorithmes_de_tri.md)
 
 - Activité : [Tri Fusion](./Diviser_pour_régner/Activité_tri_fusion.md)
 

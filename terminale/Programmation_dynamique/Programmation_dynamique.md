@@ -10,7 +10,7 @@ Une solution existe : les algorithmes gloutons.
 
 Néanmoins, la stratégie gloutonne ne fournit pas nécessairement la meilleure solution. Nous disons de la stratégie gloutonne qu'elle donne une solution "satisfaisante".
 
-Or, il arrive parfois pour certains problèmes, qu'il est obligatoire d'obtenir la meilleure solution.
+Or, parfois, pour certains problèmes, il est nécessaire d’obtenir la meilleure solution.
 
 Les informaticiens utilisent alors la programmation dynamique.
 
@@ -22,7 +22,7 @@ La *stratégie de la programmation dynamique* consiste à obtenir une solution o
 
 ![image](./img/programmation_dynamique.png)
 
-La résolution d'un tel problème est récursif : 
+La résolution d'un tel problème est récursive : 
 
 - La solution optimale du premier sous-problème étant trivial : c'est le cas de base.
 
@@ -36,17 +36,19 @@ Le chercheur d'or souhaite récolter le plus de pépites d'or possible.
 
 Il commence toujours par creuser dans la parcelle du coin supérieur gauche de la mine et termine sur la parcelle dans le coin inférieur droit.
 
-```python
-mine = [[1, 2, 1, 4, 5],
-        [1, 2, 3, 1, 3],
-        [3, 1, 2, 1, 1]]
-```
-
 Pour chaque nouvelle parcelle de roche creusée, il récupère le nombre de pépites présentes dans celle-ci et l'ajoute à son butin.
 
 Afin d'éviter de se faire ensevelir, le chercheur n'a d'autre choix que de creuser la parcelle située soit à droite soit en bas de sa position actuelle.
 
 Mais il dispose d'un outil lui permettant de connaître précisément le nombre de pépites présentes dans chaque parcelle de la mine.
+
+Une mine est modélisée par une liste de listes dans laquelle chaque entier représente le nombre de pépites d'or présentes dans la parcelle `[i][j]` :
+
+```python
+mine = [[1, 2, 1, 4, 5],
+        [1, 2, 3, 1, 3],
+        [3, 1, 2, 1, 1]]
+```
 
 Il ne lui reste plus qu'à trouver un chemin optimisé lui permettant de récupérer le maximum de pépites.
 
@@ -58,19 +60,25 @@ Le problème du chercheur d'or $CO$ est un problème d'optimisation combinatoire
 
 - $r$ désigne tous les chemins possibles depuis la parcelle du coin supérieur gauche jusqu'à la parcelle du coin inférieur droit.
 
-- $f$ calcule la somme des pépites récoltées du chemin.
+- $f$ calcule la somme des pépites récoltées d'un chemin.
 
-- $g$ maximise le nombre de pépites.
+- $g$ renvoie le chemin qui maximise le nombre de pépites.
 
 ### c) Nombre de solutions
 
-Le nombre de chemins est trouvable en calculant le coefficient binomial du nombre de mouvement total parmi le nombre de mouvement à droite (ou en bas) possible.
+Le nombre de chemins est trouvable en calculant le coefficient binomial du nombre total de mouvement parmi le nombre de mouvement à droite (ou en bas) possibles.
 
-Par exemple, dans ce cas d'étude, il y a quatre mouvements possible à droite sur, au total, six mouvements et $\binom{4}{6} = 15$.
+> Dans le cas d'une mine non carrée, il faut prendre le maximum entre le nombre de mouvements à droite et le nombre de mouvements en bas.
+
+Par exemple, dans ce cas d'étude, il y a quatre mouvements possible à droite sur, au total, six mouvements donc le nombre de chemins est égal à $\binom{6}{4} = 15$.
 
 > Rappel : $\dfrac{n!}{k!(n-k)!} = \binom{n}{k}$
 
 Par conséquent, il n'est pas raisonnable de construire un algorithme calculant les solutions de tous les chemins possibles si la taille de la mine est considérable.
+
+##### Application 1
+
+Donner le nombre de solutions possible pour une mine de taille $15 \times 15$.
 
 ### d) Approche naïve
 
@@ -110,13 +118,13 @@ def chercheur_d_or_naif(mine : list, i : int, j : int)->int:
         return mine[i][j] + max(chercheur_d_or_naif(mine, i, j-1), chercheur_d_or_naif(mine, i-1, j))
 ```
 
-##### Application 1
+##### Application 2
 
-Recopier la fonction dans Thonny et tester la avec la variable `mine`.
+Recopier la fonction dans Thonny et la tester avec la variable `mine`.
 
 ### f) Pile d'appels
 
-Un problème subsiste cepandant avec cette approche naïve : en effet, nous remarquons que cette approche va réaliser plusieurs mêmes appels :
+Un problème subsiste cependant avec cette approche naïve : en effet, nous remarquons que cette approche va réaliser plusieurs fois les mêmes appels :
 
 ```mermaid
 flowchart TB
@@ -137,7 +145,7 @@ flowchart TB
 
 Dès la troisième profondeur de l'arbre, deux appels récursifs sont effectués pour le même calcul.
 
-##### Application 2
+##### Application 3
 
 Compléter la pile d'appels et donner le nombre d'appels déjà effectués.
 
@@ -161,15 +169,15 @@ def chercheur_d_or_ascendante(mine : list, i : int, j : int)->int:
     return tab[i][j]
 ```
 
-##### Application 3
+##### Application 4
 
-a) Recopier la fonction dans Thonny et tester la avec la variable `mine`.
+a) Recopier la fonction dans Thonny et la tester avec la variable `mine`.
 
 b) Donner l'état de `tab` à l'issue de l'exécution de la fonction.
 
 ### h) Approche descendante
 
-L'*approche descendante* de la programmation dynamique consiste à supprimer le problème des appels redondants en mémorisant les résultats des calculs dans un dictionnaire :
+L'*approche descendante* de la programmation dynamique consiste à supprimer le problème des appels redondants en mémorisant les résultats des calculs dans un dictionnaire (que nous appelons `mem` et qui est égal à `None` lors de l'appel initial):
 
 ```python
 def chercheur_d_or_descendante(mine : list, i : int, j : int, mem = None):
@@ -188,9 +196,9 @@ def chercheur_d_or_descendante(mine : list, i : int, j : int, mem = None):
     return mem[(i, j)]
 ```
 
-##### Application 4
+##### Application 5
 
-a) Recopier la fonction dans Thonny et tester la avec la variable `mine`.
+a) Recopier la fonction dans Thonny et la tester avec la variable `mine`.
 
 b) Donner l'état de `mem` à l'issue de l'exécution de la fonction.
 

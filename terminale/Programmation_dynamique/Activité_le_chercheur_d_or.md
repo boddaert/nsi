@@ -16,7 +16,7 @@ L'objectif est de repérer les inconvénients de la stratégie gloutonne et de d
 
 Vous disposez, par groupe, d'une boîte de rangement à plusieurs compartiments, de plusieurs perles, d'une feuille et d'un crayon. 
 
-La boîte de rangement représente la mine d'or et les perles les pépites.
+La boîte de rangement représente la mine d'or et les perles représentent les pépites.
 
 ## III. Installation
 
@@ -52,7 +52,7 @@ d) Est-ce raisonnable d'écrire un programme qui calcule le butin récolté de t
 
 e) Quelle est la stratégie gloutonne pour le problème du chercheur d'or ? Quel est le butin récolté donné par cette stratégie ?
 
-f) Expliquer pourquoi, dans ce problème-ci, la stratégie gloutonne ne donne pas une solution satisfaisante.
+f) Expliquer pourquoi, dans ce problème, la stratégie gloutonne ne donne pas une solution satisfaisante.
 
 La programmation dynamique cherche à obtenir une solution optimale en utilisant les solutions optimales précédentes.
 
@@ -64,7 +64,7 @@ Pour les autres parcelles, deux choix sont possibles : soit le chercheur arrive 
 
 Il s'agit donc de déterminer si le chercheur arrive sur la parcelle avec plus de pépites en arrivant depuis le haut ou s'il arrive avec plus de pépites en arrivant depuis la gauche.
 
-h) Ajouter, pour chaque parcelle de la mine, des perles de façon à ce que le nombre de pépite corresponde au nombre maximal de pépites pouvant être récoltées de la première parcelle jusqu'à celle-ci.
+h) Ajouter, dans chaque parcelle de la mine, des perles de façon à ce que le nombre de pépites corresponde au nombre maximal de pépites pouvant être récoltées de la première parcelle jusqu'à celle-ci.
 
 i) Depuis la dernière parcelle en remontant jusqu'à la première, reconstituer le chemin offrant le plus de pépites et donner la réponse au problème.
 
@@ -90,7 +90,7 @@ mine[i][j] + max(chercheur\textunderscore d\textunderscore or(.., ..), chercheur
 \end{cases}
 $$
 
-k) Écrire la fonction récursive `chercheur_d_or(i : int, j : int)->int` et tester-la afin de vérifier la bonne réponse au problème de notre chercheur d'or.
+k) Écrire la fonction récursive `chercheur_d_or(i : int, j : int)->int` qui prend en paramètre deux entiers et renvoie le nombre maximal de pépites de la parcelle $(i,j)$ pouvant être récoltées par le chercheur depuis la première parcelle et la tester afin de vérifier la bonne réponse au problème de notre chercheur d'or.
 
 l) En suivant le principe de récurrence, que va renvoyer l'appel `>>> chercheur_d_or(1, 1)` ? Dessiner sa pile d'appel.
 
