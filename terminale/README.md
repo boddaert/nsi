@@ -1,9 +1,9 @@
 
 ## Terminale NSI
 
-##### Chapitre -1 : [Prise de contact](./Prise_de_contact/Prise_de_contact.md)
+##### Chapitre -1 : [Prise de contact](./Compléments/Prise_de_contact/Prise_de_contact.md)
 
-##### Chapitre 0 : [Remise à niveau](./Remise_à_niveau/Remise_a_niveau.md)
+##### Chapitre 0 : [Remise à niveau](./Compléments/Remise_à_niveau/Remise_a_niveau.md)
 
 ##### Chapitre 1 : Modularité
 
@@ -123,16 +123,16 @@ ______________________
 
 ## Entraînement à l'oral
 
-[Oraux du jeudi](./Oraux/Oraux_du_jeudi.md)
+[Oraux du jeudi](./Compléments/Oraux/Oraux_du_jeudi.md)
 
-[Guide du Grand Oral](./Oraux/guide_grand_oral.pdf)
+[Guide du Grand Oral](./Compléments/Oraux/guide_grand_oral.pdf)
 
-[Barême du Grand Oral](./Oraux/Barême_grand_oral.pdf)
+[Barême du Grand Oral](./Compléments/Oraux/Barême_grand_oral.pdf)
 
 ______________________
 
 ## Bulletins Officiels
 
-[Bulletin Officiel de Première](./../bo_premiere.pdf)
+[Bulletin Officiel de Première](./Compléments/Bulletins_officiels/bo_première.pdf)
 
-[Bulletin Officiel de Terminale](./../bo_terminale.pdf)
+[Bulletin Officiel de Terminale](./Compléments/Bulletins_officiels/bo_terminale.pdf)
