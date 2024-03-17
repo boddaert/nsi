@@ -19,7 +19,7 @@
 
 ##### Chapitre 3 : Récursivité
 
-- Leçon 1 : [Récursivité](./Langages_et_programmation/Récursivité/Recursivité.md)
+- Leçon 1 : [Récursivité](./Langages_et_programmation/Récursivité/Récursivité.md)
 
 - Activité : [Couples de lapins](./Langages_et_programmation/Récursivité/Activité_couples_de_lapins.md)
 
@@ -41,7 +41,9 @@
 
 - Activité : [Crime à SQL City](./Bases_de_données/Activité_crime_à_SQL_City.md)
 
-##### Chapitre 6 : [Protocoles de routage](./Pincipe_des_réseaux/Protocoles_de_routage.md)
+##### Chapitre 6 : Protocoles de routage
+
+-
 
 ##### Chapitre 7 : Structures arborescentes de données
 
@@ -108,16 +110,6 @@
 - Leçon 1 : [Décidabilité et calculabilité](./Langages_et_programmation/Décidabilité_et_calculabilité/Décidabilité_et_calculabilité.md)
 
 - Activité : [La machine de Turing](./Langages_et_programmation/Décidabilité_et_calculabilité/Activité_la_machine_de_turing.md)
-
-##### Chapitre 17 : Programmation dynamique
-
-- Leçon 1 : [Problèmes d'optimisation combinatoire](./Algorithmique/Programmation_dynamique/Problèmes_d_optimisation_combinatoire.md)
-
-- Leçon 2 : [Rappels sur les algorithmes gloutons](./Algorithmique/Programmation_dynamique/Rappels_sur_les_algorithmes_gloutons.md)
-
-- Activité : [Le chercheur d'or](./Algorithmique/Programmation_dynamique/Activité_le_chercheur_d_or.md)
-
-- Leçon 3 : [Programmation dynamique](./Algorithmique/Programmation_dynamique/Programmation_dynamique.md)
 
 ______________________
 

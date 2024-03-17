@@ -188,7 +188,7 @@ Avant de se lancer dans l'écriture d'une fonction récursive, il est conseillé
 
 _________
 
-[Exercices](./Exercices/Exercices_recursivite.md)
+[Exercices](./Exercices/Exercices_recursivité.md)
 
 _________
 
