@@ -97,6 +97,16 @@
 
 - Leçon 5 : [Système de gestion de fichiers](./Architecture_des_machines/Système_de_gestion_de_fichiers.md)
 
+##### Chapitre 11 : Optimisation
+
+- Leçon 1 : [Complexité](./Optimisation/Complexité.md)
+
+- Activité : [Recherche dichotomique](./Optimisation/Activité_recherche_dichotomique.md)
+
+- Leçon 2 : [Preuve de terminaison](./Optimisation/Preuve_de_terminaison.md)
+
+- Leçon 3 : [Preuve de correction](./Optimisation/Preuve_de_correction.md)
+
 
 ______________________
 
