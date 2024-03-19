@@ -74,7 +74,7 @@ j) Avec `l_triee = [0, 1, 2, 3, 4, 5, 7, 8, 10, 14]` et `elt = 1`, compléter la
 
 | Avant le tour de boucle n° | Valeur de `trouve` | Valeur de `i_milieu` | Valeur de `i_debut` | Valeur de `i_fin` |
 | :---: | :---: | :---: | :---: | :---: |
-| $0$ | $False$ | / | $0$ | $9 |
+| $0$ | $False$ | / | $0$ | $9$ |
 | $1$ | ... | ... | ... | ... |
 
 k) En utilisant les *sclices* (les coupes propres à Python), écrire une fonction `recherche_dichotomique_simplifiee(l_triee : list, elt : int)->bool` qui prend en paramètre une liste d'entiers triée et un entier et renvoie l'indice de `elt` s'il est dans `l`, $-1$ sinon.
