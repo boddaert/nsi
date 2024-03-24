@@ -50,9 +50,9 @@ David Hilbert formula un nouveau problème en 1928 : le problème de la décisio
 
 La question est « Existe t-il un algorithme capable de déterminer si un énoncé mathématique donné en entrée est vrai ou faux ? »
 
-En 1936, Kurt Gödel, Alonzo Church et Alan Turing, trois mathématiciens montrent de manière indépendante que la réponse à cette question est "non".
+En 1936, Kurt Gödel, Alonzo Church et Alan Turing, montrent de manière indépendante que la réponse à cette question est "non".
 
-Alan Turing (1912-1954) est un mathématicien anglais. Il présente, en 1936, une machine baptisée « machine de Turing ».
+Alan Turing présente, en 1936, une machine baptisée « machine de Turing ».
 
 La machine de Turing permet d'exécuter des instructions sur des données passées en entrée.
 
