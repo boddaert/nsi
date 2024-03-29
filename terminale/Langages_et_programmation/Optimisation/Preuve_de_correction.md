@@ -30,7 +30,9 @@ Renvoyer i_elt
 
 Nous remarquons que la valeur de `i_elt` contient l'indice de l'élément (s'il est présent) dans l'intervalle `l[0]` et `l[i]`.
 
-L'invariant de cet algorithme est donc $i_{elt} == (-1) \lor (indice(elt))$ avec $0 \leq i_{elt} \leq i$.
+L'invariant de cet algorithme est donc $i\textunderscore elt == (-1) \lor i\textundercsore elt ==(indice(elt))$ avec $0 \leq i_{elt} \leq i$.
+
+En français : la variable `i_elt` contient `-1` ou l'indice de `elt` avec $0 \leq i_{elt} \leq i$.
 
 Il s'agit bien d'une propriété vraie à l'entrée de la boucle, à chaque itération de boucle et à la sortie de la boucle.
 

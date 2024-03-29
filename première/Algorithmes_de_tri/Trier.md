@@ -4,7 +4,7 @@
 
 *Trier* un ensemble de valeurs (par exemple une liste), c'est obtenir une permutation de cet ensemble en vérifiant plusieurs contraintes.
 
-Prenons par exemple : `l`, une liste Python d'entiers naturels non triée et `l_triee` la permutation de `l` vérifiant les contraintes suivantes :
+Prenons par exemple : `l`, une liste Python d'entiers non triée et `l_triee` la permutation de `l` vérifiant les contraintes suivantes :
 
 - La taille de `l` est égale à la taille de `l_triee`.
 
@@ -16,7 +16,7 @@ Prenons par exemple : `l`, une liste Python d'entiers naturels non triée et `l_
 
 ##### Application 1
 
-Obtenir `l_triee` la permutation de `l` et en vérifiant que les contraintes précédentes soient respectées avec :
+Obtenir les permutations des listes suivantes  :
 
 - `l = [4, 99, 0, 34, 7, 3, 2, 78]`.
 

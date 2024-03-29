@@ -72,11 +72,11 @@ Le nombre total de comparaison de la fonction `tri_selection()` est la somme des
 
 a) Qu'est-il affiché lorsque j'exécute la fonction `tri_selection()` pour une liste de longueur $5$ ? $10$ ? $20$ ?
 
-b) À l'aide de la formule mathématique, donner le nombre exact de comparaison effectuées par la fonction `tri_selection()` pour une liste de taille $5$, $10$ et $20$.
+b) À l'aide de la formule mathématique, donner le nombre exact de comparaisons effectuées par la fonction `tri_selection()` pour une liste de taille $5$, $10$ et $20$.
 
 ### c) Généralisation du coût algorithmique 
 
-Pour une liste de taille $n$ donnée, le coût algorithmique temporel est égale à $\dfrac{n(n-1)}{2}$.
+Pour une liste de taille $n$ donnée, le coût algorithmique temporel est égal à $\dfrac{n(n-1)}{2}$.
 
 Ce qui est de l'ordre de $O(n²)$ donc le tri par sélection possède un coût quadratique (voir courbes : [complexité](./../Optimisation/Complexité.md)).
 

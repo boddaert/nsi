@@ -2,7 +2,7 @@
 
 Nature : Débranchée
 
-Matériel : Balance à plateaux, dix poids de masse différente, feuille de papier, crayon
+Matériel : Balance à plateaux, dix poids de masses différentes, feuille de papier, crayon
 
 Prérequis : [Complexité](./../Optimisation/Complexité.md)
 
@@ -18,7 +18,7 @@ Vous disposez chacun d'une balance à plateaux :
 
 ![image](./img/balance_a_plateaux.png)
 
-Et de dix poids de masse différente :
+Et de dix poids de masses différentes :
 
 ![image](./img/poids.jpg)
 

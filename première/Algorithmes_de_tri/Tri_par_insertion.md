@@ -55,7 +55,7 @@ L'objectif est de déterminer le coût algorithmique en temps de l'algorithme du
 
 Pour cela, nous allons compter le nombre d'opérations coûteuses (les comparaisons).
 
-La fonction `tri_insertion()` exécute un appel à la fonction `inserer()`, il faut donc compter préalablement le nombre de comparaison effectuées par la fonction `inserer()`.
+La fonction `tri_insertion()` exécute un appel à la fonction `inserer()`, il faut donc compter préalablement le nombre de comparaisons effectuées par la fonction `inserer()`.
 
 ### a) Étude de la fonction `inserer()`
 
