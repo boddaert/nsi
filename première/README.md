@@ -47,7 +47,7 @@
 
 - Leçon 3 : [Représentation des textes en machine](./Chaînes_de_caractère/Représentation_des_textes_en_machine.md)
 
-##### Chapitre 4 : Architecture des machines 1
+##### Chapitre 4 : Architecture des machines 1/3
 
 - Leçon 1 : [Modèle Von Neumann](./Architecture_des_machines/Modèle_Von_Neumann.md)
 
@@ -55,13 +55,13 @@
 
 - Activité : [Langage d'assemblage sur M10](./Architecture_des_machines/Activité_langage_d_assemblage_sur_M10.md)
 
-##### Chapitre 5 : Structure de données 1
+##### Chapitre 5 : Structure de données 1/2
 
 - Leçon 1 : [Listes](./Structures_de_données/Listes.md)
 
 - Leçon 2 : [Tuples](./Structures_de_données/Tuples.md)
 
-##### Chapitre 6 : Architecture des machines 2
+##### Chapitre 6 : Architecture des machines 2/3
 
 - Leçon 3 : [Circuits combinatoires](./Architecture_des_machines/Circuits_combinatoires.md)
 
@@ -81,7 +81,7 @@
 
 - Leçon 1 : [Principe des réseaux](./Principe_des_réseaux/Principe_des_réseaux.md)
 
-##### Chapitre 9 : Structures de données 2
+##### Chapitre 9 : Structures de données 2/2
 
 - Leçon 3 : [Dictionnaires](./Structures_de_données/Dictionnaires.md)
 
@@ -89,7 +89,7 @@
 
 - Projet n°3 : [Ice Walker](./Structures_de_données/Projet_ice_walker.md)
 
-##### Chapitre 10 : Architecture des machines 3
+##### Chapitre 10 : Architecture des machines 3/3
 
 - Leçon 4 : [Systèmes d'exploitation](./Architecture_des_machines/Systèmes_d_exploitation.md)
 
@@ -106,6 +106,23 @@
 - Leçon 2 : [Preuve de terminaison](./Optimisation/Preuve_de_terminaison.md)
 
 - Leçon 3 : [Preuve de correction](./Optimisation/Preuve_de_correction.md)
+
+##### Chapitre 12 : IHM sur le web 1/2
+
+- Leçon 1 :
+
+
+
+
+##### Chapitre 13 : Algorithmes de tri
+
+- Activité : [Trier à l'aide de balances](./Algorithmes_de_tri/Activité_trier_à_l_aide_de_balances.md)
+
+- Leçon 1 : [Trier](./Algorithmes_de_tri/Trier.md)
+
+- Leçon 2 : [Tri par sélection](./Algorithmes_de_tri/Tri_par_sélection.md)
+
+- Leçon 3 : [Tri par insertion](./Algorithmes_de_tri/Tri_par_insertion.md)
 
 
 ______________________

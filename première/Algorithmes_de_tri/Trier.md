@@ -4,7 +4,7 @@
 
 *Trier* un ensemble de valeurs (par exemple une liste), c'est obtenir une permutation de cet ensemble en vérifiant plusieurs contraintes.
 
-Prenons `l`, une liste Python d'entiers naturels non triée et `l_triee` la permutation de `l` vérifiant :
+Prenons par exemple : `l`, une liste Python d'entiers naturels non triée et `l_triee` la permutation de `l` vérifiant les contraintes suivantes :
 
 - La taille de `l` est égale à la taille de `l_triee`.
 
@@ -34,15 +34,33 @@ Donner les contraintes qui ne sont pas respectées pour les permutations suivant
 
 ## II. Spécificités
 
-Un *tri par comparaison* est un tri qui utilise les comparaisons. Il existe des tris qui n'utilisent pas les comparaisons comme le tri par dénombrement.
+### a) Par comparaison
 
-Un tri est dit *stable* s'il préserve, à l'issue du tri, le même ordre sur des éléments égaux.
+Un *tri par comparaison* est un type d'algorithme de tri dans lequel le tri s'effectue à l'aide d'une opération de comparaison. 
+
+De manière générale, nous cherchons à trier de simples ensembles d'entiers et l'opérateur `>` ou `<` suffit mais il arrive parfois de vouloir trier par exemple une liste de mots selon leur ordre lexicographique.
+
+Dans cette optique, les informaticiens préfèrent alors utiliser une fonction `compare(a, b)` qui détermine alors lequel des deux éléments doit apparaître en premier.
+
+Ainsi, selon le type des données que l'on souhaite trier, la fonction `compare()` s'adapte au type de données et permet ainsi à ce que l'algorithme de tri ne soit pas modifié.
+
+> Il existe des tris qui n'utilisent pas les comparaisons comme le tri par dénombrement.
+
+##### Application 3
+
+Dire quel est l'outil faisant office de fonction `compare()` lors de l'activité.
+
+### b) En place
 
 Un tri est dit *en place* s'il modifie directement en mémoire la structure de données sur laquelle s'applique le tri.
 
+Un tri en place ne renvoie donc rien.
+
 ## III. Applications 
 
-Le tri en informatique permet de réduire les coûts algorithmiques de beaucoup d'algorithmes comme la recherche d'un élément dans une liste ou le calcul de la médiane.
+Le tri en informatique est très utilisé dans le pré-traitement des données.
+
+Il permet de réduire les coûts algorithmiques de beaucoup d'autres algorithmes comme par exemple la recherche dichotomique.
 
 ____________
 
