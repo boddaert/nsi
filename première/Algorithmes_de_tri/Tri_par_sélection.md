@@ -66,7 +66,7 @@ La fonction `tri_selection()` effectue des appels à la fonction `minimum()`.
 
 Le nombre total de comparaison de la fonction `tri_selection()` est la somme des appels à la fonction `compare()`.
 
-> Rappel : $la somme des termes d'une suite arithmétique = nombre de termes \times (premier terme + dernier terme)/2$
+> Rappel : $somme\quad des\quad termes\quad d'une\quad suite\quad arithmétique = nombre\quad de\quad termes \times \dfrac{(premier\quad terme + dernier\quad terme)}{2}$
 
 ##### Application 5
 
@@ -76,7 +76,7 @@ b) À l'aide de la formule mathématique, donner le nombre exact de comparaison 
 
 ### c) Généralisation du coût algorithmique 
 
-Pour une liste de taille $n$ donnée, le coût algorithmique temporel est égale à $n(n-1)/2$.
+Pour une liste de taille $n$ donnée, le coût algorithmique temporel est égale à $\dfrac{n(n-1)}{2}$.
 
 Ce qui est de l'ordre de $O(n²)$ donc le tri par sélection possède un coût quadratique (voir courbes : [complexité](./../Optimisation/Complexité.md)).
 
