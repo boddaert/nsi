@@ -1,18 +1,28 @@
-# Algorithme du tri par insertion
+# Tri par insertion
 
-### a) Principe
+## I. Algorithme
 
-Nous parcourons la liste de la gauche vers la droite, en maintenant sur la gauche une partie triée :
+L'algorithme du tri par insertion est un algorithme de tri par comparaison.
+
+Dans cet algorithme, nous parcourons la liste de la gauche vers la droite, en maintenant sur la gauche une partie triée :
 
 ![image](./img/schema_tri.png)
 
-Plutôt que de chercher la plus petite valeur, à chaque étapes, le tri par insertion va insérer le premier élément de la partie non triée dans la partie triée à sa bonne place.
+Il y a donc une partie gauche triée et vide au lancement du programme et une partie droite non triée.
 
-Pour insérer l'élément à sa bonne place, tous les éléments déjà triés qui sont plus grands que l'élément à insérer seront décalés d'un cran vers la droite. Puis insérer l'élément à la place ainsi libérée.
+Le principe du tri par insertion est le suivant :
+
+- Insérer le premier élément de la partie droite non triée à sa bonne place dans la partie gauche triée.
+
+- Continuer de cette façon jusqu'à ce que la taille de la partie gauche triée soit égale à la taille de la liste.
+
+Voici, par exemple, une animation décrivant le principe du tri par insertion :
+
+Nous parcourons la liste de la gauche vers la droite, en maintenant sur la gauche une partie triée :
 
 ![animation](./img/animation_tri_insertion.gif)
 
-##### Application 4
+##### Application 1
 
 Voici ci-dessous l'algorithme de la fonction ``inserer(l : list, i : int)->None`` permettant d'insérer l'élément d'indice ``i`` dans la partie gauche triée :
 
@@ -29,30 +39,77 @@ Tant que j > 0 et elt <=  l[j-1], faire :
 l[j] <- elt
 ```
 
-Réécrire, en python, la fonction ``inserer( l : list , i : int)->None`` 
+Réécrire, en python, la fonction `inserer( l : list , i : int)->None`.
+
+> Cette fonction devra remplacer les comparaisons par la fonction `compare()`.
+
+##### Application 2
+
+Écrire en python une fonction `tri_insertion(l : list)->None` qui en paramètre une liste ``l`` et trie dans l'ordre croissant les éléments de `l`.
+
+> Le tri par insertion est un tri en place donc la fonction `tri_insertion()` ne renvoie rien.
+
+## II. Complexité
+
+L'objectif est de déterminer le coût algorithmique en temps de l'algorithme du tri par insertion.
+
+Pour cela, nous allons compter le nombre d'opérations coûteuses (les comparaisons).
+
+La fonction `tri_insertion()` exécute un appel à la fonction `inserer()`, il faut donc compter préalablement le nombre de comparaison effectuées par la fonction `inserer()`.
+
+### a) Étude de la fonction `inserer()`
+
+La fonction `inserer()` effectue des appels à la fonction `compare()`.
+
+La fonction `compare()` comptabilise **une** comparaison : calculons alors le nombre d'appels effectués à la fonction `compare()`.
+
+> Nous considérerons que la fonction `compare()` est appelée une seule fois par tour de boucle.
+
+##### Application 3
+
+a) Modifier la fonction ``inserer()`` pour qu'elle affiche le nombre d'appels effectué à la fonction `compare()`.
+
+b) Qu'est-il affiché lorsque j'exécute la fonction `inserer()` avec comme arguments : `l = [1, 2, 3, 4, 0, 9, 8, 6, 7]` et `i = 4` ?
+
+c) Qu'est-il affiché lorsque j'exécute la fonction `inserer()` avec comme arguments : `l = [1, 2, 3, 4, 5, 9, 8, 6, 7]` et `i = 4` ?
+
+d) En déduire de la question b), pour une liste de longueur $n$ le nombre maximal de comparaisons pouvant être effectuées.
+
+Il s'agit du scénario le plus défavorable : le pire des cas.
+
+e) En déduire de la question c), pour une liste de longueur $n$ le nombre minimal de comparaisons pouvant être effectuées.
+
+Il s'agit du scénario le plus favorable : le meilleur des cas.
+
+### b) Étude de la fonction `tri_insertion()`
+
+La fonction `tri_insertion()` effectue des appels à la fonction `inserer()`.
+
+Le nombre total de comparaison de la fonction `tri_insertion()` est la somme des appels à la fonction `compare()`.
+
+> Rappel : $somme\quad des\quad termes\quad d'une\quad suite\quad arithmétique\quad =\quad nombre\quad de\quad termes \times \dfrac{(premier\quad terme\quad +\quad dernier\quad terme)}{2}$
+
+##### Application 4
+
+a) Qu'est-il affiché lorsque j'exécute la fonction `tri_insertion()` pour une liste triée décroissante de longueur $5$ ? $10$ ? $20$ ?
+
+b) Qu'est-il affiché lorsque j'exécute la fonction `tri_insertion()` pour une liste déjà triée croissante de longueur $5$ ? $10$ ? $20$ ?
+
+### c) Généralisation du coût algorithmique 
+
+Pour une liste de taille $n$ donnée, le coût algorithmique temporel est égale à $\dfrac{n(n-1)}{2}$ pour le pire des cas et à $(n-1)$ dans le meilleur des cas.
+
+Ce qui est de l'ordre de $O(n²)$ donc le tri par insertion possède un coût quadratique (voir courbes : [complexité](./../Optimisation/Complexité.md)).
 
 ##### Application 5
 
-Écrire en python une fonction ``tri_insertion(l : list)->None`` prenant en paramètre une liste ``l`` et trie dans l'ordre croissant les éléments de ``l``.
+Exprimer en une phrase si l'algoritme du tri par insertion est préférable à utiliser que l'algorithme du tri par sélection.
 
-Le tri par insertion est un tri en place donc la fonction ``tri_insertion()``ne renvoie rien.
+## III. Terminaison
 
-##### Application 6
+## IV. Correction
 
-Dans cette question, nous souhaitons déterminer la complexité de cet algorithme.
 
-a) Donner, pour la liste `l = [5, 6, 2, 1, 3, 4]`, le nombre de fois que la fonction ``tri_insertion()`` exécute la fonction `inserer()`. 
+_________________
 
-Trouver cette estimation en executant le code à la main sur papier.
-
-b) Pour une liste déjà triée croissante, par exemple :``[1, 2, 3, 4, 5, 6, 7, 8]``, estimer le nombre de comparaisons effectuées par la fonction `tri_insertion()`.
-
-c) Pour une liste strictement décroissante, par exemple : ``[8, 7, 6, 5, 4, 3, 2, 1]``, estimer le nombre de comparaisons effectuées par la fonction `tri_insertion()`.
-
-d) Modifier la fonction `inserer()` pour qu'elle affiche le nombre de comparaisons qu'elle effectue.
-
-e) À partir de l'affichage, donner le nombre de comparaisons total effectués par la fonction ``tri_insertion()`` pour les listes `[ 1, 2, 3, 4, 5, 6, 7, 8]` et `[ 8, 7, 6, 5, 4, 3, 2, 1]`.
-
-f) Peut-il y avoir une meilleure complexité de l'algorithme du tri par insertion que celle sur une liste déjà triée ?
-
-g) Comparer la complexité du tri par sélection avec la complexité du tri par insertion.
+[Sommaire](./../README.md)

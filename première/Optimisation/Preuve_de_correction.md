@@ -34,7 +34,7 @@ L'invariant de cet algorithme est donc $i_{elt} == (-1) \lor (indice(elt))$ avec
 
 Il s'agit bien d'une propriété vraie à l'entrée de la boucle, à chaque itération de boucle et à la sortie de la boucle.
 
-Cet algorithme admet un invariant de boucle donc est correct.
+Cet algorithme admet un invariant de boucle et est donc correct.
 
 ##### Application 1
 

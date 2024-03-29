@@ -66,7 +66,7 @@ La fonction `tri_selection()` effectue des appels à la fonction `minimum()`.
 
 Le nombre total de comparaison de la fonction `tri_selection()` est la somme des appels à la fonction `compare()`.
 
-> Rappel : $somme\quad des\quad termes\quad d'une\quad suite\quad arithmétique = nombre\quad de\quad termes \times \dfrac{(premier\quad terme + dernier\quad terme)}{2}$
+> Rappel : $somme\quad des\quad termes\quad d'une\quad suite\quad arithmétique\quad =\quad nombre\quad de\quad termes \times \dfrac{(premier\quad terme\quad +\quad dernier\quad terme)}{2}$
 
 ##### Application 5
 
@@ -92,13 +92,14 @@ En relisant le grand I de cette leçon, repérer un variant de boucle afin d'aff
 
 ## IV. Correction
 
-Nous parcourons la liste de la gauche vers la droite, en maintenant sur la gauche une partie triée :
+Prouver qu'un algorithme est correct, c'est trouver son invariant de boucle (voir [Preuve de correction](./../Optimisation/Preuve_de_correction.md)).
 
-![image](./img/schema_tri.png)
+L'invariant de boucle de l'algorithme du tri par sélection est : "Chaque élément de la partie droite non triée est supérieur au dernier élément de la partie gauche triée".
 
-Il y a donc une partie gauche triée et vide au lancement du programme et une partie droite non triée.
+Il s'agit bien d'une propriété vraie à l'entrée de la boucle, à chaque itération de boucle et à la sortie de la boucle.
 
-À chaque étape, le plus petit élément de la partie droite non triée est échangé avec le dernier élément de la partie gauche triée.
+L'algorithme du tri par sélection admet un invariant de boucle et est donc correct.
+
 ______________
 
 [Sommaire](./../README.md)

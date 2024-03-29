@@ -32,9 +32,9 @@ Donner les contraintes qui ne sont pas respectées pour les permutations suivant
 
 2) `l = [3, 9, 1, 0, 5, 7, 2, 6]` et `l_triee = [0, 1, 2, 3, 5, 6, 7, 8, 9]`
 
-## II. Spécificités
+## II. Tri...
 
-### a) Par comparaison
+### a) ...par comparaison
 
 Un *tri par comparaison* est un type d'algorithme de tri dans lequel le tri s'effectue à l'aide d'une opération de comparaison. 
 
@@ -50,7 +50,7 @@ Ainsi, selon le type des données que l'on souhaite trier, la fonction `compare(
 
 Dire quel est l'outil faisant office de fonction `compare()` lors de l'activité.
 
-### b) En place
+### b) ...en place
 
 Un tri est dit *en place* s'il modifie directement en mémoire la structure de données sur laquelle s'applique le tri.
 
