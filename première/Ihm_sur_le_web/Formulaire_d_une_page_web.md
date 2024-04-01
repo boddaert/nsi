@@ -154,35 +154,11 @@ Nous avons vus dans la leçon précédente que le passage de paramètre pouvait 
 
 ### b) 
 
-<!DOCTYPE html>
- <html>
- <head>
-  <title> Formulaire en HTML </title>
-</head>
- <body>
-     <h2> Formulaire d'inscription </h2>
-    <form>
-     <fieldset>
-        <legend> Informations personnelles de l'utilisateur </legend>
-        <label> Entrez votre nom complet </label> <br>
-        <input type = "text" name = "name"> <br>
-         <label> Entrez votre email </label> <br>
-         <input type = "email" name = "email"> <br>
-         <label> Entrez votre mot de passe </label> <br>
-         <input type = "password" name = "pass"> <br>
-         <label> confirmez votre mot de passe </label> <br>
-         <input type = "password" name = "pass"> <br>
-         <br> <label> Entrez votre sexe </label> <br>
-         <input type = "radio" id = "genre" name = "genre" value = "homme"/> Homme <br>
-         <input type = "radio" id = "genre" name = "sexe" value = "femme"/> Femme <br/>
-         <input type = "radio" id = "genre" name = "genre" value = "autres"/> autres <br/>
-          <br> Entrez votre adresse: <br>
-         <textarea> </textarea> <br>
-         <type d'entrée = "submit" value = "inscription">
-     </fieldset>
-  </form>
- </body>
-</html>
+<form>  
+    <label for="gender">Genre: </label>  
+              <input type="radio" id="gender" name="gender" value="male"/>Male  
+              <input type="radio" id="gender" name="gender" value="femelle"/>Female <br/>  
+</form>
 
 _____________
 
