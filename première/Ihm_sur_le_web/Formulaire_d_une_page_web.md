@@ -152,13 +152,39 @@ Nous avons vus dans la leçon précédente que le passage de paramètre pouvait 
 
 - L'attribut `method` définit la méthode HTTP utilisée pour envoyer les données (cela peut être « get » ou « post »).
 
-### b) 
+### b) Mémo des champs de saisie
 
-<form>  
-    <label for="gender">Genre: </label>  
-              <input type="radio" id="gender" name="gender" value="male"/>Male  
-              <input type="radio" id="gender" name="gender" value="femelle"/>Female <br/>  
-</form>
+| Nom de la balise | Syntaxe HTML |
+| --- | --- |
+| Champs de saisie classique | `<input>` |
+| Champs de saisie à taille variable | `<textarea>` |
+| Contrôle de saisie | `<label>` |
+
+##### Application 1
+
+a) Commencer par créer un fichier `formulaire.html` et l'ouvrir sur Notepad++.
+
+b) À l'aide de cette leçon et de la [documentation officielle HTML](https://developer.mozilla.org/fr/docs/Web/HTML), écrire le code HTML permettant d'afficher un formulaire dans le navigateur.
+
+Ce formulaire est destiné à des élèves de Première et doit demander :
+
+- Le nom/prénom de l'élève.
+
+- L'adresse mail de l'élève, doit contenir un arobase.
+
+- La date de naissance de l'élève, doit être une date valide.
+
+- La photo de l'élève, doit permettre à l'utilisateur de choisir une image dans son système de gestion de fichiers.
+
+- Le nombre d'heure de travail effectué à la maison, doit être comprise entre zéro et vingt.
+
+- Les spécialités que l'élève a choisis, doit contenir une liste de spécialités.
+
+- Un message.
+
+- Un bouton de soumission de formulaire.
+
+c) À l'aide de cette leçon et de la [documentation officielle CSS](https://developer.mozilla.org/fr/docs/Web/CSS), écrire le code CSS (dans un fichier `style.css`) permettant d'ajouter du style au formulaire.
 
 _____________
 
