@@ -111,6 +111,12 @@ a) Aller sur le site [http://glassus1.free.fr/cible2.php](http://glassus1.free.f
 
 b) Le mot de passe ne s'affiche plus dans l'URL, retrouver le contenu du mot de passe dans l'entête de la requête à l'aide du panneau d'outils de développement Firefox.
 
+##### Application 4
+
+a) Indiquer quels sont les avantages/inconvénients de la méthode GET.
+
+b) Indiquer quels sont les avantages/inconvénients de la méthode POST.
+
 ### d) Réponses HTTP
 
 Le serveur, s'il possède la ressource, l'envoie comme réponse à celui qui l'a demandé.
