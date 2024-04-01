@@ -154,7 +154,7 @@ Nous avons vus dans la leçon précédente que le passage de paramètre pouvait 
 
 ### b) 
 
-<! DOCTYPE html>
+<!DOCTYPE html>
  <html>
  <head>
   <title> Formulaire en HTML </title>
