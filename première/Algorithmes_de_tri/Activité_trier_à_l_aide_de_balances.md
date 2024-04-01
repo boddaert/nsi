@@ -4,7 +4,7 @@ Nature : Débranchée
 
 Matériel : Balance à plateaux, sept boîtes de masses différentes, feuille de papier, crayon
 
-Prérequis : [Complexité](./../Optimisation/Complexité.md)
+Prérequis : Aucun
 
 À faire : Par deux
 
@@ -14,11 +14,11 @@ L'objectif de cette activité est d'élaborer une méthode/un algorithme permett
 
 ## II. Installation
 
-Vous disposez,par groupe, d'une balance à plateaux et de sept boîtes numérotées de $A$ à $G$ : 
+Vous disposez, par groupe, d'une balance à plateaux et de sept boîtes numérotées de $A$ à $G$ : 
 
 ![image](./img/installation.jpg)
 
-> Une balance à plateaux ne permet pas de connaître la masse d'un objet mais de distinguer lequel des deux objets posés chacun sur les plateaux est le plus léger/lourd.
+> Une balance à plateaux ne permet pas de connaître la masse d'un objet mais de distinguer lequel des deux objets posés sur chacun des plateaux est le plus léger/lourd.
 
 ## IV. Travail à faire
 
@@ -26,7 +26,7 @@ a) Commencer par installer le matériel de la même façon que sur la photo ci-d
 
 b) En vous aidant de la balance, ré-aligner les boîtes de telle façon à ce qu'elles soient triées dans leur ordre de masse (de la plus légère à la plus lourde).
 
-c) Écrire un algorithme en français permettant de trier n'importe quel alignement de boîte.
+c) Sur feuille, écrire un algorithme en français permettant de trier n'importe quel alignement de boîte.
 
 _______________________
 

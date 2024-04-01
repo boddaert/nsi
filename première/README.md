@@ -109,20 +109,9 @@
 
 ##### Chapitre 12 : IHM sur le web 1/2
 
-- Leçon 1 :
+- Leçon 1 : [Modèle Client-Serveur](./Ihm_sur_le_web/Modèle_client_serveur.md)
 
-
-
-
-##### Chapitre 13 : Algorithmes de tri
-
-- Activité : [Trier à l'aide de balances](./Algorithmes_de_tri/Activité_trier_à_l_aide_de_balances.md)
-
-- Leçon 1 : [Trier](./Algorithmes_de_tri/Trier.md)
-
-- Leçon 2 : [Tri par sélection](./Algorithmes_de_tri/Tri_par_sélection.md)
-
-- Leçon 3 : [Tri par insertion](./Algorithmes_de_tri/Tri_par_insertion.md)
+- Leçon 2 : [Formulaire d'une page web](./Ihm_sur_le_web/Formulaire_d_une_page_web.md)
 
 
 ______________________

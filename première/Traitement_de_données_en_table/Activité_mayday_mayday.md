@@ -40,7 +40,7 @@ a) Une fois les fichiers téléchargés, les ouvrir et donner le nom de chaque a
 
 b) Et pour chacun des attributs, donner leur type et à quoi il correspond.
 
-c) Sur Thonny, commencer par importer sous forme de liste de dictionnaires les données de [aiports.csv](./src/airports.csv) et [cities.csv](./src/cities.csv) à l'aide du module `csv` et stocker les respectivement dans les variables `airports` et `cities`.
+c) Sur Thonny, commencer par importer sous forme de liste de dictionnaires les données de [aiports.csv](./src/airports.csv) et [cities.csv](./src/cities.csv) à l'aide du module `csv` et les stocker respectivement dans les variables `airports` et `cities`.
 
 d) À l'aide de la fonction de jointure écrite précédemment, écrire l'instruction permettant de créer la variable `airports_cities`, le résultat de la jointure entre `airports` et `cities` sur un attribut commun : `IATA`.
 
