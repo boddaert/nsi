@@ -64,4 +64,8 @@ Il permet de réduire les coûts algorithmiques de beaucoup d'autres algorithmes
 
 ____________
 
+[Exercices](./Exercices/Exercices_trier.md)
+
+____________
+
 [Sommaire](./../README.md)
