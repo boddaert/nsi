@@ -1,6 +1,6 @@
 # Tri par insertion
 
-## I. Algorithme
+## I. <a name="algorithme"></a>Algorithme
 
 L'algorithme du tri par insertion est un algorithme de tri par comparaison.
 
@@ -107,8 +107,27 @@ Exprimer en une phrase si l'algoritme du tri par insertion est préférable à u
 
 ## III. Terminaison
 
+Prouver qu'un algorithme se termine, c'est trouver son variant de boucle (voir [Preuve de terminaison](./../Optimisation/Preuve_de_terminaison.md)).
+
+Étant donné que l'algorithme de tri par insertion utilise l'algorithme `inserer` et que celui-ci est doté d'une boucle `while`, affirmer que l'algorithme `tri_insertion` nécessite de vérifier que l'algorithme `inserer` se termine.
+
+##### Application 6
+
+En relisant [I. Algorithme](#algorithme) de cette leçon, repérer un variant de boucle dans l'algorithme `inserer` afin d'affirmer qu'il se termine bien.
+
+##### Application 7
+
+Expliquer pourquoi la preuve de terminaison de l'algorithme `inserer` suffit à dire que l'algorithme `tri_insertion` se termine.
+
 ## IV. Correction
 
+Prouver qu'un algorithme est correct, c'est trouver son invariant de boucle (voir [Preuve de correction](./../Optimisation/Preuve_de_correction.md)).
+
+L'invariant de boucle de l'algorithme du tri par insertion est : "Chaque élément $e$ au moment de l'insertion dans la partie gauche triée à l'indice $i$ indique que l'élement à l'indice $i-1$ est inférieur à $e$ et que l'élément d'indice $i+1$ est supérieur à $e$".
+
+Il s'agit bien d'une propriété vraie à l'entrée de la boucle, à chaque itération de boucle et à la sortie de la boucle.
+
+L'algorithme du tri par insertion admet un invariant de boucle et est donc correct.
 
 _________________
 

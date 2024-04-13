@@ -1,6 +1,6 @@
 # Tri par sélection
 
-## I. Algorithme
+## I. <a name="algorithme"></a>Algorithme
 
 L'algorithme du tri par sélection est un algorithme de tri par comparaison.
 
@@ -24,15 +24,11 @@ Voici, par exemple, une animation décrivant le principe du tri par sélection :
 
 ##### Application 1
 
-Écrire une fonction `compare(a : int, b : int)->bool` qui prend en paramètre deux entiers et renvoie $True$ si $a > b$.
-
-##### Application 2
-
 Écrire une fonction `minimum(l : list, i : int)->int` qui prend en paramètre une liste d'entiers et un indice $i$ et renvoie l'indice de l'élément le plus petit dans la tranche `l[i:]`.
 
 > Cette fonction devra utiliser la fonction `compare()`.
 
-##### Application 3
+##### Application 2
 
 Écrire en python une fonction `tri_selection(l : list)->None` qui prend en paramètre une liste d'entiers et trie dans l'ordre croissant les éléments de `l`.
 
@@ -52,7 +48,7 @@ La fonction `minimum()` effectue des appels à la fonction `compare()`.
 
 La fonction `compare()` comptabilise **une** comparaison : calculons alors le nombre d'appels effectués à la fonction `compare()`.
 
-##### Application 4
+##### Application 3
 
 a) Modifier la fonction ``minimum()`` pour qu'elle affiche le nombre d'appels effectué à la fonction `compare()`.
 
@@ -68,7 +64,7 @@ Le nombre total de comparaison de la fonction `tri_selection()` est la somme des
 
 > Rappel : $somme\quad des\quad termes\quad d'une\quad suite\quad arithmétique\quad =\quad nombre\quad de\quad termes \times \dfrac{(premier\quad terme\quad +\quad dernier\quad terme)}{2}$
 
-##### Application 5
+##### Application 4
 
 a) Qu'est-il affiché lorsque j'exécute la fonction `tri_selection()` pour une liste de longueur $5$ ? $10$ ? $20$ ?
 
@@ -86,9 +82,9 @@ Prouver qu'un algorithme se termine, c'est trouver son variant de boucle (voir [
 
 Étant donné que l'algorithme de tri par sélection est doté de deux boucles `for`, nous pouvons affirmer qu'il se termine.
 
-##### Application 6
+##### Application 5
 
-En relisant le grand I de cette leçon, repérer un variant de boucle afin d'affirmer, avec plus de rigueur, que l'algorithme du tri par sélection se termine bien.
+En relisant [I. Algorithme](#algorithme) de cette leçon, repérer un variant de boucle afin d'affirmer, avec plus de rigueur, que l'algorithme du tri par sélection se termine bien.
 
 ## IV. Correction
 

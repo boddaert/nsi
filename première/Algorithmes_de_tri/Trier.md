@@ -32,6 +32,33 @@ Donner les contraintes qui ne sont pas respectées pour les permutations suivant
 
 2) `l = [3, 9, 1, 0, 5, 7, 2, 6]` et `l_triee = [0, 1, 2, 3, 5, 6, 7, 8, 9]`
 
+##### Application 3
+
+Écrire une fonction `est_bonne_taille(l : list, l_triee : list)->bool` qui prend en paramètre deux listes et renvoie $True$ si elles sont de la même taille, $False$ sinon.
+
+Cette fonction permet de vérifier la première contrainte.
+
+##### Application 4
+
+Écrire une fonction `sont_presents(l : list, l_triee : list)->bool` qui prend en paramètre deux listes et renvoie $True$ si tous les éléments de `l` sont présents dans `l_triee`, $False$ sinon.
+
+Cette fonction permet de vérifier la deuxième contrainte.
+
+##### Application 5
+
+Écrire une fonction `bonnes_occurences(l : list, l_triee : list)->bool` qui prend en paramètre deux listes et renvoie $True$ si pour chacun des éléments de `l` et `l_triee`, leur nombre d'occurence est le même, $False$ sinon.
+
+Cette fonction permet de vérifier la troisième contrainte.
+
+##### Application 6
+Écrire une fonction `est_ordonnee(l_triee : list)->bool` qui prend en paramètre une liste et renvoie $True$ si elle est ordonnée en ordre croissant de ses éléments, $False$ sinon.
+
+Cette fonction permet de vérifier la quatrième contrainte.
+
+##### Application 7
+
+Écrire une fonction `est_triee(l : list, l_triee : list)->bool` qui prend en paramètre deux listes et renvoie $True$ si `l_triee` est une permutation de `l` vérifiant les contraintes de tri.
+
 ## II. Tri...
 
 ### a) ...par comparaison
@@ -46,9 +73,11 @@ Ainsi, selon le type des données que l'on souhaite trier, la fonction `compare(
 
 > Il existe des tris qui n'utilisent pas les comparaisons comme le tri par dénombrement.
 
-##### Application 3
+##### Application 8
 
-Dire quel est l'outil faisant office de fonction `compare()` lors de l'activité.
+a) Dire quel est l'outil faisant office de fonction `compare()` lors de l'activité.
+
+b) Écrire une fonction `compare(a : int, b : int)->bool` qui prend en paramètre deux entiers et renvoie $True$ si $a > b$.
 
 ### b) ...en place
 
@@ -60,11 +89,11 @@ Un tri en place ne renvoie donc rien.
 
 Le tri en informatique est très utilisé dans le pré-traitement des données.
 
-Il permet de réduire les coûts algorithmiques de beaucoup d'autres algorithmes comme par exemple la recherche dichotomique.
+C'est-à-dire, lorsque les données ont besoin d'être triées pour que le traitement sur celles-ci soit plus efficace, moins coûteuse.
 
-____________
+##### Application 9
 
-[Exercices](./Exercices/Exercices_trier.md)
+Expliquer pourquoi le tri peut permettre de réduire le coût algorithmique du problème de recherche d'un élément dans une liste.
 
 ____________
 
