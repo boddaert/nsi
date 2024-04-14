@@ -33,7 +33,7 @@ Sorties : Rien
 
 elt <- l[i]
 j <- i
-Tant que j > 0 et elt <=  l[j-1], faire :
+Tant que j > 0 et l[j-1] >=  elt, faire :
     l[j] <- l[j-1]
     j <- j - 1
 l[j] <- elt
@@ -41,7 +41,7 @@ l[j] <- elt
 
 Réécrire, en python, la fonction `inserer( l : list , i : int)->None`.
 
-> Cette fonction devra remplacer les comparaisons par la fonction `compare()`.
+> Cette fonction devra remplacer la seconde comparaison par la fonction `compare()`.
 
 ##### Application 2
 
@@ -63,8 +63,6 @@ La fonction `inserer()` effectue des appels à la fonction `compare()`.
 
 La fonction `compare()` comptabilise **une** comparaison : calculons alors le nombre d'appels effectués à la fonction `compare()`.
 
-> Nous considérerons que la fonction `compare()` est appelée une seule fois par tour de boucle.
-
 ##### Application 3
 
 a) Modifier la fonction ``inserer()`` pour qu'elle affiche le nombre d'appels effectué à la fonction `compare()`.
@@ -73,11 +71,11 @@ b) Qu'est-il affiché lorsque j'exécute la fonction `inserer()` avec comme argu
 
 c) Qu'est-il affiché lorsque j'exécute la fonction `inserer()` avec comme arguments : `l = [1, 2, 3, 4, 5, 9, 8, 6, 7]` et `i = 4` ?
 
-d) En déduire de la question b), pour une liste de longueur $n$ le nombre maximal de comparaisons pouvant être effectuées.
+d) En déduire de la question b), pour une liste de longueur $n$ et avec $i = n - 1$, le nombre maximal de comparaisons pouvant être effectuées.
 
 Il s'agit du scénario le plus défavorable : le pire des cas.
 
-e) En déduire de la question c), pour une liste de longueur $n$ le nombre minimal de comparaisons pouvant être effectuées.
+e) En déduire de la question c) le nombre minimal de comparaisons pouvant être effectuées.
 
 Il s'agit du scénario le plus favorable : le meilleur des cas.
 

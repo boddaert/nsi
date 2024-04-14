@@ -18,19 +18,19 @@ Prenons par exemple : `l`, une liste Python d'entiers non triée et `l_triee` la
 
 Obtenir les permutations des listes suivantes  :
 
-- `l = [4, 99, 0, 34, 7, 3, 2, 78]`.
+a) `l = [4, 99, 0, 34, 7, 3, 2, 78]`.
 
-- `l = [1]`
+b) `l = [1]`
 
-- `l = []`
+c) `l = []`
 
 ##### Application 2
 
 Donner les contraintes qui ne sont pas respectées pour les permutations suivantes :
 
-1) `l = [3, 9, 1, 0, 5, 7, 2, 6]` et `l_triee = [0, 0, 1, 2, 3, 5, 6, 7]`
+a) `l = [3, 9, 1, 0, 5, 7, 2, 6]` et `l_triee = [0, 0, 1, 2, 3, 5, 6, 7]`
 
-2) `l = [3, 9, 1, 0, 5, 7, 2, 6]` et `l_triee = [0, 1, 2, 3, 5, 6, 7, 8, 9]`
+b) `l = [3, 9, 1, 0, 5, 7, 2, 6]` et `l_triee = [0, 1, 2, 3, 5, 6, 7, 8, 9]`
 
 ##### Application 3
 
@@ -77,7 +77,7 @@ Ainsi, selon le type des données que l'on souhaite trier, la fonction `compare(
 
 a) Dire quel est l'outil faisant office de fonction `compare()` lors de l'activité.
 
-b) Écrire une fonction `compare(a : int, b : int)->bool` qui prend en paramètre deux entiers et renvoie $True$ si $a > b$.
+b) Écrire une fonction `compare(a : int, b : int)->bool` qui prend en paramètre deux entiers et renvoie $True$ si $a \geq b$.
 
 ### b) ...en place
 
