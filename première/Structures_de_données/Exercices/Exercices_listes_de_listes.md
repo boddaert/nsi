@@ -100,7 +100,7 @@ b) Écrire une fonction `affiche_grille(grille : list)->None` qui prend en param
 |     |     |     |
 ```
 
-c) Écrire une fonction `placer_pion(grille : list, pion : str, i : int, j : int)->None` qui prend en paramètre une liste de listes, un caractère correspondant au pion choisis et deux entiers correspondant aux indices de la position choisie :
+c) Écrire une fonction `placer_jeton(grille : list, pion : str, i : int, j : int)->list` qui prend en paramètre une liste de listes, un caractère correspondant au pion choisis et deux entiers correspondant aux indices de la position choisie et renvoie le nouvel état de jeu :
 
 ```python
 >>> affiche_grille(placer_jeton(init_grille(), 1, 1, 1))

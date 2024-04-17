@@ -125,9 +125,7 @@ ______________________
 
 [Oraux du jeudi](./Compléments/Oraux/Oraux_du_jeudi.md)
 
-[Guide du Grand Oral](./Compléments/Oraux/guide_grand_oral.pdf)
-
-[Barême du Grand Oral](./Compléments/Oraux/Barême_grand_oral.pdf)
+[Se préparer au Grand Oral](./Compléments/Grand_oral/Se_préparer_au_grand_oral.md)
 
 ______________________
 

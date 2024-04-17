@@ -22,13 +22,15 @@ f) Quelle est sa plage d'adresse possible ? (Première adresse à dernière adre
 
 Pour la suite des exercices, nous utiliserons le logiciel libre et gratuit : Filius.
 
-Filius permet de construire et simuler un réseau. Une fois lancé, on dispose de plusieurs modes :
+Filius permet de construire et simuler un réseau. Une fois lancé, nous disposons de plusieurs modes :
 
-- *Mode construction* : permet d'ajouter des composants réseaux, de les modifier et de les relier entre eux.
+- *Mode construction* : permet d'ajouter des composants réseaux, de les paramétrer et de les relier entre eux.
 
 - *Mode simulation* : permet de lancer une simulation et de voir les paquets circuler dans le réseau.
 
-En mode construction, nous pouvons sélectionner un composant réseau et le faire glisser dans la zone de dessin. Pour relier deux éléments , nous cliquons sur l'icône du câble, puis sur chacun des deux éléments à relier.
+En mode construction, nous pouvons sélectionner un composant réseau et le faire glisser dans la zone de dessin.
+
+Pour relier deux éléments , nous cliquons sur l'icône du câble, puis sur chacun des deux éléments à relier.
 
 ## Exercice 2
 
