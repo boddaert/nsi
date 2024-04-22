@@ -5,107 +5,107 @@
 
 ##### Chapitre 0 : [Prise en main](./Prise_en_main/Prise_en_main.md)
 
-##### Chapitre 1 : Constructions élémentaires
+##### Chapitre 1 : Langages et programmation 1/2
 
-- Leçon 1 : [Types](./Constructions_élémentaires/Types.md)
+- Leçon 1 : [Types](./Langages_et_programmation/Constructions_élémentaires/Types.md)
 
-- Leçon 2 : [Opérateurs](./Constructions_élémentaires/Opérateurs.md)
+- Leçon 2 : [Opérateurs](./Langages_et_programmation/Constructions_élémentaires/Opérateurs.md)
 
-- Leçon 3 : [Variables](./Constructions_élémentaires/Variables.md)
+- Leçon 3 : [Variables](./Langages_et_programmation/Constructions_élémentaires/Variables.md)
 
-- Leçon 4 : [Séquences d'instructions](./Constructions_élémentaires/Séquences.md)
+- Leçon 4 : [Séquences d'instructions](./Langages_et_programmation/Constructions_élémentaires/Séquences.md)
 
-- Leçon 5 : [Fonctions](./Constructions_élémentaires/Fonctions.md)
+- Leçon 5 : [Fonctions](./Langages_et_programmation/Constructions_élémentaires/Fonctions.md)
 
-- Leçon 6 : [Modules](./Constructions_élémentaires/Modules.md)
+- Leçon 6 : [Modules](./Langages_et_programmation/Constructions_élémentaires/Modules.md)
 
-- Leçon 7 : [Instructions conditionnelles](./Constructions_élémentaires/Instructions_conditionnelles.md)
+- Leçon 7 : [Instructions conditionnelles](./Langages_et_programmation/Constructions_élémentaires/Instructions_conditionnelles.md)
 
-- Leçon 8 : [Boucles non bornées](./Constructions_élémentaires/Boucles_non_bornées.md)
+- Leçon 8 : [Boucles non bornées](./Langages_et_programmation/Constructions_élémentaires/Boucles_non_bornées.md)
 
-- Leçon 9 : [Boucles bornées](./Constructions_élémentaires/Boucles_bornées.md)
+- Leçon 9 : [Boucles bornées](./Langages_et_programmation/Constructions_élémentaires/Boucles_bornées.md)
 
-- Projet n°1 : [Architectes](./Constructions_élémentaires/Projet_architectes.md)
+- Projet n°1 : [Architectes](./Langages_et_programmation/Constructions_élémentaires/Projet_architectes.md)
 
-##### Chapitre 2 : Représentation des nombres en machine
+##### Chapitre 2 : Types et valeurs de base 1/1
 
-- Activité : [Découverte du binaire](./Représentation_des_nombres_en_machine/Activité_découverte_du_binaire.md)
+- Activité : [Découverte du binaire](./Types_et_valeurs_de_base/Activité_découverte_du_binaire.md)
 
-- Leçon 1 : [Représentation des entiers naturels](./Représentation_des_nombres_en_machine/Représentation_des_entiers_naturels.md)
+- Leçon 1 : [Représentation des entiers naturels](./Types_et_valeurs_de_base/Représentation_des_entiers_naturels.md)
 
-- Leçon 2 : [Représentation des entiers relatifs](./Représentation_des_nombres_en_machine/Représentation_des_entiers_relatifs.md)
+- Leçon 2 : [Représentation des entiers relatifs](./Types_et_valeurs_de_base/Représentation_des_entiers_relatifs.md)
 
-- Leçon 3 : [Représentation des réels](./Représentation_des_nombres_en_machine/Représentation_des_réels.md)
+- Leçon 3 : [Représentation des réels](./Types_et_valeurs_de_base/Représentation_des_réels.md)
 
-##### Chapitre 3 : Chaînes de caractères
+##### Chapitre 3 : Types construits 1/3
 
-- Leçon 1 : [Chaînes de caractères](./Chaînes_de_caractère/Chaines_de_caractere.md)
+- Leçon 1 : [Chaînes de caractères](./Types_construits/Chaînes_de_caractère/Chaînes_de_caractère.md)
 
-- Leçon 2 : [Interraction avec l'utilisateur](./Chaînes_de_caractère/Interraction_avec_l_utilisateur.md)
+- Leçon 2 : [Interraction avec l'utilisateur](./Types_construits/Chaînes_de_caractère/Interraction_avec_l_utilisateur.md)
 
-- Projet n°2 : [ChiFuMi - Nim - Plus ou moins](./Chaînes_de_caractère/Projet_chifumi_nim_plusoumoins.md)
+- Projet n°2 : [ChiFuMi - Nim - Plus ou moins](./Types_construits/Chaînes_de_caractère/Projet_chifumi_nim_plusoumoins.md)
 
-- Leçon 3 : [Représentation des textes en machine](./Chaînes_de_caractère/Représentation_des_textes_en_machine.md)
+- Leçon 3 : [Représentation des textes en machine](./Types_et_valeurs_de_base/Représentation_des_textes_en_machine.md)
 
 ##### Chapitre 4 : Architecture des machines 1/3
 
-- Leçon 1 : [Modèle Von Neumann](./Architecture_des_machines/Modèle_Von_Neumann.md)
+- Leçon 1 : [Modèle Von Neumann](./Architecture_des_machines/Modèle_Von_Neumann/Modèle_Von_Neumann.md)
 
-- Leçon 2 : [Langage machine](./Architecture_des_machines/Langage_machine.md)
+- Leçon 2 : [Langage machine](./Architecture_des_machines/Modèle_Von_Neumann/Langage_machine.md)
 
-- Activité : [Langage d'assemblage sur M10](./Architecture_des_machines/Activité_langage_d_assemblage_sur_M10.md)
+- Activité : [Langage d'assemblage sur M10](./Architecture_des_machines/Modèle_Von_Neumann/Activité_langage_d_assemblage_sur_M10.md)
 
-##### Chapitre 5 : Structure de données 1/2
+##### Chapitre 5 : Types construits 2/3
 
-- Leçon 1 : [Listes](./Structures_de_données/Listes.md)
+- Leçon 1 : [Listes](./Types_construits/Tableaux/Listes.md)
 
-- Leçon 2 : [Tuples](./Structures_de_données/Tuples.md)
+- Leçon 2 : [Tuples](./Types_construits/P-uplets/Tuples.md)
 
 ##### Chapitre 6 : Architecture des machines 2/3
 
-- Leçon 3 : [Circuits combinatoires](./Architecture_des_machines/Circuits_combinatoires.md)
+- Leçon 3 : [Circuits combinatoires](./Architecture_des_machines/Circuits_combinatoires/Circuits_combinatoires.md)
 
-- Activité : [Afficheur Sept Segments](./Architecture_des_machines/Activité_afficheur_sept_segments.md)
+- Activité : [Afficheur Sept Segments](./Architecture_des_machines/Circuits_combinatoires/Activité_afficheur_sept_segments.md)
 
-##### Chapitre 7 : Spécifications de fonction
+##### Chapitre 7 : Langages et programmation 2/2
 
-- Leçon 1 : [Prototypage](./Spécifications_de_fonction/Prototypage.md)
+- Leçon 1 : [Prototypage](./Langages_et_programmation/Spécifications_de_fonction/Prototypage.md)
 
-- Leçon 2 : [Préconditions](./Spécifications_de_fonction/Préconditions.md)
+- Leçon 2 : [Préconditions](./Langages_et_programmation/Spécifications_de_fonction/Préconditions.md)
 
-- Leçon 3 : [Postconditions](./Spécifications_de_fonction/Postconditions.md)
+- Leçon 3 : [Postconditions](./Langages_et_programmation/Spécifications_de_fonction/Postconditions.md)
 
-- Activité : [Pair Programming](./Spécifications_de_fonction/Activité_pair_programming.md)
+- Activité : [Pair Programming](./Langages_et_programmation/Spécifications_de_fonction/Activité_pair_programming.md)
 
-##### Chapitre 8 : Principe des réseaux
+##### Chapitre 8 : Principe des réseaux 1/1
 
 - Leçon 1 : [Principe des réseaux](./Principe_des_réseaux/Principe_des_réseaux.md)
 
-##### Chapitre 9 : Structures de données 2/2
+##### Chapitre 9 : Types construits 3/3
 
-- Leçon 3 : [Dictionnaires](./Structures_de_données/Dictionnaires.md)
+- Leçon 3 : [Dictionnaires](./Types_construits/Dictionnaires/Dictionnaires.md)
 
-- Leçon 4 : [Listes de listes](./Structures_de_données/Listes_de_listes.md)
+- Leçon 4 : [Listes de listes](./Types_construits/Tableaux/Listes_de_listes.md)
 
-- Projet n°3 : [Ice Walker](./Structures_de_données/Projet_ice_walker.md)
+- Projet n°3 : [Ice Walker](./Types_construits/Tableaux/Projet_ice_walker.md)
 
 ##### Chapitre 10 : Architecture des machines 3/3
 
-- Leçon 4 : [Systèmes d'exploitation](./Architecture_des_machines/Systèmes_d_exploitation.md)
+- Leçon 4 : [Systèmes d'exploitation](./Architecture_des_machines/Systèmes_d_exploitation/Systèmes_d_exploitation.md)
 
-- Activité : [Terminus](./Architecture_des_machines/Activité_terminus.md)
+- Activité : [Terminus](./Architecture_des_machines/Systèmes_d_exploitation/Activité_terminus.md)
 
-- Leçon 5 : [Système de gestion de fichiers](./Architecture_des_machines/Système_de_gestion_de_fichiers.md)
+- Leçon 5 : [Système de gestion de fichiers](./Architecture_des_machines/Systèmes_d_exploitation/Système_de_gestion_de_fichiers.md)
 
-##### Chapitre 11 : Optimisation
+##### Chapitre 11 : Algorithmique 1/4
 
-- Leçon 1 : [Complexité](./Optimisation/Complexité.md)
+- Leçon 1 : [Complexité](./Algorithmique/Optimisation/Complexité.md)
 
-- Activité : [Recherche dichotomique](./Optimisation/Activité_recherche_dichotomique.md)
+- Activité : [Recherche dichotomique](./Algorithmique/Optimisation/Activité_recherche_dichotomique.md)
 
-- Leçon 2 : [Preuve de terminaison](./Optimisation/Preuve_de_terminaison.md)
+- Leçon 2 : [Preuve de terminaison](./Algorithmique/Optimisation/Preuve_de_terminaison.md)
 
-- Leçon 3 : [Preuve de correction](./Optimisation/Preuve_de_correction.md)
+- Leçon 3 : [Preuve de correction](./Algorithmique/Optimisation/Preuve_de_correction.md)
 
 ##### Chapitre 12 : IHM sur le web 1/2
 
@@ -113,15 +113,20 @@
 
 - Leçon 2 : [Formulaire d'une page web](./Ihm_sur_le_web/Formulaire_d_une_page_web.md)
 
-##### Chapitre 13 : Algorithmes de tri
+##### Chapitre 13 : Algorithmique 2/4
 
-- Activité : [Trier à l'aide de balances](./Algorithmes_de_tri/Activité_trier_à_l_aide_de_balances.md)
+- Activité : [Trier à l'aide de balances](./Algorithmique/Algorithmes_de_tri/Activité_trier_à_l_aide_de_balances.md)
 
-- Leçon 1 : [Trier](./Algorithmes_de_tri/Trier.md)
+- Leçon 1 : [Trier](./Algorithmique/Algorithmes_de_tri/Trier.md)
 
-- Leçon 2 : [Tri par sélection](./Algorithmes_de_tri/Tri_par_sélection.md)
+- Leçon 2 : [Tri par sélection](./Algorithmique/Algorithmes_de_tri/Tri_par_sélection.md)
 
-- Leçon 3 : [Tri par insertion](./Algorithmes_de_tri/Tri_par_insertion.md)
+- Leçon 3 : [Tri par insertion](./Algorithmique/Algorithmes_de_tri/Tri_par_insertion.md)
+
+##### Chapitre 14 : IHM sur le web 2/2
+
+- 
+
 
 
 ______________________
