@@ -6,6 +6,20 @@ Résoudre un problème d'optimisation combinatoire est facile : il suffit de cal
 
 Malheureusement, en informatique, une contrainte s'impose : la puissance actuelle des ordinateurs.
 
+Il fau donc trouver une autre stratégie.
+
+##### Application 1
+
+a) Pour un problème du voyageur de commerce à onze villes, combien le voyageur a t-il de choix quant à la ville de départ ? 
+
+b) Depuis une ville de départ, combien le voyageur a t-il de choix quant à la seconde ville à visiter ?
+
+c) Combien y a t-il d'itinéraires possibles pour ce problème à onze villes ?
+
+d) Combien y a t-il d'itinéraires possibles pour ce problème à $n$ villes ?
+
+e) Est-il possible pour un ordinateur de concevoir une solution en temps raisonnable avec cette stratégie ?
+
 ## II. Définitions
 
 Les *algorithmes gloutons* sont des algorithmes répondant à un problème d'optimisation combinatoire.
@@ -21,18 +35,6 @@ Cette stratégie ne traite qu'un seul sous-problème local et indépendant des a
 > Cette stratégie ne fournit pas forcément la meilleure solution. Nous disons de la stratégie gloutonne qu'elle donne une solution "satisfaisante".
 
 ## II. Étude de cas : Le voyageur de commerce
-
-##### Application 1
-
-a) Pour un problème du voyageur de commerce à onze villes, combien le voyageur a t-il de choix quant à la ville de départ ? 
-
-b) Depuis une ville de départ, combien le voyageur a t-il de choix quant à la seconde ville à visiter ?
-
-c) Combien y a t-il d'itinéraires possibles pour ce problème à onze villes ?
-
-d) Combien y a t-il d'itinéraires possibles pour ce problème à $n$ villes ?
-
-e) Est-il possible pour un ordinateur de concevoir une solution en temps raisonnable avec cette stratégie ?
 
 ##### Application 2
 

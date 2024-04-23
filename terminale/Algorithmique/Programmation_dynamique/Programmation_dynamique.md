@@ -16,7 +16,7 @@ Les informaticiens utilisent alors la programmation dynamique.
 
 ## II. Définitions
 
-La *programmation dynamique* est une technique de programmation répondant à un problème d'optimisation combinatoire (cf [Problèmes d'optimisation combinatoire](./../../première/Algorithmes_gloutons/Problèmes_d_optimisation_combinatoire.md)) en donnant la meilleure solution.
+La *programmation dynamique* est une technique de programmation répondant à un problème d'optimisation combinatoire (cf [Problèmes d'optimisation combinatoire](./Problèmes_d_optimisation_combinatoire.md) en donnant la meilleure solution.
 
 La *stratégie de la programmation dynamique* consiste à obtenir une solution optimale en utilisant les solutions optimales des précédents sous-problèmes où ceux-ci se chevauchent.
 
