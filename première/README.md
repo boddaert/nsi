@@ -109,9 +109,9 @@
 
 ##### Chapitre 12 : IHM sur le web 1/2
 
-- Leçon 1 : [Modèle Client-Serveur](./Ihm_sur_le_web/Modèle_client_serveur.md)
+- Leçon 1 : [Modèle Client-Serveur](./Ihm_sur_le_web/Modèle_client_serveur/Modèle_client_serveur.md)
 
-- Leçon 2 : [Formulaire d'une page web](./Ihm_sur_le_web/Formulaire_d_une_page_web.md)
+- Leçon 2 : [Formulaire d'une page web](./Ihm_sur_le_web/Modèle_client_serveur/Formulaire_d_une_page_web.md)
 
 ##### Chapitre 13 : Algorithmique 2/4
 
@@ -125,7 +125,7 @@
 
 ##### Chapitre 14 : IHM sur le web 2/2
 
-- 
+- Leçon 3 : [Programmation évènementielle](./Ihm_sur_le_web/Programmation_évènementielle/Programmation_évènementielle.md)
 
 
 

@@ -38,7 +38,7 @@ La *stratégie gloutonne* consiste, par une suite de choix, à sélectionner à 
 
 Cette stratégie ne traite qu'un seul sous-problème local et indépendant des autres à la fois :
 
-![image](./../../première/Algorithmes_gloutons/img/strategie_gloutonne.png)
+![image](./img/strategie_gloutonne.png)
 
 > Cette stratégie ne fournit pas forcément la meilleure solution. Nous disons de la stratégie gloutonne qu'elle donne une solution "satisfaisante".
 
