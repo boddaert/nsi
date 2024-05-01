@@ -147,7 +147,7 @@ Dès la troisième profondeur de l'arbre, deux appels récursifs sont effectués
 
 ##### Application 3
 
-Compléter la pile d'appels et donner le nombre d'appels déjà effectués.
+Compléter la pile d'appels et donner le nombre d'appels qui ont déjà été effectués.
 
 ### g) Approche ascendante
 

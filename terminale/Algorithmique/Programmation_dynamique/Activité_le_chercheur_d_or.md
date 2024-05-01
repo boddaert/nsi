@@ -46,57 +46,25 @@ a) Quel est le chemin que le chercheur doit traverser pour récupérer le plus d
 
 b) Démontrer qu'il s'agit d'un problème d'optimisation combinatoire.
 
-c) Combien y a t-il de chemins possibles pour une mine de taille $2\times2$ ? $3\times3$ ? $4\times4$ ?
+c) Combien y a t-il de chemins possibles ?
 
-d) Est-ce raisonnable d'écrire un programme qui calcule le butin récolté de tous les chemins possibles ?
+d) Quelle est la stratégie gloutonne pour le problème du chercheur d'or ? Quel est le butin récolté donné par cette stratégie ?
 
-e) Quelle est la stratégie gloutonne pour le problème du chercheur d'or ? Quel est le butin récolté donné par cette stratégie ?
+e) Expliquer pourquoi, dans ce problème, la stratégie gloutonne ne donne pas une solution satisfaisante.
 
-f) Expliquer pourquoi, dans ce problème, la stratégie gloutonne ne donne pas une solution satisfaisante.
-
-La programmation dynamique cherche à obtenir une solution optimale en utilisant les solutions optimales précédentes.
+f) La programmation dynamique cherche à obtenir une solution optimale en utilisant les solutions optimales précédentes.
 
 Dans ce problème, la stratégie de la programmation dynamique consiste à calculer le nombre maximal de pépites que le chercheur peut obtenir pour chaque parcelle de la mine en utilisant les nombres maximaux de pépites des parcelles précédentes.
 
-g) Pour quelle(s) parcelle(s) de la mine, le chercheur connaît-il exactement le nombre maximal de pépites qu'il aura récoltées depuis le début du chemin ?
+- Pour quelle(s) parcelle(s) de la mine, le chercheur connaît-il exactement le nombre maximal de pépites qu'il aura récoltées depuis le début du chemin ?
 
-Pour les autres parcelles, deux choix sont possibles : soit le chercheur arrive depuis la parcelle supérieure, soit le chercheur arrive depuis la gauche.
+- Pour les autres parcelles, deux choix sont possibles : soit le chercheur arrive depuis la parcelle supérieure, soit le chercheur arrive depuis la gauche.
 
 Il s'agit donc de déterminer si le chercheur arrive sur la parcelle avec plus de pépites en arrivant depuis le haut ou s'il arrive avec plus de pépites en arrivant depuis la gauche.
 
-h) Ajouter, dans chaque parcelle de la mine, des perles de façon à ce que le nombre de pépites corresponde au nombre maximal de pépites pouvant être récoltées de la première parcelle jusqu'à celle-ci.
+g) Ajouter, dans chaque parcelle de la mine, des perles de façon à ce que le nombre de pépites corresponde au nombre maximal de pépites pouvant être récoltées de la première parcelle jusqu'à celle-ci.
 
-i) Depuis la dernière parcelle en remontant jusqu'à la première, reconstituer le chemin offrant le plus de pépites et donner la réponse au problème.
-
-j) Soit `chercheur_d_or(i : int, j : int)->int` la fonction récursive qui prend en paramètre deux entiers et renvoie le nombre maximal de pépites de la parcelle $(i,j)$ pouvant être récoltées par le chercheur depuis la première parcelle.
-
-Avec :
-
-```python
-mine = [[1, 2, 1, 4, 5],
-        [1, 2, 3, 1, 3],
-        [3, 1, 2, 1, 1]]
-```
-
-Compléter le principe de récurence suivant :
-
-$$
-chercheur\textunderscore d\textunderscore or(i, j)=
-\begin{cases}
-mine[0][0] & \quad \text{si i = .. et si j = ..}\\ 
-mine[0][j] + chercheur\textunderscore d\textunderscore or(0, j-1) & \quad \text{si i = 0 et si j != 0}\\
-mine[i][0] + chercheur\textunderscore d\textunderscore or(.., ..) & \quad \text{si i != 0 et si j = 0}\\
-mine[i][j] + max(chercheur\textunderscore d\textunderscore or(.., ..), chercheur\textunderscore d\textunderscore or(.., ..)) & \quad \text{sinon}
-\end{cases}
-$$
-
-k) Écrire la fonction récursive `chercheur_d_or(i : int, j : int)->int` qui prend en paramètre deux entiers et renvoie le nombre maximal de pépites de la parcelle $(i,j)$ pouvant être récoltées par le chercheur depuis la première parcelle et la tester afin de vérifier la bonne réponse au problème de notre chercheur d'or.
-
-l) En suivant le principe de récurrence, que va renvoyer l'appel `>>> chercheur_d_or(1, 1)` ? Dessiner sa pile d'appel.
-
-m) Même question pour `>>> chercheur_d_or(2, 4)`.
-
-n) Que remarque t-on dans la pile d'appels ?
+h) Depuis la dernière parcelle en remontant jusqu'à la première, reconstituer le chemin offrant le plus de pépites et donner la réponse au problème.
 
 ____________________
 
