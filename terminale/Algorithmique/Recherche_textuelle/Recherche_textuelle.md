@@ -2,19 +2,17 @@
 
 ## I. Introduction
 
-Une application de la recherche textuelle est le séquençage des génomes.
+Un exemple d'application de la recherche textuelle est la recherche de texte dans un document numérique utilisable avec le raccourci `Ctrl+F`.
 
-Le séquençage du génome a conduit à une collaboration fructueuse entre généticiens et informaticiens et au développement de nouveaux algorithmes.
+Cela permet, entre autres, de repérer où se situe le sujet qui nous intéresse dans un document numérique pouvant comporter des centaines de pages.
 
-En effet, le génome est codé sur quatre lettres : `A`, `C`, `T` et `G` qui sont les initiales de quatre bases nucléiques : adénine, cytosine, thymine et guanine.
+Une autre application de la recherche textuelle est le séquençage des génomes.
 
-Voici, par exemple, un extrait d'un gène d'arabica et d'un motif à retrouver :
+Le séquençage du génome (étant codé sur quatre lettres : `A`, `C`, `T` et `G` et qui sont les initiales de quatre bases nucléiques : adénine, cytosine, thymine et guanine), avant les années quatre-vingt, était réalisé à la main par les biologistes jusqu'à ce qu'une collaboration entre généticiens et informaticiens voit le jour.
 
-- `AAGGTCCCTTATGATGCTGGCTTCTCTATTGATGATGATTACCAAGGAAGATCCCATTCCCCAGTATCCTGCGATGAACA`
+Cette collaboration a permis au développement de nouveaux algorithmes dans les années quatre-vingt.
 
-- `AAGA`
-
-Nous souhaitons dans cette partie écrire un algorithme efficace permettant de rechercher un motif dans un texte.
+Ces algorithmes pouvaient, en un temps record, retrouver une séquence précise choisie dans tout le génome.
 
 ## II. Définitions
 
@@ -63,21 +61,23 @@ Sorties : La liste des positions de motif dans texte
 
 positions <- []
 Pour i allant de 0 à taille(texte)-taille(motif)+1, faire :
-    Si t[i] est égal à m[0], alors :
-        trouvé <- Vrai
-        Pour j allant de 0 à taille(m), faire :
-            Si t[i+j] est différent de m[j], alors :
-                trouvé <- Faux
-        Si trouvé est égal à Vrai, alors :
-            Ajouter i à positions
+    j <- i
+    k <- 0
+    TantQue k est inférieur à taille(m) et t[j] est égal à m[k], alors :
+        j <- j + 1
+        k <- k + 1
+    Si k est égal à taille(m), alors :
+        Ajouter i à positions
 Renvoyer positions
 ```
+
+Celui-ci se voit ajouter deux nouveaux indices `j` et `k` qui représentent respectivement les indices de comparaisons entre $t$ et $m$.
 
 ##### Application 2
 
 a) Réécrire l'algorithme de recherche textuelle naïve en Python.
 
-b) Vérifier le résultat suivant :
+b) Vérifier, en utilisant le débogueur, le résultat suivant :
 
 ```python
 >>> recherche_textuelle_naive("bra", "abracadabra")
@@ -124,7 +124,92 @@ Par exemple, dans la configuration suivante, il est inutile de réaliser la comp
 
 ![image](./img/sauter_des_rangs.png)
 
-### b) 
+### b) Construction de la table des décalages
+
+La table des décalages indique pour chaque lettre du motif le nombre de décalage à droite à réaliser.
+
+- Si la lettre `t[i]` n'apparaît pas dans le motif, le décalage est égal à la longueur du motif : $M-1$.
+
+- Si la lettre `t[i]` apparaît dans le motif, le décalage est égal à la distance entre cette lettre et la dernière lettre du motif.
+
+Avec $m \quad = \quad WIKIPEDIA$, la table des décalages de ce motif est :
+
+| Lettre `t[i]` | Décalage de $i$ dans $t$ |
+| :---: | :---: |
+| $I$ | $1$ |
+| $D$ | $2$ |
+| $E$ | $3$ |
+| $P$ | $4$ |
+| $K$ | $6$ |
+| $W$ | $8$ |
+| Autre lettre | $9$ |
+
+##### Application 3
+
+Établir la table des décalages pour le motif `bra`.
+
+### c) Algorithme de construction de la table des décalages
+
+Pour simplifier la programmation en Python, l'algorithme `table_des_decalages()` construisant la table des décalages renvoie un dictionnaire :
+
+```
+Algorithme table_des_decalages
+Entrées : m le motif, une chaîne de caractère
+Sorties : Un dictionnaire des décalages
+
+décalages <- {}
+Pour i allant de 0 à taille(m), faire :
+    lettre <- m[len(m)-1-i]
+    Si lettre n'est pas présente dans décalages, alors :
+        Ajouter à décalages la clé : lettre ayant comme valeur : taille(m)-1-i
+Renvoyer décalages
+```
+##### Application 4
+
+a) Réécrire l'algorithme de construction de la table des décalages en Python.
+
+b) Vérifier, en utilisant le débogueur, le résultat suivant :
+
+```python
+>>> table_des_decalages("wikipedia")
+{'i': 1, 'd': 2, 'e': 3, 'p': 4, 'k': 6, 'w': 8}
+```
+
+### d) Algorithme de Horspool
+
+```python
+def horspool(m : str, t : str)->list:
+    positions = []
+    decalages = table_des_decalages(m)
+    i = len(m)-1
+    while i < len(t) :
+        if t[i] != m[len(m)-1] :
+            if t[i] in decalages :
+                i = i + decalages[t[i]]
+            else :
+                i = i + len(m)
+        else :
+            j = i
+            k = len(m)-1
+            while k > 0 and t[j-1] == m[k-1] :
+                j = j - 1
+                k = k - 1
+            if k == 0 :
+                positions.append(i-(len(m)-1))
+            i = i + 1
+    return positions
+```
+
+##### Application 5
+
+a) Réécrire l'algorithme de recherche textuelle de Horspool en Python.
+
+b) Vérifier, en utilisant le débogueur, le résultat suivant :
+
+```python
+>>> horspool("bra", "abracadabra")
+[1, 8]
+```
 
 ____________
 
