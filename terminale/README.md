@@ -111,6 +111,20 @@
 
 - Activité : [La machine de Turing](./Langages_et_programmation/Décidabilité_et_calculabilité/Activité_la_machine_de_turing.md)
 
+##### Chapitre 17 : Programmation dynamique
+
+- Leçon 1 : [Problèmes d'optimisation combinatoire](./Algorithmique/Programmation_dynamique/Problèmes_d_optimisation_combinatoire.md)
+
+- Leçon 2 : [Rappels sur les algorithmes gloutons](./Algorithmique/Programmation_dynamique/Rappels_sur_les_algorithmes_gloutons.md)
+
+- Activité : [Le chercheur d'or](./Algorithmique/Programmation_dynamique/Activité_le_chercheur_d_or.md)
+
+- Leçon 3 : [Programmation dynamique](./Algorithmique/Programmation_dynamique/Programmation_dynamique.md)
+
+##### Chapitre 18 : Recherche textuelle
+
+- Leçon 1 : [Recherche textuelle](./Algorithmique/Recherche_textuelle/Recherche_textuelle.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
