@@ -121,10 +121,6 @@
 
 - Leçon 3 : [Programmation dynamique](./Algorithmique/Programmation_dynamique/Programmation_dynamique.md)
 
-##### Chapitre 18 : Recherche textuelle
-
-- Leçon 1 : [Recherche textuelle](./Algorithmique/Recherche_textuelle/Recherche_textuelle.md)
-
 ______________________
 
 ## Entraînement au Baccalauréat
@@ -137,7 +133,9 @@ ______________________
 
 ## Entraînement à l'oral
 
-[Oraux du jeudi](./Compléments/Oraux/Oraux_du_jeudi.md)
+[Oraux du jeudi](./Compléments/Entraînement_à_l_oral/Oraux_du_jeudi/Oraux_du_jeudi.md)
+
+[Débats](./Compléments/Entraînement_à_l_oral/Débats/Débats.md)
 
 [Se préparer au Grand Oral](./Compléments/Grand_oral/Se_préparer_au_grand_oral.md)
 

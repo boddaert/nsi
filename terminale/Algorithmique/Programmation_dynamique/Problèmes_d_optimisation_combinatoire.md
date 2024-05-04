@@ -34,7 +34,9 @@ Donc, parmi l'ensemble des solutions existantes, ce problème cherche une minimi
 
 ##### Application 1
 
-Donner au moins deux autres exemples de problème d'optimisation combinatoire, justifier en quoi ils sont des problèmes d'optimisation combinatoire.
+a) Donner au moins deux autres exemples de problème d'optimisation combinatoire
+
+b) Justifier en quoi ils sont des problèmes d'optimisation combinatoire.
 
 ## III. Formalisation (hors programme)
 
@@ -50,7 +52,7 @@ Un problème d'optimisation combinatoire $P$ est un quadruplet $(I, r, f, g)$ o�
 
 ##### Application 3
 
-Formaliser le problème du rendu de monnaie en un problème d'opitmisation combinatoire $P$ en précisant à quoi correspond chacun des éléments de $P$.
+Formaliser le problème du rendu de monnaie en un problème d'optimisation combinatoire $P$ en précisant à quoi correspond chacun des éléments de $P$.
 
 _________________
 

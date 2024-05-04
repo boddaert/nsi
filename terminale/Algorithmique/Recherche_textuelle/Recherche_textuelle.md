@@ -211,6 +211,8 @@ b) Vérifier, en utilisant le débogueur, le résultat suivant :
 [1, 8]
 ```
 
+c) Après avoir compris l'algorithme de Horspool, le réécrire en français de façon à ce que n'importe qui puisse l'appliquer.
+
 ____________
 
 [Sommaire](./../../README.md)
