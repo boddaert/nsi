@@ -28,9 +28,9 @@ Ce jeu est une représentation d'une vue aérienne d'une région, les villes ét
 
 a) En parcourant les villes à l'aide de la ficelle, trouver l'itinéraire le plus court en répondant au problème du voyageur de commerce.
 
-Afin de comparer efficacement la distance des itinéraires trouvés, veuillez marquer d'un trait la ficelle.
+Afin de comparer efficacement la distance des itinéraires trouvés, marquer d'un trait sur la ficelle.
 
-b) Sur feuille, écrire un algorithme en français permettant de répondre au problème du voyageur de commerce pour n'importe quel région.
+b) Sur feuille, écrire un algorithme en français permettant de répondre au problème du voyageur de commerce pour n'importe quel configuration de villes.
 
 _______________________
 

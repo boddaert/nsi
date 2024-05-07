@@ -42,7 +42,7 @@ Il ne lui reste plus qu'à trouver un chemin optimisé lui permettant de récup�
 
 a) Quel est le chemin que le chercheur doit traverser pour récupérer le plus de pépites ?
 
-b) Trouver une méthode/un algorithme permettant de récupérer le chemin maximisant le nombre de pépites pour n'importe quelle configuration de mine.
+b) Trouver une méthode/un algorithme permettant de retrouver le chemin maximisant le nombre de pépites pour n'importe quelle configuration de mine.
 
 ____________________
 
