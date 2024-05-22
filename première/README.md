@@ -139,6 +139,14 @@
 
 - Activité : [Mayday mayday](./Traitement_de_données_en_table/Activité_mayday_mayday.md)
 
+##### Chapitre 16 : Algorithmique 3/4
+
+- Activité : [Le voyageur de commerce](./Algorithmique/Algorithmes_gloutons/Activité_le_voyageur_de_commerce.md)
+
+- Leçon 1 : [Problèmes d'optimisation combinatoire](./Algorithmique/Algorithmes_gloutons/Problèmes_d_optimisation_combinatoire.md)
+
+- Leçon 2 : [Algorithmes gloutons](./Algorithmique/Algorithmes_gloutons/Algorithmes_gloutons.md)
+
 
 ______________________
 
