@@ -121,6 +121,10 @@
 
 - Leçon 3 : [Programmation dynamique](./Algorithmique/Programmation_dynamique/Programmation_dynamique.md)
 
+##### Chapitre 18 : Recherche textuelle
+
+- Leçon 1 : [Recherche textuelle](./Algorithmique/Recherche_textuelle/Recherche_textuelle.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat

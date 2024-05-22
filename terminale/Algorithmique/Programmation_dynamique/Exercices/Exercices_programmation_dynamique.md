@@ -44,7 +44,32 @@ e) Écrire la fonction `pyramide_ascendante(p : list)->int` qui prend en paramè
 
 ## Exercice 2
 
-Même exercice avec le problème du rendu de monnaie.
+
+## Exercice 3 (Difficile)
+
+Dans un système non canonique, l'algorithme glouton ne donne pas de solution optimale sur le problème du rendu de monnaie.
+
+Pour ce problème, la programmation dynamique consiste à tester récursivement toutes les combinaisons possibles et de remonter la solution qui donne un nombre de pièces minimal.
+
+Notons $p1$, $p2$, ..., $pi$, ..., $pn$ les pièces disponibles.
+
+Considérons une somme $S$ et notons $nb(S)$ le plus petit nombre de pièces possible pour rendre cette somme.
+
+L'ensemble des sommes que l'on peut rendre avec une pièce de plus (c'est-à-dire avec $nb(S) + 1$ pièces) est : $S-p1$, $S-p2$, ..., $S-pi$ , ..., $S-pn$. Avec $pi$ inférieur ou égal à $S$.
+
+
+Nous pouvons alors calculer le plus petit nombre de pièces nécessaire pour chacune de ces sommes, c'est-à-dire :
+$nb(S-p1)$, $nb(S-p2)$, ..., $nb(S-pi)$ , ..., $nb(S-pn)$. Avec $pi$ inférieur ou égal à $S$.
+
+De cet ensemble de valeur, il ne faut garder que la plus petite.
+
+Autrement dit, $nb(S) = 1 + min_{pour tous les i tels que pi < S}(nb(S-pi))$
+
+La récurrence peut s'exprimer de la façon suivante :
+
+    - si 
+
+: - si : 
 
 __________________
 

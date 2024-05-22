@@ -61,7 +61,7 @@ b) Donner l'idée de la stratégie gloutonne utilisée pour le problème du voya
 
 ##### Application 4
 
-Écrire une fonction `voyageur_de_commerce_glouton(l_villes : list)->list` qui prend en paramètre une liste de villes, une ville étant modélisée par un tuple de coordonnées et une ville de départ et renvoie sous forme de liste, en utilisant la stratégie gloutonne, un ordre de visite satisfaisant des villes.
+Écrire une fonction `voyageur_de_commerce_glouton(l_villes : list, i_depart : int)->list` qui prend en paramètre une liste de villes, une ville étant modélisée par un tuple de coordonnées et une ville de départ et renvoie sous forme de liste, en utilisant la stratégie gloutonne, un ordre de visite satisfaisant des villes.
 
 ```python
 >>> voyageur_de_commerce([(2,3), (4,7), (10,1), (3,8), (1, 0), (10, 9)],3)

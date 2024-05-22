@@ -194,10 +194,8 @@ c) À quoi correspond `tab` ?
 L'*approche descendante* de la programmation dynamique consiste à supprimer le problème des appels redondants en mémorisant les résultats des calculs dans un dictionnaire (que nous appelons `mem` et qui est égal à `None` lors de l'appel initial):
 
 ```python
-def chercheur_d_or_descendante(mine : list, i : int, j : int, mem = None):
-    if mem == None :
-        mem = {}
-    elif (i, j) in mem :
+def chercheur_d_or_descendante(mine : list, i : int, j : int, mem = {}):
+    if (i, j) in mem :
         return mem[(i, j)]
     if i == 0 and j == 0 :
         mem[(i, j)] = mine[0][0]
