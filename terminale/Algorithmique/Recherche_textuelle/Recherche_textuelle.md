@@ -158,10 +158,10 @@ Entrées : m le motif, une chaîne de caractère
 Sorties : Un dictionnaire des décalages
 
 décalages <- {}
-Pour i allant de 0 à taille(m), faire :
+Pour i allant de 1 à taille(m), faire :
     lettre <- m[len(m)-1-i]
     Si lettre n'est pas présente dans décalages, alors :
-        Ajouter à décalages la clé : lettre ayant comme valeur : taille(m)-1-i
+        Ajouter à décalages la clé : lettre ayant comme valeur : i
 Renvoyer décalages
 ```
 ##### Application 4
