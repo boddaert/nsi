@@ -7,22 +7,10 @@ En Numérique et Sciences Informatiques, nous allons être amenés à écrire de
 > $${\color{red}Un \space **programme** \space **informatique** \space est \space un \space texte \space composé \space d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.}$$
 
 
-$${\color{red}Red}$$
-
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
 > [!IMPORTANT]
-> Crucial information necessary for users to succeed.
+> Un **programme informatique** est un texte composé d'instructions et d'opérations 
 
-> [!WARNING]
-> Critical content demanding immediate user attention due to potential risks.
-
-> [!DEFINITION]
-> Negative potential consequences of an action.
+<span style="color:orange;">Un **programme informatique** est un texte composé d'instructions et d'opérations</span>
 
 > L'*informatique* est la science des **données**, les programmes informatiques que nous écrivons nous permettent de manipuler ces données et d'effectuer des calculs sur celles-ci.
 
