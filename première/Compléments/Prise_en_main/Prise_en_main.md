@@ -21,7 +21,7 @@ $${\color{red}Red}$$
 > [!WARNING]
 > Critical content demanding immediate user attention due to potential risks.
 
-> [!CAUTION]
+> [!DEFINITION]
 > Negative potential consequences of an action.
 
 > L'*informatique* est la science des **données**, les programmes informatiques que nous écrivons nous permettent de manipuler ces données et d'effectuer des calculs sur celles-ci.
