@@ -1,0 +1,39 @@
+site_name: NSI
+    
+theme:
+  name: material
+  font:
+     text: Roboto
+     code: Roboto Mono
+  language: fr
+  icon:
+     logo: material/desktop-classic
+     menu: material/menu
+     previous: fontawesome/solid/angle-left
+     next: fontawesome/solid/angle-right
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.path
+
+hide:
+  - toc
+    
+markdown_extensions:
+    - pymdownx.arithmatex:          # les maths
+        generic: true               #    avec $ et $$
+    - pymdownx.emoji:
+         emoji_index: !!python/name:material.extensions.emoji.twemoji
+         emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_javascript:
+    - xtra/javascripts/mathjax-config.js                    # MathJax
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+    - xtra/stylesheets/ajustements.css  
+
+    
+    
+
