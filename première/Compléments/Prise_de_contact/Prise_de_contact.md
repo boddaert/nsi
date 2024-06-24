@@ -8,9 +8,9 @@ Il est stocké sur un serveur et est donc accessible depuis n'importe quel appar
 
 En bas de page, se trouve le sommaire dans lequel s'y figure le lien des leçons dans l'ordre de progression.
 
-[Sommaire des Premières](./../../première/README.md)
+[Sommaire des Premières](./../../README.md)
 
-[Sommaire des Terminales](./../../terminale/README.md)
+[Sommaire des Terminales](./../../../terminale/README.md)
 
 ## II. Les programmes
 
@@ -32,7 +32,7 @@ En Terminale, le volume horaire est de six heures par semaine :
 
 ### a) Sur papier
 
-- Les réponses à tous les <u>exercices</u> doivent être rédigées en plus **dans un cahier**. 
+- Les réponses à tous les exercices doivent être rédigées en plus **dans un cahier**. 
 
 ### b) Sur ordinateur
 
@@ -51,3 +51,7 @@ Il est fortement conseillé de posséder une clé USB dans laquelle vous pourrez
 ___________
 
 [Sommaire](./../README.md)
+
+___________
+
+Cours NSI © 2023 by Théo Boddaert is licensed under CC BY 4.0 
