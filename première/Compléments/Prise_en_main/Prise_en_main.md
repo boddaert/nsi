@@ -34,6 +34,7 @@ Comme nos langues naturelles, un langage de programmation est composé d'un alph
 
 Nous distinguons une multitude de langages comme le Java, le C++, le HTML, le CSS, le SQL, etc ...
 
+<img src="./img/langages.png" width="20"/>
 
 ![](./img/langages.png){width=20}
 
