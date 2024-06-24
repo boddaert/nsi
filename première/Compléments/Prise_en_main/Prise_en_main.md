@@ -4,7 +4,10 @@
 
 En Numérique et Sciences Informatiques, nous allons être amenés à écrire des programmes informatiques.
 
-$${\color{red}Un *programme informatique* est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.}$$
+$${\color{red}Un programme informatique est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.}$$
+
+
+$${\color{red}Red}$$
 
 > L'*informatique* est la science des **données**, les programmes informatiques que nous écrivons nous permettent de manipuler ces données et d'effectuer des calculs sur celles-ci.
 
@@ -31,7 +34,6 @@ Comme nos langues naturelles, un langage de programmation est composé d'un alph
 
 Nous distinguons une multitude de langages comme le Java, le C++, le HTML, le CSS, le SQL, etc ...
 
-$${\color{red}Red}$$
 
 ![](./img/langages.png)
 
