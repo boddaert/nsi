@@ -2,9 +2,16 @@
 
 ## I. Le cours
 
+### a) Lien du cours
+
 Tout le cours de Première et Terminale NSI est disponible à l'adresse : `https://github.com/boddaert/nsi`.
 
+> [!NOTE]
+> Notez le lien du cours dans votre cahier ou votre agenda.
+
 Il est stocké sur un serveur et est donc accessible depuis n'importe quel appareil muni d'une connexion Internet.
+
+### b) Sommaires
 
 En bas de page, se trouve le sommaire dans lequel s'y figure le lien des leçons dans l'ordre de progression.
 

@@ -5,12 +5,12 @@
 En Numérique et Sciences Informatiques, nous allons être amenés à écrire des programmes informatiques.
 
 > [!IMPORTANT]
-> Un **programme informatique** est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.
+> Un *programme informatique* est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.
 
 > [!IMPORTANT]
-> L'*informatique* est la science des **données**, les programmes informatiques que nous écrivons nous permettent de manipuler ces données et d'effectuer des calculs sur celles-ci.
+> L'*informatique* est la science des données, les programmes informatiques que nous écrivons nous permettent de manipuler ces données et d'effectuer des calculs sur celles-ci.
 
-Pour nous aider à écrire des programmes informatiques, les informaticiens utilisent des algorithmes. Un algorithme est une suite d'instructions écrit en Français. Il sert à **résoudre un problème**.
+Pour nous aider à écrire des programmes informatiques, les informaticiens utilisent des algorithmes. Un algorithme est une suite d'instructions écrit en Français. Il sert à résoudre un problème.
 
 Un algorithme est comparable à une recette de cuisine, par exemple :
 
@@ -27,6 +27,7 @@ L'objectif de construire un algorithme est qu'il soit compris par tous et qu'on 
 
 ## II. Langage de programmation
 
+> [!IMPORTANT]
 > Un *langage de programmation* est un langage dans lequel nous allons écrire notre programme.
 
 Comme nos langues naturelles, un langage de programmation est composé d'un alphabet et de règles.
