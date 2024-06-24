@@ -42,13 +42,13 @@ En NSI, nous travaillerons avec le langage Python principalement.
 
 Il a été inventé en 1989 par le néerlandais Guido Van Rossum et est aujourd'hui l'un des lagages les plus utilisés au monde.
 
-<img src="./img/python_logo.png" width="800"/>
+<img src="./img/python_logo.png" width="600"/>
 
 ## IV. Environnement de développement
 
 Un *IDE* (ou environnement de développement) est un logiciel permettant d'écrire et de faire exécuter des programmes. Nous utiliserons pour cela le logiciel Thonny :
 
-<img src="./img/presentation_thonny.png" width="800"/>
+<img src="./img/presentation_thonny.png" width="1000"/>
 
 Sur Thonny, il y a un **mode programmation** et un **mode interactif**.
 
