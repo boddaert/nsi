@@ -81,39 +81,49 @@ Nous constatons plusieurs choses :
 > [!WARNING]
 > Aucun résultat ne s'est affiché et c'est tout à fait normal, je n'ai pas écris dans mon programme la fonction permettant d'afficher mon résultat. Donc, mon programme a bien effectué la somme de cinq et cinq mais n'a rien effectué de plus.
 
-#### $\textcolor{blue}{Application \space 1}$
+#### <ins>Application 1</ins>
 
-- Ouvrir le logiciel Thonny.
-- Sur Thonny, créer le fichier `test_mon-nom.py`.
-- Ecrire votre premier programme informatique python, qui réalise l'opération suivante : `(5+3)-(4*2)`.
+a) Effectuer les étapes suivantes :
 
-Le programme s'exécute t-il ?
+1. Ouvrir le logiciel Thonny.
+2. Sur Thonny, créer le fichier `test_mon-nom.py`.
+3. Écrire votre premier programme informatique python, qui réalise l'opération suivante : `(5+3)-(4*2)`.
+
+b) Le programme s'exécute t-il ?
 
 #### <ins>Application 2</ins>
 
-Remplacer l'opération de l'application 1 par `5 + * 3`
+a) Remplacer l'opération de l'application 1 par `5 + * 3`
 
-Le programme s'exécute t-il correctement ? 
-Qu'est-il écrit sur la console ?
+b) Le programme s'exécute t-il correctement ?
+
+c) Qu'est-il écrit sur la console ?
 
 ### b) Mode interactif
 
-La console situé en bas de la page se présente comme une calculatrice. Les trois chevrons **>>>** indique que la console attend une instruction.
+La console situé en bas de la page se présente comme une calculatrice. Les trois chevrons `>>>` indique que la console attend une instruction.
 
-Par exemple, j'efface mon précédent programme, je réexécute le programme vierge (rien ne se passe) et j'écris dans la console l'opération permettant de faire la somme de 5 et 5, puis en appuyant sur `Entrée`, je me retrouve dans l'état suivant :
+Par exemple :
 
-![](./img/mode_interactif.png)
+- J'efface mon précédent programme.
+
+- Je réexécute le programme vierge (rien ne se passe).
+
+- J'écris dans la console l'opération permettant de faire la somme de cinq et cinq, puis j'appuie sur `Entrée`, je me retrouve dans l'état suivant :
+
+<img src="./img/mode_interactif.png" width="1000"/>
 
 Ici aussi, nous constatons plusieurs choses :
 
 - Premièrement, le résultat de l'opération s'affiche et la console attend de nouveau une instruction.
 - Deuxièmement, si je ferme et réouvre le fichier, les instructions précédemment écrites dans la console sont perdues. Le mode interactif ne permet pas d'enregistrer sur le fichier des programmes.
 
-On utilise généralement le mode interactif pour tester ses programmes ou ses instructions.
+> [!NOTE]
+> Nous utilisons généralement le mode interactif pour tester les programmes ou les instructions.
 
-#### Application 3
+#### <ins>Application 3</ins>
 
-Répéter les opérations des applications 1 et 2 en utilisant cette fois uniquement le mode interactif de Thonny.
+Répéter les opérations des applications $1$ et $2$ en utilisant cette fois uniquement le mode interactif de Thonny.
 
 ________
 
