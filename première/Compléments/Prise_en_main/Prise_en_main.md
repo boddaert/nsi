@@ -4,15 +4,13 @@
 
 En Numérique et Sciences Informatiques, nous allons être amenés à écrire des programmes informatiques.
 
-Un *programme informatique* est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.
+> Un *programme informatique* est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.
 
-L'*informatique* est la science des **données**, les programmes informatiques que nous écrivons nous permettent de manipuler ces données et d'effectuer des calculs sur celles-ci.
+> L'*informatique* est la science des **données**, les programmes informatiques que nous écrivons nous permettent de manipuler ces données et d'effectuer des calculs sur celles-ci.
 
 Pour nous aider à écrire des programmes informatiques, les informaticiens utilisent des algorithmes. Un algorithme est une suite d'instructions écrit en Français. Il sert à **résoudre un problème**.
 
-Un algorithme est comparable à une recette de cuisine.
-
-Par exemple :
+Un algorithme est comparable à une recette de cuisine, par exemple :
 
 ```
 Recette Mayonnaise
@@ -25,21 +23,21 @@ Recette Mayonnaise
 
 L'objectif de construire un algorithme est qu'il soit compris par tous et qu'on puisse le traduire dans n'importe quel langage de programmation.
 
-Un algorithme est comparable à une recette de cuisine.
-
 ## II. Langage de programmation
 
-Un *langage de programmation* est un langage dans lequel nous allons écrire notre programme.
+> Un *langage de programmation* est un langage dans lequel nous allons écrire notre programme.
 
 Comme nos langues naturelles, un langage de programmation est composé d'un alphabet et de règles.
 
-On distingue une multitude de langages comme le Java, le C++, le HTML, le CSS, le SQL, etc ...
+Nous distinguons une multitude de langages comme le Java, le C++, le HTML, le CSS, le SQL, etc ...
 
 ![](./img/langages.png)
 
 ## III. Le Python
 
-En NSI, nous travaillerons avec le langage Python principalement. Il a été inventé en 1989 par le néerlandais Guido Van Rossum et est aujourd'hui l'un des lagages les plus utilisés au monde.
+En NSI, nous travaillerons avec le langage Python principalement.
+
+Il a été inventé en 1989 par le néerlandais Guido Van Rossum et est aujourd'hui l'un des lagages les plus utilisés au monde.
 
 ![](./img/python_logo.png)
 
