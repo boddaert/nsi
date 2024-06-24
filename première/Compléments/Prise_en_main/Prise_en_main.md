@@ -32,11 +32,12 @@ L'objectif de construire un algorithme est qu'il soit compris par tous et qu'on 
 
 Comme nos langues naturelles, un langage de programmation est composé d'un alphabet et de règles.
 
-Nous distinguons une multitude de langages comme le Java, le C++, le HTML, le CSS, le SQL, etc ...
+Nous distinguons une multitude de langages comme le *Java*, le *C++*, le *HTML*, le *CSS*, le *SQL*, etc ...
 
-<img src="./img/langages.png" width="60"/>
+<img src="./img/langages.png" width="100"/>
 
-![](./img/langages.png){width=20}
+`#0969DA`
+![](./img/langages.png)
 
 ## III. Le Python
 
