@@ -4,7 +4,7 @@
 
 En Numérique et Sciences Informatiques, nous allons être amenés à écrire des programmes informatiques.
 
-$${\color{red}Un programme informatique est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.}$$
+> $${\color{red}Un programme informatique est un texte composé d'instructions et d'opérations écrit dans un certain langage de programmation et destiné à être exécuté par un ordinateur.}$$
 
 
 $${\color{red}Red}$$
