@@ -78,10 +78,10 @@ Nous constatons plusieurs choses :
 
 - Troisièmement, aucun résultat ne s'affiche.
 
-> [!NOTE]
+> [!WARNING]
 > Aucun résultat ne s'est affiché et c'est tout à fait normal, je n'ai pas écris dans mon programme la fonction permettant d'afficher mon résultat. Donc, mon programme a bien effectué la somme de cinq et cinq mais n'a rien effectué de plus.
 
-##### $\textcolor{yellow}{Application \space 1}$
+#### $\textcolor{blue}{Application \space 1}$
 
 - Ouvrir le logiciel Thonny.
 - Sur Thonny, créer le fichier `test_mon-nom.py`.
