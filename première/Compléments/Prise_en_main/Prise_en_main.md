@@ -45,8 +45,10 @@ Il a été inventé en 1989 par le néerlandais Guido Van Rossum et est aujourd'
 <img src="./img/python_logo.png" width="600"/>
 
 ## IV. Environnement de développement
+> [!IMPORTANT]
+> Un *IDE* (ou environnement de développement) est un logiciel permettant d'écrire et de faire exécuter des programmes. 
 
-Un *IDE* (ou environnement de développement) est un logiciel permettant d'écrire et de faire exécuter des programmes. Nous utiliserons pour cela le logiciel Thonny :
+Nous utiliserons pour cela le logiciel Thonny :
 
 <img src="./img/presentation_thonny.png" width="1000"/>
 
@@ -56,9 +58,17 @@ Sur Thonny, il y a un **mode programmation** et un **mode interactif**.
 
 Le mode programmation de Thonny est l'endroit où l'on va écrire nos programmes. C'est ce texte qui sera enregistré sur le fichier.
 
-Par exemple, je crée un fichier vide `test.py` (la terminaison `.py` indique qu'il s'agit bien d'un fichier python), puis j'écris un programme informatique qui réalise la somme de 5 et 5. Enfin, en cliquant sur le bouton d'exécution, j'exécute le programme. Nous devrions, à l'issue de cette manipulation, arriver à un état comme celui-ci :
+Par exemple :
 
-![](./img/mode_programmation.png)
+- Je crée un fichier vide `test.py` (la terminaison `.py` indique qu'il s'agit bien d'un fichier python).
+
+- J'écris un programme informatique qui réalise la somme de cinq et cinq.
+
+- Enfin, en cliquant sur le bouton d'exécution, j'exécute le programme.
+
+Nous devrions, à l'issue de cette manipulation, arriver à un état comme celui-ci :
+
+<img src="./img/mode_programmation.png" width="1000"/>
 
 Nous constatons plusieurs choses :
 
