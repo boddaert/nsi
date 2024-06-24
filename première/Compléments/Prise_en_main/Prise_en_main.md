@@ -32,7 +32,7 @@ L'objectif de construire un algorithme est qu'il soit compris par tous et qu'on 
 
 Comme nos langues naturelles, un langage de programmation est composé d'un alphabet et de règles.
 
-Nous distinguons une multitude de langages comme le *Java*, le *C++*, le *HTML*, le *CSS*, le *SQL*, etc ...
+Nous distinguons une multitude de langages comme le **Java**, le **C++**, le **HTML**, le **CSS**, le **SQL**, etc ...
 
 <img src="./img/langages.png" width="800"/>
 
@@ -42,13 +42,13 @@ En NSI, nous travaillerons avec le langage Python principalement.
 
 Il a été inventé en 1989 par le néerlandais Guido Van Rossum et est aujourd'hui l'un des lagages les plus utilisés au monde.
 
-![](./img/python_logo.png)
+<img src="./img/python_logo.png" width="800"/>
 
 ## IV. Environnement de développement
 
 Un *IDE* (ou environnement de développement) est un logiciel permettant d'écrire et de faire exécuter des programmes. Nous utiliserons pour cela le logiciel Thonny :
 
-![](./img/presentation_thonny.png)
+<img src="./img/presentation_thonny.png" width="800"/>
 
 Sur Thonny, il y a un **mode programmation** et un **mode interactif**.
 
