@@ -36,7 +36,9 @@ Nous distinguons une multitude de langages comme le *Java*, le *C++*, le *HTML*,
 
 <img src="./img/langages.png" width="100"/>
 
-`#0969DA`
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
+
 ![](./img/langages.png)
 
 ## III. Le Python
