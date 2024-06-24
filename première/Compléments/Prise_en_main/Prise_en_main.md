@@ -34,12 +34,7 @@ Comme nos langues naturelles, un langage de programmation est composé d'un alph
 
 Nous distinguons une multitude de langages comme le *Java*, le *C++*, le *HTML*, le *CSS*, le *SQL*, etc ...
 
-<img src="./img/langages.png" width="100"/>
-
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
-
-
-![](./img/langages.png)
+<img src="./img/langages.png" width="200"/>
 
 ## III. Le Python
 
