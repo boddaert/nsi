@@ -89,7 +89,7 @@ Nous constatons plusieurs choses :
 
 Le programme s'exécute t-il ?
 
-#### <u>Application 2</u>
+#### <ins>Application 2</ins>
 
 Remplacer l'opération de l'application 1 par `5 + * 3`
 
