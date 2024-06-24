@@ -73,12 +73,15 @@ Nous devrions, à l'issue de cette manipulation, arriver à un état comme celui
 Nous constatons plusieurs choses :
 
 - Premièrement, le programme a bien été enregistré sur le fichier puisque si je ferme le fichier et le réouvre avec Thonny, je retrouve mon programme.
-- Deuxièmement, le code a bien été éxécuté puisque dans la console du mode interactif, l'instruction `run test.py` le prouve.
+
+- Deuxièmement, le code a bien été éxécuté puisque dans la console du mode interactif : l'instruction `run test.py` le prouve.
+
 - Troisièmement, aucun résultat ne s'affiche.
 
-Aucun résultat ne s'est affiché et c'est tout à fait normal, je n'ai pas écris dans mon programme la fonction permettant d'afficher mon résultat. Donc, mon programme a bien effectué la somme de 5 et 5 mais n'a rien effectué de plus.
+> [!NOTE]
+> Aucun résultat ne s'est affiché et c'est tout à fait normal, je n'ai pas écris dans mon programme la fonction permettant d'afficher mon résultat. Donc, mon programme a bien effectué la somme de cinq et cinq mais n'a rien effectué de plus.
 
-##### Application 1
+##### $\textcolor{yellow}{Application \space 1}$
 
 - Ouvrir le logiciel Thonny.
 - Sur Thonny, créer le fichier `test_mon-nom.py`.
