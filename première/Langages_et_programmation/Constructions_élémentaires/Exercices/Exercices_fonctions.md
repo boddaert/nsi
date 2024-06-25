@@ -2,16 +2,20 @@
 
 ## Exercice 1
 
-Ecrire une fonction `double(n : int) -> int` qui prend en paramètre un entier $`n`$ et renvoie comme résultat $`n * 2`$.
+Écrire la signature de la fonction ``contient()`` qui prend en paramètre une chaîne de caractère $mot$, un caractère $lettre$ et renvoie comme résultat $True$ si $lettre$ est présent dans $mot$, $False$ sinon.
+
+## Exercice 2
+
+Écrire une fonction `double(n : int) -> int` qui prend en paramètre un entier $n$ et renvoie comme résultat $n \times 2$.
 
 ```python
 >>> double(2)
 4
 ```
 
-## Exercice 2
+## Exercice 3
 
-a) Ecrire une fonction `suivant(n : int) -> int` qui prend en paramètre un entier $`n`$ et renvoie comme résultat $`n+1`$.
+a) Écrire une fonction `suivant(n : int) -> int` qui prend en paramètre un entier $n$ et renvoie comme résultat $n+1$.
 
 b) Que renvoie l'instruction suivante ?
 
@@ -19,20 +23,20 @@ b) Que renvoie l'instruction suivante ?
 >>> suivant(suivant(2))
 ```
 
-## Exercice 3
+## Exercice 4
 
-Ecrire une fonction `est_egal_a(a : int, b : int) -> bool` qui prend en paramètre deux entiers $`a`$ et $`b`$ et renvoie comme résultat `True` si $`a`$ et $`b`$ sont égaux et $False$ sinon.
+Écrire une fonction `est_egal_a(a : int, b : int) -> bool` qui prend en paramètre deux entiers $a$ et $b$ et renvoie comme résultat $True$ si $a$ et $b$ sont égaux et $False$ sinon.
 
 ```python
 >>> est_egal_a(5,7)
 False
 ```
 
-## Exercice 4
+## Exercice 5
 
 L'énergie cinétique d'un objet de masse $m$ et de vitesse $v$ est : $`Ec=\frac{1}{2}mv^2`$.
 
-Ecrire une fonction ``energie_cinetique(m : float, v : float) -> float`` qui prend en paramètre une masse $m$ et une vitesse $v$, deux nombres flottants et renvoie la valeur de l'énergie cinétique d'un objet.
+Écrire une fonction ``energie_cinetique(m : float, v : float) -> float`` qui prend en paramètre une masse $m$ et une vitesse $v$, deux nombres flottants et renvoie la valeur de l'énergie cinétique d'un objet.
 
 Cette fonction devra utiliser les fonctions ``produit()`` et ``carre()`` vus dans le chapitre (cf : [Fonctions](./../Fonctions.md)).
 

@@ -1,137 +1,123 @@
 # Fonctions
 
-Voyons le programme suivant :
-
-```python
-hauteur_parallelepipede = 2
-largeur_parallelepipede = 2
-longueur_parallelepipede = 5
-
-aire_rectangle = longueur_parallelepipede * hauteur_parallelepipede
-aire_carre = hauteur_parallelepipede * largeur_parallelepipede
-
-aire_parallelepipede = (aire_rectangle * 4) + (aire_carre * 2)
-```
-
-Ce programme permet de calculer la somme des aires d'un parallèlépipède de hauteur $2$, de largeur $2$ et de longueur $5$.
-
-Nous constatons que nous avons calculé deux fois une aire : Une première fois pour l'aire d'un rectangle et la seconde pour un carré.
-
-L'opération effectuée est la même (une multiplication) mais les opérandes sont différents.
-
-Afin d'éviter de réécrire plusieurs fois une instruction réalisant la même action, nous utilisons les fonctions.
-
-Ainsi, ici nous aurions pu utiliser une fonction `aire()` qui s'occupe de calculer une aire.
-
 ## I. Définitions
 
-Une *fonction* est une séquence d'instruction réutilisable. Elle associe une séquence d'instruction à un nom.
+> [!IMPORTANT]
+> Une *fonction* est une séquence d'instruction réutilisable. Elle associe une séquence d'instruction à un nom.
 
 Nous la distinguons des variables parce que le nom est suivi de parenthèses.
 
 Elle réalise une tâche précise et peut dépendre de paramètres.
 
-Par exemple, la fonction `type()` que nous avons vu au chapitre sur les types (cf : [Types](./Types.md)) permet d'obtenir le type de la valeur passée en paramètre.
-
-```python
->>> type(5)
-<class 'int'>
-```
+> [!TIP]
+>Par exemple, la fonction `type()` que nous avons vu au chapitre sur les types (cf : [Types](./Types.md)) permet d'obtenir le type de la valeur passée en paramètre.
+>
+>```python
+>>>> type(5)
+><class 'int'>
+>```
 
 ### a) Signature
 
 Soit `somme()` la fonction permettant de faire la somme de deux entiers.
 
-Pour être un peu plus précis sur la définition d'une fonction, nous écrivons sa signature.
+Pour être un peu plus précis sur la définition d'une fonction, nous écrivons sa **signature**.
 
-La *signature d'une fonction* est composée du nom de la fonction, du nom et du type des paramètres, du type de la valeur du résultat renvoyé par la fonction.
+> [!IMPORTANT]
+>La *signature d'une fonction* est composée du nom de la fonction, du nom et du type des paramètres et du type de la valeur du résultat renvoyé par la fonction.
 
-Ainsi, la signature de la fonction `somme()` s'écrirait : `somme(a : int, b : int) -> int`.
-
-- Le nom est : `somme()`.
-
-- Les paramètres sont $`a`$ et $`b`$ et sont tous les deux de type `int`.
-
-- La valeur renvoyée par cette fonction est de type `int`.
+> [!TIP]
+> Par exemple : la signature de la fonction `somme()` s'écrirait : `somme(a : int, b : int) -> int`.
+>
+>- Le nom est : `somme()`.
+>
+>- Les paramètres sont `a` et `b` et sont tous les deux de type `int`.
+>
+>- La valeur renvoyée par cette fonction est de type `int`.
 
 La fonction `somme()` permet de faire la somme des entiers $a$ et $b$ passés en paramètres.
 
 ### b) Paramètres
 
+> [!IMPORTANT]
+>Un *paramètre* est une variable qui pourra être utilisée à l'intérieur de la fonction.
+
 Une fonction peut avoir zéro ou plusieurs paramètres.
 
-Un *paramètre* est une variable qui pourra être utilisée à l'intérieur de la fonction.
+#### <ins>Application 1</ins>
 
-##### Application 1
+Donner, pour chaque signature suivante, le nom de la fonction, son ou ses paramètres ainsi que leur type et le type de la valeur de résultat :
 
-Donner, pour chaque signature, le nom de la fonction, son ou ses paramètres ainsi que leur type et le type de la valeur de résultat :
+1. ``produit(a : int, b : int) -> int``
 
-- ``produit(a : int, b : int) -> int``
+2. ``est_superieur_a(a : int, b : int) -> bool``
 
-- ``est_superieur_a(a : int, b : int) -> bool``
+3. ``pythagore( a : float, b : float, c : float) -> float``
 
-- ``pythagore( a : float, b : float, c : float) -> float``
+4. ``nombre_caracteres(mot : str ) -> int``
 
-- ``nombre_caracteres(mot : str ) -> int``
+#### <ins>Application 2</ins>
 
-##### Application 2
+Écrire la signature de la fonction ``maximum()``qui prend en paramètres deux entiers $a$ et $b$ et renvoie comme résultat l'entier maximum parmi les deux.
 
-Ecrire la signature de la fonction ``maximum()``qui prend en paramètres deux entiers $a$ et $b$ et renvoie comme résultat l'entier maximum parmi les deux.
-
-##### Application 3
-
-Ecrire la signature de la fonction ``contient()`` qui prend en paramètre une chaîne de caractère $mot$, un caractère $lettre$ et renvoie comme résultat $True$ si $lettre$ est présent dans $mot$, $False$ sinon.
-
-## II. Ecriture de fonction
+## II. Écriture de fonction
 
 Une fonction en Python est composé de sa signature et d'un corps.
 
 ### a) Définition d'une fonction en Python
 
-Nous écrivons les fonctions en Python en utilisant le mot-cle : `def` suivi de la signature de la fonction suivi d'un `:`.
+Nous écrivons les fonctions en Python en utilisant le mot-clé `def` suivi de la signature de la fonction suivi d'un `:`.
 
-```python
-def somme(a : int, b : int) -> int :
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> def somme(a : int, b : int) -> int :
+> ```
 
 ### b) Corps d'une fonction
 
-Le *corps* d'une fonction est la séquence d'instruction située à l'intérieur.
+> [!IMPORTANT]
+> Le *corps* d'une fonction est la séquence d'instruction située à l'intérieur.
 
-Le corps d'une fonction est *indenté*, c'est-à-dire qu'il est légèrement décalé vers la droite.
+Le corps d'une fonction est **indenté**, c'est-à-dire qu'il est légèrement décalé vers la droite.
 
-```python
-def somme(a : int, b : int) -> int :
-    resultat = a + b
-```
+> [!TIP]
+> Par exemple :
+>```python
+>def somme(a : int, b : int) -> int :
+>    resultat = a + b
+>```
 
 ### c) Résultat d'une fonction
 
-Le mot-clé `return` permet de renvoyer un résultat.
+Le mot-clé `return` permet de **renvoyer** un résultat.
 
 Cette instruction est toujours la dernière.
 
-```python
-def somme(a : int, b : int) -> int :
-    resultat = a + b
-    return resultat
-```
+> [!TIP]
+> Par exemple :
+>```python
+>def somme(a : int, b : int) -> int :
+>    resultat = a + b
+>    return resultat
+>```
 
 ### e) Procédures
 
-Une *procédure* est une fonction ne renvoyant pas de résultat et donc ne contient pas d'instruction `return`.
+> [!IMPORTANT]
+> Une *procédure* est une fonction ne renvoyant pas de résultat et donc ne contient pas d'instruction `return`.
 
-##### Application 4
+#### <ins>Application 3</ins>
 
-Ecrire, en Python, la fonction ``produit(a : int, b : int) -> int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie comme résultat $`a * b`$.
+Écrire, en Python, la fonction ``produit(a : int, b : int) -> int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie comme résultat $a \times b$.
 
-##### Application 5
+#### <ins>Application 4</ins>
 
-Ecrire, en Python, la fonction `carre(n : int) -> int` qui prend en paramètres un entier $n$ et renvoie comme résultat $`n²`$.
+Écrire, en Python, la fonction `carre(n : int) -> int` qui prend en paramètres un entier $n$ et renvoie comme résultat $n²$.
 
 ## III. Appels de fonction
 
-Lorsque nous utilisons une fonction pour obtenir un résultat, nous réalisons un *appel* à cette fonction.
+Lorsque nous utilisons une fonction pour obtenir un résultat, nous réalisons un **appel** à cette fonction.
 
 Pour appeler une fonction, il suffit d'écrire le nom de la fonction avec les arguments souhaités entre parenthèses.
 
@@ -139,66 +125,71 @@ Pour appeler une fonction, il suffit d'écrire le nom de la fonction avec les ar
 
 Paramètres et arguments ne définissent pas la même chose.
 
-Un *argument* est la valeur que prend un paramètre lors d'un appel de fonction.
+> [!IMPORTANT]
+> Un *argument* est la valeur que prend un paramètre lors d'un appel de fonction.
 
-Ci-dessous, un exemple d'appel à la fonction `somme()` définie plus haut :
+> [!TIP]
+>```python
+>>>> somme(5,2)
+>7
+>```
+>
+>Les arguments sont `5` et `2`.
+>
+>Autrement dit, le paramètre `a` a comme valeur $5$ et le paramètre `b` a comme valeur $2$.
 
-```python
->>> somme(5,2)
-7
-```
+> [!WARNING]
+> Le type de l'argument doit être impérativement le même que celui du paramètre.
 
-Les arguments sont $`5`$ et $`2`$.
+#### <ins>Application 5</ins>
 
-Autrement dit, le paramètre $`a`$ a comme valeur $`5`$ et le paramètre $`b`$ a comme valeur $`2`$.
+a) Vérifier la bonne réponse à l'application $3$ en appelant la fonction dans la console Python plusieurs fois avec des arguments différents.
 
-Il est important que le type de l'argument doit être le même que celui du paramètre.
-
-##### Application 6
-
-Vérifier la bonne réponse à l'application 4 en appelant la fonction dans la console Python plusieurs fois avec des arguments différents.
-
-##### Application 7
-
-Vérifier la bonne réponse à l'application 5 en appelant la fonction dans la console Python plusieurs fois avec des arguments différents.
+b) Vérifier la bonne réponse à l'application $4$ en appelant la fonction dans la console Python plusieurs fois avec des arguments différents.
 
 ### b) Réutilisation d'un résultat d'une fonction
 
 Le résultat obtenu suite à l'appel d'une fonction représente une valeur.
 
-Nous pouvons stocker la valeur obtenue dans une variable :
+Nous pouvons stocker la valeur obtenue dans une variable.
 
-```python
->>> a = somme(5,2)
->>> a
-7
-```
+> [!TIP]
+> Par exemple :
+>```python
+>>>> a = somme(5,2)
+>>>> a
+>7
+>```
 
-Ou la réutiliser dans une opération :
+Ou la réutiliser dans une opération.
 
-```python
->>> 2 * somme(5,2)
-14
-```
+> [!TIP]
+> Par exemple :
+>```python
+>>>> 2 * somme(5,2)
+>14
+>```
 
-Ou encore l'utiliser en tant qu'argument d'une autre fonction :
+Ou encore l'utiliser en tant qu'argument d'une autre fonction.
 
-```python
->>> type(somme(5,2))
-<class 'int'>
-```
+> [!TIP]
+> Par exemple :
+>```python
+>>>> type(somme(5,2))
+><class 'int'>
+>```
 
-##### Application 8
+#### <ins>Application 6</ins>
 
-Donner le résultat des instructions suivantes :
+a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des séquence suivante :
 
-a) Instruction 1
+1. Instruction 1
 
 ```python
 >>> type(produit(3,4))
 ```
 
-b) Instruction 2
+2. Instruction 2
 
 ```python
 >>> a = somme(5,2)
@@ -207,17 +198,21 @@ b) Instruction 2
 >>> c
 ```
 
-c) Instruction 3
+3. Instruction 3
 
 ```python
 >>> somme(5, somme(3,2))
 ```
 
+b) b) Vérifier vos réponses en utilisant la console Python.
+
 ## IV. Fonctions natives de Python
 
-Les fonctions natives sont des fonctions qui existent déjà. La fonction ``type()`` par exemple est une fonction native.
+Les fonctions natives sont des fonctions qui existent déjà.
 
-##### Application 9
+La fonction ``type()`` par exemple est une fonction native.
+
+#### <ins>Application 7</ins>
 
 Il est possible, avec une fonction native, de changer le type de nos valeurs.
 
@@ -239,3 +234,7 @@ ___________
 ____________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
