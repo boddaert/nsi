@@ -63,7 +63,7 @@ Nous représentons la trace d'exécution d'un programme dans un tableau :
 >
 >| Numéro de ligne | Valeur affectée à la variable `a` | Valeur affectée à la variable `b` |
 >| --- | --- | --- |
->| 1 | 10 | / |
+>| 1 | $10$ | / |
 >| 2 | $11$ | / |
 >| 3 | $11$ | $10$ |
 
