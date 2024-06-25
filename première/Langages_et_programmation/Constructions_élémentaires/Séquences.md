@@ -23,7 +23,6 @@ L'ordre d'exécution d'une séquence d'instruction est le même que l'ordre de l
 
 > [!TIP]
 > Par exemple :
-> Nous pouvons le vérifier très facilement en écrivant un programme comportant une séquence d'instruction dans l'éditeur de texte de Thonny :
 > 
 >```python
 >a = 10
@@ -37,7 +36,7 @@ L'ordre d'exécution d'une séquence d'instruction est le même que l'ordre de l
 >11
 >```
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 Recopier le programme de l'exemple précédent et vérifier à votre tour la valeur affectée à la variable `a` dans la console Python.
 
@@ -51,23 +50,24 @@ Nous représentons la trace d'exécution d'un programme dans un tableau :
 | --- | --- | --- |
 | | | |
 
-Par exemple, pour le programme suivant :
+> [!TIP]
+> Par exemple, pour le programme suivant :
+>
+>```python
+>a = 10
+>a = a + 1
+>b = a - 1
+>```
+>
+>Nous obtenons la trace d'exécution suivante :
+>
+>| Numéro de ligne | Valeur affectée à la variable `a` | Valeur affectée à la variable `b` |
+>| --- | --- | --- |
+>| 1 | 10 | / |
+>| 2 | $11$ | / |
+>| 3 | $11$ | $10$ |
 
-```python
-a = 10
-a = a + 1
-b = a - 1
-```
-
-Nous obtenons la trace d'exécution suivante :
-
-| Numéro de ligne | Valeur affectée à la variable `a` | Valeur affectée à la variable `b` |
-| --- | --- | --- |
-| 1 | 10 | / |
-| 2 | $11$ | / |
-| 3 | $11$ | $10$ |
-
-##### Application 2
+#### <ins>Application 2</ins>
 
 Donner la trace d'exécution du programme suivant :
 
@@ -85,3 +85,7 @@ _______
 _______
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
