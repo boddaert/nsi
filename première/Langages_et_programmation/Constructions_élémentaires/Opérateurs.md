@@ -10,7 +10,7 @@ Comme sur la calculatrice classique, nous disposons les opérateurs entre des op
 Les opérandes sont des valeurs ou des variables.
 
 > [!TIP]
-> Par exemple dans l'exemple suivant, l'opérateur est `+` et les opérandes sont $`3`$ et $`6`$ :
+> Par exemple, l'opérateur est `+` et les opérandes sont `3` et `6` :
 > ```python
 > >>> 3 + 6
 > 9
@@ -33,6 +33,7 @@ Les opérandes sont des valeurs ou des variables.
 Les opérateurs mathématiques ont comme opérandes des nombres entiers ou flottants et renvoient comme résultat un nombre entier ou flottant.
 
 > [!TIP]
+> Par exemple :
 > ```python
 > >>> 12 // 4
 > 3
@@ -65,6 +66,7 @@ b) Vérifier vos réponses en utilisant la console Python.
 Les opérateurs de comparaison ont comme opérandes des nombres entiers ou flottants et renvoient comme résultat un booléen.
 
 > [!TIP]
+> Par exemple :
 >  ```python
 > >>> 5 > 2
 > True
@@ -94,6 +96,7 @@ b) Vérifier vos réponses en utilisant la console Python.
 Les opérateurs booléens ont comme opérandes des booléens et renvoient comme résultat un booléen.
 
 > [!TIP]
+> Par exemple :
 > ```python
 > >>> True or False
 > True
@@ -146,6 +149,7 @@ Comme sur la calculatrice classique, les ordres de priorité sont respectés. L'
 Les parenthèses `()` permettent d'augmenter la priorité de l'expression encadrée.
 
 > [!TIP]
+> Par exemple :
 > ```python
 > >>> (3 + 5) * 2
 > 16
