@@ -28,10 +28,12 @@ Attribuer un type à une valeur nous sert à **classer nos données** et donc à
 
 La fonction `type()` affiche le type d'une valeur mise entre les parenthèses :
 
-```python
->>> type(5)
-<class 'int'>
-```
+> [!TIP]
+> ```python
+> >>> type(5)
+> <class 'int'>
+> ```
+
 > [!NOTE]
 > Pour l'instant, il est inutile de s'attarder sur le mot-clé `class`, concentrons nous sur le mot-clé `int` qui nous indique qu'il s'agit du type `int` ou `integer` qui veut dire **entier**.
 
@@ -43,10 +45,11 @@ Dans la console Python et à l'aide de la fonction `type()`, vérifier que les v
 
 Les nombres réels sont les nombres décimaux et possèdent un type différent des entiers en Python :
 
-```python
->>> type(3.14)
-<class 'float'>
-```
+> [!TIP]
+> ```python
+> >>> type(3.14)
+> <class 'float'>
+> ```
 
 Le type des réels en Python est le type ``float`` pour **nombres flottants**.
 
@@ -63,12 +66,13 @@ Une chaîne de caractère est une valeur encadrée par des **guillemets** (ou de
 
 Une chaîne de caractère peut contenir plusieurs caractères : `"acdc"`.
 
-En Python, les chaînes de caractère sont représentés par le type ``str``  :
+En Python, les chaînes de caractère sont représentés par le type ``str``.
 
-```python
->>> type("a")
-<class 'str'>
-```
+> [!TIP]
+> ```python
+> >>> type("a")
+> <class 'str'>
+> ```
 
 #### <ins>Application 3</ins>
 
@@ -80,10 +84,11 @@ Les booléens sont un type bien particulier de la programmation, présents dans 
 
 Dans le type booléen, il y a seulement deux valeurs : **Vrai**, **Faux** respectivement `True` et `False` en Python.
 
-```python
->>> type(True)
-<class 'bool'>
-```
+> [!TIP]
+> ```python
+> >>> type(True)
+> <class 'bool'>
+> ```
 
 ####  <ins>Application 4</ins>
 
