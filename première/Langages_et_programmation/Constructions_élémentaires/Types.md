@@ -77,7 +77,7 @@ Dans la console Python et à l'aide de la fonction `type()`, vérifier que les v
 
 Les booléens sont un type bien particulier de la programmation, présents dans l'algèbre de Bool inventé par un mathématicien du même nom dans les années 1860.
 
-Dans le type booléen, il y a seulement deux valeurs : **Vrai**, **Faux** respectivement $`True`$ et $`False`$ en Python.
+Dans le type booléen, il y a seulement deux valeurs : **Vrai**, **Faux** respectivement `True` et `False` en Python.
 
 ```python
 >>> type(True)
