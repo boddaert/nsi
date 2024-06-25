@@ -6,33 +6,36 @@ Ce mode est très utile pour tester nos instructions mais celui-ci n'est pas des
 
 ## I. Définitions
 
-Un *programme informatique* est un texte composé d'intructions.
+> [!IMPORTANT]
+> Un *programme informatique* est un texte composé d'intructions.
 
-Une *instruction* désigne une étape dans un programme. Elle correspond à une action que l'ordinateur réalise lorsqu'il exécute le programme.
+> [!IMPORTANT]
+> Une *instruction* désigne une étape dans un programme. Elle correspond à une action que l'ordinateur réalise lorsqu'il exécute le programme.
 
-Les programmes sont très souvent constitués de plusieurs instructions, cela constitue une *séquence d'instruction*.
+> [!IMPORTANT]
+> Les programmes sont très souvent constitués de plusieurs instructions, cela constitue une *séquence d'instruction*.
 
 Nous associons une ligne de code à une instruction du programme.
 
 ## II. Ordre d'exécution
 
-L'ordre d'exécution d'une séquence d'instruction est le même que l'ordre de lecture. 
+L'ordre d'exécution d'une séquence d'instruction est le même que l'ordre de lecture (de haut en bas, de gauche à droite). 
 
-C'est à dire que l'instruction situé à la ligne $1$ sera exécutée en premier, puis celle située à la ligne $2$ en deuxième, et ainsi de suite ...
-
-Nous pouvons le vérifier très facilement en écrivant un programme comportant une séquence d'instruction dans l'éditeur de texte de Thonny :
-
-```python
-a = 10
-a = a + 1
-```
-
-Puis, après exécution, en vérifiant la valeur affectée à la variable `a` dans la console Python :
-
-```python
->>> a
-11
-```
+> [!TIP]
+> Par exemple :
+> Nous pouvons le vérifier très facilement en écrivant un programme comportant une séquence d'instruction dans l'éditeur de texte de Thonny :
+> 
+>```python
+>a = 10
+>a = a + 1
+>```
+>
+>Puis, après exécution, en vérifiant la valeur affectée à la variable `a` dans la console Python :
+>
+>```python
+>>>> a
+>11
+>```
 
 ##### Application 1
 
