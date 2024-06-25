@@ -42,33 +42,35 @@ Pour modifier la valeur contenue dans une variable, il suffit d'affecter une nou
 >67
 >```
 
-L'ancienne valeur est alors écrasée par la nouvelle valeur.
+L'ancienne valeur est alors **écrasée** par la nouvelle valeur.
 
-##### Application 1
+#### <ins>Application 1</ins>
 
-Dans la console python et en utilisant l'affectation, affecter :
+a) Dans la console python et en utilisant l'opérateur d'affectation, affecter :
 
-- la variable `ma_variable_a` avec la valeur $`1`$
-- la variable `ma_variable_b` avec la valeur $`9.99`$
-- la variable `ma_variable_c` avec la valeur $`"hello world"`$
-- la variable `ma_variable_d` avec la valeur $`True`$
+1. la variable `variable_a` avec la valeur `1`.
+2. la variable `variable_b` avec la valeur `9.99`.
+3. la variable `variable_c` avec la valeur `"hello world"`.
+4. la variable `variable_d` avec la valeur `True`.
 
-Puis, vérifier en appelant chacune des variables les valeurs associées.
+b) Vérifier les valeurs contenues dans chacune de ces variables en les appelant dans la console Python.
 
 ## III. Type d'une variable
 
 Le type d'une variable est le type de la valeur qu'elle contient.
 
-Nous pouvons, comme pour les valeurs, connaître le type des variables en utilisant la fonction ``type()`` :
+Nous pouvons, comme pour les valeurs, connaître le type des variables en utilisant la fonction ``type()``.
 
-```python
->>> type(ma_variable)
-<class 'int'>
-```
+> [!TIP]
+> Par exemple :
+>```python
+>>>> type(ma_variable)
+><class 'int'>
+>```
 
-##### Application 2
+#### <ins>Application 2</ins>
 
-Pour chacune des variables créées à l'application 1, vérifier leur type dans la console python en utilisant la fonction `type()`.
+Pour chacune des variables créées à l'application $1$, vérifier leur type dans la console python en utilisant la fonction `type()`.
 
 ________
 
