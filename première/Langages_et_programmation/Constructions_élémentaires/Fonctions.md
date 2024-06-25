@@ -204,7 +204,7 @@ a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des séquence s
 >>> somme(5, somme(3,2))
 ```
 
-b) b) Vérifier vos réponses en utilisant la console Python.
+b) Vérifier vos réponses en utilisant la console Python.
 
 ## IV. Fonctions natives de Python
 
