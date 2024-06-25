@@ -58,7 +58,7 @@ Le type des réels en Python est le type ``float`` pour **nombres flottants**.
 
 #### <ins>Application 2</ins>
 
-Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs $`0.6578543`$, $`0.0`$ et $`-6.4`$ sont bien des nombres flottants.
+Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `0.6578543`, `0.0` et `-6.4` sont bien des nombres flottants.
 
 ## III. Les chaînes de caractères
 
@@ -76,7 +76,7 @@ En Python, les chaînes de caractère sont représentés par le type ``str``.
 
 #### <ins>Application 3</ins>
 
-Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs $`"azerty"`$, $`"exemple@mail.fr"`$ et $`"3.14"`$ sont bien des chaînes de caractères.
+Dans la console Python et à l'aide de la fonction `type()`, vérifier que les valeurs `"azerty"`, `"exemple@mail.fr"` et `"3.14"` sont bien des chaînes de caractères.
 
 ## IV. Les booléens
 
