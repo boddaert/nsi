@@ -127,7 +127,7 @@ Répéter les étapes des applications $1$ et $2$ en utilisant cette fois unique
 
 ________
 
-[Sommaire](./../README.md)
+[Sommaire](./../../README.md)
 
 ___________
 

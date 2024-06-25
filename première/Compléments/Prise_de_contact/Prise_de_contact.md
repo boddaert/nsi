@@ -57,7 +57,7 @@ Il est fortement conseillé de posséder une clé USB dans laquelle vous pourrez
 
 ___________
 
-[Sommaire](./../README.md)
+[Sommaire](./../../README.md)
 
 ___________
 
