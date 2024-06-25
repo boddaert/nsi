@@ -2,27 +2,27 @@
 
 ## Exercice 1
 
-a) Sans utiliser l'ordinateur, donner le type des valeurs suivantes :
+a) Sans utiliser l'ordinateur, proposer le type des valeurs suivantes :
 
-- `8`
-- `6.5`
-- `"6.5"`
-- `'6.5'`
-- `False`
-- `"True"`
-- `""`
-- `True`
-- `true`
-- `5 + 4`
-- `"5 + 4"`
-- `'"abcd"'`
-- `5.5 + 0.3`
-- `5.5 + 0.5`
-- `5 + 3.14`
-- `5 + 3.0`
-- `5 / 2`
+1. `8`
+2. `6.5`
+3. `"6.5"`
+4. `'6.5'`
+5. `False`
+6. `"True"`
+7. `""`
+8. `True`
+9. `true`
+10. `5 + 4`
+11. `"5 + 4"`
+12. `'"abcd"'`
+13. `5.5 + 0.3`
+14. `5.5 + 0.5`
+15. `5 + 3.14`
+16. `5 + 3.0`
+17. `5 / 2`
 
-b) Vérifier, à l'aide de la fonction `type()` et dans la console vos précédentes réponses.
+b) À l'aide de la fonction `type()`, vérifier vos réponses en utilisant la console Python.
 
 ## Exercice 2
 

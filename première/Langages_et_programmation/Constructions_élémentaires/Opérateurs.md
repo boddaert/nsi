@@ -30,25 +30,26 @@ Les opérandes sont des valeurs ou des variables.
 |   Puissance   |   `**` |
 |   Modulo (reste de la division entière) |   `%` |
 
-Les opérateurs mathématiques ont comme opérandes des nombres entiers ou flottants et renvoient comme résultat un nombre entier ou flottant :
+Les opérateurs mathématiques ont comme opérandes des nombres entiers ou flottants et renvoient comme résultat un nombre entier ou flottant.
 
-```python
->>> 12 // 4
-3
-```
+> [!TIP]
+> ```python
+> >>> 12 // 4
+> 3
+> ```
 
-##### Application 1
+#### <ins>Application 1</ins>
 
-Nous considèrons les expressions suivantes :
+a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des opérations suivante :
 
-- `11 + 7`
-- `11 * 7`
-- `11 / 7`
-- `11 // 7`
-- `11 ** 7`
-- `11 % 7`
+1. `11 + 7`
+2. `11 * 7`
+3. `11 / 7`
+4. `11 // 7`
+5. `11 ** 7`
+6. `11 % 7`
 
-a) Sur chacune d'elle et à l'aide de la console Python, donner la réponse aux opérations.
+b) Vérifier vos réponses en utilisant la console Python.
 
 ### b) Opérateurs de comparaison
 
@@ -61,26 +62,26 @@ a) Sur chacune d'elle et à l'aide de la console Python, donner la réponse aux 
 |   Egal à |   `==` |
 |   Différent de    |   `!=` |
 
-Les opérateurs de comparaison ont comme opérandes des nombres entiers ou flottants et renvoient comme résultat un booléen :
+Les opérateurs de comparaison ont comme opérandes des nombres entiers ou flottants et renvoient comme résultat un booléen.
 
-```python
->>> 5 > 2
-True
-```
-##### Application 2
+> [!TIP]
+>  ```python
+> >>> 5 > 2
+> True
+> ```
 
-Nous considèrons les expressions suivantes :
+#### <ins>Application 2</ins>
 
-- `11 > 7`
-- `11 < 7`
-- `11 >= 7`
-- `11 <= 7`
-- `11 == 7`
-- `11 != 7`
+a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des opérations suivante :
 
-a) Sur chacune d'elle, proposer un résultat sans utiliser l'ordinateur.
+1. `11 > 7`
+2. `11 < 7`
+3. `11 >= 7`
+4. `11 <= 7`
+5. `11 == 7`
+6. `11 != 7`
 
-b) A l'aide de la console Python, vérifier vos résultats.
+b) Vérifier vos réponses en utilisant la console Python.
 
 ### c) Opérateurs booléens
 
@@ -90,14 +91,15 @@ b) A l'aide de la console Python, vérifier vos résultats.
 |   $ET$ |   `and` |
 |   $OR$ |   `or` |
 
-Les opérateurs booléens ont comme opérandes des booléens et renvoient comme résultat un booléen :
+Les opérateurs booléens ont comme opérandes des booléens et renvoient comme résultat un booléen.
 
-```python
->>> True or False
-True
-```
+> [!TIP]
+> ```python
+> >>> True or False
+> True
+> ```
 
-Nous résumons généralement les résultats des opérateurs booléens dans des *tables de vérité* :
+Nous résumons généralement les résultats des opérateurs booléens dans des **tables de vérité** :
 
 - Table de vérité de $NON$ :
 
@@ -125,47 +127,43 @@ Nous résumons généralement les résultats des opérateurs booléens dans des 
 | $True$ | $True$ | $True$ | 
 
 
-##### Application 3
+####  <ins>Application 3</ins>
 
-Nous considèrons les expressions suivantes :
+a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des opérations suivante :
 
-- `True or False`
-- `True or True`
-- `True and True`
-- `not False`
-- `not False and True`
-- `not False or not True`
+1. `True or False`
+2. `True or True`
+3. `True and True`
+4. `not False`
+5. `not False and True`
 
-a) Sur chacune d'elle, proposer un résultat sans utiliser l'ordinateur.
-
-b) A l'aide de la console Python, vérifier vos résultats.
+b) Vérifier vos réponses en utilisant la console Python.
 
 ## III. Ordres de priorité
 
 Comme sur la calculatrice classique, les ordres de priorité sont respectés. L'opérateur `*` étant prioritaire par rapport à l'opérateur `+`.
 
-Les parenthèses `()` permettent d'augmenter la priorité de l'expression encadrée :
+Les parenthèses `()` permettent d'augmenter la priorité de l'expression encadrée.
 
-```python
->>> (3 + 5) * 2
-16
-```
+> [!TIP]
+> ```python
+> >>> (3 + 5) * 2
+> 16
+> ```
 
-##### Application 4
+#### <ins>Application 4</ins>
 
-Nous considérons les expressions suivantes :
+a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des opérations suivante :
 
-- `(3 + 8) * 2`
+1. `(3 + 8) * 2`
 
-- `3 + (8 * 2)`
+2. `3 + (8 * 2)`
 
-- `3 + 8 * 2`
+3. `3 + 8 * 2`
 
-- `2 * 8 + 3`
+4. `2 * 8 + 3`
 
-a) Sur chacune d'elle, proposer un résultat sans utiliser l'ordinateur.
-
-b) A l'aide de la console Python, vérifier vos résultats.
+b) Vérifier vos réponses en utilisant la console Python.
 
 __________
 
@@ -173,3 +171,7 @@ __________
 __________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
