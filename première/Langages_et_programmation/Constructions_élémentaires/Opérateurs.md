@@ -2,18 +2,19 @@
 
 ## I. Définitions
 
-Un *opérateur* est un symbole permettant de réaliser une opération.
+> [!IMPORTANT]
+> Un *opérateur* est un symbole permettant de réaliser une opération.
 
-Comme sur la calculatrice classique, nous disposons les opérateurs entre des opérandes pour réaliser l'opération. Cela constitue une expression.
+Comme sur la calculatrice classique, nous disposons les opérateurs entre des opérandes pour réaliser l'opération. Cela constitue une **expression**.
 
-Les *opérandes* sont des valeurs ou des variables.
+Les opérandes sont des valeurs ou des variables.
 
-Par exemple dans l'exemple suivant, l'opérateur est `+` et les opérandes sont $`3`$ et $`6`$ :
-
-```python
->>> 3 + 6
-9
-```
+> [!TIP]
+> Par exemple dans l'exemple suivant, l'opérateur est `+` et les opérandes sont $`3`$ et $`6`$ :
+> ```python
+> >>> 3 + 6
+> 9
+> ```
 
 ## II. Les différents opérateurs
 

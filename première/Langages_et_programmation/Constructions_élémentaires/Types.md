@@ -9,7 +9,8 @@ En Python, les valeurs ont des types.
 
 Par exemple, `42` et `ù` sont des valeurs que nous pouvons manipuler dans nos programmes.
 
-Chaque valeur possède un *type* qui la **caractérise**.
+> [!IMPORTANT]
+> Chaque valeur possède un *type* qui la **caractérise**.
 
 Nous pouvons distinguer, parallèlement aux mathématiques, les nombres entiers et les réels par exemple, qui sont deux types distincts en Python : les entiers et les flottants.
 
