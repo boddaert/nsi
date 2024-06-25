@@ -29,16 +29,18 @@ Pour connaître la valeur contenue dans une variable, il suffit de **l'appeler**
 
 ### b) Ré-affectation
 
-Pour modifier la valeur contenue dans une variable, j'affecte une nouvelle valeur à ma variable :
+Pour modifier la valeur contenue dans une variable, il suffit d'affecter une nouvelle valeur à la variable.
 
-```python
->>> ma_variable = 42
->>> ma_variable
-42
->>> ma_variable = 67
->>> ma_variable
-67
-```
+> [!TIP]
+> Par exemple :
+>```python
+>>>> ma_variable = 42
+>>>> ma_variable
+>42
+>>>> ma_variable = 67
+>>>> ma_variable
+>67
+>```
 
 L'ancienne valeur est alors écrasée par la nouvelle valeur.
 
