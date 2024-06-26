@@ -2,19 +2,19 @@
 
 ## I. Définitions
 
-Une *instruction conditionnelle* est une instruction permettant d'exécuter certaines instructions uniquement si la condition est remplie.
+> [!IMPORTANT]
+>Une *instruction conditionnelle* est une instruction permettant d'exécuter certaines lignes de code uniquement si la condition est remplie.
 
-Une *condition* est un booléen, elle peut être le résultat d'une comparaison ou le résultat d'une opération booléenne (cf [Opérateurs](./Opérateurs.md)).
+> [!IMPORTANT]
+> Une *condition* est un booléen, elle peut être le résultat d'une comparaison ou le résultat d'une opération booléenne (cf [Opérateurs](./Opérateurs.md)).
 
-Une condition vaut donc soit $True$, soit $False$.
-
-Une condition est remplie si elle vaut $True$.
+Une condition vaut donc soit $True$, soit $False$ et une condition est remplie si elle vaut $True$.
 
 Si la condition n'est pas remplie, le code inclus dans l'instruction conditionnelle n'est pas exécuté.
 
 ### a) Schéma de branchement
 
-Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessinant son schéma de branchement :
+Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessinant son **schéma de branchement** :
 
 ```mermaid
   graph TB;
@@ -26,21 +26,26 @@ Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessi
 
 ### b) Syntaxe en Python
 
-En Python, l'instruction conditionnelle s'écrit par le mot-clé ``if`` (*Si* en Français):
+En Python, l'instruction conditionnelle s'écrit par le mot-clé ``if`` (*Si* en Français).
 
-```python
-if a == 0 :
-    a = a + 1
-b = a
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> if a == 0 :
+>     a = a + 1
+> b = a
+> ```
 
-Nous constatons que la séquence d'instruction, exécutée si la condition est vraie, est indentée.
+> [!NOTE]
+> La séquence d'instruction, exécutée si la condition est vraie, est **indentée**. C'est-à-dire, décalée de trois espaces vers la droite.
 
 En Français, cela se traduirait :
 
-- *Si* `a` est égal à 0, alors nous ajoutons $1$ à `a`.
-
-- Puis, nous affectons à la variable `b` la valeur de `a`.
+```
+Si a est égal à 0, alors :
+    a est égal à a+1
+b est égal à a
+```
 
 Son schéma de branchement donnerait :
 
@@ -53,11 +58,11 @@ Son schéma de branchement donnerait :
       C[b = a];
 ```
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 Donner, pour chaque programme suivant, son schéma de branchement :
 
-a) Programme 1
+1. Programme 1
 
 ```python
 if a != b :
@@ -65,7 +70,7 @@ if a != b :
 a = a * 2
 ```
 
-b) Programme 2
+2. Programme 2
 
 ```python
 if a or b :
@@ -73,7 +78,7 @@ if a or b :
     b = True
 ```
 
-c) Programme 3
+3. Programme 3
 
 ```python
 if a < b and b < c :
@@ -81,11 +86,11 @@ if a < b and b < c :
     c = a + 1
 ```
 
-##### Application 2
+#### <ins>Application 2</ins>
 
 Retrouver, pour chaque schéma de branchement suivant, le programme correspondant :
 
-a) Schéma de branchement 1
+1. Schéma de branchement 1
 
 ```mermaid
   graph TB;
@@ -95,7 +100,7 @@ a) Schéma de branchement 1
       A--False-->C[a = a // 2];
 ```
 
-b) Schéma de branchement 2
+2. Schéma de branchement 2
 
 ```mermaid
   graph TB;
@@ -105,7 +110,7 @@ b) Schéma de branchement 2
       A--False-->C[b = b + 1];
 ```
 
-c) Schéma de branchement 3
+3. Schéma de branchement 3
 
 ```mermaid
   graph TB;
@@ -115,7 +120,7 @@ c) Schéma de branchement 3
 
 ## II. Alternative
 
-L'instruction conditionnelle peut introduire une séquence d'instruction alternative, à n'exécuter que lorsque la condition est fausse.
+L'instruction conditionnelle peut introduire une **séquence d'instruction alternative**, à n'exécuter que lorsque la condition est fausse.
 
 ### a) Schéma de branchement
 
@@ -130,23 +135,27 @@ L'instruction conditionnelle peut introduire une séquence d'instruction alterna
 
 ### b) Syntaxe en Python
 
-En Python, l'instruction d'alternative s'écrit avec le mot-clé ``else`` (*Sinon* en Français) :
+En Python, l'instruction d'alternative s'écrit avec le mot-clé ``else`` (*Sinon* en Français).
 
-```python
-if a == 0 :
-    a = a + 1
-else :
-    a = a + 3
-b = a
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> if a == 0 :
+>     a = a + 1
+> else :
+>     a = a + 3
+> b = a
+> ```
 
 En Français, cela se traduirait :
 
-- *Si* `a` est égal à 0, alors nous ajoutons $1$ à `a`.
-
-- *Sinon*, nous ajoutons $3$ à `a`.
-
-- Puis, nous affectons à la variable `b` la valeur de `a`.
+```
+Si a est égal à 0, alors :
+    a est égal à a+1
+Sinon :
+    a est égal à a+3
+b est égal à a
+```
 
 Son schéma de branchement donnerait :
 
@@ -158,11 +167,12 @@ Son schéma de branchement donnerait :
       B-->D[b = a];
       C-->D[b = a];
 ```
-##### Application 3
+
+#### <ins>Application 3</ins>
 
 Donner, pour chaque programme suivant, son schéma de branchement :
 
-a) Programme 1
+1. Programme 1
 
 ```python
 if a == b :
@@ -171,7 +181,7 @@ else :
     b = b // 2
 ```
 
-b) Programme 2
+2. Programme 2
 
 ```python
 if a < b :
@@ -182,7 +192,7 @@ a = a * 2
 b = b * 2
 ```
 
-c) Programme 3
+3. Programme 3
 
 ```python
 if a < b and c != 0 :
@@ -191,11 +201,11 @@ else :
     c = b
 ```
 
-##### Application 4
+#### <ins>Application 4</ins>
 
 Retrouver, pour chaque schéma de branchement suivant, le programme correspondant :
 
-a) Schéma de branchement 1
+1. Schéma de branchement 1
 
 ```mermaid
   graph TB;
@@ -206,7 +216,7 @@ a) Schéma de branchement 1
       C-->D[b = a];
 ```
 
-b) Schéma de branchement 2
+2. Schéma de branchement 2
 
 ```mermaid
   graph TB;
@@ -215,7 +225,7 @@ b) Schéma de branchement 2
       A--False-->C[a = a + 1];
 ```
 
-c) Schéma de branchement 3
+3. Schéma de branchement 3
 
 ```mermaid
   graph TB;
@@ -233,3 +243,7 @@ _________________________
 __________________________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
