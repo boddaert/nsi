@@ -13,6 +13,8 @@ Cette fonction devra utiliser le module `math` qui aura été importé de maniè
 
 ## Exercice 2
 
+Rappel : Le calcul de l'hypoténuse du segment $c$ est : $c = sqrt{a^2 + b^2}$
+
 Écrire une fonction `hypotenuse(a : int, b : int)->float` qui prend en paramètre deux entiers et renvoie comme résultat la valeur de l'hypoténuse d'un triangle rectangle dont les deux autres côtés ont comme longueurs celles des paramètres.
 
 Cette fonction doit utiliser la fonction `racine()` définie précédemment.

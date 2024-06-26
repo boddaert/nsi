@@ -73,13 +73,13 @@ En utilisant la fonction `randint()` du module `random`, écrire une fonction `m
 
 ## Exercice 8 (Difficile)
 
+Rappel n°1 : Dans un triangle, aucune longueur n'est strictement supérieure à la somme des deux autres.
+
+Rappel n°2 : Un triangle équilatéral possède trois longueurs longueurs égales et un triangle isocèle en possède deux.
+
 a) Écrire une fonction ``test_triangle(a : int, b : int, c : int)->str`` qui prend en paramètres trois entiers représentant les longueurs d'un triangle et renvoie comme résultat une chaîne de caractères.
 
 La fonction doit renvoyer `isocele` s'il s'agit d'un triangle iscoèle, `equilateral` s'il s'agit d'un triangle équilatéral ou `ce nest pas un triangle` s'il ne s'agit pas d'un triangle.
-
-*Rappel : Dans un triangle, aucune longueur n'est strictement supérieure à la somme des deux autres.*
-
-*Rappel : Un triangle équilatéral possède trois longueurs longueurs égales et un triangle isocèle en possède deux.*
 
 b) Modifier la fonction ``test_triangle()`` en ajoutant le fait qu'il peut s'agir d'un triangle rectangle, on pourra utiliser la fonction ``test_pythagore()`` pour cela.
 

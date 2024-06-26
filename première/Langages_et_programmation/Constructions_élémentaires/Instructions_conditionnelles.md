@@ -26,7 +26,7 @@ Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessi
 
 ### b) Syntaxe en Python
 
-En Python, l'instruction conditionnelle s'écrit par le mot-clé ``if`` (*Si* en Français).
+En Python, l'instruction conditionnelle s'écrit par le mot-clé ``if`` (*Si* en français).
 
 > [!TIP]
 > Par exemple :
@@ -37,9 +37,9 @@ En Python, l'instruction conditionnelle s'écrit par le mot-clé ``if`` (*Si* en
 > ```
 
 > [!NOTE]
-> La séquence d'instruction, exécutée si la condition est vraie, est **indentée**. C'est-à-dire, décalée de trois espaces vers la droite.
+> La séquence d'instruction, exécutée si la condition est vraie, est **indentée** : c'est-à-dire, qu'elle est décalée de trois espaces vers la droite.
 
-En Français, cela se traduirait :
+Cela se traduit en français :
 
 ```
 Si a est égal à 0, alors :
@@ -47,7 +47,7 @@ Si a est égal à 0, alors :
 b est égal à a
 ```
 
-Son schéma de branchement donnerait :
+Son schéma de branchement est :
 
 ```mermaid
   graph TB;
@@ -127,15 +127,15 @@ L'instruction conditionnelle peut introduire une **séquence d'instruction alter
 ```mermaid
   graph TB;
       A{Si la condition vaut};
-      A--True-->B[Exécution de certaines instructions];
-      A--False-->C[Exécution de certaines instructions];   
-      B-->D[Suite programme];
-      C-->D[Suite programme]; 
+      A--True-->B[Exécution de certaines lignes de code];
+      A--False-->C[Exécution de certaines lignes de code];   
+      B-->D[Exécution de la suite du programme];
+      C-->D[Exécution de la suite du programme]; 
 ```
 
 ### b) Syntaxe en Python
 
-En Python, l'instruction d'alternative s'écrit avec le mot-clé ``else`` (*Sinon* en Français).
+En Python, l'instruction d'alternative s'écrit avec le mot-clé ``else`` (*Sinon* en français).
 
 > [!TIP]
 > Par exemple :
@@ -147,7 +147,7 @@ En Python, l'instruction d'alternative s'écrit avec le mot-clé ``else`` (*Sino
 > b = a
 > ```
 
-En Français, cela se traduirait :
+Cela se traduit en français :
 
 ```
 Si a est égal à 0, alors :
@@ -157,7 +157,7 @@ Sinon :
 b est égal à a
 ```
 
-Son schéma de branchement donnerait :
+Son schéma de branchement est :
 
 ```mermaid
   graph TB;
