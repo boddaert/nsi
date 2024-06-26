@@ -19,9 +19,9 @@ Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessi
 ```mermaid
   graph TB;
       A{Si la condition vaut};
-      A--True-->B[Exécution de certaines instructions];
-      B-->C[Suite programme];
-      A--False-->C[Suite programme];
+      A--True-->B[Exécution de certaines lignes de code];
+      B-->C[Exécution de la suite du programme];
+      A--False-->C[Exécution de la suite du programme];
 ```
 
 ### b) Syntaxe en Python
