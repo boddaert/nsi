@@ -6,7 +6,7 @@
 
 ## Exercice 2
 
-Écrire une fonction `double(n : int) -> int` qui prend en paramètre un entier $n$ et renvoie comme résultat $n \times 2$.
+Écrire une fonction `double(n : int)->int` qui prend en paramètre un entier $n$ et renvoie comme résultat $n \times 2$.
 
 ```python
 >>> double(2)
@@ -15,7 +15,7 @@
 
 ## Exercice 3
 
-a) Écrire une fonction `suivant(n : int) -> int` qui prend en paramètre un entier $n$ et renvoie comme résultat $n+1$.
+a) Écrire une fonction `suivant(n : int)->int` qui prend en paramètre un entier $n$ et renvoie comme résultat $n+1$.
 
 b) Que renvoie l'instruction suivante ?
 
@@ -25,18 +25,27 @@ b) Que renvoie l'instruction suivante ?
 
 ## Exercice 4
 
-Écrire une fonction `est_egal_a(a : int, b : int) -> bool` qui prend en paramètre deux entiers $a$ et $b$ et renvoie comme résultat $True$ si $a$ et $b$ sont égaux et $False$ sinon.
+Écrire une fonction `est_egal_a(a : int, b : int)->bool` qui prend en paramètre deux entiers $a$ et $b$ et renvoie comme résultat $True$ si $a$ et $b$ sont égaux et $False$ sinon.
 
 ```python
 >>> est_egal_a(5,7)
 False
 ```
 
+## Exercice 5
+
+Écrire une fonction `est_superieur_a(a : int, b : int)->bool` qui prend en paramètre deux entiers $a$ et $b$ et renvoie comme résultat $True$ si $a > b$ et $False$ sinon.
+
+```python
+>>> est_superieur_a(10, 9)
+True
+```
+
 ## Exercice 5 (Difficile)
 
 L'énergie cinétique d'un objet de masse $m$ et de vitesse $v$ est : $`Ec=\frac{1}{2}mv^2`$.
 
-Écrire une fonction ``energie_cinetique(m : float, v : float) -> float`` qui prend en paramètre une masse $m$ et une vitesse $v$, deux nombres flottants et renvoie la valeur de l'énergie cinétique d'un objet.
+Écrire une fonction ``energie_cinetique(m : float, v : float)->float`` qui prend en paramètre une masse $m$ et une vitesse $v$, deux nombres flottants et renvoie la valeur de l'énergie cinétique d'un objet.
 
 Cette fonction devra utiliser les fonctions ``produit()`` et ``carre()`` vus dans le chapitre (cf : [Fonctions](./../Fonctions.md)).
 
