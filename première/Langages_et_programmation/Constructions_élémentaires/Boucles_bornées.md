@@ -2,51 +2,58 @@
 
 ## I. Définitions
 
-Une *boucle* est une construction élémentaire qui permet de répéter une séquence d'instruction.
+> [!IMPORTANT]
+> Une *boucle* est une construction élémentaire qui permet de répéter une séquence d'instruction.
+>
+>Nous appelons le *corps de boucle* la séquence d'instruction qui sera répétée.
 
-Nous appelons le *corps de boucle* la séquence d'instruction qui sera répétée.
+> [!IMPORTANT]
+>Une *boucle bornée* permet de répéter l'exécution du corps de boucle un nombre fixe de fois.
 
-Une *boucle bornée* permet de répéter l'exécution du corps de boucle un nombre fixe de fois.
-
-En Python, les boucles bornées s'écrivent en utilisant le mot-clé `for` (*Pour* en Français) suivi d'un itérable.
-
-Nous utilisons les boucles bornées lorsque nous connaissons à l'avance combien de fois le corps de boucle sera exécuté.
+>[!NOTE]
+>Nous utilisons les boucles bornées lorsque nous connaissons à l'avance combien de fois le corps de boucle sera exécuté.
 
 ## II. Les itérables
 
 ### a) Définition
 
-Un *itérable* est une valeur sur laquelle nous pouvons itérer.
+En Python, les boucles bornées s'écrivent en utilisant le mot-clé `for` (*Pour* en français) suivi d'un itérable.
 
-*Itérer* revient à parcourir un à un les éléments de l'itérable.
-
-Un itérable est un *ensemble fini*, c'est-à-dire qu'il comporte un début et une fin.
+> [!IMPORTANT]
+>Un *itérable* est un ensemble fini de valeurs sur laquelle nous pouvons itérer.
+>
+>*Itérer* revient à parcourir **un à un** les éléments de l'itérable.
 
 Lorsque nous avons besoin d'un itérable, nous utilisons la fonction `range()`.
 
 ### b) La fonction range
 
-La fonction `range()` renvoie un itérable. Elle prend deux paramètres représentant une borne de début et une borne de fin :
+La fonction `range()` renvoie un itérable.
+
+Elle prend deux paramètres représentant une **borne de début** et une **borne de fin** :
 
 ```python
 >>> range(2,5)
 [2, 3, 4]
 ```
+>[WARNING]
+>La borne de fin est exclue.
 
-La borne de fin est exclue.
-
-##### Application 1
+#### <ins>Application 1</ins>
 
 Donner, sans utiliser l'ordinateur, le résultat des instructions suivantes :
 
+1. Instruction 1
 ```python
 >>> range(0,10)
 ```
 
+2. Instruction 2
 ```python
 >>> range(5,10)
 ```
 
+3. Instruction 3
 ```python
 >>> range(-5,-1)
 ```
@@ -55,82 +62,100 @@ Donner, sans utiliser l'ordinateur, le résultat des instructions suivantes :
 
 ### a) Syntaxe
 
-En Python, nous pouvons répéter un corps de boucle en parcourant un itérable :
+En Python, nous pouvons répéter un corps de boucle en parcourant un itérable à l'aide du mot-clé `for`.
 
-```python
-a = 0
-for i in range(2,5) :
-    a = a + 1
-```
+>[!TIP]
+>Par exemple :
+>```python
+>a = 0
+>for i in range(2,5) :
+>    a = a + 1
+>```
+>
+>Cela se traduit en français :
+>```
+>a est égal à 0
+>Pour i allant de 2 à 5, faire :
+>   a est égal à a+1
+>```
+>
+>À l'issue de l'exécution du programme précédent, la valeur affectée à la variable `a` est $3$.
 
-A l'issue de l'exécution du programme précédent, la valeur affectée à la variable `a` est $3$.
-
-En Français,cela se traduirait par :
-
-- Pour `i` allant de $2$ à $5$ exclus, j'ajoute $1$ à `a`.
-
-##### Application 2
+#### <ins>Application 2</ins>
 
 Traduire en Français les programmes suivants :
 
-a) Programme 1
+1. Programme 1
 
 ```python
 for i in range(0,10):
     a = a - 1
 ```
 
-b) Programme 2
+2. Programme 2
 
 ```python
 for ind in range(3,6):
     a = a + 5
 ```
 
-c) Programme 3
+3. Programme 3
 
 ```python
 for i in range(-5,3):
     a = a + 2
 ```
 
-##### Application 3
+#### <ins>Application 3</ins>
 
-Ecrire les programmes Python correspondant aux phrases suivantes :
+Écrire les programmes Python correspondant aux algorithmes suivants :
 
-a) Phrase 1
+1. Algorithme 1
+```
+a est égal à 0
+Pour i allant de 0 à 10, faire :
+    a est égal à a-5
+```
 
-- Pour `i` allant de $0$ à $10$ exclus, je retire $5$ à `a`.
+2. Algorithme 2
+```
+a est égal à 0
+Pour j allant de -1 à 20, faire :
+    a est égal à a+2
+```
 
-b) Phrase 2
-
-- Pour `j` allant de $-1$ à $20$ exclus, j'ajoute $2$ à `a`.
-
-c) Phrase 3
-
-- Pour `i` allant de $10$ à $20$ exclus, je retire $4$ à `a`.
+3. Algorithme 3
+```
+a est égal à 0
+Pour i allant de 10 à 20, faire :
+    a est égal à a-4
+```
 
 ### b) Indice de boucle
 
-La variable `i` est un *indice de boucle*. 
+>[!IMPORTANT]
+>La variable `i` est un *indice de boucle*. 
+>
+>Il indique la valeur de l'élément sur lequel nous itérons et est accessible dans le corps de boucle.
 
-Il indique la valeur de l'élément sur lequel nous itérons et est accessible dans le corps de boucle.
+>[!TIP]
+>Par exemple :
+>```python
+>a = 0
+>for i in range(2,5) :
+>    a = a + 1
+>```
+>
+>Dans le programme ci-dessus, la valeur affectée à la variable `i` est égal à :
+>
+>- $2$ au premier tour de boucle.
+>- $3$ au deuxième tour de boucle.
+>- $4$ au troisième tour de boucle.
 
-```python
-a = 0
-for i in range(2,5) :
-    a = a + 1
-```
+#### <ins>Application 4</ins>
 
-Dans l'exemple ci-dessus, la valeur affectée à la variable `i` :
+Pour chaque programme de l'application $2$, faire la trace d'exécution en indiquant en plus la valeur de l'indice de boucle.
 
-- Vaut $2$ au premier tour de boucle.
-- Vaut $3$ au deuxième tour de boucle.
-- Vaut $4$ au troisième tour de boucle.
-
-##### Application 4
-
-Pour chaque programme de l'application 2, donner la valeur de l'indice de boucle pour chaque tour de boucle.
 ________
 
 [Exercices](./Exercices/Exercices_boucles_bornees.md)
@@ -138,3 +163,7 @@ ________
 ________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
