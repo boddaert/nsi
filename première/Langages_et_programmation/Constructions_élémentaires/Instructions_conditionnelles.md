@@ -8,7 +8,7 @@
 > [!IMPORTANT]
 > Une *condition* est un booléen, elle peut être le résultat d'une comparaison ou le résultat d'une opération booléenne (cf [Opérateurs](./Opérateurs.md)).
 
-Une condition vaut donc soit $True$, soit $False$ et une condition est remplie si elle vaut $True$.
+Une condition vaut donc soit $VRAI$ respectivement `True`, soit $FAUX$ respectivement `False` et une condition est remplie si elle vaut $VRAI$.
 
 Si la condition n'est pas remplie, le code inclus dans l'instruction conditionnelle n'est pas exécuté.
 
@@ -19,9 +19,9 @@ Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessi
 ```mermaid
   graph TB;
       A{Si la condition vaut};
-      A--True-->B[Exécution de certaines lignes de code];
+      A--VRAI-->B[Exécution de certaines lignes de code];
       B-->C[Exécution de la suite du programme];
-      A--False-->C[Exécution de la suite du programme];
+      A--FAUX-->C[Exécution de la suite du programme];
 ```
 
 ### b) Syntaxe en Python
@@ -51,11 +51,11 @@ Son schéma de branchement est :
 
 ```mermaid
   graph TB;
-      A{if a == 0 :};
-      A--True-->B[a = a + 1];
-      B-->C[b = a];
-      A--False-->C[b = a];
-      C[b = a];
+      A{Si a est égal à 0, alors :};
+      A--VRAI-->B[a est égal à a+1];
+      B-->C[b est égal à a];
+      A--FAUX-->C[b est égal à a];
+      C[b est égal à a];
 ```
 
 #### <ins>Application 1</ins>
@@ -94,28 +94,28 @@ Retrouver, pour chaque schéma de branchement suivant, le programme correspondan
 
 ```mermaid
   graph TB;
-      A{if a != 0 :};
-      A--True-->B[b = b + 1];
-      B-->C[a = a // 2];
-      A--False-->C[a = a // 2];
+      A{Si a est différent de b, alors :};
+      A--VRAI-->B[b est égal à b+1];
+      B-->C[a est égal à a//2];
+      A--FAUX-->C[a est égal à a//2];
 ```
 
 2. Schéma de branchement 2
 
 ```mermaid
   graph TB;
-      A{if a >= 0 or b <= 0 :};
-      A--True-->B[a = a - 1];
-      B-->C[b = b + 1];
-      A--False-->C[b = b + 1];
+      A{Si a est supérieur ou égal à 0 ou b est inférieur ou égal à 0, alors :};
+      A--VRAI-->B[a est égal à a-1];
+      B-->C[b est égal à b+1];
+      A--FAUX-->C[b est égal à b+1];
 ```
 
 3. Schéma de branchement 3
 
 ```mermaid
   graph TB;
-      A{if a or b and not c :};
-      A--True-->B[c = not c];
+      A{Si a ou b et non c, alors :};
+      A--True-->B[c est égal à non c];
 ```
 
 ## II. Alternative
@@ -161,11 +161,11 @@ Son schéma de branchement est :
 
 ```mermaid
   graph TB;
-      A{if a == 0 :};
-      A--True-->B[a = a + 1];
-      A--False-->C[a = a + 3];
-      B-->D[b = a];
-      C-->D[b = a];
+      A{Si a est égal à 0, alors :};
+      A--VRAI-->B[a est égal à a+1];
+      A--FAUX-->C[a est égal à a+3];
+      B-->D[b est égal à a];
+      C-->D[b est égal à a];
 ```
 
 #### <ins>Application 3</ins>
@@ -209,31 +209,31 @@ Retrouver, pour chaque schéma de branchement suivant, le programme correspondan
 
 ```mermaid
   graph TB;
-      A{if a == 5 :};
-      A--True-->B[a = a + 5];
-      A--False-->C[a = a + 1];
-      B-->D[b = a];
-      C-->D[b = a];
+      A{Si a est égal à 5, alors :};
+      A--VRAI-->B[a est égal à a+5];
+      A--FAUX-->C[a est égal à a+1];
+      B-->D[b est égal à a];
+      C-->D[b est égal à a];
 ```
 
 2. Schéma de branchement 2
 
 ```mermaid
   graph TB;
-      A{if a % 2 == 0 :};
-      A--True-->B[b = a];
-      A--False-->C[a = a + 1];
+      A{Si a modulo 2 est égal à 0, alors :};
+      A--VRAI-->B[b est égal à a];
+      A--FAUX-->C[a est égal à a+1];
 ```
 
 3. Schéma de branchement 3
 
 ```mermaid
   graph TB;
-      A{if not a or not b :};
-      A--True-->B[a = True];
-      A--False-->C[a = False];
-      B-->D[b = True];
-      C-->D[b = True];
+      A{Si non a ou non b, alors :};
+      A--VRAI-->B[a est égal à True];
+      A--FAUX-->C[a est égal à False];
+      B-->D[b est égal à True];
+      C-->D[b est égal à True];
 ```
 
 _________________________
