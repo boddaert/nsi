@@ -28,6 +28,9 @@ Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessi
 
 En Python, l'instruction conditionnelle s'écrit par le mot-clé ``if`` (*Si* en français).
 
+> [!NOTE]
+> La séquence d'instruction, exécutée si la condition est vraie, est **indentée** : c'est-à-dire, qu'elle est décalée de trois espaces vers la droite.
+
 > [!TIP]
 > Par exemple :
 > ```python
@@ -35,9 +38,6 @@ En Python, l'instruction conditionnelle s'écrit par le mot-clé ``if`` (*Si* en
 >     a = a + 1
 > b = a
 > ```
->
->> [!NOTE]
->> La séquence d'instruction, exécutée si la condition est vraie, est **indentée** : c'est-à-dire, qu'elle est décalée de trois espaces vers la droite.
 >
 >Cela se traduit en français :
 >
