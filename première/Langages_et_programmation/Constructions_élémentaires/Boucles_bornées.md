@@ -36,7 +36,7 @@ Elle prend deux paramètres représentant une **borne de début** et une **borne
 >>> range(2,5)
 [2, 3, 4]
 ```
->[WARNING]
+>[!WARNING]
 >La borne de fin est exclue.
 
 #### <ins>Application 1</ins>
