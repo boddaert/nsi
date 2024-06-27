@@ -19,15 +19,17 @@ Elle réalise une tâche précise et peut dépendre de paramètres.
 
 ### a) Signature
 
-Soit `somme()` la fonction permettant de faire la somme de deux entiers.
-
 Pour être un peu plus précis sur la définition d'une fonction, nous écrivons sa **signature**.
 
 > [!IMPORTANT]
 >La *signature d'une fonction* est composée du nom de la fonction, du nom et du type des paramètres et du type de la valeur du résultat renvoyé par la fonction.
 
 > [!TIP]
-> Par exemple : la signature de la fonction `somme()` s'écrirait : `somme(a : int, b : int) -> int`.
+> Par exemple : 
+
+> Soit `somme()` la fonction permettant de faire la somme de deux entiers.
+>
+>La signature de la fonction `somme()` s'écrirait : `somme(a : int, b : int) -> int`.
 >
 >- Le nom est : `somme()`.
 >
@@ -35,14 +37,13 @@ Pour être un peu plus précis sur la définition d'une fonction, nous écrivons
 >
 >- La valeur renvoyée par cette fonction est de type `int`.
 
-La fonction `somme()` permet de faire la somme des entiers $a$ et $b$ passés en paramètres.
-
 ### b) Paramètres
 
 > [!IMPORTANT]
 >Un *paramètre* est une variable qui pourra être utilisée à l'intérieur de la fonction.
 
-Une fonction peut avoir zéro ou plusieurs paramètres.
+> [!WARNING]
+> Une fonction peut avoir zéro ou plusieurs paramètres.
 
 #### <ins>Application 1</ins>
 
@@ -62,7 +63,7 @@ Donner, pour chaque signature suivante, le nom de la fonction, son ou ses param�
 
 ## II. Écriture de fonction
 
-Une fonction en Python est composé de sa signature et d'un corps.
+Une fonction en Python est composé de sa **signature** et d'un **corps**.
 
 ### a) Définition d'une fonction en Python
 
@@ -79,7 +80,8 @@ Nous écrivons les fonctions en Python en utilisant le mot-clé `def` suivi de l
 > [!IMPORTANT]
 > Le *corps* d'une fonction est la séquence d'instruction située à l'intérieur.
 
-Le corps d'une fonction est **indenté**, c'est-à-dire qu'il est légèrement décalé vers la droite.
+> [!WARNING]
+> Le corps d'une fonction est **indenté**, c'est-à-dire qu'il est décalé de trois espaces vers la droite.
 
 > [!TIP]
 > Par exemple :
@@ -92,8 +94,6 @@ Le corps d'une fonction est **indenté**, c'est-à-dire qu'il est légèrement d
 
 Le mot-clé `return` permet de **renvoyer** un résultat.
 
-Cette instruction est toujours la dernière.
-
 > [!TIP]
 > Par exemple :
 >```python
@@ -101,6 +101,9 @@ Cette instruction est toujours la dernière.
 >    resultat = a + b
 >    return resultat
 >```
+
+> [!NOTE]
+> Il est toujours préférable que l'instruction `return` soit toujours la dernière afin d'éviter les erreurs.
 
 ### e) Procédures
 
@@ -208,9 +211,11 @@ b) Vérifier vos réponses en utilisant la console Python.
 
 ## IV. Fonctions natives de Python
 
-Les fonctions natives sont des fonctions qui existent déjà.
+> [!IMPORTANT]
+> Les *fonctions natives* sont des fonctions qui existent déjà.
 
-La fonction ``type()`` par exemple est une fonction native.
+> [!TIP]
+> La fonction ``type()`` par exemple est une fonction native.
 
 #### <ins>Application 7</ins>
 
