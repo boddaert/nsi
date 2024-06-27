@@ -34,6 +34,8 @@ while a < 10 or b < 10 :
     b = b + 1
 ```
 
+b) Vérifier vos résultats en exécutant les programmes dans Thonny.
+
 ## Exercice 2
 
 Écrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ et calcule $1+2+3+ ... +n$ en utilisant la boucle `while`.
