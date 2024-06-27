@@ -120,15 +120,15 @@ Retrouver, pour chaque schéma de branchement suivant, le programme correspondan
 
 ## II. Alternative
 
-L'instruction conditionnelle peut introduire une **séquence d'instruction alternative**, à n'exécuter que lorsque la condition est fausse.
+L'instruction conditionnelle peut inclure une **séquence d'instruction alternative**, à n'exécuter que lorsque la condition est fausse.
 
 ### a) Schéma de branchement
 
 ```mermaid
   graph TB;
       A{Si la condition vaut};
-      A--True-->B[Exécution de certaines lignes de code];
-      A--False-->C[Exécution de certaines lignes de code];   
+      A--VRAI-->B[Exécution de certaines lignes de code];
+      A--FAUX-->C[Exécution de certaines lignes de code];   
       B-->D[Exécution de la suite du programme];
       C-->D[Exécution de la suite du programme]; 
 ```
@@ -146,27 +146,27 @@ En Python, l'instruction d'alternative s'écrit avec le mot-clé ``else`` (*Sino
 >     a = a + 3
 > b = a
 > ```
-
-Cela se traduit en français :
-
-```
-Si a est égal à 0, alors :
-    a est égal à a+1
-Sinon :
-    a est égal à a+3
-b est égal à a
-```
-
-Son schéma de branchement est :
-
-```mermaid
-  graph TB;
-      A{Si a est égal à 0, alors :};
-      A--VRAI-->B[a est égal à a+1];
-      A--FAUX-->C[a est égal à a+3];
-      B-->D[b est égal à a];
-      C-->D[b est égal à a];
-```
+>
+> Cela se traduit en français :
+>
+> ```
+> Si a est égal à 0, alors :
+>     a est égal à a+1
+> Sinon :
+>     a est égal à a+3
+> b est égal à a
+> ```
+>
+> Son schéma de branchement est :
+> 
+> ```mermaid
+>   graph TB;
+>       A{Si a est égal à 0, alors :};
+>       A--VRAI-->B[a est égal à a+1];
+>       A--FAUX-->C[a est égal à a+3];
+>       B-->D[b est égal à a];
+>       C-->D[b est égal à a];
+> ```
 
 #### <ins>Application 3</ins>
 
