@@ -120,16 +120,18 @@ Le mot-clé `return` permet de **renvoyer** un résultat.
 
 ## III. Appels de fonction
 
-Lorsque nous utilisons une fonction pour obtenir un résultat, nous réalisons un **appel** à cette fonction.
-
-Pour appeler une fonction, il suffit d'écrire le nom de la fonction avec les arguments souhaités entre parenthèses.
-
 ### a) Arguments
 
-Paramètres et arguments ne définissent pas la même chose.
+> [!IMPORTANT]
+> Un *appel de fonction* revient à utiliser le code de cette fonction avec des arguments.
 
 > [!IMPORTANT]
 > Un *argument* est la valeur que prend un paramètre lors d'un appel de fonction.
+
+> [!WARNING]
+> Paramètres et arguments ne définissent pas la même chose.
+
+Pour appeler une fonction, il suffit d'écrire le nom de la fonction avec les arguments souhaités entre parenthèses.
 
 > [!TIP]
 >```python
