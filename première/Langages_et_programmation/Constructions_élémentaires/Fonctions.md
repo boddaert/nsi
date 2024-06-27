@@ -26,7 +26,7 @@ Pour être un peu plus précis sur la définition d'une fonction, nous écrivons
 
 > [!TIP]
 > Par exemple : 
-
+>
 > Soit `somme()` la fonction permettant de faire la somme de deux entiers.
 >
 >La signature de la fonction `somme()` s'écrirait : `somme(a : int, b : int) -> int`.
