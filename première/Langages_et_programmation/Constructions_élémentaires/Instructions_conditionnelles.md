@@ -35,28 +35,28 @@ En Python, l'instruction conditionnelle s'écrit par le mot-clé ``if`` (*Si* en
 >     a = a + 1
 > b = a
 > ```
-
-> [!NOTE]
-> La séquence d'instruction, exécutée si la condition est vraie, est **indentée** : c'est-à-dire, qu'elle est décalée de trois espaces vers la droite.
-
-Cela se traduit en français :
-
-```
-Si a est égal à 0, alors :
-    a est égal à a+1
-b est égal à a
-```
-
-Son schéma de branchement est :
-
-```mermaid
-  graph TB;
-      A{Si a est égal à 0, alors :};
-      A--VRAI-->B[a est égal à a+1];
-      B-->C[b est égal à a];
-      A--FAUX-->C[b est égal à a];
-      C[b est égal à a];
-```
+>
+>> [!NOTE]
+>> La séquence d'instruction, exécutée si la condition est vraie, est **indentée** : c'est-à-dire, qu'elle est décalée de trois espaces vers la droite.
+>
+>Cela se traduit en français :
+>
+>```
+>Si a est égal à 0, alors :
+>    a est égal à a+1
+>b est égal à a
+>```
+>
+>Son schéma de branchement est :
+>
+>```mermaid
+>  graph TB;
+>      A{Si a est égal à 0, alors :};
+>      A--VRAI-->B[a est égal à a+1];
+>      B-->C[b est égal à a];
+>      A--FAUX-->C[b est égal à a];
+>      C[b est égal à a];
+>```
 
 #### <ins>Application 1</ins>
 
