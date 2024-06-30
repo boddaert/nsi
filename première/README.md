@@ -25,7 +25,9 @@
 
 - Leçon 9 : [Boucles bornées](./Langages_et_programmation/Constructions_élémentaires/Boucles_bornées.md)
 
-- Projet n°1 : [Architectes](./Langages_et_programmation/Constructions_élémentaires/Projet_architectes.md)
+- Leçon 10 : [Interraction avec l'utilisateur](./Langages_et_programmation/Constructions_élémentaires/Interraction_avec_l_utilisateur.md)
+
+- Projet n°1 : [Test de rapidité](./Langages_et_programmation/Constructions_élémentaires/Projet_test_de_rapidité.md)
 
 ##### Chapitre 2 : Types et valeurs de base 1/1
 
@@ -41,11 +43,9 @@
 
 - Leçon 1 : [Chaînes de caractères](./Types_construits/Chaînes_de_caractère/Chaînes_de_caractère.md)
 
-- Leçon 2 : [Interraction avec l'utilisateur](./Types_construits/Chaînes_de_caractère/Interraction_avec_l_utilisateur.md)
-
 - Projet n°2 : [ChiFuMi - Nim - Plus ou moins](./Types_construits/Chaînes_de_caractère/Projet_chifumi_nim_plusoumoins.md)
 
-- Leçon 3 : [Représentation des textes en machine](./Types_et_valeurs_de_base/Représentation_des_textes_en_machine.md)
+- Leçon 2 : [Représentation des textes en machine](./Types_et_valeurs_de_base/Représentation_des_textes_en_machine.md)
 
 ##### Chapitre 4 : Architecture des machines 1/3
 
@@ -146,6 +146,10 @@
 - Leçon 1 : [Problèmes d'optimisation combinatoire](./Algorithmique/Algorithmes_gloutons/Problèmes_d_optimisation_combinatoire.md)
 
 - Leçon 2 : [Algorithmes gloutons](./Algorithmique/Algorithmes_gloutons/Algorithmes_gloutons.md)
+
+##### Chapitre 17 : Algorithmique 4/4
+
+- algo des k plus proches voisins
 
 
 ______________________

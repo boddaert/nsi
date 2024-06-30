@@ -57,7 +57,7 @@ Dans ce cas ci, il n'y a plus besoin de devoir réécrire le nom du module.
 Le module `math` possède toutes les fonctions mathématiques.
 
 | Nom  du module : | `math` |
-|---|---|
+|:---:|:---:|
 | Racine carrée de $n$ | `sqrt(n)` |
 | Trigonométrie | `sin()`, `cos()` |
 | Pi | `pi` |
@@ -69,11 +69,21 @@ Voir plus : [https://docs.python.org/fr/3.5/library/math.html](https://docs.pyth
 Le module `random` met à disposition plusieurs fonctions permettant de jouer avec l'aléatoire.
 
 | Nom du module : | `random` |
-|---|---|
+|:---:|:---:|
 | Entier aléatoire compris entre $x$ et $y$ | `randint(x : int, y : int)` |
 | Nombre aléatoire compris entre $0$ et $1$ | `random()` |
 
 Voir plus : [https://docs.python.org/fr/3/library/random.html](https://docs.python.org/fr/3/library/random.html)
+
+### c) Module de temps
+
+Le module `time` met à disposition des fonctions permettant la gestion du temps et de l'horloge de l'ordinateur.
+
+| Nom du module : | `time` |
+|:---:|:---:|
+| Lancement et fin du chronomètre | `time()` |
+
+Voir plus : [https://docs.python.org/fr/3/library/time.html](https://docs.python.org/fr/3/library/time.html)
 
 #### <ins>Application 1</ins>
 
