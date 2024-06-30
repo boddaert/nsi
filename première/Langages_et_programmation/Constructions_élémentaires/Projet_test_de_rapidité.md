@@ -18,21 +18,13 @@ Chaque multiplication posée est aléatoire.
 
 ## III. Affichage
 
-```python
->>> quiz()
-Bienvenue dans le test de rapidité !
-5 x 4 = 20
-5 x 0 = 0
-9 x 8 = 72
-0 x 5 = 0
-3 x 9 = 27
-2 x 1 = 2
-6 x 6 = 36
-2 x 0 = 0
-4 x 8 = 32
-4 x 6 = 24
-Vous avez obtenu 10 bonnes réponses sur dix en 53.257837533950806 secondes
-```
+Exemple d'affichage :
+
+![gif](./img/exemple_test_de_rapidité.gif)
+
+## IV. Aller plus loin
+
+Proposer au joueur de recommencer à jouer.
 
 ________
 
