@@ -37,10 +37,6 @@ La fonction `input()` dans un programme permet de demander à l'utilisateur d'en
 
 ___________
 
-[Exercices](./Exercices/Exercices_interraction_avec_l_utilisateur.md)
-
-___________
-
 [Sommaire](./../../README.md)
 
 ___________
