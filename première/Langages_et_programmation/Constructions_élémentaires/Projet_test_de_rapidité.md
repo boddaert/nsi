@@ -16,9 +16,9 @@ Chaque multiplication posée est aléatoire.
 
 4. Les noms de variables et de fonctions doivent être explicites.
 
-## III. Affichage
+## III. Exemple de rendu
 
-Exemple d'affichage :
+Exemple de rendu :
 
 ![gif](./img/exemple_test_de_rapidité.gif)
 
