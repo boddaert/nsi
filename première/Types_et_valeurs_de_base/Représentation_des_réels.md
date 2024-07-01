@@ -71,11 +71,11 @@ La norme IEEE 754 est : $x = (-1)^S * 2^e * M$.
 
 a) Aller sur [Float Toy](http://evanw.github.io/float-toy/).
 
-b) En demi-précision (seize bits), trouver la représentation décimale de $1100111110100111_2$ et noter le calcul effectué de la norme IEEE 754.
+b) En demi-précision (seize bits), trouver la représentation décimale de $1100 \space 1111 \space 1010 \space 0111_2$ et noter le calcul effectué de la norme IEEE 754.
 
-c) En demi-précision (seize bits), trouver la représentation décimale de $0001110111111111_2$ et noter le calcul effectué de la norme IEEE 754.
+c) En demi-précision (seize bits), trouver la représentation décimale de $0001 \space 1101 \space 1111 \space 1111_2$ et noter le calcul effectué de la norme IEEE 754.
 
-d) En demi-précision (seize bits), trouver la représentation décimale de $1100110000100011_2$ et noter le calcul effectué de la norme IEEE 754.
+d) En demi-précision (seize bits), trouver la représentation décimale de $1100 \space 1100 \space 0010 \space 0011_2$ et noter le calcul effectué de la norme IEEE 754.
 
 __________________
 
