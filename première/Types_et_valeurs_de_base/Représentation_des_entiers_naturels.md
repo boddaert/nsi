@@ -121,7 +121,8 @@ Nous disons de ces nombres qu'ils sont écrits en **base deux**.
 
 ### b) Séquence
 
-Un nombre représenté en base deux est une séquence de chiffres (aussi appelés **bits**) compris entre $0$ et $1$.
+> [!IMPORTANT]
+> Un nombre représenté en base deux est une séquence de chiffres (aussi appelés **bits**) compris entre $0$ et $1$.
 
 > [!TIP]
 > Par exemple :
@@ -189,7 +190,8 @@ Nous disons de ces nombres qu'ils sont écrits en **base seize**.
 
 ### b) Séquence
 
-Un nombre en base seize est une *séquence* de symboles compris entre $0$ et $F$.
+> [!IMPORTANT]
+> Un nombre en base seize est une *séquence* de symboles compris entre $0$ et $F$.
 
 Comme pour les représentation précédentes :
 
