@@ -63,13 +63,12 @@ flowchart LR
   end
 ```
 
+Nous disons de ces nombres qu'ils sont écrits en **base dix**.
 
-$0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$ et $9$.
-
-Ce qui correspond à la **base dix**.
+### b) Séquence
 
 > [!IMPORTANT]
-> Un nombre représenté en base dix est une *séquence* de symboles compris entre $0$ et $9$.
+> Un nombre représenté en base dix est une *séquence* de chiffres compris entre $0$ et $9$.
 
 > [!TIP]
 > Par exemple :
@@ -77,12 +76,15 @@ Ce qui correspond à la **base dix**.
 
 ### c) Notation
 
-Une nombre en base dix se note $456_{10}$
-### b) Poids des 
+Une nombre en base dix se note $n_{10}$ avec $n$ le nombre.
 
+> [!TIP]
+> Par exemple :
+> $456_{10}$
 
+### b) Poids des chiffres
 
-Dans cette représentation, les symboles sont organisés selon leur poids : 
+Les chiffres de la séquence sont organisés selon leur poids : 
 
 - le chiffre de poids zéro appelé le chiffre des unités
 - le chiffre de poids un appelé le chiffre des dizaines
@@ -91,13 +93,11 @@ Dans cette représentation, les symboles sont organisés selon leur poids :
 
 > [!TIP]
 > Par exemple :
->| Séquence $456$ | $4$ | $5$ | $6$ |
+>| Séquence $456_{10}$ | $4$ | $5$ | $6$ |
 >| --- | --- | --- | --- |
->| Poids des chiffres | Poids deux | Poids un | Poids zéro |
+>| Poids des chiffres | $2$ | $1$ | $0$ |
 
-
-
-##### Application 1
+#### <ins>Application 1</ins>
 
 Indiquer les poids de chacun des chiffres de la séquence $13098_{10}$.
 
@@ -107,39 +107,85 @@ Indiquer les poids de chacun des chiffres de la séquence $13098_{10}$.
 
 Un ordinateur ne comprend que les $0$ (tension basse) et les $1$ (tension haute).
 
-Un ordinateur utilise alors la *base deux* qui ne contient que deux symboles : $1$ et $0$.
+Pour écrire un nombre dans cette représentation, nous avons à disposition deux symboles : 
 
-Nous parlons alors de *représentation binaire*.
+```mermaid
+flowchart LR
+  subgraph Symboles disponibles :
+    A((0))
+    I((1))
+  end
+```
+
+Nous disons de ces nombres qu'ils sont écrits en **base deux**.
 
 ### b) Séquence
 
-Un nombre en base deux est une *séquence* de symboles de $0$ et de $1$.
+Un nombre représenté en base deux est une séquence de chiffres (aussi appelés **bits**) compris entre $0$ et $1$.
 
-Dans cette représentation, les symboles sont appelés *bits* et sont également organisés selon leur place : le bit de poids zéro, le bit de poids un, le bit de poids deux ...
-
-Comme pour la représentation décimale, le bit de poids le plus faible est situé à droite de la séquence.
-
-| Séquence $101$ | $1$ | $0$ | $1$ |
-| --- | --- | --- | --- |
-| Poids des chiffres | Poids deux | Poids un | Poids zéro |
-
-Nous appelons *octet* un regroupement de huit bits.
+> [!TIP]
+> Par exemple :
+> $101$
 
 ### c) Notation
 
-Un nombre en base deux se note $101_2$
+Une nombre en base deux se note $n_{2}$ avec $n$ le nombre.
 
-##### Application 2
+> [!TIP]
+> Par exemple :
+> $101_{2}$
 
-Indiquer les poids de chacun des chiffres de la séquence $10101110_2$.
+### d) Poids des bits
+
+Les bits de la séquence sont organisés selon leur poids : 
+
+- le bit de poids zéro aussi appelé le bit de poids faible
+- le bit de poids un 
+- le bit de poids deux
+- etc...
+
+> [!TIP]
+>| Séquence $101_2$ | $1$ | $0$ | $1$ |
+>| --- | --- | --- | --- |
+>| Poids des bits | $2$ | $1$ | $0$ |
+
+> [!NOTE]
+> Le bit situé tout à gauche de la séquence est appelé **bit de poids fort**.
+
+#### <ins>Application 2</ins>
+
+Indiquer les poids de chacun des bits de la séquence $10110_2$.
 
 ## V. Représentation hexadécimale
 
 ### a) Seize symboles
 
-Parfois, nous utilisons la représentation hexadécimale car elle correspond à la représentation binaire sur quatre bits et nous fais gagner ainsi de la place et du temps.
+Parfois, nous utilisons la **représentation hexadécimale** car elle correspond à la représentation binaire sur quatre bits et nous fais gagner ainsi de la place et du temps.
 
-Nous parlons alors de *base seize* et ses symboles sont : $0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, $9$, $A$, $B$, $C$, $D$, $E$ et $F$.
+Pour écrire un nombre dans cette représentation, nous avons à disposition seize symboles : 
+
+```mermaid
+flowchart LR
+  subgraph Symboles disponibles :
+    A((0))
+    B((7))
+    C((6))
+    D((4))
+    E((9))
+    F((2))
+    G((8))
+    H((3))
+    I((1))
+    J((A))
+    K((B))
+    L((C))
+    M((D))
+    N((E))
+    O((F))
+  end
+```
+
+Nous disons de ces nombres qu'ils sont écrits en **base seize**.
 
 ### b) Séquence
 
