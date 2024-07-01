@@ -52,14 +52,15 @@ Pour écrire un nombre dans cette représentation, nous avons à disposition dix
 flowchart LR
   subgraph Symboles disponibles :
     A((0))
-    B((7))
-    C((6))
-    D((4))
-    E((9))
-    F((2))
-    G((8))
-    H((3))
-    I((1))
+    B((1))
+    C((2))
+    D((3))
+    E((4))
+    F((5))
+    G((6))
+    H((7))
+    I((8))
+    P((9))
   end
 ```
 
@@ -94,8 +95,8 @@ Les chiffres de la séquence sont organisés selon leur poids :
 > [!TIP]
 > Par exemple :
 >| Séquence $456_{10}$ | $4$ | $5$ | $6$ |
->| --- | --- | --- | --- |
->| Poids des chiffres | $2$ | $1$ | $0$ |
+>| :---: | :---: | :---: | :---: |
+>| Poids des chiffres | $2$ | $1$ | $0$ |
 
 #### <ins>Application 1</ins>
 
@@ -122,7 +123,7 @@ Nous disons de ces nombres qu'ils sont écrits en **base deux**.
 ### b) Séquence
 
 > [!IMPORTANT]
-> Un nombre représenté en base deux est une séquence de chiffres (aussi appelés **bits**) compris entre $0$ et $1$.
+> Un nombre représenté en base deux est une *séquence* de chiffres (aussi appelés **bits**) compris entre $0$ et $1$.
 
 > [!TIP]
 > Par exemple :
@@ -146,16 +147,17 @@ Les bits de la séquence sont organisés selon leur poids :
 - etc...
 
 > [!TIP]
->| Séquence $101_2$ | $1$ | $0$ | $1$ |
->| --- | --- | --- | --- |
->| Poids des bits | $2$ | $1$ | $0$ |
+> Par exemple :
+>| Séquence $101_{2}$ | $1$ | $0$ | $1$ |
+>| :---: | :---: | :---: | :---: |
+>| Poids des bits | $2$ | $1$ | $0$ |
 
 > [!NOTE]
 > Le bit situé tout à gauche de la séquence est appelé **bit de poids fort**.
 
 #### <ins>Application 2</ins>
 
-Indiquer les poids de chacun des bits de la séquence $10110_2$.
+Donner un nombre en base deux différent de l'exemple.
 
 ## V. Représentation hexadécimale
 
@@ -169,14 +171,15 @@ Pour écrire un nombre dans cette représentation, nous avons à disposition sei
 flowchart LR
   subgraph Symboles disponibles :
     A((0))
-    B((7))
-    C((6))
-    D((4))
-    E((9))
-    F((2))
-    G((8))
-    H((3))
-    I((1))
+    B((1))
+    C((2))
+    D((3))
+    E((4))
+    F((5))
+    G((6))
+    H((7))
+    I((8))
+    P((9))
     J((A))
     K((B))
     L((C))
@@ -193,19 +196,38 @@ Nous disons de ces nombres qu'ils sont écrits en **base seize**.
 > [!IMPORTANT]
 > Un nombre en base seize est une *séquence* de symboles compris entre $0$ et $F$.
 
-Comme pour les représentation précédentes :
+> [!TIP]
+> Par exemple :
+> $A09$
 
-| Séquence $A09$ | $A$ | $0$ | $9$ |
-| --- | --- | --- | --- |
-| Poids des chiffres | Poids deux | Poids un | Poids zéro |
 
 ### c) Notation
 
-Un nombre en base seize se note $A09_{16}$
+Une nombre en base deux se note $n_{16}$ avec $n$ le nombre.
 
-##### Application 3
+> [!TIP]
+> Par exemple :
+> $A09_{16}$
 
-Indiquer les poids de chacun des chiffres de la séquence $1AA910F_{16}$.
+### d) Poids des chiffres
+
+Les chiffres de la séquence sont organisés selon leur poids : 
+
+- le chiffre de poids zéro aussi appelé le bit de poids faible
+- le chiffre de poids un 
+- le chiffre de poids deux
+- etc...
+
+> [!TIP]
+> Par exemple :
+>| Séquence $A09_{2}$ | $A$ | $0$ | $9$ |
+>| :---: | :---: | :---: | :---: |
+>| Poids des chiffres | $2$ | $1$ | $0$ |
+
+
+#### <ins>Application 3</ins>
+
+Donner un nombre écrit en base seize différent de l'exemple.
 
 ## VI. Récapitulatif des représentations
 
@@ -230,21 +252,18 @@ Indiquer les poids de chacun des chiffres de la séquence $1AA910F_{16}$.
 
 ## VII. Changements de base
 
-Lorsque nous programmons, nous écrivons les nombres dans notre représentation (décimale) or l'ordinateur ne comprend que la représentation binaire des nombres.
-
-Il y a donc nécessairement un changement de base : de la base dix vers la base deux.
-
-Et de la base deux vers la base dix lorsque nous lui demandons d'afficher un nombre.
+Un nombre ayant donc plusieurs représentations, il peut être utile de savoir comment passer la représentation de ce nombre d'une base à une autre.
 
 ### a) De la base dix vers la base deux
 
-Nous pouvons bien sûr nous référer au tableau ci-dessus, mais il existe une méthode pour changer la représentation d'un nombre en base deux.
+La méthode consiste à diviser euclidiennement et succéssivement le nombre par deux jusqu'à ce que le quotient atteigne $0$ et d'assembler les restes du bas vers le haut.
 
-Cette méthode consiste à diviser euclidiennement et succéssivement le nombre par deux jusqu'à atteindre $0$ et de récupérer les restes.
-
-Ainsi $456_{10} = 111001000_2$ :
-
-![](./img/base10_to_base2.png)
+> [!TIP]
+> Par exemple :
+>
+> <img src="./img/base10_to_base2.png" width="800">
+>
+> Ainsi $456_{10} = 111001000_2$ :
 
 ##### Application 4
 
