@@ -265,31 +265,36 @@ La méthode consiste à diviser euclidiennement et succéssivement le nombre par
 >
 > Ainsi $456_{10} = 111001000_2$ :
 
-##### Application 4
+#### <ins>Application 4</ins>
 
 Trouver la représentation binaire de $291_{10}$.
 
 ### b) De la base deux vers la base dix
 
-La méthode consiste à multiplier chaque bit à un de la séquence par deux puissance son poids.
+La méthode consiste à multiplier chaque bit à un de la séquence par $2^p$ avec $p$ le poids.
 
-Ainsi : $111001000_2 = (1 * 2^8) + (1 * 2^7) + (1 * 2^6) + (1 * 2^3) = 456_{10}$
+> [!TIP]
+> Par exemple :
+> $111001000_2 = (1 * 2^8) + (1 * 2^7) + (1 * 2^6) + (1 * 2^3) = 456_{10}$
 
-##### Application 5
+#### <ins>Application 5</ins>
 
 Trouver la représentation décimale de $1011011_2$.
 
 ### c) De la base deux vers la base seize
 
-La méthode consiste à regrouper les bits par bloc de quatre et de convertir chaque groupe en hexadécimal.
+La méthode consiste à regrouper les bits par bloc de quatre (en partant du bit du poids faible) et de convertir chaque groupe en hexadécimal.
 
-Ainsi : $111001000_2 = 1C8_{16}$
+> [!TIP]
+> Par exemple :
+>
+>| $1$ | 1100 | $1000$ |
+>| --- | --- | --- |
+>| $1$ | $C$ | $8$ |
+>
+> Ainsi : $111001000_2 = 1C8_{16}$
 
-| $1$ | 1100 | $1000$ |
-| --- | --- | --- |
-| $1$ | $C$ | $8$ |
-
-##### Application 6
+#### <ins>Application 6</ins>
 
 Trouver la représentation hexadécimale de $1011011_2$.
 _____________________
@@ -299,3 +304,6 @@ _____________________
 _____________________
 
 [Sommaire](./../README.md)
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

@@ -2,25 +2,39 @@
 
 ## Exercice 1
 
-1) Trouver la représentation hexadécimale de $111010000_2$.
+1. Trouver la représentation binaire de $89_{10}$.
 
-2) Trouver la représentation binaire de $89_{10}$.
+2. Trouver la représentation binaire de $55_{10}$.
 
-3) Trouver la représentation décimale de $100001101_2$.
-
-4) Trouver la représentation binaire de $FF78_{16}$.
-
-5) Trouver la représentation décimale de $BF4_{16}$.
-
-6) Trouver la représentation hexadécimale de $91_{10}$.
-
-7) Trouver la représentation binaire de $56CF167_{16}$.
-
-9) Trouver la représentation décimale de $91A_{16}$.
-
-10) Trouver la représentation hexadécimale de $17_{10}$.
+3. Trouver la représentation binaire de $100_{10}$.
 
 ## Exercice 2
+
+1. Trouver la représentation décimale de $100001101_2$.
+
+2. Trouver la représentation décimale de $11111_2$.
+
+3. Trouver la représentation décimale de $10101010101_2$.
+
+## Exercice 3
+
+1. Trouver la représentation hexadécimale de $111010000_2$.
+
+2. Trouver la représentation hexadécimale de $111111111_2$.
+
+3. Trouver la représentation binaire de $FF78_{16}$.
+
+4. Trouver la représentation binaire de $56CF167_{16}$.
+
+## Exercice 4
+
+1. Trouver la représentation décimale de $BF4_{16}$.
+
+2. Trouver la représentation hexadécimale de $91_{10}$.
+
+3. Trouver la représentation décimale de $91A_{16}$.
+
+## Exercice 5
 
 La fonction `bin(n : int)->str` prend en paramètre un entier en base dix et renvoie cet entier sous forme de chaîne de caractère dans sa représentation binaire :
 
@@ -31,9 +45,9 @@ La fonction `bin(n : int)->str` prend en paramètre un entier en base dix et ren
 
 `'Ob'` indiquant qu'il s'agit bien d'une représentation binaire.
 
-a) A l'aide de la fonction `bin()`, vérifier votre résultat à la question 2).
+a) À l'aide de la fonction `bin()`, vérifier vos résultats à l'exercice $1$.
 
-## Exercice 3 
+## Exercice 6 (Difficile)
 
 La fonction `hex(n : int)->str` prend en paramètre un entier en base dix et renvoie cet entier sous forme de chaîne de caractère dans sa représentation hexadécimale :
 
@@ -44,10 +58,6 @@ La fonction `hex(n : int)->str` prend en paramètre un entier en base dix et ren
 
 `'Ox'` indiquant qu'il s'agit bien d'une représentation hexadécimale.
 
-b) A l'aide de la fonction `hex()`, vérifier vos résultats aux questions 6) et 10).
-
-## Exercice 4
-
 La fonction `int(seq : str, base : int)->int` prend en paramètre une séquence sous forme de chaîne de caractère et la base dans laquelle est représentée la séquence et renvoie l'entier dans sa représentation décimale :
 
 ```python
@@ -57,8 +67,12 @@ La fonction `int(seq : str, base : int)->int` prend en paramètre une séquence 
 10
 ```
 
-c) A l'aide des fonctions `bin()`, `hex()` et `int()`, vérifier vos résultats aux questions 1), 3), 4), 5), 7), 8) et 9).
+a) À l'aide des fonctions `bin()`, `hex()` et `int()`, vérifier vos résultats aux exercices $2$, $3$ et $4$.
 
 ______________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
