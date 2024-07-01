@@ -27,7 +27,7 @@
 
 - Leçon 10 : [Interraction avec l'utilisateur](./Langages_et_programmation/Constructions_élémentaires/Interraction_avec_l_utilisateur.md)
 
-- Projet n°1 : [Test de rapidité](./Langages_et_programmation/Constructions_élémentaires/Projet_test_de_rapidité.md)
+- Projet n°1 : [Test de rapidité](./Projets/Projet_test_de_rapidité.md)
 
 ##### Chapitre 2 : Types et valeurs de base 1/1
 
@@ -43,9 +43,9 @@
 
 - Leçon 1 : [Chaînes de caractères](./Types_construits/Chaînes_de_caractère/Chaînes_de_caractère.md)
 
-- Projet n°2 : [ChiFuMi - Nim - Plus ou moins](./Types_construits/Chaînes_de_caractère/Projet_chifumi_nim_plusoumoins.md)
-
 - Leçon 2 : [Représentation des textes en machine](./Types_et_valeurs_de_base/Représentation_des_textes_en_machine.md)
+
+- Projet n°2 : [Motus](./Projets/Projet_motus.md)
 
 ##### Chapitre 4 : Architecture des machines 1/3
 
