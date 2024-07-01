@@ -30,9 +30,11 @@ flowchart LR
 
 ## II. Définitions
 
-Un *nombre* désigne une quantité.
+> [!IMPORTANT]
+>Un *nombre* désigne une quantité.
 
-La *représentation* d'un nombre est le symbole que nous lui associons.
+> [!IMPORTANT]
+> La *représentation* d'un nombre est le symbole que nous lui associons.
 
 Il existe plusieurs représentations pour un même nombre.
 
@@ -42,25 +44,56 @@ Par exemple le chiffre cinq peut s'écrire : $5$, $cinq$, $V$, ⚄, ...
 
 ### a) Dix symboles
 
-Nous, humains, utilisons usuellement la *représentation décimale* des nombres (Parce que nous avons dix doigts).
+Nous, humains, utilisons usuellement la **représentation décimale** des nombres (parce que nous avons dix doigts).
 
-C'est-à-dire que, pour écrire un nombre dans cette représentation, nous avons à disposition dix symboles dans cet ordre : $0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$ et $9$.
+Pour écrire un nombre dans cette représentation, nous avons à disposition dix symboles : 
 
-Ce qui correspond à la *base dix*.
+```mermaid
+flowchart LR
+  A[0]
+  B[7]
+  C[6]
+  D[4]
+  E[9]
+  F[2]
+  G[8]
+  H[3]
+  I[1]
+```
 
-### b) Séquence
 
-Un nombre en base dix est une *séquence* de symboles compris entre $0$ et $9$.
+$0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$ et $9$.
 
-Dans cette représentation, les symboles sont organisés selon leur poids : le chiffre de poids zéro appelé le chiffre des unités, le chiffre de poids un appelé le chiffre des dizaines, le chiffre de poids deux appelé le chiffre des centaines ...
+Ce qui correspond à la **base dix**.
 
-| Séquence $456$ | $4$ | $5$ | $6$ |
-| --- | --- | --- | --- |
-| Poids des chiffres | Poids deux | Poids un | Poids zéro |
+> [!IMPORTANT]
+> Un nombre représenté en base dix est une *séquence* de symboles compris entre $0$ et $9$.
+
+> [!TIP]
+> Par exemple :
+> $456$
 
 ### c) Notation
 
 Une nombre en base dix se note $456_{10}$
+### b) Poids des 
+
+
+
+Dans cette représentation, les symboles sont organisés selon leur poids : 
+
+- le chiffre de poids zéro appelé le chiffre des unités
+- le chiffre de poids un appelé le chiffre des dizaines
+- le chiffre de poids deux appelé le chiffre des centaines
+- etc...
+
+> [!TIP]
+> Par exemple :
+>| Séquence $456$ | $4$ | $5$ | $6$ |
+>| --- | --- | --- | --- |
+>| Poids des chiffres | Poids deux | Poids un | Poids zéro |
+
+
 
 ##### Application 1
 
