@@ -50,16 +50,16 @@ Pour écrire un nombre dans cette représentation, nous avons à disposition dix
 
 ```mermaid
 flowchart LR
-  subgraph symboles
-    A[0]
-    B[7]
-    C[6]
-    D[4]
-    E[9]
-    F[2]
-    G[8]
-    H[3]
-    I[1]
+  subgraph Symboles disponibles :
+    A((0))
+    B((7))
+    C((6))
+    D((4))
+    E((9))
+    F((2))
+    G((8))
+    H((3))
+    I((1))
   end
 ```
 
