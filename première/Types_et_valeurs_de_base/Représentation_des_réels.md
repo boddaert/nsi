@@ -39,7 +39,7 @@ La partie décimale, c'est-a-dire la partie située à droite de la virgule, s'o
 > Par exemple :
 > La partie décimale de $5,195_{10}$ est représentée par $0011_2$.
 >
-> <img src="./img/partie_decimale_virgule_fixe.png" width="800">
+> <img src="./img/partie_decimale_virgule_fixe.png" width="500">
 >
 > Donc, $5,195_{10} = 101,0011_2$.
 
