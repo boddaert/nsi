@@ -8,13 +8,13 @@ Chaque multiplication posée est aléatoire.
 
 ## II. Cahier des charges
 
-1. Votre programme Python doit utiliser les modules `random` et `time`.
+1. Le test doit comptabiliser le nombre de bonnes et mauvaises réponses.
 
-2. Votre programme Python doit être inclus dans des fonctions.
+2. Chaque multiplication posée est aléatoire.
 
-3. Le code doit être lisible.
+3. Le programme doit donner le temps chronométré du test.
 
-4. Les noms de variables et de fonctions doivent être explicites.
+4. Le code doit être lisible, les noms de variables/fonctions explicites.
 
 ## III. Exemple de rendu
 
