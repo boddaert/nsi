@@ -71,7 +71,7 @@ L'unité arithmétique et logique (*ALU* en anglais pour *Arithmetic Logic Unit*
 
 Il a deux entrées $e1$ et $e2$ (les opérandes) et une sortie (le résultat) $S$.
 
-Le circuit électronique effectuant les calculs repose sur les circuits combinatoires (cf Leçon 3 :[Circuits combinatoires](./Circuits_combinatoires.md)).
+Le circuit électronique effectuant les calculs repose sur les circuits combinatoires (cf Leçon 3 :[Circuits combinatoires](./../Circuits_combinatoires/Circuits_combinatoires.md)).
 
 #### 3. L'unité de contrôle
 
