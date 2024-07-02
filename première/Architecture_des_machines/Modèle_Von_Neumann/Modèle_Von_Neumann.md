@@ -8,7 +8,7 @@ Elle a été conçue au milieu des années quarante par une équipe de chercheur
 
 Le monde découvre en 1945 le nouvel ordinateur basé sur cette architecture : l'EDVAC.
 
-![Edvac](./img/edvac.png)
+<img src="./img/edvac.png" width="600">
 
 Le monstre occupe une surface de quarante-cinq mètres carré et pèse sept mille huit-cent kilos. Il dispose d'une mémoire de mille mots de quarante-quatre bits soit cinq kilo-octet.
 
@@ -18,13 +18,17 @@ Malgré une avancée fulgurante de la puissance et de la mémoire jusqu'à aujou
 
 ## II. Définitions
 
-Une *machine informatique* est une machine pouvant traiter de l'information.
+> [!IMPORTANT]
+> Une *machine informatique* est une machine pouvant traiter de l'information.
 
-Un *ordinateur* est une machine informatique pouvant exécuter des opérations logiques.
+> [!IMPORTANT]
+> Un *ordinateur* est une machine informatique pouvant exécuter des opérations logiques.
 
-Une *opération logique* est une opération relevant de l'algèbre de Boole, c'est-à-dire une opération sur des booléens.
+> [!IMPORTANT]
+> Une *opération logique* est une opération relevant de l'algèbre de Boole, c'est-à-dire une opération sur des booléens.
 
-Un *booléen* est une valeur qui est soit vraie, soit fausse, qui vaut soit $0$, soit $1$.
+> [!IMPORTANT]
+> Un *booléen* est une valeur qui est soit vraie, soit fausse, qui vaut soit $0$, soit $1$.
 
 ## III. Modèle Von Neumann
 
@@ -133,7 +137,7 @@ Nous distinguons plusieurs types de mémoire :
 
     + La mémoire *flash* est une mémoire non volatile mais contrairement à la mémoire morte, elle est modifiable. Nous parlons de mémoire flash pour les disques durs, les clés USB ou encore les cartes mémoires.
 
-- La mémoire *cache* enregistre temporairement des données et dispaît au bout d'un certain temps. Située dans le processeur, cette mémoire est la plus rapide mais également la plus limitée. Elle permet d'éviter un deuxième aller-retour à la mémoire lorsque des données doivent être réutilisées.
+- La mémoire *cache* enregistre temporairement des données et disparaît au bout d'un certain temps. Située dans le processeur, cette mémoire est la plus rapide mais également la plus limitée. Elle permet d'éviter un deuxième aller-retour à la mémoire lorsque des données doivent être réutilisées.
 
 ### b) Hierarchie
 
@@ -146,3 +150,7 @@ Nous distinguons plusieurs types de mémoire :
 ___________________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

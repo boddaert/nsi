@@ -22,11 +22,12 @@ Vous disposez par groupe d'une machine M10, d'un crayon et d'un papier de brouil
 
 La machine M10 est un ordinateur débranché simplifié, il comporte une mémoire de dix mots mémoires, d'une unité arithmétique et logique et d'un registre $S$ où sera donné le résultat des opérations de calculs.
 
-![Machine M10](./img/M10.png)
+<img src="./img/M10.png" width="800">
 
 ### b) Jeu d'instruction
 
-Le *jeu d'instruction* constitue le lexique des opérations réalisables sur cette machine en langage d'assemblage.
+> [!IMPORTANT]
+> Le *jeu d'instruction* constitue le lexique des opérations réalisables sur cette machine en langage d'assemblage.
 
 La machine M10 dispose de deux types d'instructions :
 
@@ -73,11 +74,11 @@ store 0
 
 e) Effacer, refaire la question b) et c).
 
-f) Ecrire un programme permettant de soustraire $2$ au nombre choisi, de le multiplier par $4$ et d'ajouter le nombre choisi au départ.
+f) Écrire un programme permettant de soustraire $2$ au nombre choisi, de le multiplier par $4$ et d'ajouter le nombre choisi au départ.
 
 g) Effacer, écrire dans la case de mot mémoire d'adresse $1$ la valeur $1$.
 
-h) Ecrire un programme permettant d'obtenir $1\times 2\times 3$.
+h) Écrire un programme permettant d'obtenir $1\times 2\times 3$.
 
 ## V. Extension
 
@@ -93,7 +94,7 @@ Le mnémonique `jpp x y` suivi de deux adresses mémoires permet de "sauter" à 
 
 a) Mettre dans la case de mot mémoire d'adresse $9$ la valeur $2$, puis dans celle d'adresse $8$ la valeur $3$.
 
-b) Ecrire le programme suivant dans la mémoire.
+b) Écrire le programme suivant dans la mémoire.
 
 ```x86
 sub 9 8
@@ -120,3 +121,7 @@ while n >= 0 :
 ___________________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
