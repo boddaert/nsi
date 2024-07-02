@@ -2,7 +2,7 @@
 
 ## I. Description
 
-Reprenant les règles du jeu "Motus", le joueur a six essais pour tenter de retrouver le mot motus.
+Reprenant les règles du jeu "Motus", le joueur a six essais pour tenter de retrouver le mot Motus.
 
 À chaque fois que le joueur propose un mot, des indices lui sont donnés :
 
@@ -48,7 +48,7 @@ Le module générateur `Faker` permet de générer un mot français aléatoire.
 Sa documentation est disponible [ici](https://faker.readthedocs.io/en/master/).
 ________
 
-[Sommaire](./../../README.md)
+[Sommaire](./../README.md)
 
 ___________
 
