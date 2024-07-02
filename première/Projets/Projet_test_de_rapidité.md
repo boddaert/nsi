@@ -28,7 +28,7 @@ Proposer au joueur de recommencer à jouer.
 
 ________
 
-[Sommaire](./../../README.md)
+[Sommaire](./../README.md)
 
 ___________
 
