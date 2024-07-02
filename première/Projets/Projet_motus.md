@@ -2,25 +2,29 @@
 
 ## I. Description
 
-Reprenant les règles du jeu télévisé "Motus", le programme propose au joueur de trouver un mot à l'aide d'indices.
+Reprenant les règles du jeu "Motus", le joueur a six essais pour tenter de retrouver le mot motus.
 
-En fonction du mot que le joueur a donné :
+À chaque fois que le joueur propose un mot, des indices lui sont donnés :
 
-- Les bonnes lettres à la bonne place sont coloriées en vert.
+- Les lettres sont coloriées en vert si elles sont à la bonne place.
 
-- Les bonnes lettres à la mauvaise place sont coloriées en jaune.
+- Les lettres sont coloriées en jaune si elles sont dans le mot mais à la mauvaise place.
 
-- Les mauvaises lettres sont coloriées en rouge.
+- Les lettres sont coloriées en rouge si elles ne sont pas dans le mot à trouver.
 
 ## II. Cahier des charges
 
-1. Votre programme Python doit utiliser le module `faker` (voir la documentation : [https://faker.readthedocs.io/en/master/](https://faker.readthedocs.io/en/master/)) afin de créer un mot aléatoire.
+Le programme Python doit respecter les contraintes suivantes :
 
-2. Votre programme Python doit être inclus dans plusieurs fonctions.
+1. Le mot Motus à retrouver a une taille de six lettres.
 
-3. Le code doit être lisible.
+2. Si le mot proposé par le joueur ne fais pas six lettres, le programme lui demande de réécrire un mot.
 
-4. Les noms de variables et de fonctions doivent être explicites.
+3. Le joueur a droit à six essais. Au delà, le joueur a perdu et le programme s'arrête.
+
+4. Les couleurs du jeu Motus sont respectées. 
+
+5. Le code doit être lisible, les noms de variables/fonctions explicites.
 
 ## III. Exemple de rendu
 
@@ -28,6 +32,20 @@ Exemple de rendu :
 
 ![gif](./img/exemple_motus.gif)
 
+## IV. Module générateur
+
+Le module générateur `Faker` permet de générer un mot français aléatoire.
+
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> from faker import Faker
+> >>> fake = Faker(locale="fr_FR")
+> >>> fake.word()
+> 'soir'
+> ```
+
+Sa documentation est disponible [ici](https://faker.readthedocs.io/en/master/).
 ________
 
 [Sommaire](./../../README.md)
