@@ -4,8 +4,6 @@
 
 Le quiz propose au joueur de donner le résultat de dix multiplications, affiche le nombre de bonnes réponses ainsi que le temps que le joueur a pris pour répondre.
 
-Chaque multiplication posée est aléatoire.
-
 ## II. Cahier des charges
 
 1. Le test doit comptabiliser le nombre de bonnes et mauvaises réponses.
