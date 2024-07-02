@@ -2,7 +2,7 @@
 
 Nature : Débranchée
 
-Matériel : Jeu de quatre cartes
+Matériel : Jeu de quatre cartes, un crayon et un papier de brouillon.
 
 Prérequis : Aucun
 
@@ -12,17 +12,13 @@ Prérequis : Aucun
 
 L'objectif du jeu est de découvrir le langage binaire et de déterminer les algorithmes permettant de passer d'une représentation décimale à une représentation binaire et vice-versa.
 
-## II. Matériel
-
-Vous disposez chacun d'un jeu de quatre cartes (l'As, le deux, le quatre et le huit), d'une feuille et d'un crayon.
-
-## III. Installation
+## II. Installation
 
 Placez les cartes dans l'ordre décroissant face visible comme ceci :
 
 ![](./img/cartes.png)
 
-## IV. Règles du jeu
+## III. Règles du jeu
 
 Les cartes peuvent être face visible ou face cachées.
 
@@ -30,7 +26,7 @@ Lorsque la carte est face visible, elle vaut $1$.
 
 Lorsque la carte est face cachée, elle vaut $0$.
 
-## V. Questions
+## IV. Questions
 
 Par groupe de deux, répondre aux questions suivantes sur votre feuille :
 

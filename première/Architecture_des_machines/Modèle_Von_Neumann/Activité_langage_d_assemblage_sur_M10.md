@@ -1,8 +1,8 @@
-# Activité : Langage d'assemblage sur la machine débranchée M10
+# Activité : Langage d'assemblage sur M10
 
 Nature : Débranchée
 
-Matériel : Représentation schématisée d'un ordinateur sur papier
+Matériel : Représentation schématisée d'un ordinateur sur papier, un crayon et un papier de brouillon.
 
 Prérequis : Aucun
 
@@ -12,11 +12,7 @@ Prérequis : Aucun
 
 L'objectif de cette activité est de comprendre et d'écrire un programme dans un langage simplifié d'assemblage.
 
-## II. Matériel
-
-Vous disposez par groupe d'une machine M10, d'un crayon et d'un papier de brouillon chacun.
-
-## III. Règles du jeu
+## II. Règles du jeu
 
 ### a) Machine M10
 
@@ -55,7 +51,7 @@ Le mnémonique `add` suivi de deux adresses mémoires permet d'effectuer la somm
 
 Les mnémoniques `sub`, `mul` et `div` permettent respectivement d'obtenir la différence, le produit et le quotient.
 
-## IV. Questions
+## III. Questions
 
 a) Recopier sur une feuille la machine M10.
 
@@ -80,7 +76,7 @@ g) Effacer, écrire dans la case de mot mémoire d'adresse $1$ la valeur $1$.
 
 h) Écrire un programme permettant d'obtenir $1\times 2\times 3$.
 
-## V. Extension
+## IV. Extension
 
 Nous allons désormais écrire nos programmes dans la mémoire, sauf si cela est indiqué, la première instruction du programme est située dans la case de mot mémoire d'adresse $0$.
 
@@ -90,7 +86,7 @@ Nous ajoutons également au jeu d'instruction de la machine M10 les instructions
 
 Le mnémonique `jpp x y` suivi de deux adresses mémoires permet de "sauter" à l'intruction d'adresse $x$ si le contenu de l'adresse $y$ est positif.
 
-## VI. Suite questions
+## V. Suite questions
 
 a) Mettre dans la case de mot mémoire d'adresse $9$ la valeur $2$, puis dans celle d'adresse $8$ la valeur $3$.
 
