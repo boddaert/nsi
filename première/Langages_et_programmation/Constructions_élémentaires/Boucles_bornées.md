@@ -5,13 +5,13 @@
 > [!IMPORTANT]
 > Une *boucle* est une construction élémentaire qui permet de répéter une séquence d'instruction.
 >
->Nous appelons le *corps de boucle* la séquence d'instruction qui sera répétée.
+> Nous appelons le *corps de boucle* la séquence d'instruction qui sera répétée.
 
 > [!IMPORTANT]
 >Une *boucle bornée* permet de répéter l'exécution du corps de boucle un nombre fixe de fois.
 
->[!NOTE]
->Nous utilisons les boucles bornées lorsque nous connaissons à l'avance combien de fois le corps de boucle sera exécuté.
+> [!NOTE]
+> Nous utilisons les boucles bornées lorsque nous connaissons à l'avance combien de fois le corps de boucle sera exécuté.
 
 ## II. Les itérables
 

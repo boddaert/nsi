@@ -14,7 +14,7 @@ Sur feuille, donner la séquence hexadécimale du texte ci-dessous à l'aide de 
 
 ## Exercice 3
 
-A l'aide des fonctions `ord()`, `chr()`, `bin()`, `hex()` et `int()`, répondre aux questions suivantes :
+À l'aide des fonctions `ord()`, `chr()`, `bin()`, `hex()` et `int()`, répondre aux questions suivantes :
 
 a) Trouver la représentation binaire du caractère `A`.
 
@@ -26,7 +26,7 @@ d) Trouver le caractère correspondant à la représentation hexadécimale $7A_{
 
 ## Exercice 4
 
-Ecrire une fonction ``str_to_ASCII(mot : str)->str`` qui prend en paramètre une chaîne de caractère et renvoie le code ASCII correspondant sous forme de chaîne de caractère.
+Écrire une fonction ``str_to_ASCII(mot : str)->str`` qui prend en paramètre une chaîne de caractère et renvoie le code ASCII correspondant sous forme de chaîne de caractère.
 
 ```python
 >>> str_to_ASCII('coucou')
@@ -39,7 +39,7 @@ L'algorithme **rot13** est un algorithme de chiffrement qui consiste à décaler
 
 Par exemple, le mot ``python`` est transformé en ``clguba`` . Cet algorithme ne décale pas les caractères "non imprimables" donc ne code pas les espaces.
 
-Ecrire une fonction ``rot13(mot : str)->str`` qui prend en paramètre une chaîne de caractère et renvoie sous forme de chaîne de caractère le mot chiffré selon l'algorithme de rot13 :
+Écrire une fonction ``rot13(mot : str)->str`` qui prend en paramètre une chaîne de caractère et renvoie sous forme de chaîne de caractère le mot chiffré selon l'algorithme de rot13 :
 
 ```python
 >>> rot13('python')
@@ -68,3 +68,7 @@ c) Expliquer pourquoi le caractère `é` s'est tranformé en `xE9`.
 __________________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

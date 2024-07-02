@@ -7,8 +7,6 @@ En Python, les valeurs ont des types.
 > [!IMPORTANT]
 > Une *valeur* est donnée manipulable.
 
-Par exemple, `42` et `ù` sont des valeurs que nous pouvons manipuler dans nos programmes.
-
 > [!IMPORTANT]
 > Chaque valeur possède un *type* qui la **caractérise**.
 

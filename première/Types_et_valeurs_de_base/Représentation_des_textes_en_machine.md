@@ -16,25 +16,17 @@ Il y a tout de même quelques contraintes :
 
 ## I. Définitions
 
-Un *codage des caractères* est un code qui permet de transmettre informatiquement des textes.
+> [!IMPORTANT]
+> Un *codage des caractères* est un code qui permet de transmettre informatiquement des textes.
 
-*Encoder* un caractère consiste à transcrire un caractère dans un format selon un codage.
+> [!IMPORTANT]
+>*Encoder* un caractère consiste à transcrire un caractère dans un format selon un codage.
 
-## I. Codage Morse
-
-Le codage Morse permettait de transmettre un texte à l’aide de séries d’impulsions courtes et longues, qu’elles soient produites par des signes, une lumière, un son ou un geste.
-
-![Codage Morse](./img/codage_morse.png)
-
-##### Application 1
-
-A l'aide du Codage Morse Internationnal, encoder, sous forme de point et de trait, le mot `morse`.
-
-## II. Codage ASCII
+## I. Codage ASCII
 
 ### a) Table ASCII
 
-L'ANSI ( *American National Standards Institute* ) propose au début des années soixante une norme de codage appelée ASCII ( *American Standard Code for Information Interchange* ).
+L'ANSI (pour *American National Standards Institute*) propose au début des années soixante une norme de codage appelée ASCII (pour *American Standard Code for Information Interchange*).
 
 Cette norme définit un codage de $128$ caractères où chaque caractère est représenté par un octet (avec un bit de contrôle et sept bits codants):
 
@@ -48,17 +40,19 @@ Le codage ASCII peut représenter :
 - Des opérateur arithmétiques.
 - Des caractères non imprimables (Espace, Retour à la ligne, etc...).
 
-D'après la table ASCII, le caractère `A` correspond à la séquence :
-
-- $1000001_2$.
-
-- $65_{10}$.
-
-- $41_{16}$.
+> [!TIP]
+> Par exemple :
+> Le caractère `A` correspond à la séquence :
+>
+> - $1000001_2$.
+>
+> - $65_{10}$.
+> 
+> - $41_{16}$.
 
 Plus d'informations sur l'encodage ASCII : [Wikipédia ASCII](https://fr.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange)
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 D'après le codage ASCII, trouver la séquence binaire, décimale et hexadécimale correspondant :
 
@@ -68,23 +62,27 @@ b) Au caractère `?`.
 
 ### b) ASCII en Python
 
-La fonction `ord()` prend en paramètre une chaîne de caractère et renvoie la représentation décimale correspondant à son encodage ASCII :
+La fonction `ord()` prend en paramètre une chaîne de caractère et renvoie la représentation décimale correspondant à son encodage ASCII.
 
-```python
->>> ord('A')
-65
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> ord('A')
+> 65
+> ```
 
-La fonction `chr()` prend en paramètre un entier et renvoie le caractère correspondant à son encodage ASCII :
+La fonction `chr()` prend en paramètre un entier et renvoie le caractère correspondant à son encodage ASCII.
 
-```python
->>> chr(65)
-'A'
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> chr(65)
+> 'A'
+> ```
 
-##### Application 2
+#### <ins>Application 2</ins>
 
-A l'aide des fonctions `ord()` et `chr()`, trouver :
+À l'aide des fonctions `ord()` et `chr()`, trouver :
 
 a) Le caractère correspondant à l'entier décimal $100$ selon l'encodage ASCII.
 
@@ -94,7 +92,7 @@ b) La représentation décimale correpondant au caractère `' '` selon l'encodag
 
 ### a) Extension de l'ASCII
 
-Malheureusement, l'encodage ASCII ne permet pas d'imprimer tous les caractères, il manque les caractères accentués, les symboles de monnaies et même les autres alphabets !
+Malheureusement, l'encodage ASCII ne permet pas d'imprimer tous les caractères, il manque les caractères accentués, les symboles de monnaies et même les autres alphabets.
 
 Pour remédier à ce problème, l'ISO ( *Organisation Internationale de Normalisation* ) a proposé une extension de l'ASCII qui utilise les huit bits de chaque octet pour représenter les caractères.
 
@@ -123,7 +121,7 @@ L'ISO propose alors une norme qui définit plusieurs pages de correspondances no
 | 8859-15 (latin-9)  | Révision du latin-1 (avec €)  |
 | 8859-16 (latin-10) | Europe du Sud-Est             |
 
-Nous, européens occidentaux, utilisons la page ISO 8859-1, reprise de l'ASCII étendu.
+Nous, européens occidentaux, utilisons la page ISO 8859-1, reprise de l'ASCII étendu (sur huit bits codants).
 
 Plus d'informations sur la norme ISO 8859 : [Wikipedia 8859](https://fr.wikipedia.org/wiki/ISO/CEI_8859)
 
@@ -135,7 +133,7 @@ Pour remplacer l'utilisation de ces pages, l'ISO a définit une nouvelle norme d
 
 La norme ISO 10646 regroupe donc tous les caractères du monde dans une seule page.
 
-Il y a aujourd'hui plus de cent-dix mille caractères recensés dans cette norme, qui est  conçue pour en contenir maximum quatre milliard (Plus précisément, $4 294 967 295$, c'est-à-dire le plus grand entier positif représentable sur trente-deux bits).
+Il y a aujourd'hui plus de cent-dix mille caractères recensés dans cette norme, qui est conçue pour en contenir au maximum quatre milliard (Plus précisément, $4 294 967 295$, c'est-à-dire le plus grand entier positif représentable sur trente-deux bits).
 
 Elle associe chaque caractère à un numéro (appelé *point de code*).
 
@@ -151,7 +149,7 @@ Plus d'informations sur la norme ISO 10646 : [Wikipedia 10646](https://fr.wikipe
 
 Cependant, avec un tel nombre de point de code, un encodage naïf de la norme ISO 10646 utiliserait donc au minimum quatre octets pour représenter chaque caractère.
 
-Or, dans la majorité des cas, nous n'avons besoin que d'un octet : il y aurait alors trois octets utilisés inutilement. Ce qui représente un énorme gachis !
+Or, dans la majorité des cas, nous n'avons besoin que d'un octet : il y aurait alors trois octets utilisés inutilement.
 
 Unicode a été développée par un consortium du même nom, une organisation privée à but non lucratif où l'objectif a été de représenter les points de code de manière économique.
 
@@ -176,23 +174,27 @@ Encodage UTF-8 du caractère `é` : $11000011 10101001_2$ ou $C3 A9_{16}$.
 
 ### b) Unicode en Python
 
-La méthode `encode()` permet d'obtenir l'encodage UTF-8 en hexadécimal à partir d'un caractère ou d'un point de code :
+La méthode `encode()` permet d'obtenir l'encodage UTF-8 en hexadécimal à partir d'un caractère ou d'un point de code.
 
-```python
->>> 'é'.encode()
-b'\xc3\xa9'
->>> '\u00E9'.encode()
-b'\xc3\xa9'
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> 'é'.encode()
+> b'\xc3\xa9'
+> >>> '\u00E9'.encode()
+> b'\xc3\xa9'
+> ```
 
-La méthode `decode()` permet d'obtenir un caractère à partir de son encodage UTF-8 :
+La méthode `decode()` permet d'obtenir un caractère à partir de son encodage UTF-8.
 
-```python
->>> b'\xc3\xa9'.decode()
-'é'
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> b'\xc3\xa9'.decode()
+> 'é'
+> ```
 
-##### Application 3
+#### <ins>Application 3</ins>
 
 Trouver l'encodage UTF-8 des caractères suivants :
 
@@ -202,7 +204,7 @@ b) `'Å'`
 
 c) `'જ'`
 
-##### Application 4
+#### <ins>Application 4</ins>
 
 Trouver les caractères des encodages UTF-8 suivants :
 
@@ -217,5 +219,9 @@ ______________
 ______________
 
 [Sommaire](./../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
 
 
