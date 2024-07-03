@@ -16,9 +16,11 @@ La spécification d'une fonction est complétée par les **préconditions** et l
 > 
 > - Le résultat renvoyé par la fonction est bien un élément supérieur à tous les autres de la liste.
 
+> Les postconditions doivent être vérifiées pour que la spécification d'une fonction soit vraie.
+
 Nous pouvons vérifier les postconditions d'une fonction en utilisant des jeux de test.
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Un *jeu de test* est un ensemble de test réalisé afin de vérifier les postconditions d'une fonction.
 >
 > Un *test* est une simulation d'exécution de la fonction avec des arguments bien choisis.
