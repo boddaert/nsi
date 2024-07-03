@@ -16,7 +16,7 @@ En Python, spécifier une fonction se fait à l'aide d'une documentation spécia
 
 ## II. Écriture de DocString
 
-La DocString s'écrit toujours après la signature d'une fonction et donne les informations suivantes :
+La DocString s'écrit toujours après la signature d'une fonction entre triple guillemets (`"""`) et donne les informations suivantes :
 
 - Les paramètres avec leur type.
 

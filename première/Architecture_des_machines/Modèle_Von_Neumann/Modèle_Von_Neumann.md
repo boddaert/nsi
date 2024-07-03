@@ -111,15 +111,15 @@ Pour que l'unité arithmétique et logique puisse exécuter une instruction se t
 
 Nous l'appelons le *cycle d'exécution d'instruction* et consiste à :
 
-1. Chargement
+1. **Chargement**
 
 Grâce à l'adresse mémoire stockée dans l'un de ses registres, l'unité de contrôle va récupérer le mot mémoire associée à cette adresse et la charger dans le processeur.
 
-2. Décodage
+2. **Décodage**
 
 Le mot mémoire est décodé afin de savoir de quel type d'instruction il s'agit et de quelles données (opérandes) l'instruction a besoin pour s'exécuter.
 
-3. Exécution
+3. **Exécution**
 
 Le mot mémoire est confié à l'unité arithmétique et logique pour être exécutée.
 

@@ -16,7 +16,7 @@ Lors de la leçon précédente (cf [Modèle Von Neumann](./Modèle_Von_Neumann.m
 
 ### a) Portes logiques
 
-Il existe trois types de transistors agissant différemment sur le courant électrique et représentent les trois *portes logiques* de base que nous connaisons déjà : la porte $NON$, la porte $OU$ et la porte $ET$.
+Il existe trois types de transistors agissant différemment sur le courant électrique et représentent les trois **portes logiques** de base que nous connaisons déjà : la porte $NON$, la porte $OU$ et la porte $ET$.
 
 Nous représentons en algèbre de Boole :
 
@@ -27,7 +27,7 @@ Nous représentons en algèbre de Boole :
 - La porte $NON$ par le symbole $\lnot$.
 
 > [!TIP]
->Par exemple, la porte $NON$ renvoie $1$ lorsqu'elle prend en entrée $0$ et renvoie $0$ lorsqu'elle prend en entrée $1$ (en sachant que la valeur booléenne $1$ représente $True$ et la valeur booléenne $0$ représente $False$) :
+> Par exemple, la porte $NON$ renvoie $1$ lorsqu'elle prend en entrée $0$ et renvoie $0$ lorsqu'elle prend en entrée $1$ (en sachant que la valeur booléenne $1$ représente `True` et la valeur booléenne $0$ représente `False`) :
 >
 > - $\lnot 1=0$
 >
@@ -87,8 +87,6 @@ Trouver le résultat, à l'aide de l'algèbre de Boole, des fonctions logiques s
 
 > [!IMPORTANT]
 >Une *table de vérité* est un tableau permettant d'indiquer toutes les sorties d'une fonction logique selon toutes les combinaisons possibles d'entrées.
-
-Les premières colonnes représentent les valeurs possibles des entrées et la dernière colonne représente le résultat de la fonction logique selon les entrées qu'elle a.
 
 > [!TIP]
 > Par exemple, la table de vérité de la fonction $(\lnot e_0 \lor e_1)\land e_2$ vue plus haut dans ce chapitre est :
