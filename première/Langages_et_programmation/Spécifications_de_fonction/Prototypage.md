@@ -46,7 +46,7 @@ La DocString s'écrit toujours après la signature d'une fonction entre triple g
 
 #### <ins>Application 1</ins>
 
-a) Recopier les réponses des exercices $10$, $11$, $12$, $13$ et $14$ des listes (cf [Exercices sur les listes](./../Structures_de_données/Exercices/Exercices_listes.md)) dans un nouveau fichier Python.
+a) Recopier les réponses des exercices $10$, $11$, $12$, $13$ et $14$ des listes (cf [Exercices sur les listes](./../../Types_construits/Tableaux/Exercices/Exercices_listes.md)) dans un nouveau fichier Python.
 
 b) Écrire la DocString pour chacune d'entre elles.
 

@@ -99,7 +99,7 @@ L'instruction `doctest.testmod(verbose=True)` permet de savoir si les tests ont 
 
 #### <ins>Application 1</ins>
 
-a) Proposer, sur papier, des contraintes de postconditions pour les exercices $10$, $11$, $12$, $13$ et $14$ des listes (cf [Exercices sur les listes](./../Structures_de_données/Exercices/Exercices_listes.md)).
+a) Proposer, sur papier, des contraintes de postconditions pour les exercices $10$, $11$, $12$, $13$ et $14$ des listes (cf [Exercices sur les listes](./../../Types_construits/Tableaux/Exercices/Exercices_listes.md)).
 
 b) Écrire les jeux de test correspondants aux postconditions proposées à la question précédente dans chacune des fonctions.
 

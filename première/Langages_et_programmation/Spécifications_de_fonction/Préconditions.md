@@ -67,7 +67,7 @@ En cas de non respect des assertions, le programme s'arrête et renvoie une erre
 
 #### <ins>Application 1</ins>
 
-a) Proposer, sur papier, des contraintes de préconditions pour les exercices $10$, $11$, $12$, $13$ et $14$ des listes (cf [Exercices sur les listes](./../Structures_de_données/Exercices/Exercices_listes.md)).
+a) Proposer, sur papier, des contraintes de préconditions pour les exercices $10$, $11$, $12$, $13$ et $14$ des listes (cf [Exercices sur les listes](./../../Types_construits/Tableaux/Exercices/Exercices_listes.md)).
 
 b) Écrire les assertions correspondantes aux préconditions proposées à la question précédente dans chacune des fonctions.
 
