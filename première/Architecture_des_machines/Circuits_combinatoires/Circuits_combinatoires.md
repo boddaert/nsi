@@ -10,7 +10,7 @@ Lors de la leçon précédente (cf [Modèle Von Neumann](./Modèle_Von_Neumann.m
 > [!IMPORTANT]
 >Un *transistor* est un composant électronique permettant de contrôler ou d'amplifier des tensions et des courants électriques. Ils agissent selon la méthode du tout ou rien comme des interrupteurs qui laissent passer le courant électrique ou non.
 
-<img src="./img/transistor.png" width="500">
+<img src="./img/transistor.png" width="200">
 
 ## II. Fonctions logiques
 
