@@ -36,7 +36,7 @@ En Python, nous pouvons écrire un jeu de test à l'aide du module `doctest`.
 
 Les tests s'écrivent dans la DocString, après la spécification, et représentent le comportement de la console après une instruction.
 
-> ![TIP]
+> [!TIP]
 > Par exemple :
 > ```python
 > def max(l : list)->int:
