@@ -18,11 +18,11 @@ Un afficheur sept segments est un afficheur de chiffre comportant sept segments.
 
 En fonction du chiffre à afficher, certains segments sont allumés, d'autres non :
 
-![image](./img/afficheur_sept_segments.png)
+<img src="./img/afficheur_sept_segments.png" width="500">
 
 L'idée est de nommer chacun des segments par une lettre comme ci-dessous :
 
-![image](./img/afficheur_sept_segments_nommes.png)
+<img src="./img/afficheur_sept_segments_nommes.png" width="500">
 
 Ces lettres sont des variables logiques de sortie, elles valent $0$ si le segment correspondant est éteint, $1$ si le segment est allumé.
 
@@ -46,9 +46,9 @@ c) En déduire le nombre de bits d'entrée à la fonction logique.
 
 d) Pour quels symboles votre segment s'allume ?
 
-e) Etablir la table de vérité de votre segment.
+e) Établir la table de vérité de votre segment.
 
-f) Repérer les lignes de votre table de vérité dont le bit de sortie vaut $1$ : il s'agit de tous les cas où le segment s'allume. Ecrire la fonction logique pour une seule ligne.
+f) Repérer les lignes de votre table de vérité dont le bit de sortie vaut $1$ : il s'agit de tous les cas où le segment s'allume. Écrire la fonction logique pour une seule ligne.
 
 g) En déduire la fonction logique de votre segment.
 
@@ -56,3 +56,6 @@ __________________
 
 [Sommaire](./../../README.md)
 
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
