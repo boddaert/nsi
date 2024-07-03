@@ -18,11 +18,11 @@ Un afficheur sept segments est un afficheur de chiffre comportant sept segments.
 
 En fonction du chiffre à afficher, certains segments sont allumés, d'autres non :
 
-<img src="./img/afficheur_sept_segments.png" width=500>
+<img src="./img/afficheur_sept_segments.png" width=250>
 
 L'idée est de nommer chacun des segments par une lettre comme ci-dessous :
 
-<img src="./img/afficheur_sept_segments_nommes.png" width=500>
+<img src="./img/afficheur_sept_segments_nommes.png" width=100>
 
 Ces lettres sont des variables logiques de sortie, elles valent $0$ si le segment correspondant est éteint, $1$ si le segment est allumé.
 

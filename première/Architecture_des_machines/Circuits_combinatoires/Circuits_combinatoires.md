@@ -104,7 +104,7 @@ Les premières colonnes représentent les valeurs possibles des entrées et la d
 > | $1$ | $1$ | $0$ | $0$ | $1$ | $0$ |
 > | $1$ | $1$ | $1$ | $0$ | $1$ | $1$ |
 >
-> Cette table nous indique que si $e_0=0$, $e_1=1$ et $e_2=0$ alors le résultat est $0$.
+> Cette table nous indique que si $e_0=0$, $e_1=1$ et $e_2=0$ alors la sortie est $0$.
 
 > [!NOTE]
 > Il est préférable de décomposer la fonction logique en plusieurs sous-expressions afin de simplifier.
