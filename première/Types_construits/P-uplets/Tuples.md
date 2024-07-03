@@ -1,6 +1,6 @@
 # Tuples
 
-## I. Définition
+## I. Définitions
 
 > [!IMPORTANT]
 > Un *tuple* (ou *p-uplet*) est une structure linéaire non mutable de données. (Voir [listes](./Listes.md) pour les définitions)
