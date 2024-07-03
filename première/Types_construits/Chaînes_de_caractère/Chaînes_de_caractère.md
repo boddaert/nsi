@@ -276,7 +276,7 @@ Dans le parcours par indice, nous parcourons les caractères indice par indice.
 
 #### <ins>Application 9</ins>
 
-Compléter la trace d'exécution de l'exemple précédent.
+Recopier et compléter la trace d'exécution de l'exemple précédent.
 
 ### b) Parcours par élément
 

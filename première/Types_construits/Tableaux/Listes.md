@@ -2,137 +2,188 @@
 
 ## I. Définition
 
-Une *liste* est une structure linéaire mutable de données.
+> [!IMPORTANT]
+> Une *liste* est une structure linéaire mutable de données.
+>
+> Elle contient des données appelées *éléments*.
 
-Elle contient des données appelées *éléments*.
+> [!IMPORTANT]
+> Une *structure de données* est une structure permettant d'organiser ses données dans l'objectif que le traitement de celles-ci soit efficace.
 
-Une *structure de données* est une structure permettant d'organiser ses données dans l'objectif que le traitement de celles-ci soit efficace.
+> [!IMPORTANT]
+> Une *structure linéaire de données* est une structure de données dans laquelle chaque élément possède une place et dont tous les éléments (sauf le dernier) a un successeur.
 
-Une *structure linéaire de données* est une structure de données dans laquelle chaque élément possède une place et dont tous les éléments (sauf le dernier) a un successeur.
+> [!IMPORTANT]
+> Une *structure linéaire mutable de données* est une structure de données linéaire dans laquelle les éléments peuvent être ajoutés, retirés ou modifiés.
 
-Une *structure linéaire mutable de données* est une structure de données linéaire dans laquelle les éléments peuvent être ajoutés, retirés ou modifiés.
+## II. Spécificités en Python
 
-En Python, le type `list` est encadré par des crochets :
+### a) Syntaxe
 
-```python
->>> type([1, 2, 3, 4])
-<class = 'list'>
-```
+En Python, les listes sont définies entre crochets (`[` `]`).
 
-Une *liste vide* est une liste ne contenant aucun élément :
+> [!TIP]
+> Par exemple :
+> ```python
+> [1, 2, 3, 4]
+> ```
 
-```python
->>> type([])
-<class = 'list'>
-```
+Les listes sont de type `list`.
 
-Une liste peut contenir des éléments de différents types :
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> type([1, 2, 3, 4])
+> <class 'list'>
+> ```
 
-```python
->>> type([True, 0, "coucou"])
-<class = 'list'>
-```
+> [!IMPORTANT]
+> Une *liste vide* est une liste ne contenant aucun élément.
 
-## II. Opérations sur les listes
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> type([])
+> <class 'list'>
+> ```
 
-### a) Taille
+Une liste peut contenir des éléments de différents types.
 
-La *taille* d'une liste est le nombre d'élément contenu dans celle-ci.
+> [!TIP]
+> Par exemple :
+> ```python
+> [True, 0, "coucou"])
+> ```
 
-Elle peut être connue avec la fonction `len()` :
+### b) Opérations
 
-```python
->>> len([1, 2, 3, 4])
-4
-```
+#### 1. Taille
 
-##### Application 1
+> [!IMPORTANT]
+> La *taille* d'une liste est le nombre d'élément contenu dans celle-ci.
 
-En utilisant la console Python, indiquer la taille des listes suivantes :
+Elle peut être connue avec la fonction `len()` (pour *length* en anglais).
 
-a) `[5, 8, 9]`
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> len([1, 2, 3, 4])
+> 4
+> ```
 
-b) `[]`
+#### <ins>Application 1</ins>
 
-### b) Accès au *ième* élément
+En utilisant la console Python, trouver la taille des listes suivantes :
 
-Nous accédons à un élément de la liste selon son indice (ou sa position) dans la liste.
+1. `[5, 8, 9]`
 
-L'*indice d'un élément* dans la liste est le numéro de place de l'élément.
+2. `[]`
 
-Nous mettons l'indice de l'élément que nous souhaitons obtenir entre crochets :
+#### 2. Accès au *ième* élément
 
-```python
->>> liste_entiers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
->>> liste_entiers[2]
-3
-```
+Les éléments d'une liste sont indicés, c'est-à-dire qu'ils possèdent chacun un numéro de position dans la liste.
 
-Le premier élément est d'indice $0$.
+> [!IMPORTANT]
+> L'*indice d'un élément* dans la liste est le numéro de position de l'élément.
 
-```python
->>> liste_entiers[0]
-1
-```
+L'accès à un élément d'indice $i$ s'effectue en l'écrivant entre crochets.
 
-##### Application 2
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> entiers = [1, 2, 3, 4]
+> >>> entiers[2]
+> 3
+> ```
+
+> [!WARNING]
+> Le premier élément est d'indice $0$.
+
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> entiers[0]
+> 1
+> ```
+
+#### <ins>Application 2</ins>
 
 Donner sans utiliser l'ordinateur, le résultat des instructions suivantes :
 
-a)
+1. Instruction 1
 ```python
->>> liste_entiers[5]
+>>> entiers[3]
 ...
 ```
 
-b)
+2. Instruction 2
 ```python
->>> liste_entiers[1]
+>>> entiers[1]
 ...
 ```
 
-##### Application 3
+#### <ins>Application 3</ins>
+
+Expliquer l'erreur suivante :
+
+```python
+>>> entiers = [1, 2, 3, 4]
+>>> entiers[4]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+```
+
+#### <ins>Application 4</ins>
 
 Donner l'instruction permettant d'obtenir :
 
-a) L'élément d'indice $7$.
+a) L'élément d'indice $2$.
 
 b) Le dernier élément en utilisant la taille de la liste.
 
-### c) Test d'appartenance
+#### 3. Test d'appartenance
+
+> [!IMPORTANT]
+> Le *test d'appartenance* permet de savoir si une valeur est présente dans une autre.
 
 Nous pouvons vérifier si un élément est présent dans une liste à l'aide du mot-clé `in`.
 
-```python
->>> 3 in liste_entiers
-True
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> 3 in entiers
+> True
+> ```
 
-Le test d'appartenance renvoie comme résultat un booléen.
+> Le test d'appartenance renvoie comme résultat un booléen.
 
-##### Application 4
+#### <ins>Application 5</ins>
 
 Vérifier, dans la console Python et à l'aide du mot-clé `in`, si :
 
 a) L'élément $2$ est contenu dans `liste_entiers`.
 
-b) L'élément $0$ est contenu dans `liste_entiers`.
+b) L'élément $5$ est contenu dans `liste_entiers`.
 
-### d) Concaténation
+#### 4. Concaténation
 
-La *concaténation* de deux listes consiste à créer une liste contenant les éléments des deux listes.
+> [!IMPORTANT]
+> La *concaténation* de deux listes consiste à assembler l'une après l'autre les listes pour n'en former qu'une.
 
-Nous pouvons concaténer deux listes en utilisant l'opérateur `+` :
+La concaténation de deux listes en Python s'effectue à l'aide de l'opérateur `+`.
 
-```python
->>> liste_pairs = [0, 2, 4, 6, 8]
->>> liste_impairs = [1, 3, 5, 7, 9]
->>> liste_entiers = liste_pairs + liste_impairs
->>> liste_entiers
-[0, 2, 4, 6, 8, 1, 3, 5, 7, 9]
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> pairs = [0, 2, 4, 6, 8]
+> >>> impairs = [1, 3, 5, 7, 9]
+> >>> entiers = pairs + impairs
+> >>> entiers
+> [0, 2, 4, 6, 8, 1, 3, 5, 7, 9]
+> ```
 
-##### Application 5
+#### <ins>Application 6</ins>
 
 Concaténer :
 
@@ -140,162 +191,162 @@ a) La liste `[2, 8]` avec la chaîne `[1, 7]`.
 
 b) La liste `[1]` avec la liste `[2]` puis avec la liste `[3]`.
 
-### e) Découpage ou *slicing* (hors programme)
+#### 5. Découpage ou *slicing* (hors programme)
 
-Le *slicing* permet d'obtenir une sous-liste à partir d'une liste.
+> [!IMPORTANT]
+> Le *slicing* permet d'obtenir une sous-liste à partir d'une liste.
 
-Le slicing en Python s'écrit  : ``liste[debut:fin]``  avec ``debut`` l'indice de la première coupe et ``fin`` l'indice de la seconde coupe (exclue) :
+Le slicing en Python s'écrit  : ``chaine[debut:fin]``  avec ``debut`` l'indice de la première coupe et ``fin`` l'indice de la seconde coupe (exclue).
 
-```python
->>> liste_entiers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
->>> liste_entiers[2:6]
-[3, 4, 5, 6]
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> entiers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+> >>> entiers[2:6]
+> [3, 4, 5, 6]
+> ```
 
-##### Application 6
+#### <ins>Application 7</ins>
 
 Donner sans utiliser l'ordinateur, le résultat des instructions suivantes :
 
-a)
+1. Instruction 1
 ```python
->>> liste_entiers[0:2]
+>>> entiers[0:2]
 ...
 ```
 
-b)
+2. Instruction 2
 ```python
->>> liste_entiers[0:7]
+>>> entiers[0:7]
 ...
 ```
 
 ## III. Mutabilité
 
-Une valeur est dite *mutable* si elle peut être modifiée.
+> [!IMPORTANT]
+> Une valeur est dite *mutable* si elle peut être modifiée.
 
-Les listes sont mutables.
+Les listes sont mutables, les éléments peuvent y être modifiés, ajoutés ou supprimés.
 
 ### a) Modification d'élément
 
-Nous pouvons modifier les éléments d'une liste :
+Modifier un élément dans une liste s'effectue en réaffectant une valeur à une position $i$ donnée.
 
-```python
->>> liste_entiers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
->>> liste_entiers[3] = 999
->>> liste_entiers
-[1, 2, 3, 999, 5, 6, 7, 8, 9]
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> entiers = [1, 2, 3, 4]
+> >>> entiers[3] = 999
+> >>> entiers
+> [1, 2, 3, 999]
+> ```
 
-##### Application 7
+#### <ins>Application 8</ins>
 
-Modifier dans la liste `liste_entiers `la valeur d'indice $5$ en $-999$.
+Modifier dans la liste `entiers `la valeur d'indice $1$ en $-999$.
 
 ### b) Ajout d'élément
 
-L'ajout d'élément s'effectue en fin de liste avec la méthode `append()` :
+L'ajout d'un élément $p$ s'effectue en fin de liste avec la méthode `append()`.
 
-```python
->>> liste_entiers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
->>> liste_entiers.append(10)
->>> liste_entiers
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> entiers = [1, 2, 3, 4]
+> >>> entiers.append(5)
+> >>> entiers
+> [1, 2, 3, 4, 5]
+> ```
 
-##### Application 8
+#### <ins>Application 9</ins>
 
-Ajouter à la liste `liste_entiers` les valeurs $11$ et $12$.
+Ajouter à la liste `entiers` les valeurs $6$ et $7$.
 
 ### c) Suppression d'élément via son indice
 
-La suppression d'élément via l'indice s'effectue avec la méthode `pop()` :
+La suppression d'élément d'indice $i$ s'effectue avec la méthode `pop()` :
 
-```python
->>> liste_entiers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
->>> liste_entiers.pop(2)
->>> liste_entiers
-[1, 2, 4, 5, 6, 7, 8, 9]
-```
-##### Application 9
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> entiers = [1, 2, 3, 4]
+> >>> entiers.pop(2)
+> >>> entiers
+> [1, 2, 4]
+> ```
 
-Supprimer dans la liste `liste_entier` l'élément d'indice cinq.
+#### <ins>Application 10</ins>
 
-### d) Suppression d'élément via sa valeur
-
-La suppression d'élément via la valeur s'effectue à l'aide de la méthode `remove()` :
-
-```python
->>> liste_entiers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
->>> liste_entiers.remove(2)
->>> liste_entiers
-[1, 3, 4, 5, 6, 7, 8, 9]
-```
-
-##### Application 10
-
-Supprimer dans la liste `liste_entier` la valeur $5$.
+Supprimer dans la liste `entier` l'élément d'indice $0$.
 
 ## IV. Parcours de liste
 
-Un *parcours de liste* consiste à visiter tous les éléments de la liste une et une seule fois dans le but de leur appliquer un traitement.
+> [!IMPORTANT]
+> Un *parcours de liste* consiste à visiter tous les éléments de la liste une et une seule fois dans le but de leur appliquer un traitement.
 
 Nous parcourons les listes en utilisant les boucles.
 
-Comme nous connaissons à l'avance la taille d'une liste, nous connaissons à l'avance le nombre de tour de boucle nécessaire au parcours : Nous utilisons donc la boucle `for`.
+> Comme nous connaissons à l'avance la taille d'une liste, nous connaissons à l'avance le nombre de tour de boucle nécessaire au parcours : Nous utilisons donc la boucle `for`.
 
 Il existe deux façons d'utiliser la boucle `for` pour parcourir les listes :
 
-- Le parcours par indice.
+1. Le parcours par **indice**.
 
-- Le parcours par élément.
+2. Le parcours par **élément**.
 
 ### a) Parcours par indice
 
-Dans le parcours par indice, nous parcourons les éléments indice par indice :
+Dans le parcours par indice, nous parcourons les éléments indice par indice.
 
-```python
-1. liste_entiers = [1, 2, 3, 4]
-2. for i in range(len(liste_entiers)) :
-3.   entier = liste_entiers[i]
-```
+> [!TIP]
+> Par exemple
+> ```python
+> 1. entiers = [1, 2, 3, 4]
+> 2. for i in range(len(entiers)) :
+> 3.   entier = entiers[i]
+> ```
+>
+> Trace d'exécution du programme donné ci-dessus:
+>
+> | Numéro de ligne | Valeur affectée à $i$ | Valeur affectée à $entier$ |
+> | :---: | :---: | :---: |
+> | $1$ | / | / |
+> | $2$ | $0$ | / |
+> | $3$ | $0$ | $1$ |
+> | $2$ | $1$ | $1$ |
+> | $3$ | $1$ | $2$ |
+> | ... | ... | ... |
 
-Trace d'exécution du programme donné ci-dessus:
+#### <ins>Application 11</ins>
 
-| Numéro de ligne | Valeur affectée à $i$ | Valeur affectée à $entier$ |
-| :---: | :---: | :---: |
-| $1$ | / | / |
-| $2$ | $0$ | / |
-| $3$ | $0$ | $1$ |
-| $2$ | $1$ | $1$ |
-| $3$ | $1$ | $2$ |
-| ... | ... | ... |
-
-##### Application 11
-
-Compléter la trace d'exécution précédente.
+Recopier et compléter la trace d'exécution de l'exemple précédent.
 
 ### b) Parcours par élément
 
-Dans le parcours par élément, nous parcourons élément par élément :
+Dans le parcours par élément, nous parcourons élément par élément.
 
-```python
-1. liste_entiers = [1, 2, 3, 4]
-2. for elt in liste_entiers :
-3.   entier = elt
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> 1. entiers = [1, 2, 3, 4]
+> 2. for elt in entiers :
+> 3.   entier = elt
+> ```
+> Trace d'exécution du programme donné ci-dessus:
+>
+> | Numéro de ligne | Valeur affectée à $elt$ | Valeur affectée à $entier$ |
+> | :---: | :---: | :---: |
+> | $1$ | / | / |
+> | $2$ | $1$ | / |
+> | $3$ | $1$ | $1$ |
+> | $2$ | $2$ | $1$ |
+> | $3$ | $2$ | $2$ |
+> | ... | ... | ... |
 
-| Numéro de ligne | Valeur affectée à $elt$ | Valeur affectée à $entier$ |
-| :---: | :---: | :---: |
-| $1$ | / | / |
-| $2$ | $1$ | / |
-| $3$ | $1$ | $1$ |
-| $2$ | $2$ | $1$ |
-| $3$ | $2$ | $2$ |
-| ... | ... | ... |
+#### <ins>Application 12</ins>
 
-
-##### Application 12
-
-Compléter la trace d'exécution précédente.
-
+Recopier et compléter la trace d'exécution de l'exemple précédent.
 
 ## V. Construction de liste en compréhension
 
@@ -306,18 +357,18 @@ Imaginons que nous voulons créer une liste de taille dix dont les éléments so
 Il est facile d'écrire un programme le permettant :
 
 ```python
-liste_entiers = []
+zeros = []
 for i in range(10) :
-    liste_entiers.append(0)
+    zeros.append(0)
 ```
 
 Or, il est possible en Python d'économiser des lignes de code en utilisant la construction de liste en compréhension :
 
 ```python
-liste_entiers = [0 for i in range(10)]
+zeros = [0 for i in range(10)]
 ```
 
-Il s'agit d'utiliser la boucle `for` sur une unique ligne.
+> Il s'agit d'utiliser la boucle `for` sur une unique ligne.
 
 ### b) Syntaxe
 
@@ -335,11 +386,13 @@ Syntaxe de construction de liste en compréhension :
 liste = [<élément> for <indice> in <itérable>]
 ```
 
-##### Application 13
+#### <ins>Application 13</ins>
 
-Ecrire, en compréhension, la construction d'une liste de taille cinq dont tous les éléments sont $2$.
+a) Écrire, en compréhension, le programme permettant de construire une liste `[2, 2, 2, 2, 2]`.
 
-### c) Condition
+b) Écrire en compréhension, le programme permettant de construire une liste `[0, 1, 2, 3]`.
+
+### c) Condition (hors programme)
 
 Syntaxe de construction de liste classique avec condition :
 
@@ -363,3 +416,7 @@ ___________
 ___________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
