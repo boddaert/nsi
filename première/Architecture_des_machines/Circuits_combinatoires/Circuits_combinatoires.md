@@ -51,7 +51,8 @@ Les portes logiques ou la combinaison de plusieurs portes logiques constituent d
 
 Nous notons $e_0, e_1, e_2, \dots$ les variables d'entrée. Comme ce sont des bits, ces variables valent $0$ ou $1$.
 
-Par exemple, $(\lnot e_0 \lor e_1)\land e_2$ est une fonction logique prenant en entrée trois variables.
+> [!TIP]
+> Par exemple, $(\lnot e_0 \lor e_1)\land e_2$ est une fonction logique prenant en entrée trois variables.
 
 Le résultat de cette fonction dépend évidemment des valeurs des variables d'entrées.
 
