@@ -1,6 +1,6 @@
 # Listes
 
-## I. Définition
+## I. Définitions
 
 > [!IMPORTANT]
 > Une *liste* est une structure linéaire mutable de données.
@@ -278,7 +278,7 @@ La suppression d'élément d'indice $i$ s'effectue avec la méthode `pop()` :
 
 #### <ins>Application 10</ins>
 
-Supprimer dans la liste `entier` l'élément d'indice $0$.
+Supprimer dans la liste `entiers` l'élément d'indice $0$.
 
 ## IV. Parcours de liste
 

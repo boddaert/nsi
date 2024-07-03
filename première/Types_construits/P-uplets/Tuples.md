@@ -2,67 +2,94 @@
 
 ## I. Définition
 
-Un *tuple* (ou *p-uplet*) est une structure linéaire non mutable de données. (Voir [listes](./Listes.md) pour les définitions)
+> [!IMPORTANT]
+> Un *tuple* (ou *p-uplet*) est une structure linéaire non mutable de données. (Voir [listes](./Listes.md) pour les définitions)
 
-En Python, le type `tuple` est encadré de parenthèses :
+> [!IMPORTANT]
+> Une *structure linéaire non mutable de données* est une structure de données linéaire dans laquelle les éléments ne peuvent pas être ajoutés, retirés ou modifiés.
 
-```python
->>> type((1, 3, 5))
-<class 'tuple'>
-```
+## II. Spécificités en Python
 
-Un *tuple vide* est un tuple ne contenant aucun élément :
+### a) Syntaxe
 
-```python
->>> type(())
-<class = 'tuple'>
-```
+En Python, les tuples sont définis entre parenthèses (`(` `)`).
 
-*Attention : Il faut toujours au moins une virgule pour définir un tuple à un élément.*
+> [!TIP]
+> Par exemple :
+> ```python
+> (1, 2, 3)
+> ```
 
-```python
->>> type((1))
-<class = 'int'>
->>> type((1,))
-<class = 'tuple'>
-```
+Les tuples sont de type `tuple`.
 
-## II. Opérations sur les tuples
+> [!TIP]
+> Par exemple :
+>```python
+> >>> type((1, 2, 3))
+> <class 'tuple'>
+> ```
 
-L'ensemble des opérations pouvant être effectuées sur les tuples est équivalent à l'ensemble des opérations pouvant être effectuées sur les listes.
+> [!IMPORTANT]
+> Un *tuple vide* est un tuple ne contenant aucun élément :
 
-A la différence des opérations de mutabilité.
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> type(())
+> <class = 'tuple'>
+> ```
 
-Les tuples, n'étant pas mutables, nous ne pouvons pas modifier les éléments d'un tuple :
+Une liste peut contenir des éléments de différents types.
 
-```python
->>> tuple_entiers = (1, 2, 3, 4)
->>> tuple_entiers[2] = 2
-Traceback (most recent call last):
-  File "<pyshell>", line 1, in <module>
-TypeError: 'tuple' object does not support item assignment
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> (True, 0, "coucou"))
+> ```
 
-Les tuples sont généralement utilisés pour définir des structures de données où les éléments restent les mêmes.
+> [!WARNING]
+> Il faut toujours au moins une virgule pour définir un tuple.
 
-Par exemple, les coordonnées $x$ et $y$ dans un plan.
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> type((1))
+> <class 'int'>
+> >>> type((1,))
+> <class 'tuple'>
+> ```
 
-## III. Parcours de tuple
+### b) Opérations
 
-Le parcours de tuple est équivalent au parcours de liste.
+> L'ensemble des opérations pouvant être effectuées sur les tuples est équivalent à l'ensemble des opérations pouvant être effectuées sur les listes. (Voir [Listes](./../Tableaux/Listes.md)).
 
-## IV. Affectation parallèle
+Les tuples, n'étant pas mutables, les éléments d'un tuple ne sont pas modifiables.
 
-Nous pouvons utiliser les tuples pour affecter sur une même ligne plusieurs valeurs à plusieurs variables :
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> tuple_entiers = (1, 2, 3)
+> >>> tuple_entiers[2] = 2
+> Traceback (most recent call last):
+>   File "<pyshell>", line 1, in <module>
+> TypeError: 'tuple' object does not support item assignment
+> ```
 
-```python
->>> (a, b) = ("coucou", 42)
->>> a
-"coucou"
->>> b
-42
-```
-##### Application 1
+### c) Affectation parallèle
+
+Les tuples permettent d'affecter des valeurs sur une seule ligne à plusieurs variables.
+
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> (a, b) = ("coucou", 42)
+> >>> a
+> "coucou"
+> >>> b
+> 42
+> ```
+
+#### <ins>Application 1</ins>
 
 Compléter le programme ci-dessous pour échanger les valeurs de `a` et `b` sur une seule ligne.
 
@@ -72,22 +99,27 @@ b = "coucou"
 ...
 ```
 
-## V. Renvoyer plusieurs résultats
+### d) Renvoyer plusieurs résultats
 
-Parfois, il est utile de renvoyer plusieurs résultats pour une fonction. Nous pouvons le faire facilement en utilisant les tuples.
+Les tuples permettent de renvoyer plusieurs valeurs dans une fonction.
 
-Le type de la valeur renvoyée est un tuple :
+> [!TIP]
+> Par exemple :
+> ```python
+> def fonc()->tuple:
+>     return (a, b)
+> ```
 
-```python
-def fonc()->tuple:
-    return (a, b)
-```
+> [!WARNING]
+> Le type de la valeur renvoyée est un tuple.
 
-Puis, en utilisant l'affectation parallèle :
+#### <ins>Application 2</ins>
 
-```python
->>> x, y = fonc()
-```
+Écrire une fonction `nom_prenom()->tuple` ne prenant aucun paramètre, demande à l'utilisateur quel est son nom et son prénom et les renvoie sous forme de tuple.
+
+## III. Parcours de tuple
+
+Le parcours de tuple est équivalent au parcours de liste.
 _____________
 
 [Exercices](./Exercices/Exercices_tuples.md)
@@ -95,4 +127,8 @@ _____________
 _____________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
 
