@@ -1,12 +1,5 @@
 # Dictionnaires
 
-## 0. Rappel
-
-| / | Linéaire | Non linéaire |
-| :---: | :---: | :---: |
-| **Mutable** | Liste | Dictionnaire |
-| **Non mutable** | Tuple | Ensemble (hors programme) |
-
 ## I. Définitions
 
 > [!IMPORTANT]
@@ -23,7 +16,15 @@ Une *structure de données* est une structure permettant d'organiser ses donnée
 > [!IMPORTANT]
 > Une *structure non linéaire mutable de données* est une structure de données non linéaire dans laquelle les éléments peuvent être ajoutés, retirés ou modifiés.
 
-## II. En Python
+## II. Récapitulatif
+
+> [!IMPORTANT]
+> | / | Linéaire | Non linéaire |
+> | :---: | :---: | :---: |
+> | **Mutable** | Liste | Dictionnaire |
+> | **Non mutable** | Tuple | Ensemble (hors programme) |
+
+## III. En Python
 
 ### a) Spécificités
 
