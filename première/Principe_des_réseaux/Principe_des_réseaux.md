@@ -115,7 +115,7 @@ Imaginons désormais qu'une machine d'un premier sous-réseau local souhaite com
 
 Pour la suite de ce chapitre, nous utiliserons le schéma suivant représentant un réseau constitué de trois sous-réseaux locaux interconnectés :
 
-<img src="./img/internet.PNG" width=500>
+<img src="./img/internet.PNG" width=650>
 
 ### a) Protocole IP
 
