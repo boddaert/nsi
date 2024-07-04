@@ -50,7 +50,7 @@ Les dictionnaires sont de type `dict`.
 
 > [!TIP]
 > Par exemple :
-> > ```python
+> ```python
 > >>> type({})
 > <class 'dict'>
 > ```
@@ -156,14 +156,14 @@ Nous pouvons vérifier si une clé est présente dans un dictionnaire à l'aide 
 
 > Le test d'appartenance renvoie comme résultat un booléen.
 
-## III. Mutabilité
+### c) Mutabilité
 
 > [!IMPORTANT]
 > Une valeur est dite *mutable* si elle peut être modifiée.
 
 Les dictionnaires sont mutables, les éléments peuvent y être modifiés, ajoutés ou supprimés.
 
-### a) Modification de valeur
+#### 1. Modification de valeur
 
 Modifier une valeur dans un dictionnaire s'effectue en réaffectant une valeur à une clé donnée.
 
@@ -179,7 +179,7 @@ Modifier une valeur dans un dictionnaire s'effectue en réaffectant une valeur �
 
 Sur le dictionnaire `carte_id`, écrire l'instruction permettant d'ajouter un an à votre âge.
 
-### b) Ajout de paire clé/valeur
+#### 2. Ajout de paire clé/valeur
 
 L'ajout de paire clé/valeur s'effectue en associant une valeur à une clé non existante entre crochets.
 
@@ -195,7 +195,7 @@ L'ajout de paire clé/valeur s'effectue en associant une valeur à une clé non 
 
 Écrire l'instruction permettant d'ajouter votre nationnalité, votre date et lieu de naissance au dictionnaire `carte_id`.
 
-### c) Suppression de paire clé/valeur
+#### 3. Suppression de paire clé/valeur
 
 La suppression de paire clé/valeur d'un dictionnaire s'effectue à l'aide du mot clé  `del` sur la clé :
 
@@ -211,7 +211,7 @@ La suppression de paire clé/valeur d'un dictionnaire s'effectue à l'aide du mo
 
 Écrire l'instruction permettant de supprimer votre lieu de naissance du dictionnaire `carte_id`.
 
-## IV. Parcours de dictionnaire
+### d) Parcours de dictionnaire
 
 > [!IMPORTANT]
 > Un *parcours de dictionnaire* consiste à visiter tous les éléments du dictionnaire une et une seule fois dans le but de leur appliquer un traitement.
@@ -228,7 +228,7 @@ Il existe trois façons de parcourir les dictionnaires :
 
 3. Le parcours des paires clé/valeur.
 
-### a) Parcours des clés
+#### 1. Parcours des clés
 
 Récupérer l'ensemble des clés d'un dictionnaire s'effectue avec la méthode `keys()`.
 
@@ -254,7 +254,7 @@ Parcourir les clés d'un dictionnaire revient à faire le parcours par élément
 
 Écrire le programme permettant d'afficher toute les clés du dictionnaire `carte_id`.
 
-### c) Parcours des valeurs
+#### 2. Parcours des valeurs
 
 Récupérer l'ensemble des valeurs d'un dictionnaire s'effectue avec la méthode `values()`.
 
@@ -280,7 +280,7 @@ Parcourir les valeurs d'un dictionnaire revient à faire le parcours par éléme
 
 Écrire le programme permettant d'afficher toute les valeurs du dictionnaire `carte_id`.
 
-### d) Parcours des paires clé/valeur
+#### 3. Parcours des paires clé/valeur
 
 Récupérer l'ensemble des paires clé/valeur (sous forme de tuple) d'un dictionnaire s'effectue avec la méthode `items()`.
 
