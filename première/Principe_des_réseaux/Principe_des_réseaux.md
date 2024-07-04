@@ -82,7 +82,7 @@ L'adresse MAC d'une machine est découpée en six octets représentés tradition
 
 ### b) Représentation d'un réseau local
 
-![](./img/representation_reseau_local.PNG)
+<img src="./img/representation_reseau_local.PNG" width=500>
 
 Ci-dessus, une représentation d'un réseau local. Chaque machine possède son adresse MAC et sont reliés par un équipement informatique appelé commutateur (*Switch* en anglais).
 
