@@ -75,8 +75,6 @@
 
 - Leçon 3 : [Postconditions](./Langages_et_programmation/Spécifications_de_fonction/Postconditions.md)
 
-- Activité : [Pair Programming](./Langages_et_programmation/Spécifications_de_fonction/Activité_pair_programming.md)
-
 ##### Chapitre 8 : Principe des réseaux 1/1
 
 - Leçon 1 : [Principe des réseaux](./Principe_des_réseaux/Principe_des_réseaux.md)
@@ -87,7 +85,7 @@
 
 - Leçon 4 : [Listes de listes](./Types_construits/Tableaux/Listes_de_listes.md)
 
-- Projet n°3 : [Ice Walker](./Types_construits/Tableaux/Projet_ice_walker.md)
+- Projet n°3 : [Ice Walker](./Projets/Projet_ice_walker.md)
 
 ##### Chapitre 10 : Architecture des machines 3/3
 
