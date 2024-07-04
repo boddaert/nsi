@@ -41,13 +41,13 @@ En Python, une liste de listes reste de type `list`.
 
 En Python, affecter à la variable `table_de_multiplication` la liste de listes correspondant au tableau suivant :
 
-| $0$ | $0$ | $0$ | $0$ | $0$ | $0$ |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
-| $0$ | $2$ | $4$ | $6$ | $8$ | $10$ |
-| $0$ | $3$ | $6$ | $9$ | $12$ | $15$ |
-| $0$ | $4$ | $8$ | $12$ | $16$ | $20$ |
-| $0$ | $5$ | $10$ | $15$ | $20$ | $25$ |
+| $0$ | $0$ | $0$ | $0$ | $0$ |
+| :---: | :---: | :---: | :---: | :---: |
+| $0$ | $1$ | $2$ | $3$ | $4$ |
+| $0$ | $2$ | $4$ | $6$ | $8$ |
+| $0$ | $3$ | $6$ | $9$ | $12$ |
+| $0$ | $4$ | $8$ | $12$ | $16$ |
+
 
 ### b) Opérations
 
@@ -103,6 +103,10 @@ c) Donner, sans utiliser l'ordinateur, le résultat des instructions suivantes :
 ```python
 >>> table_de_multiplication[2][3]
 ...
+```
+3. Instruction 3
+```python
+>>> table_de_multiplication[4][1]
 ```
 
 d) Écrire l'instruction permettant d'obtenir le nombre $25$ en utilisant uniquement l'opération de taille.
