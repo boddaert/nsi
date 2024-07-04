@@ -61,7 +61,7 @@ Les couches "hautes" gèrent plutôt la partie logicielle de la transmission de 
 
 ## III. Couche 1 : Accès réseau
 
-Ici, dans la couche n°$1$ du modèle TCP/IP, toutes les machines sont reliées directement en réseau local.
+Ici, dans la couche n°1 du modèle TCP/IP, toutes les machines sont reliées directement en réseau local.
 
 Il peut s'agir d'un réseau Wi-Fi ou d'un réseau câblé utilisant le protocole *Ethernet*.
 
@@ -366,7 +366,7 @@ Si un paquet est perdu, cela n'a pas de conséquence et le visionnage peut conti
 
 En descendant les couches, les données sont encapsulées. C'est à dire que chaque couche ajoute de l'information à ce qui va être envoyé :
 
-<img src="./img/encapsulation.PNG" width=500>
+<img src="./img/encapsulation.PNG" width=750>
 
 - La couche Transport ajoute aux données une en-tête TCP. On y retrouve les ports source et de destination, ces ports indiquent quelle application utiliser avec quel protocole (TCP ou UDP). Cela forme un *Segment TCP*.
 
