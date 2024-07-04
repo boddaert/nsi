@@ -1,5 +1,7 @@
 # Dictionnaires
 
+## 0. Rappel
+
 | / | Linéaire | Non linéaire |
 | :---: | :---: | :---: |
 | **Mutable** | Liste | Dictionnaire |
