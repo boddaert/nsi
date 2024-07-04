@@ -139,7 +139,9 @@ Elle est représentée sur trente-deux bits (IPv4) soit quatre octets et est usu
 
 > [!TIP]
 > Par exemple :
+>
 > En décimal : `192.168.2.1`.
+>
 > En binaire : ``11000000.10101000.00000010.00000001``
 
 > Les adresses IP de version six (IPv6) sont représentées sur cent vingt-huit bits.
