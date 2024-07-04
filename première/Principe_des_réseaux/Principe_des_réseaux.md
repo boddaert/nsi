@@ -29,7 +29,7 @@ Une question se pose alors :
 >
 > Les réseaux informatiques permettent l'échange de données entre les machines au moyen de protocoles.
 
-> [!IMPOTANT]
+> [!IMPORTANT]
 > Un *protocole* est un ensemble de règles permettant de standartiser la communication.
 
 ### b) Modèles en couches
