@@ -18,14 +18,14 @@ Les données représentables sur deux dimensions comme les tableaux sont facilem
 >
 > Le tableau $t = $
 >
-> | 00 | 01 | 02 |
+> | 0 | 1 | 2 |
 > | :---: | :---: | :---: |
-> | **10** | **11** | **12** |
+> | **3** | **4** | **5** |
 > 
 > Est modélisé en Python par la liste de listes suivante :
 > 
 > ```python
-> t = [['00', '01', '02'], ['10', '11', '12']]
+> t = [[0, 1, 2], [3, 4, 5]]
 > ```
 
 En Python, une liste de listes reste de type `list`.
@@ -74,7 +74,7 @@ L'accès à une liste d'indice $i$ s'effectue en l'écrivant entre crochets.
 > Par exemple :
 > ```python
 > >>> t[0]
-> ['00', '01', '02']
+> [0, 1, 2]
 > ```
 
 L'accès à un élément d'indice $j$ d'une sous-liste s'effectue en l'écrivant dans de nouveaux crochets.
@@ -83,7 +83,7 @@ L'accès à un élément d'indice $j$ d'une sous-liste s'effectue en l'écrivant
 > Par exemple :
 > ```python
 > >>> t[0][1]
-> '01'
+> 1
 > ```
 
 #### <ins>Application 2</ins>
@@ -109,7 +109,7 @@ c) Donner, sans utiliser l'ordinateur, le résultat des instructions suivantes :
 >>> table_de_multiplication[4][1]
 ```
 
-d) Écrire l'instruction permettant d'obtenir le nombre $25$ en utilisant uniquement l'opération de taille.
+d) Écrire l'instruction permettant d'obtenir le nombre $16$ en utilisant uniquement l'opération de taille.
 
 ### c) Autres opérations
 
@@ -129,7 +129,7 @@ Dans le parcours par indice, nous parcourons les sous-listes puis les éléments
 > [!TIP]
 > Par exemple :
 > ```python
-> 1. t = [['00', '01', '02'], ['10', '11', '12']]
+> 1. t = [[0, 1, 2], [3, 4, 5]]
 > 2. for i in range(len(t)) :
 > 3.   for j in range(len(t[i])):
 > 4.      entier = t[i][j]
@@ -142,14 +142,14 @@ Dans le parcours par indice, nous parcourons les sous-listes puis les éléments
 > | $1$ | / | / | / |
 > | $2$ | $0$ | / | / |
 > | $3$ | $0$ | $0$ | / |
-> | $4$ | $0$ | $0$ | `'00'` |
-> | $3$ | $0$ | $1$ | `'00'` |
-> | $4$ | $0$ | $1$ | `'01'` |
-> | $3$ | $0$ | $2$ | `'01'` |
-> | $4$ | $0$ | $2$ | `'02'` |
-> | $2$ | $1$ | $2$ | `'02'` |
-> | $3$ | $1$ | $0$ | `'02'` |
-> | $4$ | $1$ | $0$ | `'10'` |
+> | $4$ | $0$ | $0$ | `0` |
+> | $3$ | $0$ | $1$ | `0` |
+> | $4$ | $0$ | $1$ | `1` |
+> | $3$ | $0$ | $2$ | `1` |
+> | $4$ | $0$ | $2$ | `2` |
+> | $2$ | $1$ | $2$ | `2` |
+> | $3$ | $1$ | $0$ | `2` |
+> | $4$ | $1$ | $0$ | `3` |
 > | ... | ... | ... | ... |
 
 #### <ins>Application 3</ins>
@@ -163,7 +163,7 @@ Dans le parcours par élément, nous parcourons les sous-listes puis les éléme
 > [!TIP]
 > Par exemple :
 > ```python
-> 1. t = [['00', '01', '02'], ['10', '11', '12']]
+> 1. t = [[0, 1, 2], [3, 4, 5]]
 > 2. for sousliste in t :
 > 3.   for elt in sousliste:
 > 4.      entier = elt
