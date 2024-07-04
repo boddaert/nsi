@@ -264,11 +264,11 @@ Internet est un endroit où chaque utilisateur peut envoyer des données.
 
 Il arrive que ces données soient trop lourdes et cela a pour conséquence de surcharger le réseau et d'empêcher l'acheminement des données d'autres utilisateurs :
 
-<img src="./img/surcharge.gif" width=500>
+<img src="./img/surcharge.gif" width=400>
 
 Pour y remédier, le protocole IP "découpe" les données en paquets IP. Chaque paquet est ensuite envoyé sur le réseau puis les données sont reconstituées sur la machine de destination :
 
-<img src="./img/decoupage.gif" width=500>
+<img src="./img/decoupage.gif" width=400>
 
 #### <ins>Application 6</ins>
 
