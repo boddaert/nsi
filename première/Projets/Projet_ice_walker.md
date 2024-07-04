@@ -22,106 +22,29 @@ Avec Python, vous devez programmer un niveau de jeu Ice Walker en respectant les
 
 1. La grille de jeu est modélisée par une liste de listes.
 
-2. La position actuelle du personnage et de la case finale sont modélisées par un tuple de coordonnées.
+2. Les mécaniques de jeu de sol glacé et de l'infranchissabilité des murs doivent être respectés.
 
-3. Les mécaniques de jeu de sol glacé et de l'infranchissabilité des murs doivent être respectés.
+3. À chaque tour de jeu, le joueur entre une direction (Nord, Est, Ouest ou Sud) et fais déplacer le personnage dans la direction donnée.
 
-4. A chaque tour de jeu, le joueur entre une direction (Nord, Est, Ouest ou Sud) et fais déplacer le personnage dans la direction donnée.
-
-5. A l'issue de chaque action du joueur, la grille doit être affichée.
+4. À l'issue de chaque action du joueur, la grille doit être affichée.
 
 6. Le score final de la partie est calculé en fonction du nombre de déplacement effectués pour atteindre la case finale.
 
 7. Chaque fonction écrite doit être documentée par une *DocString* complète.
 
-## III. Affichage
+8. Le code doit être lisible, les noms de variables/fonctions explicites.
 
-Par exemple, dans la console :
+## III. Exemple de rendu
 
-```
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-■   ■                 ■
-■                     □
-■                     ■
-►               ■     ■
-■ ■       ■           ■
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+![gif](./img/exemple_ice_walker.gif)
 
-Dans quelle direction voulez-vous aller ? E
-
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-■   ■                 ■
-■                     □
-■                     ■
-              ► ■     ■
-■ ■       ■           ■
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-
-Dans quelle direction voulez-vous aller ? N
-
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-■   ■         ▲       ■
-■                     □
-■                     ■
-                ■     ■
-■ ■       ■           ■
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-
-Dans quelle direction voulez-vous aller ? O
-
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-■   ■ ◄               ■
-■                     □
-■                     ■
-                ■     ■
-■ ■       ■           ■
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-
-Dans quelle direction voulez-vous aller ? S
-
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-■   ■                 ■
-■                     □
-■                     ■
-                ■     ■
-■ ■   ▼   ■           ■
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-
-Dans quelle direction voulez-vous aller ? O
-
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-■   ■                 ■
-■                     □
-■                     ■
-                ■     ■
-■ ■ ◄     ■           ■
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-
-Dans quelle direction voulez-vous aller ? N
-
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-■   ■                 ■
-■   ▲                 □
-■                     ■
-                ■     ■
-■ ■       ■           ■
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-
-Dans quelle direction voulez-vous aller ? E
-
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-■   ■                 ■
-■                     ►
-■                     ■
-                ■     ■
-■ ■       ■           ■
-■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
-
-Gagné !
-```
 _______________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
 
 
 
