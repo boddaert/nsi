@@ -115,7 +115,7 @@ Imaginons désormais qu'une machine d'un premier sous-réseau local souhaite com
 
 Pour la suite de ce chapitre, nous utiliserons le schéma suivant représentant un réseau constitué de trois sous-réseaux locaux interconnectés :
 
-![](./img/internet.PNG)
+<img src="./img/internet.PNG" width=500>
 
 ### a) Protocole IP
 
@@ -189,7 +189,7 @@ Pour chacune des adresses IP et masques de sous-réseau suivants, retrouver l'id
 
 ### e) <a name="schema"></a>Adressage des machines
 
-![](./img/representation_reseau_ip.PNG)
+<img src="./img/representation_reseau_ip.PNG" width=500>
 
 ### f) Adresse réseau
 
@@ -264,11 +264,11 @@ Internet est un endroit où chaque utilisateur peut envoyer des données.
 
 Il arrive que ces données soient trop lourdes et cela a pour conséquence de surcharger le réseau et d'empêcher l'acheminement des données d'autres utilisateurs :
 
-![](./img/surcharge.gif)
+<img src="./img/surcharge.gif" width=500>
 
 Pour y remédier, le protocole IP "découpe" les données en paquets IP. Chaque paquet est ensuite envoyé sur le réseau puis les données sont reconstituées sur la machine de destination :
 
-![](./img/decoupage.gif)
+<img src="./img/decoupage.gif" width=500>
 
 #### <ins>Application 6</ins>
 
@@ -366,7 +366,7 @@ Si un paquet est perdu, cela n'a pas de conséquence et le visionnage peut conti
 
 En descendant les couches, les données sont encapsulées. C'est à dire que chaque couche ajoute de l'information à ce qui va être envoyé :
 
-![](./img/encapsulation.PNG)
+<img src="./img/encapsulation.PNG" width=500>
 
 - La couche Transport ajoute aux données une en-tête TCP. On y retrouve les ports source et de destination, ces ports indiquent quelle application utiliser avec quel protocole (TCP ou UDP). Cela forme un *Segment TCP*.
 
