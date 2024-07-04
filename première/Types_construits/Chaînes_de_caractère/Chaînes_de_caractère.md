@@ -215,7 +215,7 @@ Donner sans utiliser l'ordinateur, le résultat des instructions suivantes :
 ...
 ```
 
-## III. Mutabilité
+### c) Mutabilité
 
 > [!IMPORTANT]
 > Une valeur est dite *mutable* si elle peut être modifiée.
@@ -236,7 +236,7 @@ Les chaînes de caractères ne sont pas mutables. C'est-à-dire que nous ne pouv
 
 Essayer à votre tour de modifier la valeur affectée à la variable `mot` en changeant la troisième lettre en `h`.
 
-## IV. Parcours de chaîne
+### d) Parcours de chaîne
 
 > [!IMPORTANT]
 > Un *parcours de chaîne* consiste à visiter un à un tous les caractères de la chaîne.
@@ -251,7 +251,7 @@ Il existe deux façons d'utiliser la boucle `for` pour parcourir les chaînes de
 
 2. Le parcours par **élément**.
 
-### a) Parcours par indice
+#### 1. Parcours par indice
 
 Dans le parcours par indice, nous parcourons les caractères indice par indice.
 
@@ -278,7 +278,7 @@ Dans le parcours par indice, nous parcourons les caractères indice par indice.
 
 Recopier et compléter la trace d'exécution de l'exemple précédent.
 
-### b) Parcours par élément
+#### 2. Parcours par élément
 
 Dans le parcours par élément, nous parcourons caractère par caractère.
 

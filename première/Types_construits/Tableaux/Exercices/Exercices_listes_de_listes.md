@@ -8,11 +8,11 @@ b) Écrire une fonction `affiche_liste_de_listes_parcours_element(l : list)->Non
 
 ## Exercice 2
 
-Ecrire une fonction `somme_liste(l : list)->int` qui prend en paramètre une liste de listes d'entiers et renvoie la somme des éléments de $l$.
+Écrire une fonction `somme_liste(l : list)->int` qui prend en paramètre une liste de listes d'entiers et renvoie la somme des éléments de $l$.
 
 ## Exercice 3
 
-Ecrire une fonction `recherche_sequentielle(l : list, x : int)->bool` qui prend en paramètre une liste de listes d'entiers et un entier et renvoie comme résultat $True$ si $x$ est présent dans $l$, $False$ sinon.
+Écrire une fonction `recherche_sequentielle(l : list, x : int)->bool` qui prend en paramètre une liste de listes d'entiers et un entier et renvoie comme résultat $True$ si $x$ est présent dans $l$, $False$ sinon.
 
 ## Exercice 4
 
@@ -112,6 +112,11 @@ c) Écrire une fonction `placer_jeton(grille : list, pion : str, i : int, j : in
 d) Écrire une fonction `test_victoire(grille : list)->bool` qui prend en paramètre une liste de listes et renvoie $True$ s'il s'agit d'un état de victoire, $False$ sinon.
 
 e) Écrire une fonction `tic_tac_toe()->None` permettant à deux joueurs de jouer au jeu du Tic-tac-toe.
+
 _______________
 
 [Sommaire](./../../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

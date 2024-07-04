@@ -222,14 +222,14 @@ Donner sans utiliser l'ordinateur, le résultat des instructions suivantes :
 ...
 ```
 
-## III. Mutabilité
+### c) Mutabilité
 
 > [!IMPORTANT]
 > Une valeur est dite *mutable* si elle peut être modifiée.
 
 Les listes sont mutables, les éléments peuvent y être modifiés, ajoutés ou supprimés.
 
-### a) Modification d'élément
+#### 1. Modification d'élément
 
 Modifier un élément dans une liste s'effectue en réaffectant une valeur à une position $i$ donnée.
 
@@ -246,7 +246,7 @@ Modifier un élément dans une liste s'effectue en réaffectant une valeur à un
 
 Modifier dans la liste `entiers `la valeur d'indice $1$ en $-999$.
 
-### b) Ajout d'élément
+#### 2. Ajout d'élément
 
 L'ajout d'un élément $p$ s'effectue en fin de liste avec la méthode `append()`.
 
@@ -263,7 +263,7 @@ L'ajout d'un élément $p$ s'effectue en fin de liste avec la méthode `append()
 
 Ajouter à la liste `entiers` les valeurs $6$ et $7$.
 
-### c) Suppression d'élément via son indice
+#### 3. Suppression d'élément via son indice
 
 La suppression d'élément d'indice $i$ s'effectue avec la méthode `pop()` :
 
@@ -280,7 +280,7 @@ La suppression d'élément d'indice $i$ s'effectue avec la méthode `pop()` :
 
 Supprimer dans la liste `entiers` l'élément d'indice $0$.
 
-## IV. Parcours de liste
+### d) Parcours de liste
 
 > [!IMPORTANT]
 > Un *parcours de liste* consiste à visiter tous les éléments de la liste une et une seule fois dans le but de leur appliquer un traitement.
@@ -295,7 +295,7 @@ Il existe deux façons d'utiliser la boucle `for` pour parcourir les listes :
 
 2. Le parcours par **élément**.
 
-### a) Parcours par indice
+#### 1. Parcours par indice
 
 Dans le parcours par indice, nous parcourons les éléments indice par indice.
 
@@ -307,7 +307,7 @@ Dans le parcours par indice, nous parcourons les éléments indice par indice.
 > 3.   entier = entiers[i]
 > ```
 >
-> Trace d'exécution du programme donné ci-dessus:
+> Trace d'exécution du programme donné ci-dessus :
 >
 > | Numéro de ligne | Valeur affectée à $i$ | Valeur affectée à $entier$ |
 > | :---: | :---: | :---: |
@@ -322,7 +322,7 @@ Dans le parcours par indice, nous parcourons les éléments indice par indice.
 
 Recopier et compléter la trace d'exécution de l'exemple précédent.
 
-### b) Parcours par élément
+#### 2. Parcours par élément
 
 Dans le parcours par élément, nous parcourons élément par élément.
 
@@ -348,9 +348,9 @@ Dans le parcours par élément, nous parcourons élément par élément.
 
 Recopier et compléter la trace d'exécution de l'exemple précédent.
 
-## V. Construction de liste en compréhension
+### e) Construction de liste en compréhension
 
-### a) Principe
+#### 1. Principe
 
 Imaginons que nous voulons créer une liste de taille dix dont les éléments sont tous des zéros.
 
@@ -370,7 +370,7 @@ zeros = [0 for i in range(10)]
 
 > Il s'agit d'utiliser la boucle `for` sur une unique ligne.
 
-### b) Syntaxe
+#### 2. Syntaxe
 
 Syntaxe de construction de liste classique :
 
@@ -392,7 +392,7 @@ a) Écrire, en compréhension, le programme permettant de construire une liste `
 
 b) Écrire en compréhension, le programme permettant de construire une liste `[0, 1, 2, 3]`.
 
-### c) Condition (hors programme)
+#### 3. Condition (hors programme)
 
 Syntaxe de construction de liste classique avec condition :
 

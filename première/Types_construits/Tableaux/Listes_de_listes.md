@@ -2,32 +2,42 @@
 
 ## I. Définitions 
 
-Une *liste de listes* est une liste dans lequel chacun de ses éléments est une liste.
+> [!IMPORTANT]
+> Une *liste de listes* est une liste dans lequel chacun de ses éléments est une liste.
 
 Par conséquent, toute les notions vues précédemment dans la leçon sur les listes (cf [Leçon 1 : Listes](./Listes.md)) sont appliquables ici.
 
-Nous utilisons les listes de listes pour modéliser les données représentables sur deux dimensions comme les tableaux.
+## II. En Python
 
-$t = $
+### a) Spécificités
 
-| 00 | 01 | 02 |
-| :---: | :---: | :---: |
-| **10** | **11** | **12** |
+Les données représentables sur deux dimensions comme les tableaux sont facilement modélisées en Python à l'aide des listes de listes.
 
-Par exemple, le tableau précédent est modélisé en Python par la liste suivante :
+> [!TIP]
+> Par exemple :
+>
+> Le tableau $t = $
+>
+> | 00 | 01 | 02 |
+> | :---: | :---: | :---: |
+> | **10** | **11** | **12** |
+> 
+> Est modélisé en Python par la liste de listes suivante :
+> 
+> ```python
+> t = [['00', '01', '02'], ['10', '11', '12']]
+> ```
 
-```python
-t = [['00', '01', '02'], ['10', '11', '12']]
-```
+En Python, une liste de listes reste de type `list`.
 
-En Python, une liste de listes reste de type `list` :
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> type(t)
+> <class 'list'>
+> ```
 
-```python
->>> type(t)
-<class 'list'>
-```
-
-##### Application 1
+#### <ins>Application 1</ins>
 
 En Python, affecter à la variable `table_de_multiplication` la liste de listes correspondant au tableau suivant :
 
@@ -39,41 +49,44 @@ En Python, affecter à la variable `table_de_multiplication` la liste de listes 
 | $0$ | $4$ | $8$ | $12$ | $16$ | $20$ |
 | $0$ | $5$ | $10$ | $15$ | $20$ | $25$ |
 
-## II. Opérations sur les listes de listes
+### b) Opérations
 
-### a) Taille
+#### 1. Taille
 
-La *taille* d'une liste de listes indique le nombre de sous-listes qui la constitue :
+> [!IMPORTANT]
+> La *taille* d'une liste de listes est le nombre de sous-listes contenues dans celle-ci.
 
-```python
->>> len(t)
-2
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> len(t)
+> 2
+> ```
 
-Et la taille de la première sous-liste :
+#### 2. Accès au *i-ème* élément
 
-```python
->>> len(t[0])
-3
-```
+> [!IMPORTANT]
+> L'*indice d'un élément* dans la liste est le numéro de position de l'élément.
 
-### b) Accès au *i-ème* élément
+L'accès à une liste d'indice $i$ s'effectue en l'écrivant entre crochets.
 
-Nous mettons l'indice de la sous-liste que nous souhaitons obtenir entre crochets :
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> t[0]
+> ['00', '01', '02']
+> ```
 
-```python
->>> t[0]
-['00', '01', '02']
-```
+L'accès à un élément d'indice $j$ d'une sous-liste s'effectue en l'écrivant dans de nouveaux crochets.
 
-L'élément `'01'` est récupérable en ajoutant de nouveaux crochets encadrés de son indice dans la sous-liste :
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> t[0][1]
+> '01'
+> ```
 
-```python
->>> t[0][1]
-'01'
-```
-
-##### Application 2
+#### <ins>Application 2</ins>
 
 a) Écrire l'instruction permettant de connaître la taille de `table_de_multiplication`.
 
@@ -81,70 +94,84 @@ b) Écrire l'instruction permettant de connaître la taille la seconde ligne de 
 
 c) Donner, sans utiliser l'ordinateur, le résultat des instructions suivantes :
 
+1. Instruction 1
 ```python
 >>> table_de_multiplication[1]
 ...
 ```
-
+2. Instruction 2
 ```python
 >>> table_de_multiplication[2][3]
 ...
 ```
 
-d) Écrire l'instruction permettant d'obtenir le nombre $25$ en utilisant uniquement la taille de liste.
+d) Écrire l'instruction permettant d'obtenir le nombre $25$ en utilisant uniquement l'opération de taille.
 
-## III. Parcours de listes de listes
+### c) Autres opérations
 
-Un *parcours de liste de listes* consiste à visiter tous les éléments de la liste de listes une et une seule fois dans le but de leur appliquer un traitement.
+Les opérations de test d'appartenance, de concaténation, de découpage, de mutabilité sont appliquables aux listes de listes (cf [Listes](./Listes.md)).
+
+### d) Parcours de listes de listes
+
+> [!IMPORTANT]
+> Un *parcours de liste de listes* consiste à visiter tous les éléments de la liste de listes une et une seule fois dans le but de leur appliquer un traitement.
 
 Nous parcourons les listes de listes en utilisant deux boucles imbriquées l'une dans l'autre.
 
-### a) Parcours par indice
+#### 1. Parcours par indice
 
-Dans le parcours par indice, nous parcourons les éléments indice par indice :
+Dans le parcours par indice, nous parcourons les sous-listes puis les éléments des sous-listes indice par indice.
 
-```python
-1. t = [['00', '01', '02'], ['10', '11', '12']]
-2. for i in range(len(t)) :
-3.   for j in range(len(t[i])):
-4.      entier = t[i][j]
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> 1. t = [['00', '01', '02'], ['10', '11', '12']]
+> 2. for i in range(len(t)) :
+> 3.   for j in range(len(t[i])):
+> 4.      entier = t[i][j]
+> ```
+>
+> Trace d'exécution du programme donné ci-dessus :
+> 
+> | Numéro de ligne | Valeur affectée à $i$ | Valeur affectée à $j$ | Valeur affectée à $entier$ |
+> | :---: | :---: | :---: | :---: |
+> | $1$ | / | / | / |
+> | $2$ | $0$ | / | / |
+> | $3$ | $0$ | $0$ | / |
+> | $4$ | $0$ | $0$ | `'00'` |
+> | $3$ | $0$ | $1$ | `'00'` |
+> | $4$ | $0$ | $1$ | `'01'` |
+> | $3$ | $0$ | $2$ | `'01'` |
+> | $4$ | $0$ | $2$ | `'02'` |
+> | $2$ | $1$ | $2$ | `'02'` |
+> | $3$ | $1$ | $0$ | `'02'` |
+> | $4$ | $1$ | $0$ | `'10'` |
+> | ... | ... | ... | ... |
 
-Trace d'exécution du programme donné ci-dessus:
-
-| Numéro de ligne | Valeur affectée à $i$ | Valeur affectée à $j$ | Valeur affectée à $entier$ |
-| :---: | :---: | :---: | :---: |
-| $1$ | / | / | / |
-| $2$ | $0$ | / | / |
-| $3$ | $0$ | $0$ | / |
-| $4$ | $0$ | $0$ | `'00'` |
-| $3$ | $0$ | $1$ | `'00'` |
-| $4$ | $0$ | $1$ | `'01'` |
-| $3$ | $0$ | $2$ | `'01'` |
-| $4$ | $0$ | $2$ | `'02'` |
-| $2$ | $1$ | $2$ | `'02'` |
-| $3$ | $1$ | $0$ | `'02'` |
-| $4$ | $1$ | $0$ | `'10'` |
-| ... | ... | ... | ... |
-
-##### Application 3
+#### <ins>Application 3</ins>
 
 Compléter la trace d'exécution précédente.
 
-### b) Parcours par élément
+#### 2. Parcours par élément
 
-Dans le parcours par élément, nous parcourons élément par élément :
+Dans le parcours par élément, nous parcourons les sous-listes puis les éléments des sous-listes élément par élément.
 
-```python
-1. t = [['00', '01', '02'], ['10', '11', '12']]
-2. for sousliste in t :
-3.   for elt in sousliste:
-4.      entier = elt
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> 1. t = [['00', '01', '02'], ['10', '11', '12']]
+> 2. for sousliste in t :
+> 3.   for elt in sousliste:
+> 4.      entier = elt
+> ```
 
-##### Application 4
+#### <ins>Application 4</ins>
 
 Écrire un programme permettant d'afficher un par un chacun des nombres présents dans `table_de_multiplication`.
+
+1. Une première fois en effectuant le parcours par indice.
+
+2. Une seconde fois en effectuant le parcours par élément.
 
 __________________
 
@@ -153,3 +180,7 @@ __________________
 __________________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

@@ -117,7 +117,7 @@ Les tuples permettent de renvoyer plusieurs valeurs dans une fonction.
 
 Écrire une fonction `nom_prenom()->tuple` ne prenant aucun paramètre, demande à l'utilisateur quel est son nom et son prénom et les renvoie sous forme de tuple.
 
-## III. Parcours de tuple
+### e) Parcours de tuple
 
 Le parcours de tuple est équivalent au parcours de liste.
 _____________
