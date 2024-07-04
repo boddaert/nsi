@@ -115,7 +115,7 @@ Imaginons désormais qu'une machine d'un premier sous-réseau local souhaite com
 
 Pour la suite de ce chapitre, nous utiliserons le schéma suivant représentant un réseau constitué de trois sous-réseaux locaux interconnectés :
 
-<img src="./img/internet.PNG" width=650>
+<img src="./img/internet.PNG" width=700>
 
 ### a) Protocole IP
 
@@ -189,7 +189,7 @@ Pour chacune des adresses IP et masques de sous-réseau suivants, retrouver l'id
 
 ### e) <a name="schema"></a>Adressage des machines
 
-<img src="./img/representation_reseau_ip.PNG" width=500>
+<img src="./img/representation_reseau_ip.PNG" width=700>
 
 ### f) Adresse réseau
 
