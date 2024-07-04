@@ -16,9 +16,9 @@
 > [!IMPORTANT]
 > Une *structure linéaire mutable de données* est une structure de données linéaire dans laquelle les éléments peuvent être ajoutés, retirés ou modifiés.
 
-## II. Spécificités en Python
+## II. En Python
 
-### a) Syntaxe
+### a) Spécificités
 
 En Python, les listes sont définies entre crochets (`[` `]`).
 

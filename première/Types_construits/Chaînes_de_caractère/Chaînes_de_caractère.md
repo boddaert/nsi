@@ -8,9 +8,9 @@
 > [!IMPORTANT]
 > Une *chaîne de caractère* est un ensemble de caractères.
 
-## II. Spécificités en Python
+## II. En Python
 
-### a) Syntaxe
+### a) Spécificités
 
 En Python, le caractère est encadré par des guillements simples (`'`) ou doubles (`"`).
 

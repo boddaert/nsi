@@ -8,9 +8,9 @@
 > [!IMPORTANT]
 > Une *structure linéaire non mutable de données* est une structure de données linéaire dans laquelle les éléments ne peuvent pas être ajoutés, retirés ou modifiés.
 
-## II. Spécificités en Python
+## II. En Python
 
-### a) Syntaxe
+### a) Spécificités
 
 En Python, les tuples sont définis entre parenthèses (`(` `)`).
 

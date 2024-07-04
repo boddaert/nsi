@@ -1,140 +1,194 @@
 # Dictionnaires
 
-## I. Définitions
-
-Un *dictionnaire* est une structure non linéaire mutable de données.
-
-Une *structure de données* est une structure permettant d'organiser ses données dans l'objectif que le traitement de celles-ci soit efficace.
-
-Une *structure non linéaire de données* est une structure de données dans laquelle chaque élément ne possède pas de position.
-
-Une *structure non linéaire mutable de données* est une structure de données non linéaire dans laquelle les éléments peuvent être ajoutés, retirés ou modifiés.
-
 | / | Linéaire | Non linéaire |
 | :---: | :---: | :---: |
 | **Mutable** | Liste | Dictionnaire |
 | **Non mutable** | Tuple | Ensemble (hors programme) |
 
-Étant donné que les éléments n'ont pas de position dans la structure, nous n'accédons donc pas aux éléments via leurs indices.
+## I. Définitions
 
-Un dictionnaire est un ensemble de paires *clé/valeur*.
+> [!IMPORTANT]
+> Un *dictionnaire* est une structure non linéaire mutable de données.
+>
+> Il est un ensemble de paires clé/valeur.
 
-Nous accédons à une valeur via sa clé. Toutes les clés sont uniques.
+> [!IMPORTANT]
+Une *structure de données* est une structure permettant d'organiser ses données dans l'objectif que le traitement de celles-ci soit efficace.
 
-En Python, le type `dict` est encadré par des accolades :
+> [!IMPORTANT]
+> Une *structure non linéaire de données* est une structure de données dans laquelle chaque élément ne possède pas de position.
 
-```python
->>> type({'a' : 1, 'b': 2})
-<class 'dict'>
-```
+> [!IMPORTANT]
+> Une *structure non linéaire mutable de données* est une structure de données non linéaire dans laquelle les éléments peuvent être ajoutés, retirés ou modifiés.
 
-Nous associons les paires clé/valeur par `:`. Ici, la valeur `1` est associée à la clé `'a'`.
+## II. En Python
 
-Un *dictionnaire vide* est un dictionnaire ne contenant aucune paire clé/valeur :
+### a) Spécificités
 
-```python
->>> type({})
-<class = 'dict'>
-```
+Les dictionnaires en Python sont définis entre accolades (`{` `}`).
 
-Un dictionnaire peut contenir des paires clé/valeur de différents types :
+> [!TIP]
+> Par exemple :
+> ```python
+> {'a' : 1, 'b' : 2}
+> ```
 
-```python
->>> type({'bonjour' : True, 42 : [1, 2, 3]})
-<class = 'dict'>
-```
+Les dictionnaires sont de type `dict`.
 
-##### Application 1
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> type({'a' : 1, 'b' : 2})
+> <class 'dict'>
+> ```
 
-Sur Thonny, créer un dictionnaire appelé : `carte_id` ayant comme élément les paires clé/valeur suivantes :
+> [!IMPORTANT]
+> Un *dictionnaire vide* est un dictionnaire ne contenant aucune paire clé/valeur.
 
-- Votre nom en chaîne de caractère associé à la clé `nom`.
+> [!TIP]
+> Par exemple :
+> > ```python
+> >>> type({})
+> <class 'dict'>
+> ```
 
-- Votre prénom en chaîne de caractère associé à la clé `prenom`.
+Les clés d'un dictionnaire sont associées à leur valeur avec `:`.
 
-- Votre âge en nombre entier associé à la clé `age`.
+> [!TIP]
+> Par exemple :
+> ```python
+> {'a' : 1, 'b' : 2}
+> ```
+>
+> Les clés sont `'a'` et `'b'`, leur valeur sont respectivement `1` et `2`.
 
-## II. Opérations sur les dictionnaires
+Un dictionnaire peut contenir des valeurs de différents types.
 
-### a) Taille
+> [!TIP]
+> Par exemple :
+> ```python
+> {'a' : True, 'b' : [1, 2, 3]})
+> ```
 
-La *taille* d'un dictionnaire est le nombre de paire clé/valeur contenu dans celui-ci.
+Un dictionnaire peut contenir des clés de différent type sauf structure de données.
 
-Elle peut être connue en utilisant la fonction `len()` :
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> {[1, 2, 3] : 1, 'b' : 2}
+> Traceback (most recent call last):
+>   File "<stdin>", line 1, in <module>
+> TypeError: unhashable type: 'list'
+> ```
 
-```python
->>> len({'bonjour' : True, 42 : [1, 2, 3]})
-2
-```
+#### <ins>Application 1</ins>
 
-##### Application 2
+Sur Thonny, créer un dictionnaire appelé : `carte_id` contenant les paires clé/valeur suivantes :
 
-Écrire l'instruction permettant de vérifier que la taille de `carte_id` vaut $3$.
+1. Votre nom en chaîne de caractère associé à la clé `nom`.
 
-### b) Accès à une valeur
+2. Votre prénom en chaîne de caractère associé à la clé `prenom`.
 
-Nous accédons à une valeur du dictionnaire à l'aide de la clé associée.
+3. Votre âge en entier associé à la clé `age`.
 
-Nous mettons la clé de la valeur que nous souhaitons obtenir entre crochets :
+### b) Opérations
 
-```python
->>> dico = {'bonjour' : True, 42 : [1, 2, 3]}
->>> dico['bonjour']
-True
-```
+#### 1. Taille
 
-##### Application 3
+> [!IMPORTANT]
+> La *taille* d'un dictionnaire est le nombre de paire clé/valeur contenu dans celui-ci.
+
+Elle peut être connue en utilisant la fonction `len()` (pour *length* en anglais):
+
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> len({'a' : 1, 'b' : 2})
+> 2
+> ```
+
+#### <ins>Application 2</ins>
+
+Écrire l'instruction permettant de donner la taille de `carte_id`.
+
+#### 2. Accès à une valeur
+
+Étant donné que les éléments n'ont pas de position dans la structure, nous n'accédons donc pas aux éléments via leurs indices mais via leur clé.
+
+L'accès à une valeur s'effectue en écrivant la clé entre crochets.
+
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> dico = {'a' : 1, 'b' : 2}
+> >>> dico['a']
+> 1
+> ```
+
+#### <ins>Application 3</ins>
 
 À partir du dictionnaire `carte_id`, écrire :
 
-- l'instruction permettant d'afficher votre nom.
+1. L'instruction permettant de renvoyer votre nom.
 
-- l'instruction permettant d'afficher votre prénom.
+2. L'instruction permettant de renvoyer votre prénom.
 
-- l'instruction permettant d'afficher votre âge.
+3. L'instruction permettant de renvoyer votre âge.
 
-### c) Test d'appartenance
+#### 3. Test d'appartenance
+
+> [!IMPORTANT]
+> Le *test d'appartenance* permet de savoir si une valeur est présente dans une autre.
 
 Nous pouvons vérifier si une clé est présente dans un dictionnaire à l'aide du mot-clé `in`.
 
-```python
->>> 'bonjour' in dico
-True
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> 'a' in dico
+> True
+> >>> 1 in dico
+> False
+> ```
 
-Le test d'appartenance renvoie comme résultat un booléen.
+> Le test d'appartenance renvoie comme résultat un booléen.
 
 ## III. Mutabilité
 
-Une valeur est dite *mutable* si elle peut être modifiée.
+> [!IMPORTANT]
+> Une valeur est dite *mutable* si elle peut être modifiée.
 
-Les dictionnaires sont mutables.
+Les dictionnaires sont mutables, les éléments peuvent y être modifiés, ajoutés ou supprimés.
 
 ### a) Modification de valeur
 
-Nous pouvons modifier les valeurs d'un dictionnaire :
+Modifier une valeur dans un dictionnaire s'effectue en réaffectant une valeur à une clé donnée.
 
-```python
->>> dico['bonjour'] = False
->>> dico
-{'bonjour': False, 42: [1, 2, 3]}
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> dico['b'] = 0
+> >>> dico
+> {'a': 1, 'b' : 0}
+> ```
 
-##### Application 4
+#### <ins>Application 4</ins>
 
 Sur le dictionnaire `carte_id`, écrire l'instruction permettant d'ajouter un an à votre âge.
 
 ### b) Ajout de paire clé/valeur
 
-L'ajout de paire clé/valeur s'effectue en associant une valeur à une clé non existante :
+L'ajout de paire clé/valeur s'effectue en associant une valeur à une clé non existante entre crochets.
 
-```python
->>> dico[55] = (3, 2, 1)
->>> dico
-{'bonjour': False, 42: [1, 2, 3], 55: (3, 2, 1)}
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> dico['c'] = 3
+> >>> dico
+> {'a': 1, 'b' : 0, 'c' : 3}
+> ```
 
-##### Application 5
+#### <ins>Application 5</ins>
 
 Écrire l'instruction permettant d'ajouter votre nationnalité, votre date et lieu de naissance au dictionnaire `carte_id`.
 
@@ -142,92 +196,113 @@ L'ajout de paire clé/valeur s'effectue en associant une valeur à une clé non 
 
 La suppression de paire clé/valeur d'un dictionnaire s'effectue à l'aide du mot clé  `del` sur la clé :
 
-```python
->>> del dico'55]
->>> dico
-{'bonjour': False, 42: [1, 2, 3]}
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> del dico['c']
+> >>> dico
+> {'a': 1, 'b' : 0}
+> ```
 
-##### Application 6
+#### <ins>Application 6</ins>
 
-Finalement, écrire l'instruction permettant de supprimer votre lieu de naissance du dictionnaire `carte_id`.
+Écrire l'instruction permettant de supprimer votre lieu de naissance du dictionnaire `carte_id`.
 
 ## IV. Parcours de dictionnaire
 
-Un *parcours de dictionnaire* consiste à visiter tous les éléments du dictionnaire une et une seule fois dans le but de leur appliquer un traitement.
+> [!IMPORTANT]
+> Un *parcours de dictionnaire* consiste à visiter tous les éléments du dictionnaire une et une seule fois dans le but de leur appliquer un traitement.
 
 Nous parcourons les dictionnaires en utilisant les boucles.
 
-Comme nous connaissons à l'avance la taille d'un dictionnaire, nous connaissons à l'avance le nombre de tour de boucle nécessaire au parcours : Nous utilisons donc la boucle `for`.
+> Comme nous connaissons à l'avance la taille d'un dictionnaire, nous connaissons à l'avance le nombre de tour de boucle nécessaire au parcours : Nous utilisons donc la boucle `for`.
 
 Il existe trois façons de parcourir les dictionnaires :
 
-- Le parcours des clés.
+1. Le parcours des clés.
 
-- Le parcours des valeurs.
+2. Le parcours des valeurs.
 
-- Le parcours des paires clé/valeur.
+3. Le parcours des paires clé/valeur.
 
 ### a) Parcours des clés
 
-Nous pouvons récupérer l'ensemble des clés d'un dictionnaire avec la méthode `keys()` :
+Récupérer l'ensemble des clés d'un dictionnaire s'effectue avec la méthode `keys()`.
 
-```python
->>> dico.keys()
-dict_keys(['bonjour', 42])
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> dico.keys()
+> dict_keys(['a', 'b'])
+> ```
 
-Il suffit alors de parcourir cet ensemble avec un simple parcours de liste par élément :
+Parcourir les clés d'un dictionnaire revient à faire le parcours par élément de l'ensemble des clés renvoyé par la méthode `keys()`.
 
-```python
-for cle in dico.keys():
-    print(cle)
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> for cle in dico.keys():
+>     print(cle)
+> ```
+>
+> Le programme affichera dans la console `'a'` puis `'b'`.
 
-##### Application 7
+#### <ins>Application 7</ins>
 
 Écrire le programme permettant d'afficher toute les clés du dictionnaire `carte_id`.
 
 ### c) Parcours des valeurs
 
-Nous pouvons récupérer l'ensemble des valeurs d'un dictionnaire avec la méthode `values()` :
+Récupérer l'ensemble des valeurs d'un dictionnaire s'effectue avec la méthode `values()`.
 
-```python
->>> dico.values()
-dict_values([False, [1, 2, 3]])
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> dico.values()
+> dict_values([1, 0])
+> ```
 
-Il suffit alors de parcourir cet ensemble avec un simple parcours de liste par élément :
+Parcourir les valeurs d'un dictionnaire revient à faire le parcours par élément de l'ensemble des valeurs renvoyé par la méthode `values()`.
 
-```python
-for valeur in dico.values():
-    print(valeur)
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> for valeur in dico.values():
+>     print(valeur)
+> ```
+>
+> Le programme affichera `1` puis `0`.
 
-##### Application 8
+#### <ins>Application 8</ins>
 
 Écrire le programme permettant d'afficher toute les valeurs du dictionnaire `carte_id`.
 
 ### d) Parcours des paires clé/valeur
 
-Nous pouvons récupérer l'ensemble des paires clé/valeur (sous forme de tuple) d'un dictionnaire avec la méthode `items()` :
+Récupérer l'ensemble des paires clé/valeur (sous forme de tuple) d'un dictionnaire s'effectue avec la méthode `items()`.
 
-```python
->>> dico.items()
-dict_items([('bonjour', False), (42, [1, 2, 3])])
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> dico.items()
+> dict_items([('a', 1), ('b', 0)])
+> ```
 
-Il suffit alors de parcourir cet ensemble avec un simple parcours de liste par élément :
+Parcourir les paires clé/valeur d'un dictionnaire revient à faire le parcours par élément de l'ensemble des paires clé/valeur renvoyé par la méthode `items()`.
 
-```python
-for cle, valeur in dico.items():
-    print(cle)
-    print(valeur)
-```
+> [!TIP]
+> Par exmple :
+> ```python
+> for cle, valeur in dico.items():
+>     print(cle)
+>     print(valeur)
+> ```
+>
+> Le programme affichera `'a'`, `1` puis `'b'` et `0`.
 
-> *Remarque : Les éléments de la séquence renvoyée par la méthode `items()` étant des tuples, la variable `cle` et la variable `valeur` contiennent respectivement le premier élément et le second élément du tuple (le premier étant la clé et le second la valeur).*
+> Les éléments de la séquence renvoyée par la méthode `items()` étant des tuples, la variable `cle` et la variable `valeur` contiennent respectivement le premier élément et le second élément du tuple (le premier étant la clé et le second la valeur).
 
-##### Application 9
+#### <ins>Application 9</ins>
 
 Écrire le programme permettant d'afficher toute les paires clé/valeur du dictionnaire `carte_id`.
 
@@ -238,3 +313,7 @@ ___________________
 ___________________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

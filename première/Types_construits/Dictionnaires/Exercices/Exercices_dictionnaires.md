@@ -8,7 +8,7 @@ a) Écrire l'instruction permettant de récupérer le nombre d'entrées du film 
 
 b) Écrire l'instruction permettant d'ajouter au box office le film Doctor Strange qui comptabilise trois millions deux cent soixante-dix mille trois cent quarante-deux entrées.
 
-c) Ecrire l'instruction permettant d'ajouter deux cent cinquante-six entrées au film Avatar 2.
+c) Écrire l'instruction permettant d'ajouter deux cent cinquante-six entrées au film Avatar 2.
 
 d) De deux façons différentes, écrire une fonction `affiche_box_office(box_office : dict)` permettant d'afficher proprement ligne par ligne les noms des films et leur nombre d'entrées :
 
@@ -225,3 +225,7 @@ d) Réfléchir à un moyen permettant de réduire le nombre d'allers-retours.
 _________________
 
 [Sommaire](./../../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
