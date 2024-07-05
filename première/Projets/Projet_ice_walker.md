@@ -18,11 +18,11 @@ Ce type de jeu a été repris plusieurs fois par la licence Pokémon. Voici ci-d
 
 ## II. Cahier des charges
 
-Avec Python, vous devez programmer un niveau de jeu Ice Walker en respectant les contraintes suivantes :
+Le programme Python doit respecter les contraintes suivantes :
 
 1. La grille de jeu est modélisée par une liste de listes.
 
-2. Les mécaniques de jeu de sol glacé et de l'infranchissabilité des murs doivent être respectés.
+2. Les mécaniques de jeu de sol glacé et de l'infranchissabilité des murs doivent être implémentées.
 
 3. À chaque tour de jeu, le joueur entre une direction (Nord, Est, Ouest ou Sud) et fais déplacer le personnage dans la direction donnée.
 
