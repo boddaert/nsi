@@ -190,7 +190,7 @@ c) À l'aide de cette leçon et de la [documentation officielle CSS](https://dev
 
 _____________
 
-[Sommaire](./../README.md)
+[Sommaire](./../../README.md)
 
 ___________
 
