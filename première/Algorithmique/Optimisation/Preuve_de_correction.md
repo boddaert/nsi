@@ -38,7 +38,7 @@ Il s'agit bien d'une propriété vraie à l'entrée de la boucle, à chaque ité
 
 Cet algorithme admet un invariant de boucle et est donc correct.
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 Trouver l'invariant de boucle de l'algorithme suivant `multiplication` afin de prouver qu'il est correct :
 
@@ -55,3 +55,7 @@ Renvoyer n
 ________________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

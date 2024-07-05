@@ -77,11 +77,15 @@ j) Avec `l_triee = [0, 1, 2, 3, 4, 5, 7, 8, 10, 14]` et `elt = 1`, compléter la
 | $0$ | $False$ | / | $0$ | $9$ |
 | $1$ | ... | ... | ... | ... |
 
-k) En utilisant les *sclices* (les coupes propres à Python), écrire une fonction `recherche_dichotomique_simplifiee(l_triee : list, elt : int)->bool` qui prend en paramètre une liste d'entiers triée et un entier et renvoie l'indice de `elt` s'il est dans `l`, $-1$ sinon.
+k) En utilisant les *sclices* (le découpage Python), écrire une fonction `recherche_dichotomique_simplifiee(l_triee : list, elt : int)->bool` qui prend en paramètre une liste d'entiers triée et un entier et renvoie l'indice de `elt` s'il est dans `l`, $-1$ sinon.
 
 ___________________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
 
 
 

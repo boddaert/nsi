@@ -99,13 +99,13 @@ b) Dérouler l'algorithme `recherche_1` en comptant le nombre de comparaisons ef
 
 - `l = [2, 7, 0, 1, 8, 5, 3, 10, 14, 4]`
 
-- `elt = 0`
+- `elt = 1`
 
 c) Dérouler l'algorithme `recherche_2` en comptant le nombre de comparaisons effectuées avec les paramètres suivants : 
 
 - `l = [2, 7, 0, 1, 8, 5, 3, 10, 14, 4]`
 
-- `elt = 0`
+- `elt = 1`
 
 d) En fonction de $n$ la taille de la liste, donner le nombre de comparaisons effectuées dans le meilleur des cas et dans le pire des cas pour chacun des deux algorithmes.
 
