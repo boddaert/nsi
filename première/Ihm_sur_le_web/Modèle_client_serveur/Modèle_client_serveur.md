@@ -2,7 +2,7 @@
 
 ## I. Rappels de Seconde
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Le *web* (ou *World Wide Web*) est un ensemble de documents reliés entre eux par des liens hypertextes.
 
 > [!IMPORTANT]
