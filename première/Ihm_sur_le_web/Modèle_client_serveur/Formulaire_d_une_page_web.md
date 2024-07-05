@@ -2,31 +2,32 @@
 
 ## I. HTML
 
-Le langage HTML (*HyperText Markup Language*) que nous pouvons traduire en Français par "langage de balisage hypertexte" est le langage utilisé pour structurer une page web et son contenu.
+> [!IMPORTANT]
+> Le langage HTML (*HyperText Markup Language*) que nous pouvons traduire en Français par "langage de balisage hypertexte" est le langage utilisé pour structurer une page web et son contenu.
 
-Nous pouvons par exemple organiser le contenu en un ensemble de paragraphes, une liste d'éléments, utiliser des images ou des tableaux.
+Nous pouvons par exemple organiser le contenu en un ensemble de paragraphes, une liste à puces, utiliser des images ou des tableaux.
 
 ### a) Syntaxe de balise
 
 Les contenus sont encadrés de *balises* indiquant de quel type de contenu il s'agit et cela constitue un *élément HTML*.
 
-Par exemple, l'élément suivant représente un paragraphe :
+> [!TIP]
+> Par exemple, l'élément paragraphe :
+> ```html
+> <p>Ceci est un paragraphe</p>
+> ```
 
-```html
-<p>Ceci est un paragraphe</p>
-```
-
-Nous distingons les balises ouvrantes et fermantes.
+> Nous distingons les balises ouvrantes et fermantes.
 
 ### b) Imbrication de balise
 
 Nous pouvons imbriquer les balises pour ajouter un type à un contenu.
 
-Par exemple, l'élément suivant présente du contenu de type paragraphe et gras :
-
-```html
-<p>Ceci est un <b>paragraphe gras</b></p>
-```
+> [!TIP]
+> Par exemple, l'élément suivant présente du contenu de type paragraphe et gras :
+> ```html
+> <p>Ceci est un <b>paragraphe gras</b></p>
+> ```
 
 Il faut cependant faire attention à imbriquer correctement les balises.
 
@@ -42,20 +43,20 @@ Le document est divisé en deux parties :
 
 - Et le corps, contenu dans une balise `body` comprenant les éléments qui sont affichés sur la page web.
 
-Voici ci-dessous, un exemple de squelette d'un document HTML :
-
-```html
-<!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Ma page de test</title>
-  </head>
-  <body>
-    ...
-  </body>
-</html>
-```
+> [!TIP]
+> Par exemple, un squelette de document HTML :
+> ```html
+> <!doctype html>
+> <html lang="fr">
+>   <head>
+>     <meta charset="utf-8" />
+>     <title>Ma page de test</title>
+>   </head>
+>   <body>
+>     ...
+>   </body>
+> </html>
+> ```
 
 ### d) Mémo des balises HTML
 
@@ -77,7 +78,8 @@ Voici ci-dessous, un exemple de squelette d'un document HTML :
 
 ## II. CSS
 
-Le langage CSS (*Cascading Style Sheets*) que nous pouvons traduire en Français par "feuille de style en cascade" est le langage utilisé pour mettre en forme du contenu HTML.
+> [!IMPORTANT]
+> Le langage CSS (*Cascading Style Sheets*) que nous pouvons traduire en Français par "feuille de style en cascade" est le langage utilisé pour mettre en forme du contenu HTML.
 
 Il permet d'appliquer des styles sur différents éléments sélectionnés dans un document HTML.
 
@@ -87,25 +89,25 @@ Une règle CSS est une règle de style appliqué à un sélecteur encadré par d
 
 Le *sélecteur* correspond à un élément HTML présent dans le document.
 
-Par exemple, voici ci-dessous une règle CSS appliquant la couleur rouge à tous les éléments `p` dans le document :
+> [!TIP]
+> Par exemple, voici ci-dessous une règle CSS appliquant la couleur rouge à tous les éléments `p` dans le document :
+> ```css
+> p {
+>     color : red;
+> }
+> ```
 
-```css
-p {
-    color : red;
-}
-```
-
-`p` est alors le sélecteur et `color : red;` est la règle.
+> `p` est alors le sélecteur et `color : red;` est la règle.
 
 ### b) Intégration d'une feuille CSS à un document HTML
 
 Pour faire le lien entre le document HTML et la feuille de style CSS qui sont deux fichiers différents, il faut ajouter dans la balise `head` du document HTML le lien vers le fichier CSS.
 
-Par exemple, si ma feuille de style se nomme `style.css` :
-
-```html
-<link href="style.css" rel="stylesheet" type="text/css" />
-```
+> [!TIP]
+> Par exemple, si ma feuille de style se nomme `style.css` :
+> ```html
+> <link href="style.css" rel="stylesheet" type="text/css" />
+> ```
 
 ### c) Sélecteurs de classes et d'ID
 
@@ -150,7 +152,7 @@ Nous avons vus dans la leçon précédente que le passage de paramètre pouvait 
 
 - L'attribut `action` définit l'emplacement (une URL) où doivent être envoyées les données collectées par le formulaire.
 
-- L'attribut `method` définit la méthode HTTP utilisée pour envoyer les données (cela peut être « get » ou « post »).
+- L'attribut `method` définit la méthode HTTP utilisée pour envoyer les données (cela peut être `get` ou `post`).
 
 ### b) Mémo des champs de saisie
 
@@ -160,7 +162,7 @@ Nous avons vus dans la leçon précédente que le passage de paramètre pouvait 
 | Champs de saisie à taille variable | `<textarea>` |
 | Contrôle de saisie | `<label>` |
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 a) Commencer par créer un fichier `formulaire.html` et l'ouvrir sur Notepad++.
 
@@ -168,24 +170,28 @@ b) À l'aide de cette leçon et de la [documentation officielle HTML](https://de
 
 Ce formulaire est destiné à des élèves de Première et doit demander :
 
-- Le nom/prénom de l'élève.
+1. Le nom/prénom de l'élève.
 
-- L'adresse mail de l'élève, doit contenir un arobase.
+2. L'adresse mail de l'élève, doit contenir un arobase.
 
-- La date de naissance de l'élève, doit être une date valide.
+3. La date de naissance de l'élève, doit être une date valide.
 
-- La photo de l'élève, doit permettre à l'utilisateur de choisir une image dans son système de gestion de fichiers.
+4. La photo de l'élève, doit permettre à l'utilisateur de choisir une image dans son système de gestion de fichiers.
 
-- Le nombre d'heure de travail effectué à la maison, doit être comprise entre zéro et vingt.
+5. Le nombre d'heure de travail effectué à la maison, doit être comprise entre zéro et vingt.
 
-- Les spécialités que l'élève a choisis, doit contenir une liste de spécialités.
+6. Les spécialités que l'élève a choisis, doit contenir une liste de spécialités.
 
-- Un message.
+7. Un message.
 
-- Un bouton de soumission de formulaire.
+8. Un bouton de soumission de formulaire.
 
 c) À l'aide de cette leçon et de la [documentation officielle CSS](https://developer.mozilla.org/fr/docs/Web/CSS), écrire le code CSS (dans un fichier `style.css`) permettant d'ajouter du style au formulaire.
 
 _____________
 
 [Sommaire](./../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

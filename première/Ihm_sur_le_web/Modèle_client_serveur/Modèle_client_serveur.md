@@ -2,21 +2,27 @@
 
 ## I. Rappels de Seconde
 
-Le *web* (ou *World Wide Web*) est un ensemble de documents reliés entre eux par des liens hypertextes.
+> ![IMPORTANT]
+> Le *web* (ou *World Wide Web*) est un ensemble de documents reliés entre eux par des liens hypertextes.
 
-Un *document* est une page web, ils peuvent être de tout types : un texte, une image, une vidéo, un son, ...
+> [!IMPORTANT]
+> Un *document* est une page web, ils peuvent être de tout types : un texte, une image, une vidéo, un son, ...
 
-Un lien *hypertexte* (ou *hyperlien*) est un lien cliquable menant vers un autre document sur le web. Il est souvent représenté en bleu souligné : [Exemple](./Introduction.md).
+> [!IMPORTANT]
+> Un lien *hypertexte* (ou *hyperlien*) est un lien cliquable menant vers un autre document sur le web. Il est souvent représenté en bleu souligné : [Exemple](./Introduction.md).
 
 Le langage informatique permettant d'écrire des documents hypertexte est le HTML (*HyperText Markup Language*).
 
 Celui qui est utilisé pour le style est le CSS (*Cascading Style Sheets*).
 
-Une *URL* (*Uniform Resource Locator*) ou *adresse web* en français est une adresse vers un document du web (texte, image, vidéo).
+> [!IMPORTANT]
+> Une *URL* (*Uniform Resource Locator*) ou *adresse web* en français est une adresse menant vers un document du web (texte, image, vidéo).
 
 Nous l'écrivons ou elle s'affiche dans la barre d'adresse du navigateur.
 
-Par exemple `https://www.wikipedia.org/wiki/Computer_science` est une adresse web menant vers la page `informatique` du site Wikipédia.
+> [!TIP]
+> Par exemple :
+> `https://www.wikipedia.org/wiki/Computer_science` est une adresse web menant vers la page `informatique` du site Wikipédia.
 
 ## II. Interraction Client-Serveur
 
@@ -36,9 +42,10 @@ Nous appelons ce modèle : le modèle Client-Serveur.
 
 ### b) Modèle
 
-Le *client* (le navigateur) et le serveur sont deux entités qui communiquent.
-
-Le client souhaite envoyer ou accèder à une ressource présente sur le serveur.
+> [!IMPORTANT]
+> Le *client* (le navigateur) et le serveur sont deux entités qui communiquent.
+>
+> Le client souhaite envoyer ou accèder à une ressource présente sur le serveur.
 
 Le modèle Client-Serveur repose sur le protocole de communication HTTP (*HyperText Tansfer Protocol*) qui permet d'envoyer des requêtes HTTP et de recevoir une réponse du serveur :
 
@@ -50,7 +57,7 @@ Le modèle Client-Serveur repose sur le protocole de communication HTTP (*HyperT
 
 ### c) Requêtes HTTP
 
-Pour obtenir ou envoyer des données, le client envoie une requête HTTP au serveur.
+Pour obtenir une ressource ou envoyer des données, le client envoie une **requête HTTP** au serveur.
 
 Une requête HTTP s'écrit avec le nom de la méthode suivi de l'adresse vers la ressource.
 
@@ -58,18 +65,22 @@ Une requête HTTP s'écrit avec le nom de la méthode suivi de l'adresse vers la
 
 Pour obtenir une ressource, le client utilise la méthode GET.
 
-Par exemple, en naviguant vers l'URL `http://www.nsi-premiere.fr/test.html`, le navigateur souhaite obtenir la ressource `test.html` et envoie au serveur web la requête HTTP suivante :
+> [!TIP]
+> Par exemple :
+>
+> En naviguant vers l'URL `http://www.nsi-premiere.fr/test.html`, le navigateur souhaite obtenir la ressource `test.html` et envoie au serveur web la requête HTTP suivante :
+>
+> ```
+> GET /test.html HTTP/1.1
+> Host : www.nsi-premiere.fr
+> ```
 
-```
-GET /test.html HTTP/1.1
-Host : www.nsi-premiere.fr
-```
+> [!WARNING]
+> Avec ce type de requête, le passage des paramètres au serveur se fait directement dans l'URL.
 
-Avec cette requête, le passage des paramètres au serveur se fait directement dans l'URL.
+L'intérêt de la méthode GET est que toute l'information nécessaire au serveur est contenue dans l'URL, ainsi il est possible de la mémoriser (en l'ajoutant en dans la barre des favoris par exemple) pour s'en servir plus tard.
 
-L'intérêt de la méthode GET est que toute l'information nécessaire au serveur est contenue dans l'URL, ainsi il est possible de la mémoriser pour s'en servir plus tard.
-
-##### Application 1
+#### <ins>Application 1</ins>
 
 a) Sur Mozilla Firefox, taper sur la touche `f12` : il s'agit du panneau d'outils de développement.
 
@@ -91,9 +102,11 @@ d) En parcourant la requête HTTP et la réponse, trouver les informations suiva
 
 #### Méthode POST
 
-Il existe des situations où passer les paramètres via l'URL pose problème. Notamment, lorsque nous souhaitons par exemple nous connecter à un compte.
+Il existe des situations où passer les paramètres via l'URL pose problème.
 
-##### Application 2
+Notamment, lorsque nous souhaitons par exemple nous connecter à un compte.
+
+#### <ins>Application 2</ins>
 
 a) Aller sur le site [http://glassus1.free.fr/ex_get.html](http://glassus1.free.fr/ex_get.html) et taper un mot de passe.
 
@@ -105,17 +118,17 @@ C'est pourquoi il existe une autre méthode : la méthode POST.
 
 À la différence de la requête GET, le passage des paramètre se fait dans le corps de la requête.
 
-##### Application 3
+#### <ins>Application 3</ins>
 
 a) Aller sur le site [http://glassus1.free.fr/cible2.php](http://glassus1.free.fr/ex_post.html) et taper un mot de passe.
 
 b) Le mot de passe ne s'affiche plus dans l'URL, retrouver le contenu du mot de passe dans l'entête de la requête à l'aide du panneau d'outils de développement Firefox.
 
-##### Application 4
+#### <ins>Application 4</ins>
 
-a) Indiquer quels sont les avantages/inconvénients de la méthode GET.
+a) Écrire sur papier quels sont les avantages/inconvénients de la méthode GET.
 
-b) Indiquer quels sont les avantages/inconvénients de la méthode POST.
+b) Écrire sur papier quels sont les avantages/inconvénients de la méthode POST.
 
 ### d) Réponses HTTP
 
@@ -132,3 +145,7 @@ Le code réponse indique l'état de la réponse :
 ________________
 
 [Sommaire](./../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
