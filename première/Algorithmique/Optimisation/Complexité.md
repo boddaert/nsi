@@ -4,11 +4,14 @@
 
 ### a) Définitions
 
-La *complexité d'un algorithme* est le coût algorithmique de celui-ci.
+> [!IMPORTANT]
+> La *complexité d'un algorithme* est le coût algorithmique de celui-ci.
 
-La *complexité spatiale* d'un algorithme est le coût en espace mémoire nécessaire à l'exécution d'un algorithme sur machine.
+> [!IMPORTANT]
+> La *complexité spatiale* d'un algorithme est le coût en espace mémoire nécessaire à l'exécution d'un algorithme sur machine.
 
-La *complexité temporelle* d'un algorithme est le coût en temps nécessaire à l'exécution d'un algorithme sur machine.
+> [!IMPORTANT]
+> La *complexité temporelle* d'un algorithme est le coût en temps nécessaire à l'exécution d'un algorithme sur machine.
 
 > En Première, nous nous interesserons uniquement à la complexité temporelle des algorithmes.
 
@@ -44,13 +47,15 @@ Les principales évolutions que l'on rencontre sont, en notant $n$ la taille des
 
 - Coût exponentiel : le coût est proportionnel à $O(2^n)$.
 
-![image](./img/complexites.png)
+<img src="./img/complexites.png" width=700>
 
 ## II. Mise en situation
 
 Il existe au moins deux algorithmes pour le problème de recherche d'un élément dans une liste quelconque.
 
-La spécification de ce problème est le suivant : Renvoie l'indice de l'élément `elt` recherché dans la liste `l` s'il est présent, sinon renvoie la valeur $-1$.
+La spécification de ce problème est le suivant : 
+
+`Renvoie l'indice de l'élément elt recherché dans la liste l s'il est présent, sinon renvoie la valeur -1`
 
 Voici ci-dessous un premier algorithme :
 
@@ -86,7 +91,7 @@ TantQue i < taille(l) et trouvé = Faux, faire :
 Renvoyer i_elt
 ```
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 a) Sur feuille, recopier les algorithmes `recherche_1` et `recherche_2` et entourer les endroits où il y a une comparaison.
 
@@ -94,13 +99,13 @@ b) Dérouler l'algorithme `recherche_1` en comptant le nombre de comparaisons ef
 
 - `l = [2, 7, 0, 1, 8, 5, 3, 10, 14, 4]`
 
-- `elt = 1`
+- `elt = 0`
 
 c) Dérouler l'algorithme `recherche_2` en comptant le nombre de comparaisons effectuées avec les paramètres suivants : 
 
 - `l = [2, 7, 0, 1, 8, 5, 3, 10, 14, 4]`
 
-- `elt = 1`
+- `elt = 0`
 
 d) En fonction de $n$ la taille de la liste, donner le nombre de comparaisons effectuées dans le meilleur des cas et dans le pire des cas pour chacun des deux algorithmes.
 
@@ -111,3 +116,7 @@ f) En déduire celui qui est le plus efficace.
 ___________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

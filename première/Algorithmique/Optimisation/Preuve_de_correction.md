@@ -2,12 +2,14 @@
 
 ## I. Définitions
 
-La *preuve de correction d'un algorithme* est une preuve cherchant à déterminer si un algorithme est correct.
+> [!IMPORTANT]
+> La *preuve de correction d'un algorithme* est une preuve cherchant à déterminer si un algorithme est correct. C'est-à-dire, s'il fait correctement la chose qu'il est censé faire.
 
 Faire la preuve de correction d'un algorithme est en particulier nécessaire lorsque celui-ci contient des boucles.
 
 ## II. Invariant de boucle
 
+> [!IMPORTANT]
 Un *invariant de boucle* est une propriété qui doit être vraie à l'entrée de la boucle, à chaque itération de boucle et à la sortie de la boucle.
 
 Ainsi, pour prouver qu'un algorithme est correct, il faut trouver son invariant.
@@ -28,7 +30,7 @@ TantQue i < taille(l), faire :
 Renvoyer i_elt
 ```
 
-Nous remarquons que la valeur de `i_elt` contient l'indice de l'élément (s'il est présent) dans l'intervalle `l[0]` et `l[i]`.
+Nous remarquons que la valeur de `i_elt` contient l'indice de l'élément (s'il est présent) dans l'intervalle $[l[0],l[i]]$.
 
 L'invariant de cet algorithme est donc : "La variable `i_elt` contient `-1` ou l'indice de `elt` avec $0 \leq i_{elt} \leq i$".
 
