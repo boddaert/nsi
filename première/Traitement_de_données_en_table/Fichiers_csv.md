@@ -2,36 +2,44 @@
 
 ## I. Définitions
 
-Un *fichier CSV* (*Coma-Seperated Values*) est un fichier texte représentant des données tabulaires sous forme de valeurs séparées par des virgules (ou des point-virgules).
+> [!IMPORTANT]
+> Un *fichier CSV* (*Coma-Seperated Values*) est un fichier texte représentant des données tabulaires sous forme de valeurs séparées par des virgules (ou des point-virgules).
 
 Chaque ligne du texte correspond à une ligne du tableau et les virgules correspondent aux séparations entre les colonnes.
 
-Par exemple, le fichier [personnes.csv](./src/personnes.csv) contenant :
+> [!TIP]
+> Par exemple :
+>
+> Le fichier [personnes.csv](./src/personnes.csv) contenant :
+>
+> ```csv
+> Sexe,Prénom,Année de naissance
+> M,Alphonse,1932
+> F,Béatrice,1964
+> F,Charlotte,1988
+> ```
+>
+> Peut être représenté sous forme de tableau appelée *table* :
+>
+> | Sexe | Prénom | Année de naissance |
+> | :---: | :---: | :---: |
+> | M | Alphonse | 1932 |
+> | F | Béatrice | 1964 |
+> | F | Charlotte | 1988 |
 
-```csv
-Sexe,Prénom,Année de naissance
-M,Alphonse,1932
-F,Béatrice,1964
-F,Charlotte,1988
-```
+> [!IMPORTANT]
+> Le titre de chaque colonne est un *attribut*.
 
-Peut être représenté sous forme de tableau appelée *table* :
+> [!IMPORTANT]
+> Chaque ligne suivante est un *enregistrement*.
 
-| Sexe | Prénom | Année de naissance |
-| :---: | :---: | :---: |
-| M | Alphonse | 1932 |
-| F | Béatrice | 1964 |
-| F | Charlotte | 1988 |
+> [!IMPORTANT]
+> Chaque case contient une *valeur*, une valeur est une donnée.
 
-Le titre de chaque colonne est un *attribut*.
+> [!IMPORTANT]
+> Une *donnée* est une information.
 
-Chaque ligne suivante est un *enregistrement*.
-
-Chaque case contient une *valeur*, une valeur est une donnée.
-
-Une *donnée* est une information.
-
-##### Application 1
+#### <ins>Application 1</ins>
 
 a) Télécharger le fichier [personnes.csv](./src/personnes.csv).
 
@@ -45,59 +53,44 @@ b) Ouvrir le fichier de deux façons :
 
 Le module CSV de Python permet d'importer les données depuis un fichier CSV. Sa documentation est disponible [ici](https://docs.python.org/3/library/csv.html).
 
-### a) Importer les données sous forme de liste de listes
-
-```python
-import csv
-
-personnes = []
-with open('personnes.csv', 'r', encoding='utf-8') as csvfile:
-    lecteur_liste = csv.reader(csvfile, delimiter=',')
-    for ligne in lecteur_liste:
-        personnes.append(ligne)
-```
-
 L'importation de données s'effectue avec la fonction `open()`, celle-ci prend en paramètre le nom du fichier CSV à ouvrir, le mode d'ouverture (en lecture ou en écriture) et l'encodage.
 
-Ces données regroupées au sein d'un objet `csvfile` sont ensuite lues par un lecteur représenté par la fonction `reader` qui prend en paramètre le séparateur entre les données.
+> [!TIP]
+> Par exemple :
+> ```python
+> import csv
+>
+> personnes = []
+> with open('personnes.csv', 'r', encoding='utf-8') as csvfile:
+>     lecteur = csv.DictReader(csvfile, delimiter=',')
+>     for ligne in lecteur:
+>         personnes.append(ligne)
+> ```
 
-Puis, par une simple boucle, les lignes sont ajoutées dans une liste préalablement créee :
+Ces données regroupées au sein d'un objet `csvfile` sont ensuite lues par un lecteur représenté par la fonction `DictReader` qui prend en paramètre le séparateur entre les données.
 
-```python
->>> personnes
-[['Sexe', 'Prénom', 'Année de naissance'], ['M', 'Alphonse', '1932'], ['F', 'Béatrice', '1964'], ['F', 'Charlotte', '1988']]
-```
+> [!TIP]
+> Par exemple :
+> ```python
+> lecteur = csv.DictReader(csvfile, delimiter=',')
+> ```
 
-##### Application 2
+À l'aide d'une boucle, les lignes lues par le lecteur sont ajoutées dans une liste.
 
-a) Recopier le code ci-dessus dans le même répertoire que le fichier [personnes.csv](./src/personnes.csv) et exécuter le.
+> [!TIP]
+> Par exemple :
+> ```python
+> >>> personnes
+> [{'Sexe': 'M', 'Prénom': 'Alphonse', 'Année de naissance': '1932'}, {'Sexe': 'F', 'Prénom': 'Béatrice', 'Année de naissance': '1964'}, {'Sexe': 'F', 'Prénom': 'Charlotte', 'Année de naissance': '1988'}]
+> ```
 
-b) Vérifier dans la console que le contenu de la variable `personnes`.
+#### <ins>Application 2</ins>
 
-### b) Importer les données sous forme de dictionnaire
+a) Recopier le code ci-dessus dans le même répertoire que le fichier [personnes.csv](./src/personnes.csv) et exécuter le code.
 
-```python
-import csv
+b) Écrire l'instruction permettant d'obtenir les informations de la première personne.
 
-personnes = []
-with open('personnes.csv', 'r', encoding='utf-8') as csvfile:
-    lecteur_dict = csv.DictReader(csvfile, delimiter=',')
-    for ligne in lecteur_dict :
-        personnes.append(ligne)
-```
-
-À la différence de la première méthode, il s'agit ici d'une liste de dictionnaire :
-
-```python
->>> personnes
-[{'Sexe': 'M', 'Prénom': 'Alphonse', 'Année de naissance': '1932'}, {'Sexe': 'F', 'Prénom': 'Béatrice', 'Année de naissance': '1964'}, {'Sexe': 'F', 'Prénom': 'Charlotte', 'Année de naissance': '1988'}]
-```
-
-##### Application 3
-
-a) Recopier le code ci-dessus dans le même répertoire que le fichier [personnes.csv](./src/personnes.csv) et exécuter le.
-
-b) Vérifier dans la console que le contenu de la variable `personnes`.
+c) Écrire l'instruction permettant d'obtenir uniquement le prénom de la première personne.
 
 ## III. Validation des données
 
@@ -113,7 +106,7 @@ Et les seules valeurs possibles de l'attribut `sexe` sont `"F"` et `"M"`.
 
 La validation de données est propre à chaque fichier CSV, c'est pourquoi il n'existe pas de fonction native permettant de le faire à notre place.
 
-##### Application 4
+#### <ins>Application 3</ins>
 
 a) Écrire une fonction `valide_personnes(personnes : list)->list` qui prend en paramètre une liste de personnes et renvoie cette même liste en convertissant les années de naissance en entier et/ou renvoie un message d'erreur si une valeur autre que `"F"` ou `"M"` est présente dans la colonne `sexe`.
 
@@ -121,8 +114,12 @@ b) Modifier votre fichier CSV afin de vérifier le bon fonctionnement de votre f
 
 ____________
 
-[Feuille d'exercices](./Exercices/Exercices_fichiers_csv.md)
+[Exercices](./Exercices/Exercices_fichiers_csv.md)
 
 ____________
 
 [Sommaire](./../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

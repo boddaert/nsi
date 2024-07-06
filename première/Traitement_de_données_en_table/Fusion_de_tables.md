@@ -2,44 +2,49 @@
 
 ## I. Définitions
 
-La *fusion* de deux tables est la réunion des données de ces deux tables pour n'en former plus qu'une.
+> [!IMPORTANT]
+> La *fusion* de deux tables est la réunion des données de ces deux tables pour n'en former plus qu'une.
 
 Selon la forme ce ces tables, la fusion peut être semblable à une simple concaténation des données ou à la jointure en fonction d'un attribut unique de ces deux tables.
 
-Fusionner deux tables n'a de sens que si les données contenues dans ces tables sont liées.
+> [!WARNING]
+> Fusionner deux tables n'a de sens que si les données contenues dans ces tables sont liées.
 
 ## II. Concaténation de deux tables
 
 ### a) Principe
 
-La *concaténation de deux tables* consiste à concaténer les données de deux tables. Elle n'est possible que si les deux tables ont exactement les mêmes attributs.
+> [!IMPORTANT]
+> La *concaténation de deux tables* consiste à concaténer les données de deux tables. Elle n'est possible que si les deux tables ont exactement les mêmes attributs.
 
-Par exemple, la concaténation de la table suivante :
-
-| Sexe | Prénom | Année de naissance |
-| :---: | :---: | :---: |
-| M | Alphonse | 1932 |
-| F | Béatrice | 1964 |
-| F | Charlotte | 1988 |
-
-Avec celle-ci :
-
-| Sexe | Prénom | Année de naissance |
-| :---: | :---: | :---: |
-| M | David | 1955 |
-| M | Emanuel | 1992 |
-| F | Florentine | 1973 |
-
-Donne :
-
-| Sexe | Prénom | Année de naissance |
-| :---: | :---: | :---: |
-| M | Alphonse | 1932 |
-| F | Béatrice | 1964 |
-| F | Charlotte | 1988 |
-| M | David | 1932 |
-| M | Emanuel | 1992 |
-| F | Florentine | 1973 |
+> [!TIP]
+> Par exemple :
+> La concaténation de la table suivante :
+>
+> | Sexe | Prénom | Année de naissance |
+> | :---: | :---: | :---: |
+> | M | Alphonse | 1932 |
+> | F | Béatrice | 1964 |
+> | F | Charlotte | 1988 |
+>
+> Avec celle-ci :
+>
+> | Sexe | Prénom | Année de naissance |
+> | :---: | :---: | :---: |
+> | M | David | 1955 |
+> | M | Emanuel | 1992 |
+> | F | Florentine | 1973 |
+> 
+> Donne :
+>
+> | Sexe | Prénom | Année de naissance |
+> | :---: | :---: | :---: |
+> | M | Alphonse | 1932 |
+> | F | Béatrice | 1964 |
+> | F | Charlotte | 1988 |
+> | M | David | 1932 |
+> | M | Emanuel | 1992 |
+> | F | Florentine | 1973 |
 
 ### b) Algorithme de concaténation
 
@@ -72,7 +77,7 @@ Si taille(liste_clés_table_1) = taille(liste_clés_table_2) et si mêmes_clés 
 Renvoyer table_fusionée
 ```
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 a) Écrire la fonction `concaténation()` correspondant à l'algorithme de concaténation ci-dessus.
 
@@ -82,33 +87,36 @@ b) Vérifier votre fonction en fusionnant les deux tables données en exemple.
 
 ### a) Principe
 
-L'*opération de jointure entre deux tables* consiste à réaliser le produit cartésien des données pésentes dans ces deux tables.
+> [!IMPORTANT]
+> L'*opération de jointure entre deux tables* consiste à réaliser le produit cartésien des données pésentes dans ces deux tables.
 
 Elle n'est possible que si les deux tables ont des valeurs communes pour un même attribut unique.
 
-Par exemple, l'opération de jointure de la table suivante :
-
-| Sexe | Prénom | Année de naissance |
-| :---: | :---: | :---: |
-| M | Alphonse | 1932 |
-| F | Béatrice | 1964 |
-| F | Charlotte | 1988 |
-
-Avec celle-ci sur l'attribut `Prénom` :
-
-| Prénom | Lieu d'habitation |
-| :---: | :---: |
-| Alphonse | Paris |
-| Béatrice | Lille |
-| David | Lyon |
-| Florentine | Strasbourg |
-
-Donne :
-
-| Sexe | Prénom | Année de naissance | Lieu d'habitation |
-| :---: | :---: | :---: | :---: |
-| M | Alphonse | 1932 | Paris |
-| F | Béatrice | 1964 | Lille |
+> [!TIP]
+> Par exemple :
+> L'opération de jointure de la table suivante :
+>
+> | Sexe | Prénom | Année de naissance |
+> | :---: | :---: | :---: |
+> | M | Alphonse | 1932 |
+> | F | Béatrice | 1964 |
+> | F | Charlotte | 1988 |
+>
+> Avec celle-ci sur l'attribut `Prénom` :
+>
+> | Prénom | Lieu d'habitation |
+> | :---: | :---: |
+> | Alphonse | Paris |
+> | Béatrice | Lille |
+> | David | Lyon |
+> | Florentine | Strasbourg |
+>
+> Donne :
+>
+> | Sexe | Prénom | Année de naissance | Lieu d'habitation |
+> | :---: | :---: | :---: | :---: |
+> | M | Alphonse | 1932 | Paris |
+> | F | Béatrice | 1964 | Lille |
 
 ### b) Algorithme de jointure
 
@@ -132,7 +140,7 @@ Pour chaque enregistrement_1 de table_1, faire :
 Renvoyer table_fusionnée
 ```
 
-##### Application 2
+#### <ins>Application 2</ins>
 
 a) Écrire la fonction `jointure()` correspondant à l'algorithme de jointure ci-dessus.
 
@@ -141,3 +149,7 @@ b) Vérifier votre fonction en fusionnant les deux tables données en exemple.
 ____________
 
 [Sommaire](./../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

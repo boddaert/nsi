@@ -6,39 +6,51 @@ Une fois les données chargées et validées, il devient possible d'exploiter ce
 
 Ces opérations sont appelées *requêtes*.
 
-Une *requête de recherche* est la combinaison d'une requête de projection et de sélection.
+> [!IMPORTANT]
+> La *requête de projection* est une requête qui consiste à récupérer, sur chaque enregistrement, toutes les valeurs d'un attribut donné.
 
-| Sexe | Prénom | Année de naissance |
-| :---: | :---: | :---: |
-| M | Alphonse | 1932 |
-| F | Béatrice | 1964 |
-| F | Charlotte | 1988 |
+> [!TIP]
+> Par exemple :
+>
+> | Sexe | Prénom | Année de naissance |
+> | :---: | :---: | :---: |
+> | M | Alphonse | 1932 |
+> | F | Béatrice | 1964 |
+> | F | Charlotte | 1988 |
+>
+> Avec la table `personnes` ci-dessus, la projection des valeurs de l'attribut `"Année de naissance"` est :
+>
+> | Année de naissance |
+> | :---: |
+> | 1932 |
+> | 1964 |
+> | 1988 |
 
-La *requête de projection* est une requête qui consiste à récupérer, sur chaque enregistrement, toutes les valeurs d'un attribut donné.
+> [!IMPORTANT]
+> La *requête de sélection* est une requête qui consiste à récupérer tous les enregistrements contenant une valeur donnée.
 
-Par exemple, sur la table `personnes` ci-dessus, la projection des valeurs de l'attribut `"Année de naissance"` est :
+> [!TIP]
+> Par exemple :
+> Par exemple :
+> Avec la table `personnes` ci-dessus, la sélection des enregistrements en fonction de la valeur `"F"` pour l'attribut `Sexe` est :
+>
+> | Sexe | Prénom | Année de naissance |
+> | :---: | :---: | :---: |
+> | F | Béatrice | 1964 |
+> | F | Charlotte | 1988 |
 
-| Année de naissance |
-| :---: |
-| 1932 |
-| 1964 |
-| 1988 |
 
-La *requête de sélection* est une requête qui consiste à récupérer tous les enregistrements contenant une valeur donnée.
+> [!IMPORTANT]
+> Une *requête de recherche* est la combinaison d'une requête de projection et de sélection.
 
-Par exemple, sur la table `personnes` ci-dessus, la sélection des enregistrements en fonction de la valeur `"F"` pour l'attribut `Sexe` est :
-
-| Sexe | Prénom | Année de naissance |
-| :---: | :---: | :---: |
-| F | Béatrice | 1964 |
-| F | Charlotte | 1988 |
-
-La combinaison des deux requêtes précédentes est :
-
-| Année de naissance |
-| :---: |
-| 1964 |
-| 1988 |
+> [!TIP]
+> Par exemple :
+> Avec la table `personnes` ci-dessus, la requête de recherche des années de naissances pour les femmes est :
+>
+> | Année de naissance |
+> | :---: |
+> | 1964 |
+> | 1988 |
 
 ## II. Algorithmes de requête de recherche
 
@@ -55,7 +67,7 @@ Pour chaque enregistrement de table_de_données, faire :
 Renvoyer table_de_résultats
 ```
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 a) Écrire une fonction `projection(table_de_données : list, attribut : str)->list` correspondant à l'algorithme de projection ci-dessus.
 
@@ -75,7 +87,7 @@ Pour chaque enregistrement de table_de_données, faire :
 Renvoyer table_de_résultats
 ```
 
-##### Application 2
+#### <ins>Application 2</ins>
 
 a) Écrire une fonction `selection(table_de_données : list, attribut : str, valeur : str)->list` correspondant à l'algorithme de sélection ci-dessus.
 
@@ -91,7 +103,7 @@ Sortie : Une nouvelle table de données
 Renvoyer projection(sélection(table_de_données, attribut_sélection, valeur_sélection), attribut_projection)
 ```
 
-##### Application 3
+#### <ins>Application 3</ins>
 
 a) Écrire une fonction `recherche(table_de_données : list, attribut_projection : str, attribut_selection : str, valeur : str)->list` correspondant à l'algorithme de recherche ci-dessus.
 
@@ -99,7 +111,8 @@ b) Exécuter la fonction `recherche()` avec les bons arguments afin d'obtenir le
 
 ## III. Fonctions d'agrégation
 
-Les fonctions d'*agrégation* combinent une sélection/projection d'enregistrement et une opération d'agrégation afin d'obtenir des statistiques.
+> [!IMPORTANT]
+> Les fonctions d'*agrégation* est une opération supplémentaire afin d'obtenir des informations précises comme le nombre d'occurences de la recherche ou la moyenne des résultats.
 
 ### a) Algorithme d'occurences
 
@@ -113,7 +126,7 @@ Sortie : Un entier
 Renvoyer taille(sélection(table_de_données, attribut, valeur))
 ```
 
-##### Application 4
+#### <ins>Application 4</ins>
 
 a) Écrire une fonction `occurences(table_de_données : list, attribut : str, valeur : str)->list` correspondant à l'algorithme d'occurences ci-dessus.
 
@@ -132,7 +145,7 @@ table_de_résultats = projection(table_de_données, attribut)
 Renvoyer somme(table_de_résultats)/taille(table_de_résultats)
 ```
 
-##### Application 5
+#### <ins>Application 5</ins>
 
 a) Écrire une fonction `moyenne(table_de_données : list, attribut : str)->list` correspondant à l'algorithme de moyenne ci-dessus.
 
@@ -140,8 +153,12 @@ b) Exécuter la fonction `moyenne()` avec les bons arguments afin d'obtenir la m
 
 __________
 
-[Feuille d'exercices](./Exercices/Exercices_recherche_dans_une_table.md)
+[Exercices](./Exercices/Exercices_recherche_dans_une_table.md)
 
 __________
 
 [Sommaire](./../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
