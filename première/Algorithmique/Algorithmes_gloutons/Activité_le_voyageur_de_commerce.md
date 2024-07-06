@@ -20,7 +20,7 @@ Il existe plusieurs itinéraires possibles et le voyageur cherche à utiliser ce
 
 Vous disposez, par groupe, d'un jeu composé d'une planche de bois sur laquelle est plantée sept clous et une ficelle fixée à l'un des clous : 
 
-<img src="./img/activite_tsp.png" width=500>
+<img src="./img/activite_tsp.png" width=700>
 
 Ce jeu est une représentation d'une vue aérienne d'une région, les villes étant symbolisées par les clous et l'itinéraire à emprunter par la ficelle.
 
