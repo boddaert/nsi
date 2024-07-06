@@ -6,7 +6,7 @@ L'algorithme du tri par sélection est un algorithme de tri par comparaison.
 
 Dans cet algorithme, nous parcourons la liste de la gauche vers la droite, en maintenant sur la gauche une partie triée :
 
-<img src="./img/schema_tri.png" width=400>
+<img src="./img/schema_tri.png" width=700>
 
 Il y a donc une partie gauche triée et vide au lancement du programme et une partie droite non triée.
 
@@ -20,7 +20,7 @@ Le principe du tri par sélection est le suivant :
 
 Voici, par exemple, une animation décrivant le principe du tri par sélection :
 
-<img src="./img/animation_tri_selection.gif" width=400>
+<img src="./img/animation_tri_selection.gif" width=100>
 
 #### <ins>Application 1</ins>
 
