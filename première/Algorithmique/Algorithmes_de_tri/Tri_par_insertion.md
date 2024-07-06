@@ -20,7 +20,7 @@ Voici, par exemple, une animation décrivant le principe du tri par insertion :
 
 Nous parcourons la liste de la gauche vers la droite, en maintenant sur la gauche une partie triée :
 
-<img src="./img/animation_tri_insertion.gif" width=500>
+<img src="./img/animation_tri_insertion.gif" width=300>
 
 #### <ins>Application 1</ins>
 
