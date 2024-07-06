@@ -19,7 +19,7 @@ L'objectif du problème du sac à dos est de sélectionner des objets à mettre 
 
 a) Quelles boîtes choisir afin de maximiser la somme emportée tout en ne dépassant pas les quinze kilos autorisés ?
 
-<img src="./../img/sac_a_dos.png" width=400>
+<img src="./../img/sac_a_dos.png" width=600>
 
 b) Démontrer qu'il s'agit d'un problème d'optimisation combinatoire.
 
@@ -46,7 +46,7 @@ Le problème est le suivant : pouvons-nous colorier tous les rectangles de ces t
 
 a) Proposer une solution utilisant un nombre de couleurs minimal du tableau de Piet Mondrian :
 
-<img src="./../img/coloration_piet_mondrian.png" width=800>
+<img src="./../img/coloration_piet_mondrian.png" width=600>
 
 b) Démontrer qu'il s'agit d'un problème d'optimisation combinatoire.
 
