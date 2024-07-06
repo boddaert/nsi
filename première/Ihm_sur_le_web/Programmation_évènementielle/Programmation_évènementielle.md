@@ -48,7 +48,7 @@ Par le biais d'un évènement utilisateur, le langage JavaScript agit directemen
 
 Nous souhaitons écrire une page web proposant un bouton à l'utilisateur et affiche, à côté, le nombre de clics sur ce bouton :
 
-<img src="./img/exemple_simple.png" width=500>
+<img src="./img/exemple_clic.gif" width=500>
 
 Commençons par coder l'élément graphique du bouton dans un fichier HTML :
 
