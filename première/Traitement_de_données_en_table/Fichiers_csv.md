@@ -45,9 +45,9 @@ a) Télécharger le fichier [personnes.csv](./src/personnes.csv).
 
 b) Ouvrir le fichier de deux façons :
 
-    - Une première fois avec le logiciel Bloc-notes.
+1. Une première fois avec le logiciel Bloc-notes.
 
-    - Une seconde avec LibreOffice Tableur.
+2. Une seconde avec LibreOffice Tableur.
 
 ## II. Chargement des données
 
