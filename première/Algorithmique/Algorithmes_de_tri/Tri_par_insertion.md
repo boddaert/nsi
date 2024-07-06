@@ -6,7 +6,7 @@ L'algorithme du tri par insertion est un algorithme de tri par comparaison.
 
 Dans cet algorithme, nous parcourons la liste de la gauche vers la droite, en maintenant sur la gauche une partie triée :
 
-![image](./img/schema_tri.png)
+<img src="./img/schema_tri.png" width=400>
 
 Il y a donc une partie gauche triée et vide au lancement du programme et une partie droite non triée.
 
@@ -20,9 +20,9 @@ Voici, par exemple, une animation décrivant le principe du tri par insertion :
 
 Nous parcourons la liste de la gauche vers la droite, en maintenant sur la gauche une partie triée :
 
-![animation](./img/animation_tri_insertion.gif)
+<img src="./img/animation_tri_insertion.gif" width=400>
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 Voici ci-dessous l'algorithme de la fonction ``inserer(l : list, i : int)->None`` permettant d'insérer l'élément d'indice ``i`` dans la partie gauche triée :
 
@@ -43,7 +43,7 @@ Réécrire, en python, la fonction `inserer( l : list , i : int)->None`.
 
 > Cette fonction devra remplacer la seconde comparaison par la fonction `compare()`.
 
-##### Application 2
+#### <ins>Application 2</ins>
 
 Écrire en python une fonction `tri_insertion(l : list)->None` qui en paramètre une liste ``l`` et trie dans l'ordre croissant les éléments de `l`.
 
@@ -63,7 +63,7 @@ La fonction `inserer()` effectue des appels à la fonction `compare()`.
 
 La fonction `compare()` comptabilise **une** comparaison : calculons alors le nombre d'appels effectués à la fonction `compare()`.
 
-##### Application 3
+#### <ins>Application 3</ins>
 
 a) Modifier la fonction ``inserer()`` pour qu'elle affiche le nombre d'appels effectué à la fonction `compare()`.
 
@@ -87,7 +87,7 @@ Le nombre total de comparaison de la fonction `tri_insertion()` est la somme des
 
 > Rappel : $somme\quad des\quad termes\quad d'une\quad suite\quad arithmétique\quad =\quad nombre\quad de\quad termes \times \dfrac{(premier\quad terme\quad +\quad dernier\quad terme)}{2}$
 
-##### Application 4
+#### <ins>Application 4</ins>
 
 a) Qu'est-il affiché lorsque j'exécute la fonction `tri_insertion()` pour une liste triée décroissante de longueur $5$ ? $10$ ? $20$ ?
 
@@ -99,7 +99,7 @@ Pour une liste de taille $n$ donnée, le coût algorithmique temporel est égale
 
 Ce qui est de l'ordre de $O(n²)$ donc le tri par insertion possède un coût quadratique (voir courbes : [complexité](./../Optimisation/Complexité.md)).
 
-##### Application 5
+#### <ins>Application 5</ins>
 
 Exprimer en une phrase si l'algoritme du tri par insertion est préférable à utiliser que l'algorithme du tri par sélection.
 
@@ -109,11 +109,11 @@ Prouver qu'un algorithme se termine, c'est trouver son variant de boucle (voir [
 
 Étant donné que l'algorithme de tri par insertion utilise l'algorithme `inserer` et que celui-ci est doté d'une boucle `while`, affirmer que l'algorithme `tri_insertion` nécessite de vérifier que l'algorithme `inserer` se termine.
 
-##### Application 6
+#### <ins>Application 6</ins>
 
 En relisant [I. Algorithme](#algorithme) de cette leçon, repérer un variant de boucle dans l'algorithme `inserer` afin d'affirmer qu'il se termine bien.
 
-##### Application 7
+#### <ins>Application 7</ins>
 
 Expliquer pourquoi la preuve de terminaison de l'algorithme `inserer` suffit à dire que l'algorithme `tri_insertion` se termine.
 
@@ -130,3 +130,7 @@ L'algorithme du tri par insertion admet un invariant de boucle et est donc corre
 _________________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
