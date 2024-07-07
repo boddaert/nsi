@@ -28,8 +28,6 @@ Le programme Python doit respecter les contraintes suivantes :
 
 ## III. Exemple de rendu
 
-Exemple de rendu :
-
 ![gif](./img/exemple_motus.gif)
 
 ## IV. Module générateur

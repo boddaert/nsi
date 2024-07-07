@@ -16,8 +16,6 @@ Le quiz propose au joueur de donner le résultat de dix multiplications, affiche
 
 ## III. Exemple de rendu
 
-Exemple de rendu :
-
 ![gif](./img/exemple_test_de_rapidité.gif)
 
 ## IV. Aller plus loin

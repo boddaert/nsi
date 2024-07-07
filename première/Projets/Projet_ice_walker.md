@@ -40,7 +40,7 @@ Le programme Python doit respecter les contraintes suivantes :
 
 _______________
 
-[Sommaire](./../../README.md)
+[Sommaire](./../README.md)
 
 ___________
 
