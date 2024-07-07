@@ -9,7 +9,7 @@
 
 - Leçon 1 : [Modularité](./Langages_et_programmation/Modularité/Modularité.md)
 
-- Projet n°1 [Architectes](./Langages_et_programmation/Modularité/Projet_architectes.md)
+- Projet n°1 : [Dessine ton Mii](./Projets/Projet_dessine_ton_mii.md)
 
 ##### Chapitre 2 : Programmation Orientée Objet
 
