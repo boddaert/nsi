@@ -2,29 +2,29 @@
 
 ## I. Introduction
 
-***-> Qu'est-ce qu'une communication ?***
+*-> Qu'est-ce qu'une communication ?*
 
-<u>C'est le fait d'échanger des informations entre deux entités à travers un support.</u>
+C'est le fait d'échanger des informations entre deux **entités** à travers un **support**.
 
-En communication verbale, les entités sont les interlocuteurs et discutent à travers le son.
+> En communication verbale, les entités sont les interlocuteurs et discutent à travers le son.
 
 Lorsque l'on parle de communication informatique, les informations échangées sont des données que s'échangent deux machines via câbles ou ondes :
 
-![](img/intro/communication_informatique.PNG)
+<img src="./img/intro/communication_informatique.PNG" width=500>
 
-***-> Pourquoi sécuriser ?***
+*-> Pourquoi sécuriser ?*
 
-Une troisième entité Carole (entité *C*) peut intercepter les données que s'échangent Alice et Bob :
+Une troisième entité, Carole (entité C), peut intercepter les données que s'échangent Alice et Bob :
 
-![](img/intro/pourquoi_securiser.PNG)
+<img src="./img/intro/pourquoi_securiser.PNG" width=500>
 
-***-> Comment sécuriser ?***
+*-> Comment sécuriser ?*
 
 Deux idées ont été proposées :
 
-- La première, celle qui n'a pas été retenue, était de protéger physiquement le support (trop coûteux financièrement et en temps).
+1. La première, celle qui n'a pas été retenue, était de protéger physiquement le support (trop coûteux financièrement et en temps).
 
-- La seconde, celle qui a été retenue, est de rendre incompréhensibles (ou inintelligibles) les données échangées.
+2. La seconde, celle qui a été retenue, est de rendre incompréhensibles (ou **inintelligibles**) les données échangées.
 
 ## II. Généralités
 
@@ -32,17 +32,17 @@ Deux idées ont été proposées :
 
 La sécurisation d'une communication doit accomplir trois missions :
 
-- **La confidentialité** : Rendre l'accès aux données uniquement à ceux qui sont autorisés.
+1. **La confidentialité** : Rendre l'accès aux données uniquement à ceux qui sont autorisés.
 
-- **L'intégrité** : S'assurer que les données n'ont pas été modifiées entre l'émission et la réception de celles-ci.
+2. **L'intégrité** : S'assurer que les données n'ont pas été modifiées entre l'émission et la réception de celles-ci.
 
-- **L'authenticité** : S'assurer que les données proviennent bien de l'entité émettrice.
+3. **L'authenticité** : S'assurer que les données proviennent bien de l'entité émettrice.
 
 ### b) Idée
 
 L'idée est de rendre incompréhensible les données qu'Alice envoie à Bob : 
 
-<img src="./img/généralités/idee.PNG" title="" alt="" data-align="center">
+<img src="./img/généralités/idee.PNG" width=500 data-align="center">
 
 Ainsi, Carole ne peut pas utiliser les données qu'elle intercepte.
 
