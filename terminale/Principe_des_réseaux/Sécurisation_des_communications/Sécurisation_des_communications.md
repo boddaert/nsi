@@ -42,7 +42,7 @@ La sécurisation d'une communication doit accomplir trois missions :
 
 L'idée est de rendre incompréhensible les données qu'Alice envoie à Bob : 
 
-<img src="./img/idee.PNG" width=800>
+<img src="./img/idee.PNG" width=600>
 
 Ainsi, Carole ne peut pas utiliser les données qu'elle intercepte.
 
@@ -64,17 +64,17 @@ Pour réussir un tel stratagème, nous allons nous servir de la cryptologie.
 > [!IMPORTANT]
 > *Chiffrer* un message revient à transformer un message clair en un message chiffré à l'aide d'une clé de chiffrement :
 >
-> <img src="./img/chiffrement.PNG" width=600>
+> <img src="./img/chiffrement.PNG" width=400>
 
 > [!IMPORTANT]
 > *Déchiffrer* un message revient à transformer un message chiffré en un message clair à l'aide d'une clé de déchiffrement :
 >
-> <img src="./img/dechiffrement.PNG" width=600>
+> <img src="./img/dechiffrement.PNG" width=400>
 
 > [!IMPORTANT]
 > *Décrypter* un message revient à transformer un message chiffré en un message clair à l'aide de la cryptanalyse :
 >
-> <img src="./img/decryptage.PNG" width=600>
+> <img src="./img/decryptage.PNG" width=400>
 
 > [!IMPORTANT]
 > La *cryptanalyse* est l'ensemble de méthodes permettant de retrouver le message clair sans posséder la clé de déchiffrement.
