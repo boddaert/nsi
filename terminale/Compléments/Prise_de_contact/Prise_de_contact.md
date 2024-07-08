@@ -98,7 +98,7 @@ Non obligatoire mais il est conseillé de posséder une clé USB dans laquelle v
 
 ___________
 
-[Sommaire](./../README.md)
+[Sommaire](./../../README.md)
 
 ___________
 
