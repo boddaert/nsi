@@ -8,7 +8,7 @@ alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 ## Exercice 1
 
-Ecrire une fonction ``chiffre_cesar(message_clair : str, cle : int)->str`` qui prend en paramètres un message clair et une clé de chiffrement et renvoie le message chiffré selon la méthode du Chiffre de César :
+Écrire une fonction ``chiffre_cesar(message_clair : str, cle : int)->str`` qui prend en paramètres un message clair et une clé de chiffrement et renvoie le message chiffré selon la méthode du Chiffre de César :
 
 ```python
 >>> chiffre_cesar("ATTAQUEZLECHATEAU", 2)
@@ -17,7 +17,7 @@ Ecrire une fonction ``chiffre_cesar(message_clair : str, cle : int)->str`` qui p
 
 ## Exercice 2
 
-Ecrire une fonction ``dechiffre_cesar(message_chiffre : str, cle : int)->str`` qui prend en paramètres un message chiffré et une clé de déchiffrement et renvoie le message clair :
+Écrire une fonction ``dechiffre_cesar(message_chiffre : str, cle : int)->str`` qui prend en paramètres un message chiffré et une clé de déchiffrement et renvoie le message clair :
 
 ```python
 >>> dechiffre_cesar('CVVCSWGBNGEJCVGCW', 2)
@@ -26,7 +26,7 @@ Ecrire une fonction ``dechiffre_cesar(message_chiffre : str, cle : int)->str`` q
 
 ## Exercice 3
 
-Ecrire une fonction ``chiffre_vigenere(message_clair : str, cle : tuple)->str`` qui prend en paramètres un message clair et un tuple de clé de chiffrement et renvoie le message chiffré selon la méthode du chiffrement de Vigenère :
+Écrire une fonction ``chiffre_vigenere(message_clair : str, cle : tuple)->str`` qui prend en paramètres un message clair et un tuple de clé de chiffrement et renvoie le message chiffré selon la méthode du chiffrement de Vigenère :
 
 ```python
 >>> chiffre_vigenere("ATTAQUEZLECHATEAU", (2,4,1))
@@ -35,7 +35,7 @@ Ecrire une fonction ``chiffre_vigenere(message_clair : str, cle : tuple)->str`` 
 
 ## Exercice 4
 
-Ecrire une fonction ``dechiffre_vigenere(message_chiffre : str, cles : tuple)->str`` qui prend en paramètres un message chiffré et un tuple de clés de déchiffrement et renvoie le message clair :
+Écrire une fonction ``dechiffre_vigenere(message_chiffre : str, cles : tuple)->str`` qui prend en paramètres un message chiffré et un tuple de clés de déchiffrement et renvoie le message clair :
 
 ```python
 >>> dechiffre_vigenere('CXUCUVGDMGGICXFCY', (2,4,1))
@@ -94,14 +94,14 @@ a) En se servant de la fonction ``bin()``, écrire une fonction ``repr_bin(mot :
 ['01101', '10010', '01000']
 ```
 
-b) Ecrire une fonction ``xor(x : str, y : str)->str`` qui prend en paramètres deux représentations binaires et renvoie le résultat de l'opération du Ou Exclusif :
+b) Écrire une fonction ``xor(x : str, y : str)->str`` qui prend en paramètres deux représentations binaires et renvoie le résultat de l'opération du Ou Exclusif :
 
 ```python
 >>> xor('0101', '1001')
 '1100'
 ```
 
-c) Ecrire une fonction ``chiffre_xor(message_clair : list, cle : list)->list`` qui prend en paramètres la représentation binaire du message clair et la représentation binaire de la clé et renvoie une liste dont les éléments sont les représentations binaire du message chiffré selon la méthode du chiffrement XOR :
+c) Écrire une fonction ``chiffre_xor(message_clair : list, cle : list)->list`` qui prend en paramètres la représentation binaire du message clair et la représentation binaire de la clé et renvoie une liste dont les éléments sont les représentations binaire du message chiffré selon la méthode du chiffrement XOR :
 
 ```python
 >>> chiffre_xor(repr_bin("ATTAQUEZ"), repr_bin("NSI"))
@@ -127,28 +127,28 @@ L'idée est de calculer les occurences de chaques lettres chiffrées et de repé
 
 Puis, de retrouver le nombre $n$ de décalages nécessaire pour chiffrer cette lettre en `E`, $n$ est alors la clé.
 
-a) Ecrire une fonction `occ(message_chiffre : str)->dict` qui prend en paramètre le message chiffré et renvoie un dictionnaire dans lequel la clé est la lettre et la valeur, son nombre d'occurences :
+a) Écrire une fonction `occ(message_chiffre : str)->dict` qui prend en paramètre le message chiffré et renvoie un dictionnaire dans lequel la clé est la lettre et la valeur, son nombre d'occurences :
 
 ```python
 >>> occ('EQODQF')
 {'E' : 1, 'Q' : 2, 'O' : 1, 'D' : 1, 'F' :1}
 ```
 
-b) Ecrire une fonction `max_occ(occ : dict)->str` qui prend en paramètres le dictionnaire des occurences et renvoie la lettre la plus fréquente :
+b) Écrire une fonction `max_occ(occ : dict)->str` qui prend en paramètres le dictionnaire des occurences et renvoie la lettre la plus fréquente :
 
 ```python
 >>> max_occ(occ('EQODQF'))
 'Q'
 ```
 
-c) Ecrire une fonction `trouve_cle(lettre : str)->int` qui prend en paramètre une lettre et renvoie le nombre de décalages jusqu'à `E` :
+c) Écrire une fonction `trouve_cle(lettre : str)->int` qui prend en paramètre une lettre et renvoie le nombre de décalages jusqu'à `E` :
 
 ```python
 >>> trouve_cle('Q')
 12
 ```
 
-d) Ecrire une fonction `decrypter_cesar_analyse_freq(message_chiffre : str)->str` qui prend en paramètre le message chiffré et renvoie le message clair en réutilisant les fonctions précédentes :
+d) Écrire une fonction `decrypter_cesar_analyse_freq(message_chiffre : str)->str` qui prend en paramètre le message chiffré et renvoie le message clair en réutilisant les fonctions précédentes :
 
 ```python
 >>> decrypter_cesar_analyse_freq('EQODQF')
@@ -181,7 +181,7 @@ Le puzzle de Merkle est une méthode permettant de s'échanger une clé de chiff
 
 ##### Etape 1 Alice
 
-a) Ecrire une fonction ``genere_messages(n : int)->list`` qui prend en paramètre un entier $n$ et renvoie une liste de $n$ messages de la forme ``identifiant:i cle:k`` où $k$ est un entier aléatoire :
+a) Écrire une fonction ``genere_messages(n : int)->list`` qui prend en paramètre un entier $n$ et renvoie une liste de $n$ messages de la forme ``identifiant:i cle:k`` où $k$ est un entier aléatoire :
 
 ```python
 >>> messages = genere_messages(10)
@@ -189,7 +189,7 @@ a) Ecrire une fonction ``genere_messages(n : int)->list`` qui prend en paramètr
 ['identifiant:0 cle:6799100', 'identifiant:1 cle:689143', 'identifiant:2 cle:66654', 'identifiant:3 cle:633728', 'identifiant:4 cle:656285', 'identifiant:5 cle:267157', 'identifiant:6 cle:96664', 'identifiant:7 cle:319894', 'identifiant:8 cle:23433', 'identifiant:9 cle:702382']
 ```
 
-b) Ecrire une fonction ``chiffrer_messages(messages : list)->list`` qui prend en paramètres une liste de messages clairs et renvoie une liste de messages chiffrés selon le système du Chiffre de César avec pour chaque message une clé différente :
+b) Écrire une fonction ``chiffrer_messages(messages : list)->list`` qui prend en paramètres une liste de messages clairs et renvoie une liste de messages chiffrés selon le système du Chiffre de César avec pour chaque message une clé différente :
 
 ```python
 >>> messages_chiffres = chiffrer_messages(messages)
@@ -199,7 +199,7 @@ b) Ecrire une fonction ``chiffrer_messages(messages : list)->list`` qui prend en
 
 ##### Etape 2 Bob
 
-c) Ecrire une fonction ``choisir_message(messages_chiffres : list)->str`` qui prend en paramètre une liste de messages chiffrés et renvoie un message choisis aléatoirement :
+c) Écrire une fonction ``choisir_message(messages_chiffres : list)->str`` qui prend en paramètre une liste de messages chiffrés et renvoie un message choisis aléatoirement :
 
 ```python
 >>> message_choisis = choisir_message(messages_chiffres)
@@ -207,7 +207,7 @@ c) Ecrire une fonction ``choisir_message(messages_chiffres : list)->str`` qui pr
 '2yz7c2 2v7cuojx5zuqpqmsp'
 ```
 
-d) Ecrire une fonction ``decrypter(message_choisis : str)->str`` qui prend en paramètre le message choisis chiffré et renvoie le message en clair (sachant que Bob connaît la forme du message) :
+d) Écrire une fonction ``decrypter(message_choisis : str)->str`` qui prend en paramètre le message choisis chiffré et renvoie le message en clair (sachant que Bob connaît la forme du message) :
 
 ```python
 >>> decrypter(message_choisis)
@@ -227,3 +227,7 @@ Décrypter : ``gjwvkiafmnmfcgcedmfjwvkmyxmfkwhktruqrdarhbcgcedmfkmvyvrmzffivfaqs
 _______________
 
 [Sommaire](./../../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

@@ -76,31 +76,31 @@ b) Transformer la fonction `nb_occurence()` en fonction récursive en vous appuy
 
 ## Exercice 5
 
-a) Ecrire une fonction non récursive `puissance(x : int, n : int)->int` qui prend en paramètres deux entiers et renvoie comme résultat $x^n$.
+a) Écrire une fonction non récursive `puissance(x : int, n : int)->int` qui prend en paramètres deux entiers et renvoie comme résultat $x^n$.
 
 Cette fonction ne doit pas utiliser l'opérateur de puissance `**`.
 
 b) Repérer le cas de base et le cas récursif afin d'écrire le principe de récurrence de la puissance.
 
-c) Ecrire une fonction récursive `puissance_rec(x : int, n : int)->int` qui prend en paramètres deux entiers et renvoie comme résultat $x^n$.
+c) Écrire une fonction récursive `puissance_rec(x : int, n : int)->int` qui prend en paramètres deux entiers et renvoie comme résultat $x^n$.
 
 d) Dessiner la pile d'appels de `>>> puissance_rec(3, 5)`.
 
 ## Exercice 6
 
-a) Ecrire une fonction non récursive `factorielle(x : int)->int` qui prend en paramètre un entier et renvoie comme résultat $x!$.
+a) Écrire une fonction non récursive `factorielle(x : int)->int` qui prend en paramètre un entier et renvoie comme résultat $x!$.
 
 *Rappel* : $5!=5 * 4 * 3 * 2 * 1$ et $0!=1$.
 
 b) Repérer le cas de base et le cas récursif afin d'écrire le principe de récurrence de la factorielle.
 
-c) Ecrire une fonction récursive `factorielle_rec(x : int)->int` qui prend en paramètre un entier et renvoie comme résultat $x!$.
+c) Écrire une fonction récursive `factorielle_rec(x : int)->int` qui prend en paramètre un entier et renvoie comme résultat $x!$.
 
 d) Dessiner la pile d'appels de la fonction factorielle avec $x = 4$.
 
 ## Exercice 7
 
-Ecrire une fonction récursive `nb_chiffre_rec(n : int)->int` qui prend en paramètre un entier et renvoie comme résultat le nombre de chiffre présent dans $n$.
+Écrire une fonction récursive `nb_chiffre_rec(n : int)->int` qui prend en paramètre un entier et renvoie comme résultat le nombre de chiffre présent dans $n$.
 
 ```python
 >>> nb_chiffre_rec(34126)
@@ -109,7 +109,7 @@ Ecrire une fonction récursive `nb_chiffre_rec(n : int)->int` qui prend en param
 
 ## Exercice 8
 
-Ecrire une fonction récursive `somme_chiffre(n : int)->int` qui prend en paramètre un entier et renvoie comme résultat la somme des chiffres qui compose $n$.
+Écrire une fonction récursive `somme_chiffre(n : int)->int` qui prend en paramètre un entier et renvoie comme résultat la somme des chiffres qui compose $n$.
 
 ```python
 >>> somme_chiffre(45)
@@ -118,7 +118,7 @@ Ecrire une fonction récursive `somme_chiffre(n : int)->int` qui prend en param�
 
 ## Exercice 9
 
-Ecrire une fonction récursive `max_rec(l : list)->int` qui prend en paramètre une liste d'entiers et renvoie comme résultat l'entier le plus grand de $l$.
+Écrire une fonction récursive `max_rec(l : list)->int` qui prend en paramètre une liste d'entiers et renvoie comme résultat l'entier le plus grand de $l$.
 
 ```python
 >>> max_rec([4, 8, 9, 10])
@@ -146,7 +146,7 @@ b) Dessiner la pile d'appels de `>>> appartient([5, 6, 4, 9, 0], 9)`.
 
 ## Exercice 11
 
-Ecrire une fonction `pairs_rec(n : int)->list` qui prend en paramètre un entier $n$ et renvoie une liste dont les éléments sont les nombres pairs de $0$ à $n$.
+Écrire une fonction `pairs_rec(n : int)->list` qui prend en paramètre un entier $n$ et renvoie une liste dont les éléments sont les nombres pairs de $0$ à $n$.
 
 ```python
 >>> pairs_rec(9)
@@ -157,36 +157,28 @@ Ecrire une fonction `pairs_rec(n : int)->list` qui prend en paramètre un entier
 
 a) En utilisant le module `turtle`, écrire une fonction `carre(c : int)->None` qui prend en paramètre un entier et dessine un carré centré de côté $c$.
 
-b) Ecrire une fonction récursive `carres_rec(n : int, c : int)->None` qui prend en paramètres deux entiers et dessine $n$ carrés emboîtés de côté $c$ comme le montre l'image ci-dessous :
+b) Écrire une fonction récursive `carres_rec(n : int, c : int)->None` qui prend en paramètres deux entiers et dessine $n$ carrés emboîtés de côté $c$ comme le montre l'image ci-dessous :
 
-![Carres_emboités](./img/carres_emboites.png)
+<img src="./../img/carres_emboites.png" width=500>
 
-## Exercice 13
+## Exercice 13 (Difficile)
 
 La courbe de Koch est une figure qui s'obtient de manière récursive.
 
-Le cas de base est à une profondeur $n = 0$ et est simplement le dessin d'un segment de longueur $l$ :
+<img src="./../img/koch.gif" width=500>
 
-![Koch_0](./img/koch_0.png)
+Étape n°1 : Le cas de base est à une profondeur $n = 0$ et est simplement le dessin d'un segment de longueur $l$.
 
 Le cas récursif de profondeur $n$ s'obtient en divisant ce segment en trois morceaux même longueur $l/3$, puis en dessinant un triangle équilatéral dont la base est le morceau du milieu, en prenant le soin de ne pas dessiner cette base.
 
-Ci-dessous, une courbe de profondeur $n = 1$ :
+a) Écrire le principe de récurrence en vous aidant des informations ci-dessus.
 
-![Koch_1](./img/koch_1.png)
-
-Puis une courbe de Koch de profondeur $n = 2$ :
-
-![Koch_2](./img/koch_2.png)
-
-Et enfin une courbe de Koch de profondeur $n = 3$ :
-
-![Koch_3](./img/koch_3.png)
-
-a) Ecrire le principe de récurrence en vous aidant des informations ci-dessus.
-
-b) Ecrire une fonction `koch_rec(n : int, l : int)->None` qui prend en paramètres deux entiers et dessine à l'aide du module `Turtle` une courbe de Koch de profondeur $n$ et de longueur $l$.
+b) Écrire une fonction `koch_rec(n : int, l : int)->None` qui prend en paramètres deux entiers et dessine à l'aide du module `Turtle` une courbe de Koch de profondeur $n$ et de longueur $l$.
 
 ________________
 
 [Sommaire](./../../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
