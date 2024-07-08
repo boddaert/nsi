@@ -203,7 +203,7 @@ Pour celà, on va utiliser deux clés :
 >
 > 4. Bob déchiffre le message avec sa clé privée.
 >
-> <img src="./img/principe_asymétrique.PNG" width=600>
+> <img src="./img/principe_asymétrique.PNG" width=800>
 
 > [!NOTE]
 > La clé publique est donc utilisée en tant que clé de chiffrement et la clé privée, en tant que clé de déchiffrement.
@@ -234,7 +234,7 @@ Le chiffrement asymétrique étant coûteux, nous l'utilisons généralement pou
 >
 > 6. Pour éviter la suspicion, Carole peut rechiffrer le message avec la clé publique de Bob et l'envoyer à Bob.
 >
-> <img src="./img/attaque_de_l_homme_du_milieu.PNG" width=600>
+> <img src="./img/attaque_de_l_homme_du_milieu.PNG" width=800>
 
 ## VI. Certificats
 
@@ -265,7 +265,7 @@ Ces autorités délivrent les certificats uniquement si les informations transmi
 > [!TIP]
 > Par exemple :
 >
-> <img src="./img/certificat.PNG" width=600>
+> <img src="./img/certificat.PNG" width=800>
 >
 > Une fois le certificat obtenu, Bob pourra le transmettre à Alice pour prouver son identité. 
 
@@ -293,7 +293,7 @@ Il est utilisé lorsqu'un client souhaite se connecter sur un serveur de manièr
 >
 > 7. Alice et Bob possèdent tous les deux une clé de chiffrement symétrique et peuvent communiquer de manière sécurisée.
 >
-> <img src="./img/principe_https.PNG" width=600>
+> <img src="./img/principe_https.PNG" width=800>
 
 #### <ins>Application 5</ins>
 
