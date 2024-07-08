@@ -42,7 +42,7 @@ La sécurisation d'une communication doit accomplir trois missions :
 
 L'idée est de rendre incompréhensible les données qu'Alice envoie à Bob : 
 
-<img src="./img/généralités/idee.PNG" width=500 text-align="center">
+<img src="./img/généralités/idee.PNG" width=500 align="center">
 
 Ainsi, Carole ne peut pas utiliser les données qu'elle intercepte.
 
