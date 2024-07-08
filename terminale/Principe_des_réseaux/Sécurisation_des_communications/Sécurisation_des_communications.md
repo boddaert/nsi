@@ -10,13 +10,13 @@ C'est le fait d'échanger des informations entre deux **entités** à travers un
 
 Lorsque l'on parle de communication informatique, les informations échangées sont des données que s'échangent deux machines via câbles ou ondes :
 
-<img src="./img/communication_informatique.PNG" width=800>
+<img src="./img/communication_informatique.PNG" width=600>
 
 $\to$ *Pourquoi sécuriser ?*
 
 Une troisième entité, Carole (entité C), peut intercepter les données que s'échangent Alice et Bob :
 
-<img src="./img/pourquoi_securiser.PNG" width=800>
+<img src="./img/pourquoi_securiser.PNG" width=600>
 
 $\to$ *Comment sécuriser ?*
 
