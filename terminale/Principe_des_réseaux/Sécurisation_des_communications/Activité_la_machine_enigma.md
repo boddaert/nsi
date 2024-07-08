@@ -1,10 +1,10 @@
-# Activité : Comprendre la machine Enigma
+# Activité : La machine Enigma
 
 Nature : Branchée
 
 Matériel : Module `py-enigma`
 
-Prérequis : Sécurisation des communications
+Prérequis : [Sécurisation des communications](./Sécurisation_des_communications.md)
 
 À faire : Seul
 
@@ -44,7 +44,7 @@ Pour l'installer :
 
 - Cliquer sur ``Outils`` puis ``Open System shell``
 
-- Ecrire dans la console qui vient de s'afficher la commande ``pip install py-enigma``
+- Écrire dans la console qui vient de s'afficher la commande ``pip install py-enigma``
 
 b) Télécharger dans votre répertoire commun le fichier [enigma_machine.py](./src/enigma_machine.py)
 
@@ -82,8 +82,12 @@ Le déchiffrement se fait de la manière inverse (il faut que la position des ro
 'A'
 ```
 
-c) Ecrire une fonction ``chiffre_enigma(message_clair : str, machine : EnigmaMachine, pos_rotors : str)->str`` qui prend en paramètres un message clair, une machine Enigma configurée et la position des rotors. Cette fonction renvoie le message chiffré.
+c) Écrire une fonction ``chiffre_enigma(message_clair : str, machine : EnigmaMachine, pos_rotors : str)->str`` qui prend en paramètres un message clair, une machine Enigma configurée et la position des rotors. Cette fonction renvoie le message chiffré.
 
 _______________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

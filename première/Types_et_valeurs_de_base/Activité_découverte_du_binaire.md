@@ -1,12 +1,12 @@
 # Activité : Découverte du binaire
 
-Nature : Débranchée
+Nature : Débranchée.
 
 Matériel : Jeu de quatre cartes, un crayon et un papier de brouillon.
 
-Prérequis : Aucun
+Prérequis : Aucun.
 
-À faire : Seul
+À faire : Seul.
 
 ## I. Objectif
 
