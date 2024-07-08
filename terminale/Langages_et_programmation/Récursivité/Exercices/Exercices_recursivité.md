@@ -159,7 +159,7 @@ a) En utilisant le module `turtle`, écrire une fonction `carre(c : int)->None` 
 
 b) Écrire une fonction récursive `carres_rec(n : int, c : int)->None` qui prend en paramètres deux entiers et dessine $n$ carrés emboîtés de côté $c$ comme le montre l'image ci-dessous :
 
-<img src="./../img/carres_emboites.png" width=500>
+<img src="./../img/carres_emboites.png" width=300>
 
 ## Exercice 13 (Difficile)
 
