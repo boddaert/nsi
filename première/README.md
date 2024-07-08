@@ -156,4 +156,4 @@ ______________________
 
 [Bulletin Officiel de Première](./../terminale/Compléments/Bulletins_officiels/bo_première.pdf)
 
-[Bulletin Officiel de Terminale](./../bo_terminale.pdf)
+[Bulletin Officiel de Terminale](./../terminale/Compléments/Bulletins_officiels/bo_terminale.pdf)
