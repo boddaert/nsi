@@ -25,11 +25,13 @@ L'idéal est :
 
 #### <ins>Application 1</ins>
 
-a) Créer un fichier `maximum_liste.py` dans lequel vous écrirez une fonction `maxi(liste : list)->int` permettant de récupérer l'entier maximum d'une liste.
+Nous souhaitons écrire un programme qui calcule la somme, la moyenne et l'écartype des notes de tous les élèves d'une classe.
 
-b) Puis, dans un second fichier Python `importation_globale.py` situé dans le même répertoire, importer la fonction `maxi()` de manière globale et tester la fonction dans `importation_globale.py`.
+Ce programme prend en paramètre un dictionnaire dans lequel les clés sont des noms d'éléves et leur valeur associées sont une liste de note.
 
-c) Enfin, dans un troisième fichier Python `importation_precise.py` situé lui aussi dans le même répertoire, importer la fonction `maxi()` de manière précise et tester la fonction dans `importation_precise.py`.
+a) Écrire sur papier le nom des fonctions et leur spécification (cf [Spécification de fonction](./../../../première/Langages_et_programmation/Spécifications_de_fonction/Prototypage.md)) qui permettrait de réaliser un tel programme et de telle façon à ce qu'il soit modulaire.
+
+b) Écrire en Python le code de ces fonctions.
 
 _______
 

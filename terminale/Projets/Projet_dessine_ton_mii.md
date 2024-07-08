@@ -6,25 +6,31 @@ Un Mii est un avatar virtuel créé par Shigeru Miyamoto pour la console Wii de 
 
 L'objectif du projet est d'écrire un programme Python permettant de dessiner trois Miis de manière automatique et aléatoire à l'aide du module `turtle`.
 
+Notons *éléments* les parties physiques caractéristiques comme le visage, nez, bouche, yeux.
+
+Et notons *formes* la manière de dessiner un élément.
+
 ## II. Cahier des charges
 
 1. Votre programme Python doit utiliser le module `turtle` (voir [Module Turtle](#turtle)).
 
 2. Votre programme doit afficher trois Miis générés chacun aléatoirement.
 
-3. Un Mii peut être dessiné selon au moins :
+3. Un Mii doit contenir quatre éléments :
 
-    - Trois types de visage.
+    - Un visage.
 
-    - Trois types de bouche.
+    - Une bouche.
 
-    - Trois types de nez.
+    - Un nez.
 
-    - Trois types d'yeux.
+    - Deux yeux.
 
-4. Votre programme doit être modulaire (cf [Modularité](./../Langages_et_programmation/Modularité/Modularité.md))
+4. Pour chacun de ces éléments, un Mii peut être dessiné selon trois formes d'élément (trois formes de visage, trois formes de bouche, etc...)
 
-5. Le code doit être lisible, les noms de variable et noms de fonction explicites.
+5. Votre programme doit être modulaire (cf [Modularité](./../Langages_et_programmation/Modularité/Modularité.md))
+
+6. Le code doit être lisible, les noms de variable et noms de fonction explicites.
 
 ## III. Exemple de rendu
 
