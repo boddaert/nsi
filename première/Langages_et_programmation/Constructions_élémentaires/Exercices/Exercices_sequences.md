@@ -40,6 +40,7 @@ b = 4
 a = b
 b = a
 ```
+
 ## Exercice 2
 
 Pour chacun des programmes suivants, donner la trace d'exécution :

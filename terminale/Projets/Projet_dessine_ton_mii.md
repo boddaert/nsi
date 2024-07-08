@@ -22,7 +22,7 @@ L'objectif du projet est d'écrire un programme Python permettant de dessiner tr
 
     - Trois types d'yeux.
 
-4. Votre programme doit être modulaire (cf [Modularité](./Modularité.md))
+4. Votre programme doit être modulaire (cf [Modularité](./../Langages_et_programmation/Modularité/Modularité.md))
 
 5. Le code doit être lisible, les noms de variable et noms de fonction explicites.
 

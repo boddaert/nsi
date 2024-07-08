@@ -11,7 +11,7 @@ Tout le cours de Première et Terminale NSI est disponible à l'adresse : `https
 
 Il est stocké sur un serveur et est donc accessible depuis n'importe quel appareil muni d'une connexion Internet.
 
-### b) Sommaires
+### b) Sommaires 
 
 En bas de page, se trouve le sommaire dans lequel s'y figure le lien des leçons dans l'ordre de progression.
 

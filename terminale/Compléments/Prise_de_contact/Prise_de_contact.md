@@ -2,110 +2,87 @@
 
 ## I. Le cours
 
+### a) Lien du cours
+
 Tout le cours de Terminale NSI est disponible à l'adresse : `https://github.com/boddaert/nsi`.
+
+> [!NOTE]
+> Notez le lien du cours dans votre cahier ou votre agenda.
 
 Il est stocké sur un serveur et est donc accessible depuis n'importe quel appareil muni d'une connexion Internet.
 
-Il se découpe selon l'arborescence suivante :
-
-- :file_folder: `nsi`
-    - :file_folder: `premiere`
-        - :file_folder: `Chapitre 1`
-            - :page_facing_up: `Leçon.md`
-            - :page_facing_up: `Feuille d'exercice.md`
-        - :file_folder: `Chapitre 2`
-            - :page_facing_up: `Leçon.md`
-            - :page_facing_up: `Feuille d'exercice.md`
-        - :page_facing_up: `Sommaire.md`
-    - :file_folder: `terminale`
-        - :file_folder: `Chapitre 1`
-            - :page_facing_up: `Leçon.md`
-            - :page_facing_up: `Feuille d'exercice.md`
-        - :file_folder: `Chapitre 2`
-            - :page_facing_up: `Leçon.md`
-            - :page_facing_up: `Feuille d'exercice.md`
-        - :page_facing_up: `Sommaire.md`
+### b) Sommaires
 
 En bas de page, se trouve le sommaire dans lequel s'y figure le lien des leçons dans l'ordre de progression.
 
-[Sommaire des Premières](./../../première/README.md)
+[Sommaire des Premières](./../../../première/README.md)
 
-[Sommaire des Terminales](./../../terminale/README.md)
+[Sommaire des Terminales](./../../README.md)
 
 ## II. Les programmes
 
 En Numériques et Sciences Informatiques, nous verrons essentiellement les bases de la programmation, des algorithmes, des notions réseau, de web et de système.
 
-### a) En Terminale
+### a) En Première
 
-En Terminale, le volume horaire est de sept heures par semaine.
+En Première, le volume horaire est de quatre heures par semaine :
+
+[Programme de Première](https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/26/8/spe633_annexe_1063268.pdf)
+
+### b) En Terminale
+
+En Terminale, le volume horaire est de six heures par semaine.
 
 [Programme de Terminale](https://cache.media.education.gouv.fr/file/SPE8_MENJ_25_7_2019/93/3/spe247_annexe_1158933.pdf)
 
-## II. Méthodes de travail
+## II. Consignes de travail
 
-### a) En classe
+### a) Sur papier
 
-Vous serez amenés à travailler sur **papier**, sur **ordinateur** ou sur **téléphone**.
+- Les réponses à tous les exercices doivent être rédigées en plus **dans un cahier**. 
 
-### b) Sur papier
+### b) Sur ordinateur
 
-Feuilles doivent êtres collées dans un cahier ou rangées dans un trieur.
+- Les répertoires et fichiers doivent être rangés correctement dans votre espace de travail : exercices et programmes séparés par chapitre.
 
-Prenez des notes.
+- Les répertoires et fichiers doivent être nommés explicitement avec votre nom et prénom.
 
-En exercice, lorsque c'est indiqué, donnez les réponses sur papier.
+### c) A la maison
 
-### c) Sur ordinateur
+- Le travail à la maison sera donné à chaque fin de séance et est disponible sur Pronote.
 
-Répertoires et fichiers doivent être rangés correctement dans votre espace de travail.
+## III. Baccalauréat
 
-Dans un répertoire nommé `nsi_terminale` que vous aurez créé, il y aura pour chaque chapitre un répertoire.
-
-Répertoires et fichiers doivent être nommés explicitement avec votre nom et prénom sous le format suivant : `nom_prenom_chapitre_1_modularité`.
-
-### d) Sur téléphone
-
-Pas de téléphone en classe sauf si autorisé pour activité.
-
-### e) A la maison
-
-Le travail à la maison sera donné à chaque fin de séance et est disponible sur Pronote.
-
-Il vous sera généralement demandé de finir les exercices du jour.
-
-## III. Evaluations
-
-Les évaluations sont divisées en plusieurs types. Il y a :
-
-- Les évaluations de fin de chapitre, sur papier ou sur ordinateur, permettant de rendre compte des savoirs acquis.
-
-- Les devoirs surveillés écrits sur une note sur vingt à coefficent plus élevé, permettant de valider les acquis.
-
-- Les évaluations de projet, spécifique au projet.
-
-Des malus de points peuvent être distribués si le travail est bâclé, n'est pas fait ou si les espaces de travail sont mal rangés. 
-
-## IV. Baccalauréat
-
-### a) Epreuves
+### a) Épreuves
 
 Vingt points sont à répartir sur deux épreuves :
 
 - Douze points sur l'épreuve écrite :
-    + Le candidat choisis trois exercices à traiter sur les cinq proposés.
-    + Chaque exercice est noté sur quatre points.
-    + Les exercices sont à priori de thème différent (Programmation, Web, Réseau, Système).
-    + L'épreuve dure 3h30.
-    + Date : courant juin.
-- Huit points sur l'épreuve pratique :
-    + Le candidat traite deux exercices sur ordinateur.
-    + Le premier est un programme à écrire et le second consiste à remplir du code.
-    + Chaque exercice est noté sur quatre points.
-    + L'épreuve dure une heure.
-    + Date : ?
 
-Sur chacune des deux épreuves, les compétences et les connaissances qui sont évaluées comprennent également celles de l'année de Première NSI.
+    + Le candidat traite les trois exercices du sujet.
+
+    + Chaque exercice est noté sur quatre points.
+
+    + Les exercices sont à priori de thème différent (Programmation, Web, Réseau, Système).
+
+    + L'épreuve dure 3h30.
+
+    + Date : Juin.
+
+- Huit points sur l'épreuve pratique :
+
+    + Le candidat traite deux exercices sur ordinateur.
+
+    + Le premier est un programme à écrire et le second consiste à remplir du code.
+
+    + Chaque exercice est noté sur quatre points.
+
+    + L'épreuve dure une heure.
+
+    + Date : Fin mai/début juin.
+
+> [!WARNING]
+> Sur chacune des deux épreuves, les compétences et les connaissances qui sont évaluées comprennent également celles de l'année de Première NSI.
 
 ### b) Préparer son bac
 
@@ -122,3 +99,7 @@ Non obligatoire mais il est conseillé de posséder une clé USB dans laquelle v
 ___________
 
 [Sommaire](./../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
