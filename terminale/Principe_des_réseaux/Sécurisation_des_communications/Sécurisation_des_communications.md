@@ -2,7 +2,7 @@
 
 ## I. Introduction
 
-*-> Qu'est-ce qu'une communication ?*
+$\to$ *Qu'est-ce qu'une communication ?*
 
 C'est le fait d'échanger des informations entre deux **entités** à travers un **support**.
 
@@ -12,13 +12,13 @@ Lorsque l'on parle de communication informatique, les informations échangées s
 
 <img src="./img/communication_informatique.PNG" width=800>
 
-*-> Pourquoi sécuriser ?*
+$\to$ *Pourquoi sécuriser ?*
 
 Une troisième entité, Carole (entité C), peut intercepter les données que s'échangent Alice et Bob :
 
 <img src="./img/pourquoi_securiser.PNG" width=800>
 
-*-> Comment sécuriser ?*
+$\to$ *Comment sécuriser ?*
 
 Deux idées ont été proposées :
 
