@@ -8,17 +8,17 @@ La base de données comporte une relation $Film$ et une relation $Realisateur$ c
 
 Voici ci-dessous les attributs de la relation $Film$ :
 
-- ($id_film$, `INT`)
+- ($id\textunderscore film$, `INT`)
 
 - ($titre$, ...)
 
 - ($annee$, ...)
 
-- ($box_office$, ...)
+- ($box\textunderscore office$, ...)
 
 - ($genre$, ...)
 
-- ($id_realisateur$, ...)
+- ($id\textunderscore realisateur$, ...)
 
 a) Compléter les domaines sur les attributs ci-dessus.
 
