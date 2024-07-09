@@ -1,26 +1,6 @@
 # Modèle relationnel
 
-## I. Introduction
-
-
-
-Les informations à gérer sont :
-
-- Les livres.
-
-- Les usagers.
-
-- Les processus d'emprunt de livre.
-
-Un livre possède comme caractéristique un titre, un auteur, une année de publication, etc...
-
-Un usager possède comme caractéristique un prénom, un nom.
-
-Un processus d'emprunt se définit par le livre emprunté, l'usager qui l'a emprunté et la date de l'emprunt.
-
-La démarche que nous venons de réaliser s'appelle une *modélisation*.
-
-## II. Définitions
+## I. Définitions
 
 > [!IMPORTANT]
 > Une *donnée* est une information.
@@ -105,7 +85,7 @@ b) Donner le schéma relationnel de la relation $Usager$.
 
 c) Donner au moins trois exemples d'entités pour la relation $Usager$.
 
-## III. Contraintes d'intégrité
+## II. Contraintes d'intégrité
 
 > [!IMPORTANT]
 > Une *contrainte d'intégrité* est une propriété du modèle de données vérifiée à tout instant et qui permet d'assurer la cohérence des données.
