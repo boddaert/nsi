@@ -53,7 +53,7 @@ c) Corriger les erreurs afin que les contraintes d'intégrité soient respectée
 
 d) Expliquer pourquoi le fait d'ajouter l'entité `(36, 'Star Wars V : L'empire contre-attaque', 1979, 140000000, 'Science-fiction', 12)` dans la relation $Film$ viole la contrainte de référence.
 
-## Exercice 3
+## Exercice 3 (Difficile)
 
 Donner la modélisation relationnelle d'un bulletin scolaire.
 
@@ -61,9 +61,9 @@ Cette modélisation devra inclure au moins quatre relations représentant les é
 
 Donner pour chaque relation leur schéma en spécifiant les contraintes de domaine, d'entité et de référence.
 
-## Exercice 4
+## Exercice 4 (Difficile)
 
-Donner la modélisation relationnelle d'une équipe e-sport de League Of Legends.
+Donner la modélisation relationnelle d'une équipe e-sport.
 
 Cette modélisation devra inclure au moins quatre relations représentant les équipes, les joueurs, les ligues et les champions/personnages.
 
@@ -73,3 +73,6 @@ _________________
 
 [Sommaire](./../../README.md)
 
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
