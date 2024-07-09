@@ -45,7 +45,7 @@ Ces fonctionnalités peuvent être mises en pratique à l'aide d'un **système d
 > | 3 | 'Fondation' | 'Isaac Asimov' | 1957 | 'Hachette' |
 > | 4 | 'Dune' | 'Frank Herbert' | 1965 | 'Robert Laffont' |
 
-> [NOTE]
+> [!NOTE]
 > Chaque *colonne* de la table est un attribut et chaque *ligne* est une entité.
 >
 > Une base de données relationnelles est donc un ensemble de tables de données.
