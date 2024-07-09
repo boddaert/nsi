@@ -108,9 +108,9 @@ Vérifier puis expliquer pourquoi la contrainte de domaine est respectée pour c
 > [!IMPORTANT]
 > La *contrainte d'entité* permet de s'assurer que chaque entité d'une relation est unique.
 
-Il n'est pas impossible qu'il y ait deux fois le même ouvrage dans une bibliothèque ou bien que deux usagers aient les mêmes nom/prénom, pourtant il s'agit bien de deux entités distinctes.
-
-Pour les différencier, nous ajoutons au schéma relationnel un nouvel attribut appelé clé primaire.
+> [!TIP]
+> Par exemple :
+> Il n'est pas impossible qu'il y ait deux fois le même ouvrage dans une bibliothèque ou bien que deux usagers aient les mêmes nom/prénom, pourtant il s'agit bien de deux entités distinctes.
 
 > [!IMPORTANT]
 > Une *clé primaire* est un attribut unique pour chaque entité d'une relation.
