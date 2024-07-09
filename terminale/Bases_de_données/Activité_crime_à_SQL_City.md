@@ -4,7 +4,7 @@ Nature : Branchée.
 
 Matériel : Logiciel `DB Browser SQLite`.
 
-Prérequis : [Systèmes de gestion de base de données relationnelles](./Systèmes_de_gestion_de_bases_de_données_relationnelles.md)
+Prérequis : [Systèmes de gestion de base de données relationnelles](./Systèmes_de_gestion_de_bases_de_données_relationnelles.md).
 
 À faire : Seul.
 
@@ -24,7 +24,7 @@ Télécharger le fichier [Crime_a_sql_city.db](./src/crime_a_sql_city.db) et l'o
 
 La base de données peut être représentée sous la forme du diagramme suivant :
 
-<img src="./img/diagramme_sql_city.png" width=800>
+<img src="./img/diagramme_sql_city.png" width=1000>
 
 ## III. Règles du jeu
 
