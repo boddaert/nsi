@@ -10,6 +10,8 @@
 
 Nous parlons de structure FIFO (*First In First Out*) pour premier entré, premier sorti en français.
 
+<img src="./img/file.png" width=400>
+
 ## II. Définition de la file
 
 ### a) Type abstrait

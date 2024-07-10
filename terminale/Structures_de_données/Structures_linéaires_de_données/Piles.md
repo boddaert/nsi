@@ -10,6 +10,8 @@
 
 Nous parlons de structure LIFO (*Last In First Out*) pour dernier entré, premier sorti en français.
 
+<img src="./img/pile.png" width=400>
+
 ## II. Définition de la pile
 
 ### a) Type abstrait
