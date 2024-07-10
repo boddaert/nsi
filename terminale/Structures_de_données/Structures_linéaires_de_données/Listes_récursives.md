@@ -78,7 +78,7 @@ Donner le reste des listes récursives suivantes :
 > [!IMPORTANT]
 > Les *opérations primitives* sont celles qui constituent le strict minimum pour la définition d'une structure de données.
 
-Voici ci-dessous les opérations primitives de la liste récursive.
+Les opérations primitives de la liste récursive sont :
 
 - Créer une liste récursive vide.
 
@@ -108,7 +108,7 @@ Voici ci-dessous une liste non exhaustive d'*opérations avancées* pour la list
 
 ## III. Implémentation en Python
 
-### a) Classe Liste
+### a) Classe ListeR
 
 Les listes récursives sont implémentées en Python à l'aide de la programmation orientée objet.
 
