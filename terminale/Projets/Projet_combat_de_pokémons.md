@@ -1,6 +1,6 @@
 # Projet : Combat de Pokémons
 
-![image](./img/combat_de_pokemon.gif)
+<img src="./img/combat_de_pokemon.gif" width=600>
 
 ## I. Description
 
