@@ -29,7 +29,7 @@
 
 - Leçon 1 : [Programmation Orientée Objet](./Structures_de_données/Programmation_orientée_objet/Programmation_orientée_objet.md)
 
-- Projet n°2 : [Combat de Pokémons](./Structures_de_données/Programmation_orientée_objet/Projet_combat_de_pokémons.md)
+- Projet n°2 : [Combat de Pokémons](./Projets/Projet_combat_de_pokémons.md)
 
 ##### Chapitre 5 : Structures de données 2/4
 
