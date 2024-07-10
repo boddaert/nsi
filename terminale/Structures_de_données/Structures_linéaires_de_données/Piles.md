@@ -10,7 +10,7 @@
 
 Nous parlons de structure LIFO (*Last In First Out*) pour dernier entré, premier sorti en français.
 
-<img src="./img/pile.png" width=400>
+<img src="./img/pile.png" width=200>
 
 ## II. Définition de la pile
 
