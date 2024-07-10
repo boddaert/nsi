@@ -14,7 +14,7 @@ Nous parlons de structure LIFO (*Last In First Out*) pour dernier entré, premie
 
 ### a) Type abstrait
 
-La structure d'une pile est identique à celle des listes récursives (cf [Listes récursives](Listes_recursives.md)) en incluant la contrainte que les insertions/suppressions ne sont possibles que sur la tête de la liste récursive.
+La structure d'une pile est identique à celle des listes récursives (cf [Listes récursives](./Listes_recursives.md)) en incluant la contrainte que les insertions/suppressions ne sont possibles que sur la tête de la liste récursive.
 
 ### b) Opérations primitives
 

@@ -14,7 +14,7 @@ Nous parlons de structure FIFO (*First In First Out*) pour premier entré, premi
 
 ### a) Type abstrait
 
-La structure d'une file est identique à celle des listes récursives (cf [Listes récursives](Listes_recursives.md)) en incluant la contrainte que les insertions ne sont possibles que d'un côté et les suppressions de l'autre côté de la liste récursive.
+La structure d'une file est identique à celle des listes récursives (cf [Listes récursives](./Listes_recursives.md)) en incluant la contrainte que les insertions ne sont possibles que d'un côté et les suppressions de l'autre côté de la liste récursive.
 
 ### b) Opérations primitives
 
