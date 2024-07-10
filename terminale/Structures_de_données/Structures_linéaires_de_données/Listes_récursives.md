@@ -157,7 +157,7 @@ Compléter les méthodes `est_vide()`, `tete()` et `reste()` de la classe `Liste
 >>> l = ListeR()
 >>> l.est_vide()
 True
->>> l = ListeR(5,Liste())
+>>> l = ListeR(5,ListeR())
 >>> l.est_vide()
 False
 >>> l.tete()
@@ -208,7 +208,7 @@ Lorsque la liste est représentée contiguëllement, elle est stockée en mémoi
 
 Dans cette représentation, les cellules sont placées côte à côte les unes à la suite des autres :
 
-<img src="./img/representation_contigue.drawio.png" width=500>
+<img src="./img/representation_contigue.drawio.png" width=600>
 
 Les éléments sont stockés dans les cellules, l'élément d'indice $i$ se trouve donc à la $i-ème$ cellule.
 
@@ -228,7 +228,7 @@ Lorsque la liste est représentée sous forme chaînée, chaque élément est co
 
 Dans cette représentation, la cellule possède une information supplémentaire : la référence vers la cellule suivante :
 
-<img src="./img/representation_chainee.drawio.png" width=500>
+<img src="./img/representation_chainee.drawio.png" width=600>
 
 La liste est donc définie sur la référence de la première cellule.
 
