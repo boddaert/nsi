@@ -66,7 +66,7 @@ Pour ce faire, nous utiliserons la programmation orientée objet.
 
 1. Votre programme Python doit utiliser la programmation orientée objet (cf [Programmation orientée objet](./../Structures_de_données/Programmation_orientée_objet/Programmation_orientée_objet.md)).
 
-2. La classe Pokémon doit au moins inclure tous les attributs et toute les méthodes citées dans [III. Classe Pokémon](#classe_pokemon).
+2. La classe Pokémon doit au moins inclure tous les attributs et toute les méthodes citées dans [II. Classe Pokémon](#classe_pokemon).
 
 3. Les règles d'un combat de pokémons doivent être appliquées.
 
@@ -74,7 +74,7 @@ Pour ce faire, nous utiliserons la programmation orientée objet.
 
 ## V. Exemple de rendu
 
-<img src="./img/exemple_combat_de_pokemons.gif" width=500>
+<img src="./img/exemple_combat_de_pokemons.gif" width=700>
 
 ________
 
