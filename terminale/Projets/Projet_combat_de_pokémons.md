@@ -8,25 +8,7 @@ Deux pokémons se rencontrent et décident de s'attaquer. Nous souhaitons écrir
 
 Pour ce faire, nous utiliserons la programmation orientée objet.
 
-## II. Règles d'un combat de Pokémons
-
-1. Deux Pokémons se battent en duel jusqu'à ce que l'un des deux soit mis KO, c'est-à-dire, avec les points de vie inférieur ou égal à zéro.
-
-2. Au tour par tour, chacun des deux Pokémons vont choisir aléatoirement une action parmi quatre :
-
-    - Augmenter ses points d'attaque.
-
-    - Augmenter ses points de vie.
-
-    - Augmenter ses points de vitesse.
-
-    - Attaquer le pokémon adverse.
-
-3. Le Pokémon le plus rapide, celui qui a le plus de point de vitesse, joue en premier.
-
-4. Le nombre de dégât reçus est calculé de la manière suivante : $att - def$ avec $att$ le nombre de point d'attaque du pokémon attaquant et $def$ le nombre de point de défense du pokémon attaqué.
-
-## III. <a href="classe_pokemon"></a>Classe Pokémon
+## II. <a name="classe_pokemon"></a>Classe Pokémon
 
 - Pokémon est une classe dont les attributs sont :
 
@@ -61,6 +43,24 @@ Pour ce faire, nous utiliserons la programmation orientée objet.
     + Une méthode `augmente_vitesse(bonus : int)` qui prend en paramètre un entier et ajoute le montant de l'argument aux points de vitesse de l'objet.
 
     + Une méthode `attaque(pokemon_adverse : Pokemon)->int` qui prend en paramètre un second objet Pokémon et renvoie le montant des dégâts que le pokémon passé en paramètre doit recevoir.
+
+## III. Règles d'un combat de Pokémons
+
+1. Deux Pokémons se battent en duel jusqu'à ce que l'un des deux soit mis KO, c'est-à-dire, avec les points de vie inférieur ou égal à zéro.
+
+2. Au tour par tour, chacun des deux Pokémons vont choisir aléatoirement une action parmi quatre :
+
+    - Augmenter ses points d'attaque.
+
+    - Augmenter ses points de vie.
+
+    - Augmenter ses points de vitesse.
+
+    - Attaquer le pokémon adverse.
+
+3. Le Pokémon le plus rapide, celui qui a le plus de point de vitesse, joue en premier.
+
+4. Le nombre de dégât reçus est calculé de la manière suivante : $att - def$ avec $att$ le nombre de point d'attaque du pokémon attaquant et $def$ le nombre de point de défense du pokémon attaqué.
 
 ## IV. Cahier des charges
 
