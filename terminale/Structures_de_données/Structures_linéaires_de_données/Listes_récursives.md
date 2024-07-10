@@ -208,7 +208,7 @@ Lorsque la liste est représentée contiguëllement, elle est stockée en mémoi
 
 Dans cette représentation, les cellules sont placées côte à côte les unes à la suite des autres :
 
-<img src="./img/representation_contigue.drawio.png" width=600>
+<img src="./img/representation_contigue.drawio.png" width=500>
 
 Les éléments sont stockés dans les cellules, l'élément d'indice $i$ se trouve donc à la $i-ème$ cellule.
 
