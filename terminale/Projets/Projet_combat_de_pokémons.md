@@ -76,6 +76,14 @@ Pour ce faire, nous utiliserons la programmation orientée objet.
 
 <img src="./img/exemple_combat_de_pokemons.gif" width=700>
 
+## VI. Aller plus loin
+
+1. Ajouter les consommables (potions, baies, etc...)
+
+2. Ajouter les capacités, un pokémon a le choix entre quatre capacités.
+
+3. Ajouter les types et par conséquent les capacités super ou peu efficaces.
+
 ________
 
 [Sommaire](./../README.md)
