@@ -19,7 +19,7 @@
 > Une liste récursive est soit :
 >
 > - Vide.
-> - Soit un couple constitué :
+> - Un couple constitué :
 >     + D'une *tête* représentant le premier élément de la liste récursive.
 >     + D'un *reste* : une liste récursive représentant le reste de la liste récursive.
 
