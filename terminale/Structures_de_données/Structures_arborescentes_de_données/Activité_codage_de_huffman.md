@@ -4,9 +4,9 @@ Nature : Branchée
 
 Matériel : Aucun
 
-Prérequis : Arbres binaires, encodages de textes en machine
+Prérequis : [Arbres binaires](./Arbres_binaires.md), [Représentation des textes en machine](./../../../première/Types_et_valeurs_de_base/Représentation_des_textes_en_machine.md)
 
-À faire : Par deux
+À faire : Par deux.
 
 ## I. Objectif
 
@@ -17,8 +17,6 @@ Le codage de Huffman est un codage binaire d'un texte qui s'appuie sur la fréqu
 Plus une lettre est fréquente dans le texte, plus la longueur du mot binaire représentant le caractère est petit.
 
 L'encodage de Huffman est optimal, c'est-à-dire qu'il n'existe pas d'encodages utilisant moins de bits afin de représenter un texte.
-
-Petit rappel sur les encodages de textes [Représentation des textes en machine](./../../première/Chaînes_de_caractère/Représentation_des_textes_en_machine.md).
 
 Plus d'informations : [Wikipédia - Codage de Huffman](https://fr.wikipedia.org/wiki/Codage_de_Huffman)
 
@@ -115,20 +113,24 @@ eh bien dansez maintenant
 """
 ```
 
-d) Ecrire en Python, une fonction `occ(texte : str)->dict` qui prend en paramètre une chaîne de caractère et renvoie un dictionnaire dans lequel les clés sont les lettres et les valeurs sont le nombre de fois qu'elles apparaissent.
+d) Écrire en Python, une fonction `occ(texte : str)->dict` qui prend en paramètre une chaîne de caractère et renvoie un dictionnaire dans lequel les clés sont les lettres et les valeurs sont le nombre de fois qu'elles apparaissent.
 
-e) Ecrire une fonction `creer_foret(occ : dict)->list` qui prend en paramètre un dictionnaire et renvoie une liste d'arbres binaires dans lesquels se trouve un couple $(lettre, occurence)$.
+e) Écrire une fonction `creer_foret(occ : dict)->list` qui prend en paramètre un dictionnaire et renvoie une liste d'arbres binaires dans lesquels se trouve un couple $(lettre, occurence)$.
 
-f) Ecrire une fonction `poids(ab : AB)->int` qui prend en paramètre un arbre binaire et renvoie le poids des occurences de cet arbre.
+f) Écrire une fonction `poids(ab : AB)->int` qui prend en paramètre un arbre binaire et renvoie le poids des occurences de cet arbre.
 
-g) Ecrire une fonction `deux_plus_faibles_poids(foret : list)->tuple` qui prend en paramètre une liste d'arbres binaires et renvoie un couple d'arbres dont les poids sont les plus petits.
+g) Écrire une fonction `deux_plus_faibles_poids(foret : list)->tuple` qui prend en paramètre une liste d'arbres binaires et renvoie un couple d'arbres dont les poids sont les plus petits.
 
-h) Ecrire une fonction `fusion(ab1 : AB, ab2 : AB)->AB` qui prend en paramètre deux arbres binaires et renvoie un arbre binaire dont les deux sous-arbres sont les deux arbres passés en argument et dont la racine est égal à la somme des racines des deux sous-arbres.
+h) Écrire une fonction `fusion(ab1 : AB, ab2 : AB)->AB` qui prend en paramètre deux arbres binaires et renvoie un arbre binaire dont les deux sous-arbres sont les deux arbres passés en argument et dont la racine est égal à la somme des racines des deux sous-arbres.
 
-i) Ecrire une fonction `arbre_huffman(texte : str)->AB` qui prend en paramètre une chaîne de caractère et renvoie son arbre de Huffman.
+i) Écrire une fonction `arbre_huffman(texte : str)->AB` qui prend en paramètre une chaîne de caractère et renvoie son arbre de Huffman.
 
-j) Ecrire une fonction `codage_huffman(ab_huffman : AB)->dict` qui prend en paramètre un arbre binaire et renvoie le codage de Huffman sous forme de dictionnaire.
+j) Écrire une fonction `codage_huffman(ab_huffman : AB)->dict` qui prend en paramètre un arbre binaire et renvoie le codage de Huffman sous forme de dictionnaire.
 
-_____________________
+___________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
