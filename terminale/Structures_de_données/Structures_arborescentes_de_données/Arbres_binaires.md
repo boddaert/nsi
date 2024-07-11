@@ -381,11 +381,12 @@ Tant que f n'est pas vide, faire :
 
 Exécuter à la main l'algorithme du parcours en profondeur d'abord sur les arbres de l'application $4$ en dessinant les files sur feuille.
 
-### c) <a name='exemple_prof'></a>Parcours en profondeur d'abord
+### c) Parcours en profondeur d'abord
 
 > [!IMPORTANT]
 > Le *parcours en profondeur d'abord* est un parcours d'arbre par branche. Il consiste à visiter en profondeur les enfants avant de passer aux branches suivantes.
 
+<a name='exemple_prof'></a>
 > [!TIP]
 > Par exemple sur l'arbre suivant :
 >
