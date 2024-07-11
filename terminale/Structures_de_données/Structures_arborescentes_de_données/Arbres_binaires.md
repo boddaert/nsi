@@ -188,6 +188,7 @@ flowchart TB
 > [!IMPORTANT]
 > La *profondeur d'un noeud* est le nombre de noeuds du chemin allant de la racine à ce noeud.
 
+> [!WARNING]
 > La profondeur du noeud racine est égale à $1$.
 
 > [!IMPORTANT]
