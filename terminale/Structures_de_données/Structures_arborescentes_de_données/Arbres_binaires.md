@@ -6,16 +6,16 @@
 > Une *structure arborescente de données* est une structure qui peut se présenter sous la forme d'une hierarchie. 
 
 > [!IMPORTANT]
-> Un *arbre* est une structure de données arborescente dont chaque élément est appelé *noeud*.
+> Un *arbre* est une structure de données arborescente dont chaque élément est appelé *nœud*.
 
 > [!IMPORTANT]
-> La *racine* est le noeud initial de l'arbre.
+> La *racine* est le nœud initial de l'arbre.
 
 > [!IMPORTANT]
-> Les *feuilles* sont les noeuds qui n'ont pas d'enfants.
+> Les *feuilles* sont les nœuds qui n'ont pas d'enfants.
 
 > [!IMPORTANT]
-> Un *arbre binaire* est un arbre dont tous les noeuds possèdent au plus deux enfants.
+> Un *arbre binaire* est un arbre dont tous les nœuds possèdent au plus deux enfants.
 
 #### <ins>Application 1</ins>
 
@@ -91,7 +91,7 @@ Un arbre binaire est souvent représenté sous la forme d'un dessin.
 >     end
 > ```
 >
-> $3$, $5$ et $8$ sont les noeuds de l'arbre.
+> $3$, $5$ et $8$ sont les nœuds de l'arbre.
 > 
 > $3$ est la racine de l'arbre.
 >
@@ -183,13 +183,13 @@ flowchart TB
 ### d) Propriétés
 
 > [!IMPORTANT]
-> La *taille* d'un arbre est le nombre de noeuds dans l'arbre.
+> La *taille* d'un arbre est le nombre de nœuds dans l'arbre.
 
 > [!IMPORTANT]
-> La *profondeur d'un noeud* est le nombre de noeuds du chemin allant de la racine à ce noeud.
+> La *profondeur d'un nœud* est le nombre de nœuds du chemin allant de la racine à ce nœud.
 
 > [!WARNING]
-> La profondeur du noeud racine est égale à $1$.
+> La profondeur du nœud racine est égale à $1$.
 
 > [!IMPORTANT]
 > La *hauteur de l'arbre* est la profondeur maximale.
@@ -207,7 +207,7 @@ flowchart TB
 
 a) Donner la taille des arbres de l'application $4$.
 
-b) Donner la profondeur du noeud $8$ des arbres de l'application $4$.
+b) Donner la profondeur du nœud $8$ des arbres de l'application $4$.
 
 c) Donner la hauteur des arbres de l'application $4$.
 
@@ -307,19 +307,19 @@ False
 
 a) Écrire les instructions permettant de créer, à l'aide de la classe, les arbres de l'application $3$ et $4$.
 
-b) Écrire les instructions permettant d'afficher le noeud le plus en bas à droite possible de l'arbre. 
+b) Écrire les instructions permettant d'afficher le nœud le plus en bas à droite possible de l'arbre. 
 
 ## IV. Parcours de l'arbre
 
 > [!IMPORTANT]
-> Un *parcours d'arbre* consiste à visiter tous les noeuds de l'arbre une et une seule fois dans le but de leur appliquer un traitement.
+> Un *parcours d'arbre* consiste à visiter tous les nœuds de l'arbre une et une seule fois dans le but de leur appliquer un traitement.
 
 Il existe deux types de parcours d'arbres : le parcours en **largeur d'abord** et le parcours en **profondeur d'abord**.
 
 ### a) Parcours en largeur d'abord
 
 > [!IMPORTANT]
-> Le *parcours en largeur d'abord* est un parcours d'arbre par niveau. Il consiste à visiter tous les noeuds de la même génération avant de passer à la génération suivante.
+> Le *parcours en largeur d'abord* est un parcours d'arbre par niveau. Il consiste à visiter tous les nœuds de la même génération avant de passer à la génération suivante.
 
 > [!TIP]
 > Par exemple sur l'arbre suivant :
@@ -352,11 +352,11 @@ Il existe deux types de parcours d'arbres : le parcours en **largeur d'abord** e
 >     G --> M
 > ```
 >
-> L'ordre de traitement des noeuds selon le parcours en largeur d'abord est : $3$, $5$, $8$, $6$, $10$ et $2$.
+> L'ordre de traitement des nœuds selon le parcours en largeur d'abord est : $3$, $5$, $8$, $6$, $10$ et $2$.
 
 #### <ins>Application 9</ins>
 
-Donner l'ordre de traitement des noeuds selon le parcours en largeur d'abord des arbres de l'application $3$ et $4$.
+Donner l'ordre de traitement des nœuds selon le parcours en largeur d'abord des arbres de l'application $3$ et $4$.
 
 ### b) Algorithme du parcours en largeur d'abord
 
@@ -419,11 +419,11 @@ Exécuter à la main l'algorithme du parcours en profondeur d'abord sur les arbr
 >     G --> M
 > ```
 >
-> L'ordre de traitement des noeuds selon le parcours en profondeur d'abord est : $3$, $5$, $6$, $10$, $8$ et $2$.
+> L'ordre de traitement des nœuds selon le parcours en profondeur d'abord est : $3$, $5$, $6$, $10$, $8$ et $2$.
 
 #### <ins>Apllication 9</ins>
 
-Donner l'ordre de traitement des noeuds selon le parcours en profondeur d'abord des arbres de l'application $3$ et $4$.
+Donner l'ordre de traitement des nœuds selon le parcours en profondeur d'abord des arbres de l'application $3$ et $4$.
 
 ### d) Algorithme itératif du parcours en profondeur d'abord
 
@@ -465,27 +465,27 @@ Exécuter à la main l'algorithme itératif du parcours en profondeur d'abord su
 
 ### e) Types de parcours en profondeur d'abord
 
-Dans le parcours en profondeur d'abord, l'ordre de traitement des noeuds peut changer selon l'ordre de visite sur le sous-arbre gauche et le sous-arbre droit.
+Dans le parcours en profondeur d'abord, l'ordre de traitement des nœuds peut changer selon l'ordre de visite sur le sous-arbre gauche et le sous-arbre droit.
 
 #### 1. Parcours préfixe
 
-Il y a le parcours préfixe qui consiste à traiter le noeud puis à visiter le sous-arbre gauche puis le sous-arbre droit.
+Il y a le parcours préfixe qui consiste à traiter le nœud puis à visiter le sous-arbre gauche puis le sous-arbre droit.
 
 Le parcours préfixe correspond au parcours en profondeur d'abord classique décrit ci-dessus.
 
 #### 2. Parcours infixe
 
-Il y a le parcours infixe qui consiste à visiter le sous-arbre gauche puis traiter le noeud puis visiter le sous-arbre droit.
+Il y a le parcours infixe qui consiste à visiter le sous-arbre gauche puis traiter le nœud puis visiter le sous-arbre droit.
 
 > [!TIP]
-> Par exemple, avec l'[arbre](#exemple_prof) donné plus haut, l'ordre de traitement des noeuds donne : $6$, $5$, $10$, $3$, $8$ et $2$.
+> Par exemple, avec l'[arbre](#exemple_prof) donné plus haut, l'ordre de traitement des nœuds donne : $6$, $5$, $10$, $3$, $8$ et $2$.
 
 #### 3. Parcours suffixe
 
-Enfin, il y a le parcours suffixe qui consiste à visiter le sous-arbre gauche puis le sous-arbre droit puis traiter le noeud.
+Enfin, il y a le parcours suffixe qui consiste à visiter le sous-arbre gauche puis le sous-arbre droit puis traiter le nœud.
 
 > [!TIP]
-> Par exemple avec l'[arbre](#exemple_prof) donné en exemple plus haut, l'ordre de traitement des noeuds donne : $6$, $10$, $5$, $2$, $8$ et $3$.
+> Par exemple avec l'[arbre](#exemple_prof) donné en exemple plus haut, l'ordre de traitement des nœuds donne : $6$, $10$, $5$, $2$, $8$ et $3$.
 
 #### <ins>Application 13</ins>
 
