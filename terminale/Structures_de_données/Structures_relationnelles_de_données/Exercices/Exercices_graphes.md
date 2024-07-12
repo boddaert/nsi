@@ -50,21 +50,21 @@ e) Avec `G_liste`, écrire l'instruction permettant d'indiquer si le sommet $0$ 
 
 ## Exercice 2
 
-a) Ecrire une fonction `ordre_graphe_matrice(g : list)->int` qui prend en paramètre un graphe `g` représenté par matrice d'adjacence et renvoie son ordre.
+a) Écrire une fonction `ordre_graphe_matrice(g : list)->int` qui prend en paramètre un graphe `g` représenté par matrice d'adjacence et renvoie son ordre.
 
-b) Ecrire une fonction `ordre_graphe_liste(g : dict)->int` qui prend en paramètre un graphe `g` représenté par liste d'adjacence et renvoie son ordre.
+b) Écrire une fonction `ordre_graphe_liste(g : dict)->int` qui prend en paramètre un graphe `g` représenté par liste d'adjacence et renvoie son ordre.
 
 ## Exercice 3
 
-a) Ecrire une fonction `est_adjacent_matrice(g : list, i : int, j : int)->bool` qui prend en paramètre un graphe `g` représenté par matrice d'adjacence, deux sommets `i` et `j` et renvoie $True$ si `j` est un sommet adjacent du sommet `i`, $False$ sinon.
+a) Écrire une fonction `est_adjacent_matrice(g : list, i : int, j : int)->bool` qui prend en paramètre un graphe `g` représenté par matrice d'adjacence, deux sommets `i` et `j` et renvoie $True$ si `j` est un sommet adjacent du sommet `i`, $False$ sinon.
 
-b) Ecrire une fonction `est_adjacent_liste(g : list, i : int, j : int)->bool` qui prend en paramètre un graphe `g` représenté par liste d'adjacence, deux sommets `i` et `j` et renvoie $True$ si `j` est un sommet adjacent du sommet `i`, $False$ sinon.
+b) Écrire une fonction `est_adjacent_liste(g : list, i : int, j : int)->bool` qui prend en paramètre un graphe `g` représenté par liste d'adjacence, deux sommets `i` et `j` et renvoie $True$ si `j` est un sommet adjacent du sommet `i`, $False$ sinon.
 
 ## Exercice 4
 
-a) Ecrire une fonction `voisins_matrice(g : list, i : int)->list` qui prend en paramètre un graphe `g` représenté par matrice d'adjacence, un sommet et renvoie la liste des sommets adjacents du sommet `i`.
+a) Écrire une fonction `voisins_matrice(g : list, i : int)->list` qui prend en paramètre un graphe `g` représenté par matrice d'adjacence, un sommet et renvoie la liste des sommets adjacents du sommet `i`.
 
-b) Ecrire une fonction `voisins_liste(g : dict, i : int)->list` qui prend en paramètre un graphe `g` représenté par liste d'adjacence, un sommet et renvoie la liste des sommets adjacents du sommet `i`.
+b) Écrire une fonction `voisins_liste(g : dict, i : int)->list` qui prend en paramètre un graphe `g` représenté par liste d'adjacence, un sommet et renvoie la liste des sommets adjacents du sommet `i`.
 
 ## Exercice 5
 
@@ -72,11 +72,11 @@ En fonction des programmes donnés en réponse aux exercices trois et quatre, do
 
 ## Exercice 6
 
-Ecrire une fonction `est_chemin(g : dict, chemin : list)->bool` qui prend en paramètre un graphe `g` représenté par une liste d'adjacence et une liste et renvoie $True$ si `chemin` est un chemin de `g`, $False$ sinon.
+Écrire une fonction `est_chemin(g : dict, chemin : list)->bool` qui prend en paramètre un graphe `g` représenté par une liste d'adjacence et une liste et renvoie $True$ si `chemin` est un chemin de `g`, $False$ sinon.
 
 ## Exercice 7
 
-Ecrire une fonction `degre_sortant(g : dict, i : int)->int` qui prend en paramètre un graphe `g` représenté par une liste d'adjacence et un sommet et renvoie le degré sortant de `i`.
+Écrire une fonction `degre_sortant(g : dict, i : int)->int` qui prend en paramètre un graphe `g` représenté par une liste d'adjacence et un sommet et renvoie le degré sortant de `i`.
 
 ## Exercice 8 (Difficile)
 
@@ -88,8 +88,12 @@ b) Donner le nombre d'arêtes de ce graphe.
 
 c) Donner le nombre d'arêtes d'un graphe non orienté d'ordre $n$.
 
-d) Ecrire une fonction `est_complet(g : dict)->bool` qui prend en paramètre un graphe `g` et renvoie $True$ s'il est complet, $False$ sinon.
+d) Écrire une fonction `est_complet(g : dict)->bool` qui prend en paramètre un graphe `g` et renvoie $True$ s'il est complet, $False$ sinon.
 
 __________________
 
 [Sommaire](./../../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
