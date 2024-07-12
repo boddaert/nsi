@@ -314,7 +314,7 @@ b) Écrire les instructions permettant d'afficher le nœud le plus en bas à dro
 > [!IMPORTANT]
 > Un *parcours d'arbre* consiste à visiter tous les nœuds de l'arbre une et une seule fois dans le but de leur appliquer un traitement.
 
-Il existe deux types de parcours d'arbres : le parcours en **largeur d'abord** et le parcours en **profondeur d'abord**.
+Il existe deux types de parcours d'arbres : le **parcours en largeur d'abord** et le **parcours en profondeur d'abord**.
 
 ### a) Parcours en largeur d'abord
 
