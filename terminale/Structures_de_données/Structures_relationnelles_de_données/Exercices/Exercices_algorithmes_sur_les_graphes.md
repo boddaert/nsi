@@ -56,7 +56,7 @@ Il faut donc modéliser le réseau de télécommunication sous forme de graphe e
 
 a) Trouver le nombre chromatique du graphe de Peterson :
 
-![image](./../img/graphe_peterson.svg)
+<img src="./../img/graphe_peterson.svg" width=500>
 
 b) Trouver et écrire en Français, un algorithme glouton permettant de colorier (avec un nombre de couleurs satisfaisant) un graphe.
 

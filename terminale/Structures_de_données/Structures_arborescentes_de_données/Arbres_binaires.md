@@ -311,12 +311,14 @@ b) Écrire les instructions permettant d'afficher le nœud le plus en bas à dro
 
 ## IV. Parcours de l'arbre
 
+### a) Définition
+
 > [!IMPORTANT]
 > Un *parcours d'arbre* consiste à visiter tous les nœuds de l'arbre une et une seule fois dans le but de leur appliquer un traitement.
 
 Il existe deux types de parcours d'arbres : le **parcours en largeur d'abord** et le **parcours en profondeur d'abord**.
 
-### a) Parcours en largeur d'abord
+### b) Parcours en largeur d'abord
 
 > [!IMPORTANT]
 > Le *parcours en largeur d'abord* est un parcours d'arbre par niveau. Il consiste à visiter tous les nœuds de la même génération avant de passer à la génération suivante.
@@ -358,7 +360,7 @@ Il existe deux types de parcours d'arbres : le **parcours en largeur d'abord** e
 
 Donner l'ordre de traitement des nœuds selon le parcours en largeur d'abord des arbres de l'application $3$ et $4$.
 
-### b) Algorithme du parcours en largeur d'abord
+### c) Algorithme du parcours en largeur d'abord
 
 L'algorithme du parcours en largeur d'abord sur un arbre s'écrit très facilement avec une File (cf : [Files](./../Structures_linéaires_de_données/Files.md)) :
 
@@ -381,7 +383,7 @@ Tant que f n'est pas vide, faire :
 
 Exécuter à la main l'algorithme du parcours en profondeur d'abord sur les arbres de l'application $4$ en dessinant les files sur feuille.
 
-### c) Parcours en profondeur d'abord
+### d) Parcours en profondeur d'abord
 
 > [!IMPORTANT]
 > Le *parcours en profondeur d'abord* est un parcours d'arbre par branche. Il consiste à visiter en profondeur les enfants avant de passer aux branches suivantes.
@@ -425,7 +427,7 @@ Exécuter à la main l'algorithme du parcours en profondeur d'abord sur les arbr
 
 Donner l'ordre de traitement des nœuds selon le parcours en profondeur d'abord des arbres de l'application $3$ et $4$.
 
-### d) Algorithme itératif du parcours en profondeur d'abord
+### e) Algorithme itératif du parcours en profondeur d'abord
 
 L'algorithme du parcours en profondeur d'abord sur un arbre s'écrit très facilement avec une Pile (cf : [Piles](./../Structures_linéaires_de_données/Piles.md)) :
 
@@ -444,7 +446,7 @@ Tant que p n'est pas vide, faire :
         p.empile(n.sad())
 ```
 
-### e) Algotihme récursif du parcours en profondeur d'abord
+### f) Algotihme récursif du parcours en profondeur d'abord
 
 L'algorithme du parcours en profondeur d'abord s'écrit également très facilement de manière récursive :
 
@@ -463,7 +465,7 @@ Si ab n'est pas un arbre vide, alors :
 
 Exécuter à la main l'algorithme itératif du parcours en profondeur d'abord sur le premier arbre de l'application $4$ en dessinant les piles sur feuille.
 
-### e) Types de parcours en profondeur d'abord
+### g) Types de parcours en profondeur d'abord
 
 Dans le parcours en profondeur d'abord, l'ordre de traitement des nœuds peut changer selon l'ordre de visite sur le sous-arbre gauche et le sous-arbre droit.
 

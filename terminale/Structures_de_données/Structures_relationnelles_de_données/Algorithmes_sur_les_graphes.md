@@ -63,7 +63,7 @@ Il existe deux types de parcours de graphe : le **parcours en largeur d'abord** 
 
 Donner l'ordre de traitement des sommets en partant de $0$ selon le parcours en largeur d'abord du graphe $G$ donné en [Exercices](./Exercices/Exercices_algorithmes_sur_les_graphes.md).
 
-### b) Algorithme du parcours en largeur d'abord
+### c) Algorithme du parcours en largeur d'abord
 
 L'algorithme du parcours en largeur d'abord sur un graphe s'écrit très facilement avec une File (cf : [Files](./../Structures_linéaires_de_données/Files.md)) :
 
@@ -88,7 +88,7 @@ Tant que f n'est pas vide, faire :
 
 Dérouler à la main sur papier et en dessinant les files l'algorithme du parcours en largeur d'abord sur le graphe donné en [exemple](#exemple_larg) afin de vérifier l'ordre de traitement.
 
-### c) Parcours en profondeur d'abord
+### d) Parcours en profondeur d'abord
 
 > [!IMPORTANT]
 > Le *parcours en profondeur d'abord* est un parcours de graphe par profondeur de voisinage. Il consiste à visiter en profondeur d'abord le voisin d'un sommet avant de passer aux voisins suivants.
@@ -115,9 +115,9 @@ Dérouler à la main sur papier et en dessinant les files l'algorithme du parcou
 
 #### <ins>Application 3</ins>
 
-Donner l'ordre de traitement des sommets en partant de $0$ selon le parcours en profondeur d'abord du graphe $G$ donné en [Eexercices](./Exercices/Exercices_algorithmes_sur_les_graphes.md).
+Donner l'ordre de traitement des sommets en partant de $0$ selon le parcours en profondeur d'abord du graphe $G$ donné en [Exercices](./Exercices/Exercices_algorithmes_sur_les_graphes.md).
 
-### d) Algorithme du parcours en profondeur d'abord
+### e) Algorithme du parcours en profondeur d'abord
 
 L'algorithme du parcours en profondeur d'abord sur un graphe s'écrit très facilement avec une Pile (cf : [Piles](./../Structures_linéaires_de_données/Piles.md)) :
 

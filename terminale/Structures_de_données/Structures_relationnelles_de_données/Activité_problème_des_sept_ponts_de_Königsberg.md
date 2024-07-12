@@ -4,7 +4,7 @@ Nature : Débranchée.
 
 Matériel : Aucun.
 
-Prérequis : [Graphes](./Graphes.md)
+Prérequis : [Graphes](./Graphes.md).
 
 À faire : Seul.
 
@@ -12,7 +12,7 @@ Prérequis : [Graphes](./Graphes.md)
 
 L'objectif est de résoudre le problème des sept ponts de Königsberg à l'aide des graphes.
 
-## II. Enoncé
+## II. Énoncé
 
 Au $XVIII^e$ siècle, un problème se discutait beaucoup parmi les habitants de la ville de Königsberg. La ville, construite autour de la rivière Pegel, possédait alors sept ponts. La question était de savoir s'il était possible de se promener dans la ville en traversant chacun des ponts une et une seule fois, dans un ordre quelconque.
 
