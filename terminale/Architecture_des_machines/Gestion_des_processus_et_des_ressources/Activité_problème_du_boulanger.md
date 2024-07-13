@@ -1,12 +1,12 @@
 # Activité : Panique à la boulangerie
 
-Nature : Débranchée
+Nature : Débranchée.
 
-Matériel : Aucun
+Matériel : Aucun.
 
-Prérequis : Notion d'interblocage
+Prérequis : [Gestion des processus et des ressources](./Gestion_des_processus_et_des_ressources.md).
 
-À faire : Seul
+À faire : Seul.
 
 ## I. Objectif
 
@@ -16,7 +16,7 @@ L'objectif est de repérer quelle situation pourrait mener à un interblocage.
 
 Dans une boulangerie, tous les boulangers sont tombés malades sauf un.
 
-Seul, il va devoir préparer les baguettes avant l'ouverture de la boutique aux clients. Pour cela, il devra suivre la recette qui lui demande de faire cuire la pâte à pain pendant un certain temps dans le four.
+Seul, il va devoir préparer les pains avant l'ouverture de la boutique aux clients. Pour cela, il devra suivre la recette qui lui demande de faire cuire la pâte à pain pendant un certain temps dans le four.
 
 Pour poser et reprendre la pâte du four, le boulanger se sert d'une planche.
 
@@ -49,8 +49,8 @@ flowchart LR
 
 b) Dans chacune des situations suivantes, expliquer pourquoi il y a ou pas interblocage :
 
+1. Situation n°1:
 ```
-Situation n°1:
 Le boulanger prépare une première pâte.
 Le boulanger met la première pâte au four.
 Le boulanger prépare la seconde pâte.
@@ -59,8 +59,8 @@ Le boulanger met la seconde pâte au four.
 Le boulanger retire la seconde pâte du four.
 ```
 
+2. Situation n°2:
 ```
-Situation n°2:
 Le boulanger prépare une première pâte.
 Le boulanger prépare une seconde pâte.
 Le boulanger met la première pâte au four.
@@ -69,8 +69,8 @@ Le boulanger retire la première pâte du four.
 Le boulanger retire la seconde pâte du four.
 ```
 
+3. Situation n°3:
 ```
-Situation n°3:
 Le boulanger prépare une première pâte.
 Le boulanger prépare une seconde pâte.
 Le boulanger met la première pâte au four.
@@ -80,3 +80,7 @@ Le boulanger retire la seconde pâte du four.
 ________________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
