@@ -13,8 +13,6 @@
 > [!IMPORTANT]
 > La *complexité temporelle* d'un algorithme est le coût en temps nécessaire à l'exécution d'un algorithme sur machine.
 
-> En Première, nous nous interesserons uniquement à la complexité temporelle des algorithmes.
-
 ### b) Objectifs
 
 Pour un unique problème, il peut exister plusieurs algorithmes différents plus ou moins efficaces donnant la même solution.
@@ -44,10 +42,9 @@ Les principales évolutions que l'on rencontre sont, en notant $n$ la taille des
 - Coût linéaire : le coût est proportionnel à $O(n)$.
 
 - Coût quadratique : le coût est proportionnel à $O(n^2)$.
-
+<a name="courbes_evolution"></a>
 - Coût exponentiel : le coût est proportionnel à $O(2^n)$.
 
-<a name="courbes_evolution"></a>
 <img src="./img/complexites.png" width=700>
 
 ## II. Mise en situation
