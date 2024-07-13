@@ -14,7 +14,7 @@ c) Écrire une fonction récursive ``recherche_dichotomique_recursive(l : list, 
 
 Dans cet exercice, nous cherchons à écrire une fonction qui effectue la rotation d'une image de $90$ degrés en utilisant le principe "Diviser pour régner" :
 
-![Image einstein](./../img/einstein_rotation.gif)
+<img src="./../img/einstein_rotation.gif" width=600>
 
 Pour manipuler une image en python, nous utiliserons le module PIL :
 
@@ -43,9 +43,9 @@ c = (0, 255, 255)
 px[x, y] = c
 ```
 
-Nous supposons que notre image est carrée (téléchargeable [ici]()). L'idée est de couper l'image en 4 carrés, à effectuer la rotation de 90 degrés de chacun des quatres carrés, puis à les déplacer vers les positions finales :
+Nous supposons que notre image est carrée. L'idée est de couper l'image en quatre carrés, à effectuer la rotation de $90$ degrés de chacun des quatres carrés, puis à les déplacer vers les positions finales :
 
-![](./img/rotation_carre.PNG)
+<img src="./../img/rotation_carre.PNG" width=500>
 
 a) Exprimer, pour l'algorithme de rotation d'images, la méthode "Diviser pour régner" en décrivant les étapes :
    
@@ -68,3 +68,7 @@ image.save("rotation.png")
 __________________
 
 [Sommaire](./../../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

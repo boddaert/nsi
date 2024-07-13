@@ -4,13 +4,16 @@
 
 ### a) Définitions
 
-La *complexité d'un algorithme* est le coût algorithmique de celui-ci.
+> [!IMPORTANT]
+> La *complexité d'un algorithme* est le coût algorithmique de celui-ci.
 
-La *complexité spatiale* d'un algorithme est le coût en espace mémoire nécessaire à l'exécution d'un algorithme sur machine.
+> [!IMPORTANT]
+> La *complexité spatiale* d'un algorithme est le coût en espace mémoire nécessaire à l'exécution d'un algorithme sur machine.
 
-La *complexité temporelle* d'un algorithme est le coût en temps nécessaire à l'exécution d'un algorithme sur machine.
+> [!IMPORTANT]
+> La *complexité temporelle* d'un algorithme est le coût en temps nécessaire à l'exécution d'un algorithme sur machine.
 
-> En terminale, nous nous interesserons uniquement à la complexité temporelle des algorithmes.
+> En Première, nous nous interesserons uniquement à la complexité temporelle des algorithmes.
 
 ### b) Objectifs
 
@@ -44,13 +47,16 @@ Les principales évolutions que l'on rencontre sont, en notant $n$ la taille des
 
 - Coût exponentiel : le coût est proportionnel à $O(2^n)$.
 
-![image](./img/complexites.png)
+<a name="courbes_evolution"></a>
+<img src="./img/complexites.png" width=700>
 
 ## II. Mise en situation
 
 Il existe au moins deux algorithmes pour le problème de recherche d'un élément dans une liste quelconque.
 
-La spécification de ce problème est le suivant : Renvoie l'indice de l'élément `elt` recherché dans la liste `l` s'il est présent, sinon renvoie la valeur $-1$.
+La spécification de ce problème est le suivant : 
+
+`Renvoie l'indice de l'élément elt recherché dans la liste l s'il est présent, sinon renvoie la valeur -1`
 
 Voici ci-dessous un premier algorithme :
 
@@ -86,7 +92,7 @@ TantQue i < taille(l) et trouvé = Faux, faire :
 Renvoyer i_elt
 ```
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 a) Sur feuille, recopier les algorithmes `recherche_1` et `recherche_2` et entourer les endroits où il y a une comparaison.
 
@@ -94,15 +100,19 @@ b) Dérouler l'algorithme `recherche_1` en comptant le nombre de comparaisons ef
 
 - `l = [2, 7, 0, 1, 8, 5, 3, 10, 14, 4]`
 
-- `elt = 5`
+- `elt = 1`
 
 c) Dérouler l'algorithme `recherche_2` en comptant le nombre de comparaisons effectuées avec les paramètres suivants : 
 
 - `l = [2, 7, 0, 1, 8, 5, 3, 10, 14, 4]`
 
-- `elt = 5`
+- `elt = 1`
 
-d) Comparer la complexité temporelle des deux algorithmes et en déduire celui qui est le plus efficace.
+d) En fonction de $n$ la taille de la liste, donner le nombre de comparaisons effectuées dans le meilleur des cas et dans le pire des cas pour chacun des deux algorithmes.
+
+e) En déduire leur complexité temporelle en fonction de $n$ la taille de la liste. 
+
+f) En déduire celui qui est le plus efficace.
 
 ## III. Outils
 
@@ -112,53 +122,58 @@ En Python, les informaticiens utilisent des modules pour les aider à comparer l
 
 Le module `matplotlib` en Python permet de tracer des graphiques en fonction de données.
 
-Sa documentation est disponible [ici](https://matplotlib.org/stable/tutorials/pyplot.html).
+> Sa documentation est disponible [ici](https://matplotlib.org/stable/tutorials/pyplot.html).
 
-##### Application 2
+#### <ins>Application 2</ins>
 
 Sur Thonny, télécharger le fichier Python suivant : [courbes_d_evolution.py](./src/courbes_d_evolution.py) et compléter les zones de code `A COMPLETER`.
 
-Ce fichier permet de tracer les courbes d'évolution vues dans le d).
+Ce fichier permet de tracer les courbes d'évolution vues plus [haut](#courbes_evolution) dans le chapitre.
 
 ### b) Module `time`
 
-Le module `time` en Python permet de réaliser des calculs en fonction du temps.
+Le module `time` en Python permet de prendre des mesures de temps.
 
-Sa documentation est disponible [ici](https://docs.python.org/fr/3/library/time.html#).
+> Sa documentation est disponible [ici](https://docs.python.org/fr/3/library/time.html#).
 
-À l'aide de la fonction `time()`, le temps d'exécution d'un code peut être connu.
+La fonction `time()` permet de chronométrer l'exécution d'instructions.
 
-Par exemple, la fonction `mesure_temps()` ci-dessous permet de calculer le temps utilisé pour trier une liste de dix millions d'éléments :
+> [!TIP]
+> Par exemple, la fonction `mesure_temps()` ci-dessous permet de calculer le temps utilisé pour trier une liste de dix millions d'éléments :
+>
+> ```python
+> from time import *
+> from random import *
+>
+> def mesure_temps():
+>     # Démarrage du chrono
+>     debut = time()
+>     
+>     # Création d'une liste de 10 000 000 éléments
+>     l = [i for i in range(1000000)]
+>     # Mélange de la liste
+>     shuffle(l)
+>     # Tri de la liste
+>     l.sort()
+>    
+>     # Fin du chrono
+>     fin = time()
+>     # Calcul du temps utilisé
+>     return fin - debut
+> ```
 
-```python
-from time import *
-from random import *
-
-def mesure_temps():
-    # Démarrage du chrono
-    debut = time()
-    
-    # Création d'une liste de 10 000 000 éléments
-    l = [i for i in range(1000000)]
-    # Mélange de la liste
-    shuffle(l)
-    # Tri de la liste
-    l.sort()
-    
-    # Fin du chrono
-    fin = time()
-    # Calcul du temps utilisé
-    return fin - debut
-```
-
-##### Application 3
+#### <ins>Application 3</ins>
 
 Sur Thonny, recopier le code ci-dessus et exécuter la fonction pour connaître le nombre de secondes nécessaire à son exécution.
 
 ___________
 
-[Exercices](./Exercices/Exercice_complexité.md)
+[Exercices](./Exercices/Exercices_complexité.md)
 
 ___________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
