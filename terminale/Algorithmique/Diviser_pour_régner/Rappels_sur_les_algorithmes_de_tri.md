@@ -101,6 +101,7 @@ Le principe du tri par insertion est le suivant :
 
 > [!TIP]
 > Par exemple :
+>
 > <img src="./img/animation_tri_insertion.gif" width=300>
 
 #### <ins>Application 4</ins>
