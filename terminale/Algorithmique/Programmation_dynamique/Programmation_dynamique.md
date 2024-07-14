@@ -16,11 +16,13 @@ Les informaticiens utilisent alors la programmation dynamique.
 
 ## II. Définitions
 
-La *programmation dynamique* est une technique de programmation répondant à un problème d'optimisation combinatoire (cf [Problèmes d'optimisation combinatoire](./Problèmes_d_optimisation_combinatoire.md) en donnant la meilleure solution.
+> [!IMPORTANT]
+> La *programmation dynamique* est une technique de programmation répondant à un problème d'optimisation combinatoire (cf [Problèmes d'optimisation combinatoire](./Problèmes_d_optimisation_combinatoire.md) en donnant la meilleure solution.
 
-La *stratégie de la programmation dynamique* consiste à obtenir une solution optimale en utilisant les solutions optimales des précédents sous-problèmes où ceux-ci se chevauchent.
+> [!IMPORTANT]
+> La *stratégie de la programmation dynamique* consiste à obtenir une solution optimale en utilisant les solutions optimales des précédents sous-problèmes où ceux-ci se chevauchent.
 
-![image](./img/programmation_dynamique.png)
+<img src="./img/programmation_dynamique.png" width=600>
 
 La résolution d'un tel problème est récursive : 
 
@@ -42,11 +44,11 @@ Pour chaque nouvelle parcelle de roche creusée, il récupère le nombre de pép
 
 Afin d'éviter de se faire ensevelir, le chercheur n'a d'autre choix que de creuser la parcelle située soit à droite soit en bas de sa position actuelle.
 
-##### Application 1 
+#### <ins>Application 1</ins>
 
 Démontrer que le problème du chercheur d'or s'agit d'un problème d'optimisation combinatoire.
 
-##### Application 2
+#### <ins>Application 2</ins>
 
 a) Quelle est la stratégie gloutonne pour le problème du chercheur d'or ?
 
@@ -70,13 +72,14 @@ Le nombre de chemins est trouvable en calculant le coefficient binomial du nombr
 
 > Dans le cas d'une mine non carrée, il faut prendre le maximum entre le nombre de mouvements à droite et le nombre de mouvements en bas.
 
-Par exemple, dans ce cas d'étude, il y a quatre mouvements possible à droite sur, au total, six mouvements donc le nombre de chemins est égal à $\binom{6}{4} = 15$.
+> [!TIP]
+> Par exemple, dans ce cas d'étude, il y a quatre mouvements possible à droite sur, au total, six mouvements donc le nombre de chemins est égal à $\binom{6}{4} = 15$.
 
 > Rappel : $\dfrac{n!}{k!(n-k)!} = \binom{n}{k}$
 
 Par conséquent, il n'est pas raisonnable de construire un algorithme calculant les solutions de tous les chemins possibles si la taille de la mine est considérable.
 
-##### Application 3
+#### <ins>Application 3</ins>
 
 a) Donner le nombre de solutions possible pour une mine de taille $15 \times 15$.
 
@@ -108,7 +111,7 @@ mine[i][j] + max(chercheur\textunderscore d\textunderscore or(i, j-1), chercheur
 \end{cases}
 $$
 
-##### Application 4
+#### <ins>Application 4</ins>
 
 a) En reprenant la mine de l'activité du chercheur d'or, ajouter, dans chaque parcelle de la mine, des perles de façon à ce que le nombre de pépites corresponde au nombre maximal de pépites pouvant être récoltées de la première parcelle jusqu'à celle-ci.
 
@@ -128,7 +131,7 @@ def chercheur_d_or_naif(mine : list, i : int, j : int)->int:
         return mine[i][j] + max(chercheur_d_or_naif(mine, i, j-1), chercheur_d_or_naif(mine, i-1, j))
 ```
 
-##### Application 5
+#### <ins>Application 5</ins>
 
 a) Réécrire dans Thonny la fonction `chercheur_d_or_naif()`.
 
@@ -157,13 +160,14 @@ flowchart TB
 
 Dès la troisième profondeur de l'arbre, deux appels récursifs sont effectués pour le même calcul.
 
-##### Application 6
+#### <ins>Application 6</ins>
 
-Compléter la pile d'appels ci-dessus et donner le nombre d'appels total qui ont déjà été effectués.
+Compléter la pile d'appels ci-dessus sur papier et donner le nombre d'appels total qui ont déjà été effectués.
 
 ### g) Approche ascendante
 
-L'*approche ascendante* de la programmation dynamique consiste à supprimer le problème des appels redondants en dérécursivant la fonction.
+> [!IMPORTANT]
+> L'*approche ascendante* de la programmation dynamique consiste à supprimer le problème des appels redondants en dérécursivant la fonction.
 
 Les résultats des calculs effectués sont stockés dans un tableau `tab` :
 
@@ -181,7 +185,7 @@ def chercheur_d_or_ascendante(mine : list, i : int, j : int)->int:
     return tab[i][j]
 ```
 
-##### Application 7
+#### <ins>Application 7</ins>
 
 a) Réécrire dans Thonny la fonction `chercheur_d_or_ascendante()`.
 
@@ -191,7 +195,8 @@ c) À quoi correspond `tab` ?
 
 ### h) Approche descendante
 
-L'*approche descendante* de la programmation dynamique consiste à supprimer le problème des appels redondants en mémorisant les résultats des calculs dans un dictionnaire (que nous appelons `mem` et qui est égal à `None` lors de l'appel initial):
+> [!IMPORTANT]
+> L'*approche descendante* de la programmation dynamique consiste à supprimer le problème des appels redondants en mémorisant les résultats des calculs dans un dictionnaire (que nous appelons `mem` et qui est égal à `None` lors de l'appel initial):
 
 ```python
 def chercheur_d_or_descendante(mine : list, i : int, j : int, mem = {}):
@@ -208,7 +213,7 @@ def chercheur_d_or_descendante(mine : list, i : int, j : int, mem = {}):
     return mem[(i, j)]
 ```
 
-##### Application 8
+#### <ins>Application 8</ins>
 
 a) Réécrire dans Thonny la fonction `chercheur_d_or_descendante()`.
 
@@ -223,3 +228,7 @@ _______________
 _______________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

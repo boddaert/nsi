@@ -1,8 +1,6 @@
 # Rappels sur les algorithmes gloutons 
 
-## I. Généralités
-
-### a) Complexité des algorithmes répondant à un problème d'optimisation combinatoire
+## I. Introduction
 
 Résoudre un problème d'optimisation combinatoire est facile : il suffit de calculer toutes les solutions possibles et de maximiser ou minimiser selon le critère sur cet ensemble de solutions.
 
@@ -14,7 +12,7 @@ Depuis une ville de départ, le voyageur cherche à visiter toutes les villes co
 
 Il existe plusieurs itinéraires et le voyageur cherche à minimiser la distance parcourue.
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 a) Démontrer que, dans le cas du problème du voyageur de commerce, il s'agit bien d'un problème d'optimisation combinatoire.
 
@@ -28,29 +26,34 @@ e) Combien y a t-il d'itinéraires possibles pour ce problème à $n$ villes ?
 
 f) Est-il possible pour un ordinateur de concevoir une solution en temps raisonnable avec cette stratégie ?
 
-### b) Définitions
+## I. Généralités
 
-Les *algorithmes gloutons* sont des algorithmes répondant à un problème d'optimisation combinatoire.
+### a) Définitions
+
+> [!IMPORTANT]
+> Les *algorithmes gloutons* sont des algorithmes répondant à un problème d'optimisation combinatoire.
 
 Les algorithmes gloutons utilisent la stratégie gloutonne.
 
-La *stratégie gloutonne* consiste, par une suite de choix, à sélectionner à chaque étape le choix qui est le meilleur localement.
+> [!IMPORTANT]
+> La *stratégie gloutonne* consiste, par une suite de choix, à sélectionner à chaque étape le choix qui est le meilleur localement.
 
 Cette stratégie ne traite qu'un seul sous-problème local et indépendant des autres à la fois :
 
-![image](./img/strategie_gloutonne.png)
+<img src="./img/strategie_gloutonne.png" width=500>
 
+> [!WARNING]
 > Cette stratégie ne fournit pas forcément la meilleure solution. Nous disons de la stratégie gloutonne qu'elle donne une solution "satisfaisante".
 
 ## II. Mise en application 
 
-##### Application 2
+#### <ins>Application 2</ins>
 
 a) Donner l'idée de la stratégie gloutonne utilisée pour le problème de rendu de monnaie.
 
 b) Donner l'idée de la stratégie gloutonne utilisée pour le problème du voyageur de commerce.
 
-##### Application 3
+#### <ins>Application 3</ins>
 
 Écrire une fonction `rendu_de_monnaie_glouton(l_pieces : list, somme_a_rendre : int)->list` qui prend en paramètre un système monnaitaire sous forme de liste et un entier et renvoie, en utilisant la stratégie gloutonne, une liste des pièces satisfaisante à rendre.
 
@@ -59,7 +62,7 @@ b) Donner l'idée de la stratégie gloutonne utilisée pour le problème du voya
 [20, 10, 2, 2]
 ```
 
-##### Application 4
+#### <ins>Application 4</ins>
 
 Écrire une fonction `voyageur_de_commerce_glouton(l_villes : list, i_depart : int)->list` qui prend en paramètre une liste de villes, une ville étant modélisée par un tuple de coordonnées et une ville de départ et renvoie sous forme de liste, en utilisant la stratégie gloutonne, un ordre de visite satisfaisant des villes.
 
@@ -71,3 +74,7 @@ b) Donner l'idée de la stratégie gloutonne utilisée pour le problème du voya
 _________________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 

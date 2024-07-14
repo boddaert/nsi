@@ -6,7 +6,7 @@ Résoudre un problème d'optimisation combinatoire est facile : il suffit de cal
 
 Malheureusement, en informatique, une contrainte s'impose : la puissance actuelle des ordinateurs.
 
-Il fau donc trouver une autre stratégie.
+Il faut donc trouver une autre stratégie.
 
 #### <ins>Application 1</ins>
 
@@ -48,7 +48,7 @@ Proposer l'idée de la stratégie gloutonne pour le problème du voyageur de com
 Voici ci-dessous l'algorithme répondant au problème du voyageur de commerce utilisant la stratégie gloutonne :
 
 ```
-Algorithme voyageur_de_commerce_glouton
+Algorithme : voyageur_de_commerce_glouton(l_villes, ville_depart)
 Entrées : l_villes une liste de villes (une ville étant représentée par un tuple de coordonnées) et ville_depart une ville de départ
 Sorties : Un itinéraire satisfaisant
 
