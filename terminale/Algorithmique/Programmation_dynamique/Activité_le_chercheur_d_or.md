@@ -42,7 +42,15 @@ Il ne lui reste plus qu'à trouver un chemin optimisé lui permettant de récup�
 
 a) Quel est le chemin que le chercheur doit traverser pour récupérer le plus de pépites ?
 
-b) Trouver une méthode/un algorithme permettant de retrouver le chemin maximisant le nombre de pépites pour n'importe quelle configuration de mine.
+b) Expliquer comment fonctionne la stratégie gloutonne dans le problème du chercheur d'or.
+
+c) Quel est le nombre de pépites récoltées par la stratégie gloutonne ? S'agit-il de la meilleure solution ?
+
+d) Expliquer pourquoi, dans ce problème, la stratégie gloutonne ne donne pas toujours une solution satisfaisante.
+
+e) Trouver une méthode/un algorithme permettant de retrouver le chemin maximisant le nombre de pépites pour n'importe quelle configuration de mine.
+
+$\to$ [Suite du travail](./Programmation_dynamique.md).
 
 ____________________
 

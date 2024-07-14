@@ -17,7 +17,7 @@ Les informaticiens utilisent alors la programmation dynamique.
 ## II. Définitions
 
 > [!IMPORTANT]
-> La *programmation dynamique* est une technique de programmation répondant à un problème d'optimisation combinatoire (cf [Problèmes d'optimisation combinatoire](./Problèmes_d_optimisation_combinatoire.md) en donnant la meilleure solution.
+> La *programmation dynamique* est une technique de programmation répondant à un problème d'optimisation combinatoire (cf [Problèmes d'optimisation combinatoire](./Problèmes_d_optimisation_combinatoire.md)) en donnant la meilleure solution.
 
 > [!IMPORTANT]
 > La *stratégie de la programmation dynamique* consiste à obtenir une solution optimale en utilisant les solutions optimales des précédents sous-problèmes où ceux-ci se chevauchent.
@@ -48,12 +48,6 @@ Afin d'éviter de se faire ensevelir, le chercheur n'a d'autre choix que de creu
 
 Démontrer que le problème du chercheur d'or s'agit d'un problème d'optimisation combinatoire.
 
-#### <ins>Application 2</ins>
-
-a) Quelle est la stratégie gloutonne pour le problème du chercheur d'or ?
-
-b) Expliquer pourquoi, dans ce problème, la stratégie gloutonne ne donne pas toujours une solution satisfaisante.
-
 ### b) Modélisation de la mine
 
 Une mine est modélisée par une liste de listes dans laquelle chaque entier représente le nombre de pépites d'or présentes dans la parcelle `[i][j]` :
@@ -79,7 +73,7 @@ Le nombre de chemins est trouvable en calculant le coefficient binomial du nombr
 
 Par conséquent, il n'est pas raisonnable de construire un algorithme calculant les solutions de tous les chemins possibles si la taille de la mine est considérable.
 
-#### <ins>Application 3</ins>
+#### <ins>Application 2</ins>
 
 a) Donner le nombre de solutions possible pour une mine de taille $15 \times 15$.
 
@@ -111,7 +105,7 @@ mine[i][j] + max(chercheur\textunderscore d\textunderscore or(i, j-1), chercheur
 \end{cases}
 $$
 
-#### <ins>Application 4</ins>
+#### <ins>Application 3</ins>
 
 a) En reprenant la mine de l'activité du chercheur d'or, ajouter, dans chaque parcelle de la mine, des perles de façon à ce que le nombre de pépites corresponde au nombre maximal de pépites pouvant être récoltées de la première parcelle jusqu'à celle-ci.
 
@@ -131,7 +125,7 @@ def chercheur_d_or_naif(mine : list, i : int, j : int)->int:
         return mine[i][j] + max(chercheur_d_or_naif(mine, i, j-1), chercheur_d_or_naif(mine, i-1, j))
 ```
 
-#### <ins>Application 5</ins>
+#### <ins>Application 4</ins>
 
 a) Réécrire dans Thonny la fonction `chercheur_d_or_naif()`.
 
@@ -160,7 +154,7 @@ flowchart TB
 
 Dès la troisième profondeur de l'arbre, deux appels récursifs sont effectués pour le même calcul.
 
-#### <ins>Application 6</ins>
+#### <ins>Application 5</ins>
 
 Compléter la pile d'appels ci-dessus sur papier et donner le nombre d'appels total qui ont déjà été effectués.
 
@@ -185,7 +179,7 @@ def chercheur_d_or_ascendante(mine : list, i : int, j : int)->int:
     return tab[i][j]
 ```
 
-#### <ins>Application 7</ins>
+#### <ins>Application 6</ins>
 
 a) Réécrire dans Thonny la fonction `chercheur_d_or_ascendante()`.
 
@@ -213,7 +207,7 @@ def chercheur_d_or_descendante(mine : list, i : int, j : int, mem = {}):
     return mem[(i, j)]
 ```
 
-#### <ins>Application 8</ins>
+#### <ins>Application 7</ins>
 
 a) Réécrire dans Thonny la fonction `chercheur_d_or_descendante()`.
 

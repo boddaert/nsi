@@ -16,13 +16,16 @@ Ces algorithmes pouvaient, en un temps record, retrouver une séquence précise 
 
 ## II. Définitions
 
-La *recherche textuelle* est un problème algorithmique de recherche qui consiste à retrouver une chaîne de caractère dans une autre chaîne de caractère et de renvoyer leur position.
+> [!IMPORTANT]
+> La *recherche textuelle* est un problème algorithmique de recherche qui consiste à retrouver une chaîne de caractère dans une autre chaîne de caractère et de renvoyer leur position.
 
-Le *motif* est le nom donné à la chaîne de caractère que nous souhaitons retrouver.
+> [!IMPORTANT]
+> Le *motif* est le nom donné à la chaîne de caractère que nous souhaitons retrouver.
 
-Le *texte* est le nom donné à la chaîne de caractère sur laquelle la recherche s'effectue.
+> [!IMPORTANT]
+> Le *texte* est le nom donné à la chaîne de caractère sur laquelle la recherche s'effectue.
 
-##### Application 1
+#### <ins>Application 1</ins>
 
 Dans le texte `abracadabra`, rechercher et donner les positions du motif `bra`.
 
@@ -36,13 +39,13 @@ Notons $t$ le texte et $T$ la longueur de $t$.
 
 ### b) Premières observations
 
-- Remarquons qu'il ne peut y avoir une occurence de $m$ dans $t$ si $M > T$.
+1. Remarquons qu'il ne peut y avoir une occurence de $m$ dans $t$ si $M > T$.
 
-- Il y a $T + 1$ occurences si $m$ est une chaîne vide ($M = 0$).
+2. Il y a $T + 1$ occurences si $m$ est une chaîne vide ($M = 0$).
 
 ### c) Formalisation du problème
 
-![image](./img/formalisation_recherche_textuelle.png)
+<img src="./img/formalisation_recherche_textuelle.png" width=700>
 
 Au dessus, le texte $t$ allant de l'indice $0$ à $T-1$.
 
@@ -55,7 +58,7 @@ Si une occurence du motif existe à la position $i$, alors les caractères `t[i]
 L'idée de l'algorithme naïf est de tester à chaque position la présence du motif :
 
 ```
-Algorithme recherche_textuelle_naïve
+Algorithme : recherche_textuelle_naïve(m, t)
 Entrées : m le motif, une chaîne de caractère et t le texte, une chaîne de caractères
 Sorties : La liste des positions de motif dans texte
 
@@ -73,7 +76,7 @@ Renvoyer positions
 
 Celui-ci se voit ajouter deux nouveaux indices `j` et `k` qui représentent respectivement les indices de comparaisons entre $t$ et $m$.
 
-##### Application 2
+#### <ins>Application 2</ins>
 
 a) Réécrire l'algorithme de recherche textuelle naïve en Python.
 
@@ -104,11 +107,11 @@ La première idée est de parcourir, non plus de gauche à droite, mais de droit
 
 Ainsi, pour une position $i$ donnée, nous allons comparer les caractères de $m$ et $t$ de la droite vers la gauche, c'est-à-dire en comparant d'abord `m[M-1]` avec `t[i+(M-1)]` :
 
-![image](./img/comparer_de_droite_a_gauche_1.png)
+<img src="./img/comparer_de_droite_a_gauche_1.png" width=700>
 
 Puis, `m[-2]` avec `t[i+(M-2)]` si les caractères coïncident :
 
-![image](./img/comparer_de_droite_a_gauche_2.png)
+<img src="./img/comparer_de_droite_a_gauche_2.png" width=700>
 
 Etc ...
 
@@ -120,9 +123,11 @@ La seconde idée est de pré-traiter le texte dans le but de construire un table
 
 Ce tableau des décalages permet de savoir de nombre de rang que $i$ effectuera en cas de non correspondance des lettres.
 
-Par exemple, dans la configuration suivante, il est inutile de réaliser la comparaison à $i+1$ et $i+2$ puisque nous savons que la lettre `B` ne figure pas parmi les trois dernières lettres de $m$.
-
-![image](./img/sauter_des_rangs.png)
+> [!TIP]
+> Par exemple :
+> Dans la configuration suivante, il est inutile de réaliser la comparaison à $i+1$ et $i+2$ puisque nous savons que la lettre `B` ne figure pas parmi les trois dernières lettres de $m$.
+>
+> <img src="./img/sauter_des_rangs.png" width=700>
 
 ### b) Construction de la table des décalages
 
@@ -132,19 +137,21 @@ La table des décalages indique pour chaque lettre du motif le nombre de décala
 
 - Si la lettre `t[i]` apparaît dans le motif, le décalage est égal à la distance entre cette lettre et la dernière lettre du motif.
 
-Avec $m \quad = \quad WIKIPEDIA$, la table des décalages de ce motif est :
+> [!TIP]
+> Par exemple :
+> Avec $m \quad = \quad WIKIPEDIA$, la table des décalages de ce motif est :
+>
+> | Lettre `t[i]` | Décalage de $i$ dans $t$ |
+> | :---: | :---: |
+> | $I$ | $1$ |
+> | $D$ | $2$ |
+> | $E$ | $3$ |
+> | $P$ | $4$ |
+> | $K$ | $6$ |
+> | $W$ | $8$ |
+> | Autre lettre | $9$ |
 
-| Lettre `t[i]` | Décalage de $i$ dans $t$ |
-| :---: | :---: |
-| $I$ | $1$ |
-| $D$ | $2$ |
-| $E$ | $3$ |
-| $P$ | $4$ |
-| $K$ | $6$ |
-| $W$ | $8$ |
-| Autre lettre | $9$ |
-
-##### Application 3
+#### <ins>Application 3</ins>
 
 Établir la table des décalages pour le motif `bra`.
 
@@ -153,7 +160,7 @@ Avec $m \quad = \quad WIKIPEDIA$, la table des décalages de ce motif est :
 Pour simplifier la programmation en Python, l'algorithme `table_des_decalages()` construisant la table des décalages renvoie un dictionnaire :
 
 ```
-Algorithme table_des_decalages
+Algorithme : table_des_decalages(m)
 Entrées : m le motif, une chaîne de caractère
 Sorties : Un dictionnaire des décalages
 
@@ -164,7 +171,7 @@ Pour i allant de 1 à taille(m), faire :
         Ajouter à décalages la clé : lettre ayant comme valeur : i
 Renvoyer décalages
 ```
-##### Application 4
+#### <ins>Application 4</ins>
 
 a) Réécrire l'algorithme de construction de la table des décalages en Python.
 
@@ -200,7 +207,7 @@ def horspool(m : str, t : str)->list:
     return positions
 ```
 
-##### Application 5
+#### <ins>Application 5</ins>
 
 a) Réécrire l'algorithme de recherche textuelle de Horspool en Python.
 
@@ -216,3 +223,7 @@ c) Après avoir compris l'algorithme de Horspool, le réécrire en français de 
 ____________
 
 [Sommaire](./../../README.md)
+
+___________
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/boddaert/nsi">Cours NSI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/boddaert">Théo Boddaert</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></p> 
