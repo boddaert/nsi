@@ -43,9 +43,9 @@
 
 ##### Chapitre 6 : Langages et programmation 3/5
 
-Mise au point des programmes
+- Leçon 1 : [Rappels : Mise au point des programmes](./Langages_et_programmation/Mise_au_point_des_programmes/Rappels_mise_au_point_des_programmes.md)
 
-- Projet n°3 : [Puissance 4](./Langages_et_programmation/Mise_au_point_des_programmes/Projet_puissance_4.md)
+- Projet n°3 : [Jeu de la vie](./Projets/Projet_jeu_de_la_vie.md)
 
 ##### Chapitre 7 : Structures de données 3/4
 
@@ -89,7 +89,7 @@ Mise au point des programmes
 
 ##### Chapitre 13 : Algorithmique 1/3
 
-- Leçon 1 : [Rappels sur les algorithmes de tri](./Algorithmique/Diviser_pour_régner/Rappels_sur_les_algorithmes_de_tri.md)
+- Leçon 1 : [Rappels : Algorithmes de tri](./Algorithmique/Diviser_pour_régner/Rappels_algorithmes_de_tri.md)
 
 - Activité : [Tri Fusion](./Algorithmique/Diviser_pour_régner/Activité_tri_fusion.md)
 
@@ -99,7 +99,7 @@ Mise au point des programmes
 
 - Leçon 1 : [Gestion des processus et des ressources](./Architecture_des_machines/Gestion_des_processus_et_des_ressources/Gestion_des_processus_et_des_ressources.md)
 
-- Activité : [Panique à la boulangerie](./Architecture_des_machines/Gestion_des_processus_et_des_ressources/Activité_panique_à_la_boulangerie.md)
+- Activité : [Problème du boulanger](./Architecture_des_machines/Gestion_des_processus_et_des_ressources/Activité_problème_du_boulanger.md)
 
 ##### Chapitre 15 : Langages et programmation 5/5
 
@@ -117,7 +117,7 @@ Mise au point des programmes
 
 - Leçon 1 : [Problèmes d'optimisation combinatoire](./Algorithmique/Programmation_dynamique/Problèmes_d_optimisation_combinatoire.md)
 
-- Leçon 2 : [Rappels sur les algorithmes gloutons](./Algorithmique/Programmation_dynamique/Rappels_sur_les_algorithmes_gloutons.md)
+- Leçon 2 : [Rappels : Algorithmes gloutons](./Algorithmique/Programmation_dynamique/Rappels_algorithmes_gloutons.md)
 
 - Activité : [Le chercheur d'or](./Algorithmique/Programmation_dynamique/Activité_le_chercheur_d_or.md)
 
