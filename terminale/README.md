@@ -59,7 +59,7 @@
 
 - Leçon 1 : [Sécurisation des communications](./Principe_des_réseaux/Sécurisation_des_communications/Sécurisation_des_communications.md)
 
-- Activité : [La machine Enigma](./Principe_des_réseaux/Sécurisation_des_communications/Activité_la_machine_enigma.md)
+- Activité : [Cryptanalyser Vigenère](./Principe_des_réseaux/Sécurisation_des_communications/Activité_cryptanalyser_vigenere.md)
 
 ##### Chapitre 9 : Structures de données 4/4
 
@@ -69,11 +69,13 @@
 
 - Leçon 2 : [Algorithmes sur les graphes](./Structures_de_données/Structures_relationnelles_de_données/Algorithmes_sur_les_graphes.md)
 
-- Activité : [Sur la route des vacances](./Structures_de_données/Structures_relationnelles_de_données/Activité_sur_la_route_des_vacances.md)
-
 ##### Chapitre 10 : Principe des réseaux 2/2
 
-- Leçon 1 : [Protocoles de routage]
+- Leçon 1 : [Rappels : Principe des réseaux](./../première/Principe_des_réseaux/Principe_des_réseaux.md)
+
+- Leçon 2 : [Protocoles de routage](./Principe_des_réseaux/Protocoles_de_routage/Protocoles_de_routage.md)
+
+- Activité : [Algorithme de Dijkstra](./Principe_des_réseaux/Protocoles_de_routage/Activité_algorithme_de_dijkstra.md)
 
 ##### Chapitre 11 : Projet Final
 

@@ -218,11 +218,52 @@ d) Écrire une fonction ``decrypter(message_choisis : str)->str`` qui prend en p
 
 e) Compléter la fonction ``simulation`` afin de correspondre au principe du puzzle de Merkle.
 
-### Exercice 8 (Difficile)
+## Exercice 8
 
-Nous savons de source sûre que la clé est constituée de trois entiers et que la méthode de chiffrement est celui du carré de Vigenère.
+a) Installer la bibliothèque ``py-enigma`` permettant de simuler le fonctionnement d'une machine Enigma en Python.
 
-Décrypter : ``gjwvkiafmnmfcgcedmfjwvkmyxmfkwhktruqrdarhbcgcedmfkmvyvrmzffivfaqsvfdmhjaqwurmzrklrhqrjzrfmhxxbmzywauguzwazgzgwtfvmflqawanmbewxnkcahwhjtrkmvyvrmzqwagwvrtzrkahjabfabejewbegvrviaktrhilklrewevwegcfwbrflrfbywabejewahfiafmnmxbmzywatgciwzawzggcfmvnfvrsccgcedmflzbmdrjcasvawihhwhjtrkizwvrjbbmarllnfaywagwvrtzrktrktvwznmxnqaqwubjlbjwhkmgwvqwvgdmfguojmflwhlkricvwaggzawjeatywxnkbbmapwckicvwzewvgfmfgvghifhmevcfdmiamhpyhamflnbjbawlrhmeabcgqaltrkznuqawacjwsgvqwaawabfbcsanlbravgwacszywordlrkkrflewahfnrmarnmvdtrjiqwabejewahfmymuvwzrbivdtvjiewvbmdrdmrkmestrhmricvxcgtzvkmrdmfsvfuwhjwafmfwznvmagciwihjwvdmisagwubflrnwhkmalwhjmqwbbmapgbrkdbmacgciwhigcfwvpdwewunaaigcffmcgciwhrlmefmydmzwvgdmgwvvjmavmugzfvmigapdwgmzrkcasvawihhwhjtrkobmdrjvrjbbmahfiafmnmxbmzywagjwhnmemvnfvrsccgcedmfsurfmelwhkmgviaktrkbrfmojmfdmfdqrj``
+Pour l'installer :
+
+1. Cliquer sur ``Outils`` puis ``Open System shell``
+
+2. Écrire dans la console qui vient de s'afficher la commande ``pip install py-enigma``
+
+b) Télécharger dans votre répertoire commun le fichier [enigma_machine.py](./src/enigma_machine.py)
+
+Pour configurer la position des rotors :
+
+```python
+>>> machine.set_display('PIX')
+```
+
+Pour afficher la position des rotors :
+
+```python
+>>> machine.get_display()
+'PIX'
+```
+
+Pour chiffrer une lettre :
+
+```python
+>>> machine.key_press('A')
+'I'
+```
+
+a) Quelle est maintenant la position des rotors ?
+
+b) Quelle est maintenant la lettre chiffrée lorsque j'appuie sur ``'A'`` ?
+
+Le déchiffrement se fait de la manière inverse (il faut que la position des rotors soit la même) :
+
+```python
+>>> machine.set_display('PIX')
+>>> machine.key_press('I')
+'A'
+```
+
+c) Écrire une fonction ``chiffre_enigma(message_clair : str, machine : EnigmaMachine, pos_rotors : str)->str`` qui prend en paramètres un message clair, une machine Enigma configurée et la position des rotors. Cette fonction renvoie le message chiffré.
+
 
 _______________
 
