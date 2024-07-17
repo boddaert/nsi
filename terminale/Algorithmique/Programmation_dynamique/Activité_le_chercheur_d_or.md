@@ -22,7 +22,7 @@ La boîte de rangement représente la mine d'or et les perles représentent les 
 
 Placez les pépites dans les cases de la boîte comme montré ci-dessous :
 
-<img src="./img/chercheur_d_or.png" width=600>
+<img src="./img/chercheur_d_or_mine.jpg" width=600>
 
 ## IV. Règles du jeu
 

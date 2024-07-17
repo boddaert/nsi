@@ -18,7 +18,7 @@ Placez les crêpes les unes au dessus des autres dans l'ordre que vous voulez.
 
 Il s'agit du tas de crêpes :
 
-<img src="./img/tas_de_crepes.png" width=500>
+<img src="./img/tas_de_crepes_desordonne.jpg" width=500>
 
 ## IV. Règles du jeu
 
@@ -26,7 +26,7 @@ Le crêpier psychorigide est, comme son nom l'indique, psychorigide.
 
 Il souhaite que son tas de crêpe soit présentée de manière pyramidale. C'est-à-dire, d'ordre de taille de crêpe croissant comme ci-dessous :
 
-<img src="./img/tas_de_crepes_ordonne.png" width=500>
+<img src="./img/tas_de_crepes_ordonne.jpg" width=500>
 
 Pour l'aider, vous n'avez qu'une seule opération possible : 
 

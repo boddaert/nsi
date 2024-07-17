@@ -113,7 +113,7 @@ Maison  -                                   �
 
 Imaginons désormais qu'une machine d'un premier sous-réseau local souhaite communiquer avec une machine d'un autre sous-réseau local.
 
-Pour la suite de ce chapitre, nous utiliserons le schéma suivant représentant un réseau constitué de trois sous-réseaux locaux interconnectés :
+Pour la suite de ce chapitre, nous utiliserons le schéma suivant représentant un réseau constitué de trois sous-réseaux locaux interconnectés par un routeur :
 
 <img src="./img/internet.PNG" width=700>
 
@@ -288,7 +288,7 @@ Le travail d'un *Routeur* est d'assurer le routage (la redirection) des paquets 
 
 Pour cela, le routeur, lorsqu'il recevra un paquet sur lequel est inscrit l'adresse IP de destination, devra rediriger ce paquet vers le réseau associé à cette adresse.
 
-La notion de routage, étant au programme de Terminale, sera enrichie ultérieurement.
+La notion de routage, étant au programme de Terminale, sera enrichie l'année prochaine.
 
 ## V. Couche 3 : Transport
 

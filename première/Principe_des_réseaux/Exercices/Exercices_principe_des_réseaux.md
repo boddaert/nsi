@@ -34,7 +34,7 @@ Pour relier deux éléments , nous cliquons sur l'icône du câble, puis sur cha
 
 ## Exercice 2
 
-![image](./../img/exo2.PNG)
+<img src="./../img/exo2.PNG" width=500>
 
 a) En mode construction, reproduire le réseau de la figure ci-dessus dans un fichier nommé ``reseau_ex2.fls``.
 
@@ -53,7 +53,7 @@ f) A quoi correspond le temps affiché à côté de chaque accusé de réception
 
 ## Exercice 3
 
-![](./../img/exo3.PNG)
+<img src="/../img/exo3.PNG" width=500>
 
 a) En mode construction, reproduire le réseau de la figure ci-dessus dans un fichier nommé `reseau_ex3.fls`.
 
@@ -94,18 +94,6 @@ S'assurer que le serveur web est bien démarré, puis faire clic droit sur M1 et
 Enfin, sur M1, ouvrir le navigateur et à la suite de ``https://`` : écrire l'adresse IP du serveur.
 
 j) En visualisant les échanges effectués entre le navigateur et le serveur web, donner en précisant les couches, les protocoles utilisés.
-
-## Exercice 4
-
-a) Télécharger le fichier [reseau_ex4.fls](./../src/reseau_ex4.fls) et ouvrir le fichier. Il contient un exemple de réseau plus complexe, contenant plusieurs routeurs, que l'on peut voir comme un mini internet.
-
-b) Récupérer les adresses IP de M9 et M14, puis faire la commande ``ping`` afin de vérifier qu'elles sont bien connectées.
-
-c) Exécuter la commande ``traceroute`` de M9 vers M14. Quels sont les routeurs traversés ?
-
-d) Supprimer le câble reliant les routeurs E et F afin de simuler une panne. Puis réexécuter la commande ``traceroute`` de M9 vers M14. Que peut -on remarquer ?
-
-e) Existe t-il encore un autre chemin ?
 
 ________________
 
