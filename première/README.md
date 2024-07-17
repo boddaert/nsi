@@ -69,11 +69,11 @@
 
 ##### Chapitre 7 : Langages et programmation 2/2
 
-- Leçon 1 : [Prototypage](./Langages_et_programmation/Spécifications_de_fonction/Prototypage.md)
+- Leçon 1 : [Prototypage](./Langages_et_programmation/Mise_au_point_des_programmes/Prototypage.md)
 
-- Leçon 2 : [Préconditions](./Langages_et_programmation/Spécifications_de_fonction/Préconditions.md)
+- Leçon 2 : [Préconditions](./Langages_et_programmation/Mise_au_point_des_programmes/Préconditions.md)
 
-- Leçon 3 : [Postconditions](./Langages_et_programmation/Spécifications_de_fonction/Postconditions.md)
+- Leçon 3 : [Postconditions](./Langages_et_programmation/Mise_au_point_des_programmes/Postconditions.md)
 
 ##### Chapitre 8 : Principe des réseaux 1/1
 
@@ -154,6 +154,6 @@ ______________________
 
 ## Bulletins Officiels
 
-[Bulletin Officiel de Première](./../terminale/Compléments/Bulletins_officiels/bo_première.pdf)
+[Bulletin Officiel de Première](https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/26/8/spe633_annexe_1063268.pdf)
 
-[Bulletin Officiel de Terminale](./../terminale/Compléments/Bulletins_officiels/bo_terminale.pdf)
+[Bulletin Officiel de Terminale](https://cache.media.education.gouv.fr/file/SPE8_MENJ_25_7_2019/93/3/spe247_annexe_1158933.pdf)
