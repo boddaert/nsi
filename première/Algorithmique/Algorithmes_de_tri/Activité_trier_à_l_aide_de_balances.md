@@ -1,12 +1,12 @@
 # Activité : Trier à l'aide de balances
 
-Nature : Débranchée
+Nature : Débranchée.
 
-Matériel : Balance à plateaux, sept boîtes de masses différentes, feuille de papier, crayon
+Matériel : Balance à plateaux, sept boîtes de masses différentes, un crayon et une feuille de brouillon.
 
-Prérequis : Aucun
+Prérequis : Aucun.
 
-À faire : Par deux
+À faire : Par deux.
 
 ## I. Objectif
 

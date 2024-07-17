@@ -1,12 +1,12 @@
 # Activité : Afficheur sept segments
 
-Nature : Débranchée
+Nature : Débranchée.
 
-Matériel : Une feuille de papier et un crayon
+Matériel : Un crayon et une feuille de brouillon.
 
-Prérequis : circuits combinatoires
+Prérequis : [Circuits combinatoires](./Circuits_combinatoires.md).
 
-À faire : Par deux
+À faire : Par deux.
 
 ## I. Objectif
 

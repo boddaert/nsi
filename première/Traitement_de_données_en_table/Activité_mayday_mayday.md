@@ -1,12 +1,12 @@
 # Activité Mayday mayday
 
-Nature : Branchée
+Nature : Branchée.
 
-Matériel : Module `folium`
+Matériel : Module `folium`.
 
-Prérequis : [Fichiers CSV](Fichiers_csv.md), [Recherche dans une table](Recherche_dans_une_table.md), [Tri d'une table](Tri_d_une_table.md) et [Fusion d'une table](Fusion_de_tables.md)
+Prérequis : [Fichiers CSV](Fichiers_csv.md), [Recherche dans une table](Recherche_dans_une_table.md), [Tri d'une table](Tri_d_une_table.md) et [Fusion d'une table](Fusion_de_tables.md).
 
-À faire : Seul
+À faire : Seul.
 
 ## I. Objectif 
 

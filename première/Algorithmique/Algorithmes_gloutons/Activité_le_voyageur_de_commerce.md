@@ -1,12 +1,12 @@
 # Activité : Le voyageur de commerce
 
-Nature : Débranchée
+Nature : Débranchée.
 
-Matériel : jeu, feuille de brouillon et crayon
+Matériel : jeu, un crayon et une feuille de brouillon.
 
-Prérequis : Aucun
+Prérequis : Aucun.
 
-À faire : Par deux
+À faire : Par deux.
 
 ## I. Objectif
 
@@ -28,9 +28,10 @@ Ce jeu est une représentation d'une vue aérienne d'une région, les villes ét
 
 a) En parcourant les villes à l'aide de la ficelle, trouver l'itinéraire le plus court en répondant au problème du voyageur de commerce.
 
-Afin de comparer efficacement la distance des itinéraires trouvés, marquer d'un trait sur la ficelle.
+> [!NOTE]
+> Afin de comparer efficacement la distance des itinéraires trouvés, marquer d'un trait sur la ficelle.
 
-b) Sur feuille, écrire un algorithme en français permettant de répondre au problème du voyageur de commerce pour n'importe quel configuration de villes.
+b) Sur feuille, écrire un algorithme en français permettant de répondre au problème du voyageur de commerce pour n'importe quelle configuration de villes.
 
 _______________________
 

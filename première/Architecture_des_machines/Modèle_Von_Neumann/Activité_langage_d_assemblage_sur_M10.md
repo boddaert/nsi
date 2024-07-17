@@ -1,12 +1,12 @@
 # Activité : Langage d'assemblage sur M10
 
-Nature : Débranchée
+Nature : Débranchée.
 
-Matériel : Représentation schématisée d'un ordinateur sur papier, un crayon et un papier de brouillon.
+Matériel : Machine M10, un crayon et une feuille de brouillon.
 
-Prérequis : Aucun
+Prérequis : [Modèle Von Neumann](./Modèle_Von_Neumann.md), [Langage machine](./Langage_machine.md).
 
-À faire : Par deux
+À faire : Par deux.
 
 ## I. Objectif
 

@@ -2,7 +2,7 @@
 
 Nature : Débranchée.
 
-Matériel : Jeu de quatre cartes, un crayon et un papier de brouillon.
+Matériel : Jeu de quatre cartes, un crayon et une feuille de brouillon.
 
 Prérequis : Aucun.
 
@@ -16,7 +16,7 @@ L'objectif du jeu est de découvrir le langage binaire et de déterminer les alg
 
 Placez les cartes dans l'ordre décroissant face visible comme ceci :
 
-![](./img/cartes.png)
+<img src="./img/cartes.png" width=500>
 
 ## III. Règles du jeu
 
