@@ -141,16 +141,12 @@ ______________________
 
 ## Entraînement à l'oral
 
-[Oraux du jeudi](./Compléments/Entraînement_à_l_oral/Oraux_du_jeudi/Oraux_du_jeudi.md)
-
-[Débats](./Compléments/Entraînement_à_l_oral/Débats/Débats.md)
-
 [Se préparer au Grand Oral](./Compléments/Grand_oral/Se_préparer_au_grand_oral.md)
 
 ______________________
 
 ## Bulletins Officiels
 
-[Bulletin Officiel de Première](./Compléments/Bulletins_officiels/bo_première.pdf)
+[Bulletin Officiel de Première](https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/26/8/spe633_annexe_1063268.pdf)
 
-[Bulletin Officiel de Terminale](./Compléments/Bulletins_officiels/bo_terminale.pdf)
+[Bulletin Officiel de Terminale](https://cache.media.education.gouv.fr/file/SPE8_MENJ_25_7_2019/93/3/spe247_annexe_1158933.pdf)

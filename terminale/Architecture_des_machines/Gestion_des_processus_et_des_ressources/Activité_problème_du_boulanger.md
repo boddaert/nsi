@@ -77,6 +77,9 @@ Le boulanger met la première pâte au four.
 En mettant la seconde pâte au four, le boulanger retire la première pâte du four.
 Le boulanger retire la seconde pâte du four.
 ```
+
+c) Dans les situations avec interblocage, modifier l'ordre des instructions pour qu'il n'y ait plus d'interblocage.
+ 
 ________________
 
 [Sommaire](./../../README.md)

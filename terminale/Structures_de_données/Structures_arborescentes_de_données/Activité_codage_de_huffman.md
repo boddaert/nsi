@@ -24,43 +24,49 @@ Plus d'informations : [Wikipédia - Codage de Huffman](https://fr.wikipedia.org/
 
 L'idée est de construire un arbre binaire et de s'en servir pour donner une table de codage des caractères.
 
-Prenons un exemple, le texte : `"aabacbada"` possède cinq lettres `a`, deux lettres `b`, une lettre `c` et une lettre `d`.
-
-A partir des occurences des lettres de ce texte, voici ci-dessous son arbre de Huffman :
-
-```mermaid
-flowchart TB
-    
-    B(("(b, 2)"))
-    C(("(c, 1)"))
-    D(("(d, 1)"))
-    E(("( , 2)"))
-    F(("( , 4)"))
-    G(("( , 9)"))
-    A(("(a,5)"))
-    G --0--> F
-    G --1--> A
-    E --0--> C
-    E --1--> D
-    F --0--> B
-    F --1--> E
-```
-
-Puis à partir de cet arbre, voici ci-dessous son codage de Huffman :
-
-| Lettre | Encodage |
-| :---: | :---: |
-| `a` | `1` |
-| `b` | `00` |
-| `c` | `010` |
-| `d` | `011` |
-
-Ainsi, le texte `aabacbada` est encodé : `110010100010111`.
+> [!TIP]
+> Par exemple, le texte : `"aabacbada"` possède : 
+> - Cinq lettres `a`.
+> - Deux lettres `b`.
+> - Une lettre `c`.
+> - Une lettre `d`.
+>
+> À partir des occurences des lettres de ce texte, voici ci-dessous son arbre de Huffman :
+>
+> ```mermaid
+> flowchart TB
+>     
+>     B(("(b, 2)"))
+>     C(("(c, 1)"))
+>     D(("(d, 1)"))
+>     E(("( , 2)"))
+>     F(("( , 4)"))
+>     G(("( , 9)"))
+>     A(("(a,5)"))
+>     G --0--> F
+>     G --1--> A
+>     E --0--> C
+>     E --1--> D
+>     F --0--> B
+>     F --1--> E
+> ```
+>
+> Puis à partir de cet arbre, voici ci-dessous sa table de codage des caractères :
+>
+> | Lettre | Encodage |
+> | :---: | :---: |
+> | `a` | `1` |
+> | `b` | `00` |
+> | `c` | `010` |
+> | `d` | `011` |
+>
+> Le texte `aabacbada` est encodé : `110010100010111`.
 
 ## III. Algorithme de construction de l'arbre de Huffman
 
 L'algorithme de construction de l'arbre de Huffman est le suivant :
 
+```
 - Calculer les occurences de chaque lettre du texte.
 
 - Pour chaque occurence de lettre, créer un arbre d'un seul noeud dans lequel se trouve dans la racine un couple $(lettre, occurence)$.
@@ -72,6 +78,7 @@ L'algorithme de construction de l'arbre de Huffman est le suivant :
     + Trouver les deux arbres $a$ et $b$ ayant les poids (occurences) les plus faibles.
 
     + Fusionner les deux arbres en un où le sous-arbre gauche est $a$, le sous-arbre droit est $b$ et où le poids de la racine de cet arbre est égal à la somme des poids des racines des deux sous-arbres.
+```
 
 ## IV. Questions
 
@@ -81,9 +88,9 @@ Par groupe de deux, répondre aux questions suivantes :
 
 a) En suivant l'algorithme de construction de l'arbre de Huffman, construire l'arbre de Huffman à partir du texte suivant : `la cigale ayant chanté tout l'été`.
 
-b) Construire le codage de Huffman de ce texte à partir de l'arbre construit à la question précédente.
+b) Construire la table de codage des caractères de ce texte à partir de l'arbre.
 
-c) Enfin, à partir du codage de Huffman, encoder le texte en binaire.
+c) Enfin, encoder le texte en binaire.
 
 ### Partie B : Sur l'ordinateur 
 

@@ -30,19 +30,19 @@ Il souhaite que son tas de crêpe soit présentée de manière pyramidale. C'est
 
 Pour l'aider, vous n'avez qu'une seule opération possible : 
 
-- Placer la spatule entre deux crêpes dans le tas et retourner toutes celles situées au-dessus de la spatule.
+`Placer la spatule entre deux crêpes dans le tas et retourner toutes celles situées au-dessus de la spatule.`
 
 ## V. Travail à faire
 
 Par groupe de deux, répondre aux questions suivantes :
 
-a) Trouver en manipulant, et écrire un algorithme en Français permettant de trier le tas de crêpe d'ordre de taille croissant en utilisant uniquement l'opération de la spatule.
+a) Trouver en manipulant, et écrire un algorithme en français permettant de trier le tas de crêpe d'ordre de taille croissant en utilisant uniquement l'opération de la spatule.
 
-b) Par quelle structure linéaire de données pourrait-on représenter le tas de crêpes ?
+b) Par quelle structure linéaire de données le tas de crêpe peut être représenté en machine ?
 
-c) Par quelle structure de données linéaire pourrait-on représenter efficacement le retournement de crêpes situées sur la spatule ?
+c) Quelle structure linéaire de données est appropriée afin de réaliser efficacement l'opération de la spatule ?
 
-d) Écrire en Python, une fonction prenant en paramètre un tas de crêpes et renvoie comme un résultat un tas de crêpes ordonné.
+d) Écrire en Python, une fonction prenant en paramètre un tas de crêpes quelconque et renvoie comme un résultat un tas de crêpes ordonné.
 
 Une crêpe étant modélisée par un entier représentant sa taille.
 
