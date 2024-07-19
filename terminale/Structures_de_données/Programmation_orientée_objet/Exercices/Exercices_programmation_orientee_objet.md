@@ -34,6 +34,28 @@ b) En dehors de la classe, écrire une fonction `maxi_liste_boites(liste_boites 
 
 c) Tester vos deux fonctions dans la console.
 
+## Exercice 4 (Difficile)
+
+Nous voulons définir une classe `TaBiDir` pour des tableaux bidirectionnels, dont une partie des éléments ont des indices positifs et une partie des éléments ont des indices négatifs, et qui sont extensibles aussi bien par la gauche que par la droite.
+
+La classe `TaBiDir` a pour attributs deux listes Python : une liste `droite` contenant l'élément d'indice $0$ et les autres éléments d'indice positifs, et une liste `gauche` tel que `gauche[0]` contient l'élément d'indice $-1$ du tableau bidirectionnel et les éléments d'indices négatifs suivants.
+
+> [!TIP]
+> Par exemple :
+> <img src="./../img/tableau_bidirectionnel.png" width=500>
+
+a) Écrire un constructeur construisant un tableau bidirectionnel contenant dans l'ordre, les éléments des tableaux `g` et `d`. Le premier élément de `g` devra être calé avec l'élément d'indice $-1$ du tableau bidirectionnel, et le premier élément de `d` sur l'indice $0$.
+
+b) Écrire les méthodes `imin(self)` et `imax(self)` renvoyant respectivement l'indice minimum et l'indice maximum du tableau bidirectionnel.
+
+c) Écrire une méthode `taille(self)` qui renvoie la taille du tableau bidirectionnel.
+
+d) Écrire une méthode `ajoute_en_fin(self, elt)` qui ajoute l'élément `elt` à la fin du tableau bidirectionnel.
+
+e) Écrire une méthode `ajoute_au_debut(self, elt)` qui ajoute l'élément `elt` au début du tableau bidirectionnel.
+
+f) Écrire une méthode `elt_d_indice(self, i)` qui renvoie l'élément d'indice $i$ du tableau bidirectionel.
+
 _______________
 
 [Sommaire](./../../../README.md)

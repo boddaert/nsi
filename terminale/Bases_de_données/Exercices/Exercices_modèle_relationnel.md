@@ -53,7 +53,7 @@ c) Corriger les erreurs afin que les contraintes d'intégrité soient respectée
 
 d) Expliquer pourquoi le fait d'ajouter l'entité `(36, 'Star Wars V : L'empire contre-attaque', 1979, 140000000, 'Science-fiction', 12)` dans la relation $Film$ viole la contrainte de référence.
 
-## Exercice 3 (Difficile)
+## Exercice 3
 
 Donner la modélisation relationnelle d'un bulletin scolaire.
 
@@ -61,13 +61,17 @@ Cette modélisation devra inclure au moins quatre relations représentant les é
 
 Donner pour chaque relation leur schéma en spécifiant les contraintes de domaine, d'entité et de référence.
 
-## Exercice 4 (Difficile)
+## Exercice 4
 
 Donner la modélisation relationnelle d'une équipe e-sport.
 
 Cette modélisation devra inclure au moins quatre relations représentant les équipes, les joueurs, les ligues et les champions/personnages.
 
 Donner pour chaque relation leur schéma en spécifiant les contraintes de domaine, d'entité et de référence.
+
+## Exercice 5 (Difficile)
+
+Proposer une modélisation pour un réseau de bus. Cette dernière doit être suffisamment riche pour permettre de générer, pour chaque arrêt de bus du réseau, une fiche horaire avec tous les horaires de passage de toutes les lignes de bus qui desservent l'arrêt.
 
 _________________
 
