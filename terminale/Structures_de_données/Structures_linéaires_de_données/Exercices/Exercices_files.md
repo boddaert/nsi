@@ -32,6 +32,10 @@ True
 
 Cette fonction ne doit pas modifier la file passée en argument.
 
+## Exercice 5 (Difficile)
+
+Réécrire la classe `File` mais cette fois en utilisant deux piles : l'une pour défiler et l'autre pour enfiler.
+
 _________________
 
 [Sommaire](./../../../README.md)

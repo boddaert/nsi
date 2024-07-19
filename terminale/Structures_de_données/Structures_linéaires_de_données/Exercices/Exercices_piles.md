@@ -30,7 +30,7 @@ True
 
 Écrire une fonction `sont_egales(p1 : Pile, p2 : Pile)->bool` qui prend en paramètres deux objets `Pile` et renvoie comme résultat $True$ si les deux piles sont égales, $False$ sinon.
 
-## Exercice 5
+## Exercice 5 (Difficile)
 
 Écrire une fonction `bien_parenthese(mot : str)->bool` qui prend en paramètre une chaîne de caractère et renvoie $True$ si `mot` est bien parenthésé, $False$ sinon.
 

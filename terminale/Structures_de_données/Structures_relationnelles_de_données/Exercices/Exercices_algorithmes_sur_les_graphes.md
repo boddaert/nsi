@@ -1,7 +1,7 @@
 # Exercices
 
 $G =$
-
+<a name="graphe_g"></a>
 ```mermaid
     flowchart LR
         0 --> 9
@@ -32,9 +32,10 @@ $G =$
 
 ## Exercice 3
 
-Cet exercice répond au problème de connexité d'un graphe et permet de répondre si un graphe est connexe ou non.
+> Cet exercice répond au problème de connexité d'un graphe et permet de répondre si un graphe est connexe ou non.
 
-Un graphe est dit *connexe* si, à partir de chaque sommet, il existe un chemin le reliant à tous les autres sommets du graphe.
+> [!IMPORTANT]
+> Un graphe est dit *connexe* si, à partir de chaque sommet, il existe un chemin le reliant à tous les autres sommets du graphe.
 
 a) Dessiner un graphe non connexe d'ordre $5$.
 
@@ -44,43 +45,64 @@ c) Écrire une fonction `est_connexe(g : dict)->bool` qui prend en paramètre un
 
 ## Exercice 4
 
-Cet exercice répond au problème de coloration d'un graphe et permet de connaître le nombre chromatique d'un graphe.
+> Cet exercice répond au problème de coloration d'un graphe et permet de connaître le nombre chromatique d'un graphe.
 
-Le *nombre chromatique* d'un graphe est le nombre minimal de couleurs nécessaire à colorier les sommets d'un graphe en respectant la contrainte suivante : chaque sommet ne peut être colorié de la même couleur qu'un sommet voisin.
+> [!IMPORTANT]
+> Le *nombre chromatique* d'un graphe est le nombre minimal de couleurs nécessaire à colorier les sommets d'un graphe en respectant la contrainte suivante : chaque sommet ne peut être colorié de la même couleur qu'un sommet voisin.
 
-La coloration de graphe est un problème utilisé dans les télécommunications : Certains réseaux de télécommunication sont composés d'émetteurs émettant chacun sur une fréquence particulière.
+> [!NOTE]
+> La coloration de graphe est un problème utilisé dans les télécommunications : Certains réseaux de télécommunication sont composés d'émetteurs émettant chacun sur une fréquence particulière.
+>
+> Lorsque deux émetteurs sont trop proches, on ne peut leur allouer la même fréquence à cause des interférences (sauf si éventuellement une montagne les sépare).
+>
+> Il faut donc modéliser le réseau de télécommunication sous forme de graphe et colorier le graphe de telle façon à trouver le nombre chromatique.
 
-Lorsque deux émetteurs sont trop proches on ne peut leur allouer la même fréquence à cause des interférences (sauf si éventuellement une montagne les sépare).
+a) Dessiner sur feuille le graphe de Peterson : 
 
-Il faut donc modéliser le réseau de télécommunication sous forme de graphe et colorier le graphe de telle façon à trouver le nombre chromatique.
+<img src="./../img/graphe_peterson.svg" width=300>
 
-a) Trouver le nombre chromatique du graphe de Peterson :
+b) Colorier les sommets du graphe et trouver son nombre chromatique.
 
-<img src="./../img/graphe_peterson.svg" width=500>
+c) Colorier les sommets du graphe [G](#graphe_g) et trouver son nombre chromatique.
 
-b) Trouver et écrire en Français, un algorithme glouton permettant de colorier (avec un nombre de couleurs satisfaisant) un graphe.
+d) Écrire, en français, un algorithme glouton permettant de colorier (avec un nombre de couleurs minimal satisfaisant) un graphe.
 
 ## Exercice 5
 
-Cet exercice répond au problème de plus court chemin dans un graphe non pondéré.
+> Cet exercice répond au problème de plus court chemin dans un graphe non pondéré.
 
-La *distance* entre deux sommets est le minimum des longueurs des chemins reliant ces deux sommets.
+> [!IMPORTANT]
+> La *distance* entre deux sommets est le minimum des longueurs des chemins reliant ces deux sommets.
 
-La stratégie est de parcourir en largeur d'abord le graphe et d'ajouter $1$ à la distance à chaque fois que nous passons à un niveau suivant de voisinage.
+La stratégie est :
 
-Appliquer à la main et sur papier l'algorithme du plus court chemin sur le graphe $G$ et donner la distance du sommet $0$ au sommet $7$.
+1. De parcourir en largeur d'abord le graphe.
+
+2. Et d'ajouter $1$ à la distance à chaque fois que nous passons à un niveau suivant de voisinage.
+
+a) Dessiner sur feuille le graphe [G](#graphe_g).
+
+b) Appliquer, à la main sur le graphe [G](#graphe_g), l'algorithme du parcours en largeur et en numérotant la distance du sommet $0$ à tous les autres sommets.
 
 ## Exercice 6
 
-Cet exercice répond au problème de présence d'un cycle dans un graphe et permet de répondre si un cycle est présent dans un graphe ou non.
+> Cet exercice répond au problème de présence d'un cycle dans un graphe et permet de répondre si un cycle est présent dans un graphe ou non.
 
-La stratégie est de parcourir le graphe avec un parcours en profondeur et en coloriant les sommets.
+La stratégie est :
 
-Tous les sommets non visités sont blancs.
+1. Tous les sommets (non visités) sont coloriés en blanc.
 
-Lorsque nous visitons un sommet, nous le colorons en gris. Si, lors du parcours, nous rencontrons un sommet colorié en gris, nous avons un cycle. S'il n'y a plus de voisins, nous colorons le sommet en noir.
+1. Parcourir le graphe avec un parcours en profondeur.
 
-Appliquer à la main sur papier l'algorithme de présence d'un cycle sur le graphe $G$.
+2. Colorier les sommets dans une certaine couleur :
+
+    1. Lorsque nous visitons un sommet, nous le colorons en gris.
+    
+    2. Si, lors du parcours, nous rencontrons un sommet colorié en gris, nous avons un cycle. S'il n'y a plus de voisins, nous colorons le sommet en noir.
+
+a) Dessiner sur feuille le graphe [G](#graphe_g).
+
+b) Appliquer à la main sur papier l'algorithme de présence d'un cycle sur le graphe [G](#graphe_g).
 
 ## Exercice 7 (Difficile)
 
