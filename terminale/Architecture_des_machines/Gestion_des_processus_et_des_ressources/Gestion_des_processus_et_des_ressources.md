@@ -44,38 +44,38 @@ Lire la leçon [Systèmes d'exploitation](./../../../première/Architecture_des_
 > ```mermaid
 > stateDiagram-v2
 >     direction TB
->     A : PRET
+>     A : PRÊT
 >     note right of A
 >         Un processus dans l'état
->         PRET attend que le
+>         PRÊT attend que le
 >         processeur le choissise
 >         lors de l'élection pour
 >         qu'il s'exécute.
 >     end note
->     B : ELU
+>     B : ÉLU
 >     note right of B
->         Un processus dans l'état ELU a
+>         Un processus dans l'état ÉLU a
 >         été choisis et s'exécute.
 >
 >         Si le processeur décide d'exécuter
 >         un processus prioritaire, le 
 >         processus dont il avait la charge
->         passe dans l'état PRET.
+>         passe dans l'état PRÊT.
 >
 >         Si l'une des ressource dont il
 >         a besoin n'est pas disponible,
 >         le processus passe dans l'état
->         BLOQUE.
+>         BLOQUÉ.
 >     end note
->     C : BLOQUE
+>     C : BLOQUÉ
 >     note right of C
->         Un processus dans l'état BLOQUE
+>         Un processus dans l'état BLOQUÉ
 >         attend que la ressource dont
 >         il a besoin soit disponible.
 >
 >         Si la ressource est disponible,
 >         le processus prend la ressource
->         et passe dans l'état PRET.
+>         et passe dans l'état PRÊT.
 >     end note
 >     [*] --> A : Création
 >     A --> B : Election

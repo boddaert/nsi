@@ -14,7 +14,7 @@ c) Écrire une fonction récursive ``recherche_dichotomique_recursive(l : list, 
 
 Le problème des tours de Hanoï est un jeu célèbre constitué de trois tiges verticales sur lesquelles sont empilés des disques de diamètres différents.
 
-<img src="./../img/Tours_de_Hanoi.jpeg" width=300>
+<img src="./../img/Tours_de_Hanoi.jpeg" width=500>
 
 Il s'agit de déplacer tous les disques de la première tige vers la dernière tige en respectant deux contraintes :
 
