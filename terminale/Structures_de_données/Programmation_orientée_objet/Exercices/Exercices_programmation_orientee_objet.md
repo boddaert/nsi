@@ -42,6 +42,7 @@ La classe `TaBiDir` a pour attributs deux listes Python : une liste `droite` con
 
 > [!TIP]
 > Par exemple :
+>
 > <img src="./../img/tableau_bidirectionnel.png" width=500>
 
 a) Écrire un constructeur construisant un tableau bidirectionnel contenant dans l'ordre, les éléments des tableaux `g` et `d`. Le premier élément de `g` devra être calé avec l'élément d'indice $-1$ du tableau bidirectionnel, et le premier élément de `d` sur l'indice $0$.
