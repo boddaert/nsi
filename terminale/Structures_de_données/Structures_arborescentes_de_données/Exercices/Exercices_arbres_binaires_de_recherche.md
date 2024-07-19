@@ -27,9 +27,15 @@ b) En déduire sur ce que réalise la fonction `mystere()`.
 
 ## Exercice 4
 
-Écrire une fonction `est_abr(ab : AB)->bool` qui prend en paramètre un arbre binaire et renvoie $True$ s'il s'agit d'un ABR, $False$ sinon.
+Écrire une fonction `est_abr(abr : AB)->bool` qui prend en paramètre un arbre binaire et renvoie $True$ s'il s'agit d'un ABR, $False$ sinon.
 
 Nous pourrons nous aider de la définition d'un ABR donné en leçon.
+
+## Exercice 5 (Difficile)
+
+a) Écrire une fonction `remplir(abr : AB)->list` qui prend en paramètre un arbre binaire de recherche et renvoie une liste contenant tous les éléments de `abr` rangés selon l'ordre infixe de parcours.
+
+b) Écrire une fonction `tri_abr(l : list)->list` qui prend en paramètre une liste et renvoie cette même liste triée dans l'ordre croissant.
 
 __________________
 

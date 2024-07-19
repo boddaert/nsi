@@ -12,9 +12,33 @@ c) Écrire une fonction récursive ``recherche_dichotomique_recursive(l : list, 
 
 ## Exercice 2 (Difficile)
 
+Le problème des tours de Hanoï est un jeu célèbre constitué de trois tiges verticales sur lesquelles sont empilés des disques de diamètres différents.
+
+<img src="./../img/Tours_de_Hanoi.jpeg" width=300>
+
+Il s'agit de déplacer tous les disques de la première tige vers la dernière tige en respectant deux contraintes :
+
+1. Nous ne pouvons déplacer qu'un seul disque à la fois.
+
+2. Nous ne pouvons pas poser un disque sur un disque de diamètre plus petit.
+
+a) Résoudre, en notant les déplacements effcetués, le problème des tours de Hanoï avec trois disques.
+
+b) Résoudre, en notant les déplacements effcetués, le problème des tours de Hanoï avec quatre disques.
+
+c) Écrire une fonction récursive `resolution_tours_de_hanoi(a : list, b : list, c : list, k : int)->None` qui prend en paramètres trois tiges représentées par des listes et un entier.
+
+Cette fonction résout le problème des tours de Hanoï de $k$ disques de la tige `a` vers la tige `c` en utilisant la tige `b` comme tige intermédiaire.
+
+Cette fonction ne renvoie rien mais affiche les déplacements effectués.
+
+d) Remplacer les tiges `a`, `b` et `c` par des piles (cf [Piles](./../../../Structures_de_données/Structures_linéaires_de_données/Piles.md)).
+
+## Exercice 3 (Difficile)
+
 Dans cet exercice, nous cherchons à écrire une fonction qui effectue la rotation d'une image de $90$ degrés en utilisant le principe "Diviser pour régner" :
 
-<img src="./../img/einstein_rotation.gif" width=600>
+<img src="./../img/einstein_rotation.gif" width=300>
 
 Pour manipuler une image en python, nous utiliserons le module PIL :
 
@@ -34,7 +58,9 @@ px = image.load()
 Sa documentation est disponible [ici](https://pillow.readthedocs.io/en/stable/reference/Image.html).
 
 
-La couleur du pixel situé aux coordonnées $x$ et $y$ est donnée par ``px[x, y]``. Une couleur est un triplet donnant les composantes rouge, vert et bleu sous la forme d'entiers entre 0 et 255.
+La couleur du pixel situé aux coordonnées $x$ et $y$ est donnée par l'instruction ``px[x, y]``.
+
+Une couleur est un triplet donnant les composantes rouge, vert et bleu sous la forme d'entiers entre $0$ et $255$.
 
 Nous pouvons modifier la couleur d'un pixel avec l'affectation :
 
@@ -45,7 +71,7 @@ px[x, y] = c
 
 Nous supposons que notre image est carrée. L'idée est de couper l'image en quatre carrés, à effectuer la rotation de $90$ degrés de chacun des quatres carrés, puis à les déplacer vers les positions finales :
 
-<img src="./../img/rotation_carre.PNG" width=500>
+<img src="./../img/rotation_carre.png" width=500>
 
 a) Exprimer, pour l'algorithme de rotation d'images, la méthode "Diviser pour régner" en décrivant les étapes :
    
@@ -55,11 +81,17 @@ a) Exprimer, pour l'algorithme de rotation d'images, la méthode "Diviser pour r
    
    - Combiner :
 
-b) Afin de pouvoir procéder récursivement, on va définir une fonction ``rotation_aux( px : list, x : int, y :int, t :int)`` qui effectue la rotation de la portion carrée de l'image située aux coordonnées ``x``et ``y`` ( coin supérieur gauche du carré  ) jusqu'aux coordonnées ``x+t`` et ``y+t`` ( coin inférieur droit ). Cette fonction modifie le tableau ``px`` et ne renvoie rien. Ecrire la fonction ``rotation_aux``.
+b) Afin de pouvoir procéder récursivement, nous allons définir une fonction ``rotation_aux(px : list, x : int, y :int, t :int)->None`` qui effectue la rotation de la portion carrée de l'image située aux coordonnées ``x``et ``y`` et ``x+t`` et ``y+t``.
 
-c) Écrire une fonction ``rotation( px : list, taille : int )`` qui effectue une rotation de l'image toute entière, elle prend en paramètre le tableau des pixels et la dimension de celle-ci.
+Cette fonction modifie le tableau ``px`` pour effectuer la rotation de la portion de l'image et ne renvoie rien.
+
+Écrire la fonction ``rotation_aux()``.
+
+Vous pouvez télécharger une image de taille carrée [ici](./../src/image_de_taille_carree.jpg).
+
+c) Écrire une fonction ``rotation(px : list, taille : int)`` qui effectue une rotation de l'image toute entière, elle prend en paramètre le tableau des pixels et la taille de celle-ci.
    
-Une fois la rotation effectuée, on pourra sauvegarder le résultat dans un autre fichier avec l'instruction :
+Une fois la rotation effectuée, l'image obtenue peut être sauvegardée dans un autre fichier avec l'instruction :
    
 ```python
 image.save("rotation.png")
