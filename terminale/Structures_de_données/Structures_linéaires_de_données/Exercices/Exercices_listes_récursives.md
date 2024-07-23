@@ -94,7 +94,7 @@ La fonction doit traiter le cas où l'élément d'indice `i` n'existe pas. C'est
 
 ## Exercice 10 (Difficile)
 
-Écrire une fonction récursive `ajoute(l : ListeR, elt : int, i : int)->ListeR` qui prend en paramètre un objet `ListeR`, deux entiers et renvoie comme résultat `l` dont l'élément `el` a été ajouté à l'indice `i`.
+Écrire une fonction récursive `ajoute(l : ListeR, elt : int, i : int)->ListeR` qui prend en paramètre un objet `ListeR`, deux entiers et renvoie comme résultat `l` dont l'élément `elt` a été ajouté à l'indice `i`.
 
 ## Exercice 11 (Difficile)
 

@@ -12,9 +12,9 @@ a) Écrire le constructeur de la classe `Boite` qui prend trois entiers en param
 
 b) Écrire tous les accesseurs liés aux attributs `longueur`, `largeur` et `hauteur`. Puis, dans la console, vérifier le fonctionnement de vos méthodes.
 
-c) Écrire la méthode `volume()` qui ne prend pas de paramètres et renvoie comme résultat le volume de la boîte.
+c) Écrire la méthode `volume(self)` qui ne prend pas de paramètres et renvoie comme résultat le volume de la boîte.
 
-d) Écrire la méthode `infos()` qui ne prend pas de paramètres et renvoie une chaîne de caractère de la forme $Lxlxh$.
+d) Écrire la méthode `infos(self)` qui ne prend pas de paramètres et renvoie une chaîne de caractère de la forme $Lxlxh$.
 
 ## Exercice 2
 
@@ -47,15 +47,19 @@ La classe `TaBiDir` a pour attributs deux listes Python : une liste `droite` con
 
 a) Écrire un constructeur construisant un tableau bidirectionnel contenant dans l'ordre, les éléments des tableaux `g` et `d`. Le premier élément de `g` devra être calé avec l'élément d'indice $-1$ du tableau bidirectionnel, et le premier élément de `d` sur l'indice $0$.
 
-b) Écrire les méthodes `imin(self)` et `imax(self)` renvoyant respectivement l'indice minimum et l'indice maximum du tableau bidirectionnel.
+b) Écrire les méthodes `imin(self)->int` et `imax(self)->int` renvoyant respectivement l'indice minimum et l'indice maximum du tableau bidirectionnel.
 
-c) Écrire une méthode `taille(self)` qui renvoie la taille du tableau bidirectionnel.
+c) Écrire une méthode `taille(self)->int` qui renvoie la taille du tableau bidirectionnel.
 
-d) Écrire une méthode `ajoute_en_fin(self, elt)` qui ajoute l'élément `elt` à la fin du tableau bidirectionnel.
+d) Écrire une méthode `ajoute_en_fin(self, elt : int)->None` qui ajoute l'élément `elt` à la fin du tableau bidirectionnel.
 
-e) Écrire une méthode `ajoute_au_debut(self, elt)` qui ajoute l'élément `elt` au début du tableau bidirectionnel.
+e) Écrire une méthode `ajoute_au_debut(self, elt : int)->None` qui ajoute l'élément `elt` au début du tableau bidirectionnel.
 
-f) Écrire une méthode `elt_d_indice(self, i)` qui renvoie l'élément d'indice $i$ du tableau bidirectionel.
+f) Écrire une méthode `elt_d_indice(self, i : int)->int` qui renvoie l'élément d'indice $i$ du tableau bidirectionnel.
+
+g) Écrire une méthode `premier_element(self)->int` qui renvoie le premier élément du tableau bidirectionel.
+
+h) Écrire une méthode `affiche(self)->None` qui affiche dans l'ordre les éléments du tableau bidirectionnel.
 
 _______________
 

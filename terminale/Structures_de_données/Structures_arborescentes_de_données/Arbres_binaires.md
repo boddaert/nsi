@@ -117,7 +117,7 @@ Par habitude, nous ne dessinons pas les arbres vides.
 >     A --> C
 > ```
 
-#### <ins>Application 3</ins>
+#### <a name="app_3_4"></a><ins>Application 3</ins>
 
 Dessiner, avec les arbres vides, la représentation schématisée des arbres suivants :
 
@@ -205,11 +205,11 @@ flowchart TB
 
 #### <ins>Application 5</ins>
 
-a) Donner la taille des arbres de l'application $4$.
+a) Donner la taille des arbres de l'[application 4](#app_3_4).
 
-b) Donner la profondeur du nœud $8$ des arbres de l'application $4$.
+b) Donner la profondeur du nœud $8$ des arbres de l'[application 4](#app_3_4).
 
-c) Donner la hauteur des arbres de l'application $4$.
+c) Donner la hauteur des arbres de l'[application 4](#app_3_4).
 
 d) Dessiner la représentation schématisée d'un peigne droit de hauteur $4$.
 
@@ -305,7 +305,7 @@ False
 
 #### <ins>Application 8</ins>
 
-a) Écrire les instructions permettant de créer, à l'aide de la classe, les arbres de l'application $3$ et $4$.
+a) Écrire les instructions permettant de créer, à l'aide de la classe, les arbres de l'[application 3 et 4](#app_3_4).
 
 b) Écrire les instructions permettant d'afficher le nœud le plus en bas à droite possible de l'arbre. 
 
@@ -358,7 +358,7 @@ Il existe deux types de parcours d'arbres : le **parcours en largeur d'abord** e
 
 #### <ins>Application 9</ins>
 
-Donner l'ordre de traitement des nœuds selon le parcours en largeur d'abord des arbres de l'application $3$ et $4$.
+Donner l'ordre de traitement des nœuds selon le parcours en largeur d'abord des arbres de l'[application 3 et 4](#app_3_4).
 
 ### c) Algorithme du parcours en largeur d'abord
 
@@ -381,7 +381,7 @@ Tant que f n'est pas vide, faire :
 
 #### <ins>Application 10</ins>
 
-Exécuter à la main l'algorithme du parcours en profondeur d'abord sur les arbres de l'application $4$ en dessinant les files sur feuille.
+Exécuter à la main l'algorithme du parcours en profondeur d'abord sur les arbres de l'[application 4](#app_3_4) en dessinant les files sur feuille.
 
 ### d) Parcours en profondeur d'abord
 
@@ -423,9 +423,9 @@ Exécuter à la main l'algorithme du parcours en profondeur d'abord sur les arbr
 >
 > L'ordre de traitement des nœuds selon le parcours en profondeur d'abord est : $3$, $5$, $6$, $10$, $8$ et $2$.
 
-#### <ins>Apllication 9</ins>
+#### <ins>Apllication 11</ins>
 
-Donner l'ordre de traitement des nœuds selon le parcours en profondeur d'abord des arbres de l'application $3$ et $4$.
+Donner l'ordre de traitement des nœuds selon le parcours en profondeur d'abord des arbres de l'[application 3 et 4](#app_3_4).
 
 ### e) Algorithme itératif du parcours en profondeur d'abord
 
@@ -463,7 +463,7 @@ Si ab n'est pas un arbre vide, alors :
 
 #### <ins>Application 12</ins>
 
-Exécuter à la main l'algorithme itératif du parcours en profondeur d'abord sur le premier arbre de l'application $4$ en dessinant les piles sur feuille.
+Exécuter à la main l'algorithme itératif du parcours en profondeur d'abord sur le premier arbre de l'[application 4](#app_3_4) en dessinant les piles sur feuille.
 
 ### g) Types de parcours en profondeur d'abord
 
@@ -491,7 +491,7 @@ Enfin, il y a le parcours suffixe qui consiste à visiter le sous-arbre gauche p
 
 #### <ins>Application 13</ins>
 
-Donner les parcours infixes et suffixes des arbres de l'application $3$ et $4$.
+Donner les parcours infixes et suffixes des arbres de l'[application 3 et 4](#app_3_4).
 
 ________________
 
