@@ -381,7 +381,7 @@ Tant que f n'est pas vide, faire :
 
 #### <ins>Application 10</ins>
 
-Exécuter à la main l'algorithme du parcours en profondeur d'abord sur les arbres de l'[application 4](#app_3_4) en dessinant les files sur feuille.
+Exécuter à la main l'algorithme du parcours en profondeur d'abord sur le second arbre de l'[application 4](#app_3_4) en dessinant les files sur feuille.
 
 ### d) Parcours en profondeur d'abord
 
@@ -463,7 +463,7 @@ Si ab n'est pas un arbre vide, alors :
 
 #### <ins>Application 12</ins>
 
-Exécuter à la main l'algorithme itératif du parcours en profondeur d'abord sur le premier arbre de l'[application 4](#app_3_4) en dessinant les piles sur feuille.
+Exécuter à la main l'algorithme itératif du parcours en profondeur d'abord sur le second arbre de l'[application 4](#app_3_4) en dessinant les piles sur feuille.
 
 ### g) Types de parcours en profondeur d'abord
 

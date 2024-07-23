@@ -85,9 +85,9 @@ Sinon si la racine de abr est égal à elt, alors :
     Renvoie Vrai
 Sinon :
     Si elt < à la racine de abr, alors :
-        Renvoie recherche(abr.sag(), elt)
+        Renvoie recherche_abr(abr.sag(), elt)
     Sinon :
-        Renvoie recherche(abr.sad(), elt)
+        Renvoie recherche_abr(abr.sad(), elt)
 ```
 
 #### <ins>Application 2</ins>

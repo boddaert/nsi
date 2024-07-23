@@ -35,7 +35,7 @@ Nous pourrons nous aider de la définition d'un ABR donné en leçon.
 
 a) Écrire une fonction `remplir(abr : AB)->list` qui prend en paramètre un arbre binaire de recherche et renvoie une liste contenant tous les éléments de `abr` rangés selon l'ordre infixe de parcours.
 
-b) Écrire une fonction `tri_abr(l : list)->list` qui prend en paramètre une liste et renvoie cette même liste triée dans l'ordre croissant.
+b) Écrire une fonction `tri_abr(l : list)->None` qui prend en paramètre une liste et affiche les éléments de la liste dans l'ordre croissant.
 
 __________________
 
