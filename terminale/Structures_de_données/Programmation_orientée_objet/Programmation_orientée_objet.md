@@ -132,7 +132,7 @@ Lors de l'instance de classe, les attributs prennent en valeur les arguments.
 
 #### <ins>Application 4</ins>
 
-Ajouter le paramètre `nom` et son attribut au constructeur de la classe `Voiture`.
+Ajouter le paramètre `couleur` et son attribut au constructeur de la classe `Voiture`.
 
 ## IV. Accès aux attributs
 

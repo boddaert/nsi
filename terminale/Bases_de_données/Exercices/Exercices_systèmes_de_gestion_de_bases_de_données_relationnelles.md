@@ -56,7 +56,7 @@ a) Écrire la requête permettant d'obtenir les prénoms et les noms des usagers
 
 b) Écrire la requête permettant d'obtenir les identifiants et les titres de livres du moins au plus cher.
 
-c) Erire la requête permettant d'obtenir les auteurs de livre dont le prix dépasse $10$ par ordre croissant d'année.
+c) Érire la requête permettant d'obtenir les auteurs de livre dont le prix dépasse $10$ par ordre croissant d'année.
 
 d) Écrire la requête permettant d'obtenir les identifiants de livre par ordre croissant de date d'emprunt.
 

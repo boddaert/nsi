@@ -42,8 +42,9 @@ d) Écrire la fonction `pyramide_descendante(p : list)->int` qui prend en param�
 
 e) Écrire la fonction `pyramide_ascendante(p : list)->int` qui prend en paramètre une liste de listes et renvoie le nombre maximal de points en utilisant l'appoche ascendante de la programmation dynamique.
 
-## Exercice 2
+## Exercice 2 (Difficile)
 
+Alignement de séquence (p 240)
 
 ## Exercice 3 (Difficile)
 

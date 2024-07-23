@@ -230,7 +230,7 @@ SELECT * FROM <nom_table> WHERE <condition>;
 
 #### <ins>Application 8</ins>
 
-a) Écrire la requête SQL permettant d'obtenir tous les livres dont le code est égale à $3$.
+a) Écrire la requête SQL permettant d'obtenir tous les livres dont l'identifiant est égale à $3$.
 
 b) Écrire la requête SQL permettant d'obtenir tous les livres dont l'année de publication est inférieure ou égale à $1960$.
 

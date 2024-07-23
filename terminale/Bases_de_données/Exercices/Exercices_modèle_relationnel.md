@@ -32,7 +32,7 @@ e) Donner au moins trois entités de la relation $Film$.
 
 ## Exercice 2
 
-a) Ecrire le schéma relationnel de la relation $Realisateur$ comprenant un identifiant unique de réalisateur correspondant à la clé primaire, un prénom et un nom.
+a) Écrire le schéma relationnel de la relation $Realisateur$ comprenant un identifiant unique de réalisateur correspondant à la clé primaire, un prénom et un nom.
 
 Voici ci-dessous des entités de la relation $Realisateur$ :
 

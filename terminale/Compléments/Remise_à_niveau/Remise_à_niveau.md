@@ -176,8 +176,6 @@ Rappel : L'énergie cinétique d'un objet de masse $m$ et de vitesse $v$ est : $
 
 Écrire une fonction ``energie_cinetique(m : float, v : float)->float`` qui prend en paramètre une masse $m$ et une vitesse $v$, deux nombres flottants et renvoie la valeur de l'énergie cinétique d'un objet.
 
-Cette fonction devra utiliser les fonctions ``produit()`` et ``carre()`` vus dans le chapitre (cf : [Fonctions](./../Fonctions.md)).
-
 ```python
 >>> energie_cinetique(6.2, 9.7)
 291.679
@@ -185,7 +183,7 @@ Cette fonction devra utiliser les fonctions ``produit()`` et ``carre()`` vus dan
 
 ## Exercice 8
 
-Ecrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie l'entier le plus grand.
+Écrire une fonction ``max2( a : int, b : int)-> int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie l'entier le plus grand.
 
 ```python
 >>> max2(5,13)
@@ -239,7 +237,7 @@ b) Vérifier vos résultats en exécutant les programmes dans Thonny.
 
 ## Exercice 11
 
-Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
+Écrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
 Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle `while`.
 
@@ -280,7 +278,7 @@ for i in range(-5,5):
 
 ## Exercice 13
 
-Ecrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
+Écrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
 Cette fonction devra utiliser uniquement l'opérateur de multiplication et la boucle `for`.
 
@@ -291,7 +289,7 @@ Cette fonction devra utiliser uniquement l'opérateur de multiplication et la bo
 
 ## Exercice 14
 
-Ecrire une fonction `nombre_chiffre(n : int)->int` qui prend en paramètre un entier et renvoie le nombre de chiffres de cet entier.
+Écrire une fonction `nombre_chiffre(n : int)->int` qui prend en paramètre un entier et renvoie le nombre de chiffres de cet entier.
 
 ```python
 >>> nombre_chiffre(34567)
