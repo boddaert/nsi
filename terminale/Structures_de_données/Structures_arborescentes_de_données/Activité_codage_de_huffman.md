@@ -64,20 +64,22 @@ L'idée est de construire un arbre binaire et de s'en servir pour donner une tab
 
 ## III. Algorithme de construction de l'arbre de Huffman
 
-L'algorithme de construction de l'arbre de Huffman est le suivant :
+L'algorithme de construction de l'arbre de Huffman en français est le suivant :
 
 ```
 - Calculer les occurences de chaque lettre du texte.
 
-- Pour chaque occurence de lettre, créer un arbre d'un seul noeud dans lequel se trouve dans la racine un couple $(lettre, occurence)$.
+- Pour chaque occurence de lettre, créer un arbre d'un seul noeud dans lequel se trouve dans la racine un couple (lettre, occurence).
 
 - Placer tous les arbres dans une liste appelée forêt.
 
 - Tant qu'il n'y a pas qu'un seul arbre dans la forêt faire :
 
-    + Trouver les deux arbres $a$ et $b$ ayant les poids (occurences) les plus faibles.
+    + Trouver les deux arbres a et b ayant les poids (occurences) les plus faibles.
 
-    + Fusionner les deux arbres en un où le sous-arbre gauche est $a$, le sous-arbre droit est $b$ et où le poids de la racine de cet arbre est égal à la somme des poids des racines des deux sous-arbres.
+    + Fusionner les deux arbres en un où le sous-arbre gauche est a, le sous-arbre droit est b et où le poids de la racine de cet arbre est égal à la somme des poids des racines des deux sous-arbres.
+
+    + Retirer les arbres a et b et ajouter ce nouvel arbre fusionné à la forêt.
 ```
 
 ## IV. Questions
@@ -131,8 +133,6 @@ g) Écrire une fonction `deux_plus_faibles_poids(foret : list)->tuple` qui prend
 h) Écrire une fonction `fusion(ab1 : AB, ab2 : AB)->AB` qui prend en paramètre deux arbres binaires et renvoie un arbre binaire dont les deux sous-arbres sont les deux arbres passés en argument et dont la racine est égal à la somme des racines des deux sous-arbres.
 
 i) Écrire une fonction `arbre_huffman(texte : str)->AB` qui prend en paramètre une chaîne de caractère et renvoie son arbre de Huffman.
-
-j) Écrire une fonction `codage_huffman(ab_huffman : AB)->dict` qui prend en paramètre un arbre binaire et renvoie le codage de Huffman sous forme de dictionnaire.
 
 ___________
 

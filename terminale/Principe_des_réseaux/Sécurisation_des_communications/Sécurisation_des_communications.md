@@ -295,7 +295,7 @@ Il est utilisé lorsqu'un client souhaite se connecter sur un serveur de manièr
 >
 > <img src="./img/principe_https.PNG" width=800>
 
-#### <ins>Application 5</ins>
+#### <ins>Application 4</ins>
 
 a) Sur Firefox, aller sur : [https://fr.wikipedia.org/wiki/Informatique](https://fr.wikipedia.org/wiki/Informatique).
 

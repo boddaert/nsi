@@ -1,6 +1,6 @@
 # Activité : Le problème du crêpier psychorigide
 
-Nature : Débranchée.
+Nature : Branchée/débranchée.
 
 Matériel : Jeu de cinq planches de bois de taille différente, un crayon et une feuille de brouillon.
 
@@ -42,9 +42,13 @@ b) Par quelle structure linéaire de données le tas de crêpe peut être repré
 
 c) Quelle structure linéaire de données est appropriée afin de réaliser efficacement l'opération de la spatule ?
 
-d) Écrire en Python, une fonction prenant en paramètre un tas de crêpes quelconque et renvoie comme un résultat un tas de crêpes ordonné.
+d) Écrire en Python, une fonction `taille(tas_de_crepes : Pile)->int` prenant en paramètre un tas de crêpes quelconque et renvoie sa taille.
 
-Une crêpe étant modélisée par un entier représentant sa taille.
+e) Écrire en Python, une fonction `maxi_crepe(tas_de_crepes : Pile, borne : int)->int` prenant en paramètre un tas de crêpes et un entier et renvoie l'indice $i$ de la plus grande crêpe avec $0<=i<=borne$. Nous considérerons que la crêpe située au sommet du tas est d'indice $0$.
+
+f) Écrire en Python, une fonction `retourner(tas_de_crepes : Pile, borne : int)->None` prenant en paramètre un tas de crêpes et un entier et retourne le sous-tas de crêpes du sommet jusqu'à la borne. Cette fonction ne renvoie rien, elle modifie donc en place le tas de crêpes.
+
+g) Écrire en Python, une fonction `tri_crepe(tas_de_crepes : Pile)->None` prenant en paramètre un tas de crêpes et trie le tas de crêpes dans l'ordre croissant de taille. Cette fonction ne renvoie rien, elle modifie donc en place le tas de crêpes.
 
 _______________
 
