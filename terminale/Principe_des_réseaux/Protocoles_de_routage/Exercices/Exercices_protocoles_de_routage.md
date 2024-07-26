@@ -38,7 +38,7 @@ En utilisant le protocole RIP, faire la table de routage :
 | Routeur H - Routeur F | Ethernet |
 | Routeur F - Routeur G | Fibre |
 
-D'après les types de liaisons donées dans le tableau ci-dessus et en utilisant le protcole OSPF, faire la table de routage :
+D'après les types de liaisons donées dans le tableau ci-dessus et en utilisant le protocole OSPF, faire la table de routage :
 
 1. Du routeur H.
 

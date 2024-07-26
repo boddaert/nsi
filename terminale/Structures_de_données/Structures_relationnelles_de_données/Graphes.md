@@ -358,7 +358,7 @@ Implémenter en Python la matrice d'adjacence du graphe $G2$.
 > - $3 : 1, 4$
 > - $4 : 1, 3$
 
-#### <ins>Application 11</ins>
+#### <ins>Application 10</ins>
 
 Donner sur papier la liste d'adjacence du graphe $G4$.
 
@@ -387,7 +387,7 @@ L'instruction `G[i]` renvoie alors les sommets adjacents du sommet $i$.
 > [0]
 > ```
 
-#### <ins>Application 12</ins>
+#### <ins>Application 11</ins>
 
 Implémenter en Python la liste d'adjacence du graphe $G4$.
 

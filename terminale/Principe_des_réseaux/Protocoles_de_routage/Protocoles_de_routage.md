@@ -51,16 +51,16 @@ Afin de router efficacement les paquets, les routeurs possèdent une table de ro
 Pour une adresse de destination, il indique le prochain routeur (appelé la *passerelle*) et le coût (appelée *métrique*).
 
 > [!TIP]
-> Par exemple, la table de routage du routeur B peut être (avec une métrique égal au nombre de routeurs traversés):
+> Par exemple, la table de routage du routeur B peut être (avec une métrique égal au nombre de routeurs à traverser):
 >
 > | Destination | Passerelle | Métrique |
 > | :---: | :---: | :---: |
-> | 172.12.0.0 (Réseau 0) | Routeur A | 6 |
-> | 192.168.1.0 (Réseau 1) | Routeur A | 2 |
-> | 192.168.2.0 (Réseau 2) | Switch R2 | 1 |
-> | 192.168.3.0 (Réseau 3) | Routeur D | 3 |
-> | 192.168.4.0 (Réseau 4) | Routeur D | 3 |
-> | 192.168.5.0 (Réseau 5) | Routeur A | 5 |
+> | 192.168.1.0 (Réseau 1) | Routeur A | 1 |
+> | 192.168.2.0 (Réseau 2) | Switch R2 | 0 |
+> | 192.168.3.0 (Réseau 3) | Routeur D | 2 |
+> | 192.168.4.0 (Réseau 4) | Routeur D | 2 |
+> | 192.168.5.0 (Réseau 5) | Routeur A | 3 |
+> | 192.168.6.0 (Réseau 6) | Routeur A | 4 |
 
 > [!NOTE]
 > Il peut exister plusieurs meilleures routes à emprunter.
