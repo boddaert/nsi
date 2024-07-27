@@ -22,7 +22,7 @@ Il s'agit de déplacer tous les disques de la première tige vers la dernière t
 
 2. Nous ne pouvons pas poser un disque sur un disque de diamètre plus petit.
 
-a) Résoudre, en notant les déplacements effcetués, le problème des tours de Hanoï avec trois disques.
+a) Résoudre, en notant les déplacements effectués, le problème des tours de Hanoï avec trois disques.
 
 b) Résoudre, en notant les déplacements effcetués, le problème des tours de Hanoï avec quatre disques.
 

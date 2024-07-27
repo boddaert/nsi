@@ -6,7 +6,7 @@
 
 ## Exercice 2
 
-1. Situation n°1:
+1. Situation n°1 :
 ```
 P1 acquiert R1
 P2 acquiert R2
@@ -16,7 +16,7 @@ P2 attend R1
 P1 libère R1
 ```
 
-2. Situation n°2:
+2. Situation n°2 :
 ```
 P1 acquiert R1
 P2 acquiert R3
@@ -26,7 +26,7 @@ P2 libère R3
 P3 attend R1
 ```
 
-3. Situation n°3:
+3. Situation n°3 :
 ```
 P1 acquiert R1
 P2 acquiert R2
@@ -34,6 +34,16 @@ P3 attend R2
 P1 attend R2
 P2 libère R2
 P3 acquiert R2
+```
+
+4. Situation n°4 :
+```
+P2 acquiert R3
+P3 attend R3
+P1 attend R3
+P1 acquiert R1
+P3 attend R1
+P2 attend R1
 ```
 
 a) Pour chacune des situations ci-dessus, indiquer lequel provoque un interblocage en justifiant.

@@ -190,7 +190,7 @@ Donner l'ordonnancement des processus suivants selon la politique du premier arr
 
 #### <ins>Application 4</ins>
 
-Donner l'ordonnancement des processus suivants selon la politique par tourniquet.
+Donner l'ordonnancement des processus suivants selon la politique par tourniquet avec quantum $= 2$.
 
 | PID | Durée d'exécution | Instant d'arrivée | Priorité |
 | :---: | :---: | :---: |:---: |

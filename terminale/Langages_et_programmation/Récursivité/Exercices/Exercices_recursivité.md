@@ -2,6 +2,10 @@
 
 ## Exercice 1
 
+[Activité : Couples de lapins](./../Activité_couples_de_lapins.md)
+
+## Exercice 2
+
 Soit la fonction récursive suivante :
 
 ```python
@@ -21,7 +25,7 @@ c) Repérer le cas de base et le cas récursif afin d'écrire le principe de ré
 
 d) Transformer la fonction `affiche_n_rec()` en fonction itérative.
 
-## Exercice 2
+## Exercice 3
 
 Soit la fonction itérative suivante :
 
@@ -36,7 +40,7 @@ a) Repérer le cas de base et le cas récursif afin d'écrire le principe de ré
 
 b) Transformer la fonction `affiche_bonjour()` en fonction récursive en vous appuyant sur le principe de récurrence.
 
-## Exercice 3
+## Exercice 4
 
 Soit la fonction récursive suivante :
 
@@ -56,7 +60,7 @@ c) Repérer le cas de base et le cas récursif afin d'écrire le principe de ré
 
 d) Transformer la fonction `taille_rec()` en fonction itérative sans utiliser la fonction `len()`.
 
-## Exercice 4
+## Exercice 5
 
 Soit la fonction itérative suivante :
 
@@ -74,7 +78,7 @@ a) Repérer le cas de base et le cas récursif afin d'écrire le principe de ré
 
 b) Transformer la fonction `nb_occurence()` en fonction récursive en vous appuyant sur le principe de récurrence.
 
-## Exercice 5
+## Exercice 6
 
 a) Écrire une fonction non récursive `puissance(x : int, n : int)->int` qui prend en paramètres deux entiers et renvoie comme résultat $x^n$.
 
@@ -86,7 +90,7 @@ c) Écrire une fonction récursive `puissance_rec(x : int, n : int)->int` qui pr
 
 d) Dessiner la pile d'appels de `>>> puissance_rec(3, 5)`.
 
-## Exercice 6
+## Exercice 7
 
 a) Écrire une fonction non récursive `factorielle(x : int)->int` qui prend en paramètre un entier et renvoie comme résultat $x!$.
 
@@ -98,7 +102,7 @@ c) Écrire une fonction récursive `factorielle_rec(x : int)->int` qui prend en 
 
 d) Dessiner la pile d'appels de la fonction factorielle avec $x = 4$.
 
-## Exercice 7
+## Exercice 8
 
 Écrire une fonction récursive `nb_chiffre_rec(n : int)->int` qui prend en paramètre un entier et renvoie comme résultat le nombre de chiffre présent dans $n$.
 
@@ -107,7 +111,7 @@ d) Dessiner la pile d'appels de la fonction factorielle avec $x = 4$.
 5
 ```
 
-## Exercice 8
+## Exercice 9
 
 Écrire une fonction récursive `somme_chiffre(n : int)->int` qui prend en paramètre un entier et renvoie comme résultat la somme des chiffres qui compose $n$.
 
@@ -116,7 +120,7 @@ d) Dessiner la pile d'appels de la fonction factorielle avec $x = 4$.
 9
 ```
 
-## Exercice 9
+## Exercice 10
 
 Écrire une fonction récursive `max_rec(l : list)->int` qui prend en paramètre une liste d'entiers et renvoie comme résultat l'entier le plus grand de $l$.
 
@@ -125,7 +129,7 @@ d) Dessiner la pile d'appels de la fonction factorielle avec $x = 4$.
 10
 ```
 
-## Exercice 10
+## Exercice 11
 
 Soit la fonction récursive suivante :
 
@@ -144,7 +148,7 @@ a) Repérer le cas de base et le cas récursif afin d'écrire le principe de ré
 
 b) Dessiner la pile d'appels de `>>> appartient([5, 6, 4, 9, 0], 9)`.
 
-## Exercice 11
+## Exercice 12
 
 Écrire une fonction `pairs_rec(n : int)->list` qui prend en paramètre un entier $n$ et renvoie une liste dont les éléments sont les nombres pairs de $0$ à $n$.
 
@@ -153,7 +157,7 @@ b) Dessiner la pile d'appels de `>>> appartient([5, 6, 4, 9, 0], 9)`.
 [0, 2, 4, 6, 8]
 ```
 
-## Exercice 12
+## Exercice 13
 
 a) En utilisant le module `turtle`, écrire une fonction `carre(c : int)->None` qui prend en paramètre un entier et dessine un carré centré de côté $c$.
 
@@ -161,7 +165,7 @@ b) Écrire une fonction récursive `carres_rec(n : int, c : int)->None` qui pren
 
 <img src="./../img/carres_emboites.png" width=300>
 
-## Exercice 13 (Difficile)
+## Exercice 14 (Difficile)
 
 La courbe de Koch est une figure qui s'obtient de manière récursive.
 
