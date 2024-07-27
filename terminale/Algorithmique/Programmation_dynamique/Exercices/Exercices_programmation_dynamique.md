@@ -64,13 +64,7 @@ $nb(S-p1)$, $nb(S-p2)$, ..., $nb(S-pi)$ , ..., $nb(S-pn)$. Avec $pi$ inférieur 
 
 De cet ensemble de valeur, il ne faut garder que la plus petite.
 
-Autrement dit, $nb(S) = 1 + min_{pour tous les i tels que pi < S}(nb(S-pi))$
-
-La récurrence peut s'exprimer de la façon suivante :
-
-    - si 
-
-: - si : 
+Écrire une fonction `rendu_monnaie(systeme_monnaitaire : list, somme_a_rendre : int)->int` qui renvoie un nombre optimal de pièces à rendre qu'importe le sytème monnaitaire utilisé.
 
 __________________
 

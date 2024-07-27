@@ -1,4 +1,4 @@
-# Activité : Panique à la boulangerie
+# Activité : Problème du boulanger
 
 Nature : Débranchée.
 
@@ -52,30 +52,37 @@ b) Dans chacune des situations suivantes, expliquer pourquoi il y a ou pas inter
 1. Situation n°1:
 ```
 Le boulanger prépare une première pâte.
-Le boulanger met la première pâte au four.
+Le boulanger pose la première pâte sur la planche.
+Le boulanger dépose la première pâte au four.
 Le boulanger prépare la seconde pâte.
-Le boulanger retire la première pâte du four.
-Le boulanger met la seconde pâte au four.
-Le boulanger retire la seconde pâte du four.
+Le boulanger retire la première pâte du four à l'aide de la planche.
+Le boulanger pose la seconde pâte sur la planche.
+Le boulanger dépose la seconde pâte au four.
+Le boulanger retire la seconde pâte du four à l'aide de la planche.
 ```
 
 2. Situation n°2:
 ```
 Le boulanger prépare une première pâte.
 Le boulanger prépare une seconde pâte.
-Le boulanger met la première pâte au four.
-Le boulanger met la seconde pâte au four.
-Le boulanger retire la première pâte du four.
-Le boulanger retire la seconde pâte du four.
+Le boulanger pose la première pâte sur la planche.
+Le boulanger dépose la première pâte au four.
+Le boulanger pose la seconde pâte sur la planche.
+Le boulanger dépose la seconde pâte au four.
+Le boulanger retire la première pâte du four à l'aide de la planche.
+Le boulanger retire la seconde pâte du four à l'aide de la planche.
 ```
 
 3. Situation n°3:
 ```
 Le boulanger prépare une première pâte.
 Le boulanger prépare une seconde pâte.
-Le boulanger met la première pâte au four.
-En mettant la seconde pâte au four, le boulanger retire la première pâte du four.
-Le boulanger retire la seconde pâte du four.
+Le boulanger pose la première pâte sur la planche.
+Le boulanger dépose la première pâte au four.
+Le boulanger pose la seconde pâte sur la planche.
+Le boulanger retire la première pâte du four à l'aide de la planche.
+Le boulanger dépose la seconde pâte au four.
+Le boulanger retire la seconde pâte du four à l'aide de la planche.
 ```
 
 c) Dans les situations avec interblocage, modifier l'ordre des instructions pour qu'il n'y ait plus d'interblocage.

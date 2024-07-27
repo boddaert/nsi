@@ -54,7 +54,7 @@ Un problème d'optimisation combinatoire $P$ est un quadruplet $(I, r, f, g)$ o�
 
 - $g$ est une fonction qui maximise ou minimise le critère.
 
-#### <ins>Application 3</ins>
+#### <ins>Application 2</ins>
 
 Formaliser le problème du rendu de monnaie en un problème d'optimisation combinatoire $P$ en précisant à quoi correspond chacun des éléments de $P$.
 
