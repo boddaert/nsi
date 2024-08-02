@@ -33,12 +33,12 @@ True
 Considérons la fonction suivante :
 
 ```python
-def mystere(mot : str, lettre : str)->int :
-  resultat = -1
-  for i in range(len(mot)) :
-    if mot[i] == lettre :
-      resultat = i
-  return resultat
+1. def mystere(mot : str, lettre : str)->int :
+2.   resultat = -1
+3.   for i in range(len(mot)) :
+4.     if mot[i] == lettre :
+5.       resultat = i
+6.   return resultat
 ```
 
 a) Décrire en Français chaque ligne de la fonction.

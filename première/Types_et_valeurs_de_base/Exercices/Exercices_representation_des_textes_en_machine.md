@@ -43,7 +43,7 @@ Par exemple, le mot ``python`` est transformé en ``clguba`` . Cet algorithme ne
 
 ```python
 >>> rot13('python')
-'clguba'
+'}\x86\x81u|{'
 ```
 
 ## Exercice 6

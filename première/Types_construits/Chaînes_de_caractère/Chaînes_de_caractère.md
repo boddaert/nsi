@@ -131,9 +131,9 @@ IndexError: string index out of range
 
 Donner l'instruction permettant d'obtenir :
 
-a) La lettre d'indice $4$.
+1. La lettre d'indice $4$.
 
-b) La dernière lettre en utilisant la taille de la chaîne.
+2. La dernière lettre en utilisant la taille de la chaîne.
 
 #### 3. Test d'appartenance
 
@@ -155,9 +155,9 @@ Nous pouvons vérifier si une chaîne de caractère est contenue dans une chaîn
 
 Vérifier, dans la console Python et à l'aide du mot-clé `in`, si :
 
-a) La chaîne `"cou"` est contenue dans `mot`.
+1. La chaîne `"cou"` est contenue dans `mot`.
 
-b) La chaîne `""` est contenue dans `mot`.
+2. La chaîne `""` est contenue dans `mot`.
 
 #### 4. Concaténation
 
@@ -180,9 +180,9 @@ La concaténation de deux chaînes de caractères en Python s'effectue à l'aide
 
 Concaténer :
 
-a) La chaîne `Bonjour a` avec la chaîne `tous`.
+1. La chaîne `Bonjour a` avec la chaîne `tous`.
 
-b) La chaîne `Numérique` avec la chaîne `Sciences` puis avec la chaîne `Informatiques`.
+2. La chaîne `Numérique` avec la chaîne `Sciences` puis avec la chaîne `Informatiques`.
 
 #### 5. Découpage ou *slicing* (hors programme)
 
@@ -270,8 +270,8 @@ Dans le parcours par indice, nous parcourons les caractères indice par indice.
 > | $1$ | / | / |
 > | $2$ | $0$ | / |
 > | $3$ | $0$ | $c$ |
-> | $2$ | $1$ | $o$ |
-> | $3$ | $1$ | $u$ |
+> | $2$ | $1$ | $c$ |
+> | $3$ | $1$ | $o$ |
 > | ... | ... | ... |
 
 #### <ins>Application 9</ins>
@@ -294,10 +294,10 @@ Dans le parcours par élément, nous parcourons caractère par caractère.
 >| Numéro de ligne | Valeur affectée à $caractere$ | Valeur affectée à $lettre$ |
 >| :---: | :---: | :---: |
 >| $1$ | / | / |
->| $2$ | $w$ | / |
->| $3$ | $w$ | $c$ |
->| $2$ | $o$ | $o$ |
->| $3$ | $o$ | $u$ |
+>| $2$ | $c$ | / |
+>| $3$ | $c$ | $c$ |
+>| $2$ | $o$ | $c$ |
+>| $3$ | $o$ | $o$ |
 >| ... | ... | ... |
 
 
@@ -306,7 +306,7 @@ Dans le parcours par élément, nous parcourons caractère par caractère.
 Compléter la trace d'exécution de l'exemple précédent.
 ___________
 
-[Exercices](./Exercices/Exercices_chaines_de_caractere.md)
+[Exercices](./Exercices/Exercices_chaînes_de_caractère.md)
 
 ___________
 

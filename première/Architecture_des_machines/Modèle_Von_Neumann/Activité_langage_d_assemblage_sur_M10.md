@@ -72,7 +72,7 @@ e) Effacer, refaire la question b) et c).
 
 f) Écrire un programme permettant de soustraire $2$ au nombre choisi, de le multiplier par $4$ et d'ajouter le nombre choisi au départ.
 
-g) Effacer, écrire dans la case de mot mémoire d'adresse $1$ la valeur $1$.
+g) Effacer, écrire dans la case de mot mémoire d'adresse $0$ et d'adresse $1$ la valeur $1$.
 
 h) Écrire un programme permettant d'obtenir $1\times 2\times 3$.
 
@@ -88,9 +88,9 @@ Le mnémonique `jpp x y` suivi de deux adresses mémoires permet de "sauter" à 
 
 ## V. Suite questions
 
-a) Mettre dans la case de mot mémoire d'adresse $9$ la valeur $2$, puis dans celle d'adresse $8$ la valeur $3$.
+i) Mettre dans la case de mot mémoire d'adresse $9$ la valeur $2$, puis dans celle d'adresse $8$ la valeur $3$.
 
-b) Écrire le programme suivant dans la mémoire.
+j) Écrire le programme suivant dans la mémoire.
 
 ```x86
 sub 9 8
@@ -102,9 +102,9 @@ mul 9 9
 store 9
 ```
 
-c) Dérouler pas à pas le programme et indiquer la valeur située dans la case de mot mémoire d'adresse $9$.
+k) Dérouler pas à pas le programme et indiquer la valeur située dans la case de mot mémoire d'adresse $9$.
 
-d) Traduire en langage d'assemblage le programme Python suivant :
+l) Traduire en langage d'assemblage le programme Python suivant :
 
 ```python
 n = 5

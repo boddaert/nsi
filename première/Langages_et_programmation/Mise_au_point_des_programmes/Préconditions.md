@@ -8,7 +8,7 @@ La spécification d'une fonction est complétée par les **préconditions** et l
 > Les *préconditions* sont les conditions sur les paramètres et les conditions d'utilisation de la fonction avant son exécution.
 
 > [!TIP]
-> Par exemple, pour la fonction `max(l : list)->int` définie dans [Spécifications](./Specification.md) dont la spécification est **Renvoie l'entier le plus grand parmi tous les entiers de la liste l**, les préconditions sont :
+> Par exemple, pour la fonction `max(l : list)->int` définie dans [Prototypage](./Prototypage.md) dont la spécification est **Renvoie l'entier le plus grand parmi tous les entiers de la liste l**, les préconditions sont :
 >
 > - Le paramètre `l` est bien de type `list`.
 >
@@ -67,7 +67,7 @@ En cas de non respect des assertions, le programme s'arrête et renvoie une erre
 
 #### <ins>Application 1</ins>
 
-a) Proposer, sur papier, des contraintes de préconditions pour les exercices $10$, $11$, $12$, $13$ et $14$ des listes (cf [Exercices sur les listes](./../../Types_construits/Tableaux/Exercices/Exercices_listes.md)).
+a) Proposer, sur papier, des contraintes de préconditions pour les exercices $11$, $12$, $13$ et $14$ des listes (cf [Exercices sur les listes](./../../Types_construits/Tableaux/Exercices/Exercices_listes.md)).
 
 b) Écrire les assertions correspondantes aux préconditions proposées à la question précédente dans chacune des fonctions.
 

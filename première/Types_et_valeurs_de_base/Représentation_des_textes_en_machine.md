@@ -56,9 +56,9 @@ Plus d'informations sur l'encodage ASCII : [Wikipédia ASCII](https://fr.wikiped
 
 D'après le codage ASCII, trouver la séquence binaire, décimale et hexadécimale correspondant :
 
-a) Au caractère `Y`.
+1. Au caractère `Y`.
 
-b) Au caractère `?`.
+2. Au caractère `?`.
 
 ### b) ASCII en Python
 
@@ -84,9 +84,9 @@ La fonction `chr()` prend en paramètre un entier et renvoie le caractère corre
 
 À l'aide des fonctions `ord()` et `chr()`, trouver :
 
-a) Le caractère correspondant à l'entier décimal $100$ selon l'encodage ASCII.
+1. Le caractère correspondant à l'entier décimal $100$ selon l'encodage ASCII.
 
-b) La représentation décimale correpondant au caractère `' '` selon l'encodage ASCII.
+2. La représentation décimale correpondant au caractère `' '` selon l'encodage ASCII.
 
 ## III. Norme ISO 8859
 
@@ -198,19 +198,19 @@ La méthode `decode()` permet d'obtenir un caractère à partir de son encodage 
 
 Trouver l'encodage UTF-8 des caractères suivants :
 
-a) `'K'`
+1. `'K'`
 
-b) `'Å'`
+2. `'Å'`
 
-c) `'જ'`
+3. `'જ'`
 
 #### <ins>Application 4</ins>
 
 Trouver les caractères des encodages UTF-8 suivants :
 
-a) $C3 B9_{16}$
+1. $C3 B9_{16}$
 
-b) $E0 BE BF_{16}$
+2. $E0 BE BF_{16}$
 
 ______________
 

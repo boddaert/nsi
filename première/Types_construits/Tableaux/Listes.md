@@ -138,9 +138,9 @@ IndexError: list index out of range
 
 Donner l'instruction permettant d'obtenir :
 
-a) L'élément d'indice $2$.
+1. L'élément d'indice $2$.
 
-b) Le dernier élément en utilisant la taille de la liste.
+2. Le dernier élément en utilisant la taille de la liste.
 
 #### 3. Test d'appartenance
 
@@ -162,9 +162,9 @@ Nous pouvons vérifier si un élément est présent dans une liste à l'aide du 
 
 Vérifier, dans la console Python et à l'aide du mot-clé `in`, si :
 
-a) L'élément $2$ est contenu dans `liste_entiers`.
+1. L'élément $2$ est contenu dans `liste_entiers`.
 
-b) L'élément $5$ est contenu dans `liste_entiers`.
+2. L'élément $5$ est contenu dans `liste_entiers`.
 
 #### 4. Concaténation
 
@@ -187,9 +187,9 @@ La concaténation de deux listes en Python s'effectue à l'aide de l'opérateur 
 
 Concaténer :
 
-a) La liste `[2, 8]` avec la chaîne `[1, 7]`.
+1. La liste `[2, 8]` avec la chaîne `[1, 7]`.
 
-b) La liste `[1]` avec la liste `[2]` puis avec la liste `[3]`.
+2. La liste `[1]` avec la liste `[2]` puis avec la liste `[3]`.
 
 #### 5. Découpage ou *slicing* (hors programme)
 
