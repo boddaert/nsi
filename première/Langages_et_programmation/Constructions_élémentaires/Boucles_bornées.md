@@ -88,6 +88,7 @@ Traduire en Français les programmes suivants :
 1. Programme 1
 
 ```python
+a = 0
 for i in range(0,10):
     a = a - 1
 ```
@@ -95,6 +96,7 @@ for i in range(0,10):
 2. Programme 2
 
 ```python
+a = 0
 for ind in range(3,6):
     a = a + 5
 ```
@@ -102,6 +104,7 @@ for ind in range(3,6):
 3. Programme 3
 
 ```python
+a = 0
 for i in range(-5,3):
     a = a + 2
 ```

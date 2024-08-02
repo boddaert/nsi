@@ -54,21 +54,21 @@ j) Trouver les représentations binaires de $1$, $2$, $3$ et $4$ dans l'ordre. Q
 
 #### <ins>Représentation binaire à représentation décimale :</ins>
 
-a) Retourner les cartes pour que la suite corresponde à $1010$.
+k) Retourner les cartes pour que la suite corresponde à $1010$.
 
-b) Inscrire sur la feuille le nombre décimal ainsi obtenu.
+l) Inscrire sur la feuille le nombre décimal ainsi obtenu.
 
-c) En déduire la représentation décimale de $1010$.
+m) En déduire la représentation décimale de $1010$.
 
-d) Répéter le procédé pour $0101$, $1011$, et $1111$.
+n) Répéter le procédé pour $0101$, $1011$, et $1111$.
 
 #### <ins>Addition binaire :</ins>
 
-a) Après avoir combiné votre jeu avec celui de votre voisin, placez les jeux l'un au dessus de l'autre et inscrire sur votre feuille le résultat (en représentation binaire) de l'addition binaire de $0001$ et $0001$.
+o) Après avoir combiné votre jeu avec celui de votre voisin, placez les jeux l'un au dessus de l'autre et inscrire sur votre feuille le résultat (en représentation binaire) de l'addition binaire de $0001$ et $0001$.
 
-b) Vérifier que votre résultat est bien la représentation binaire de $2$.
+p) Vérifier que votre résultat est bien la représentation binaire de $2$.
 
-b) Répéter ce procédé pour :
+q) Répéter ce procédé pour :
 
 - $1000 + 0111$
 - $5 + 3$
@@ -77,9 +77,9 @@ b) Répéter ce procédé pour :
 
 #### <ins>Multiplication binaire par deux :</ins>
 
-a) Trouver la représentation binaire de $3$, puis $6$, puis $12$. Quelle est la méthode pour doubler un nombre en représentation binaire ?
+r) Trouver la représentation binaire de $3$, puis $6$, puis $12$. Quelle est la méthode pour doubler un nombre en représentation binaire ?
 
-b) Réciproquement, donner la méthode permettant de diviser par deux un nombre en représentation binaire.
+s) Réciproquement, donner la méthode permettant de diviser par deux un nombre en représentation binaire.
 
 _______________________
 

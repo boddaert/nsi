@@ -133,7 +133,7 @@ Ce tableau des décalages permet de savoir de nombre de rang que $i$ effectuera 
 
 La table des décalages indique pour chaque lettre du motif le nombre de décalage à droite à réaliser.
 
-- Si la lettre `t[i]` n'apparaît pas dans le motif, le décalage est égal à la longueur du motif : $M-1$.
+- Si la lettre `t[i]` n'apparaît pas dans le motif, le décalage est égal à : $M$.
 
 - Si la lettre `t[i]` apparaît dans le motif, le décalage est égal à la distance entre cette lettre et la dernière lettre du motif.
 

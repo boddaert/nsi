@@ -41,7 +41,7 @@ False
 True
 ```
 
-## Exercice 5 (Difficile)
+## Exercice 6 (Difficile)
 
 Rappel : L'énergie cinétique d'un objet de masse $m$ et de vitesse $v$ est : $`Ec=\frac{1}{2}mv^2`$.
 

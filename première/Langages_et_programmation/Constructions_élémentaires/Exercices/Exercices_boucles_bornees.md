@@ -41,7 +41,7 @@ b) Vérifier vos résultats en exécutant les programmes dans Thonny.
 21
 ```
 
-## Exercice 2
+## Exercice 3
 
 Écrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 

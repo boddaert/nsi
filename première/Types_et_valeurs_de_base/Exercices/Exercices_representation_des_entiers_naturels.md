@@ -45,7 +45,7 @@ La fonction `bin(n : int)->str` prend en paramètre un entier en base dix et ren
 
 `'Ob'` indiquant qu'il s'agit bien d'une représentation binaire.
 
-a) À l'aide de la fonction `bin()`, vérifier vos résultats à l'exercice $1$.
+À l'aide de la fonction `bin()`, vérifier vos résultats à l'exercice $1$.
 
 ## Exercice 6 (Difficile)
 
@@ -67,7 +67,7 @@ La fonction `int(seq : str, base : int)->int` prend en paramètre une séquence 
 10
 ```
 
-a) À l'aide des fonctions `bin()`, `hex()` et `int()`, vérifier vos résultats aux exercices $2$, $3$ et $4$.
+À l'aide des fonctions `bin()`, `hex()` et `int()`, vérifier vos résultats aux exercices $2$, $3$ et $4$.
 
 ______________
 

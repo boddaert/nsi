@@ -15,9 +15,9 @@
 
 #### <ins>Application 1</ins>
 
-1. Trouver la représentation décimale de $10101_2$.
+a) Trouver la représentation décimale de $10101_2$.
 
-2. Trouver la représentation binaire de $-13_{10}$.
+b) Trouver la représentation binaire de $-13_{10}$.
 
 ### b) Problèmes
 
