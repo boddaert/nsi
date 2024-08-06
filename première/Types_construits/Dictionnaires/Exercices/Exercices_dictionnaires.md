@@ -10,7 +10,7 @@ b) Écrire l'instruction permettant d'ajouter au box office le film Doctor Stran
 
 c) Écrire l'instruction permettant d'ajouter deux cent cinquante-six entrées au film Avatar 2.
 
-d) De deux façons différentes, écrire une fonction `affiche_box_office(box_office : dict)` permettant d'afficher proprement ligne par ligne les noms des films et leur nombre d'entrées :
+d) De deux façons différentes, écrire une fonction `affiche_box_office(box_office : dict)->None` permettant d'afficher proprement ligne par ligne les noms des films et leur nombre d'entrées :
 
 ```python
 >>> affiche_box_office(box_office)
@@ -21,9 +21,9 @@ d) De deux façons différentes, écrire une fonction `affiche_box_office(box_of
 'Le film doctor strange comptabilise 3270342 entrées'
 ```
 
-e) Écrire une fonction ``nombre_entree_total(box_office : dict)->int`` qui prend en paramètre le dictionnaire du box office et renvoie la somme de toutes les entrées :
+e) Écrire une fonction ``nombre_entree_total(box_office : dict)->int`` qui prend en paramètre le dictionnaire du box office et renvoie la somme de toutes les entrées.
 
-f) Écrire une fonction ``film_le_moins_vu(box_office : dict)->str`` qui prend en paramètre un dictionnaire et renvoie le nom du film ayant eu le moins d'entrées :
+f) Écrire une fonction ``film_le_moins_vu(box_office : dict)->str`` qui prend en paramètre un dictionnaire et renvoie le nom du film ayant eu le moins d'entrées.
 
 ## Exercice 2
 

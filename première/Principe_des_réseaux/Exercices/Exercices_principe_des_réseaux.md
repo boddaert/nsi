@@ -53,7 +53,7 @@ f) A quoi correspond le temps affiché à côté de chaque accusé de réception
 
 ## Exercice 3
 
-<img src="./../img/exo3.PNG" width=500>
+<img src="./../img/exo3.PNG" width=700>
 
 a) En mode construction, reproduire le réseau de la figure ci-dessus dans un fichier nommé `reseau_ex3.fls`.
 
