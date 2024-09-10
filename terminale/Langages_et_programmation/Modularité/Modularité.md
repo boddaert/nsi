@@ -6,7 +6,7 @@
 > La *modularité* est le fait d'utiliser des modules existants ou de créer des modules. L'objectif étant de décomposer son code en plusieurs fonctions/fichiers Python afin qu'il soit plus lisible.
 
 > [!IMPORTANT]
-> Un *module* (ou *bibliothèque*) est un fichier Python que nous pouvons importer dans notre propre fichier pour pouvoir utiliser son code. (cf [Modules](./../../../première/Langages_et_programmation/Constructions_élémentaires/Modules.md)).
+> Un *module* (ou *bibliothèque*) est un fichier Python que nous pouvons importer dans notre propre fichier pour pouvoir utiliser son code. (cf [Modules](./../../../première/Langages_et_programmation/Mise_au_point_des_programmes/Prototypage.md).
 
 ## II. Bonnes pratiques
 

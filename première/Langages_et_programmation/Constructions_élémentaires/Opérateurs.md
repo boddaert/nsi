@@ -91,7 +91,7 @@ b) Vérifier vos réponses en utilisant la console Python.
 | --- | --- |
 |   $NON$ |   `not` |
 |   $ET$ |   `and` |
-|   $OR$ |   `or` |
+|   $OU$ |   `or` |
 
 Les opérateurs booléens ont comme opérandes des booléens et renvoient comme résultat un booléen.
 
