@@ -6,7 +6,7 @@
 > La *modularité* est le fait d'utiliser des modules existants ou de créer des modules. L'objectif étant de décomposer son code en plusieurs fonctions/fichiers Python afin qu'il soit plus lisible.
 
 > [!IMPORTANT]
-> Un *module* (ou *bibliothèque*) est un fichier Python que nous pouvons importer dans notre propre fichier pour pouvoir utiliser son code. (cf [Modules](./../../../première/Langages_et_programmation/Mise_au_point_des_programmes/Prototypage.md).
+> Un *module* (ou *bibliothèque*) est un fichier Python que nous pouvons importer dans notre propre fichier pour pouvoir utiliser son code. (cf [Modules](./../../../première/Langages_et_programmation/Constructions_élémentaires/Modules.md)).
 
 ## II. Bonnes pratiques
 
@@ -29,7 +29,7 @@ Nous souhaitons écrire un programme qui calcule la somme, la moyenne et l'écar
 
 Ce programme prend en paramètre un dictionnaire dans lequel les clés sont des noms d'éléves et leur valeur associées sont une liste de note.
 
-a) Écrire sur papier le nom des fonctions et leur spécification (cf [Spécification de fonction](./../../../première/Langages_et_programmation/Spécifications_de_fonction/Prototypage.md)) qui permettrait de réaliser un tel programme et de telle façon à ce qu'il soit modulaire.
+a) Écrire sur papier le nom des fonctions et leur spécification (cf [Spécification de fonction](./../../../première/Langages_et_programmation/Mise_au_point_des_programmes/Prototypage.md)) qui permettrait de réaliser un tel programme et de telle façon à ce qu'il soit modulaire.
 
 b) Écrire en Python le code de ces fonctions.
 
