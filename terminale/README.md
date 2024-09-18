@@ -11,6 +11,12 @@
 
 - Projet n°1 : [Dessine ton Mii](./Projets/Projet_dessine_ton_mii.md)
 
+##### Chapitre 2 : Langages et programmation 2/5
+
+- Leçon 1 : [Récursivité](./Langages_et_programmation/Récursivité/Récursivité.md)
+
+- Activité : [Couples de lapins](./Langages_et_programmation/Récursivité/Activité_couples_de_lapins.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
