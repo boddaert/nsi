@@ -20,7 +20,11 @@ Le quiz propose au joueur de donner le résultat de dix multiplications, affiche
 
 ## IV. Aller plus loin
 
-Proposer au joueur de recommencer à jouer.
+1. Proposer au joueur de recommencer à jouer.
+
+2. Proposer au joueur plusieurs niveaux de difficulté.
+
+3. Réaliser une interface graphique.
 
 ________
 

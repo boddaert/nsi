@@ -139,9 +139,9 @@ def appartient(l : list, n : int)->bool:
         return False
     else :
         if l[0] == n :
-            return True and appartient(l[1:], n)
+            return True or appartient(l[1:], n)
         else :
-            return False and appartient(l[1:], n)
+            return False or appartient(l[1:], n)
 ```
 
 a) Repérer le cas de base et le cas récursif afin d'écrire le principe de récurrence de la fonction `appartient()`.
