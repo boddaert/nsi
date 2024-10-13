@@ -73,7 +73,7 @@
 >
 > Le schéma relationnel de la relation $Livre$ est :
 >
-> Livre(*titre* : `VARCHAR`, *auteur* : `VARCHAR`, *annee* : `INT`, *editeur* : `VARCHAR`).
+> $Livre$(*titre* : `VARCHAR`, *auteur* : `VARCHAR`, *annee* : `INT`, *editeur* : `VARCHAR`).
 
 #### <ins>Application 1</ins>
 
@@ -120,7 +120,7 @@ Les clés primaires sont soulignées dans le modèle relationnel.
 > [!TIP]
 > Par exemple :
 >
-> Livre(*<ins>id_livre</ins>* : `INT`, *titre* : `VARCHAR`, *auteur* : `VARCHAR`, *annee* : `INT`, *editeur* : `VARCHAR`).
+> $Livre$(*<ins>id_livre</ins>* : `INT`, *titre* : `VARCHAR`, *auteur* : `VARCHAR`, *annee* : `INT`, *editeur* : `VARCHAR`).
 
 #### <ins>Application 3</ins>
 
@@ -156,7 +156,7 @@ Les clés étrangères sont précédées d'un dièse.
 > Par exemple :
 > Le schéma relationnel de la relation $Emprunt$ est :
 >
-> $Emprunt(\\#id\textunderscore livre : INT, \\#id\textunderscore usager : INT, date : DATE)$
+> $Emprunt$(*#id_livre* : `INT`, *#id_usager* : `INT`, *date* : `DATE`).
 
 #### <ins>Application 5</ins>
 
