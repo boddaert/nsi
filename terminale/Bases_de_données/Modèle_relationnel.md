@@ -119,7 +119,7 @@ Les clés primaires sont soulignées dans le modèle relationnel.
 
 > [!TIP]
 > Par exemple :
-> $Livre(\underline{idlivre} : INT, titre : VARCHAR, auteur : VARCHAR, annee : INT, editeur : VARCHAR)$.
+> $Livre(\underline{gggidlivre} : INT, titre : VARCHAR, auteur : VARCHAR, annee : INT, editeur : VARCHAR)$.
 
 #### <ins>Application 3</ins>
 
