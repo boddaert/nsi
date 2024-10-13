@@ -63,17 +63,17 @@
 >
 > Les attributs de la relation $Livre$ sont :
 >
-> - ($titre$, `VARCHAR`)
+> - (*titre*, `VARCHAR`)
 >
-> - ($auteur$, `VARCHAR`)
+> - (*auteur*, `VARCHAR`)
 > 
-> - ($annee$, `INT`)
+> - (*annee*, `INT`)
 >
-> - ($editeur$, `VARCHAR`)
+> - (*editeur*, `VARCHAR`)
 >
 > Le schéma relationnel de la relation $Livre$ est :
 >
-> $Livre(titre : VARCHAR, auteur : VARCHAR, annee : INT, editeur : VARCHAR)$.
+> Livre(*titre* : `VARCHAR`, *auteur* : `VARCHAR`, *annee* : `INT`, *editeur* : `VARCHAR`).
 
 #### <ins>Application 1</ins>
 
@@ -120,7 +120,7 @@ Les clés primaires sont soulignées dans le modèle relationnel.
 > [!TIP]
 > Par exemple :
 >
-> Livre(*<ins>id_livre</ins>* : INT, *titre* : VARCHAR, *auteur* : VARCHAR, *annee* : INT, *editeur* : VARCHAR).
+> Livre(*<ins>id_livre</ins>* : `INT`, *titre* : `VARCHAR`, *auteur* : `VARCHAR`, *annee* : `INT`, *editeur* : `VARCHAR`).
 
 #### <ins>Application 3</ins>
 
