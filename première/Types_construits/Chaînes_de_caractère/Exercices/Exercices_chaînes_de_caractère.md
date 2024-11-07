@@ -7,17 +7,19 @@ Considérons la chaîne de carcatère ``prenom = 'timoleon'``.
 
 a) Écrire l'instruction permettant d'obtenir la taille de `prenom`.
 
-b) Écrire l'instruction permettant d'obtenir le premier et le dernier caractère de `prenom`.
+b) Écrire l'instruction permettant d'obtenir le premier caractère de `prenom`.
 
-c) Écrire le programme permettant d'affecter dans une variable `lettre` tous les caractères de `prenom`en réalisant un parcours par indice.
+c) Écrire l'instruction permettant d'obtenir le dernier caractère de `prenom`.
 
-d) Écrire le programme permettant d'affecter dans une variable `lettre` tous les caractères de `prenom`en réalisant un parcours par élément.
+d) Écrire le programme permettant d'afficher tous les caractères de `prenom` un à un en réalisant un parcours par indice.
+
+e) Écrire le programme permettant d'afficher tous les caractères de `prenom` un à un en réalisant un parcours par élément.
 
 ## Exercice 2
 
 Écrire la fonction `contient(mot : str, lettre : str)-> bool` qui prend en paramètres une chaîne de caractère et un caractère et renvoie $True$ si `lettre` est présent dans `mot`.
 
-Cette fonction ne devra pas utiliser l'instruction `in`.
+Cette fonction ne devra pas utiliser l'instruction `in` (sauf éventuellement pour `in range()`).
 
 Écrire deux versions de cette fonction, la première en utilisant la boucle `for` et la seconde en utilisant la boucle `while`.
 
@@ -44,8 +46,6 @@ Considérons la fonction suivante :
 a) Décrire en Français chaque ligne de la fonction.
 
 b) En déduire l'objectif de la fonction.
-
-c) Écrire la trace d'exécution lorsque nous appelons la fonction avec `coucou` et `o` comme arguments.
 
 ## Exercice 4
 
