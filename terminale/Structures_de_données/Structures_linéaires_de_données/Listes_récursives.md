@@ -121,7 +121,7 @@ class ListeR:
             self.__tete = None
             self.__reste = None
         elif len(args) == 2 :
-            if isinstance(args[1], Liste):
+            if isinstance(args[1], ListeR):
                 self.__tete = args[0]
                 self.__reste = args[1]
 
