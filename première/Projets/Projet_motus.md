@@ -36,13 +36,15 @@ Le programme Python doit respecter les contraintes suivantes :
 
 Ajouter au début de votre chaîne de caractère :
 
-- `\033[91m` pour colorier en rouge.
+- `\033[1;31m` pour colorier en rouge.
 
-- `\033[92m` pour colorier en vert.
+- `\033[1;32m` pour colorier en vert.
 
-- `\033[93m` pour colorier en jaune.
+- `\033[1;33m` pour colorier en jaune.
 
-## V. Module générateur de mots aléatoires
+## V. Générateur de mots aléatoires
+
+### 1. Module `Faker`
 
 Le module générateur `Faker` permet de générer un mot français aléatoire.
 
@@ -57,7 +59,9 @@ Le module générateur `Faker` permet de générer un mot français aléatoire.
 
 Sa documentation est disponible [ici](https://faker.readthedocs.io/en/master/).
 
-Si vous n'avez pas les droits pour installer le module, créer une liste de mots en Python et choisir un mot aléatoire parmi cette liste via le module `random` :
+### 2. Via le module `random`
+
+Si vous n'avez pas les droits pour installer le module, créer une liste de mots en Python et choisir un mot aléatoire parmi cette liste via la fonction `choice` du module `random` :
 
 ```python
 from random import *
