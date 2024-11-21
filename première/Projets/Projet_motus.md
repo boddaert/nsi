@@ -70,6 +70,15 @@ from random import *
 liste_mots = ['mot1', 'mot2', 'mot3']
 motus = choice(liste_mots)
 ```
+
+## VI. Aller plus loin
+
+1. Proposer au joueur de recommencer à jouer.
+
+2. Calculer un score en fonction du temps que met le joueur à trouver le mot.
+
+3. Proposer au joueur plusieurs niveaux de longueur de mot.
+
 ________
 
 [Sommaire](./../README.md)
