@@ -8,11 +8,11 @@ Reprenant les règles du jeu "Motus", le joueur a six essais pour tenter de retr
 
 À chaque fois que le joueur propose un mot, des indices lui sont donnés :
 
-- Les lettres sont coloriées en vert si elles sont à la bonne place.
+- Les lettres sont coloriées sur fond rouge si elles sont à la bonne place.
 
-- Les lettres sont coloriées en jaune si elles sont dans le mot mais à la mauvaise place.
+- Les lettres sont coloriées sur fond jaune si elles sont dans le mot mais à la mauvaise place.
 
-- Les lettres sont coloriées en rouge si elles ne sont pas dans le mot à trouver.
+- Les lettres sont coloriées sur fond bleu si elles ne sont pas dans le mot à trouver.
 
 ## II. Cahier des charges
 
@@ -32,19 +32,21 @@ Le programme Python doit respecter les contraintes suivantes :
 
 ![gif](./img/exemple_motus.gif)
 
-## IV. Changer la couleur d'une chaîne de caractères
+## IV. Changer la couleur de fond d'une chaîne de caractères
 
-Ajouter au début de votre chaîne de caractère :
+Ajouter, dans la fonction `print()`, au début de votre chaîne de caractère :
 
-- `\033[1;31m` pour colorier en rouge.
+- `\033[1;37;41m` pour colorier en blanc sur fond rouge le texte qui suit.
 
-- `\033[1;32m` pour colorier en vert.
+- `\033[1;37;44m` pour colorier en blanc sur fond bleu le texte qui suit.
 
-- `\033[1;33m` pour colorier en jaune.
+- `\033[1;37;43m` pour colorier en blanc sur fond jaune le texte qui suit.
+
+- `\033[0m` pour revenir aux couleurs par défaut.
 
 ## V. Générateur de mots aléatoires
 
-### 1. Module `Faker`
+### 1. Via le module `Faker`
 
 Le module générateur `Faker` permet de générer un mot français aléatoire.
 
