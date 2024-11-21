@@ -1,5 +1,7 @@
 # Projet : Test de rapidité
 
+<img src="./img/test_de_rapidité.gif" width=300>
+
 ## I. Description
 
 Le quiz propose au joueur de donner le résultat de dix multiplications, affiche le nombre de bonnes réponses ainsi que le temps que le joueur a pris pour répondre.
