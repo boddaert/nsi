@@ -61,9 +61,9 @@ Sans utiliser les méthodes `upper()` et `lower()`, écrire une fonction ``chang
 
 ## Exercice 7
 
-a) Sur Notepad++, écrire dans un fichier texte encodé en ASCII le caractère `é`.
+a) Sur Notepad++, écrire dans un fichier texte encodé en UTF-8 le caractère `é`.
 
-b) Convertir le fichier en encodage UTF-8.
+b) Convertir le fichier en encodage ANSI (ASCII).
 
 c) Expliquer pourquoi le caractère `é` s'est tranformé en `xE9`.
 
