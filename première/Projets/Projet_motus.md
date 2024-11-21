@@ -1,6 +1,6 @@
 # Projet : Motus
 
-![gif](./img/motus.gif)
+<img src="./img/motus.gif" width=600>
 
 ## I. Description
 
