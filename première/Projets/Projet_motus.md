@@ -1,6 +1,6 @@
 # Projet : Motus
 
-<img src="./img/motus.gif" width=600>
+<img src="./img/motus.gif" width=500>
 
 ## I. Description
 
