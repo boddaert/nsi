@@ -37,7 +37,9 @@ d) Trouver le caractère correspondant à la représentation hexadécimale $7A_{
 
 L'algorithme **rot13** est un algorithme de chiffrement qui consiste à décaler de treize caractères chaque lettres d'un texte.
 
-Par exemple, le mot ``python`` est transformé en ``clguba`` . Cet algorithme ne décale pas les caractères "non imprimables" donc ne code pas les espaces.
+Par exemple, le mot ``python`` est transformé en ``}\x86\x81u|{`` en utilisant la table ASCII.
+
+Cet algorithme ne décale pas les caractères "non imprimables" donc ne code pas les espaces.
 
 Écrire une fonction ``rot13(mot : str)->str`` qui prend en paramètre une chaîne de caractère et renvoie sous forme de chaîne de caractère le mot chiffré selon l'algorithme de rot13 :
 

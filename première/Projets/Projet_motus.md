@@ -1,5 +1,7 @@
 # Projet : Motus
 
+![gif](./img/motus.gif)
+
 ## I. Description
 
 Reprenant les règles du jeu "Motus", le joueur a six essais pour tenter de retrouver le mot Motus.
