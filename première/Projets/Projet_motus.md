@@ -61,7 +61,7 @@ Sa documentation est disponible [ici](https://faker.readthedocs.io/en/master/).
 
 ### 2. Via le module `random`
 
-Si vous n'avez pas les droits pour installer le module, créer une liste de mots en Python et choisir un mot aléatoire parmi cette liste via la fonction `choice` du module `random` :
+Si vous n'avez pas les droits pour installer le module `Faker`, créer simplement une liste de mots en Python et choisir un mot aléatoire parmi cette liste via la fonction `choice` du module `random` :
 
 ```python
 from random import *
