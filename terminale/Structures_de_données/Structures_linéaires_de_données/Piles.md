@@ -65,6 +65,9 @@ Avec :
 
 - `depile()` permettant de dépiler le sommet de la pile et renvoie l'élément dépilé.
 
+>[!WARNING]
+> Nous considèrerons que le sommet de la pile est le premier élément de la liste récursive.
+
 #### <ins>Application 1</ins>
 
 Compléter les méthodes `est_vide()`, `empile()` et `depile()` de la classe `Pile`.
