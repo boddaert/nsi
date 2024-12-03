@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-Écrire une fonction `enfiler_n(n : int)->File` qui prend en paramètre un entier et renvoie un objet `File` contenant les entiers de $1$ à $n$.
+Écrire une fonction itérative `enfiler_n(n : int)->File` qui prend en paramètre un entier et renvoie un objet `File` contenant les entiers de $1$ à $n$.
 
 ```python
 >>> enfiler_n(5).defile()
@@ -11,7 +11,7 @@
 
 ## Exercice 2
 
-Écrire une fonction `est_present(f : File, elt : int)->bool` qui prend en paramètres un objet `File` et un entier et renvoie $True$ si `elt` est présent dans `f`, $False$ sinon.
+Écrire une fonction itérative `est_present(f : File, elt : int)->bool` qui prend en paramètres un objet `File` et un entier et renvoie $True$ si `elt` est présent dans `f`, $False$ sinon.
 
 Cette fonction ne doit pas modifier la file passée en argument.
 
@@ -24,11 +24,11 @@ True
 
 ## Exercice 3
 
-Écrire une fonction `sont_egales(f1 : File, f2 : File)->bool` qui prend en paramètres deux objets `File` et renvoie comme résultat $True$ si les deux files sont égales, $False$ sinon.
+Écrire une fonction itérative `sont_egales(f1 : File, f2 : File)->bool` qui prend en paramètres deux objets `File` et renvoie comme résultat $True$ si les deux files sont égales, $False$ sinon.
 
 ## Exercice 4
 
-Écrire une fonction `max(f : File)->int` qui prend en paramètre un objet `File` et renvoie comme résultat l'élément le plus grand de `f`.
+Écrire une fonction itérative `max(f : File)->int` qui prend en paramètre un objet `File` et renvoie comme résultat l'élément le plus grand de `f`.
 
 Cette fonction ne doit pas modifier la file passée en argument.
 
