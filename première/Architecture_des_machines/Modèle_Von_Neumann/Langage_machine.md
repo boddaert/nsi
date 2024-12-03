@@ -24,9 +24,9 @@ En réalité, il existe un troisième langage appelé *langage d'assemblage* qui
 
 ```mermaid
 flowchart TB
-    a["Programme dans un langage de haut niveau (Python) -> `sum(a,b)`"]
-    b["Programme dans un langage d'assemblage -> `add e1, e2`"]
-    c["Programme dans le langage machine -> `0011 00011010 11100100`"]
+    a["Programme dans un langage de haut niveau (Python) -> sum(a,b)"]
+    b["Programme dans un langage d'assemblage -> add e1, e2"]
+    c["Programme dans le langage machine -> 0011 00011010 11100100"]
     a-- Compilateur -->b-- Assembleur -->c
 ```
 
