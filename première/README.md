@@ -55,6 +55,12 @@
 
 - Activité : [Langage d'assemblage sur M10](./Architecture_des_machines/Modèle_Von_Neumann/Activité_langage_d_assemblage_sur_M10.md)
 
+##### Chapitre 5 : Types construits 2/3
+
+- Leçon 1 : [Listes](./Types_construits/Tableaux/Listes.md)
+
+- Leçon 2 : [Tuples](./Types_construits/P-uplets/Tuples.md)
+
 
 ______________________
 
