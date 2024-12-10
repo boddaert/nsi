@@ -41,13 +41,11 @@
 
 - Activité : [Le problème du crêpier psychorigide](./Structures_de_données/Structures_linéaires_de_données/Activité_problème_du_crêpier_psychorigide.md)
 
-##### Chapitre 6 : Structures de données 3/4
+##### Chapitre 6 : Principe des réseaux 1/2
 
-- Leçon 1 : [Arbres binaires](./Structures_de_données/Structures_arborescentes_de_données/Arbres_binaires.md)
+- Leçon 1 : [Sécurisation des communications](./Principe_des_réseaux/Sécurisation_des_communications/Sécurisation_des_communications.md)
 
-- Activité : [Codage de Huffman](./Structures_de_données/Structures_arborescentes_de_données/Activité_codage_de_huffman.md)
-
-- Leçon 2 : [Arbres binaires de recherche](./Structures_de_données/Structures_arborescentes_de_données/Arbres_binaires_de_recherche.md)
+- Activité : [Cryptanalyser Vigenère](./Principe_des_réseaux/Sécurisation_des_communications/Activité_cryptanalyser_vigenere.md)
 
 ______________________
 
