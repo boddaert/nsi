@@ -70,24 +70,24 @@ Un arbre binaire est souvent représenté sous la forme d'un dessin.
 >     subgraph Arbre binaire
 >             direction TB
 >             A((3))
->         subgraph Sous-arbre gauche
->             direction TB
->             B((5))
->             D((" "))
->             E((" "))
->             B --> D
->             B --> E
->         end
->         subgraph Sous-arbre droit
->             direction TB
->             C((8))
->             F((" "))
->             G((" "))
->             C --> F
->             C --> G
->         end
->         A --> C
->         A --> B
+>                subgraph Sous-arbre gauche
+>                   direction TB
+>                   B((5))
+>                   D((" "))
+>                   E((" "))
+>                   B --> D
+>                   B --> E
+>                end
+>                subgraph Sous-arbre droit
+>                   direction TB
+>                   C((8))
+>                   F((" "))
+>                   G((" "))
+>                   C --> F
+>                   C --> G
+>                end
+>                A --> C
+>                A --> B
 >     end
 > ```
 >
