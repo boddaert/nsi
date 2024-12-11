@@ -86,8 +86,8 @@ Un arbre binaire est souvent représenté sous la forme d'un dessin.
 >             C --> F
 >             C --> G
 >         end
->         A --> B
 >         A --> C
+>         A --> B
 >     end
 > ```
 >

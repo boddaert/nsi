@@ -162,9 +162,9 @@ Nous pouvons vérifier si un élément est présent dans une liste à l'aide du 
 
 Vérifier, dans la console Python et à l'aide du mot-clé `in`, si :
 
-1. L'élément $2$ est contenu dans `liste_entiers`.
+1. L'élément $2$ est contenu dans `entiers`.
 
-2. L'élément $5$ est contenu dans `liste_entiers`.
+2. L'élément $5$ est contenu dans `entiers`.
 
 #### 4. Concaténation
 
@@ -244,7 +244,7 @@ Modifier un élément dans une liste s'effectue en réaffectant une valeur à un
 
 #### <ins>Application 8</ins>
 
-Modifier dans la liste `entiers `la valeur d'indice $1$ en $-999$.
+Modifier dans la liste `entiers` la valeur d'indice $1$ en $-999$.
 
 #### 2. Ajout d'élément
 
