@@ -56,7 +56,7 @@ b) En déduire sur ce que réalise la fonction `mystere()`.
 
 Écrire une fonction récursive `est_peigne_droit(ab : AB)->bool` qui prend en paramètre un arbre binaire et renvoie $True$ si l'arbre binaire est un peigne droit, $False$ sinon.
 
-## Exercice 11 (Difficile)
+## Exercice 11
 
 Écrire une fonction récursive `ab_complet(h : int)->AB` qui prend en paramètre un entier et renvoie un arbre binaire complet de hauteur $h$ dont les éléments sont des entiers aléatoires.
 

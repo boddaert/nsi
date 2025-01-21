@@ -88,7 +88,7 @@ Par groupe de deux, répondre aux questions suivantes :
 
 ### Partie A : Sur papier
 
-a) En suivant l'algorithme de construction de l'arbre de Huffman, construire l'arbre de Huffman à partir du texte suivant : `la cigale ayant chanté tout l'été`.
+a) En suivant l'algorithme de construction de l'arbre de Huffman, construire l'arbre de Huffman à partir du texte suivant : `la cigale`.
 
 b) Construire la table de codage des caractères de ce texte à partir de l'arbre.
 
