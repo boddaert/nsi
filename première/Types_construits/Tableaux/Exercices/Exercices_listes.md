@@ -125,6 +125,12 @@ Les deux premiers termes de la suite de fibonacci sont $0$ et $1$ puis, tous les
 
 ## Exercice 20 (Difficile)
 
+Écrire une fonction `deux_minimum(l : list)->list` qui prend en paramètre une liste d'entiers et renvoie une liste contenant les deux éléments les plus petits de `l`.
+
+Cette fonction ne doit pas modifier la liste `l`.
+
+## Exercice 21 (Difficile)
+
 Écrire une fonction `tri_denombrement(l : list)->list` qui prend en paramètre une liste et renvoie une liste triée en utilisant le dénombrement.
 
 Le tri par dénombrement consiste à :

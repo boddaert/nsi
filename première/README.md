@@ -61,6 +61,20 @@
 
 - Leçon 2 : [Tuples](./Types_construits/P-uplets/Tuples.md)
 
+##### Chapitre 6 : Architecture des machines 2/3
+
+- Leçon 3 : [Circuits combinatoires](./Architecture_des_machines/Circuits_combinatoires/Circuits_combinatoires.md)
+
+- Activité : [Afficheur Sept Segments](./Architecture_des_machines/Circuits_combinatoires/Activité_afficheur_sept_segments.md)
+
+##### Chapitre 7 : Langages et programmation 2/2
+
+- Leçon 1 : [Prototypage](./Langages_et_programmation/Mise_au_point_des_programmes/Prototypage.md)
+
+- Leçon 2 : [Préconditions](./Langages_et_programmation/Mise_au_point_des_programmes/Préconditions.md)
+
+- Leçon 3 : [Postconditions](./Langages_et_programmation/Mise_au_point_des_programmes/Postconditions.md)
+
 
 ______________________
 
