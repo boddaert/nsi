@@ -168,7 +168,7 @@ Un célèbre chiffrement polyalphabétique est le Carré de Vigenère, il utilis
 
 a) Sur feuille et en utilisant le système du Carré de Vigenère, chiffrer le message `SAUTEZ LE PONT` avec une clé de chiffrement de $5, 1, 3, 2$.
 
-b) Sur feuille et en utilisant le système du Carré de Vigenère, déchiffrer le message `QTHOGC B THWGUT` avec une clé de chiffrement de $2, 3, 4$.
+b) Sur feuille et en utilisant le système du Carré de Vigenère, déchiffrer le message `QTHOGC B THWGUT` avec une clé de chiffrement de $25, 24, 23$.
 
 ### c) Problème : échange de clé
 

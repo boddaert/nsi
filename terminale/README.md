@@ -55,6 +55,12 @@
 
 - Activité : [Cryptanalyser Vigenère](./Principe_des_réseaux/Sécurisation_des_communications/Activité_cryptanalyser_vigenere.md)
 
+##### Chapitre 8 : Langages et programmation 3/5
+
+- Leçon 1 : [Rappels : Mise au point des programmes](./Langages_et_programmation/Mise_au_point_des_programmes/Rappels_mise_au_point_des_programmes.md)
+
+- Projet n°3 : [Jeu de la vie](./Projets/Projet_jeu_de_la_vie.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
