@@ -1,5 +1,7 @@
 # Projet : Jeu de la vie
 
+<img src="./img/jeu_de_la_vie.gif" width=600>
+
 ## I. Description
 
 L'objectif de ce projet est de programmer le jeu de la vie en Python.
