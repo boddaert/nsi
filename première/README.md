@@ -79,6 +79,14 @@
 
 - Leçon 1 : [Principe des réseaux](./Principe_des_réseaux/Principe_des_réseaux.md)
 
+##### Chapitre 9 : Types construits 3/3
+
+- Leçon 3 : [Dictionnaires](./Types_construits/Dictionnaires/Dictionnaires.md)
+
+- Leçon 4 : [Listes de listes](./Types_construits/Tableaux/Listes_de_listes.md)
+
+- Projet n°3 : [Ice Walker](./Projets/Projet_ice_walker.md)
+
 
 ______________________
 
