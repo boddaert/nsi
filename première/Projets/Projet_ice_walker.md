@@ -1,5 +1,7 @@
 # Projet : Ice Walker
 
+![image](./img/pokemon_ice_walker.gif)
+
 ## I. Description
 
 Le jeu du Ice Walker est un jeu à énigme sur une grille à deux dimensions vu du dessus.
@@ -12,9 +14,8 @@ Le personnage ne peut évidemment pas traverser les murs.
 
 Et le personnage, une fois lancé sur la glace, ne peut s'arrêter. A moins, bien sûr, d'arriver jusqu'à un mur.
 
-Ce type de jeu a été repris plusieurs fois par la licence Pokémon. Voici ci-dessous un exemple de jeu Ice Walker avec sa résolution :
+Ce type de jeu a été repris plusieurs fois par la licence Pokémon comme l'indique l'exemple ci-dessus.
 
-![image](./img/pokemon_ice_walker.gif)
 
 ## II. Cahier des charges
 
@@ -32,7 +33,9 @@ Le programme Python doit respecter les contraintes suivantes :
 
 7. Chaque fonction écrite doit être documentée par une *DocString* complète.
 
-8. Le code doit être lisible, les noms de variables/fonctions explicites.
+8. Chaque fonction écrite doit être complétée par une *Doctest*.
+
+9. Le code doit être lisible, les noms de variables/fonctions explicites.
 
 ## III. Exemple de rendu
 

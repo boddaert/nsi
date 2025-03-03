@@ -52,14 +52,14 @@ Les graphes non orientés peuvent être représenté sagitallement, c'est-à-dir
 > Par exemple, la représentation sagitalle du graphe $GNO$ est :
 > ```mermaid
 >     flowchart LR
->         0 --- 1
->         0 --- 2
->         0 --- 3
->         0 --- 4
->         3 --- 4
->         2 --- 3
->         2 --- 5
->         4 --- 1
+>         0 <---> 1
+>         0 <---> 2
+>         0 <---> 3
+>         0 <---> 4
+>         3 <---> 4
+>         2 <---> 3
+>         2 <---> 5
+>         4 <---> 1
 > ```
 
 #### <ins>Application 2</ins>
@@ -72,13 +72,13 @@ Donner le type abstrait du graphe $G2$ suivant d'après sa représentation sagit
 
 ```mermaid
     flowchart LR
-        0 --- 4
-        1 --- 2
-        1 --- 5
-        2 --- 4
-        2 --- 3
-        3 --- 5
-        4 --- 5
+        0 <---> 4
+        1 <---> 2
+        1 <---> 5
+        2 <---> 4
+        2 <---> 3
+        3 <---> 5
+        4 <---> 5
 ```
 
 ### d) Propriétés
