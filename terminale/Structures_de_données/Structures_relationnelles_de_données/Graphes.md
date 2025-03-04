@@ -72,13 +72,13 @@ Donner le type abstrait du graphe $G2$ suivant d'après sa représentation sagit
 
 ```mermaid
     flowchart LR
-        0 <---> 4
-        1 <---> 2
-        1 <---> 5
-        2 <---> 4
-        2 <---> 3
-        3 <---> 5
-        4 <---> 5
+        id0((0)) <---> id4((4))
+        id1((1)) <---> id2((2))
+        id1((1)) <---> id5((5))
+        id2((2)) <---> id4((4))
+        id2((2)) <---> id3((3))
+        id3((3)) <---> id5((5))
+        id4((4)) <---> id5((5))
 ```
 
 ### d) Propriétés
@@ -145,17 +145,17 @@ Les graphes orientés peuvent être représenté sagitallement, c'est-à-dire so
 > Par exemple, la représentation sagitalle du graphe $GO$ est :
 > ```mermaid
 >     flowchart LR
->         0 --> 1
->         1 --> 0
->         0 --> 2
->         2 --> 0
->         3 --> 1
->         3 --> 4
->         4 --> 3
->         1 --> 4
->         0 --> 5
->         5 --> 6
->         6 --> 5
+>         id0((0)) --> id1((1))
+>         id1((1)) --> id0((0))
+>         id0((0)) --> id2((2))
+>         id2((2)) --> id0((0))
+>         id3((3)) --> id1((1))
+>         id3((3)) --> id4((4))
+>         id4((4)) --> id3((3))
+>         id1((1)) --> id4((4))
+>         id0((0)) --> id5((5))
+>         id5((5)) --> id6((6))
+>         id6((6)) --> id5((5))
 > ```
 
 #### <ins>Application 5</ins>
@@ -168,16 +168,16 @@ Donner le type abstrait du graphe $G4$ suivant d'après sa représentation sagit
 
 ```mermaid
     flowchart LR
-        0 --> 0
-        1 --> 0
-        1 --> 3
-        2 --> 1
-        2 --> 5
-        3 --> 2
-        3 --> 4
-        4 --> 0
-        4 --> 5
-        5 --> 4
+        id0((0)) --> id0((0))
+        id1((1)) --> id0((0))
+        id1((1)) --> id3((3))
+        id2((2)) --> id1((1))
+        id2((2)) --> id5((5))
+        id3((3)) --> id2((2))
+        id3((3)) --> id4((4))
+        id4((4)) --> id0((0))
+        id4((4)) --> id5((5))
+        id5((5)) --> id4((4))
 ```
 
 ### d) Propriétés
@@ -250,14 +250,14 @@ Les graphes pondérés peuvent être représenté sagitallement, c'est-à-dire s
 > Par exemple, la représentation sagitalle du graphe pondéré $GP$ est :
 > ```mermaid
 >     flowchart LR
->         0 --3--- 1
->         0 --6--- 2
->         0 --9--- 3
->         0 --1--- 4
->         3 --5--- 4
->         2 --7--- 3
->         2 --4--- 5
->         4 --2--- 1
+>         id0((0)) --3--- id1((1))
+>         id0((0)) --6--- id2((2))
+>         id0((0)) --9--- id3((3))
+>         id0((0)) --1--- id4((4))
+>         id3((3)) --5--- id4((4))
+>         id2((2)) --7--- id3((3))
+>         id2((2)) --4--- id5((5))
+>         id4((4)) --2--- id1((1))
 > ```
 
 ## V. Représentations en machine
@@ -277,14 +277,14 @@ Les graphes peuvent être représentés par **matrice d'adjacence** ou par **lis
 >
 > ```mermaid
 >     flowchart LR
->         0 --> 1
->         1 --> 0
->         0 --> 2
->         2 --> 0
->         3 --> 1
->         3 --> 4
->         4 --> 3
->         1 --> 4
+>         id0((0)) --> id1((1))
+>         id1((1)) --> id0((0))
+>         id0((0)) --> id2((2))
+>         id2((2)) --> id0((0))
+>         id3((3)) --> id1((1))
+>         id3((3)) --> id4((4))
+>         id4((4)) --> id3((3))
+>         id1((1)) --> id4((4))
 > ```
 >
 > Est représenté en machine par la matrice d'adjacence suivante :
@@ -343,11 +343,11 @@ Implémenter en Python la matrice d'adjacence du graphe $G2$.
 >
 > ```mermaid
 >     flowchart LR
->         0 --- 1
->         2 --- 0
->         3 --- 1
->         4 --- 3
->         1 --- 4
+>         id0((0)) <---> id1((1))
+>         id2((2)) <---> id0((0))
+>         id3((3)) <---> id1((1))
+>         id4((4)) <---> id3((3))
+>         id1((1)) <---> id4((4))
 > ```
 >
 > Est représenté en machine par la liste d'adjacence suivante :
