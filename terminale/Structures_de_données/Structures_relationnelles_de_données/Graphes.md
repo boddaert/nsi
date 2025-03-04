@@ -52,14 +52,14 @@ Les graphes non orientés peuvent être représenté sagitallement, c'est-à-dir
 > Par exemple, la représentation sagitalle du graphe $GNO$ est :
 > ```mermaid
 >     flowchart LR
->         ((0)) <---> ((1))
->         ((0)) <---> ((2))
->         ((0)) <---> ((3))
->         ((0)) <---> ((4))
->         ((3)) <---> ((4))
->         ((2)) <---> ((3))
->         ((2)) <---> ((5))
->         ((4)) <---> ((1))
+>         id0((0)) <---> id1((1))
+>         id0((0)) <---> id2((2))
+>         id0((0)) <---> id3((3))
+>         id0((0)) <---> id4((4))
+>         id3((3)) <---> id4((4))
+>         id2((2)) <---> id3((3))
+>         id2((2)) <---> id5((5))
+>         id4((4)) <---> id1((1))
 > ```
 
 #### <ins>Application 2</ins>
