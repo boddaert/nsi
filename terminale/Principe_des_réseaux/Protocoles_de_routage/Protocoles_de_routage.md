@@ -31,7 +31,7 @@ Plus il y a de sous-réseaux, plus il y a besoin de routeurs pour les connecter 
 
 #### <ins>Application 1</ins>
 
-a) Sur votre terminal de commande, écrire la commande `traceroute google.fr`.
+a) Sur votre terminal de commande, écrire la commande `tracert google.fr`.
 
 b) Répondre aux questions :
 
