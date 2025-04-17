@@ -16,13 +16,9 @@ L'objectif de cette activité est de concevoir un algorithme de recherche plus e
 
 ### 1. Partie débranchée
 
-a) Mettez-vous un par un en rang.
+a) Mettez-vous un par un en rang par ordre alphabétique.
 
-b) Quelle(s) sont les méthodes à ma disposition pour retrouver le plus rapidement possible un élève dont je connais uniquement le nom de famille et en ne pouvant demander à voix haute qu'à une seule personne à la fois ?
-
-c) À combien d'élèves j'ai posé la question avant de tomber sur la bonne personne ?
-
-d) Quelle pourrait être une méthode permettant de réduire le nombre de questions posées ?
+b) Quelle(s) sont les méthodes à ma disposition pour retrouver le plus rapidement possible un élève dont je connais uniquement le nom de famille et en ne pouvant demander qu'à une seule personne à la fois ?
 
 ### 2. Partie branchée
 
