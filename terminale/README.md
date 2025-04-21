@@ -97,6 +97,12 @@
 
 - Leçon 2 : [Diviser pour régner](./Algorithmique/Diviser_pour_régner/Diviser_pour_régner.md)
 
+##### Chapitre 14 : Architecture des machines 1/2
+
+- Leçon 1 : [Gestion des processus et des ressources](./Architecture_des_machines/Gestion_des_processus_et_des_ressources/Gestion_des_processus_et_des_ressources.md)
+
+- Activité : [Problème du boulanger](./Architecture_des_machines/Gestion_des_processus_et_des_ressources/Activité_problème_du_boulanger.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
