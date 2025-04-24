@@ -49,7 +49,7 @@ produit = 0
 TantQue m != 0, faire :
     produit = produit + n
     m = m - 1
-Renvoyer n
+Renvoyer produit
 ```
 
 ________________
