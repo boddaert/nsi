@@ -103,6 +103,18 @@
 
 - Activité : [Problème du boulanger](./Architecture_des_machines/Gestion_des_processus_et_des_ressources/Activité_problème_du_boulanger.md)
 
+##### Chapitre 15 : Langages et programmation 5/5
+
+- Leçon 1 : [Décidabilité et calculabilité](./Langages_et_programmation/Décidabilité_et_calculabilité/Décidabilité_et_calculabilité.md)
+
+- Activité : [La machine de Turing](./Langages_et_programmation/Décidabilité_et_calculabilité/Activité_la_machine_de_turing.md)
+
+##### Chapitre 16 : Architecture des machines 2/2
+
+- Leçon 2 : [Systèmes sur puce](./Architecture_des_machines/Systèmes_sur_puce/Systèmes_sur_puce.md)
+
+- Activité : [Simulation sur carte Microbit](./Architecture_des_machines/Systèmes_sur_puce/Activité_simulation_sur_carte_microbit.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
