@@ -115,6 +115,20 @@
 
 - Activité : [Simulation sur carte Microbit](./Architecture_des_machines/Systèmes_sur_puce/Activité_simulation_sur_carte_microbit.md)
 
+##### Chapitre 17 : Algorithmique 2/3
+
+- Leçon 1 : [Problèmes d'optimisation combinatoire](./Algorithmique/Programmation_dynamique/Problèmes_d_optimisation_combinatoire.md)
+
+- Leçon 2 : [Rappels : Algorithmes gloutons](./Algorithmique/Programmation_dynamique/Rappels_algorithmes_gloutons.md)
+
+- Activité : [Le chercheur d'or](./Algorithmique/Programmation_dynamique/Activité_le_chercheur_d_or.md)
+
+- Leçon 3 : [Programmation dynamique](./Algorithmique/Programmation_dynamique/Programmation_dynamique.md)
+
+##### Chapitre 18 : Algorithmique 3/3
+
+- Leçon 1 : [Recherche textuelle](./Algorithmique/Recherche_textuelle/Recherche_textuelle.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
