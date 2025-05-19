@@ -106,12 +106,6 @@ Et les seules valeurs possibles de l'attribut `sexe` sont `"F"` et `"M"`.
 
 La validation de données est propre à chaque fichier CSV, c'est pourquoi il n'existe pas de fonction native permettant de le faire à notre place.
 
-#### <ins>Application 3</ins>
-
-a) Écrire une fonction `valide_personnes(personnes : list)->list` qui prend en paramètre une liste de personnes et renvoie cette même liste en convertissant les années de naissance en entier et/ou renvoie un message d'erreur si une valeur autre que `"F"` ou `"M"` est présente dans la colonne `sexe`.
-
-b) Modifier votre fichier CSV afin de vérifier le bon fonctionnement de votre fonction `valide_personnes()`.
-
 ____________
 
 [Exercices](./Exercices/Exercices_fichiers_csv.md)

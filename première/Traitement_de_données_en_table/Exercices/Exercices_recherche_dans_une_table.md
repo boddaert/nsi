@@ -2,7 +2,9 @@
 
 ## Exercice 1
 
-a) Modifier le fichier `stock_magasin.csv` afin qu'il contient les attributs 
+a) Créer le fichier `stock_magasin.csv`.
+
+b) Écrire, dans le fichier `stock_magasin.csv`, les attributs suivants : 
 
 - `Numéro de produit` représentant un numéro de produit unique.
 
@@ -14,9 +16,7 @@ a) Modifier le fichier `stock_magasin.csv` afin qu'il contient les attributs
 
 - `Vente libre` indiquant si le produit est disponible en vente libre. Nous considèrerons que le prix de ce produit équivaut à $1kg$.
 
-b) Écrire un minimum de cinq articles dans le fichier CSV.
-
-c) Modifier la fonction `valide_stock()` en conséquence notamment pour vérifier si tous les numéros de produit sont bien uniques.
+c) Écrire un minimum de cinq articles dans le fichier CSV.
 
 ## Exercice 2
 
@@ -31,10 +31,6 @@ a) Écrire la fonction `nb_produit()` permettant d'obtenir le nombre de produits
 b) Écrire la fonction `nb_article()` permettant d'obtenir le nombre d'articles présent dans le stock du magasin.
 
 c) Écrire la fonction `somme_totale()` permettant d'obtenir la somme totale des prix d'achats de tous les articles du magasin.
-
-## Exercice 4
-
-Modifier la fonction `moyenne()` écrite en application $5$ afin qu'elle puisse donner comme résultat la moyenne des années de naissance des personnes de sexe féminin présentes dans le fichier `personnes.csv`.
 
 ____________
 
