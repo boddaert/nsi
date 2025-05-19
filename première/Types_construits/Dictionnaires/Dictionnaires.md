@@ -19,7 +19,7 @@ Une *structure de données* est une structure permettant d'organiser ses donnée
 ## II. Récapitulatif
 
 > [!IMPORTANT]
-> | / | Linéaire | Non linéaire |
+> | Structure | Linéaire | Non linéaire |
 > | :---: | :---: | :---: |
 > | **Mutable** | Liste | Dictionnaire |
 > | **Non mutable** | Tuple | Ensemble (hors programme) |

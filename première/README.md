@@ -121,6 +121,22 @@
 
 - Leçon 3 : [Tri par insertion](./Algorithmique/Algorithmes_de_tri/Tri_par_insertion.md)
 
+##### Chapitre 14 : IHM sur le web 2/2
+
+- Leçon 3 : [Programmation évènementielle](./Ihm_sur_le_web/Programmation_évènementielle/Programmation_évènementielle.md)
+
+##### Chapitre 15 : Traitement de données en table 1/1
+
+- Leçon 1 : [Fichiers CSV](./Traitement_de_données_en_table/Fichiers_csv.md)
+
+- Leçon 2 : [Recherche dans une table](./Traitement_de_données_en_table/Recherche_dans_une_table.md)
+
+- Leçon 3 : [Tri d'une table](./Traitement_de_données_en_table/Tri_d_une_table.md)
+
+- Leçon 4 : [Fusion de tables](./Traitement_de_données_en_table/Fusion_de_tables.md)
+
+- Activité : [Mayday mayday](./Traitement_de_données_en_table/Activité_mayday_mayday.md)
+
 
 ______________________
 
