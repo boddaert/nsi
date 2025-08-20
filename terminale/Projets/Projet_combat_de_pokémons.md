@@ -78,11 +78,11 @@ Pour ce faire, nous utiliserons la programmation orientée objet.
 
 ## VI. Aller plus loin
 
-1. Ajouter les consommables (potions, baies, etc...)
+1. Ajouter un pannel de quatre capacités aux Pokémons, ces derniers lancent une capacité aléatoire parmi les quatre. Les capacités possède une puissance et une précision (donc elle peut échouer).
 
-2. Ajouter les capacités, un pokémon a le choix entre quatre capacités.
+2. Ajouter un type aux Pokémons et aux capacités. Par conséquent, les capacités lancées peuvent être super ou peu efficaces. Se référer au tableau suivant des forces/faiblesses des différents types :
 
-3. Ajouter les types et par conséquent les capacités super ou peu efficaces.
+<img src="./img/tableau_types_combat_de_pokemons.png" width=800>
 
 ________
 

@@ -4,7 +4,7 @@
 
 ### a) Description
 
-Ce projet se présente comme l'aboutissement des deux années passées en spécialité de Numérique et Sciences Informatiques, il s'inclut dans le concours nationnal informatique : [Trophées NSI](https://trophees-nsi.fr/). 
+Ce projet se présente comme l'aboutissement des deux années passées en spécialité de Numérique et Sciences Informatiques, il s'inclut dans le concours nationnal informatique : [Trophées NSI](https://trophees-nsi.fr/) bien que l'inscription des groupes à celui-ci n'est pas obligatoire !
 
 ### b) Organisation du travail
 
