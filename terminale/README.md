@@ -31,7 +31,11 @@
 
 - Projet n°2 : [Combat de Pokémons](./Projets/Projet_combat_de_pokémons.md)
 
-##### Chapitre 5 : Structures de données 2/4
+##### Chapitre 5 : Projet Final
+
+- Projet n°3 : [Projet Final](./Projet_final/Projet_final.md)
+
+##### Chapitre 6 : Structures de données 2/4
 
 - Leçon 1 : [Listes récursives](./Structures_de_données/Structures_linéaires_de_données/Listes_récursives.md)
 
@@ -41,7 +45,7 @@
 
 - Activité : [Le problème du crêpier psychorigide](./Structures_de_données/Structures_linéaires_de_données/Activité_problème_du_crêpier_psychorigide.md)
 
-##### Chapitre 6 : Structures de données 3/4
+##### Chapitre 7 : Structures de données 3/4
 
 - Leçon 1 : [Arbres binaires](./Structures_de_données/Structures_arborescentes_de_données/Arbres_binaires.md)
 
@@ -49,19 +53,19 @@
 
 - Leçon 2 : [Arbres binaires de recherche](./Structures_de_données/Structures_arborescentes_de_données/Arbres_binaires_de_recherche.md)
 
-##### Chapitre 7 : Principe des réseaux 1/2
+##### Chapitre 8 : Principe des réseaux 1/2
 
 - Leçon 1 : [Sécurisation des communications](./Principe_des_réseaux/Sécurisation_des_communications/Sécurisation_des_communications.md)
 
 - Activité : [Cryptanalyser Vigenère](./Principe_des_réseaux/Sécurisation_des_communications/Activité_cryptanalyser_vigenere.md)
 
-##### Chapitre 8 : Langages et programmation 3/5
+##### Chapitre 9 : Langages et programmation 3/5
 
 - Leçon 1 : [Rappels : Mise au point des programmes](./Langages_et_programmation/Mise_au_point_des_programmes/Rappels_mise_au_point_des_programmes.md)
 
-- Projet n°3 : [Jeu de la vie](./Projets/Projet_jeu_de_la_vie.md)
+- Projet n°4 : [Jeu de la vie](./Projets/Projet_jeu_de_la_vie.md)
 
-##### Chapitre 9 : Structures de données 4/4
+##### Chapitre 10 : Structures de données 4/4
 
 - Leçon 1 : [Graphes](./Structures_de_données/Structures_relationnelles_de_données/Graphes.md)
 
@@ -69,17 +73,13 @@
 
 - Leçon 2 : [Algorithmes sur les graphes](./Structures_de_données/Structures_relationnelles_de_données/Algorithmes_sur_les_graphes.md)
 
-##### Chapitre 10 : Principe des réseaux 2/2
+##### Chapitre 11 : Principe des réseaux 2/2
 
 - Leçon 1 : [Rappels : Principe des réseaux](./../première/Principe_des_réseaux/Principe_des_réseaux.md)
 
 - Leçon 2 : [Protocoles de routage](./Principe_des_réseaux/Protocoles_de_routage/Protocoles_de_routage.md)
 
 - Activité : [Algorithme de Dijkstra](./Principe_des_réseaux/Protocoles_de_routage/Activité_algorithme_de_dijkstra.md)
-
-##### Chapitre 11 : Projet Final
-
-- Projet n°4 : [Projet Final](./Projet_final/Projet_final.md)
 
 ##### Chapitre 12 : Langages et programmation 4/5
 

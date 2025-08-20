@@ -4,63 +4,23 @@
 
 ### a) Description
 
-Ce projet final est un projet à réaliser en groupe de trois à quatre élèves sur l'idée de votre choix (avec l'accord du professeur).
+Ce projet se présente comme l'aboutissement des deux années passées en spécialité de Numérique et Sciences Informatiques, il s'inclut dans le concours nationnal informatique : [Trophées NSI](https://trophees-nsi.fr/). 
 
-Il constitue l'unique note de projet du second semestre.
+### b) Organisation du travail
 
-Ce projet se présente comme l'aboutissement des deux années passées en spécialité de Numérique et Sciences Informatiques et doit, par conséquent, être complètement finalisé et utilisable.
+Le projet sera à travailler majoritairement à la maison et quelques heures en classe seront dédiées.
 
-### b) *Timeline*
+La communication entre les membres des groupes et avec moi-même se fera sur un serveur Discord (lien d'invitation : [Numérique et Science Informatique](https://discord.gg/44azGYjURP)).
 
-Deux à quatre heures de cours par semaine sont dédiées au projet final pendant une dizaine de semaines.
+Des réunions pourront être organisées afin d'attester de l'avancée du projet.
 
-### c) Livrables
+### c) *Deadline*
 
-Le projet est découpé en trois parties dépendantes les unes des autres.
+La date de rendu de projet est annoncée pour fin Mars.
 
-Chaque partie intègre plusieurs livrables qu'il faudra restituer à la fin du temps imparti.
+### c) Présentation du concours
 
-- Partie Code :
-
-    + Tous les fichiers de code informatique.
-
-    + Un `README` destiné aux utilisateurs expliquant comment utiliser les codes.
-
-- Partie Présentation :
-
-    + Soutenance de dix à quinze minutes afin de présenter et défendre votre projet.
-
-    + Cinq minutes de questions éventuelles.
-
-- Partie Gestion de projet :
-
-    + Diagramme de Gantt.
-
-    + Journal de bord.
-
-    + Rapport comprenant la réflexion autour de la stratégie choisie : 
-        
-        * L'encadrement du projet (voir II. Conseils).
-        
-        * La répartition des tâches.
-        
-        * Les difficultés rencontrées.
-        
-        * La résolution de ces difficultés.
-        
-        * Les comptes-rendu des réunions avec le client.
-
-### d) Contraintes
-
-1. Parmi les langages informatiques vus en NSI (Python, SQL, JavaScript, HTML/CSS), vous devez en utiliser au moins deux dont l'un est obligatoirement Python.
-
-2. Vous devez intégrer au moins une structure de données vue en Terminale (piles, files, arbres, graphes) au code informatique de votre projet.
-
-3. Au cours des semaines, vous devez au moins effectuer deux réunions avec le client (à votre demande) afin de rendre compte de l'avancée du projet et des difficultés.
-
-### e) Évaluation
-
-Chaque partie est évaluée sur dix points, ce qui constitue une note globale sur trente points.
+[Présentation du concours](https://trophees-nsi.fr/media/pages/communication/7358a2a15f-1738881057/trophees_nsi_2025-presentation.pdf)
 
 ## II. Conseils pour mener à bien son projet
 
@@ -68,11 +28,11 @@ Chaque partie est évaluée sur dix points, ce qui constitue une note globale su
 
     - À quels besoins répond-il ?
 
+    - Correspond t-il à la thématique du concours ?
+
     - Quels peuvent être les utilisateurs cibles du projet ?
 
     - Quelles sont les différentes fonctionnalités du projet ?
-
-    - À quoi ressemble t-il ? 
 
     - Sur quels langages informatiques repose t-il ?
 
