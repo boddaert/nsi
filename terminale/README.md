@@ -33,7 +33,7 @@
 
 ##### Chapitre 5 : Projet Final
 
-- Projet n°3 : [Projet Final](./Projet_final/Projet_final.md)
+- Projet n°3 : [Projet Final](./Projets/Projet_final/Projet_final.md)
 
 ##### Chapitre 6 : Structures de données 2/4
 
