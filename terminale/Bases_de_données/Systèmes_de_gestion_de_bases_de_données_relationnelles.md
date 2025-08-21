@@ -206,7 +206,7 @@ SELECT <nom_attribut_1>, <nom_attribut_2> FROM <nom_table>;
 
 a) Écrire la requête SQL permettant d'obtenir tous les prénoms des usagers.
 
-b) Écrire la requête SQL permettant d'obtenir tous les titres et les auteurs des livres.
+b) Écrire la requête SQL permettant d'obtenir tous les dates des emprunts.
 
 #### 2. Projections
 
