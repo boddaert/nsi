@@ -206,7 +206,7 @@ SELECT <nom_attribut_1>, <nom_attribut_2> FROM <nom_table>;
 
 a) Écrire la requête SQL permettant d'obtenir tous les prénoms des usagers.
 
-b) Écrire la requête SQL permettant d'obtenir tous les dates des emprunts.
+b) Écrire la requête SQL permettant d'obtenir toutes les dates des emprunts.
 
 #### 2. Projections
 
@@ -281,7 +281,7 @@ SELECT <fonction_agrégation>(<nom_attribut>) FROM <nom_table>;
 
 #### <ins>Application 10</ins>
 
-Écrire la requête SQL permettant d'obtenir le nombre de livres contenus dans la table.
+Écrire la requête SQL permettant d'obtenir le nombre de livres.
 
 #### 5. Tris
 
@@ -296,7 +296,7 @@ Ajouter `ORDER BY attribut` suivi de `ASC` (par ordre croissant) ou de `DESC` (p
 
 #### <ins>Application 11</ins>
 
-Écrire la requête SQL permettant d'obtenir tous les usagers par ordre décroissant de prénom.
+Écrire la requête SQL permettant d'obtenir tous les prénoms d'usagers par ordre décroissant de prénom.
 
 #### 6. Jointures
 
