@@ -26,8 +26,6 @@ Le quiz propose au joueur de donner le résultat de dix multiplications, affiche
 
 2. Proposer au joueur plusieurs niveaux de difficulté.
 
-3. Réaliser une interface graphique.
-
 ________
 
 [Sommaire](./../README.md)
