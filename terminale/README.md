@@ -5,6 +5,12 @@
 
 ##### Chapitre 0 : [Remise à niveau](./Compléments/Remise_à_niveau/Remise_à_niveau.md)
 
+##### Chapitre 1 : Langages et programmation 1/5
+
+- Leçon 1 : [Modularité](./Langages_et_programmation/Modularité/Modularité.md)
+
+- Projet n°1 : [Dessine ton Mii](./Projets/Projet_dessine_ton_mii.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
