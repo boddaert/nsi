@@ -25,7 +25,7 @@ L'idéal est :
 
 #### <ins>Application 1</ins>
 
-Nous souhaitons écrire un programme qui calcule la somme, la moyenne et l'écartype des notes de tous les élèves d'une classe.
+Nous souhaitons écrire un programme qui calcule la moyenne générale d'une classe.
 
 Ce programme prend en paramètre un dictionnaire dans lequel les clés sont des noms d'éléves et leur valeur associées sont une liste de note.
 
