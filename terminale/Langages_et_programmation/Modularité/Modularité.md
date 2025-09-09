@@ -29,7 +29,7 @@ Nous souhaitons écrire un programme qui calcule la moyenne générale d'une cla
 
 Ce programme prend en paramètre un dictionnaire dans lequel les clés sont des noms d'éléves et leur valeur associées sont une liste de note.
 
-a) Écrire sur papier le nom des fonctions et leur spécification (cf [Spécification de fonction](./../../../première/Langages_et_programmation/Mise_au_point_des_programmes/Prototypage.md)) qui permettrait de réaliser un tel programme et de telle façon à ce qu'il soit modulaire.
+a) Découper votre programme en un maximum de fonctions pour que celui-ci soit modulaire et respecte les bonnes pratiques vues ci-dessus. Écrire sur papier leur spécification (cf [Spécification de fonction](./../../../première/Langages_et_programmation/Mise_au_point_des_programmes/Prototypage.md)).
 
 b) Écrire en Python le code de ces fonctions.
 
