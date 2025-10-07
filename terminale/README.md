@@ -25,6 +25,12 @@
 
 - Activité : [Crime à SQL City](./Bases_de_données/Activité_crime_à_SQL_City.md)
 
+##### Chapitre 4 : Structures de données 1/4
+
+- Leçon 1 : [Programmation Orientée Objet](./Structures_de_données/Programmation_orientée_objet/Programmation_orientée_objet.md)
+
+- Projet n°2 : [Combat de Pokémons](./Projets/Projet_combat_de_pokémons.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
