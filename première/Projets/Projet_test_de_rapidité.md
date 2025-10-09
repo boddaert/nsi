@@ -26,6 +26,8 @@ Le quiz propose au joueur de donner le résultat de dix multiplications, affiche
 
 2. Proposer au joueur plusieurs niveaux de difficulté.
 
+3. Proposer au joueur le type de calcul à évaluer : soustractions, divisions ...
+
 ________
 
 [Sommaire](./../README.md)
