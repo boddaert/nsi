@@ -31,6 +31,10 @@
 
 - Projet n°2 : [Combat de Pokémons](./Projets/Projet_combat_de_pokémons.md)
 
+##### Chapitre 5 : Projet Final
+
+- Projet n°3 : [Projet Final](./Projets/Projet_final/Projet_final.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
