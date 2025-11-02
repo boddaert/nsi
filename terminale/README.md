@@ -35,6 +35,16 @@
 
 - Projet n°3 : [Projet Final](./Projets/Projet_final/Projet_final.md)
 
+##### Chapitre 6 : Structures de données 2/4
+
+- Leçon 1 : [Listes récursives](./Structures_de_données/Structures_linéaires_de_données/Listes_récursives.md)
+
+- Leçon 2 : [Piles](./Structures_de_données/Structures_linéaires_de_données/Piles.md)
+
+- Leçon 3 : [Files](./Structures_de_données/Structures_linéaires_de_données/Files.md)
+
+- Activité : [Le problème du crêpier psychorigide](./Structures_de_données/Structures_linéaires_de_données/Activité_problème_du_crêpier_psychorigide.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
