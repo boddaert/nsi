@@ -47,6 +47,14 @@
 
 - Projet n°2 : [Motus](./Projets/Projet_motus.md)
 
+##### Chapitre 4 : Architecture des machines 1/3
+
+- Leçon 1 : [Modèle Von Neumann](./Architecture_des_machines/Modèle_Von_Neumann/Modèle_Von_Neumann.md)
+
+- Leçon 2 : [Langage machine](./Architecture_des_machines/Modèle_Von_Neumann/Langage_machine.md)
+
+- Activité : [Langage d'assemblage sur M10](./Architecture_des_machines/Modèle_Von_Neumann/Activité_langage_d_assemblage_sur_M10.md)
+
 
 ______________________
 
