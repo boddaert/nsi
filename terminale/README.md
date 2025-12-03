@@ -53,6 +53,12 @@
 
 - Leçon 2 : [Arbres binaires de recherche](./Structures_de_données/Structures_arborescentes_de_données/Arbres_binaires_de_recherche.md)
 
+##### Chapitre 8 : Principe des réseaux 1/2
+
+- Leçon 1 : [Sécurisation des communications](./Principe_des_réseaux/Sécurisation_des_communications/Sécurisation_des_communications.md)
+
+- Activité : [Cryptanalyser Vigenère](./Principe_des_réseaux/Sécurisation_des_communications/Activité_cryptanalyser_vigenere.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
