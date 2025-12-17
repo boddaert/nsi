@@ -59,6 +59,14 @@
 
 - Activité : [Cryptanalyser Vigenère](./Principe_des_réseaux/Sécurisation_des_communications/Activité_cryptanalyser_vigenere.md)
 
+##### Chapitre 9 : Structures de données 4/4
+
+- Leçon 1 : [Graphes](./Structures_de_données/Structures_relationnelles_de_données/Graphes.md)
+
+- Activité : [Le problème des septs ponts de Königsberg](./Structures_de_données/Structures_relationnelles_de_données/Activité_problème_des_sept_ponts_de_Königsberg.md)
+
+- Leçon 2 : [Algorithmes sur les graphes](./Structures_de_données/Structures_relationnelles_de_données/Algorithmes_sur_les_graphes.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
