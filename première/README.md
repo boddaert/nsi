@@ -67,6 +67,14 @@
 
 - Activité : [Afficheur Sept Segments](./Architecture_des_machines/Circuits_combinatoires/Activité_afficheur_sept_segments.md)
 
+##### Chapitre 7 : Langages et programmation 2/2
+
+- Leçon 1 : [Prototypage](./Langages_et_programmation/Mise_au_point_des_programmes/Prototypage.md)
+
+- Leçon 2 : [Préconditions](./Langages_et_programmation/Mise_au_point_des_programmes/Préconditions.md)
+
+- Leçon 3 : [Postconditions](./Langages_et_programmation/Mise_au_point_des_programmes/Postconditions.md)
+
 
 ______________________
 
