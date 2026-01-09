@@ -61,6 +61,12 @@
 
 - Leçon 2 : [Tuples](./Types_construits/P-uplets/Tuples.md)
 
+##### Chapitre 6 : Architecture des machines 2/3
+
+- Leçon 3 : [Circuits combinatoires](./Architecture_des_machines/Circuits_combinatoires/Circuits_combinatoires.md)
+
+- Activité : [Afficheur Sept Segments](./Architecture_des_machines/Circuits_combinatoires/Activité_afficheur_sept_segments.md)
+
 
 ______________________
 
