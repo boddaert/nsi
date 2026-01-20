@@ -67,6 +67,14 @@
 
 - Leçon 2 : [Algorithmes sur les graphes](./Structures_de_données/Structures_relationnelles_de_données/Algorithmes_sur_les_graphes.md)
 
+##### Chapitre 10 : Principe des réseaux 2/2
+
+- Leçon 1 : [Rappels : Principe des réseaux](./../première/Principe_des_réseaux/Principe_des_réseaux.md)
+
+- Leçon 2 : [Protocoles de routage](./Principe_des_réseaux/Protocoles_de_routage/Protocoles_de_routage.md)
+
+- Activité : [Algorithme de Dijkstra](./Principe_des_réseaux/Protocoles_de_routage/Activité_algorithme_de_dijkstra.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
