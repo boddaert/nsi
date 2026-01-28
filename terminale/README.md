@@ -75,6 +75,14 @@
 
 - Activité : [Algorithme de Dijkstra](./Principe_des_réseaux/Protocoles_de_routage/Activité_algorithme_de_dijkstra.md)
 
+##### Chapitre 11 : Langages et programmation 4/5
+
+- Leçon 1 : [Complexité](./Langages_et_programmation/Optimisation/Complexité.md)
+
+- Leçon 2 : [Preuve de terminaison](./Langages_et_programmation/Optimisation/Preuve_de_terminaison.md)
+
+- Leçon 3 : [Preuve de correction](./Langages_et_programmation/Optimisation/Preuve_de_correction.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
