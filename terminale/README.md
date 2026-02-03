@@ -83,6 +83,14 @@
 
 - Leçon 3 : [Preuve de correction](./Langages_et_programmation/Optimisation/Preuve_de_correction.md)
 
+##### Chapitre 12 : Algorithmique 1/3
+
+- Leçon 1 : [Rappels : Algorithmes de tri](./Algorithmique/Diviser_pour_régner/Rappels_algorithmes_de_tri.md)
+
+- Activité : [Tri Fusion](./Algorithmique/Diviser_pour_régner/Activité_tri_fusion.md)
+
+- Leçon 2 : [Diviser pour régner](./Algorithmique/Diviser_pour_régner/Diviser_pour_régner.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
