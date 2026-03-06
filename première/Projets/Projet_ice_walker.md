@@ -41,6 +41,14 @@ Le programme Python doit respecter les contraintes suivantes :
 
 ![gif](./img/exemple_ice_walker.gif)
 
+## IV. Pour aller plus loin
+
+1. Proposer au joueur plusieurs niveaux de jeu avec plusieurs plateaux différents.
+
+2. Ajouter des cases de jeu : `sol` sur lesquelles le joueur peut se déplacer normalement sans glisser.
+
+3. Ajouter des cases de jeu : `rocher` que le joueur peut déplacer en poussant et respecte les mécaniques de jeu des autres cases (sol glacé, infranchissabilité des murs, sol classique).
+
 _______________
 
 [Sommaire](./../README.md)
