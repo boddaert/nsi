@@ -103,6 +103,12 @@
 
 - Projet n°4 : [Jeu de la vie](./Projets/Projet_jeu_de_la_vie.md)
 
+##### Chapitre 15 : Langages et programmation 5/5
+
+- Leçon 1 : [Décidabilité et calculabilité](./Langages_et_programmation/Décidabilité_et_calculabilité/Décidabilité_et_calculabilité.md)
+
+- Activité : [La machine de Turing](./Langages_et_programmation/Décidabilité_et_calculabilité/Activité_la_machine_de_turing.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
