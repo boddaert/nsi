@@ -97,6 +97,12 @@
 
 - Activité : [Problème du boulanger](./Architecture_des_machines/Gestion_des_processus_et_des_ressources/Activité_problème_du_boulanger.md)
 
+##### Chapitre 14 : Langages et programmation 3/5
+
+- Leçon 1 : [Rappels : Mise au point des programmes](./Langages_et_programmation/Mise_au_point_des_programmes/Rappels_mise_au_point_des_programmes.md)
+
+- Projet n°4 : [Jeu de la vie](./Projets/Projet_jeu_de_la_vie.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
