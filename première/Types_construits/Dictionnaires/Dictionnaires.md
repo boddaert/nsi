@@ -70,7 +70,7 @@ Un dictionnaire peut contenir des valeurs de différents types.
 > [!TIP]
 > Par exemple :
 > ```python
-> {'a' : True, 'b' : [1, 2, 3]})
+> {'a' : True, 'b' : [1, 2, 3]}
 > ```
 
 Un dictionnaire peut contenir des clés de différent type sauf structure de données.
