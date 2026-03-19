@@ -87,6 +87,14 @@
 
 - Projet n°3 : [Ice Walker](./Projets/Projet_ice_walker.md)
 
+##### Chapitre 10 : Architecture des machines 3/3
+
+- Leçon 4 : [Systèmes d'exploitation](./Architecture_des_machines/Systèmes_d_exploitation/Systèmes_d_exploitation.md)
+
+- Activité : [Terminus](./Architecture_des_machines/Systèmes_d_exploitation/Activité_terminus.md)
+
+- Leçon 5 : [Système de gestion de fichiers](./Architecture_des_machines/Systèmes_d_exploitation/Système_de_gestion_de_fichiers.md)
+
 
 ______________________
 
