@@ -105,6 +105,12 @@
 
 - Leçon 3 : [Preuve de correction](./Algorithmique/Optimisation/Preuve_de_correction.md)
 
+##### Chapitre 12 : IHM sur le web 1/2
+
+- Leçon 1 : [Modèle Client-Serveur](./Ihm_sur_le_web/Modèle_client_serveur/Modèle_client_serveur.md)
+
+- Leçon 2 : [Formulaire d'une page web](./Ihm_sur_le_web/Modèle_client_serveur/Formulaire_d_une_page_web.md)
+
 
 ______________________
 
