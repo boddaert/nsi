@@ -121,6 +121,10 @@
 
 - Leçon 3 : [Tri par insertion](./Algorithmique/Algorithmes_de_tri/Tri_par_insertion.md)
 
+##### Chapitre 14 : IHM sur le web 2/2
+
+- Leçon 3 : [Programmation évènementielle](./Ihm_sur_le_web/Programmation_évènementielle/Programmation_évènementielle.md)
+
 
 ______________________
 
