@@ -108,10 +108,6 @@ La validation de données est propre à chaque fichier CSV, c'est pourquoi il n'
 
 ____________
 
-[Exercices](./Exercices/Exercices_fichiers_csv.md)
-
-____________
-
 [Sommaire](./../README.md)
 
 ___________
