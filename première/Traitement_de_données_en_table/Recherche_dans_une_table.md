@@ -153,10 +153,6 @@ b) Exécuter la fonction `moyenne()` avec les bons arguments afin d'obtenir la m
 
 __________
 
-[Exercices](./Exercices/Exercices_recherche_dans_une_table.md)
-
-__________
-
 [Sommaire](./../README.md)
 
 ___________
