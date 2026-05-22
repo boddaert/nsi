@@ -79,9 +79,13 @@ Renvoyer table_fusionée
 
 #### <ins>Application 1</ins>
 
-a) Écrire la fonction `concaténation()` correspondant à l'algorithme de concaténation ci-dessus.
+a) Premièrement, créer un fichier `personnes2.csv` puis y ajouter les personnes de la seconde table donnée en exemple.
 
-b) Vérifier votre fonction en fusionnant les deux tables données en exemple.
+b) Importer les données du fichier `personnes2.csv` dans votre script Python dans une liste nommée `personnes2`.
+
+c) Écrire la fonction `concaténation()` correspondant à l'algorithme de concaténation ci-dessus.
+
+d) Vérifier votre fonction en fusionnant les deux tables données en exemple.
 
 ## III. Opération de jointure
 
