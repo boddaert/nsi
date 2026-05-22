@@ -60,9 +60,9 @@ La fonction `sorted()` peut également prendre un troisème argument indiquant s
 
 #### <ins>Application 1</ins>
 
-a) Utiliser la fonction de tri `sorted()` afin de trier les produits du magasin par ordre croissant de prix.
+a) Utiliser la fonction de tri `sorted()` afin de trier les personnes dans l'ordre croissant d'année de naissance.
 
-b) Utiliser la fonction de tri `sorted()` afin de trier les produits du magasin par ordre décroissant de quantité.
+b) Utiliser la fonction de tri `sorted()` afin de trier les personnes dans l'ordre lexicographique de prénom.
 
 ___________
 
