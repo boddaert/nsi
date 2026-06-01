@@ -85,7 +85,7 @@ b) Importer les données du fichier `personnes2.csv` dans votre script Python da
 
 c) Écrire la fonction `concaténation()` correspondant à l'algorithme de concaténation ci-dessus.
 
-d) Vérifier votre fonction en fusionnant les deux tables données en exemple.
+d) Vérifier votre fonction en réalisant une concaténation des tables `personnes` et `personnes2`.
 
 ## III. Opération de jointure
 
@@ -146,9 +146,13 @@ Renvoyer table_fusionnée
 
 #### <ins>Application 2</ins>
 
-a) Écrire la fonction `jointure()` correspondant à l'algorithme de jointure ci-dessus.
+a) Premièrement, créer un fichier `personnes3.csv` puis y ajouter les personnes de la table donnée en exemple.
 
-b) Vérifier votre fonction en fusionnant les deux tables données en exemple.
+b) Importer les données du fichier `personnes3.csv` dans votre script Python dans une liste nommée `personnes3`.
+
+c) Écrire la fonction `jointure()` correspondant à l'algorithme de jointure ci-dessus.
+
+d) Vérifier votre fonction en réalisant une jointure sur les tables `personnes` et `personnes3`.
 
 ____________
 
