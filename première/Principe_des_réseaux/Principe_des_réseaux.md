@@ -308,47 +308,26 @@ Ce protocole est constitué de trois phases :
 
 1. Etablissement d'*une session de connexion* afin de synchroniser l'émetteur et le récepteur pour l'échange de données qui suit.
 
-2. Les paquets sont numérotés puis envoyés et un accusé de réception est attendu pour chacun d'entre eux.
+2. Les paquets sont numérotés puis envoyés et un accusé de réception est attendu pour chacun d'eux.
 
 3. Arrêt de la session.
 
-### b) Etablissement d'une session de connexion TCP
-
-L'établissement d'une session de connexion entre deux machines se réalise à l'aide de l'algorithme des trois poignées de mains (*Three-way Handshake* en anglais).
-
-```mermaid
-sequenceDiagram
-    autonumber
-    192.168.0.1->>192.168.2.1: SYN Je veux communiquer, êtes vous disponible ?
-    Note right of 192.168.2.1: Accusé de reception
-    192.168.2.1->>192.168.0.1: SYN-ACK Je peux communiquer, êtes vous prêts ?
-    Note left of 192.168.0.1: Accusé de reception, connexion établie
-    192.168.0.1->>192.168.2.1: ACK Je suis prêt !
-    Note right of 192.168.2.1: Connexion établie
-```
-
-- SYN (*Synchronized*) : Synchronisation
-
-- ACK (*Acknowledgement*) : Accusé de réception
-
-### c) Transfert des paquets IP avec TCP
-
-Les données étant trop lourdes, le protocole IP a découpé les données en deux paquets IP respectivement de numéro $100$ et $200$.
+### b) Transfert des paquets IP avec TCP
 
 Lors d'une situation sans problème :
 
 ```mermaid
 sequenceDiagram
     autonumber
-    192.168.0.1->>192.168.2.1: Envoi du paquet n°100
-    192.168.0.1->>192.168.2.1: Envoi du paquet n°200
-    192.168.2.1->>192.168.0.1: Envoi de l'accusé de reception n°101
-    192.168.2.1->>192.168.0.1: Envoi de l'accusé de reception n°102
+    192.168.0.1->>192.168.2.1: Envoi du paquet n°1
+    192.168.0.1->>192.168.2.1: Envoi du paquet n°2
+    192.168.2.1->>192.168.0.1: Envoi de l'accusé de reception du paquet n°1
+    192.168.2.1->>192.168.0.1: Envoi de l'accusé de reception du paquet n°2
 ```
-
-Les accusés de reception permettent le réenvoi des paquets perdus.
-
-Le numéro des paquets permettent de les assembler dans le bon ordre lors de leur reception.
+> [!NOTE]
+> Les accusés de reception permettent le réenvoi des paquets perdus.
+>
+> Le numéro des paquets permettent de les assembler dans le bon ordre lors de leur reception.
 
 ### d) Protocole UDP
 
@@ -362,7 +341,7 @@ Le protocole UDP n'utilise pas les accusés de réception et ne surcharge pas le
 
 Si un paquet est perdu, cela n'a pas de conséquence et le visionnage peut continuer avec les paquets suivants. 
 
-## VI. Encapsulation des données
+## VI. Encapsulation des données (hors programme)
 
 En descendant les couches, les données sont encapsulées. C'est à dire que chaque couche ajoute de l'information à ce qui va être envoyé :
 

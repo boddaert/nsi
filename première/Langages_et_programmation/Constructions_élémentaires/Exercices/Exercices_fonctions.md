@@ -1,17 +1,15 @@
 # Exercices
 
-## Exercice 1
-
-Écrire la signature de la fonction ``contient()`` qui prend en paramètre une chaîne de caractère $mot$, un caractère $lettre$ et renvoie comme résultat $True$ si $lettre$ est présent dans $mot$, $False$ sinon.
-
 ## Exercice 2
 
-Écrire une fonction `double(n : int)->int` qui prend en paramètre un entier $n$ et renvoie comme résultat $n \times 2$.
+a) Écrire une fonction `double(n : int)->int` qui prend en paramètre un entier $n$ et renvoie comme résultat $n \times 2$.
 
 ```python
 >>> double(2)
 4
 ```
+
+b) Tester sa fonction `double()` en l'appelant dans la console puis l'écrire dans le cahier.
 
 ## Exercice 3
 
@@ -21,31 +19,36 @@ b) Que renvoie l'instruction suivante ?
 
 ```python
 >>> suivant(suivant(2))
+...
 ```
 
 ## Exercice 4
 
-Écrire une fonction `est_egal_a(a : int, b : int)->bool` qui prend en paramètre deux entiers $a$ et $b$ et renvoie comme résultat $True$ si $a$ et $b$ sont égaux et $False$ sinon.
+a) Écrire une fonction `est_egal_a(a : int, b : int)->bool` qui prend en paramètre deux entiers $a$ et $b$ et renvoie comme résultat $True$ si $a$ et $b$ sont égaux et $False$ sinon.
 
 ```python
 >>> est_egal_a(5,7)
 False
 ```
 
+b) Tester sa fonction `est_egal_a()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 ## Exercice 5
 
-Écrire une fonction `est_superieur_a(a : int, b : int)->bool` qui prend en paramètre deux entiers $a$ et $b$ et renvoie comme résultat $True$ si $a > b$ et $False$ sinon.
+a) Écrire une fonction `est_superieur_a(a : int, b : int)->bool` qui prend en paramètre deux entiers $a$ et $b$ et renvoie comme résultat $True$ si $a > b$ et $False$ sinon.
 
 ```python
 >>> est_superieur_a(10, 9)
 True
 ```
 
+b) Tester sa fonction `est_superieur_a()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 ## Exercice 6 (Difficile)
 
 Rappel : L'énergie cinétique d'un objet de masse $m$ et de vitesse $v$ est : $`Ec=\frac{1}{2}mv^2`$.
 
-Écrire une fonction ``energie_cinetique(m : float, v : float)->float`` qui prend en paramètre une masse $m$ et une vitesse $v$, deux nombres flottants et renvoie la valeur de l'énergie cinétique d'un objet.
+a) Écrire une fonction ``energie_cinetique(m : float, v : float)->float`` qui prend en paramètre une masse $m$ et une vitesse $v$, deux nombres flottants et renvoie la valeur de l'énergie cinétique d'un objet.
 
 Cette fonction devra utiliser les fonctions ``produit()`` et ``carre()`` vus dans le chapitre (cf : [Fonctions](./../Fonctions.md)).
 
@@ -54,6 +57,7 @@ Cette fonction devra utiliser les fonctions ``produit()`` et ``carre()`` vus dan
 291.679
 ```
 
+b) Tester sa fonction `energie_cinetique()` en l'appelant dans la console puis l'écrire dans le cahier.
 _______________
 
 [Sommaire](./../../../README.md)

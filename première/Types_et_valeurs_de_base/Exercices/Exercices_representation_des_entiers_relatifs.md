@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-1. Trouver la représentation binaire de $-10_{10}$ en utilisant le complément à deux sur huit bits.
+1. Trouver la représentation binaire de $-10_{10}$ en utilisant le complément à deux sur quatre bits.
 
 2. Trouver la représentation binaire de $-128_{10}$ en utilisant le complément à deux sur huit bits.
 

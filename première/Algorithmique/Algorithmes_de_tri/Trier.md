@@ -10,59 +10,13 @@
 >
 > `l`, une liste Python d'entiers non triée et `l_triee` la permutation de `l` triée vérifie les contraintes suivantes :
 >
-> 1. La taille de `l` est égale à la taille de `l_triee`.
+> 1. La taille de `l_triee` obtenue est égale à la taille de `l`.
 >
-> 2. Tous les éléments contenus dans `l` sont présents dans `l_triee`.
+> 2. Tous les éléments contenus dans `l` sont également présents dans `l_triee`.
 >
 > 3. Pour chaque élément de `l` et de `l_triee`, le nombre d'occurence des éléments est le même.
 >
 > 4. La liste `l_triee` obtenue respecte la relation d'ordre (croissant/décroissant).
-
-#### <ins>Application 1</ins>
-
-Obtenir les permutations des listes suivantes  :
-
-1. `l = [4, 99, 0, 34, 7, 3, 2, 78]`.
-
-2. `l = [1]`
-
-3. `l = []`
-
-#### <ins>Application 2</ins>
-
-Donner les contraintes qui ne sont pas respectées pour les permutations suivantes :
-
-1. `l = [3, 9, 1, 0, 5, 7, 2, 6]` et `l_triee = [0, 0, 1, 2, 3, 5, 6, 7]`
-
-2. `l = [3, 9, 1, 0, 5, 7, 2, 6]` et `l_triee = [0, 1, 2, 3, 5, 6, 7, 8, 9]`
-
-#### <ins>Application 3</ins>
-
-Écrire une fonction `est_bonne_taille(l : list, l_triee : list)->bool` qui prend en paramètre deux listes et renvoie $True$ si elles sont de la même taille, $False$ sinon.
-
-Cette fonction permet de vérifier la première contrainte.
-
-#### <ins>Application 4</ins>
-
-Écrire une fonction `sont_presents(l : list, l_triee : list)->bool` qui prend en paramètre deux listes et renvoie $True$ si tous les éléments de `l` sont présents dans `l_triee`, $False$ sinon.
-
-Cette fonction permet de vérifier la deuxième contrainte.
-
-#### <ins>Application 5</ins>
-
-Écrire une fonction `bonnes_occurences(l : list, l_triee : list)->bool` qui prend en paramètre deux listes et renvoie $True$ si pour chacun des éléments de `l` et `l_triee`, leur nombre d'occurence est le même, $False$ sinon.
-
-Cette fonction permet de vérifier la troisième contrainte.
-
-#### <ins>Application 6</ins>
-
-Écrire une fonction `est_ordonnee(l_triee : list)->bool` qui prend en paramètre une liste et renvoie $True$ si elle est ordonnée en ordre croissant de ses éléments, $False$ sinon.
-
-Cette fonction permet de vérifier la quatrième contrainte.
-
-#### <ins>Application 7</ins>
-
-Écrire une fonction `est_triee(l : list, l_triee : list)->bool` qui prend en paramètre deux listes et renvoie $True$ si `l_triee` est une permutation de `l` vérifiant les contraintes de tri.
 
 ## II. Tri...
 
@@ -79,11 +33,9 @@ Ainsi, selon le type des données que l'on souhaite trier, la fonction `compare(
 
 > Il existe des tris qui n'utilisent pas les comparaisons comme le tri par dénombrement.
 
-#### <ins>Application 8</ins>
+#### <ins>Application 1</ins>
 
-a) Dire quel est l'outil faisant office de fonction `compare()` lors de l'activité.
-
-b) Écrire une fonction `compare(a : int, b : int)->bool` qui prend en paramètre deux entiers et renvoie $True$ si $a \geq b$.
+Dire quel est l'outil faisant office de fonction `compare()` lors de l'activité.
 
 ### b) ...en place
 
@@ -98,7 +50,7 @@ Le tri en informatique est très utilisé dans le pré-traitement des données.
 
 C'est-à-dire, lorsque les données ont besoin d'être triées pour que le traitement sur celles-ci soit plus efficace, moins coûteuse.
 
-#### <ins>Application 9</ins>
+#### <ins>Application 2</ins>
 
 Expliquer pourquoi le tri peut permettre de réduire le coût algorithmique du problème de recherche d'un élément dans une liste.
 

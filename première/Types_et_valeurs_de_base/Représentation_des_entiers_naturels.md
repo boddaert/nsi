@@ -98,10 +98,6 @@ Les chiffres de la séquence sont organisés selon leur poids :
 >| :---: | :---: | :---: | :---: |
 >| Poids des chiffres | $2$ | $1$ | $0$ |
 
-#### <ins>Application 1</ins>
-
-Indiquer les poids de chacun des chiffres de la séquence $13098_{10}$.
-
 ## IV. Représentation binaire
 
 ### a) Deux symboles
@@ -155,9 +151,9 @@ Les bits de la séquence sont organisés selon leur poids :
 > [!NOTE]
 > Le bit situé tout à gauche de la séquence est appelé **bit de poids fort**.
 
-#### <ins>Application 2</ins>
+#### <ins>Application 1</ins>
 
-Donner un nombre en base deux différent de l'exemple.
+Donner un nombre en base deux dont le poids du bit le plus à gauche est $5$.
 
 ## V. Représentation hexadécimale
 
@@ -225,9 +221,9 @@ Les chiffres de la séquence sont organisés selon leur poids :
 >| Poids des chiffres | $2$ | $1$ | $0$ |
 
 
-#### <ins>Application 3</ins>
+#### <ins>Application 2</ins>
 
-Donner un nombre écrit en base seize différent de l'exemple.
+Donner un nombre en base seize dont le poids du bit le plus à gauche est $3$.
 
 ## VI. Récapitulatif des représentations
 
@@ -249,10 +245,11 @@ Donner un nombre écrit en base seize différent de l'exemple.
 | $1101$ | $13$ | $D$ |
 | $1110$ | $14$ | $E$ |
 | $1111$ | $15$ | $F$ |
+| ... | ... | ... |
 
 ## VII. Changements de base
 
-Un nombre ayant donc plusieurs représentations, il peut être utile de savoir comment passer la représentation de ce nombre d'une base à une autre.
+Un nombre ayant donc plusieurs représentations, il peut être utile de savoir comment changer la représentation de ce nombre, c'est-à-dire de passer d'une base à une autre.
 
 ### a) De la base dix vers la base deux
 
@@ -265,9 +262,9 @@ La méthode consiste à diviser euclidiennement et succéssivement le nombre par
 >
 > Ainsi $456_{10} = 111001000_2$ :
 
-#### <ins>Application 4</ins>
+#### <ins>Application 3</ins>
 
-Trouver la représentation binaire de $291_{10}$.
+Trouver la représentation binaire de $91_{10}$.
 
 ### b) De la base deux vers la base dix
 
@@ -277,7 +274,7 @@ La méthode consiste à multiplier chaque bit à un de la séquence par $2^p$ av
 > Par exemple :
 > $111001000_2 = (1 * 2^8) + (1 * 2^7) + (1 * 2^6) + (1 * 2^3) = 456_{10}$
 
-#### <ins>Application 5</ins>
+#### <ins>Application 4</ins>
 
 Trouver la représentation décimale de $1011011_2$.
 
@@ -294,7 +291,7 @@ La méthode consiste à regrouper les bits par bloc de quatre (en partant du bit
 >
 > Ainsi : $111001000_2 = 1C8_{16}$
 
-#### <ins>Application 6</ins>
+#### <ins>Application 5</ins>
 
 Trouver la représentation hexadécimale de $1011011_2$.
 _____________________

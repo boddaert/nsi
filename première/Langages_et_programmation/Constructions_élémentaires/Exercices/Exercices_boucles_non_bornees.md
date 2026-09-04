@@ -38,16 +38,18 @@ b) Vérifier vos résultats en exécutant les programmes dans Thonny.
 
 ## Exercice 2
 
-Écrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ et calcule $1+2+3+ ... +n$ en utilisant la boucle `while`.
+a) Écrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ et calcule $1+2+3+ ... +n$ en utilisant la boucle `while`.
 
 ```python
 >>> suite(5)
 15
 ```
 
+b) Tester sa fonction `suite()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 ## Exercice 3
 
-Écrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
+a) Écrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
 Cette fonction devra utiliser uniquement l'opérateur de multiplication `*` et la boucle `while`.
 
@@ -56,11 +58,13 @@ Cette fonction devra utiliser uniquement l'opérateur de multiplication `*` et l
 16
 ```
 
+b) Tester sa fonction `puissance_2()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 ## Exercice 4 (Difficile)
 
 Rappel : Un entier est pair si le reste de la division entière par $2$ vaut $0$.
 
-Écrire une fonction `nb_etape(n : int)->int` qui prend en paramètre un entier $n$.
+a) Écrire une fonction `nb_etape(n : int)->int` qui prend en paramètre un entier $n$.
 
 Tant que cet entier n'est pas égal à $1$, nous le divisons par $2$ s'il est pair ou nous le multiplions par $3$ et nous ajoutons $1$ s'il est impair.
 
@@ -70,6 +74,8 @@ La fonction renvoie comme résultat le nombre d'étapes nécessaire pour arriver
 >>> nb_etape(734)
 46
 ```
+
+b) Tester sa fonction `nb_etape()` en l'appelant dans la console puis l'écrire dans le cahier.
 
 _______________
 

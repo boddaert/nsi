@@ -11,7 +11,9 @@ Cette fonction devra effectuer la division uniquement si $b$ est différent de $
 2.0
 ```
 
-b) Dessiner le schéma de branchement de la fonction `divise()`.
+b) Tester sa fonction `divise()` en l'appelant dans la console puis l'écrire dans le cahier.
+
+c) Dessiner le schéma de branchement de la fonction `divise()`.
 
 ## Exercice 2
 
@@ -36,40 +38,50 @@ b) Dessiner son schéma de branchement.
 
 ## Exercice 3
 
-Écrire une fonction ``test_pythagore(a : int, b : int, c : int)->bool`` qui prend en paramètre trois entiers $a$, $b$ et $c$ et renvoie $True$ si $a^2 + b^2 = c^2$, et $False$ sinon.
+a) Écrire une fonction ``test_pythagore(a : int, b : int, c : int)->bool`` qui prend en paramètre trois entiers $a$, $b$ et $c$ et renvoie $True$ si $a^2 + b^2 = c^2$, et $False$ sinon.
 
 Cette fonction doit comporter une instruction conditionnelle.
 
+b) Tester sa fonction `test_pythagore()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 ## Exercice 4
 
-Écrire une fonction ``max2(a : int, b : int)->int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie l'entier le plus grand.
+a) Écrire une fonction ``max2(a : int, b : int)->int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie l'entier le plus grand.
 
 ```python
 >>> max2(5,13)
 13
 ```
 
+b) Tester sa fonction `max2()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 ## Exercice 5
 
-En utilisant la fonction `randint()` du module `random`, écrire une fonction `max_alea(n : int)->bool` qui prend en paramètre un entier $n$ et renvoie $True$ si $n$ est plus grand que l'entier aléatoire créé compris entre $1$ et $10$.
+a) En utilisant la fonction `randint()` du module `random`, écrire une fonction `max_alea(n : int)->bool` qui prend en paramètre un entier $n$ et renvoie $True$ si $n$ est plus grand que l'entier aléatoire créé compris entre $1$ et $10$.
+
+b) Tester sa fonction `max_alea()` en l'appelant dans la console puis l'écrire dans le cahier.
 
 ## Exercice 6
 
-Écrire une fonction ``max3(a : int, b : int, c : int)->int`` qui prend en paramètres trois entiers $a$, $b$ et $c$ et renvoie l'entier le plus grand.
+a) Écrire une fonction ``max3(a : int, b : int, c : int)->int`` qui prend en paramètres trois entiers $a$, $b$ et $c$ et renvoie l'entier le plus grand.
 
 ```python
 >>> max3(5,7,15)
 15
 ```
 
+b) Tester sa fonction `max3()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 ### Exercice 7
 
-Écrire une fonction ``ordre_croissant(a : int, b : int, c : int)->str`` qui prend en paramètre trois entiers $a$, $b$ et $c$ et renvoie comme résultat une chaîne de caractère contenant $a$, $b$ et $c$ dans l'ordre croissant.
+a) Écrire une fonction ``ordre_croissant(a : int, b : int, c : int)->str`` qui prend en paramètre trois entiers $a$, $b$ et $c$ et renvoie comme résultat une chaîne de caractère contenant $a$, $b$ et $c$ dans l'ordre croissant.
 
 ```python
 >>> ordre_croissant(5,13,4)
 'b > a > c'
 ```
+
+b) Tester sa fonction `ordre_croissant()` en l'appelant dans la console puis l'écrire dans le cahier.
 
 ## Exercice 8 (Difficile)
 
@@ -81,7 +93,9 @@ a) Écrire une fonction ``test_triangle(a : int, b : int, c : int)->str`` qui pr
 
 La fonction doit renvoyer `isocele` s'il s'agit d'un triangle iscoèle, `equilateral` s'il s'agit d'un triangle équilatéral ou `ce nest pas un triangle` s'il ne s'agit pas d'un triangle.
 
-b) Modifier la fonction ``test_triangle()`` en ajoutant le fait qu'il peut s'agir d'un triangle rectangle, on pourra utiliser la fonction ``test_pythagore()`` pour cela.
+b) Tester sa fonction `test_triangle()` en l'appelant dans la console puis l'écrire dans le cahier.
+
+c) Modifier la fonction ``test_triangle()`` en ajoutant le fait qu'il peut s'agir d'un triangle rectangle, on pourra utiliser la fonction ``test_pythagore()`` pour cela.
 
 _______________
 

@@ -19,7 +19,7 @@ Elle réalise une tâche précise et peut dépendre de paramètres.
 
 ### a) Signature
 
-Pour être un peu plus précis sur la définition d'une fonction, nous écrivons sa **signature**.
+Pour être un peu plus précis sur la définition d'une fonction, nous pouvons donner sa **signature**.
 
 > [!IMPORTANT]
 >La *signature d'une fonction* est composée du nom de la fonction, du nom et du type des paramètres et du type de la valeur du résultat renvoyé par la fonction.
@@ -29,7 +29,7 @@ Pour être un peu plus précis sur la définition d'une fonction, nous écrivons
 >
 > Soit `somme()` la fonction permettant de faire la somme de deux entiers.
 >
->La signature de la fonction `somme()` s'écrirait : `somme(a : int, b : int) -> int`.
+> La signature de la fonction `somme()` s'écrirait : `somme(a : int, b : int) -> int`.
 >
 >- Le nom est : `somme()`.
 >
@@ -56,10 +56,6 @@ Donner, pour chaque signature suivante, le nom de la fonction, son ou ses param�
 3. ``pythagore( a : float, b : float, c : float) -> float``
 
 4. ``nombre_caracteres(mot : str ) -> int``
-
-#### <ins>Application 2</ins>
-
-Écrire la signature de la fonction ``maximum()``qui prend en paramètres deux entiers $a$ et $b$ et renvoie comme résultat l'entier maximum parmi les deux.
 
 ## II. Écriture de fonction
 
@@ -110,11 +106,11 @@ Le mot-clé `return` permet de **renvoyer** un résultat.
 > [!IMPORTANT]
 > Une *procédure* est une fonction ne renvoyant pas de résultat et donc ne contient pas d'instruction `return`.
 
-#### <ins>Application 3</ins>
+#### <ins>Application 2</ins>
 
 Écrire, en Python, la fonction ``produit(a : int, b : int) -> int`` qui prend en paramètres deux entiers $a$ et $b$ et renvoie comme résultat $a \times b$.
 
-#### <ins>Application 4</ins>
+#### <ins>Application 3</ins>
 
 Écrire, en Python, la fonction `carre(n : int) -> int` qui prend en paramètres un entier $n$ et renvoie comme résultat $n²$.
 
@@ -146,7 +142,7 @@ Pour appeler une fonction, il suffit d'écrire le nom de la fonction avec les ar
 > [!WARNING]
 > Le type de l'argument doit être impérativement le même que celui du paramètre.
 
-#### <ins>Application 5</ins>
+#### <ins>Application 4</ins>
 
 a) Vérifier la bonne réponse à l'application $3$ en appelant la fonction dans la console Python plusieurs fois avec des arguments différents.
 
@@ -184,14 +180,15 @@ Ou encore l'utiliser en tant qu'argument d'une autre fonction.
 ><class 'int'>
 >```
 
-#### <ins>Application 6</ins>
+#### <ins>Application 5</ins>
 
-a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des séquence suivante :
+a) Sans utiliser l'ordinateur et directement sur votre cahier, proposer un résultat sur chacune des séquence suivante :
 
 1. Instruction 1
 
 ```python
 >>> type(produit(3,4))
+...
 ```
 
 2. Instruction 2
@@ -201,12 +198,14 @@ a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des séquence s
 >>> b = produit(3,4)
 >>> c = a + b
 >>> c
+...
 ```
 
 3. Instruction 3
 
 ```python
 >>> somme(5, somme(3,2))
+...
 ```
 
 b) Vérifier vos réponses en utilisant la console Python.
@@ -219,21 +218,9 @@ b) Vérifier vos réponses en utilisant la console Python.
 > [!TIP]
 > La fonction ``type()`` par exemple est une fonction native.
 
-#### <ins>Application 7</ins>
+Il existe tout un tas de fonction natives en Python.
 
-Il est possible, avec une fonction native, de changer le type de nos valeurs.
-
-- La fonction ``str()`` renvoie la valeur mise en parenthèses sous le type de chaîne de caractère.
-
-- La fonction ``int()`` renvoie la valeur mise en parenthèses sous le type de nombre entier .
-
-- La fonction ``float()`` renvoie la valeur mise en parenthèses sous le type de nombre flottant.
-
-a) Dans la console Python et à l'aide de la fonction `str()`, convertir les valeurs `42`, `3.14`, `0.0` et `True` en chaîne de caractères.
-
-b) Dans la console Python et à l'aide de la fonction `int()`, convertir les valeurs `3.14`, `True`, `False` et `"42"`.
-
-c) Dans la console Python et à l'aide de la fonction `float()`, convertir les valeurs `42`, `3.14` et `"3000"`.
+Les fonctions `str()`, `int()` et `float()` permettent de changer le type de leur paramètre.
 
 ___________
 

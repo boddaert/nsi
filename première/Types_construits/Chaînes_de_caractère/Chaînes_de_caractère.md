@@ -270,8 +270,6 @@ Dans le parcours par indice, nous parcourons les caractères indice par indice.
 > | $1$ | / | / |
 > | $2$ | $0$ | / |
 > | $3$ | $0$ | $c$ |
-> | $2$ | $1$ | $c$ |
-> | $3$ | $1$ | $o$ |
 > | ... | ... | ... |
 
 #### <ins>Application 9</ins>
@@ -300,10 +298,6 @@ Dans le parcours par élément, nous parcourons caractère par caractère.
 >| $3$ | $o$ | $o$ |
 >| ... | ... | ... |
 
-
-#### <ins>Application 10</ins>
-
-Compléter la trace d'exécution de l'exemple précédent.
 ___________
 
 [Exercices](./Exercices/Exercices_chaînes_de_caractère.md)

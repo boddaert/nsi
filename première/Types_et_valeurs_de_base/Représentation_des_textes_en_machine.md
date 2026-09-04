@@ -88,7 +88,7 @@ La fonction `chr()` prend en paramètre un entier et renvoie le caractère corre
 
 2. La représentation décimale correpondant au caractère `' '` selon l'encodage ASCII.
 
-## III. Norme ISO 8859
+## III. Après l'ASCII (hors programme)
 
 ### a) Extension de l'ASCII
 
@@ -125,7 +125,7 @@ Nous, européens occidentaux, utilisons la page ISO 8859-1, reprise de l'ASCII �
 
 Plus d'informations sur la norme ISO 8859 : [Wikipedia 8859](https://fr.wikipedia.org/wiki/ISO/CEI_8859)
 
-## IV. Norme ISO 10646
+### c) Norme ISO 10646
 
 Bien que les pages ISO 8859- $n$ permettent l'encodage d'un grand nombre de caractères, elles ne conviennent pas par exemple quand nous souhaitons écrire un texte avec un mélange de caractères depuis différents alphabets.
 
@@ -143,9 +143,7 @@ En pratique, un point de code contient au minimum quatre chiffres et nous en ajo
 
 Plus d'informations sur la norme ISO 10646 : [Wikipedia 10646](https://fr.wikipedia.org/wiki/ISO/CEI_10646)
 
-## V. Unicode
-
-### a) UTF
+### d) Unicode
 
 Cependant, avec un tel nombre de point de code, un encodage naïf de la norme ISO 10646 utiliserait donc au minimum quatre octets pour représenter chaque caractère.
 
@@ -172,7 +170,7 @@ Nous sommes dans la deuxième plage de UTF-8 donc il y aura deux octets.
 
 Encodage UTF-8 du caractère `é` : $11000011 10101001_2$ ou $C3 A9_{16}$.
 
-### b) Unicode en Python
+### e) Unicode en Python
 
 La méthode `encode()` permet d'obtenir l'encodage UTF-8 en hexadécimal à partir d'un caractère ou d'un point de code.
 
@@ -193,24 +191,6 @@ La méthode `decode()` permet d'obtenir un caractère à partir de son encodage 
 > >>> b'\xc3\xa9'.decode()
 > 'é'
 > ```
-
-#### <ins>Application 3</ins>
-
-Trouver l'encodage UTF-8 des caractères suivants :
-
-1. `'K'`
-
-2. `'Å'`
-
-3. `'જ'`
-
-#### <ins>Application 4</ins>
-
-Trouver les caractères des encodages UTF-8 suivants :
-
-1. $C3 B9_{16}$
-
-2. $E0 BE BF_{16}$
 
 ______________
 

@@ -75,8 +75,6 @@ b) En demi-précision (seize bits), trouver la représentation décimale de $110
 
 c) En demi-précision (seize bits), trouver la représentation décimale de $0001 \space 1101 \space 1111 \space 1111_2$ et noter le calcul effectué de la norme IEEE 754.
 
-d) En demi-précision (seize bits), trouver la représentation décimale de $1100 \space 1100 \space 0010 \space 0011_2$ et noter le calcul effectué de la norme IEEE 754.
-
 __________________
 
 [Sommaire](./../README.md)

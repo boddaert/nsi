@@ -87,9 +87,13 @@ Voir plus : [https://docs.python.org/fr/3/library/time.html](https://docs.python
 
 #### <ins>Application 1</ins>
 
-a) Dans un fichier `nom_prenom_importation_globale.py`, importer de manière globale le module `math` puis, dans la console, afficher la valeur de $\pi$.
+a) Dans le mode programmation de Thonny, écrire la ligne de code permettant d'importer de manière globale le module `math` puis, dans la console, afficher la valeur de $\pi$.
 
-b) Dans un second fichier `nom_prenom_importation_precise.py`, importer de manière précise le module `math` puis, dans la console, afficher la valeur de $\pi$.
+b) Écrire la réponse dans le cahier.
+
+c) Dans le mode programmation de Thonny, écrire la ligne de code permettant d'importer de manière précise le module `math` puis, dans la console, afficher la valeur de $\pi$.
+
+d) Écrire la réponse dans le cahier.
 
 ________
 

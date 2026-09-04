@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-Sans utiliser l'ordinateur et pour chacun des programmes suivants, indiquer les valeurs contenues dans les variables `a` et `b` à l'issue de leur exécution :
+Sans utiliser l'ordinateur, directement sur votre cahier et pour chacun des programmes suivants, indiquer les valeurs contenues dans les variables `a` et `b` à l'issue de leur exécution :
 
 1. Programme 1
 
@@ -43,8 +43,7 @@ b = a
 
 ## Exercice 2
 
-Pour chacun des programmes suivants, donner la trace d'exécution :
-
+Directement sur votre cahier et pour chacun des programmes suivants, faire la trace d'exécution :
 
 1. Programme 1
 
@@ -78,14 +77,14 @@ b = tmp
 
 ## Exercice 3
 
-Pour chacun des programmes de l'exercice 2 :
+a) Écrire le programme 3 de l'exercice 2 dans l'éditeur de texte en mode programmation de Thonny.
 
-a) Écrire le programme dans l'éditeur de texte en mode programmation de Thonny.
+b) En utilisant l'outil de déboguage de Thonny, exécuter ligne par ligne ce programme et observer l'état des variables à chaque étape.
 
-b) Aller dans l'onglet `Affichage` et cocher `Variables`. Une nouvelle fenêtre à droite de l'écran s'ouvre.
+> [!NOTE]
+> Pour afficher l'état des variables, cliquer sur l'onglet **Affichage** puis cocher **Variables**.
 
-c) Exécuter ligne par ligne le programme en utilisant l'outil de **Débogueur** (le bouton à droite de celui d'exécution) et observer en direct la valeur contenue dans les variables.
-
+c) Finalement, expliquer ce que fait ce programme.
 _______________
 
 [Sommaire](./../../../README.md)

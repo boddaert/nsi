@@ -39,19 +39,6 @@ Les opérateurs mathématiques ont comme opérandes des nombres entiers ou flott
 > 3
 > ```
 
-#### <ins>Application 1</ins>
-
-a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des opérations suivante :
-
-1. `11 + 7`
-2. `11 * 7`
-3. `11 / 7`
-4. `11 // 7`
-5. `11 ** 7`
-6. `11 % 7`
-
-b) Vérifier vos réponses en utilisant la console Python.
-
 ### b) Opérateurs de comparaison
 
 |   En Français    |   En Python   |
@@ -71,19 +58,6 @@ Les opérateurs de comparaison ont comme opérandes des nombres entiers ou flott
 > >>> 5 > 2
 > True
 > ```
-
-#### <ins>Application 2</ins>
-
-a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des opérations suivante :
-
-1. `11 > 7`
-2. `11 < 7`
-3. `11 >= 7`
-4. `11 <= 7`
-5. `11 == 7`
-6. `11 != 7`
-
-b) Vérifier vos réponses en utilisant la console Python.
 
 ### c) Opérateurs booléens
 
@@ -129,19 +103,6 @@ Nous résumons généralement les résultats des opérateurs booléens dans des 
 | $True$ | $False$ | $True$ | 
 | $True$ | $True$ | $True$ | 
 
-
-####  <ins>Application 3</ins>
-
-a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des opérations suivante :
-
-1. `True or False`
-2. `True or True`
-3. `True and True`
-4. `not False`
-5. `not False and True`
-
-b) Vérifier vos réponses en utilisant la console Python.
-
 ## III. Ordres de priorité
 
 Comme sur la calculatrice classique, les ordres de priorité sont respectés. L'opérateur `*` étant prioritaire par rapport à l'opérateur `+`.
@@ -154,20 +115,6 @@ Les parenthèses `()` permettent d'augmenter la priorité de l'expression encadr
 > >>> (3 + 5) * 2
 > 16
 > ```
-
-#### <ins>Application 4</ins>
-
-a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des opérations suivante :
-
-1. `(3 + 8) * 2`
-
-2. `3 + (8 * 2)`
-
-3. `3 + 8 * 2`
-
-4. `2 * 8 + 3`
-
-b) Vérifier vos réponses en utilisant la console Python.
 
 __________
 

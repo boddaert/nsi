@@ -41,7 +41,7 @@ Elle prend deux paramètres représentant une **borne de début** et une **borne
 
 #### <ins>Application 1</ins>
 
-Donner, sans utiliser l'ordinateur, le résultat des instructions suivantes :
+Donner, sans utiliser l'ordinateur et directement sur votre cahier, le résultat des instructions suivantes :
 
 1. Instruction 1
 ```python
@@ -101,14 +101,6 @@ for ind in range(3,6):
     a = a + 5
 ```
 
-3. Programme 3
-
-```python
-a = 0
-for i in range(-5,3):
-    a = a + 2
-```
-
 #### <ins>Application 3</ins>
 
 Écrire les programmes Python correspondant aux algorithmes suivants :
@@ -125,13 +117,6 @@ Pour i allant de 0 à 10, faire :
 a est égal à 0
 Pour j allant de -1 à 20, faire :
     a est égal à a+2
-```
-
-3. Algorithme 3
-```
-a est égal à 0
-Pour i allant de 10 à 20, faire :
-    a est égal à a-4
 ```
 
 ### b) Indice de boucle

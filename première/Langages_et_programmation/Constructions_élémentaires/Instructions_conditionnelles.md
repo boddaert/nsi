@@ -14,7 +14,7 @@ Si la condition n'est pas remplie, le code inclus dans l'instruction conditionne
 
 ### a) Schéma de branchement
 
-Nous pouvons visualiser comment se comporte l'exécution d'un programme en dessinant son **schéma de branchement** :
+Nous pouvons visualiser comment se comporte l'exécution d'une instruction conditionnelle en dessinant son **schéma de branchement** :
 
 ```mermaid
   graph TB;
@@ -73,14 +73,6 @@ a = a * 2
 2. Programme 2
 
 ```python
-if a or b :
-    a = True
-    b = True
-```
-
-3. Programme 3
-
-```python
 if a < b and b < c :
     b = c -1
     c = a + 1
@@ -108,14 +100,6 @@ Retrouver, pour chaque schéma de branchement suivant, le programme correspondan
       A--VRAI-->B[a est égal à a-1];
       B-->C[b est égal à b+1];
       A--FAUX-->C[b est égal à b+1];
-```
-
-3. Schéma de branchement 3
-
-```mermaid
-  graph TB;
-      A{Si a ou b et non c, alors :};
-      A--True-->B[c est égal à non c];
 ```
 
 ## II. Alternative

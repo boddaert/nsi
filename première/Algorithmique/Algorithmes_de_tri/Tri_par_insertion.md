@@ -40,8 +40,6 @@ l[j] <- elt
 
 Réécrire, en python, la fonction `inserer( l : list , i : int)->None`.
 
-> Cette fonction devra remplacer la seconde comparaison par la fonction `compare()`.
-
 #### <ins>Application 2</ins>
 
 Écrire en python une fonction `tri_insertion(l : list)->None` qui en paramètre une liste ``l`` et trie dans l'ordre croissant les éléments de `l`.
@@ -52,23 +50,21 @@ Réécrire, en python, la fonction `inserer( l : list , i : int)->None`.
 
 L'objectif est de déterminer le coût algorithmique en temps de l'algorithme du tri par insertion.
 
-Pour cela, nous allons compter le nombre d'opérations coûteuses (les comparaisons).
+Pour cela, nous allons compter le nombre d'opérations coûteuses (les comparaisons) en fonction de la taille de la liste.
 
 La fonction `tri_insertion()` exécute un appel à la fonction `inserer()`, il faut donc compter préalablement le nombre de comparaisons effectuées par la fonction `inserer()`.
 
 ### a) Étude de la fonction `inserer()`
 
-La fonction `inserer()` effectue des appels à la fonction `compare()`.
-
-La fonction `compare()` comptabilise **une** comparaison : calculons alors le nombre d'appels effectués à la fonction `compare()`.
+La fonction `inserer()` comptabilise **deux** comparaisons.
 
 #### <ins>Application 3</ins>
 
-a) Modifier la fonction ``inserer()`` pour qu'elle affiche le nombre d'appels effectué à la fonction `compare()`.
+a) Modifier la fonction ``inserer()`` pour qu'elle affiche le nombre de comparaisons effectuées.
 
-b) Qu'est-il affiché lorsque j'exécute la fonction `inserer()` avec comme arguments : `l = [1, 2, 3, 4, 0, 9, 8, 6, 7]` et `i = 4` ?
+b) Qu'est-il affiché lorsque j'exécute la fonction `inserer()` avec comme arguments : `l = [1, 2, 3, 4, 0]` et `i = 4` ?
 
-c) Qu'est-il affiché lorsque j'exécute la fonction `inserer()` avec comme arguments : `l = [1, 2, 3, 4, 5, 9, 8, 6, 7]` et `i = 4` ?
+c) Qu'est-il affiché lorsque j'exécute la fonction `inserer()` avec comme arguments : `l = [1, 2, 3, 4, 5]` et `i = 4` ?
 
 d) En déduire de la question b), pour une liste de longueur $n$ et avec $i = n - 1$, le nombre maximal de comparaisons pouvant être effectuées.
 
@@ -82,7 +78,7 @@ Il s'agit du scénario le plus favorable : le meilleur des cas.
 
 La fonction `tri_insertion()` effectue des appels à la fonction `inserer()`.
 
-Le nombre total de comparaison de la fonction `tri_insertion()` est la somme des appels à la fonction `compare()`.
+Le nombre total de comparaison de la fonction `tri_insertion()` est la somme des comparaisons des appels à la fonction `inserer()`.
 
 > Rappel : $somme\quad des\quad termes\quad d'une\quad suite\quad arithmétique\quad =\quad nombre\quad de\quad termes \times \dfrac{(premier\quad terme\quad +\quad dernier\quad terme)}{2}$
 
@@ -92,7 +88,7 @@ a) Qu'est-il affiché lorsque j'exécute la fonction `tri_insertion()` pour une 
 
 b) Qu'est-il affiché lorsque j'exécute la fonction `tri_insertion()` pour une liste déjà triée croissante de longueur $5$ ? $10$ ? $20$ ?
 
-### c) Généralisation du coût algorithmique 
+### c) Généralisation de la complexité de l'algorithme de tri par insertion
 
 Pour une liste de taille $n$ donnée, le coût algorithmique temporel est égale à $\dfrac{n(n-1)}{2}$ pour le pire des cas et à $(n-1)$ dans le meilleur des cas.
 
@@ -111,10 +107,6 @@ Prouver qu'un algorithme se termine, c'est trouver son variant de boucle (voir [
 #### <ins>Application 6</ins>
 
 En relisant [I. Algorithme](#algorithme) de cette leçon, repérer un variant de boucle dans l'algorithme `inserer` afin d'affirmer qu'il se termine bien.
-
-#### <ins>Application 7</ins>
-
-Expliquer pourquoi la preuve de terminaison de l'algorithme `inserer` suffit à dire que l'algorithme `tri_insertion` se termine.
 
 ## IV. Correction
 

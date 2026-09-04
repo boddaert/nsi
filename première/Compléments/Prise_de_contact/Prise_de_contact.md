@@ -37,15 +37,19 @@ En Terminale, le volume horaire est de six heures par semaine :
 
 ## II. Consignes de travail
 
-### a) Sur papier
+### a) En classe
 
-- Les réponses à tous les exercices doivent être rédigées en plus **dans un cahier**. 
+#### 1. Les téléphones portables
 
-### b) Sur ordinateur
+- Tous les téléphones portables doivent être **déposés** dans la boîte située au fond de la classe à chaque début de cours.
 
-- Les répertoires et fichiers doivent être rangés correctement dans votre espace de travail : exercices et programmes séparés par chapitre.
+### 2. Sur ordinateur
 
-- Les répertoires et fichiers doivent être nommés explicitement avec votre nom et prénom.
+- Les répertoires et fichiers doivent être **rangés** correctement dans votre espace de travail numérique : un même fichier contiendra tous les exercices d'un chapitre.
+
+#### 3. Sur papier
+
+- Une fois qu'un exercice est **terminé** et **vérifié**, la réponse doit être retranscrit à l'écrit **dans un cahier**. 
 
 ### c) A la maison
 

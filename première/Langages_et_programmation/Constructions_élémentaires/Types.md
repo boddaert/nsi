@@ -5,7 +5,7 @@
 En Python, les valeurs ont des types. 
 
 > [!IMPORTANT]
-> Une *valeur* est donnée manipulable.
+> Une *valeur* est une donnée manipulable.
 
 > [!IMPORTANT]
 > Chaque valeur possède un *type* qui la **caractérise**.

@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-Écrire une fonction `racine(n : int)->float` qui prend en paramètre un entier $n$ et renvoie comme résultat la racine carrée de $n$.
+a) Écrire une fonction `racine(n : int)->float` qui prend en paramètre un entier $n$ et renvoie comme résultat la racine carrée de $n$.
 
 Cette fonction devra utiliser le module `math` qui aura été importé de manière précise.
 
@@ -11,11 +11,13 @@ Cette fonction devra utiliser le module `math` qui aura été importé de maniè
 1.732050808
 ```
 
+b) Tester sa fonction `racine()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 ## Exercice 2
 
 *Rappel : Le calcul de l'hypoténuse du segment* $c$ *est :* $c = sqrt{(a^2 + b^2)}$
 
-Écrire une fonction `hypotenuse(a : int, b : int)->float` qui prend en paramètre deux entiers et renvoie comme résultat la valeur de l'hypoténuse d'un triangle rectangle dont les deux autres côtés ont comme longueurs celles des paramètres.
+a) Écrire une fonction `hypotenuse(a : int, b : int)->float` qui prend en paramètre deux entiers et renvoie comme résultat la valeur de l'hypoténuse d'un triangle rectangle dont les deux autres côtés ont comme longueurs celles des paramètres.
 
 Cette fonction doit utiliser la fonction `racine()` définie précédemment.
 
@@ -24,9 +26,11 @@ Cette fonction doit utiliser la fonction `racine()` définie précédemment.
 5.84
 ```
 
+b) Tester sa fonction `hypotenuse()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 ## Exercice 3
 
-Écrire une fonction `des()->int` qui ne prend aucun paramètre et renvoie comme résultat un chiffre aléatoire parmi $1$, $2$, $3$, $4$, $5$ et $6$.
+a) Écrire une fonction `des()->int` qui ne prend aucun paramètre et renvoie comme résultat un chiffre aléatoire parmi $1$, $2$, $3$, $4$, $5$ et $6$.
 
 Cette fonction devra utiliser le module `random` qui aura été importé de manière globale.
 
@@ -36,6 +40,9 @@ Cette fonction devra utiliser le module `random` qui aura été importé de mani
 >>> des()
 2
 ```
+
+b) Tester sa fonction `des()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 _______________
 
 [Sommaire](./../../../README.md)

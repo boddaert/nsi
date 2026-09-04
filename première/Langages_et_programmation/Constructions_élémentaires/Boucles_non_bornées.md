@@ -52,7 +52,7 @@ En Python, les boucles non bornées s'écrivent en utilisant le mot-clé `while`
 
 #### <ins>Application 1</ins>
 
-Traduire en Français les programmes suivants :
+Dessiner le schéma de branchement pour chacun des programmes suivants :
 
 1. Programme 1
 
@@ -70,49 +70,9 @@ while a > 0 :
     a = a - 1
 ```
 
-3. Programme 3
-
-```python
-a = 0
-while a <= 10 :
-    a = a + 2
-```
-
 #### <ins>Application 2</ins>
 
-Dessiner le schéma de branchement pour chacun des programmes de l'application $1$.
-
-#### <ins>Application 3</ins>
-
-Écrire les programmes Python correspondant aux algorithmes en français suivants :
-
-1. Algorithme 1
-
-```
-a est égal à 0
-Tant que a est inférieur à 12, faire :
-    a est égal à a+1
-```
-
-2. Algorithme 2
-
-```
-a est égal à 0
-Tant que a est inférieur à 12, faire :
-    a est égal à a+5
-```
-
-3. Algorithme 3
-
-```
-a est égal à -2
-Tant que a est supérieur à -7, faire :
-    a est égal à a-1
-```
-
-#### <ins>Application 4</ins>
-
-Faire la trace d'exécution pour chacun des programmes de l'application $3$.
+Faire la trace d'exécution pour chacun des programmes de l'application $1$.
 _______
 
 [Exercices](./Exercices/Exercices_boucles_non_bornees.md)

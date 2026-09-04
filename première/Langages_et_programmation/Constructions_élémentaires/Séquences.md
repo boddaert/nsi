@@ -36,10 +36,6 @@ L'ordre d'exécution d'une séquence d'instruction est le même que l'ordre de l
 >11
 >```
 
-#### <ins>Application 1</ins>
-
-Recopier le programme de l'exemple précédent et vérifier à votre tour la valeur affectée à la variable `a` dans la console Python.
-
 ## III. Trace d'exécution
 
 Une trace d'exécution, comme son nom l'indique, permet de garder une trace de l'état du programme à chaque étape de celui-ci.
@@ -77,7 +73,6 @@ a = 9
 b = 1
 a = a - b
 b = b + 1
-a = a - b
 ```
 
 _______

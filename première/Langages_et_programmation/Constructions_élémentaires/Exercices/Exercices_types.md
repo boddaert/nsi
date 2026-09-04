@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-a) Sans utiliser l'ordinateur, proposer le type des valeurs suivantes :
+a) Sans utiliser l'ordinateur et directement sur votre cahier, proposer le type des valeurs suivantes :
 
 1. `8`
 2. `6.5`

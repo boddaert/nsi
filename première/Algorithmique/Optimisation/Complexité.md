@@ -107,11 +107,13 @@ c) Dérouler l'algorithme `recherche_2` en comptant le nombre de comparaisons ef
 
 - `elt = 1`
 
-d) En fonction de $n$ la taille de la liste, donner le nombre de comparaisons effectuées dans le meilleur des cas et dans le pire des cas pour chacun des deux algorithmes.
+d) Lequel des deux algorithmes a effectué le moins de comparaisons pour cette situation ?
 
-e) En déduire leur complexité temporelle en fonction de $n$ la taille de la liste. 
+e) En fonction de $n$ la taille de la liste, donner le nombre de comparaisons effectuées dans le meilleur des cas et dans le pire des cas pour chacun des deux algorithmes.
 
-f) En déduire celui qui est le plus efficace.
+f) En déduire leur complexité temporelle en fonction de $n$ la taille de la liste. 
+
+g) En déduire celui qui est le plus efficace.
 
 ___________
 

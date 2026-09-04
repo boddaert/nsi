@@ -5,7 +5,7 @@
 La spécification d'une fonction est complétée par les **préconditions** et les **postconditions**.
 
 > [!IMPORTANT]
-> Les *préconditions* sont les conditions sur les paramètres et les conditions d'utilisation de la fonction avant son exécution.
+> Les *préconditions* sont les conditions sur les paramètres et les conditions d'utilisation de la fonction *avant* son exécution.
 
 > [!TIP]
 > Par exemple, pour la fonction `max(l : list)->int` définie dans [Prototypage](./Prototypage.md) dont la spécification est **Renvoie l'entier le plus grand parmi tous les entiers de la liste l**, les préconditions sont :

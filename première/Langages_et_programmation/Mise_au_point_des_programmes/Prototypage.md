@@ -24,7 +24,7 @@ La DocString s'écrit toujours après la signature d'une fonction entre triple g
 
 - Une phrase en Français expliquant ce que fait la fonction.
 
-- Eventuellement les contraintes d'utilisation.
+- Et éventuellement les contraintes d'utilisation.
 
 > [!TIP]
 > Par exemple :

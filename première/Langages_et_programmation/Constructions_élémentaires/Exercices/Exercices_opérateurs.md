@@ -2,7 +2,7 @@
 
 ## Exercice 1
 
-a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des opérations suivante :
+a) Sans utiliser l'ordinateur et directement sur votre cahier, proposer un résultat sur chacune des opérations suivante :
 
 1. `5 ** 2 - 3`
 
@@ -18,7 +18,7 @@ a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des opérations
 
 7. `4 // 2`
 
-8. `4 % 2`
+8. `5 % 2`
 
 9. `4 != 2`
 
@@ -36,13 +36,18 @@ b) Vérifier vos réponses en utilisant la console Python.
 
 ## Exercice 2
 
-a) Sans utiliser l'ordinateur, proposer un résultat sur chacune des opérations suivante :
+a) Sans utiliser l'ordinateur et directement sur votre cahier, proposer un résultat sur chacune des opérations suivante :
 
-1. `(True or False) and True`
-2. `(5 + 5) == 10`
-3. `(5 + 5) == 10 and False`
-4. `not 5 < 2`
-5. `not (5 + 5) != 10 or False`
+1. `True or False`
+2. `True or True`
+3. `True and True`
+4. `not False`
+5. `not False and True`
+6. `(True or False) and True`
+7. `(5 + 5) == 10`
+8. `(5 + 5) == 10 and False`
+9. `not 5 < 2`
+10. `not (5 + 5) != 10 or False`
 
 b) Vérifier vos réponses en utilisant la console Python.
 

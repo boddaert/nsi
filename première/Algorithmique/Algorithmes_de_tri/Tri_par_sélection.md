@@ -27,8 +27,6 @@ Le principe du tri par sélection est le suivant :
 
 Écrire une fonction `minimum(l : list, i : int)->int` qui prend en paramètre une liste d'entiers et un indice $i$ et renvoie l'indice de l'élément le plus petit dans la tranche `l[i:]`.
 
-> Cette fonction devra utiliser la fonction `compare()`.
-
 #### <ins>Application 2</ins>
 
 Écrire en python une fonction `tri_selection(l : list)->None` qui prend en paramètre une liste d'entiers et trie dans l'ordre croissant les éléments de `l`.
@@ -39,39 +37,33 @@ Le principe du tri par sélection est le suivant :
 
 L'objectif est de déterminer le coût algorithmique en temps de l'algorithme du tri par sélection.
 
-Pour cela, nous allons compter le nombre d'opérations coûteuses (les comparaisons).
+Pour cela, nous allons compter le nombre d'opérations coûteuses (les comparaisons) en fonction de la taille de la liste.
 
 La fonction `tri_selection()` exécute un appel à la fonction `minimum()`, il faut donc compter préalablement le nombre de comparaison effectuées par la fonction `minimum()`.
 
 ### a) Étude de la fonction `minimum()`
 
-La fonction `minimum()` effectue des appels à la fonction `compare()`.
-
-La fonction `compare()` comptabilise **une** comparaison : calculons alors le nombre d'appels effectués à la fonction `compare()`.
-
 #### <ins>Application 3</ins>
 
-a) Modifier la fonction ``minimum()`` pour qu'elle affiche le nombre d'appels effectué à la fonction `compare()`.
+a) Modifier la fonction ``minimum()`` pour qu'elle affiche le nombre de comparaisons effectuées.
 
-b) Qu'est-il affiché lorsque j'exécute la fonction `minimum()` pour une liste de longueur $5$ ? $10$ ? $20$ ?
+b) Qu'est-il affiché lorsque j'exécute la fonction `minimum()` pour une liste de longueur $10$ et un indice de tranche `l[i:]` égale à $4$ ?
 
-c) En déduire, pour une liste de longueur $n$, une estimation du nombre de fois que la fonction `minimum()` exécute la fonction `compare()`.
+c) En déduire, pour une liste de longueur $n$ et `i` l'indice de la tranche `l[i:]`, le nombre de comparaisons qui sont effectuées par `minimum()` ?
 
 ### b) Étude de la fonction `tri_selection()`
 
 La fonction `tri_selection()` effectue des appels à la fonction `minimum()`.
 
-Le nombre total de comparaison de la fonction `tri_selection()` est la somme des appels à la fonction `compare()`.
+Le nombre total de comparaison de la fonction `tri_selection()` est la somme des comparaisons des appels à la fonction `minimum()`.
 
 > Rappel : $somme\quad des\quad termes\quad d'une\quad suite\quad arithmétique\quad =\quad nombre\quad de\quad termes \times \dfrac{(premier\quad terme\quad +\quad dernier\quad terme)}{2}$
 
 #### Application 4
 
-a) Qu'est-il affiché lorsque j'exécute la fonction `tri_selection()` pour une liste de longueur $5$ ? $10$ ? $20$ ?
+a) À l'aide de la formule mathématique ci-dessus, donner le nombre de comparaisons effectuées par la fonction `tri_selection()` pour une liste de taille $5$, $10$ et $20$.
 
-b) À l'aide de la formule mathématique, donner le nombre exact de comparaisons effectuées par la fonction `tri_selection()` pour une liste de taille $5$, $10$ et $20$.
-
-### c) Généralisation du coût algorithmique 
+### c) Généralisation de la complexité de l'algorithme de tri par sélection
 
 Pour une liste de taille $n$ donnée, le coût algorithmique temporel est égal à $\dfrac{n(n-1)}{2}$.
 
@@ -82,10 +74,6 @@ Ce qui est de l'ordre de $O(n²)$ donc le tri par sélection possède un coût q
 Prouver qu'un algorithme se termine, c'est trouver son variant de boucle (voir [Preuve de terminaison](./../Optimisation/Preuve_de_terminaison.md)).
 
 Étant donné que l'algorithme de tri par sélection est doté de deux boucles `for`, nous pouvons affirmer qu'il se termine.
-
-#### <ins>Application 5</ins>
-
-En relisant [I. Algorithme](#algorithme) de cette leçon, repérer un variant de boucle afin d'affirmer, avec plus de rigueur, que l'algorithme du tri par sélection se termine bien.
 
 ## IV. Correction
 

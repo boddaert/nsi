@@ -16,7 +16,7 @@ Lors de la leçon précédente (cf [Modèle Von Neumann](./Modèle_Von_Neumann.m
 
 ### a) Portes logiques
 
-Il existe trois types de transistors agissant différemment sur le courant électrique et représentent les trois **portes logiques** de base que nous connaisons déjà : la porte $NON$, la porte $OU$ et la porte $ET$.
+Il existe trois types de transistors agissant différemment sur le courant électrique et sont représentés par les trois **portes logiques** : la porte $NON$, la porte $OU$ et la porte $ET$.
 
 Nous représentons en algèbre de Boole :
 
@@ -47,9 +47,9 @@ Donner le résultat des opérations logiques suivantes :
 
 ### b) Algèbre de Boole 
 
-Les portes logiques ou la combinaison de plusieurs portes logiques constituent des *fonctions logiques*, elles prennent en entrée des données et donnent en sortie un résultat.
+Les portes logiques ou la combinaison de plusieurs portes logiques constituent des *fonctions logiques*, elles prennent en entrée des variables et donnent en sortie un résultat selon la valeur de ces variables.
 
-Nous notons $e_0, e_1, e_2, \dots$ les variables d'entrée. Comme ce sont des bits, ces variables valent $0$ ou $1$.
+Nous notons $e_0, e_1, e_2, \dots$ les variables d'entrée. Comme ce sont des bits, ces variables valent soit $0$, soit $1$.
 
 > [!TIP]
 > Par exemple, $(\lnot e_0 \lor e_1)\land e_2$ est une fonction logique prenant en entrée trois variables.
@@ -85,6 +85,8 @@ Trouver le résultat, à l'aide de l'algèbre de Boole, des fonctions logiques s
 
 ### c) Tables de vérité
 
+La seconde manière de résoudre une fonction logique est d'utiliser une table de vérité.
+
 > [!IMPORTANT]
 >Une *table de vérité* est un tableau permettant d'indiquer toutes les sorties d'une fonction logique selon toutes les combinaisons possibles d'entrées.
 
@@ -109,11 +111,11 @@ Trouver le résultat, à l'aide de l'algèbre de Boole, des fonctions logiques s
 
 #### <ins>Application 3</ins>
 
-a) Construire la table de vérité de la fonction logique $(e_0 \lor \lnot e_1)$.
+a) Donner la table de vérité de la fonction logique $(e_0 \lor \lnot e_1)$.
 
-b) Construire la table de vérité de la fonction logique $\lnot (\lnot e_0 \lor e_1)$.
+b) Donner la table de vérité de la fonction logique $\lnot (\lnot e_0 \lor e_1)$.
 
-c) Construire la table de vérité de la fonction logique $e_0 \lor (e_1 \land e_2)$.
+c) Donner la table de vérité de la fonction logique $e_0 \lor (e_1 \land e_2)$.
 
 _________________
 

@@ -34,16 +34,18 @@ b) Vérifier vos résultats en exécutant les programmes dans Thonny.
 
 ## Exercice 2
 
-Écrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ et calcule $1+2+3+ ... +n$ en utilisant la boucle `for`.
+a) Écrire une fonction `suite(n : int)->int` qui prend en paramètre un entier $n$ et calcule $1+2+3+ ... +n$ en utilisant la boucle `for`.
 
 ```python
 >>> suite(6)
 21
 ```
 
+b) Tester sa fonction `suite()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 ## Exercice 3
 
-Écrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
+a) Écrire une fonction `puissance_2(n : int)->int` qui prend en paramètre un entier $n$ et renvoie le résultat de $2^n$.
 
 Cette fonction devra utiliser uniquement l'opérateur de multiplication `*` et la boucle `for`.
 
@@ -51,6 +53,9 @@ Cette fonction devra utiliser uniquement l'opérateur de multiplication `*` et l
 >>> puissance_2(5)
 32
 ```
+
+b) Tester sa fonction `puissance_2()` en l'appelant dans la console puis l'écrire dans le cahier.
+
 _____________
 
 [Sommaire](./../../../README.md)

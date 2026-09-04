@@ -18,7 +18,7 @@ Nous pouvons affecter n'importe quelle valeur à une variable en Python avec l'o
 > >>> ma_variable = 42
 > ```
 
-Pour connaître la valeur contenue dans une variable, il suffit de **l'appeler** en écrivant son nom.
+Pour connaître la valeur contenue dans une variable, il suffit de **l'appeler** en écrivant simplement son nom.
 
 > [!TIP]
 > Par exemple :
@@ -48,12 +48,11 @@ L'ancienne valeur est alors **écrasée** par la nouvelle valeur.
 
 a) Dans la console python et en utilisant l'opérateur d'affectation, affecter :
 
-1. la variable `variable_a` avec la valeur `1`.
-2. la variable `variable_b` avec la valeur `9.99`.
-3. la variable `variable_c` avec la valeur `"hello world"`.
-4. la variable `variable_d` avec la valeur `True`.
+1. la variable `variable_b` avec la valeur `9.99`.
+2. la variable `variable_c` avec la valeur `"hello world"`.
+3. la variable `variable_d` avec la valeur `True`.
 
-b) Vérifier les valeurs contenues dans chacune de ces variables en les appelant dans la console Python.
+b) Vérifier les valeurs contenues dans chacune de ces variables en les appelant un par un dans la console Python.
 
 ## III. Type d'une variable
 

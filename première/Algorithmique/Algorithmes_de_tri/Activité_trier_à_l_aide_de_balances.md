@@ -22,11 +22,11 @@ Vous disposez, par groupe, d'une balance à plateaux et de sept boîtes numérot
 
 ## IV. Travail à faire
 
-a) Commencer par installer le matériel de la même façon que sur la photo ci-dessus. Les boîtes doivent être alignés dans leur ordre de lettre.
+a) Commencer par installer le matériel de la même façon que sur la photo ci-dessus. Les boîtes doivent être alignés dans l'ordre que vous voulez.
 
-b) En vous aidant de la balance, ré-aligner les boîtes de telle façon à ce qu'elles soient triées dans leur ordre de masse (de la plus légère à la plus lourde).
+b) En vous aidant de la balance et des boîtes, trouver un algorithme permettant de ré-aligner les boîtes de telle façon à ce qu'elles soient triées dans leur ordre de masse (de la plus légère à la plus lourde).
 
-c) Sur feuille, écrire un algorithme en français permettant de trier n'importe quel alignement de boîte.
+c) Sur feuille, écrire ce tel algorithme en français.
 
 _______________________
 

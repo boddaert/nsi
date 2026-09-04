@@ -105,25 +105,7 @@ Les périphériques d'entrées-sorties communiquent avec le processeur ou la mé
 
 Les bus de communication sont des circuits électroniques permettant simplement l'échange de données entre les composants de l'ordinateur.
 
-## IV. Cycle d'exécution d'une instruction
-
-Pour que l'unité arithmétique et logique puisse exécuter une instruction se trouvant dans la mémoire, l'unité de contrôle effectue trois tâches qu'il répète à chaque nouvelle exécution d'instruction.
-
-Nous l'appelons le *cycle d'exécution d'instruction* et consiste à :
-
-1. **Chargement**
-
-Grâce à l'adresse mémoire stockée dans l'un de ses registres, l'unité de contrôle va récupérer le mot mémoire associée à cette adresse et la charger dans le processeur.
-
-2. **Décodage**
-
-Le mot mémoire est décodé afin de savoir de quel type d'instruction il s'agit et de quelles données (opérandes) l'instruction a besoin pour s'exécuter.
-
-3. **Exécution**
-
-Le mot mémoire est confié à l'unité arithmétique et logique pour être exécutée.
-
-## V. Mémoires
+## IV. Mémoires
 
 ### a) Types de mémoire
 
@@ -146,6 +128,24 @@ Nous distinguons plusieurs types de mémoire :
 | Mémoire cache | $2-3 ns$ | $2-3 Mo$ |
 | Mémoire vive | $5-10 ns$ | $5-60 Go$ |
 | Mémoire flash (disques durs) | $3-20 ms$ | $3-20 To$ |
+
+## V. Cycle d'exécution d'une instruction (hors programme)
+
+Pour que l'unité arithmétique et logique puisse exécuter une instruction se trouvant dans la mémoire, l'unité de contrôle effectue trois tâches qu'il répète à chaque nouvelle exécution d'instruction.
+
+Nous l'appelons le *cycle d'exécution d'instruction* et consiste à :
+
+1. **Chargement**
+
+Grâce à l'adresse mémoire stockée dans l'un de ses registres, l'unité de contrôle va récupérer le mot mémoire associée à cette adresse et la charger dans le processeur.
+
+2. **Décodage**
+
+Le mot mémoire est décodé afin de savoir de quel type d'instruction il s'agit et de quelles données (opérandes) l'instruction a besoin pour s'exécuter.
+
+3. **Exécution**
+
+Le mot mémoire est confié à l'unité arithmétique et logique pour être exécutée.
 
 ___________________
 

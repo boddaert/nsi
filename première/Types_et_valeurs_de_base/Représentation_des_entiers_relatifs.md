@@ -43,7 +43,7 @@ La méthode du complément à deux conserve le bit de signe mais la représentat
 > [!TIP]
 > Par exemple :
 > 
-> 1. $5_{10}$ donne en représentation binaire : $0101_2$.
+> 1. $5_{10}$ donne en représentation binaire : $0101_2$ sur quatre bits.
 >
 > 2. $Inverse(0101_2) = 1010_2$.
 >
@@ -51,101 +51,14 @@ La méthode du complément à deux conserve le bit de signe mais la représentat
 >
 > $-5_{10}$ donne en représentation binaire $1011_2$ en complément à deux.
 
+> [!WARNING]
+> Afin d'éviter certains problèmes de taille de données en utilisant la méthode du complément à deux, il est nécessaire de donner la taille de la séquence de bits sur laquelle nous travaillons. Cette taille doit être une puissance de deux : 4, 8, 16, 32, etc ... Elle sera généralement donnée en énoncé.
+
 #### <ins>Application 3</ins>
 
-a) En suivant la méthode du complément à deux, trouver la représentation binaire de $-7$.
+a) En suivant la méthode du complément à deux, trouver la représentation binaire de $-7$ sur quatre bits.
 
-b) En suivant la méthode du complément à deux, trouver la représentation binaire de $-2$.
-
-## III. Taille d'un entier
-
-> [!IMPORTANT]
-> La *taille* d'un nombre est le nombre de chiffres composant sa séquence.
-
-> [!TIP]
-> Par exemple :
-> La taille de $5_{10}$ vaut $1$ et la taille de $101_2$ ($= 5$ en base deux) vaut $3$.
-
-#### <ins>Application 4</ins>
-
-a) Donner la taille de $A45_{16}$.
-
-b) Donner la taille de $11110_2$.
-
-## IV. Intervalles de représentation
-
-### a) Taille fixe des entiers
-
-Lorsque nous représentons les entiers en base deux, nous utilisons une taille fixe des séquences.
-
-Ces tailles sont par défaut une puissance de deux, c'est-à-dire que nous représentons les entiers soit dans une représentation binaire de **quatre bits**, de **huit bits**, de **seize bits**, de **trente-deux bits** ou encore de **soixante-quatre bits**.
-
-Nous savons que les seize premiers entiers peuvent être représentés sous quatre bits.
-
-Le dix-septième entier doit donc être représenté avec huit bits.
-
-> [!NOTE]
-> Une séquence de huit bits s'appelle un *octet*.
-
-#### <ins>Application 5</ins>
-
-a) Donner le nombre de bits nécessaire de taille fixe pour représenter en base deux le nombre $20_{10}$.
-
-b) Donner le nombre de bits nécessaire de taille fixe pour représenter en base deux le nombre $200_{10}$.
-
-### b) Intervalle de représentation des entiers naturels
-
-> [!IMPORTANT]
-> L'*intervalle de représentation* donne l'entier minimum et maximum pouvant être représentés pour une taille donnée.
-
-Pour une séquence de $n$ bits, l'intervalle de représentation des entiers naturels est compris entre $0$ et $2^{n}-1$.
-
-> [!TIP]
-> Par exemple :
-> L'intervalle de représentation sur quatre bits est compris entre $0$ à $2^4-1$ donc de $0_{10}$ à $15_{10}$.
-
-#### <ins>Application 6</ins>
-
-a) Donner l'intervalle de représentation des entiers naturels sur huit bits.
-
-b) Donner l'intervalle de représentation des entiers naturels sur seize bits.
-
-### c) Intervalle de représentation des entiers relatifs
-
-Comme le premier bit est le bit de signe, l'intervalle de représentation pour les entiers relatifs est réduit.
-
-Pour une séquence de $n$ bits, l'intervalle de représentation des entiers relatifs est compris entre $-2^{n-1}$ et $2^{n-1}-1$.
-
-> [!TIP]
-> Par exemple :
-> L'intervalle de représentation sur quatre bits est compris entre $-2^3$ à $2^3-1$ donc de $-8_{10}$ à $7_{10}$.
-
-Tableau du complément à deux sur quatre bits :
-
-| Représentation binaire en complément à deux | Représentation décimale |
-| :---: | :---: |
-| $0000$ | $0$ |
-| $0001$ | $1$ |
-| $0010$ | $2$ |
-| $0011$ | $3$ |
-| $0100$ | $4$ |
-| $0101$ | $5$ |
-| $0110$ | $6$ |
-| $0111$ | $7$ |
-| $1000$ | $-8$ |
-| $1001$ | $-7$ |
-| $1010$ | $-6$ |
-| $1011$ | $-5$ |
-| $1100$ | $-4$ |
-| $1101$ | $-3$ |
-| $1110$ | $-2$ |
-| $1111$ | $-1$ |
-
-#### <ins>Application 7</ins>
-
-a) Donner l'intervalle de représentation des entiers relatifs sur huit bits.
-
-b) Donner l'intervalle de représentation des entiers relatifs sur seize bits.
+b) En suivant la méthode du complément à deux, trouver la représentation binaire de $-2$ sur quatre bits.
 
 _______________
 
