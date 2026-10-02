@@ -29,6 +29,16 @@
 
 - Projet n°1 : [Test de rapidité](./Projets/Projet_test_de_rapidité.md)
 
+##### Chapitre 2 : Types et valeurs de base 1/1
+
+- Activité : [Découverte du binaire](./Types_et_valeurs_de_base/Activité_découverte_du_binaire.md)
+
+- Leçon 1 : [Représentation des entiers naturels](./Types_et_valeurs_de_base/Représentation_des_entiers_naturels.md)
+
+- Leçon 2 : [Représentation des entiers relatifs](./Types_et_valeurs_de_base/Représentation_des_entiers_relatifs.md)
+
+- Leçon 3 : [Représentation des réels](./Types_et_valeurs_de_base/Représentation_des_réels.md)
+
 
 ______________________
 
