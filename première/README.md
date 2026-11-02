@@ -39,6 +39,14 @@
 
 - Leçon 3 : [Représentation des réels](./Types_et_valeurs_de_base/Représentation_des_réels.md)
 
+##### Chapitre 3 : Types construits 1/3
+
+- Leçon 1 : [Chaînes de caractères](./Types_construits/Chaînes_de_caractère/Chaînes_de_caractère.md)
+
+- Leçon 2 : [Représentation des textes en machine](./Types_et_valeurs_de_base/Représentation_des_textes_en_machine.md)
+
+- Projet n°2 : [Motus](./Projets/Projet_motus.md)
+
 
 ______________________
 
