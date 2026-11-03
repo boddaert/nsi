@@ -17,6 +17,14 @@
 
 - Activité : [Couples de lapins](./Langages_et_programmation/Récursivité/Activité_couples_de_lapins.md)
 
+##### Chapitre 3 : Bases de données 1/1
+
+- Leçon 1 : [Modèle relationnel](./Bases_de_données/Modèle_relationnel.md)
+
+- Leçon 2 : [Systèmes de gestion de bases de données](./Bases_de_données/Systèmes_de_gestion_de_bases_de_données_relationnelles.md)
+
+- Activité : [Crime à SQL City](./Bases_de_données/Activité_crime_à_SQL_City.md)
+
 ______________________
 
 ## Entraînement au Baccalauréat
